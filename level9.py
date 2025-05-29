@@ -121,7 +121,7 @@ opCodes=[
 	"ifnect",
 	"ifltct",
 	"ifgtct",
-	"printinput",
+	"printinput(v3)",
 	"ilins",
 	"ilins",
 	"ilins",
@@ -299,16 +299,16 @@ def _process_hash_commands(data, pc, userInput):
                     buffer += f" \033[92m{variable:02x}"
             print("")
 
-        # Print all values in the dynamic list area
+        # Print a message
         case ['#message' | '#msg', number]:
             if(number.isdigit()):
                 address = _getAddrForMessageN(data, int(number))
-                _printMessage(data, address)
+                _printMessage(data, address, False)
                 print("")                
             elif(isValidHex(number)):
                 print("2")
                 address = _getAddrForMessageN(data, int(number, 16))
-                _printMessage(data, address)                
+                _printMessage(data, address, False)
                 print("")
 
         # Print all the exit definitions
@@ -507,9 +507,29 @@ def _getAddrForMessageN(data, messageNumber):
             messagesAddress = messagesAddress + messageLength
 
             messageNumber = messageNumber - 1
-    elif mversion == 3:
-        # Placeholder until implemented
-        return messageNumber
+    elif mversion >= 3:
+        msgNumber = 0
+        address = messagesAddress
+        messagesAddress = 0
+        byte = data[address]
+        while address < messagesStartAddr + messagesLen:
+            if byte & 0x80:
+                msgNumber += byte - 0x80 + 1
+                address += 1
+            else:
+                if msgNumber == messageNumber:
+                    messagesAddress = address
+                    break
+                length = 0
+                while True:
+                    partLen = (data[address] - 1) & 0x3f
+                    length += partLen
+                    address += 1
+                    if partLen != 0x3f:
+                        break
+                address += length
+                msgNumber += 1
+            byte = data[address]
 
     return messagesAddress 
 
@@ -530,7 +550,7 @@ def _getAddrForMessageN(data, messageNumber):
 # Returns:
 #   Decoded plain text message
 ###############################################################################
-def _getMessage(data, msgAddress):
+def _getMessage(data, msgAddress, multi = False):
 
     message=''
 
@@ -552,7 +572,6 @@ def _getMessage(data, msgAddress):
                 break
             else:
                 message = message + str(chr(byte+0x1D))
-                #_getCharacter(byte)
 
             msgAddress = msgAddress + 1
             byte = data[msgAddress]
@@ -588,8 +607,30 @@ def _getMessage(data, msgAddress):
 
             msgAddress = msgAddress + 1
             msgLength = msgLength - 1
-    elif mversion >= 3:
-        message = '<Missing>'+hex(msgAddress)+'%'
+    elif mversion >= 3 and msgAddress:
+        address = msgAddress
+        length = 0
+        while True:
+            partLen = (data[address] - 1) & 0x3f
+            length += partLen
+            address += 1
+            if partLen != 0x3f:
+                break
+        count = 0
+        while count < length:
+            code = data[address]
+            if code >= 0x80:
+                code = data[address] * 256 + data[address + 1]
+                address += 2
+                count += 2
+            else:
+                code = data[wordTableAddr + code * 2] * 256 + data[wordTableAddr + code * 2 + 1]
+                address += 1
+                count += 1
+            word = _get_word(data, code)
+            if word == '[aka]':
+                break
+            message = _build_message(message, word, multi)
 
     return message
 
@@ -611,23 +652,28 @@ def _getMessage(data, msgAddress):
 # Returns:
 #   n/a
 ###############################################################################
-def _printMessage(data, msgAddress):
+def _printMessage(data, msgAddress, multi = True):
 
     global charsWrittenToLine
 
-    message=_getMessage(data,msgAddress)
+    message = _getMessage(data, msgAddress, multi)
 
     # Reset the colour to white
     print("\033[0m",end='')
 
+    if mversion >= 3:
+        nl = '\n'
+    else:
+        nl = '%'
+
     for character in message:
-        if(character == '%' and charsWrittenToLine>2):
+        if(character == nl and charsWrittenToLine>2):
             print('\n',end='')
             charsWrittenToLine = 0
         elif(character == '_'):
             print(' ',end='')
             charsWrittenToLine += 1
-        elif(character != '%'):
+        elif(character != nl):
             print(character,end='')
             charsWrittenToLine += 1
 
@@ -758,6 +804,39 @@ def _printAllMessages(data,messagesStartAddr):
             print(message)
             counter=counter+1
             print(hex(counter)," / ",hex(address)," : ",end='')
+    elif mversion >=3:
+        messageNumber = 0
+        while address < messagesStartAddr + messagesLen:
+            if byte & 0x80:
+                messageNumber += byte - 0x80 + 1
+                address += 1
+            else:
+                startAddress = address
+                length = 0
+                while True:
+                    partLen = (data[address] - 1) & 0x3f
+                    length += partLen
+                    address += 1
+                    if partLen != 0x3f:
+                        break
+                print(f'0x{messageNumber:04x}  /  0x{startAddress:04x} (0x{length:04x})  : ', end='')
+                count = 0
+                message = ''
+                while count < length:
+                    code = data[address]
+                    if code >= 0x80:
+                        code = data[address] * 256 + data[address + 1]
+                        address += 2
+                        count += 2
+                    else:
+                        code = data[wordTableAddr + code * 2] * 256 + data[wordTableAddr + code * 2 + 1]
+                        address += 1
+                        count += 1
+                    word = _get_word(data, code)
+                    message = _build_message(message, word)
+                print(message)
+                messageNumber += 1
+            byte = data[address]
 
     print("<EOM>")
 
@@ -883,11 +962,17 @@ def _printAllExits(data,exitsAddr):
             address = _getAddrForMessageN(data, messageId)
             message = _getMessage(data, address)
             if(not (hideNulls and exitDirection == 0)):
-                textDirection = "<Missing>"
-                for term, id in vm_dictionary.items():
-                    if id == exitDirection:
-                        textDirection = term
-                        break
+                textDirection = "  -"
+                if mversion >= 3:
+                    dirAddr = _getAddrForMessageN(data, 1000 + exitDirection)
+                    desc = _getMessage(data, dirAddr).upper()
+                    if desc:
+                        textDirection = desc
+                else:
+                    for term, id in vm_dictionary.items():
+                        if id == exitDirection:
+                            textDirection = term
+                            break
                 print(f'0x{exitPointer:04x}  0x{fromLocation:02x} 0x{targetLocation:02x} {textDirection:<9} {reverseValid:<5} {bit1:<5} {bit2:<5} 0x{messageId:03x} {message}')
 
             # Check the 8th bit - if it's set it's the last exit
@@ -898,6 +983,88 @@ def _printAllExits(data,exitsAddr):
             exitPointer += 2
      
 
+lastMessage = ''
+def _build_message(message, word, multi = False):
+    global lastMessage
+    prevMessage = message
+    if multi and (not message or message == '\n'):
+        prevMessage = lastMessage
+
+    if prevMessage and word:
+        prevChars = [' ', '\n',     '\'', '"', '(', ',', '.', '?', '!']
+        nextChars = [' ', ':', ';', '\'', '"', ')', ',', '.', '?', '!']
+        if word[0] not in nextChars and prevMessage[-1] not in prevChars:
+            word = ' ' + word
+        if re.search("[.?!][ '\"\n]*$", prevMessage):
+            word = word[0].upper() + word[1:]
+
+    message += word
+    if multi and message and message != '\n':
+        lastMessage = message
+
+    return message
+
+def _get_word(data, code):
+    word = ''
+    flags = code >> 12
+    code &= 0xfff
+    if code < 0x0f80:
+        for word, id in vm_dictionary.items():
+            if id == code:
+                if chr(0) in word:
+                    word = word[0:-1]
+                break
+    elif code > 0x0f80:
+        code &= 0x7f
+        if flags & 0x2:
+            word += ' '
+        if code == 0x0d:
+            word += '\n'
+        else:
+            word += chr(code)
+        if flags & 0x1:
+            word += ' '
+    else:
+        word = '[aka]'
+
+    return word
+
+def _load_dict_bank(data, offset, startWord, printDict):
+    codes = iter(int(dict_bits[b : b + 5], 2) for b in range((offset - dictionaryAddr) * 8, dictionaryLen * 8, 5))
+    pattern = [0]*3
+    letter = 0
+    word = ''
+    while True:
+        code = next(codes)
+        if code >= 0x1b:
+            if word:
+                if printDict:
+                    print(word)
+                if word in vm_dictionary.keys():
+                    dupCode = vm_dictionary[word]
+                    vm_dictionary[word + chr(0)] = dupCode
+                    if printDict:
+                        print("duplicate entry in dictionary:", word, hex(dupCode))
+                vm_dictionary[word] = startWord - 1
+                word = ''
+            if code == 0x1b:
+                break
+            if printDict:
+                print(f'0x{startWord:03x} ', end='')
+            startWord += 1
+            letter = code - 0x1c
+            word += ''.join(pattern[0 : letter])
+        elif code <= 0x1a:
+            if code == 0x1a:
+                c = chr(next(codes) * 0x20 + next(codes))
+            else:
+                c = chr(code + 0x61)
+            if letter < 3:
+                pattern[letter] = c
+            letter += 1
+            word += c
+
+    return startWord
 
 ###############################################################################
 # vm_fn_load_dictionary
@@ -916,12 +1083,50 @@ def _printAllExits(data,exitsAddr):
 #   n/a
 ###############################################################################
 def vm_fn_load_dictionary(data,printDict):
+    if version >= 3:
+        oldBankPtr = 0
+        bankPtr = dictionaryAddr
+        highBankLen = 0
+        oldBankLen = 0
+        bankLen = 0
+        for bank in range(dictionaryDataLen + 1):
+            if printDict:
+                print(f'Bank 0x{bank:03x} / 0x{bankPtr:03x}', end='')
+            if bankPtr == oldBankPtr and bankLen == oldBankLen:
+                if printDict:
+                    print(f'  [repeat]')
+            else:
+                if highBankLen > bankLen:
+                    if printDict:
+                        print(f'  *** DICT OVERLAP (0x{highBankLen-bankLen:02x}) ***')
+                elif highBankLen < bankLen:
+                    if printDict:
+                        print(f'  *** DICT GAP (0x{bankLen-highBankLen:02x}) ***')
+                else:
+                    if printDict:
+                        print()
+                if printDict:
+                    print()
+                highBankLen = _load_dict_bank(data, bankPtr, bankLen, printDict)
+            if printDict:
+                print()
+            oldBankPtr = bankPtr
+            bankPtr = data[dictionaryDataAddr + bank*4] + data[dictionaryDataAddr + bank*4 + 1] *256
+            oldBankLen = bankLen
+            bankLen = data[dictionaryDataAddr + bank*4 + 2] + data[dictionaryDataAddr + bank*4 + 3] *256
+        if printDict:
+            print(f'Word table:')
+            for offset in range(0, 256, 2):
+                address = wordTableAddr + offset
+                code = data[address] * 256 + data[address + 1]
+                print(f'0x{offset//2:02x}  /  0x{address:04x} ', end='')
+                print(_get_word(data, code))
+
+        return
+
     codeNext = False
 
     word=""
-
-    if version >= 3:
-        return
 
     address=dictionaryAddr
 
@@ -1350,6 +1555,7 @@ def vm_fn_function(data,opCode,pc):
                     print(f"Function - Quit ({requiredFunction:#0{4}x})")
                 sys.exit(0)
             else:
+                #vm_listarea[list9Offset] = 0
                 if(debugging):
                     print(f"Function - Driver Call ({requiredFunction:#0{4}x})")
         case 2:
@@ -1409,6 +1615,47 @@ def vm_fn_function(data,opCode,pc):
 
     return pc
 
+def _find_dict_msg(dictCode):
+    address = messagesStartAddr
+    byte = data[address]
+    messageNumber = 0
+    codes = []
+    while address < messagesStartAddr + messagesLen:
+        if byte & 0x80:
+            messageNumber += byte - 0x80 + 1
+            address += 1
+        else:
+            if byte >= 0x40:
+                keyword = True
+            else:
+                keyword = False
+            length = 0
+            while True:
+                partLen = (data[address] - 1) & 0x3f
+                length += partLen
+                address += 1
+                if partLen != 0x3f:
+                    break
+            count = 0
+            while count < length:
+                code = data[address]
+                if code >= 0x80:
+                    code = data[address] * 256 + data[address + 1]
+                    flags = code >> 12
+                    code &= 0xfff
+                    if keyword and flags >= 0x9 and code == dictCode and len(codes) < 32:
+                        codes += [(messageNumber, flags)]
+                    address += 2
+                    count += 2
+                else:
+                    code = data[wordTableAddr + code * 2] * 256 + data[wordTableAddr + code * 2 + 1]
+                    address += 1
+                    count += 1
+            messageNumber += 1
+        byte = data[address]
+
+    return codes
+
 ###############################################################################
 # vm_fn_input()
 #
@@ -1430,6 +1677,8 @@ def vm_fn_function(data,opCode,pc):
 # Returns:
 #   Updated program counter
 ###############################################################################
+inputLine = ''
+inputString = ''
 def vm_fn_input(data,opCode,pc):
     global vm_variables_previous
     global vm_listarea_previous
@@ -1454,6 +1703,76 @@ def vm_fn_input(data,opCode,pc):
     if(debugging):
         print(f"Input - results in word1 var[0x{firstWordVar:02x}], word2 var[0x{secondWordVar:02x}], word3 var[0x{thirdWordVar:02x}], count var[0x{wordCountVar:02x}]")
         print(f"\033[0m", end='')
+
+    if version >= 3:
+        global inputLine, inputString
+
+        if not inputLine and not inputString:
+            inputLine = input().lower()
+
+        offset = 0
+        found = False
+        msgCodes = []
+        if inputLine:
+            words = re.findall(r'[a-z0-9]+|,|;|"|\'|\(|\)|\.|\?|!', inputLine)
+            inputString = words[0]
+            inputLine = ' '.join(words[1:])
+            for term, dictCode in vm_dictionary.items():
+                if term.startswith(inputString):
+                    found = True
+                    #print(f'found dictCode: 0x{dictCode:04x} for inputString: "{inputString}" and term: "{term}"')
+                    break
+        else:
+            #print(f'found end of line')
+            inputString = ''
+
+        if found:
+            msgCodes = _find_dict_msg(dictCode)
+            if msgCodes:
+                #print(f'found msgCodes: {list(map(lambda t: tuple(map(hex, t)), msgCodes))}')
+                pass
+            else:
+                found = False
+
+        if inputString and not found:
+            if inputString.isnumeric():
+                code = int(inputString)
+                #print(f'found numeric input: {code}')
+                if version == 4:
+                    vm_listarea[list9Offset + offset + 0] = 1
+                    vm_listarea[list9Offset + offset + 1] = code & 0xff
+                    vm_listarea[list9Offset + offset + 2] = (code >> 8) & 0xff
+                    offset += 3
+                else:
+                    vm_listarea[list9Offset + offset + 0] = code & 0xff
+                    vm_listarea[list9Offset + offset + 1] = (code >> 8) & 0xff
+                    vm_listarea[list9Offset + offset + 2] = (code >> 16) & 0xff
+                    vm_listarea[list9Offset + offset + 3] = (code >> 24) & 0xff
+                    offset += 4
+            elif inputString in [',', ';', '"', '\'', '(', ')', '.', '?', '!']:
+                #print(f'found punctuation')
+                vm_listarea[list9Offset + offset + 0] = 0
+                vm_listarea[list9Offset + offset + 1] = ord(inputString)
+                offset += 2
+            else:
+                #print(f'found no valid input')
+                vm_listarea[list9Offset + offset + 0] = 0
+                vm_listarea[list9Offset + offset + 1] = 0x80
+                offset += 2
+
+        for msgCode, flags in msgCodes:
+            code = ((flags << 13) & 0xe000) | msgCode
+            vm_listarea[list9Offset + offset + 0] = code >> 8
+            vm_listarea[list9Offset + offset + 1] = code & 0xff
+            offset += 2
+
+        if offset or not inputString:
+            vm_listarea[list9Offset + offset + 0] = 0
+            vm_listarea[list9Offset + offset + 1] = 0
+
+        vm_listarea_previous  = vm_listarea.copy()
+
+        return pc
 
     while(True):
         userInput = ''
@@ -1597,7 +1916,7 @@ def vm_fn_varvar(data,opCode,pc):
     vm_variables[targetVar] = vm_variables[sourceVar]
 
     if(debugging):
-        print(f"Set var[0x{targetVar:02x}] = var[0x{sourceVar:02x})] (0x{vm_variables[sourceVar]:04x})")
+        print(f"Set var[0x{targetVar:02x}] = var[0x{sourceVar:02x}] (0x{vm_variables[sourceVar]:04x})")
 
     return pc
 
@@ -1627,7 +1946,7 @@ def vm_fn_add(data, opCode, pc):
     if(debugging):
         print(f"Set var[0x{secondVar:02x}] = var[0x{firstVar:02x}] (0x{vm_variables[firstVar]:04x}) + var[0x{secondVar:02x}] (0x{vm_variables[secondVar]:04x})")
 
-    vm_variables[secondVar] = vm_variables[firstVar] + vm_variables[secondVar]
+    vm_variables[secondVar] = (vm_variables[firstVar] + vm_variables[secondVar]) & 0xffff
 
     return pc   
 
@@ -1656,7 +1975,7 @@ def vm_fn_sub(data, opCode, pc):
     if(debugging):
         print(f"Set var[0x{secondVar:02x}] = var[0x{secondVar:02x}] (0x{vm_variables[secondVar]:04x}) - var[0x{firstVar:02x}] (0x{vm_variables[firstVar]:04x})")
 
-    vm_variables[secondVar] = vm_variables[secondVar] - vm_variables[firstVar]
+    vm_variables[secondVar] = (vm_variables[secondVar] - vm_variables[firstVar]) & 0xffff
 
     return pc
 
@@ -1860,7 +2179,15 @@ def vm_fn_get_next_object(data, opCode, pc):
     # search depth
     variable6 = data[pc]
 
-    if(debugging):
+    # Placeholder until we implement it (= nothing found)
+    vm_variables[variable1] = 0x00
+    vm_variables[variable2] = 0x00
+    vm_variables[variable3] = 0x00
+    vm_variables[variable4] = 0x00
+    vm_variables[variable5] = 0x00
+    vm_variables[variable6] = 0x00
+
+    if(True or debugging):
        print(f"Get Next Object var[{variable1:#0{4}x}] var[{variable2:#0{4}x}] var[{variable3:#0{4}x}] var[{variable4:#0{4}x}] var[{variable5:#0{4}x}] var[{variable6:#0{4}x}]")
 
     return pc
@@ -1869,6 +2196,10 @@ def vm_fn_print_input(data, opCode, pc):
 
     if(debugging):
         print(f"Print Input")
+
+    # Reset the colour to white
+    print("\033[0m",end='')
+    print(inputString, end='')
 
     return pc
 
@@ -1972,12 +2303,18 @@ def vm_fn_exit(data, opCode, pc):
             exitPointer += 2
 
     if(debugging):
-        textDirection = "<Missing>"
-        for term, id in vm_dictionary.items():
-            if id == vm_variables[moveDirectionVar]:
-                textDirection = term
-                break
-        print(f"Exits - check location var[0x{currentLocationVar:02x}] ({vm_variables[currentLocationVar]:04x}) can move var[0x{moveDirectionVar:02x}] ({textDirection}) exit flags: var[0x{exitFlagsVar:02x}] (0x{vm_variables[exitFlagsVar]:02x}) target location: var[0x{targetLocationVar:02x})] (0x{vm_variables[targetLocationVar]:02x})")
+        textDirection = "  -"
+        if mversion >= 3:
+            dirAddr = _getAddrForMessageN(data, 1000 + vm_variables[moveDirectionVar])
+            desc = _getMessage(data, dirAddr).upper()
+            if desc:
+                textDirection = desc
+        else:
+            for term, id in vm_dictionary.items():
+                if id == vm_variables[moveDirectionVar]:
+                    textDirection = term
+                    break
+        print(f"Exits - check location var[0x{currentLocationVar:02x}] ({vm_variables[currentLocationVar]:04x}) can move var[0x{moveDirectionVar:02x}] ({textDirection}) exit flags: var[0x{exitFlagsVar:02x}] (0x{vm_variables[exitFlagsVar]:02x}) target location: var[0x{targetLocationVar:02x}] (0x{vm_variables[targetLocationVar]:02x})")
 
     return pc
 
@@ -2029,7 +2366,7 @@ def vm_fn_ifxxvt(data,opCode,pc,operation):
         targetAddress=aCodeStartAddr+offset-1
 
     if(debugging):
-        print(f"If var[0x{variable1:2x}] (0x{vm_variables[variable1]:04x}) {operation:2s} var[0x{variable2:02x})] (0x{vm_variables[variable2]:04x}) goto 0x{targetAddress+1:04x}")  
+        print(f"If var[0x{variable1:2x}] (0x{vm_variables[variable1]:04x}) {operation:2s} var[0x{variable2:02x}] (0x{vm_variables[variable2]:04x}) goto 0x{targetAddress+1:04x}")
 
     if(eval("vm_variables[variable1] "+operation+" vm_variables[variable2]")):
         pc = targetAddress
@@ -2325,7 +2662,7 @@ def _autodetect_game(data, version):
 def _identify_game(version):
     for msg in [0x01, 0xa0, 0xe6, 0xff]:
         address = _getAddrForMessageN(data, msg)
-        desc=_getMessage(data, address)
+        desc = _getMessage(data, address)
         if "Welcome to" in desc:
             for gameKey in v1Configuration:
                 if v1Configuration[gameKey]['version'] == version:
@@ -2442,6 +2779,8 @@ elif(version >= 3):
     wordTableAddr        = data[0x0e] + data [0x0f] *256
     unknownAddr          = data[0x10] + data [0x11] *256
     exitsAddr            = data[0x12] + data [0x13] *256
+    list9Offset = data[0x14 + 9 * 2] + data[0x15 + 9 * 2] * 256 - 0x8000
+    dict_bits = ''.join(format(byte, '08b') for byte in data[dictionaryAddr : dictionaryAddr + dictionaryLen])
 
 # Identify autodetected v2-3-4 game
 if game == 'unknown':
@@ -2457,7 +2796,7 @@ if game in v1Configuration and 'locationsStartMsgId' in v1Configuration[game]:
     locationsStartMsgId = v1Configuration[game]['locationsStartMsgId']
 else:
     # Set a reasonable default for locationsStartMsgId
-    locationsStartMsgId = 0x190
+    locationsStartMsgId = 0x64
 
 # If a script file was specified, open it
 if(args.script):
