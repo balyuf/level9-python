@@ -858,3 +858,4 @@ DROP BAG;
 PULL CORD [a guard asks you for the password];
 SAY WEALTH [the 6 letters in right order];
 W [You've won the game and are now GRANDMASTER ADVENTURER with a score of 1000/1000!!];
+N;

@@ -1,9 +1,7 @@
 Welcome to Red Moon, copyright (C) 1985 from Level 9 Computing.
 You are on a wide, flat grassy plain, baked by the yellow sun. Exits are north to a steep rock slide, east to a pothole, south to a grassy mound and west to a grassy mound. 
 What now? #title: Red Moon test script
-Invalid command
 #comment: C-64 version
-Invalid command
 #SEED 42
 Seed set to 42
 DIG
@@ -1728,7 +1726,8 @@ What now? GET MOON CRYSTAL
 As you pick up the crystal two dragons appear from the side rooms, they quickly circle you leaving no exit.
 What now? WAVE FAN
 As you wave the fan, it produces a strong wind!
- This blows the dragons' fire back at them. The fire envelopes them and they disappear.
+
+This blows the dragons' fire back at them. The fire envelopes them and they disappear.
 What now? W
 
 You are in a room of flashing lights. Multi-coloured squares cover the floor, flickering hypnotically round your feet as distorted sound booms out. Exits are north to a dead end, east to a vault containing a great pedestal, south to a gem room and west to a door. 

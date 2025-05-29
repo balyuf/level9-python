@@ -1,0 +1,1503 @@
+
+Welcome to the Price of Magik, the third part of Time and Magik, copyright (c) 1988 from Level 9 and Mandarin. 
+
+The Red Moon crystal was recovered and guarded for many years, gaining intensity. But its power proved too tempting for one magician; Myglar by name. Thinking to have eternal life, he stole the moon and locked himself away. One last hero would have to defeat this last threat to history and recover the crystal, even if it meant paying the price of magik...
+(This version allows you to use RAM SAVE and RAM RESTORE to save a position in memory, and UNDO to retrace your steps). 
+You are on a dark and winding drive just to the south of a house, whose venerable magnificence has decayed through years of abandonment and neglect. It stands, desolate and hollow-windowed, a malevolent shadow of its former self. Gnarled creepers cling desperately to the walls, almost completely enveloping the building. A huge carved door with a blackened brass knocker in the shape of a griffin's head is set in the middle of the sprawling facade. You can see a vine. 
+What now? #title: The Price of Magik test script
+#comment: Amiga version
+#SEED 42
+Seed set to 42
+3
+You can't use the word "3" like that.
+What now? W
+
+You are in a rickety woodshed which is slowly sinking into the dank marsh that has grown up and engulfed the grounds of the house. Its timbers are rotting - livid patches of mold and rank orange fungus dot its sides - and the air is redolent with decay. You can see a candle and a woodpile. 
+What now? EXAMINE WOODPILE
+
+Neatly stacked, all ready for a fire. Underneath it is something nasty. 
+What now? EXAMINE NASTY
+
+The nasty suddenly discovers a little hole in the floorboards, and with a chirruping cry of delight slithers into it. 
+Your sanity is shaken. 
+What now? GET CANDLE
+
+Taken. 
+Your sanity is shaken. 
+What now? EXAMINE CANDLE
+
+Made of tallow. It is burning weakly. It is less than half burnt. 
+What now? LIGHT WOODPILE
+
+The woodpile bursts into flames and within moments is reduced to ashes. 
+What now? EXTINGUISH CANDLE
+
+The candle goes out. 
+What now? GET ASHES
+
+Taken. 
+Your sanity is shaken. 
+What now? W
+
+You are on a herb garden on an insect-infested mound which rises through the marsh mist. A few stunted plants survive miserably among the stark, skeletal remains of their fellows. Droplets of water gather sadly on their leaves, before dripping quietly onto the cold ground below. You can see an elder cross, a mandrake and some eyebright flowers. 
+What now? TAKE ALL
+
+Eyebright flowers: taken. 
+Mandrake: the mandrake screams in terror as you grab its leaves, flailing ineffectually at your hands with its tendrils. Do you want to continue? YES
+You brutally wrench it from the ground, and some things fall out of its roots. 
+Skull: taken. 
+Knucklebone: taken. 
+Elder cross: taken. 
+Your sanity is shaken. 
+What now? EXAMINE ALL
+
+Eyebright flowers: a magical plant which is rumoured to miraculously improve vision when rubbed into the eyes. 
+Mandrake: a vile weed, shaped like a man daubed by a maniacal toddler and used in many nefarious necromantic dabblings. 
+Skull: decorated across the forehead with black stars. 
+Knucklebone: obviously intended for strange rituals, because symbols have been burned into each side. Around it is a ring. 
+Ashes: the remains of the woodpile. 
+Candle: made of tallow. It is more than half burnt. 
+Elder cross: a weird wooden cross, round and hollow, its crossbar lashed on with dried grass. 
+What now? EXAMINE RING
+
+Set with a beautiful, solitaire diamond. 
+What now? DROP MANDRAKE
+
+Dropped. 
+What now? REMOVE RING FROM KNUCKLEBONE
+
+OK. 
+What now? DROP KNUCKLEBONE
+
+Dropped. 
+What now? DROP SKULL
+
+Dropped. 
+What now? E
+
+You are in a rickety woodshed which is slowly sinking into the dank marsh that has grown up and engulfed the grounds of the house. Its timbers are rotting - livid patches of mold and rank orange fungus dot its sides - and the air is redolent with decay. 
+What now? E
+
+You are on a dark and winding drive just to the south of a house, whose venerable magnificence has decayed through years of abandonment and neglect. It stands, desolate and hollow-windowed, a malevolent shadow of its former self. Gnarled creepers cling desperately to the walls, almost completely enveloping the building. A huge carved door with a blackened brass knocker in the shape of a griffin's head is set in the middle of the sprawling facade. You can see a vine. 
+What now? U
+
+You are on a vine whose strong, gnarled branches have intertwined, clutching at each others' throats and digging their short, dry roots into the stone walls. Their cankered bark is cracked and seamed; covered with slippery grey lichen. 
+What now? U
+
+You are on a vine, pushing through a tangled mass of decaying tendrils. 
+What now? U
+
+You are on the top of the vine which clings precariously to the crumbling wall at the house roof's edge. 
+What now? U
+
+You are on a sloping roof, in weak, watery sunlight that filters uneasily through the mist, glinting on the slick grey slates. 
+What now? U
+
+You are on a roof, high above the dismal marshes and mist-covered plain. Black skeletons of trees rise up through the grey blanket of mist that obscures the grounds of the house, to gleam in the half-light. 
+What now? RUB EYEBRIGHT INTO EYES
+
+You rub the eyebright into your eyes. 
+You are on a roof, high above the dismal marshes and mist-covered plain. Black skeletons of trees rise up through the grey blanket of mist that obscures the grounds of the house, to gleam in the half-light. 
+What now? W
+
+You are in the east of an attic with a sloping ceiling that droops despondently towards the floor, its rafters humped and shapeless beneath the wreckage of ages. You can see a full-length mirror. Your sanity is shaken. 
+What now? N
+
+You are in a shadowy alcove to the north of the attic, where the air is musty, and smells of pigeons and mothballs. You can see a wardrobe. There is a feeling of magik. Your sanity is shaken. 
+What now? EXAMINE WARDROBE
+
+It is made of elegantly carved mahogany, with mother-of-pearl inlays. In it are some robes. 
+What now? GET ROBES
+
+Taken. 
+What now? WEAR ROBES
+
+Worn. 
+What now? S
+
+You are in the east of an attic with a sloping ceiling that droops despondently towards the floor, its rafters humped and shapeless beneath the wreckage of ages. You can see a full-length mirror. 
+What now? CUT MIRROR WITH DIAMOND
+
+You score out a neat circle of glass and tap it gently. As it falls away, the rest of the mirror shimmers and disappears. 
+What now? GET SMALL MIRROR
+
+Taken. 
+Your sanity is shaken. 
+What now? LOOK
+
+You are in the east of an attic with a sloping ceiling that droops despondently towards the floor, its rafters humped and shapeless beneath the wreckage of ages. 
+What now? S
+
+You are in a recess, less than a metre deep, which was hidden behind the mirror. You can see a prism. 
+What now? GET PRISM
+
+Taken. 
+Your sanity is shaken. 
+What now? EXAMINE PRISM
+
+Shaped like a pyramid and bends light at a sharp angle, refracting it into rainbow colours. The word "XAM" is cut into its base. 
+Your sanity is shaken. 
+What now? N
+
+You are in the east of an attic with a sloping ceiling that droops despondently towards the floor, its rafters humped and shapeless beneath the wreckage of ages. 
+What now? W
+
+You are in the west of an attic filled with the accumulated junk of centuries. Here, old books, broken artefacts and cracked pottery vies with a tumble of moth-eaten clothes and trunks, stuffed to overflowing with the fashions of a bygone age. Mice scuttle among the boxes, their small feet clicking on the floorboards, and somewhere a rat gnaws frantically. Pallid light slinks through a dormer window to the north, lighting the dancing dust motes and laying a sickly patina over all it touches. You can see a cage. 
+What now? GET CAGE
+
+Taken. 
+What now? SW
+
+You are in the doorway to an attic, bare boards beneath your feet. 
+What now? SE
+
+You are in an office, festooned with grimy cobwebs that cover the few pieces of furniture, giving everything a slumped appearance. You can see a table. 
+What now? EXAMINE TABLE
+
+It has been sorely misused over the years, and is covered with gouges hacked in it by the over-enthusiastic wielding of a meat cleaver. There are several sets of initials as well, and the word "MAD" carved in chunky, rough-cut letters. On it is a scroll and a knife. 
+Your sanity is shaken. 
+What now? GET SCROLL
+
+Taken. 
+What now? GET KNIFE
+
+Taken. 
+What now? READ SCROLL
+
+Part of an ancient magik training manual. It is old and faded, but you can just make out: '...To use a spell, hold the... ..Nd "CAST spell", "CAST spell AT target" or "CAST spell - - - - direction)", then ta...'. 
+Your sanity is shaken. 
+What now? NW
+
+You are in the doorway to an attic, bare boards beneath your feet. 
+What now? NE
+
+You are in the west of an attic filled with the accumulated junk of centuries. Here, old books, broken artefacts and cracked pottery vies with a tumble of moth-eaten clothes and trunks, stuffed to overflowing with the fashions of a bygone age. Mice scuttle among the boxes, their small feet clicking on the floorboards, and somewhere a rat gnaws frantically. Pallid light slinks through a dormer window to the north, lighting the dancing dust motes and laying a sickly patina over all it touches. 
+What now? E
+
+You are in the east of an attic with a sloping ceiling that droops despondently towards the floor, its rafters humped and shapeless beneath the wreckage of ages. 
+What now? E
+
+You are on a roof, high above the dismal marshes and mist-covered plain. Black skeletons of trees rise up through the grey blanket of mist that obscures the grounds of the house, to gleam in the half-light. 
+What now? D
+
+You are on a sloping roof, in weak, watery sunlight that filters uneasily through the mist, glinting on the slick grey slates. 
+What now? D
+
+You are on the top of the vine which clings precariously to the crumbling wall at the house roof's edge. 
+What now? D
+
+You are on a vine, pushing through a tangled mass of decaying tendrils. 
+What now? D
+
+You are on a vine whose strong, gnarled branches have intertwined, clutching at each others' throats and digging their short, dry roots into the stone walls. Their cankered bark is cracked and seamed; covered with slippery grey lichen. 
+What now? D
+
+You are on a dark and winding drive just to the south of a house, whose venerable magnificence has decayed through years of abandonment and neglect. It stands, desolate and hollow-windowed, a malevolent shadow of its former self. Gnarled creepers cling desperately to the walls, almost completely enveloping the building. A huge carved door with a blackened brass knocker in the shape of a griffin's head is set in the middle of the sprawling facade. You can see a vine. 
+What now? CUT VINE
+
+You cut a staff from the vine. 
+What now? GET STAFF
+
+Taken. 
+Your sanity is shaken. 
+What now? EXAMINE DOOR
+
+A magnificent oak door with embossed knobs on every panel. The word "ESP" is moulded roughly into the brass knocker. 
+Your sanity is shaken. 
+What now? KNOCK DOOR
+
+Rat-a-tat-tat! 
+You can hear vile slithering noises coming towards you. 
+What now? OPEN DOOR
+
+OK. 
+The squelching noises are getting closer. 
+What now? IN
+
+The door closes behind you. 
+You are in an entrance hall of the ruined mansion; an imposing vestibule with a front door hewn from mighty oak planks. You can see a postcard. The noises die away. Somewhere nearby, you hear a clock strike. 
+What now? EXAMINE POSTCARD
+
+From the sorting office and reads: "Following the mysterious disappearances of three postmen working in this area, we have suspended deliveries locally. Post may be collected from the sorting office. We apologise for any inconvenience". 
+What now? NW
+
+You are in an entrance hall panelled in mellow golden wood. Elegant wooden chairs stand against the far wall, and an inlaid table in the centre of the room holds a beautiful vase filled with dead flowers. Ornamental candelabra stand on small shelves at regular intervals along the walls. All the windows are firmly closed and shuttered. You can see a grandmother clock. Your sanity is shaken. 
+What now? EXAMINE CLOCK
+
+An antique - and it's ticking. The time is 6: 4 am. In it is a pendulum. 
+What now? GET PENDULUM
+
+Taken. 
+Your sanity is shaken. 
+What now? EXAMINE PENDULUM
+
+About eighteen inches long, with the word "DOW" etched into its beaten surface. 
+Your sanity is shaken. 
+What now? WAIT
+
+Time passes. The clock goes BOM. Your sanity is shaken. 
+What now? WAIT
+
+Time passes. 
+What now? E
+
+You are in a broom cupboard. You can see a broom. 
+What now? GET BROOM
+
+Taken. 
+Your sanity is shaken. 
+What now? W
+
+You are in an entrance hall panelled in mellow golden wood. Elegant wooden chairs stand against the far wall, and an inlaid table in the centre of the room holds a beautiful vase filled with dead flowers. Ornamental candelabra stand on small shelves at regular intervals along the walls. All the windows are firmly closed and shuttered. You can see a grandmother clock. 
+What now? SE
+
+You are in an entrance hall of the ruined mansion; an imposing vestibule with a front door hewn from mighty oak planks. You can see a postcard. 
+What now? W
+
+You are in a butler's passage, though quite how you know this is hard to tell. It looks pretty much like any other wood-panelled passage and smells of stale, over-cooked cabbage. 
+What now? W
+
+You are in a rock-walled room, where the air trembles with the far-off boom of rushing waters. Yet the room itself is dry and warm, and a pleasant smell of old polish and metal-cleaner hangs in the air. You can see a picture of Stonehenge. 
+What now? NW
+
+You are on a yellow river which roils between the walls of a deep chasm, its waters swift and turbid. It lashes at the boulders upon its dismal shores with a booming roar, echoing and re-echoing through endless tunnels. 
+What now? N
+
+You are in a distorted junction where every plane runs where it will, with a total disregard for correct interspacial relationships. The angles where they join are insane, eye-wrenching collisions between walls and floors, walls and ceilings, ceilings and floors - that defy comprehension and leave the observer's mind reeling. 
+What now? NE
+
+You are in an ante-chapel filled with glowing red light, its walls carved with scenes from the life of Zog. Wooden pews face the alcove to the north, and a bunch of dead flowers lies in a dusty heap in one corner. There is a feeling of magik. 
+What now? N
+
+You are in an ante-alcove, its arched entrance engraved with indecipherable runes. From a brass curtain-rod, hang rich, blue-velvet drapes. You can see an altar. On it is a red moon. There is a feeling of magik. 
+What now? TOUCH MOON
+
+As soon as you touch the moon, a thrill runs through your body, and you feel very youthful. You recoil in surprise. 
+What now? S
+
+You are in an ante-chapel filled with glowing red light, its walls carved with scenes from the life of Zog. Wooden pews face the alcove to the north, and a bunch of dead flowers lies in a dusty heap in one corner. There is a feeling of magik. 
+What now? SW
+
+You are in a distorted junction where every plane runs where it will, with a total disregard for correct interspacial relationships. The angles where they join are insane, eye-wrenching collisions between walls and floors, walls and ceilings, ceilings and floors - that defy comprehension and leave the observer's mind reeling. 
+What now? N
+
+You are in a better hole, where the air is dry and the earthen walls are sealed with a rough coating of yellow clay. A cool breeze stirs the air, and from far, far away, a faint rumbling boom echoes with the sound of running water. 
+What now? N
+
+You are in a hole, hacked from the damp earth, and shored up with blackened timbers. Roots trail down from the ceiling, their tendrils groping for moisture in the empty air, and wriggling bundles of pale, eyeless worms squirm upon the floor. 
+What now? UP
+
+You are in a stairway, its cast-iron rungs clattering beneath your feet, the banister smooth and cold under your grasping hand. 
+What now? E
+
+You are in an oak panelled corridor. 
+What now? N
+
+You are in a misty corridor, where strange lights glint and sparkle, teasing the eye, and phantom voices whisper in your ears. There is a feeling of magik. 
+What now? NE
+
+You are in a marble hall, its vaulted ceiling supported by graceful columns that seem at first glance to be marred by ugly brown stains, but which, on closer inspection, prove to be wooden pillars covered with peeling paper that has been painted to simulate marble. The walls, too, are paper-covered, their crimson and green mottlings hiding rough granite blocks. 
+What now? NE
+
+You are on a roof garden, cold and silent, hemmed in by grey stone and made dark and wet by the dank mist. A few bright herbs cling to life; lonely survivors from the time when the sun still shone and caring hands tended the garden. You can see a valerian plant and a sprig of wolfsbane. 
+What now? GET VALERIAN
+
+Taken. 
+Your sanity is shaken. 
+What now? EXAMINE VALERIAN
+
+A magik herb with long-lasting, purplish flowers. 
+What now? GET WOLFSBANE
+
+Taken. 
+What now? NW
+
+You are in the north tower. Across from you and to one side lies the dismal roof garden, and above you a tower ascends into darkness. You can see a rope. There is a feeling of magik. 
+What now? UP
+
+You gingerly climb the ancient rope, your hands slipping every now and then on its greasy surface. Ding. Dong etc. 
+You are in a belfry where mist curls sleepily through the slatted shutters, chilling the air, and where rotting floorboards creak and moan beneath your feet. Stray shafts of light quiver through the gloom, crawling down dusty beams and rafters and slithering over the piles of dust that lie everywhere. You can see a blood-sucking bat and a bell. You can hear vile slithering noises coming towards you. 
+What now? GET BAT
+
+Taken. 
+It goes "peep peep". The squelching noises are getting closer. 
+What now? EXAMINE BELL
+
+Cast from several tonnes of bronze and covered with bat-droppings. 
+The blood-sucking bat stretches its wings. A nameless horror rears from the gloom. You pass out from sheer terror. Your sanity is shaken. 
+What now? D
+
+You are in the north tower. Across from you and to one side lies the dismal roof garden, and above you a tower ascends into darkness. You can see a rope. There is a feeling of magik. The blood-sucking bat eyes a vein in your neck. 
+What now? SE
+
+You are on a roof garden, cold and silent, hemmed in by grey stone and made dark and wet by the dank mist. A few bright herbs cling to life; lonely survivors from the time when the sun still shone and caring hands tended the garden. The blood-sucking bat goes "peep peep". 
+What now? SE
+
+You are in a room with a large table. The walls are hung with faded pictures, some done in oils, some in watercolour, some in gouache, yet all depict war, and the horrors of war. Wherever you look, cannons flare and swords flash. You can see a wargame. 
+What now? EXAMINE WARGAME
+
+A model which re-enacts, through endless repetitions, the massacre in the council chamber which brought Myglar to power. 
+The blood-sucking bat stretches its wings. 
+What now? SW
+
+You are in a small landing, sunk in gloom, its faded carpet and hangings dank and fusty. The blood-sucking bat eyes a vein in your neck. 
+What now? W
+
+You are in the yard below a huge gallows in a small courtyard paved with stone. Forbidding grey walls tower up on every side, almost obscuring the sky far above, and gargoyles leer down upon you, their stone eyes staring. A few sad weeds grow in the cracks between the stones and the gallows loom, huge and silent, over all. There is a feeling of magik. The blood-sucking bat goes "peep peep". 
+What now? W
+
+You are in a misty corridor, where strange lights glint and sparkle, teasing the eye, and phantom voices whisper in your ears. There is a feeling of magik. 
+What now? S
+
+You are in an oak panelled corridor. The blood-sucking bat stretches its wings. 
+What now? SE
+
+You are in an oak panelled corridor, the smell of decaying wood strong in the stagnant air. Its ancient panels sound strangely hollow. 
+What now? PUSH PANEL
+
+You try all the panels in turn, working from the north end, southwards. About two thirds of the way along, one of them gives slightly under your groping fingers, you hear a quiet "snick", and the whole group of panels around the one you have pushed swing open. You have found a secret door. 
+The blood-sucking bat eyes a vein in your neck. 
+What now? LOOK
+
+You are in an oak panelled corridor, the smell of decaying wood strong in the stagnant air. Its ancient panels sound strangely hollow. 
+What now? E
+
+You are in a store room with one oaken wall and three of sad grey stone. An atmosphere of foreboding hangs over the place. You can see a lever and a sword point. The blood-sucking bat goes "peep peep". 
+What now? EXAMINE SWORD
+
+It is very sharp and sticks up through a hole in the floor. 
+What now? PULL LEVER
+
+The sword abruptly drops from sight, and you hear clattering noises in the room below. 
+What now? W
+
+You are in an oak panelled corridor, the smell of decaying wood strong in the stagnant air. Its ancient panels sound strangely hollow. The blood-sucking bat stretches its wings. 
+What now? S
+
+You are in a white-wood corridor, its walls lighter than pine, yet turning a mellow gold with age. They still smell faintly of scented wood. The blood-sucking bat eyes a vein in your neck. 
+What now? E
+
+You are in a store room, fairly small and piled high with junk. Old tools lie haphazardly on the floor, along with a jumble of dismantled furniture. You can see a shovel. The blood-sucking bat goes "peep peep". 
+What now? GET SHOVEL
+
+Taken. 
+The blood-sucking bat stretches its wings. 
+What now? W
+
+You are in a white-wood corridor, its walls lighter than pine, yet turning a mellow gold with age. They still smell faintly of scented wood. The blood-sucking bat eyes a vein in your neck. 
+What now? NW
+
+You are in an old sea-dog's room, an extraordinary place, done up to look like the bridge of a ship. The walls are panelled with varnished teak, and the same wood covers the ceiling and floor. A table juts out from one wall, bearing a huge sheet of glass under which complicated charts are displayed. All the fittings are of brass, and a ship's wheel stands between the table and a small galley, whose stove has been lovingly black-leaded. Leather-covered benches line the walls. The blood-sucking bat goes "peep peep". 
+What now? SW
+
+You are in a cellar, still dry and cool, its contents well-preserved, though all around it has fallen into neglect and ruin. You can see some chests. The blood-sucking bat stretches its wings. 
+What now? EXAMINE CHESTS
+
+The chests are coloured black, brown, red, orange, yellow, green, blue, violet, grey and white. 
+What now? CAST DOW AT BLUE CHEST
+
+The pendulum swings in a circle. 
+The blood-sucking bat eyes a vein in your neck. Your sanity is shaken. 
+What now? OPEN BLUE CHEST
+
+As you start to lift the lid, there is a flash of light and an enormous explosion. You are flung backwards, slam into the wall, and slide gracefully down it to rest in a crumpled heap upon the floor. Shards of pulverised chest rain down upon you. You have 80 stamina points. 
+The blood-sucking bat goes "peep peep". 
+What now? EXAMINE BLUE CHEST
+
+You can't see that here. 
+What now? GET SALT
+You can't see the pile of salt. 
+What now? NE
+
+You are in an old sea-dog's room, an extraordinary place, done up to look like the bridge of a ship. The walls are panelled with varnished teak, and the same wood covers the ceiling and floor. A table juts out from one wall, bearing a huge sheet of glass under which complicated charts are displayed. All the fittings are of brass, and a ship's wheel stands between the table and a small galley, whose stove has been lovingly black-leaded. Leather-covered benches line the walls. The blood-sucking bat stretches its wings. 
+What now? SE
+
+You are in a white-wood corridor, its walls lighter than pine, yet turning a mellow gold with age. They still smell faintly of scented wood. 
+What now? SW
+
+You are in an arch-roofed corridor. Torches line the walls, seemingly burning for ever without consuming any fuel, their light flickering with an eerie green lustre. Fluted pilasters reach up to a row of pointed cupolas above. You can see an inscription on the ceiling. The blood-sucking bat eyes a vein in your neck. 
+What now? NE
+
+You are in a white-wood corridor, its walls lighter than pine, yet turning a mellow gold with age. They still smell faintly of scented wood. The blood-sucking bat goes "peep peep". 
+What now? N
+
+You are in an oak panelled corridor, the smell of decaying wood strong in the stagnant air. Its ancient panels sound strangely hollow. 
+What now? N
+
+You are in a pentagonal room, its walls hung with red velvet, with strange signs painted upon the floor. A low humming fills the air, almost beyond the range of human hearing. There is a feeling of magik. The blood-sucking bat stretches its wings. 
+What now? NE
+
+You are in a small landing, sunk in gloom, its faded carpet and hangings dank and fusty. The blood-sucking bat eyes a vein in your neck. 
+What now? S
+
+You are in a musty hall, its high walls cloth-covered, the statuettes and vases on its delicate shelves dusty and forgotten. You can see a tapestry. The blood-sucking bat goes "peep peep". 
+What now? EXAMINE TAPESTRY
+
+A picture of a scrawny female healer, plying her wares in a crowded market-place. 
+The blood-sucking bat stretches its wings. 
+What now? E
+
+You are on a spiral stair, its cold stone steps hollowed by long usage, and with odd symbols and obscure grinning faces carved into the walls. Every now and then a small, slitted window lets light in, but the walls are too thick, and the windows too high for you to see anything but the dismal grey sky through them. The blood-sucking bat eyes a vein in your neck. 
+What now? D
+
+You are in an alcove to the east of the painting gallery. It is a small space, hung with long velvet curtains in a comfortable shade of wine red. A stone staircase rises up through its ceiling. The blood-sucking bat goes "peep peep". 
+What now? W
+
+You are in a hall hung with paintings which show desolate, red-rocked landscapes, or bowls of fruit and dead fowl, their paint marred by a network of fine cracks where the surface has aged and dried. Some are of people: men, women and children, all of whom have the same aquiline nose and pointed jawline. Many of them have eyes of the same curious shade of green. 
+
+One, a woman, is depicted with her yellow hair flying out behind her, her robes whipped around her slender form by the wind. Her green eyes are narrowed and fire flies from her outstretched hands. You can see a warped portrait. 
+What now? NW
+
+You are in a bone chamber. The walls are pocked with tiny alcoves, each holding a neat pile of bones with a skull set neatly on top. Other bones lie scattered haphazardly on the floor. You can see some bones. There is a feeling of magik. 
+What now? GET BONES
+
+Taken. 
+The blood-sucking bat stretches its wings. 
+What now? EXAMINE BONES
+
+From a human-sized creature. 
+The blood-sucking bat eyes a vein in your neck. 
+What now? S
+
+You are in a rough-hewn tunnel, carved from the living rock, its edges still jagged and raw. Stones and other debris litter the floor. 
+What now? SE
+
+You are in a panelled corridor with walls intricately carved from elm wood. Most depict the pastoral life of some vaguely medieval era, and chubby peasants sport amid the summer hedges, rampant with sukebind. One of them shows an old man driving four cows to the milking, with but ten legs and one-and-a-half horns between them. You can see a sword. The blood-sucking bat goes "peep peep". 
+What now? GET SWORD
+
+Taken. 
+What now? EXAMINE SWORD
+
+Its blade is slightly chipped and inscribed: "rubilacxe", the letters being traced in faded gold leaf. 
+What now? S
+
+You are in an elm panelled corridor, its beautiful yellow wood pockmarked with thousands of little holes. Where a small piece of wood has fallen away, you can see a heaving mass of tiny beetles. You can see a werewolf. The blood-sucking bat stretches its wings. 
+What now? SW
+
+You are in an entrance hall panelled in mellow golden wood. Elegant wooden chairs stand against the far wall, and an inlaid table in the centre of the room holds a beautiful vase filled with dead flowers. Ornamental candelabra stand on small shelves at regular intervals along the walls. All the windows are firmly closed and shuttered. You can see a grandmother clock. The blood-sucking bat eyes a vein in your neck. 
+What now? SE
+
+You are in an entrance hall of the ruined mansion; an imposing vestibule with a front door hewn from mighty oak planks. You can see a postcard. The blood-sucking bat goes "peep peep". 
+What now? OPEN DOOR
+
+OK. 
+The blood-sucking bat stretches its wings. 
+What now? OUT
+
+The door closes behind you. 
+You are on a dark and winding drive just to the south of a house, whose venerable magnificence has decayed through years of abandonment and neglect. It stands, desolate and hollow-windowed, a malevolent shadow of its former self. Gnarled creepers cling desperately to the walls, almost completely enveloping the building. A huge carved door with a blackened brass knocker in the shape of a griffin's head is set in the middle of the sprawling facade. You can see a vine. 
+What now? W
+
+You are in a rickety woodshed which is slowly sinking into the dank marsh that has grown up and engulfed the grounds of the house. Its timbers are rotting - livid patches of mold and rank orange fungus dot its sides - and the air is redolent with decay. The blood-sucking bat eyes a vein in your neck. 
+What now? W
+
+You are on a herb garden on an insect-infested mound which rises through the marsh mist. A few stunted plants survive miserably among the stark, skeletal remains of their fellows. Droplets of water gather sadly on their leaves, before dripping quietly onto the cold ground below. You can see a knucklebone, a skull and a mandrake. 
+What now? GET SKULL
+
+Taken. 
+The blood-sucking bat goes "peep peep". 
+What now? GET KNUCKLEBONE
+
+Taken. 
+The blood-sucking bat stretches its wings. 
+What now? BURY BONES
+
+OK. You dig a little hole. You throw it into the hole. You fill it in again. A ghost appears. It says, "I thank thee, adventurer, but wouldst thou leave the job undone? I can only find peace when all my remains are thus entombed". 
+The blood-sucking bat eyes a vein in your neck. 
+What now? BURY SKULL
+
+OK. You dig a little hole. You throw it into the hole. You fill it in again. A ghost appears. It says, "I thank thee, adventurer, but wouldst thou leave the job undone? I can only find peace when all my remains are thus entombed". 
+The blood-sucking bat goes "peep peep". 
+What now? BURY KNUCKLEBONE
+
+OK. You dig a little hole. You throw it into the hole. You fill it in again. A ghost appears. It says, "Thank you, most noble adventurer. As a reward, I give you two things. Firstly, you may take my armour which served me well until I met my end. Secondly, some advice. BEWARE OF MYGLAR, for when I met him, all my weapons were of no avail". 
+The blood-sucking bat stretches its wings. 
+What now? E
+
+You are in a rickety woodshed which is slowly sinking into the dank marsh that has grown up and engulfed the grounds of the house. Its timbers are rotting - livid patches of mold and rank orange fungus dot its sides - and the air is redolent with decay. The blood-sucking bat eyes a vein in your neck. 
+What now? E
+
+You are on a dark and winding drive just to the south of a house, whose venerable magnificence has decayed through years of abandonment and neglect. It stands, desolate and hollow-windowed, a malevolent shadow of its former self. Gnarled creepers cling desperately to the walls, almost completely enveloping the building. A huge carved door with a blackened brass knocker in the shape of a griffin's head is set in the middle of the sprawling facade. You can see a vine. The blood-sucking bat goes "peep peep". 
+What now? OPEN DOOR
+
+OK. 
+The blood-sucking bat stretches its wings. 
+What now? IN
+
+The door closes behind you. 
+You are in an entrance hall of the ruined mansion; an imposing vestibule with a front door hewn from mighty oak planks. You can see a postcard. The blood-sucking bat eyes a vein in your neck. 
+What now? NW
+
+You are in an entrance hall panelled in mellow golden wood. Elegant wooden chairs stand against the far wall, and an inlaid table in the centre of the room holds a beautiful vase filled with dead flowers. Ornamental candelabra stand on small shelves at regular intervals along the walls. All the windows are firmly closed and shuttered. You can see a grandmother clock. The blood-sucking bat goes "peep peep". 
+What now? NE
+
+You are in an elm panelled corridor, its beautiful yellow wood pockmarked with thousands of little holes. Where a small piece of wood has fallen away, you can see a heaving mass of tiny beetles. You can see a werewolf. 
+What now? N
+
+You are in a panelled corridor with walls intricately carved from elm wood. Most depict the pastoral life of some vaguely medieval era, and chubby peasants sport amid the summer hedges, rampant with sukebind. One of them shows an old man driving four cows to the milking, with but ten legs and one-and-a-half horns between them. 
+What now? NW
+
+You are in a rough-hewn tunnel, carved from the living rock, its edges still jagged and raw. Stones and other debris litter the floor. The blood-sucking bat stretches its wings. 
+What now? N
+
+You are in a bone chamber. The walls are pocked with tiny alcoves, each holding a neat pile of bones with a skull set neatly on top. Other bones lie scattered haphazardly on the floor. There is a feeling of magik. 
+What now? W
+
+You are in an echoing crypt, its cold stone walls and vaulted roof hung with dusty cobwebs. The air smells mouldy, and mushrooms sprout from the packed-earth floor, glowing with a pale light. You can see some plate armour. There is a feeling of magik. The blood-sucking bat eyes a vein in your neck. 
+What now? GET PLATE ARMOUR
+
+Taken. 
+What now? E
+
+You are in a bone chamber. The walls are pocked with tiny alcoves, each holding a neat pile of bones with a skull set neatly on top. Other bones lie scattered haphazardly on the floor. There is a feeling of magik. 
+What now? E
+
+You are in a rest room. Padded leather couches are pushed against the walls, interspersed with saggy chintz-covered armchairs. A small table holds a jigsaw picturing a moonlit graveyard, complete except for one last piece, which, as with all jigsaws, is missing. A painting on the wall shows a family of ghouls feasting in a dungeon crypt, and a small brass plaque beneath reads "His Fifteenth Birthday". The blood-sucking bat goes "peep peep". 
+What now? N
+
+You are in a library, every wall lined with books, from floor to ceiling. You can see some books. The blood-sucking bat stretches its wings. 
+What now? N
+
+You are in a library and the musty smell of old books chokes the air. You can see a grimoire. 
+What now? EXAMINE GRIMOIRE
+
+A hefty, leather-bound tome which explains, very nicely, that you must be mad to use magik. 
+The blood-sucking bat eyes a vein in your neck. Your sanity is shaken. 
+What now? GET GRIMOIRE
+
+Taken. 
+What now? NW
+
+You are in a study, surrounded by dark shadows. You can see a desk. The blood-sucking bat goes "peep peep". 
+What now? EXAMINE DESK
+
+It is a sturdy oak desk, with a battered leather top stained with black ink and some other, reddish stuff. In it is a parchment. 
+What now? GET PARCHMENT
+
+Taken. 
+The blood-sucking bat stretches its wings. 
+What now? READ PARCHMENT
+
+About ZEN and the art of rapid progress. 
+The blood-sucking bat eyes a vein in your neck. Your sanity is shaken. 
+What now? SE
+
+You are in a library and the musty smell of old books chokes the air. 
+What now? S
+
+You are in a library, every wall lined with books, from floor to ceiling. You can see some books. 
+What now? NW
+
+You are in a sagging corridor, its ceiling bulging towards the ground, its walls bowing outwards. 
+What now? SW
+
+You are in a collapsing junction where little trickles of dust and stones continually shower from ceiling, and every slightest sound sets off an ominous rumbling behind the cracked stone walls. You can see a curtain. 
+What now? CUT CURTAIN
+
+Your blow lands on the enchanted curtain, and it shimmers and fades away. 
+What now? LOOK
+
+You are in a collapsing junction where little trickles of dust and stones continually shower from ceiling, and every slightest sound sets off an ominous rumbling behind the cracked stone walls. 
+What now? W
+
+You are in a sanctum; a peaceful room, sparsely furnished. It has panelled walls of simple dark wood and a colourful rug upon the highly polished floor. A simple table and chair stand in one corner, and in the centre of the room there is a prie-dieu with a blue velvet kneeler. There is a feeling of magik. The blood-sucking bat goes "peep peep". 
+What now? S
+
+You are in an inner sanctum, wood-panelled, like the sanctum, but unkempt and neglected. Dust lies in the corners, and the small altar is untended. A reddish-brown stain marks the floor in front of the altar. You can see a feldspar lens. There is a feeling of magik. The blood-sucking bat stretches its wings. 
+What now? GET FELDSPAR LENS
+
+Taken. 
+The blood-sucking bat eyes a vein in your neck. Your sanity is shaken. 
+What now? N
+
+You are in a sanctum; a peaceful room, sparsely furnished. It has panelled walls of simple dark wood and a colourful rug upon the highly polished floor. A simple table and chair stand in one corner, and in the centre of the room there is a prie-dieu with a blue velvet kneeler. There is a feeling of magik. 
+What now? E
+
+You are in a collapsing junction where little trickles of dust and stones continually shower from ceiling, and every slightest sound sets off an ominous rumbling behind the cracked stone walls. The blood-sucking bat goes "peep peep". 
+What now? N
+
+You are in a solarium. The great metal skylight in the ceiling is jammed half-way shut, allowing the dismal light from outside to slink miserably around the room. 
+What now? NW
+
+You are in a laboratory. The heavy wooden counters are strewn with bizarre apparatus: glass bottles and tubes of every shape imaginable, strangely-coloured fluids, and sinister metal instruments litter every available surface. There is a strong chemical smell, and one wall is blackened, as though by an explosion. The word "SEE" has been scratched in the soot. The blood-sucking bat stretches its wings. Your sanity is shaken. 
+What now? SE
+
+You are in a solarium. The great metal skylight in the ceiling is jammed half-way shut, allowing the dismal light from outside to slink miserably around the room. The blood-sucking bat eyes a vein in your neck. 
+What now? S
+
+You are in a collapsing junction where little trickles of dust and stones continually shower from ceiling, and every slightest sound sets off an ominous rumbling behind the cracked stone walls. The blood-sucking bat goes "peep peep". 
+What now? NE
+
+You are in a sagging corridor, its ceiling bulging towards the ground, its walls bowing outwards. The blood-sucking bat stretches its wings. 
+What now? SE
+
+You are in a library, every wall lined with books, from floor to ceiling. You can see some books. The blood-sucking bat eyes a vein in your neck. 
+What now? N
+
+You are in a library and the musty smell of old books chokes the air. The blood-sucking bat goes "peep peep". 
+What now? NW
+
+You are in a study, surrounded by dark shadows. You can see a desk. 
+What now? CAST SEE
+
+You see a hidden exit leading north. 
+Your sanity is shaken. 
+What now? N
+
+You are in a dusty priest hole. The bare oak walls are warped and split. In one corner, a pile of bones lies huddled amid the tattered remnants of a monk's habit and cowl, and the broken shards of a sword gleam dully. On the wall above, the word "DET" is scrawled in dark, dried fluid. Your sanity is shaken. 
+What now? SE
+
+You are in a cold room where an icy wind blows from nowhere into nowhere, wailing like a lost soul in the empty midnight hours. The blood-sucking bat stretches its wings. 
+What now? N
+
+You are in a magnificent treasury. The walls are covered with stamped bronze panels, their delicate traceries of spring flowers and newly-opened leaves picked out in gold and silver, with precious gems glinting in their hearts. You can see a bag. The blood-sucking bat eyes a vein in your neck. Your sanity is shaken. 
+What now? GET BAG
+
+Taken. 
+The blood-sucking bat goes "peep peep". 
+What now? EXAMINE BAG
+
+Made of tough, close-woven canvas. In it is some gold. 
+What now? S
+
+You are in a cold room where an icy wind blows from nowhere into nowhere, wailing like a lost soul in the empty midnight hours. The blood-sucking bat stretches its wings. 
+What now? NW
+
+You are in a dusty priest hole. The bare oak walls are warped and split. In one corner, a pile of bones lies huddled amid the tattered remnants of a monk's habit and cowl, and the broken shards of a sword gleam dully. On the wall above, the word "DET" is scrawled in dark, dried fluid. The blood-sucking bat eyes a vein in your neck. 
+What now? S
+
+You are in a study, surrounded by dark shadows. You can see a desk. The blood-sucking bat goes "peep peep". 
+What now? SE
+
+You are in a library and the musty smell of old books chokes the air. The blood-sucking bat stretches its wings. 
+What now? S
+
+You are in a library, every wall lined with books, from floor to ceiling. You can see some books. The blood-sucking bat eyes a vein in your neck. 
+What now? S
+
+You are in a rest room. Padded leather couches are pushed against the walls, interspersed with saggy chintz-covered armchairs. A small table holds a jigsaw picturing a moonlit graveyard, complete except for one last piece, which, as with all jigsaws, is missing. A painting on the wall shows a family of ghouls feasting in a dungeon crypt, and a small brass plaque beneath reads "His Fifteenth Birthday". 
+What now? W
+
+You are in a bone chamber. The walls are pocked with tiny alcoves, each holding a neat pile of bones with a skull set neatly on top. Other bones lie scattered haphazardly on the floor. There is a feeling of magik. The blood-sucking bat goes "peep peep". 
+What now? S
+
+You are in a rough-hewn tunnel, carved from the living rock, its edges still jagged and raw. Stones and other debris litter the floor. The blood-sucking bat stretches its wings. 
+What now? SE
+
+You are in a panelled corridor with walls intricately carved from elm wood. Most depict the pastoral life of some vaguely medieval era, and chubby peasants sport amid the summer hedges, rampant with sukebind. One of them shows an old man driving four cows to the milking, with but ten legs and one-and-a-half horns between them. The blood-sucking bat eyes a vein in your neck. 
+What now? S
+
+You are in an elm panelled corridor, its beautiful yellow wood pockmarked with thousands of little holes. Where a small piece of wood has fallen away, you can see a heaving mass of tiny beetles. You can see a werewolf. It seems to be trying to talk. Somewhere nearby, you hear a clock strike. 
+What now? SW
+
+You are in an entrance hall panelled in mellow golden wood. Elegant wooden chairs stand against the far wall, and an inlaid table in the centre of the room holds a beautiful vase filled with dead flowers. Ornamental candelabra stand on small shelves at regular intervals along the walls. All the windows are firmly closed and shuttered. You can see a grandmother clock. The blood-sucking bat stretches its wings. 
+What now? SE
+
+You are in an entrance hall of the ruined mansion; an imposing vestibule with a front door hewn from mighty oak planks. You can see a postcard. The blood-sucking bat eyes a vein in your neck. 
+What now? W
+
+You are in a butler's passage, though quite how you know this is hard to tell. It looks pretty much like any other wood-panelled passage and smells of stale, over-cooked cabbage. 
+What now? W
+
+You are in a rock-walled room, where the air trembles with the far-off boom of rushing waters. Yet the room itself is dry and warm, and a pleasant smell of old polish and metal-cleaner hangs in the air. You can see a picture of Stonehenge. The blood-sucking bat goes "peep peep". 
+What now? NW
+
+You are on a yellow river which roils between the walls of a deep chasm, its waters swift and turbid. It lashes at the boulders upon its dismal shores with a booming roar, echoing and re-echoing through endless tunnels. The blood-sucking bat stretches its wings. 
+What now? N
+
+You are in a distorted junction where every plane runs where it will, with a total disregard for correct interspacial relationships. The angles where they join are insane, eye-wrenching collisions between walls and floors, walls and ceilings, ceilings and floors - that defy comprehension and leave the observer's mind reeling. The blood-sucking bat eyes a vein in your neck. 
+What now? NE
+
+You are in an ante-chapel filled with glowing red light, its walls carved with scenes from the life of Zog. Wooden pews face the alcove to the north, and a bunch of dead flowers lies in a dusty heap in one corner. There is a feeling of magik. The blood-sucking bat goes "peep peep". 
+What now? N
+
+You are in an ante-alcove, its arched entrance engraved with indecipherable runes. From a brass curtain-rod, hang rich, blue-velvet drapes. You can see an altar. On it is a red moon. There is a feeling of magik. 
+What now? TOUCH MOON
+
+As soon as you touch the moon, a thrill runs through your body, and you feel very youthful. You recoil in surprise. 
+What now? S
+
+You are in an ante-chapel filled with glowing red light, its walls carved with scenes from the life of Zog. Wooden pews face the alcove to the north, and a bunch of dead flowers lies in a dusty heap in one corner. There is a feeling of magik. 
+What now? SW
+
+You are in a distorted junction where every plane runs where it will, with a total disregard for correct interspacial relationships. The angles where they join are insane, eye-wrenching collisions between walls and floors, walls and ceilings, ceilings and floors - that defy comprehension and leave the observer's mind reeling. The blood-sucking bat stretches its wings. 
+What now? S
+
+You are on a yellow river which roils between the walls of a deep chasm, its waters swift and turbid. It lashes at the boulders upon its dismal shores with a booming roar, echoing and re-echoing through endless tunnels. 
+What now? S
+
+You are on a slide of slime which glistens viscidly against the yellow mud. The air trembles with the far-off boom of rushing waters. You can see a giant slug. It attacks you but you dodge. The giant slug shuffles about. The blood-sucking bat goes "peep peep". 
+What now? THROW SALT AT SLUG
+You can't see the pile of salt. 
+What now? DOWN
+
+The giant slug won't let you. It attacks you but you dodge. The giant slug sways from side to side. 
+What now? EXAMINE STATUE
+You can't see the marble statue. 
+What now? DOWN
+
+The giant slug won't let you. It attacks you but you dodge. The blood-sucking bat eyes a vein in your neck. 
+What now? S
+
+You can't go that way. The giant slug attacks you. The blow strikes your plate armour (which has 41 stamina points left). The giant slug focuses all its eyes in your direction. 
+What now? SW
+
+You can't go that way. The giant slug attacks you but you dodge. The giant slug sways from side to side. The blood-sucking bat eyes a vein in your neck. 
+What now? SE
+
+You can't go that way. The giant slug attacks you but you dodge. 
+What now? NE
+
+You can't go that way. The giant slug attacks you but you dodge. 
+What now? S
+
+You can't go that way. The giant slug attacks you. The blow strikes your plate armour (which has 35 stamina points left). The giant slug focuses all its eyes in your direction. 
+What now? S
+
+You can't go that way. The giant slug attacks you. The blow strikes your plate armour (which has 31 stamina points left). The giant slug sways from side to side. The blood-sucking bat eyes a vein in your neck. 
+What now? E
+
+You can't go that way. The giant slug attacks you. The blow strikes your plate armour (which has 30 stamina points left). The giant slug focuses all its eyes in your direction. The blood-sucking bat stretches its wings. 
+What now? W
+
+You can't go that way. The giant slug attacks you. The blow strikes your plate armour (which has 29 stamina points left). The giant slug shuffles about. The blood-sucking bat goes "peep peep". 
+What now? N
+
+You are on a yellow river which roils between the walls of a deep chasm, its waters swift and turbid. It lashes at the boulders upon its dismal shores with a booming roar, echoing and re-echoing through endless tunnels. 
+What now? N
+
+You are in a distorted junction where every plane runs where it will, with a total disregard for correct interspacial relationships. The angles where they join are insane, eye-wrenching collisions between walls and floors, walls and ceilings, ceilings and floors - that defy comprehension and leave the observer's mind reeling. 
+What now? SW
+
+You can't go that way. The blood-sucking bat stretches its wings. 
+What now? NW
+
+You can't go that way. The blood-sucking bat eyes a vein in your neck. 
+What now? N
+
+You are in a better hole, where the air is dry and the earthen walls are sealed with a rough coating of yellow clay. A cool breeze stirs the air, and from far, far away, a faint rumbling boom echoes with the sound of running water. 
+What now? N
+
+You are in a hole, hacked from the damp earth, and shored up with blackened timbers. Roots trail down from the ceiling, their tendrils groping for moisture in the empty air, and wriggling bundles of pale, eyeless worms squirm upon the floor. 
+What now? U
+
+You are in a stairway, its cast-iron rungs clattering beneath your feet, the banister smooth and cold under your grasping hand. The blood-sucking bat goes "peep peep". 
+What now? N
+
+You can't go that way. The blood-sucking bat stretches its wings. 
+What now? SE
+
+You can't go that way. The blood-sucking bat eyes a vein in your neck. 
+What now? E
+
+You are in an oak panelled corridor. 
+What now? E
+
+You can't go that way. 
+What now? NW
+
+You can't go that way. The blood-sucking bat goes "peep peep". 
+What now? NE
+
+You can't go that way. The blood-sucking bat stretches its wings. 
+What now? N
+
+You are in a misty corridor, where strange lights glint and sparkle, teasing the eye, and phantom voices whisper in your ears. There is a feeling of magik. The blood-sucking bat eyes a vein in your neck. 
+What now? NW
+
+You can't go that way. 
+What now? N
+
+You can't go that way. The blood-sucking bat goes "peep peep". 
+What now? SE
+
+You can't go that way. The blood-sucking bat stretches its wings. 
+What now? E
+
+You are in the yard below a huge gallows in a small courtyard paved with stone. Forbidding grey walls tower up on every side, almost obscuring the sky far above, and gargoyles leer down upon you, their stone eyes staring. A few sad weeds grow in the cracks between the stones and the gallows loom, huge and silent, over all. There is a feeling of magik. The blood-sucking bat eyes a vein in your neck. 
+What now? U
+
+You can't go that way. 
+What now? W
+
+You are in a misty corridor, where strange lights glint and sparkle, teasing the eye, and phantom voices whisper in your ears. There is a feeling of magik. 
+What now? N
+
+You can't go that way. You almost fall over a wheel that some idiot has left lying about. Fortunately, you regain your balance, but the wheel bowls off out of sight into the mist. 
+What now? SW
+
+You can't go that way. You almost fall over a wheel that some idiot has left lying about. Fortunately, you regain your balance, but the wheel bowls off out of sight into the mist. The blood-sucking bat goes "peep peep". 
+What now? S
+
+You are in an oak panelled corridor. 
+What now? S
+
+You can't go that way. 
+What now? SW
+
+You can't go that way. 
+What now? CAST DET
+
+The spell expends itself harmlessly in mid-air. 
+The blood-sucking bat stretches its wings. Your sanity is shaken. 
+What now? CAST DOW
+
+The pendulum swings side to side. 
+What now? CAST MAD
+
+The spell expends itself harmlessly in mid-air. 
+Your sanity is shaken. 
+What now? CAST FLY AT ME
+
+You don't know that spell (if indeed it is a spell). 
+The blood-sucking bat eyes a vein in your neck. 
+What now? READ INSCRIPTION
+You can't see the inscription on the ceiling. 
+What now? WAIT
+
+Time passes. 
+What now? NE
+
+You can't go that way. The blood-sucking bat goes "peep peep". 
+What now? N
+
+You are in a misty corridor, where strange lights glint and sparkle, teasing the eye, and phantom voices whisper in your ears. There is a feeling of magik. The blood-sucking bat stretches its wings. 
+What now? N
+
+You can't go that way. You almost fall over a wheel that some idiot has left lying about. Fortunately, you regain your balance, but the wheel bowls off out of sight into the mist. 
+What now? NE
+
+You are in a marble hall, its vaulted ceiling supported by graceful columns that seem at first glance to be marred by ugly brown stains, but which, on closer inspection, prove to be wooden pillars covered with peeling paper that has been painted to simulate marble. The walls, too, are paper-covered, their crimson and green mottlings hiding rough granite blocks. 
+What now? S
+
+You can't go that way. 
+What now? E
+
+You can't go that way. 
+What now? D
+
+You can't go that way. 
+What now? W
+
+You are in a once-good room now fallen into disrepair. You can see a ghoul. There is a feeling of magik. The blood-sucking bat eyes a vein in your neck. The ghoul attacks you but you dodge. The ghoul flexes its slab-like muscles. 
+What now? NW
+
+You can't go that way. The ghoul attacks you but you dodge. 
+What now? S
+
+You can't go that way. The blood-sucking bat stretches its wings. The ghoul attacks you but you dodge. The ghoul howls eerily. 
+What now? SE
+
+You can't go that way. The blood-sucking bat goes "peep peep". The ghoul attacks you. The blow strikes your plate armour (which has 24 stamina points left). The ghoul shuffles about. 
+What now? S
+
+You can't go that way. The ghoul attacks you. The blow strikes your plate armour (which has 21 stamina points left). 
+What now? SW
+
+You can't go that way. The ghoul attacks you but you dodge. The ghoul howls eerily. 
+What now? SE
+
+You can't go that way. The blood-sucking bat goes "peep peep". The ghoul attacks you but you dodge. 
+What now? W
+
+You can't go that way. The ghoul attacks you. The blow strikes your plate armour (which has 17 stamina points left). 
+What now? W
+
+You can't go that way. The blood-sucking bat stretches its wings. The ghoul attacks you but you dodge. The ghoul howls eerily. 
+What now? NW
+
+You can't go that way. The blood-sucking bat goes "peep peep". The ghoul attacks you. The blow strikes your plate armour (which has 12 stamina points left). 
+What now? S
+
+You can't go that way. The ghoul attacks you but you dodge. 
+What now? D
+
+You can't go that way. The blood-sucking bat stretches its wings. The ghoul attacks you but you dodge. The ghoul howls eerily. 
+What now? D
+
+You can't go that way. The blood-sucking bat goes "peep peep". The ghoul attacks you. The blow strikes your plate armour (which has 8 stamina points left). 
+What now? S
+
+You can't go that way. The blood-sucking bat stretches its wings. The ghoul attacks you. The blow strikes your plate armour (which has 4 stamina points left). The ghoul howls eerily. 
+What now? SW
+
+You can't go that way. The blood-sucking bat goes "peep peep". The ghoul attacks you. The blow strikes your plate armour (which has 3 stamina points left). The ghoul shuffles about. 
+What now? SE
+
+You can't go that way. The ghoul attacks you. The blow strikes your plate armour (which has 2 stamina points left). The ghoul howls eerily. 
+What now? SW
+
+You can't go that way. The ghoul attacks you. The blow strikes your plate armour, shattering it. The ghoul flexes its slab-like muscles. 
+What now? NW
+
+You can't go that way. The ghoul attacks you, causing 6 points of damage. You have 74 stamina points. The ghoul shuffles about. 
+What now? NW
+
+You can't go that way. The ghoul attacks you but you dodge. 
+What now? S
+
+You can't go that way. The ghoul attacks you, causing 6 points of damage. You have 68 stamina points. 
+What now? S
+
+You can't go that way. The ghoul attacks you but you dodge. The ghoul howls eerily. 
+What now? W
+
+You can't go that way. The ghoul attacks you but you dodge. 
+What now? EXAMINE METALLIC GOLEM
+You can't see the metallic golem. 
+What now? REMOVE ROBES
+
+OK. 
+The blood-sucking bat goes "peep peep". The ghoul attacks you, causing 2 points of damage. You have 66 stamina points. The ghoul shuffles about. 
+What now? GIVE ROBES TO GOLEM
+You can't see the metallic golem. 
+What now? EXAMINE MAIL
+You can't see the silver mail. 
+What now? DOWN
+
+You can't go that way. The ghoul attacks you but you dodge. The ghoul howls eerily. 
+What now? NW
+
+You can't go that way. The blood-sucking bat goes "peep peep". The ghoul attacks you but you dodge. 
+What now? SW
+
+You can't go that way. The ghoul attacks you, causing 4 points of damage. You have 62 stamina points. 
+What now? W
+
+You can't go that way. The blood-sucking bat stretches its wings. The ghoul attacks you but you dodge. The ghoul howls eerily. 
+What now? SE
+
+You can't go that way. The blood-sucking bat goes "peep peep". The ghoul attacks you, causing 5 points of damage. You have 57 stamina points. 
+What now? E
+
+You are in a marble hall, its vaulted ceiling supported by graceful columns that seem at first glance to be marred by ugly brown stains, but which, on closer inspection, prove to be wooden pillars covered with peeling paper that has been painted to simulate marble. The walls, too, are paper-covered, their crimson and green mottlings hiding rough granite blocks. 
+What now? SE
+
+You can't go that way. The blood-sucking bat stretches its wings. 
+What now? CUT WEB
+web: I can't see it. 
+What now? GET CROWBAR
+You can't see the crowbar. 
+What now? W
+
+You are in a once-good room now fallen into disrepair. You can see a ghoul. There is a feeling of magik. The blood-sucking bat eyes a vein in your neck. The ghoul attacks you but you dodge. The ghoul flexes its slab-like muscles. 
+What now? N
+
+You can't go that way. The ghoul attacks you, causing 6 points of damage. You have 51 stamina points. The ghoul shuffles about. 
+What now? NW
+
+You can't go that way. The blood-sucking bat eyes a vein in your neck. The ghoul attacks you, causing 4 points of damage. You have 47 stamina points. The ghoul flexes its slab-like muscles. 
+What now? E
+
+You are in a marble hall, its vaulted ceiling supported by graceful columns that seem at first glance to be marred by ugly brown stains, but which, on closer inspection, prove to be wooden pillars covered with peeling paper that has been painted to simulate marble. The walls, too, are paper-covered, their crimson and green mottlings hiding rough granite blocks. The blood-sucking bat stretches its wings. 
+What now? NE
+
+You are on a roof garden, cold and silent, hemmed in by grey stone and made dark and wet by the dank mist. A few bright herbs cling to life; lonely survivors from the time when the sun still shone and caring hands tended the garden. 
+What now? W
+
+You can't go that way. 
+What now? GIVE CROWBAR
+You can't see the crowbar. 
+What now? HOP IN
+
+You can't jump on that. 
+What now? CAST FIN AT ME
+
+You don't know that spell (if indeed it is a spell). 
+The blood-sucking bat eyes a vein in your neck. 
+What now? DOWN
+
+You can't go that way. The blood-sucking bat goes "peep peep". 
+What now? READ PLAQUE
+plaque: I can't see it. 
+What now? WAIT
+
+Time passes. The blood-sucking bat stretches its wings. 
+What now? TAKE ALL
+
+You must supply an object. The blood-sucking bat goes "peep peep". 
+What now? N
+
+You can't go that way. 
+What now? N
+
+You can't go that way. The blood-sucking bat stretches its wings. 
+What now? N
+
+You can't go that way. The blood-sucking bat eyes a vein in your neck. 
+What now? N
+
+You can't go that way. The blood-sucking bat goes "peep peep". 
+What now? NW
+
+You are in the north tower. Across from you and to one side lies the dismal roof garden, and above you a tower ascends into darkness. You can see a rope. There is a feeling of magik. 
+What now? N
+
+You can't go that way. The blood-sucking bat stretches its wings. 
+What now? SW
+
+You can't go that way. 
+What now? S
+
+You can't go that way. The blood-sucking bat eyes a vein in your neck. 
+What now? CAST FLY AT WEIGHT
+You can't see the weight. 
+What now? GET TALISMAN
+You can't see the talisman. 
+What now? N
+
+You can't go that way. The blood-sucking bat goes "peep peep". 
+What now? NE
+
+You can't go that way. The blood-sucking bat stretches its wings. 
+What now? NE
+
+You can't go that way. The blood-sucking bat eyes a vein in your neck. 
+What now? EXAMINE CHERUB
+You can't see the chubby stone cherub. 
+What now? CAST BOM AT CHERUB
+You can't see it. 
+What now? GET TRUMPET
+You can't see the trumpet. 
+What now? SE
+
+You are on a roof garden, cold and silent, hemmed in by grey stone and made dark and wet by the dank mist. A few bright herbs cling to life; lonely survivors from the time when the sun still shone and caring hands tended the garden. The blood-sucking bat goes "peep peep". 
+What now? NE
+
+You can't go that way. 
+What now? N
+
+You can't go that way. The blood-sucking bat stretches its wings. 
+What now? GIVE PENDULUM
+
+OK. 
+The blood-sucking bat eyes a vein in your neck. 
+What now? N
+
+You can't go that way. 
+What now? S
+
+You can't go that way. 
+What now? SW
+
+You are in a marble hall, its vaulted ceiling supported by graceful columns that seem at first glance to be marred by ugly brown stains, but which, on closer inspection, prove to be wooden pillars covered with peeling paper that has been painted to simulate marble. The walls, too, are paper-covered, their crimson and green mottlings hiding rough granite blocks. The blood-sucking bat goes "peep peep". 
+What now? CAST ZEN
+
+You are transported to another place.. 
+You are in the mists of time. 
+Your sanity is shaken. 
+What now? S
+
+You are in the mists of time. The blood-sucking bat stretches its wings. 
+What now? S
+
+You are in the mists of time. 
+What now? D
+
+You slither down a greasy chute, which slams shut behind you. 
+You are in a cold store, whose freezing air catches in your throat and numbs your nose and ears. You can see some snow. 
+What now? WAIT
+
+Time passes. The blood-sucking bat eyes a vein in your neck. You start to shiver. Your teeth start to clatter like castanets. 
+What now? EXAMINE SNOW
+
+Grey and flaky, and looks as if had been lying here a long time. 
+The blood-sucking bat goes "peep peep". 
+What now? GET CRYSTAL BALL
+crystal: I can't see it. You can't see the black ball. 
+What now? GET BLACK BALL
+black: I can't see it. You can't see it. 
+What now? CAST ZEN
+
+You are transported to another place.. 
+You are in the mists of time. 
+The blood-sucking bat stretches its wings. 
+What now? S
+
+You are in the mists of time. 
+What now? E
+
+You are in the mists of time. The blood-sucking bat eyes a vein in your neck. 
+What now? D
+
+You slither down a greasy chute, which slams shut behind you. 
+You are in an ante-alcove, its arched entrance engraved with indecipherable runes. From a brass curtain-rod, hang rich, blue-velvet drapes. You can see an altar. On it is a red moon. There is a feeling of magik. 
+What now? TOUCH MOON
+
+As soon as you touch the moon, a thrill runs through your body, and you feel very youthful. You recoil in surprise. 
+The blood-sucking bat goes "peep peep". 
+What now? CAST FLY AT MOON
+
+You don't know that spell (if indeed it is a spell). 
+The blood-sucking bat stretches its wings. 
+What now? EXAMINE ALTAR
+
+A small lump of rock, dwarfed by a stone moon. On it is a red moon. 
+What now? S
+
+You are in an ante-chapel filled with glowing red light, its walls carved with scenes from the life of Zog. Wooden pews face the alcove to the north, and a bunch of dead flowers lies in a dusty heap in one corner. There is a feeling of magik. 
+What now? SW
+
+You are in a distorted junction where every plane runs where it will, with a total disregard for correct interspacial relationships. The angles where they join are insane, eye-wrenching collisions between walls and floors, walls and ceilings, ceilings and floors - that defy comprehension and leave the observer's mind reeling. 
+What now? S
+
+You are on a yellow river which roils between the walls of a deep chasm, its waters swift and turbid. It lashes at the boulders upon its dismal shores with a booming roar, echoing and re-echoing through endless tunnels. 
+What now? SE
+
+You are in a rock-walled room, where the air trembles with the far-off boom of rushing waters. Yet the room itself is dry and warm, and a pleasant smell of old polish and metal-cleaner hangs in the air. You can see a picture of Stonehenge. 
+What now? EXAMINE PICTURE
+
+Of Stonehenge, cut off from the people by blood-stained razor-wire. A column of fake Druids parades solemnly between the massive stones. 
+What now? CAST BOM AT PICTURE
+
+That spell requires a trumpet as focus. 
+The blood-sucking bat eyes a vein in your neck. 
+What now? SE
+
+You can't go that way. The blood-sucking bat goes "peep peep". 
+What now? SE
+
+You can't go that way. The blood-sucking bat stretches its wings. 
+What now? W
+
+You can't go that way. 
+What now? NW
+
+You are on a yellow river which roils between the walls of a deep chasm, its waters swift and turbid. It lashes at the boulders upon its dismal shores with a booming roar, echoing and re-echoing through endless tunnels. The blood-sucking bat eyes a vein in your neck. 
+What now? S
+
+You are on a slide of slime which glistens viscidly against the yellow mud. The air trembles with the far-off boom of rushing waters. You can see a giant slug. It attacks you, causing 4 points of damage. You have 43 stamina points. The giant slug focuses all its eyes in your direction. The blood-sucking bat stretches its wings. 
+What now? GET BLUE BOX
+blue: I can't see it. box: I can't see it. 
+The giant slug attacks you, causing 7 points of damage. You have 36 stamina points. The giant slug shuffles about. The blood-sucking bat goes "peep peep". 
+What now? EXAMINE BLUE BOX
+blue: I can't see it. box: I can't see it. 
+The giant slug attacks you, causing 7 points of damage. You have 29 stamina points. The blood-sucking bat stretches its wings. 
+What now? N
+
+You are on a yellow river which roils between the walls of a deep chasm, its waters swift and turbid. It lashes at the boulders upon its dismal shores with a booming roar, echoing and re-echoing through endless tunnels. The blood-sucking bat eyes a vein in your neck. 
+What now? SW
+
+You can't go that way. The blood-sucking bat goes "peep peep". 
+What now? W
+
+You can't go that way. 
+What now? NE
+
+You can't go that way. The blood-sucking bat stretches its wings. 
+What now? NE
+
+You can't go that way. The blood-sucking bat eyes a vein in your neck. 
+What now? N
+
+You are in a distorted junction where every plane runs where it will, with a total disregard for correct interspacial relationships. The angles where they join are insane, eye-wrenching collisions between walls and floors, walls and ceilings, ceilings and floors - that defy comprehension and leave the observer's mind reeling. The blood-sucking bat goes "peep peep". 
+What now? RUB TALISMAN
+You can't see the talisman. 
+What now? N
+
+You are in a better hole, where the air is dry and the earthen walls are sealed with a rough coating of yellow clay. A cool breeze stirs the air, and from far, far away, a faint rumbling boom echoes with the sound of running water. The blood-sucking bat stretches its wings. 
+What now? NE
+
+You can't go that way. 
+What now? E
+
+You can't go that way. The blood-sucking bat eyes a vein in your neck. 
+What now? E
+
+You can't go that way. 
+What now? IN
+
+You can't go that way. 
+What now? D
+
+You can't go that way. 
+What now? D
+
+You can't go that way. The blood-sucking bat goes "peep peep". 
+What now? D
+
+You can't go that way. The blood-sucking bat stretches its wings. 
+What now? SW
+
+You can't go that way. The blood-sucking bat eyes a vein in your neck. 
+What now? N
+
+You are in a hole, hacked from the damp earth, and shored up with blackened timbers. Roots trail down from the ceiling, their tendrils groping for moisture in the empty air, and wriggling bundles of pale, eyeless worms squirm upon the floor. 
+What now? READ RIDDLE
+You can't see the riddle. 
+What now? S
+
+You are in a better hole, where the air is dry and the earthen walls are sealed with a rough coating of yellow clay. A cool breeze stirs the air, and from far, far away, a faint rumbling boom echoes with the sound of running water. The blood-sucking bat goes "peep peep". 
+What now? NE
+
+You can't go that way. 
+What now? U
+
+You can't go that way. The blood-sucking bat stretches its wings. 
+What now? U
+
+You can't go that way. The blood-sucking bat eyes a vein in your neck. 
+What now? U
+
+You can't go that way. The blood-sucking bat goes "peep peep". 
+What now? OUT
+
+You can't go that way. The blood-sucking bat stretches its wings. 
+What now? SW
+
+You can't go that way. The blood-sucking bat eyes a vein in your neck. 
+What now? EXAMINE LAKE
+lake: I can't see it. 
+What now? DRINK WATER
+
+You can't see it. 
+What now? RUB TALISMAN
+You can't see the talisman. 
+What now? E
+
+You can't go that way. The blood-sucking bat goes "peep peep". 
+What now? E
+
+You can't go that way. The blood-sucking bat stretches its wings. 
+What now? NW
+
+You can't go that way. The blood-sucking bat eyes a vein in your neck. 
+What now? NE
+
+You can't go that way. The blood-sucking bat goes "peep peep". 
+What now? N
+
+You are in a hole, hacked from the damp earth, and shored up with blackened timbers. Roots trail down from the ceiling, their tendrils groping for moisture in the empty air, and wriggling bundles of pale, eyeless worms squirm upon the floor. The blood-sucking bat stretches its wings. 
+What now? NW
+
+You can't go that way. The blood-sucking bat eyes a vein in your neck. 
+What now? N
+
+You can't go that way. The blood-sucking bat goes "peep peep". 
+What now? SE
+
+You can't go that way. 
+What now? E
+
+You can't go that way. 
+What now? U
+
+You are in a stairway, its cast-iron rungs clattering beneath your feet, the banister smooth and cold under your grasping hand. The blood-sucking bat stretches its wings. 
+What now? W
+
+You can't go that way. 
+What now? N
+
+You can't go that way. The blood-sucking bat eyes a vein in your neck. 
+What now? SW
+
+You can't go that way. 
+What now? S
+
+You can't go that way. The blood-sucking bat goes "peep peep". 
+What now? PUSH PANEL
+You can't see the panel. 
+What now? NW
+
+You can't go that way. The blood-sucking bat stretches its wings. 
+What now? N
+
+You can't go that way. 
+What now? CAST SPY
+
+You don't know that spell (if indeed it is a spell). 
+What now? CAST XAM
+
+It's not magik. 
+The blood-sucking bat eyes a vein in your neck. Your sanity is shaken. 
+What now? CAST DED
+
+You don't know that spell (if indeed it is a spell). 
+What now? CAST HYP AT BAT
+
+You don't know that spell (if indeed it is a spell). 
+The blood-sucking bat goes "peep peep". 
+What now? BAT TAKE WHEEL
+It looks around, as if searching for something. The blood-sucking bat doesn't seem to care. 
+What now? GET WHEEL
+You can't see the wheel. 
+What now? CAST ZEN
+
+You are transported to another place.. 
+You are in the mists of time. 
+The blood-sucking bat stretches its wings. 
+What now? S
+
+You are in the mists of time. 
+What now? E
+
+You are in the mists of time. The blood-sucking bat eyes a vein in your neck. 
+What now? E
+
+You are in the mists of time. The blood-sucking bat goes "peep peep". 
+What now? E
+
+You are in the mists of time. 
+What now? E
+
+You are in the mists of time. The blood-sucking bat stretches its wings. 
+What now? S
+
+You are in the mists of time. 
+What now? S
+
+You are in the mists of time. The blood-sucking bat eyes a vein in your neck. 
+What now? S
+
+You are in the mists of time. The blood-sucking bat goes "peep peep". 
+What now? S
+
+You are in the mists of time. 
+What now? D
+
+You slither down a greasy chute, which slams shut behind you. 
+You are in a winding corridor which twists and turns aimlessly, and seemingly without any pattern. The walls are made from smooth rock, their curves so subtle that they must have been the work of masons of the far distant past. You can see a picture of werewolves. The blood-sucking bat stretches its wings. 
+What now? N
+
+You are in a silvery room. The walls shimmer with an ethereal light, paler than the gleam of metal, soft as the petals of a china flower. You can see a picture by moon light. The blood-sucking bat eyes a vein in your neck. 
+What now? N
+
+You are in a green room. Artificial grass sprouts from every available surface, and silk flowers nod in a fan-assisted breeze. A broken pipe,running through the ceiling, presents a fair approximation of rain. The blood-sucking bat goes "peep peep". 
+What now? SE
+
+You are in a red room. Every surface is lacquered a different shade of red, and any patterns are done in black, so that the effect is hot, dry, and thirsty. The blood-sucking bat stretches its wings. 
+What now? N
+
+You are in a dark room. The atmosphere is heavy, weighing down upon you, as though the air were charged with mystic power. A low humming begins at the back of your skull, more felt than heard. You can see a picture of dark spawn. The blood-sucking bat eyes a vein in your neck. 
+What now? EXAMINE PICTURE
+
+Of a hellish dark spawn, clawing its way through the black places beneath the earth. 
+The blood-sucking bat goes "peep peep". 
+What now? CAST BOM AT PICTURE
+
+That spell requires a trumpet as focus. 
+What now? GET CLAW
+You can't see the claw. 
+What now? S
+
+You are in a red room. Every surface is lacquered a different shade of red, and any patterns are done in black, so that the effect is hot, dry, and thirsty. The blood-sucking bat stretches its wings. 
+What now? CAST ZEN
+
+You are transported to another place.. 
+You are in the mists of time. 
+What now? S
+
+You are in the mists of time. The blood-sucking bat eyes a vein in your neck. 
+What now? E
+
+You are in the mists of time. The blood-sucking bat goes "peep peep". 
+What now? E
+
+You are in the mists of time. 
+What now? E
+
+You are in the mists of time. The blood-sucking bat stretches its wings. 
+What now? E
+
+You are in the mists of time. The blood-sucking bat eyes a vein in your neck. 
+What now? S
+
+You are in the mists of time. 
+What now? S
+
+You are in the mists of time. The blood-sucking bat goes "peep peep". 
+What now? S
+
+You are in the mists of time. The blood-sucking bat stretches its wings. 
+What now? D
+
+You slither down a greasy chute, which slams shut behind you. 
+You are in a palatial portico, its pointed roof supported on four huge columns of figured marble. Two griffins rampant guard the tops of the two staircases that ascend from the plain below, their mighty wings upraised. You can see some giant army ants. The blood-sucking bat eyes a vein in your neck. The giant army ants attack you, causing 3 points of damage. You have 26 stamina points. The giant army ants wave their antennae furiously. 
+What now? CAST IBM AT ANTS
+
+You don't know that spell (if indeed it is a spell). 
+The giant army ants attack you but you dodge. 
+What now? OPEN DOOR
+
+The seething ants are between you and the door. 
+The giant army ants attack you but you dodge. The giant army ants wave their antennae furiously. 
+What now? IN
+
+The giant army ants won't let you. They attack you but you dodge. 
+What now? N
+
+You can't go that way. The blood-sucking bat goes "peep peep". The giant army ants attack you but you dodge. The giant army ants wave their antennae furiously. 
+What now? NW
+
+You can't go that way. The blood-sucking bat stretches its wings. The giant army ants attack you, causing 5 points of damage. You have 21 stamina points. The giant army ants wave their antennae furiously. 
+What now? N
+
+You can't go that way. The giant army ants attack you, causing 3 points of damage. You have 18 stamina points. 
+What now? N
+
+You can't go that way. The giant army ants attack you but you dodge. The giant army ants wave their antennae furiously. 
+What now? SE
+
+You can't go that way. The blood-sucking bat eyes a vein in your neck. The giant army ants attack you but you dodge. 
+What now? CAST ESP EAST
+
+That spell requires a crystal ball as focus. 
+The giant army ants attack you, causing 4 points of damage. You have 14 stamina points. 
+The giant army ants won't let you. The blood-sucking bat goes "peep peep". The giant army ants attack you but you dodge. The giant army ants wave their antennae furiously. 
+What now? EXAMINE IDOL
+You can't see the stone idol. 
+What now? CAST ESP EAST
+
+That spell requires a crystal ball as focus. 
+The blood-sucking bat stretches its wings. The giant army ants attack you, causing 5 points of damage. You have 9 stamina points. 
+The giant army ants won't let you. The blood-sucking bat eyes a vein in your neck. The giant army ants attack you but you dodge. The giant army ants wave their antennae furiously. 
+What now? CAST BOM AT IDOL
+You can't see the stone idol. 
+What now? CAST ESP EAST
+
+That spell requires a crystal ball as focus. 
+The blood-sucking bat goes "peep peep". The giant army ants attack you but you dodge. The giant army ants wave their antennae furiously. 
+The giant army ants won't let you. The blood-sucking bat stretches its wings. The giant army ants attack you, causing 4 points of damage. You have 5 stamina points. 
+What now? CAST HYP AT IDOL
+You can't see the stone idol. 
+What now? CAST ESP EAST
+
+That spell requires a crystal ball as focus. 
+The blood-sucking bat eyes a vein in your neck. The giant army ants attack you but you dodge. 
+The giant army ants won't let you. The blood-sucking bat goes "peep peep". The giant army ants attack you but you dodge. 
+What now? IDOL OPEN DOOR
+Enjoy talking to yourself, do you?
+What now? LOOK
+
+You are in a palatial portico, its pointed roof supported on four huge columns of figured marble. Two griffins rampant guard the tops of the two staircases that ascend from the plain below, their mighty wings upraised. You can see some giant army ants. The blood-sucking bat stretches its wings. The giant army ants attack you, causing 1 point of damage. You have 4 stamina points. The giant army ants wave their antennae furiously. 
+What now? E
+
+The giant army ants won't let you. They attack you, causing 3 points of damage. You have 1 stamina points. The giant army ants wave their antennae furiously. 
+What now? NE
+
+You can't go that way. The giant army ants attack you but you dodge. 
+What now? S
+
+You can't go that way. The giant army ants attack you but you dodge. The giant army ants wave their antennae furiously. 
+What now? S
+
+You can't go that way. The giant army ants attack you but you dodge. 
+What now? CAST FLY AT ME
+
+You don't know that spell (if indeed it is a spell). 
+The blood-sucking bat eyes a vein in your neck. The giant army ants attack you but you dodge. The giant army ants wave their antennae furiously. 
+What now? CAST FLY AT ME
+
+You don't know that spell (if indeed it is a spell). 
+The blood-sucking bat goes "peep peep". The giant army ants attack you, causing 5 points of damage. You seem to be dead. You got to be 55 percent sane, a shaman and felt 24 years old. The adventure is over. 
+Which do you want to do, RESTART, RESTORE, UNDO or RAM RESTORE? S
+S
+EXAMINE GARGOYLE
+NW
+FEAR
+CAST ESP NW
+CAST SAN AT MYGLAR
+CAST ESP NW
+CAST DED AT MYGLAR
+YES
+#quit

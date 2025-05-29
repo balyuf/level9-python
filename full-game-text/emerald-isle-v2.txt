@@ -1,9 +1,7 @@
 Welcome to Level 9's Emerald Isle, copyright (C) 1985. 
 You are in the topmost branches of a mangrove. The only exit is down. Your parachute is snagged on a branch and you swing from it, unable to move, dangling high above the jungle floor.
 What next? #title: Emerals Isle test script
-Invalid command
 #comment: BBC version
-Invalid command
 #SEED 42
 Seed set to 42
 RELEASE PARACHUTE
@@ -2359,7 +2357,9 @@ What next? SAY WEALTH
 What next? W
 
 You are in a beautiful room. The only exit is east. You've won! A peal of bells rings out to mark your triumph, and to summon the people for a victory celebration. The King runs in and shakes you by the hand before leading you in a triumphal procession through cheering crowds.
- The carnival lasts for days, culminating with your enthronement as Ruler of the Emerald Isle and Supreme Arbitrator of decisions. Well done!!
- If you enjoyed this game, why not try 'Red Moon' and 'the Price of Magik', later games in the same series.
+
+The carnival lasts for days, culminating with your enthronement as Ruler of the Emerald Isle and Supreme Arbitrator of decisions. Well done!!
+
+If you enjoyed this game, why not try 'Red Moon' and 'the Price of Magik', later games in the same series.
 You score 1000/1000 and are a Grandmaster Adventurer, Ruler of Emerald Isle and all-round hero.
 Another game? N

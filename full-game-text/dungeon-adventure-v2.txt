@@ -4,9 +4,7 @@ There is a piece of driftwood here
 A huge packing case, open at one end, rests on the ground
 What next?
 #title: Dungeon Adventure test script
-Invalid command
 #comment: CPC version
-Invalid command
 #SEED 42
 Seed set to 42
 U
@@ -1897,11 +1895,11 @@ What next?
 PRESS BUTTON 9
 RIGHT! Your vision blurs...
 You are in the reward room. This is empty too and has only 5 numbered buttons, labelled as follows...
- 1: Great wealth;
- 2: Eternal life;
- 3: World peace;
- 4: Mystery prize;
- 5: Nothing.
+1: Great wealth;
+2: Eternal life;
+3: World peace;
+4: Mystery prize;
+5: Nothing.
 A sign invites you to choose your prize.
 What next?
 PRESS BUTTON 4

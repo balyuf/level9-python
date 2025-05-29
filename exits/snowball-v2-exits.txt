@@ -1,5 +1,5 @@
-Snowball Adventure - Location Exit Definition
----------------------------------------------
+Snowball Adventure - Location Exit Definitions
+----------------------------------------------
 
 Bit configuration:
 

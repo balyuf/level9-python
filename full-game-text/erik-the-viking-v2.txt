@@ -1,8 +1,6 @@
 Welcome to the Saga of Erik the Viking from Level 9 Computing.
 What now? #title: The Saga of Erik the Viking test script
-Invalid command
 #comment: Spectrum version
-Invalid command
 #SEED 42
 Seed set to 42
 D

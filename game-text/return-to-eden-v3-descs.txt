@@ -1,0 +1,1062 @@
+0x0001  /  0x03c7 (0x0001)  :  
+0x0003  /  0x03ca (0x0001)  : , 
+0x0004  /  0x03cc (0x0001)  : . 
+0x0005  /  0x03ce (0x0002)  : 
+
+0x0006  /  0x03d1 (0x0003)  :  and 
+0x0007  /  0x03d5 (0x0003)  : .
+
+0x0008  /  0x03d9 (0x0001)  : north
+0x0009  /  0x03db (0x0002)  : northeast
+0x000a  /  0x03de (0x0001)  : east
+0x000b  /  0x03e0 (0x0001)  : south
+0x000c  /  0x03e2 (0x0002)  : southeast
+0x000d  /  0x03e5 (0x0002)  : southwest
+0x000e  /  0x03e8 (0x0001)  : west
+0x000f  /  0x03ea (0x0002)  : northwest
+0x0010  /  0x03ed (0x0001)  : up
+0x0011  /  0x03ef (0x0001)  : down
+0x0012  /  0x03f1 (0x0001)  : in
+0x0013  /  0x03f3 (0x0001)  : out
+0x0014  /  0x03f5 (0x0002)  : across
+0x0015  /  0x03f8 (0x0004)  : exits are 
+0x0016  /  0x03fd (0x0006)  :  (through a door)
+0x0017  /  0x0404 (0x0008)  :  (through an open door)
+0x0018  /  0x040d (0x0003)  : you are 
+0x0019  /  0x0411 (0x0004)  : you own 
+0x001a  /  0x0416 (0x0005)  : and are wearing 
+0x001b  /  0x041c (0x0004)  : you can see 
+0x001c  /  0x0421 (0x0007)  : 
+What now? 
+0x001d  /  0x0429 (0x0004)  : I don't understand
+0x001e  /  0x042e (0x0004)  : eh? 
+0x001f  /  0x0433 (0x0004)  : pardon? 
+0x0020  /  0x0438 (0x0005)  : please say more. 
+0x0021  /  0x043e (0x0004)  : please elaborate. 
+0x0022  /  0x0443 (0x0009)  : that verb needs an object. 
+0x0023  /  0x044d (0x0007)  : can you rephrase that? 
+0x0024  /  0x0455 (0x0005)  : be more specific. 
+0x0025  /  0x045b (0x0006)  : I nearly understand. 
+0x0026  /  0x0462 (0x0006)  : what a mouthful! 
+0x0027  /  0x0469 (0x0003)  : you can't. 
+0x0028  /  0x046d (0x0004)  : silly! 
+0x0029  /  0x0472 (0x0003)  : you can't see
+0x002a  /  0x0476 (0x0005)  : you've not got
+0x002b  /  0x047c (0x0004)  : you already have
+0x002c  /  0x0481 (0x0004)  : that.
+
+0x002d  /  0x0486 (0x0004)  : you can't take
+0x002e  /  0x048b (0x0004)  : you can't wear
+0x002f  /  0x0490 (0x0007)  : your hands are full. 
+0x0030  /  0x0498 (0x0004)  : it's dark. 
+0x0031  /  0x049d (0x0002)  : ? 
+0x0032  /  0x04a0 (0x0005)  : nothing happens. 
+0x0033  /  0x04a6 (0x0005)  : doesn't work. 
+0x0034  /  0x04ac (0x0006)  : there's no effect. 
+0x0035  /  0x04b3 (0x0004)  : really stop
+0x0036  /  0x04b8 (0x0006)  : another game? 
+0x0037  /  0x04bf (0x0004)  : really restore
+0x0038  /  0x04c4 (0x000a)  : 
+YES or NO, please. 
+0x0039  /  0x04cf (0x0007)  : 
+You score 
+0x003a  /  0x04d7 (0x0009)  :  out of 1000 and are a 
+0x003b  /  0x04e1 (0x000a)  : sorry, can't say any more. 
+0x003c  /  0x04ec (0x0005)  : nothing.
+
+0x003d  /  0x04f2 (0x0007)  : you can't move that way. 
+0x003e  /  0x04fa (0x000a)  : ouch! Bumped into a door. 
+0x003f  /  0x0505 (0x000b)  : the door shuts with a satisfied sigh. 
+0x0040  /  0x0511 (0x0006)  : it's already open. 
+0x0041  /  0x0518 (0x0006)  : it's already closed. 
+0x0042  /  0x051f (0x0003)  : you find
+0x0043  /  0x0523 (0x0005)  : do WHAT with 
+0x0044  /  0x0529 (0x0007)  : No one should attack
+0x0046  /  0x0532 (0x0006)  : the only exit is 
+0x0047  /  0x0539 (0x0001)  : :
+0x004d  /  0x053c (0x0005)  : you can't do that to
+0x004e  /  0x0542 (0x0008)  : it's not possible to do that to
+0x004f  /  0x054b (0x0008)  : your efforts have no effect on
+0x0050  /  0x0554 (0x0007)  : a bean [aka] strong
+0x0051  /  0x055c (0x0005)  : a blue berry
+0x0052  /  0x0562 (0x0007)  : a bug [aka] humbug
+0x0053  /  0x056a (0x0003)  : a cloak
+0x0054  /  0x056e (0x0007)  : a cherry [aka] bomb
+0x0055  /  0x0576 (0x0007)  : some foxgloves [aka] gloves
+0x0056  /  0x057e (0x0007)  : a geranium [aka] manna
+0x0057  /  0x0586 (0x0003)  : a log
+0x0058  /  0x058a (0x0003)  : a pineapple
+0x0059  /  0x058e (0x0003)  : a pod
+0x005a  /  0x0592 (0x0009)  : a seed [aka] suckseed suck-seed
+0x005b  /  0x059c (0x0007)  : a shoot [aka] parachute
+0x005c  /  0x05a4 (0x0007)  : a stalk [aka] drum
+0x005d  /  0x05ac (0x0009)  : a stem [aka] ship boat
+0x005e  /  0x05b6 (0x0007)  : some tubers [aka] oars
+0x005f  /  0x05be (0x0005)  : some plane twigs
+0x0060  /  0x05c4 (0x0005)  : a crumpled note
+0x0061  /  0x05ca (0x0008)  : a clump of vegetable balloons
+0x0062  /  0x05d3 (0x0005)  : a rubber band
+0x0063  /  0x05d9 (0x0005)  : a brick egg
+0x0064  /  0x05df (0x0005)  : a dry bulb
+0x0065  /  0x05e5 (0x0005)  : a stone fruit
+0x0066  /  0x05eb (0x0005)  : some fish fungus
+0x0067  /  0x05f1 (0x0003)  : a wishbone
+0x0068  /  0x05f5 (0x0005)  : a cold leaf
+0x0069  /  0x05fb (0x0005)  : a sweet pea
+0x006a  /  0x0601 (0x0003)  : a pill
+0x006b  /  0x0605 (0x0009)  : your roots [aka] twisted tree
+0x006c  /  0x060f (0x0003)  : a telescope
+0x006d  /  0x0613 (0x0005)  : a cling vine
+0x006e  /  0x0619 (0x0009)  : a figleaf [aka] fig leaf
+0x0073  /  0x0624 (0x0003)  : a helmet
+0x0074  /  0x0628 (0x0003)  : a leotard
+0x0075  /  0x062c (0x0007)  : a radsuit [aka] suit
+0x0076  /  0x0634 (0x0002)  : tradclads
+0x0077  /  0x0637 (0x0003)  : a watch
+0x0078  /  0x063b (0x0005)  : an anaesthetic spray
+0x0079  /  0x0641 (0x0003)  : a calculator
+0x007a  /  0x0645 (0x0003)  : a catapult
+0x007b  /  0x0649 (0x0003)  : a compass
+0x007c  /  0x064d (0x0005)  : a credit card
+0x007d  /  0x0653 (0x0006)  : a pair of cutters
+0x007e  /  0x065a (0x0005)  : a geiger counter
+0x007f  /  0x0660 (0x0005)  : an identity document
+0x0080  /  0x0666 (0x000a)  : a flask of water [aka] bottle
+0x0082  /  0x0672 (0x0003)  : a note
+0x0083  /  0x0676 (0x000a)  : Pepsy Koala [aka] bear Pepsi
+0x0084  /  0x0681 (0x0003)  : a plate
+0x0085  /  0x0685 (0x0007)  : a radcom [aka] radio
+0x0086  /  0x068d (0x0007)  : a screwfinger [aka] finger
+0x0087  /  0x0695 (0x0007)  : a spade [aka] shovel
+0x0088  /  0x069d (0x0005)  : a train ticket
+0x0089  /  0x06a3 (0x0005)  : a travel pass
+0x008a  /  0x06a9 (0x0003)  : a tent
+0x008b  /  0x06ad (0x0009)  : a packet [aka] washing powder
+0x008d  /  0x06b8 (0x0003)  : a starter
+0x008e  /  0x06bc (0x0003)  : a visor
+0x009a  /  0x06c1 (0x0009)  : a house plant [aka] colossal
+0x009b  /  0x06cb (0x0009)  : a very fragile branch leading east
+0x009c  /  0x06d5 (0x0005)  : a large nest
+0x009d  /  0x06db (0x0003)  : a lever
+0x009e  /  0x06df (0x0007)  : quicksand blocking the way east
+0x00a1  /  0x06e8 (0x000c)  : a metal barrier marked with three 0s
+0x00a2  /  0x06f5 (0x0003)  : a bed
+0x00a3  /  0x06f9 (0x0008)  : a bevomat with a small slot
+0x00a4  /  0x0702 (0x0008)  : buttons numbered 0 to 9
+0x00a5  /  0x070b (0x0003)  : some cables
+0x00a7  /  0x0710 (0x0009)  : the City Fathers [aka] city
+0x00a8  /  0x071a (0x0005)  : the emergency cord
+0x00aa  /  0x0721 (0x0008)  : a fence blocking the way east
+0x00ab  /  0x072a (0x0002)  : fire
+0x00ac  /  0x072d (0x0006)  : fountains playing merrily
+0x00ad  /  0x0734 (0x0003)  : a grating
+0x00ae  /  0x0738 (0x0005)  : a drainage grid
+0x00af  /  0x073e (0x0005)  : a ventilation grill
+0x00b6  /  0x0745 (0x0005)  : a mushmat machine
+0x00b8  /  0x074c (0x0003)  : some pillars
+0x00b9  /  0x0750 (0x0012)  : the plug which takes power to Big Robot [aka] big robot
+0x00ba  /  0x0763 (0x0005)  : the Fabulous Riverboat
+0x00bb  /  0x0769 (0x0005)  : a huge screen
+0x00bc  /  0x076f (0x0003)  : some seaweed
+0x00bf  /  0x0774 (0x0003)  : a wall
+0x00c0  /  0x0778 (0x0007)  : a well [aka] Well
+0x00c2  /  0x0781 (0x000d)  : a tall statue with a crack in the base
+0x00c4  /  0x0790 (0x0009)  : the Ouija Bird [aka] bird
+0x00c8  /  0x079b (0x0003)  : an autoscythe
+0x00c9  /  0x079f (0x0007)  : a weeder [aka] tractor
+0x00cc  /  0x07a8 (0x0009)  : an ant army [aka] ants
+0x00cd  /  0x07b2 (0x0005)  : a see bee
+0x00cf  /  0x07b9 (0x0007)  : the leviathan [aka] leviathon
+0x00d3  /  0x07c2 (0x0003)  : the boss
+0x00da  /  0x07c7 (0x0008)  : a gang of Hell's Angels
+0x00db  /  0x07d0 (0x0003)  : a busker
+0x00dc  /  0x07d4 (0x0009)  : Big Robot [aka] big robot
+0x00dd  /  0x07de (0x000a)  : a bodyguard carrying your credit card
+0x00de  /  0x07e9 (0x0003)  : a croupier
+0x00e0  /  0x07ee (0x0010)  : some derelict robots who eye you suspiciously [aka] derelicts
+0x00e2  /  0x0800 (0x0008)  : the Robot Godfather [aka] robot
+0x00e3  /  0x0809 (0x0007)  : a golem called Graunch
+0x00e6  /  0x0812 (0x0003)  : some nudibots
+0x00e8  /  0x0817 (0x000a)  : robot tramps, sprawled by the fire
+0x00e9  /  0x0822 (0x0009)  : a Cherubim with a flaming sword
+0x00ea  /  0x082c (0x0005)  : no one here wants
+0x00eb  /  0x0832 (0x0008)  : yeuch! No thanks!
+0x00ec  /  0x083b (0x0004)  : it opens. 
+0x00ed  /  0x0840 (0x0003)  : it closes
+0x00ee  /  0x0844 (0x0007)  : I didn't expect that. 
+0x00ef  /  0x084c (0x0008)  : 
+you're dead.
+
+0x00f4  /  0x0856 (0x000d)  : light flares around. It slowly fades. 
+0x00f6  /  0x0865 (0x0008)  : be more careful in future. 
+0x00f7  /  0x086e (0x000a)  : something goes bump in the dark
+0x00f8  /  0x0879 (0x0009)  : sorry, I can't help here. 
+0x00fa  /  0x0884 (0x0004)  : mere Earthling
+0x00fb  /  0x0889 (0x0006)  : 7th Class Ensign
+0x00fc  /  0x0890 (0x0002)  : mechanic
+0x00fd  /  0x0893 (0x0002)  : Mayor
+0x00fe  /  0x0896 (0x0004)  : Megastar Adventurer
+0x00ff  /  0x089b (0x0074)  : 
+Welcome to Return to Eden, the second of the Silicon Dreams, copyright (C) 1986 Level 9 Computing.
+After your rescue of the Snowball 9 starship, you were astonished to learn that fire-damaged videos from the control centre seemed to show you as the saboteur. Unjustly sentenced for hijacking, you managed to steal a stratoglider to escape and, after a brief flight, have crash-landed on Eden. 
+0x0100  /  0x0911 (0x0008)  : you hear nothing special. 
+0x0101  /  0x091a (0x0010)  : magic is for fantasy games - this is for real. 
+0x0102  /  0x092b (0x0005)  : tocks tick 
+0x0103  /  0x0931 (0x0007)  : you start to yawn.
+0x0104  /  0x0939 (0x000c)  : you eat the bean and feel stronger. 
+0x0105  /  0x0946 (0x001a)  : fire explodes through the sky! The orbiting Snowball has turned its particle-beam engines towards you! 
+0x0106  /  0x0961 (0x003e)  : you sink into a deep and peaceful slumber. The whole room seems to close in and a massive explosion passes harmlessly, above. But you're not wearing anything to protect yourself against the radioactive fallout generated in the blast. 
+0x0108  /  0x09a1 (0x0017)  : the ground shakes and a massive blast of fiery air smashes you against a wall. 
+0x010a  /  0x09ba (0x0042)  : you sink into a deep and peaceful slumber. The whole room seems to close in and a massive explosion passes harmlessly, above. Protected by your radsuit from the initial fallout, you dream of how the city robots are slaughtering Eden's wildlife. 
+0x010b  /  0x09fe (0x0009)  : the passage above is blocked. 
+0x010c  /  0x0a08 (0x0009)  : you've already done that! 
+0x010d  /  0x0a12 (0x0005)  : very tasty! 
+0x010e  /  0x0a18 (0x000b)  : you need a spade to dig here. 
+0x010f  /  0x0a24 (0x0006)  : you can't dig here. 
+0x0110  /  0x0a2b (0x0012)  : you dig into the molehill, and find a passage leading down. 
+0x0111  /  0x0a3e (0x000b)  : you dig a passage leading upwards. 
+0x0112  /  0x0a4a (0x0012)  : the Snowball's colossal serpentine skyhook descends through the clouds above. 
+0x0113  /  0x0a5d (0x000c)  : modulated lighting flashes from the skyhook and 
+0x0114  /  0x0a6a (0x0029)  : a voice booms out, "Kim Kimberley, you have been found guilty of hijack and murder. Your sentence will now be carried out." 
+0x0115  /  0x0a94 (0x0018)  : the skyhook is reeled back up, towards the orbiting Snowball starship invisibly far above. 
+0x0117  /  0x0aae (0x0019)  : the geiger counter sounds a warning shriek. Do you want to wait until it is safer
+0x0118  /  0x0ac8 (0x0017)  : you wait for several hours, until the geiger counter is ticking more slowly. 
+0x0119  /  0x0ae0 (0x0017)  : you step boldly out into the smoking landscape. Deadly radiation is all around! 
+0x011a  /  0x0af8 (0x0035)  : an enormous parrot appears from the undergrowth. "Har Har", she squawks, "I'll just take this 'ere booty and put it in my nest deep in the maize." 
+0x011b  /  0x0b2e (0x000f)  : the bean husk withers to allow you to leave. 
+0x011c  /  0x0b3e (0x000c)  : a brick coloured bird appears overhead. 
+0x011e  /  0x0b4c (0x0024)  : the bird swoops down and eats the pea. With a cry of "Ouija!", it lays a peculiar egg and departs. 
+0x011f  /  0x0b71 (0x000e)  : the brick sprouts into a colossal house plant. 
+0x0121  /  0x0b81 (0x0005)  : the time is 
+0x0122  /  0x0b87 (0x000c)  : a bird of paradise flutters through the trees. 
+0x0123  /  0x0b94 (0x000a)  : a little squirrel peers through the leaves. 
+0x0124  /  0x0b9f (0x0008)  : a rat races past. 
+0x0125  /  0x0ba8 (0x000b)  : it sinks its teeth into the radsuit 
+0x0126  /  0x0bb4 (0x0005)  : which protects you. 
+0x0127  /  0x0bba (0x000b)  : and kills you with a poisoned bite. 
+0x0128  /  0x0bc6 (0x000d)  : it lights up, "Out of order". 
+0x0129  /  0x0bd4 (0x000a)  : a little cuddly bear pops out. 
+0x012a  /  0x0bdf (0x000e)  : a sign lights up, "Credit refused". 
+0x012c  /  0x0bef (0x000a)  : the derelicts shuffle into your path. 
+0x012d  /  0x0bfa (0x0008)  : the tramps trip you up. 
+0x012e  /  0x0c03 (0x0016)  : the flask has as much effect on a raging bonfire as you would expect. 
+0x012f  /  0x0c1a (0x0013)  : the Godfather cowers back from the water and drops your credit card immediately. 
+0x0130  /  0x0c2e (0x0020)  : the ceiling collapses, cutting the power cables. Hundreds of robots rush in to protect their supply of juice. 
+0x0131  /  0x0c4f (0x000c)  : the see bee lands and drops something. 
+0x0132  /  0x0c5c (0x000c)  : the see bee won't let you leave. 
+0x0133  /  0x0c69 (0x000e)  : the see bee takes the telescope and buzzes off. 
+0x0134  /  0x0c78 (0x0018)  : you are feeling feverish. Perhaps some of the radiation got through to you, after all. 
+0x0135  /  0x0c91 (0x000e)  : you are very feverish and your hair is falling out. 
+0x0136  /  0x0ca0 (0x0009)  : you are very ill and collapse. 
+0x0137  /  0x0caa (0x000c)  : there is a low droning noise overhead. 
+0x0138  /  0x0cb7 (0x000a)  : a helicopter gunship clatters past. 
+0x0139  /  0x0cc2 (0x000d)  : it hovers overhead and a ray blasts you. 
+0x013a  /  0x0cd0 (0x000f)  : a leviathan rises from the water and blocks your way! 
+0x013b  /  0x0ce0 (0x000a)  : you paddle the boat a little way. 
+0x013c  /  0x0ceb (0x000b)  : you need some kind of boat! 
+0x013d  /  0x0cf7 (0x0006)  : you have no oars. 
+0x013e  /  0x0cfe (0x0012)  : the cables are well armoured, and resist your best efforts. 
+0x013f  /  0x0d11 (0x0013)  : the leviathan snaps up the fungus and swims away, grinning broadly. 
+0x0140  /  0x0d25 (0x0006)  : you can't squeeze that. 
+0x0141  /  0x0d2c (0x0011)  : as the water touches the bulb, it grows into a shoot. 
+0x0142  /  0x0d3e (0x0008)  : water gushes from the log. 
+0x0143  /  0x0d47 (0x0009)  : you leap into the void and 
+0x0144  /  0x0d51 (0x000e)  : plunge to the rocks hundreds of feet below. 
+0x0145  /  0x0d60 (0x0009)  : the parashoot breaks your fall. 
+0x0146  /  0x0d6a (0x0008)  : it freezes your hands! 
+0x0147  /  0x0d73 (0x000a)  : you sink rapidly in the quicksand. 
+0x0148  /  0x0d7e (0x0010)  : perhaps some help is needed to tell which way is north. 
+0x0149  /  0x0d8f (0x000a)  : frost forms round the leaf. 
+0x014a  /  0x0d9a (0x0007)  : the quicksand freezes! 
+0x014b  /  0x0da2 (0x0010)  : you hurl one end of the vine upwards, over a branch. 
+0x014c  /  0x0db3 (0x000d)  : the foxgloves protect you from the cold leaf. 
+0x014d  /  0x0dc1 (0x0006)  : you unearth some roots. 
+0x014e  /  0x0dc8 (0x0012)  : you glue the branch. It might take a little weight now. 
+0x014f  /  0x0ddb (0x0008)  : the branch gives way! 
+0x0152  /  0x0de5 (0x0009)  : the vine hangs from a branch. 
+0x0154  /  0x0df0 (0x0013)  : you pull at the balloons and a few of them come free. 
+0x0155  /  0x0e04 (0x000f)  : the balloons are lifting you, do you want to hang on
+0x0156  /  0x0e14 (0x000b)  : the balloons carry you up gently! 
+0x0158  /  0x0e21 (0x0015)  : you can't hold on any longer, but fortunately some trees break your fall. 
+0x015a  /  0x0e38 (0x0007)  : the balloons drift away. 
+0x015b  /  0x0e40 (0x000b)  : you play a brisk march rhythm. 
+0x015c  /  0x0e4c (0x0012)  : the ants all rise in a body, salute and follow you. 
+0x015d  /  0x0e5f (0x0008)  : the ants are following you. 
+0x015e  /  0x0e68 (0x000a)  : the ants break down the fence. 
+0x015f  /  0x0e73 (0x0009)  : the ants are getting restless. 
+0x0160  /  0x0e7d (0x000d)  : the ants won't follow you any longer. 
+0x0161  /  0x0e8b (0x000c)  : you step on a mine: Boom! 
+0x0162  /  0x0e98 (0x000d)  : the cherry explodes on the ground beside you! 
+0x0163  /  0x0ea6 (0x0016)  : you don't throw the bomb far enough and it explodes about twenty feet away. 
+0x0164  /  0x0ebd (0x0013)  : you catapult the bomb into the centre of the minefield. It explodes 
+0x0165  /  0x0ed1 (0x0007)  : destroying all the mines. 
+0x0166  /  0x0ed9 (0x000a)  : the sensors detect you. Powee. 
+0x0167  /  0x0ee4 (0x0012)  : the little bug hums a complicated tune to confuse the sensors. 
+0x0168  /  0x0ef7 (0x000e)  : you tie the rubber band into decorative knots. 
+0x0169  /  0x0f06 (0x0011)  : you tie the band to the wishbone, making a catapult. 
+0x016a  /  0x0f18 (0x000d)  : the tower has spotted you! Zap! 
+0x016b  /  0x0f26 (0x0004)  : the autoscythe 
+0x016c  /  0x0f2b (0x0004)  : the weeder 
+0x016d  /  0x0f30 (0x0003)  : arrives. 
+0x016e  /  0x0f34 (0x0002)  : leaves. 
+0x016f  /  0x0f37 (0x000c)  : it tips some rubbish into the hot river. 
+0x0170  /  0x0f44 (0x0010)  : including you! The river sweeps you along the shore. 
+0x0171  /  0x0f55 (0x0009)  : you are riding on the weeder. 
+0x0172  /  0x0f5f (0x0009)  : you are riding on the autoscythe. 
+0x0173  /  0x0f69 (0x0004)  : is waiting. 
+0x0174  /  0x0f6e (0x000c)  : an alarm sounds as you reach the water. 
+0x0175  /  0x0f7b (0x0019)  : you're too light to sink under the water, so you dash back into the wheat field. 
+0x0176  /  0x0f95 (0x000b)  : your load drags you down under the water. 
+0x0177  /  0x0fa1 (0x0009)  : the suckseed provides you with air. 
+0x0178  /  0x0fab (0x0008)  : you are running out of air. 
+0x0179  /  0x0fb4 (0x0006)  : you must have air. 
+0x017a  /  0x0fbb (0x0004)  : you suffocate. 
+0x017b  /  0x0fc0 (0x000d)  : the Cherubim blocks you with its flaming sword. 
+0x017d  /  0x0fcf (0x0008)  : some weed claws at you. 
+0x017e  /  0x0fd8 (0x000b)  : a frond of weed claws at you. 
+0x017f  /  0x0fe4 (0x000f)  : some weed emerges from the sea and reaches for you. 
+0x0180  /  0x0ff4 (0x0009)  : it claws you into the sea. 
+0x0181  /  0x0ffe (0x0009)  : it falls back into the sea. 
+0x0182  /  0x1008 (0x000f)  : the tower sees the wheat moving and fires! 
+0x0183  /  0x1018 (0x000e)  : a bird deliberately smashes against the city dome. 
+0x0184  /  0x1027 (0x0011)  : a root whips towards the dome but is blasted apart. 
+0x0185  /  0x1039 (0x000f)  : a toothed beast is shot by a forest fighter. 
+0x0186  /  0x1049 (0x004b)  : Big Robot blocks your way with one great metal paw, "You fleshies are all alike. Think you own the place and can treat us robots as slaves. We'll have none of your Three-Laws colonialism here.. Give me 500 creds if you want to pass." 
+0x0187  /  0x1096 (0x0027)  : Big Robot rejects it scornfully, "This pitiful sum is nowhere near enough. Go and win some more from that rustbox, Graunch." 
+0x0188  /  0x10be (0x0016)  : Big Robot stretches out a heavy foot and sends you sprawling down the corridor. 
+0x0189  /  0x10d5 (0x001f)  : Big Robot keeps the card and salutes, mockingly, "That's better. Now get your carcase out of here. " 
+0x018a  /  0x10f5 (0x002a)  : Graunch clears its throat: "Aha, a rich citizen. Here's a riddle for you, we'll bet 100 credits on the answer..
+
+0x018b  /  0x1120 (0x0013)  : "wrong! Heh, heh, crash grrrm.." 
+0x018c  /  0x1134 (0x000d)  : "right, the credits are yours." 
+0x018d  /  0x1142 (0x001a)  : "Grrrm! Graunch! Clash!" You can't pay and Graunch attacks... 
+0x018e  /  0x115d (0x001e)  : Graunch looks apologetic.. "Sorry, I've run out of riddles. Come back next week." 
+0x018f  /  0x117c (0x0008)  : 
+"Try another. 
+0x0190  /  0x1185 (0x0013)  : as you reach for the card, a droid steals it and runs south. 
+0x0191  /  0x1199 (0x001f)  : beside a stratoglider in a meadow of strange bright flowers. A warm breeze wafts gently through the long grass
+0x0192  /  0x11b9 (0x0008)  : amidst whispering blue grass
+0x0193  /  0x11c2 (0x0007)  : wandering through dancing butterflies
+0x0194  /  0x11ca (0x0018)  : on a huge molehill rising from the grass. The ground is very soft [aka] hill
+0x0195  /  0x11e3 (0x0006)  : wandering over the plain
+0x0196  /  0x11ea (0x000a)  : strolling pleasantly through the blue grass
+0x0197  /  0x11f5 (0x001d)  : amidst the charred remains of a spacecraft on a bleak, burnt plain. There are no signs of life
+0x0198  /  0x1213 (0x0006)  : on a blasted plain
+0x0199  /  0x121a (0x0009)  : on a burnt and ruined plain
+0x019a  /  0x1224 (0x0006)  : trudging through the ashes
+0x019b  /  0x122b (0x0004)  : in the ashes
+0x019c  /  0x1230 (0x0011)  : on a blasted heath. One or two plants still live
+0x019d  /  0x1242 (0x0009)  : inside the molehill [aka] hill
+0x019e  /  0x124c (0x000d)  : in a sloping passage which widens as it descends
+0x019f  /  0x125a (0x0009)  : in a network of earthy passages
+0x01a0  /  0x1264 (0x0006)  : in a blocked passage
+0x01a1  /  0x126b (0x0009)  : in an immense, domed cave
+0x01a2  /  0x1275 (0x000d)  : in a comfortable cave strewn with soft leaves
+0x01a3  /  0x1283 (0x0006)  : at a tunnel junction
+0x01a4  /  0x128a (0x0005)  : at the tunnel's end
+0x01a5  /  0x1290 (0x0007)  : scrabbling on loose earth
+0x01a6  /  0x1298 (0x000f)  : in a tunnel which ends at a solid rock face
+0x01a7  /  0x12a8 (0x0007)  : in a maze of maize
+0x01a8  /  0x12b0 (0x0007)  : in a maze of maize
+0x01a9  /  0x12b8 (0x0007)  : in a maze of maize
+0x01aa  /  0x12c0 (0x0007)  : in a maze of maize
+0x01ac  /  0x12c9 (0x0005)  : inside the houseplant
+0x01ad  /  0x12cf (0x0008)  : in a human bean husk
+0x01ae  /  0x12d8 (0x0004)  : on a trunk
+0x01af  /  0x12dd (0x000c)  : amongst the aerial roots of a giant tree
+0x01b0  /  0x12ea (0x000d)  : in the heart wood, within radiating branches
+0x01b1  /  0x12f8 (0x0006)  : on a north-south trunk
+0x01b2  /  0x12ff (0x0008)  : in the giant redwood tree
+0x01b3  /  0x1308 (0x000a)  : in the very giant greenwood tree
+0x01b4  /  0x1313 (0x000a)  : within a confusion of tangled twigs
+0x01b5  /  0x131e (0x000b)  : on the platform east of the branch line
+0x01b6  /  0x132a (0x0008)  : at the tip of a tree
+0x01b8  /  0x1334 (0x000d)  : in the shade of great trees [aka] platform
+0x01b9  /  0x1342 (0x000a)  : in the Cathedral forest [aka] platform
+0x01ba  /  0x134d (0x000b)  : standing on bent boughs [aka] platform
+0x01bb  /  0x1359 (0x000c)  : halfway up the giant tree [aka] platform
+0x01bc  /  0x1366 (0x003e)  : in the treetops. The forest stretches south from a meandering river, below you, and continues on to the sea. To the east, the forest ends and cultivated land can be seen. Further east is an enormous dome [aka] platform
+0x01bd  /  0x13a5 (0x000c)  : clinging to the topmost branches [aka] platform
+0x01be  /  0x13b2 (0x0005)  : in luxuriant undergrowth
+0x01bf  /  0x13b8 (0x0019)  : amongst twisted tree roots. The soft forest earth gives way slightly as you step on it
+0x01c0  /  0x13d2 (0x0011)  : feeling claustrophobic. The trees seem to press tightly together
+0x01c1  /  0x13e4 (0x0008)  : squeezing through a hothouse forest
+0x01c2  /  0x13ed (0x0004)  : beside a leafpile
+0x01c3  /  0x13f2 (0x0019)  : on a woodpile. The branches are lower here and one is almost within reach [aka] branch
+0x01c4  /  0x140c (0x0008)  : under a spreading chestnut tree
+0x01c5  /  0x1415 (0x0007)  : deep in bush country
+0x01c6  /  0x141d (0x0005)  : in Keystone Coppice
+0x01c7  /  0x1423 (0x000c)  : on a well trodden path [aka] Well
+0x01c8  /  0x1430 (0x0005)  : in pleasant woodland
+0x01c9  /  0x1436 (0x000a)  : at a bend in the forest path
+0x01ca  /  0x1441 (0x0009)  : in a grove of young saplings
+0x01cb  /  0x144b (0x0014)  : on green sward which ends at a high cliff [aka] Ouija bird
+0x01cc  /  0x1460 (0x000e)  : on the cliff top, south of a tremendous waterfall
+0x01cd  /  0x146f (0x0015)  : on a tiny island at the brink of an awe-inspiring waterfall shrouded in spray
+0x01ce  /  0x1485 (0x001a)  : on the riverbank. Reeds and bullrushes grow all around. Maize grows on the opposite bank
+0x01cf  /  0x14a0 (0x0005)  : in soggy woodland
+0x01d0  /  0x14a6 (0x001b)  : on the river bank at the north side of the river. In the distance is a field of maize
+0x01d1  /  0x14c2 (0x000e)  : on the north bank of the river near a huge waterfall
+0x01d2  /  0x14d1 (0x000c)  : in a dense jungle south of a huge waterfall
+0x01d3  /  0x14de (0x000b)  : in a pleasant water meadow beside a quagmire
+0x01d4  /  0x14ea (0x0005)  : in treacherous fenland
+0x01d6  /  0x14f1 (0x0007)  : sailing near the north bank
+0x01d7  /  0x14f9 (0x000c)  : on the river, close to the south bank
+0x01d8  /  0x1506 (0x000a)  : below the north bank of the river
+0x01d9  /  0x1511 (0x0015)  : on the river near the south bank. There is a clump of trees to the south
+0x01da  /  0x1527 (0x0009)  : on the river near the north bank
+0x01db  /  0x1531 (0x0012)  : sailing beside the south bank, just upstream from an enormous waterfall
+0x01dc  /  0x1544 (0x000f)  : swimming just below the surface of the cool river
+0x01dd  /  0x1554 (0x000e)  : swimming underwater in the cool river [aka] water
+0x01de  /  0x1563 (0x000f)  : swimming underwater through a myriad water plants [aka] water
+0x01df  /  0x1573 (0x0006)  : swimming further downstream
+0x01e0  /  0x157a (0x0006)  : near the river bed
+0x01e1  /  0x1581 (0x000a)  : swimming at the bottom of the river
+0x01e2  /  0x158c (0x000b)  : swimming through a tunnel under the city wall
+0x01e4  /  0x1599 (0x000d)  : on the beach. Cliffs rear up to the west
+0x01e5  /  0x15a7 (0x001b)  : on the beach at the edge of the sea. To the west is a gate and north lies a wheatfield
+0x01e6  /  0x15c3 (0x000c)  : on the beach, south of a huge wheatfield
+0x01e7  /  0x15d0 (0x0018)  : at the east end of the beach. A warm, wide river flows lazily from the north
+0x01e8  /  0x15e9 (0x000a)  : in a wheatfield by a wide river
+0x01e9  /  0x15f4 (0x0015)  : in the north-west corner of the wheat, on the bank of a wide river
+0x01ea  /  0x160a (0x0016)  : in the middle of a field of golden wheat. To the south lies the beach
+0x01eb  /  0x1621 (0x0014)  : at the south-west edge of the wheatfield. To the west is an unscaleable wall
+0x01ec  /  0x1636 (0x0011)  : in the middle of the wheatfield high above a wide river
+0x01ed  /  0x1648 (0x000a)  : in the north-east corner of the wheatfield
+0x01ee  /  0x1653 (0x0007)  : outside a small door
+0x01ef  /  0x165b (0x000c)  : on clear land south of an observation tower
+0x01f0  /  0x1668 (0x0010)  : on a stretch of clear land west of a high wall
+0x01f1  /  0x1679 (0x001c)  : on a patch of clear land. To the north-east, over the river, looms a huge observation tower
+0x01f2  /  0x1696 (0x0005)  : on clear land
+0x01f3  /  0x169c (0x0013)  : at the edge of the forest, looking out onto the city's defenses
+0x01f4  /  0x16b0 (0x0021)  : at the eastern edge of the forest. Clear land lies east and to the south seaweed rears onto a smooth beach
+0x01f5  /  0x16d2 (0x0027)  : on the north platform. It's suspended by a vine over a pulley. There is a large lever here, which seems to be connected to the vine by some mechanism
+0x01f6  /  0x16fa (0x0021)  : on the south platform, supported by a vine over a pulley. There is a large lever here, connected to the vine in some way
+0x01f9  /  0x171d (0x0006)  : up a sheer cliff
+0x01fa  /  0x1724 (0x0006)  : in the Black Mountains
+0x01fb  /  0x172b (0x0006)  : in the Black Mountains
+0x01fc  /  0x1732 (0x0006)  : in a little kitchen
+0x01fd  /  0x1739 (0x000a)  : beside a little house on the prairie
+0x01fe  /  0x1744 (0x0006)  : in the Broken Lands
+0x01ff  /  0x174b (0x000a)  : beside the Well at the World's end
+0x0200  /  0x1756 (0x0007)  : in the Well of Souls
+0x0201  /  0x175e (0x0005)  : deep in Yearwood
+0x0202  /  0x1764 (0x000b)  : at the end of a road from the east
+0x0203  /  0x1770 (0x0010)  : on a long and winding road past a brick wall
+0x0204  /  0x1781 (0x0008)  : on a yellow brick road
+0x0205  /  0x178a (0x0007)  : at the gate of Ivril
+0x0206  /  0x1792 (0x0008)  : in the ancient city of Lankhmar
+0x0207  /  0x179b (0x000e)  : in the Old Curiosity Shop [aka] old shop
+0x0208  /  0x17aa (0x0003)  : in Dunctonwood
+0x0209  /  0x17ae (0x0010)  : in the Dream Park. Cloying incense clogs the air
+0x020a  /  0x17bf (0x000a)  : in a superb sweltering tropical hothouse
+0x020b  /  0x17ca (0x000d)  : at the Fountains of Paradise [aka] fountains paradise
+0x020c  /  0x17d8 (0x0010)  : in a casino on the Island of the Mighty [aka] island
+0x020e  /  0x17ea (0x000f)  : on the Shores of Death. There is a landing stage
+0x020f  /  0x17fa (0x0003)  : at Earthsea
+0x0210  /  0x17fe (0x0016)  : at the Vermilion Sands Naturist Reserve. "Leave your woes with your clothes"
+0x0211  /  0x1815 (0x0041)  : on many coloured sand, east of a wall, in the middle of Enoch's Theme Park - a recreation area for when the colonists arrive. If it's anything like similar sites on Earth, there will be adverts all over the place
+0x0213  /  0x1859 (0x001a)  : in an east-west river tunnel. A doorway leads south. A grating noise echoes from the east
+0x0214  /  0x1874 (0x0016)  : south of the river. It flows east into a dark tunnel beneath the city wall
+0x0215  /  0x188b (0x0008)  : in a blocked ventilator shaft
+0x0216  /  0x1894 (0x0006)  : at a ventilator junction
+0x0217  /  0x189b (0x0006)  : in the ventilation system
+0x0218  /  0x18a2 (0x000a)  : at a dead end ventilator pipe
+0x0219  /  0x18ad (0x000f)  : at the north end of an echoing hall hall hall..
+0x021a  /  0x18bd (0x0006)  : in an echoing hall
+0x021b  /  0x18c4 (0x0007)  : south of the echo chamber
+0x021c  /  0x18cc (0x0008)  : between massive double doors
+0x021d  /  0x18d5 (0x0013)  : at a cross junction. An ominous hissing noise comes from the west
+0x021e  /  0x18e9 (0x0015)  : at the north end of a bare hall. In the centre is a blazing fire
+0x021f  /  0x18ff (0x000d)  : in the huge hall to the west of the fire
+0x0220  /  0x190d (0x000b)  : in the hall to the east of the fire
+0x0221  /  0x1919 (0x000a)  : at a throne made from robot parts
+0x0222  /  0x1924 (0x0008)  : in an air conditioning duct
+0x0223  /  0x192d (0x0006)  : at a duct junction
+0x0224  /  0x1934 (0x0007)  : at the end of the duct
+0x0225  /  0x193c (0x0006)  : at the duct terminus
+0x0226  /  0x1943 (0x0008)  : at the end of in the duct
+0x0227  /  0x194c (0x0008)  : in a very tight recess
+0x0228  /  0x1955 (0x0008)  : in a room of twisty roots
+0x0229  /  0x195e (0x000a)  : amidst a pile of electrical cabling
+0x022a  /  0x1969 (0x0006)  : beside the blazing fire
+0x0235  /  0x1971 (0x0006)  : in a dark tunnel
+0x0238  /  0x1979 (0x000a)  : in a dimly lit train tunnel
+0x0239  /  0x1984 (0x000d)  : on the track below a platform [aka] train
+0x023a  /  0x1992 (0x000c)  : on a grubby subway platform [aka] train
+0x023b  /  0x199f (0x0008)  : at the station ticket barrier
+0x023c  /  0x19a8 (0x000b)  : on a tatty bench in a shabby train
+0x023f  /  0x19b5 (0x0008)  : in a blue glass elevator
+0x0240  /  0x19be (0x001b)  : near the floor button of the elevator. If you walked down the corridor to the south, you'd be 
+0x0241  /  0x19da (0x000d)  : at Grindpin and Clone, unisex dental stylists
+0x0242  /  0x19e8 (0x0018)  : in the National Mid Lloyd Bank: "Come and listen to the talking bank"
+0x0243  /  0x1a01 (0x000a)  : in the Orange Cross Charity shop
+0x0244  /  0x1a0c (0x000d)  : at Conwoman Swindler and Crook, Estate Agents
+0x0245  /  0x1a1a (0x0016)  : in Mssrs Bodger, Bungler and Co. DIY products for the amateur handywoman
+0x0247  /  0x1a32 (0x0013)  : in the hospital. Gleaming Nightingales clank their way down endless corridors
+0x0249  /  0x1a47 (0x0008)  : at the Lost Property dept
+0x024a  /  0x1a50 (0x000b)  : in Sharkey's Travel Agents [aka] travel
+0x024c  /  0x1a5d (0x0006)  : at the cop shop
+0x024d  /  0x1a64 (0x000a)  : in the hallway of an unoccupied habihome
+0x024e  /  0x1a6f (0x0008)  : in the hallway of your habihome
+0x0250  /  0x1a79 (0x0008)  : behind bars in a cell
+0x0251  /  0x1a82 (0x0008)  : in a maximum security prison
+0x0252  /  0x1a8b (0x000d)  : in a bodymaint. Gym equipment is scattered about
+0x0253  /  0x1a99 (0x0004)  : in your bodymaint
+0x0254  /  0x1a9e (0x0006)  : in a vacant habihome
+0x0255  /  0x1aa5 (0x000d)  : in your own comfortable habihome. It's very cosy
+0x0256  /  0x1ab3 (0x0004)  : on a balcony
+0x0257  /  0x1ab8 (0x0011)  : on your balcony. There is a spectacular view of apartment pyramids
+0x0258  /  0x1aca (0x0006)  : on a flat roof
+0x0259  /  0x1ad1 (0x000d)  : in the foyer of City Hall [aka] hall
+0x025a  /  0x1adf (0x0008)  : in the palatial reception area
+0x025b  /  0x1ae8 (0x000a)  : in a plastiwood panelled committee room
+0x025c  /  0x1af3 (0x0008)  : in a cramped voting booth
+0x025d  /  0x1afc (0x0007)  : in the corridors of power
+0x025e  /  0x1b04 (0x0007)  : in the corridors of power
+0x025f  /  0x1b0c (0x0007)  : in the corridors of power
+0x0260  /  0x1b14 (0x0006)  : in the council chamber
+0x0261  /  0x1b1b (0x0006)  : in the board room
+0x0262  /  0x1b22 (0x000c)  : in the city fathers' computer room
+0x0263  /  0x1b2f (0x000d)  : on the seat of power under an enormous holoscreen
+0x0266  /  0x1b3e (0x0006)  : at the check in
+0x0267  /  0x1b45 (0x0014)  : in the spaceport waiting room. Dozens of waldroids lie around waiting
+0x0268  /  0x1b5a (0x0008)  : in the spaceport enquiry area
+0x0269  /  0x1b63 (0x0006)  : at the enquiry desk
+0x026a  /  0x1b6a (0x001d)  : in the duty free shop. Rows and rows of exotic objects with equally exotic prices confront you
+0x026b  /  0x1b88 (0x0006)  : in the embarkation lounge
+0x026c  /  0x1b8f (0x0009)  : in the green lane through Customs
+0x026d  /  0x1b99 (0x0008)  : west of a huge docking bay
+0x026e  /  0x1ba2 (0x0014)  : east of the docking bay, beside an airlock and a starbike [aka] bike
+0x026f  /  0x1bb7 (0x0009)  : in an airlock with iris doors
+0x0270  /  0x1bc1 (0x0007)  : where the cylinder ends
+0x0271  /  0x1bc9 (0x0006)  : at a plasteel junction
+0x0272  /  0x1bd0 (0x000a)  : in a cupboard off the plasteel tube
+0x0273  /  0x1bdb (0x0007)  : where the cylinder ends
+0x0274  /  0x1be3 (0x0009)  : at a junction of wide cylinders
+0x0275  /  0x1bed (0x000b)  : in a long tubeway beside an airlock
+0x0276  /  0x1bf9 (0x0006)  : in a soft tube
+0x0277  /  0x1c00 (0x0008)  : in a habiviron activity area
+0x0278  /  0x1c09 (0x0006)  : in a rest zone
+0x0279  /  0x1c10 (0x0008)  : in a small smooth cubicle
+0x027a  /  0x1c19 (0x0008)  : in a dirty air duct
+0x027b  /  0x1c22 (0x0009)  : in the Snowball 9 control room
+0x027c  /  0x1c2c (0x0006)  : in a north-south walkway
+0x027d  /  0x1c33 (0x0004)  : in a T-junction
+0x027e  /  0x1c38 (0x0008)  : in an east-west transit tube
+0x027f  /  0x1c41 (0x0008)  : on a wide sloping ramp
+0x0280  /  0x1c4a (0x000d)  : on a thin ledge round a red cylinder
+0x0281  /  0x1c58 (0x0009)  : at the top of Jacob's ladder
+0x0282  /  0x1c62 (0x000a)  : in a padded room [aka] padding
+0x0283  /  0x1c6d (0x0025)  : in the control room of a crashed stratoglider. A vision screen shows the strange plants on Eden. There's an opening behind you
+0x0284  /  0x1c93 (0x0006)  : in a walk-in cupboard
+0x0285  /  0x1c9a (0x0006)  : in a space bus
+0x0286  /  0x1ca1 (0x000c)  : in the cargo hold of the space bus
+0x0287  /  0x1cae (0x0009)  : astride a starbike [aka] bike
+0x028b  /  0x1cb9 (0x0005)  : 
+there are 
+0x028c  /  0x1cbf (0x0008)  :  creds left.
+
+0x028d  /  0x1cc8 (0x000b)  : a gang of Hell's Angels appears. 
+0x028e  /  0x1cd4 (0x000a)  : the gang close in, menacingly. 
+0x028f  /  0x1cdf (0x0007)  : the gang runs off. 
+0x0290  /  0x1ce7 (0x002d)  : as you enter the writhing roots hiss to each other: "Sisters, it does not carry our mark". They rise up and attack with threshing coils. 
+0x0291  /  0x1d15 (0x000d)  : the roots welcome you as one of their own. 
+0x0292  /  0x1d23 (0x0020)  : you pull the plug on Big Robot and hear, in the distance, the sound of him crashing to the ground. 
+0x0293  /  0x1d44 (0x0007)  : the fire drives you back. 
+0x0294  /  0x1d4c (0x0025)  : what goes on four feet, on two feet, then three, but the more feet it goes on the weaker it be?" 
+0x0295  /  0x1d72 (0x0028)  : the rich woman wants it, the wise woman is sure of it, the fool understands it, but the poor woman already has it." 
+0x0296  /  0x1d9b (0x0033)  : our blood is cold. We do not sleep. Quiet whispers are our talk. We are the giants who eat the sun, beneath our arms men walk."
+0x0297  /  0x1dcf (0x001f)  : this blind god conquers all, with a kind of madness. Foolishness from wisdom, happiness from sadness." 
+0x0298  /  0x1def (0x003c)  : you all know me, you don't trust me. Yet you give me life. Without muscles, I am mighty, no man is my chief. You can't see me, only hear me, I'm the secrets thief." 
+0x0299  /  0x1e2c (0x001e)  : a great healer, wasted yet kept by many. Beaten, she runs out and flies away." 
+0x029a  /  0x1e4b (0x0040)  : when I came, you didn't feel me. I am here though you can't see me. When I've left you, you won't miss me. No one even knows what I be. Yet I am your most valuable possesion!" 
+0x029b  /  0x1e8d (0x002c)  : a pet to many folk belongs, to welcome us she licks warmly. Hungry, she eats with raging tongues, a dangerous playmate is she!" 
+0x029c  /  0x1eba (0x0055)  : I am the genii in the box, I think but I am not. I have no arms or legs and yet I work until I'm hot. To talk to me you hit my head, and coffee makes me fail. I have no mouth and so I must eat my food through my tail." 
+0x029d  /  0x1f11 (0x0011)  : get out, riff-raff! Only home-owners are allowed in here! 
+0x029e  /  0x1f23 (0x0012)  : you wrestle with the grill for a while, then give up. 
+0x029f  /  0x1f36 (0x000b)  : you destroy the grill with the cutters. 
+0x02a0  /  0x1f42 (0x0012)  : you dig a tunnel under the wall and arrive at the nudist beach. 
+0x02a1  /  0x1f55 (0x0008)  : the nudibots throw you out. 
+0x02a2  /  0x1f5e (0x000c)  : it is sponsored by the Lost Property dept
+0x02a3  /  0x1f6b (0x0014)  : the busker plays: "Money makes the world go round... 
+0x02a4  /  0x1f80 (0x0012)  : the busker plays: "It's a rich woman's world". 
+0x02a5  /  0x1f93 (0x000e)  : the busker plays: "Pennies from Heaven". 
+0x02a6  /  0x1fa2 (0x0031)  : "Thanks guv, if you want more good music, try up here", she returns the card and opens a hatch above her head, which had previously been invisible. 
+0x02a8  /  0x1fd5 (0x0006)  : it looks edible. 
+0x02a9  /  0x1fdc (0x000a)  : it's more like a glue berry! 
+0x02aa  /  0x1fe7 (0x000d)  : it's a green hum-bug with a sonorous drone. 
+0x02ab  /  0x1ff5 (0x0016)  : the cloak is a flimsy reflective garment which seems to merge in with the background. 
+0x02ac  /  0x200c (0x003c)  : the cherry has a great many tiny air pockets, each with a small stone embedded. The whole thing seems to be swollen with gas at a very high pressure, and looks as if it would explode if dropped. 
+0x02ad  /  0x2049 (0x0011)  : the foxgloves are large flowers with finger shaped hollow petals. 
+0x02ae  /  0x205b (0x000b)  : it's a manna-geranium. Yum yum! 
+0x02af  /  0x2067 (0x0021)  : you have found a slimy chunk of sodden wood. It is so rotten that it feels very much like a sponge. 
+0x02b2  /  0x208a (0x000e)  : it's a large fruit honeycombed with air pockets. 
+0x02b3  /  0x2099 (0x0009)  : it has filmy umbrella-like projections. 
+0x02b4  /  0x20a3 (0x0004)  : it's drum-like. 
+0x02b5  /  0x20a8 (0x000a)  : it looks like a dugout canoe. 
+0x02b6  /  0x20b3 (0x000a)  : they are paddle-shaped pieces of vegetation. 
+0x02b7  /  0x20be (0x000a)  : the twigs resemble drum sticks. 
+0x02b9  /  0x20ca (0x0014)  : the balloons are hollow gourds full of air. They're very big! 
+0x02ba  /  0x20df (0x0008)  : feels like stretchy latex. 
+0x02bb  /  0x20e8 (0x000f)  : it looks oddly vegetable and is starting to sprout. 
+0x02bc  /  0x20f8 (0x0007)  : it's dry and wizened. 
+0x02bd  /  0x2100 (0x000a)  : it's a very heavy citrus fruit. 
+0x02be  /  0x210b (0x000b)  : phew! It reeks of kippers. 
+0x02bf  /  0x2117 (0x0007)  : it's a strong Y-shape. 
+0x02c0  /  0x211f (0x0007)  : it's freezing cold! 
+0x02c1  /  0x2127 (0x0004)  : it's sickly-sweet. 
+0x02c2  /  0x212c (0x000c)  : a pill a day keeps ill away. 
+0x02c3  /  0x2139 (0x0007)  : they seem very tangled. 
+0x02c4  /  0x2141 (0x004a)  : looking onto the land below, you can see:
+a fence along the forest edge,
+a zone guarded by sensors,
+a minefield,
+a high wall,
+a field patrolled by robot vehicles
+and finally an impenetrable dome over the city. 
+0x02c5  /  0x218d (0x000b)  : it's thick, sticky and very strong. 
+0x02c6  /  0x2199 (0x000b)  : it weighs little and covers a lot. 
+0x02cb  /  0x21a6 (0x0007)  : it's a spacesuit headpiece. 
+0x02cc  /  0x21ae (0x000f)  : it's designed in a body-hugging style by Kevlar Fashions. 
+0x02cd  /  0x21be (0x000a)  : it's lead lined body armour. 
+0x02ce  /  0x21c9 (0x000c)  : they are ugly, shapeless unisex overalls. 
+0x02cf  /  0x21d6 (0x0012)  : it's a solid crystal chronopiece, which doesn't seem to work. 
+0x02d0  /  0x21e9 (0x000a)  : it's a numbing spray of little use. 
+0x02d1  /  0x21f4 (0x0007)  : it seems to be broken. 
+0x02d2  /  0x21fc (0x0007)  : it's very dangerous!! 
+0x02d3  /  0x2204 (0x0007)  : you'll need this! 
+0x02d4  /  0x220c (0x0012)  : it's printed "American Excess - your flexible spend." 
+0x02d5  /  0x221f (0x0005)  : it's very sharp. 
+0x02d6  /  0x2225 (0x0007)  : it's a radiation alarm. 
+0x02d7  /  0x222d (0x000f)  : it's an example of the Pan-galactic wine-coloured Euromart passport. 
+0x02d8  /  0x223d (0x0007)  : it's an old crock. 
+0x02db  /  0x2246 (0x0007)  : it's cute and cuddly. 
+0x02dc  /  0x224e (0x000e)  : it's a piece of sheet metal 3cm square. 
+0x02dd  /  0x225d (0x0007)  : it's a long-distance communicator. 
+0x02de  /  0x2265 (0x0013)  : as its name suggests, it's a small screwdriver worn on the finger. 
+0x02df  /  0x2279 (0x000b)  : it's made of ordinary iridium steel. 
+0x02e0  /  0x2285 (0x0011)  : this voucher entitles the bearer to a free subway ride. 
+0x02e1  /  0x2297 (0x0009)  : it's a subway season ticket. 
+0x02e2  /  0x22a1 (0x0007)  : it's made of canvas. 
+0x02e3  /  0x22a9 (0x0026)  : "Sorelips Mutamatic for ecological whiteness". Printed on the back is a free ticket but you'll have to tear the packet to get at it. 
+0x02e5  /  0x22d1 (0x000d)  : it has a small handle set into the top. 
+0x02e6  /  0x22df (0x000a)  : it is made of ornate transpex. 
+0x02ee  /  0x22eb (0x0008)  : the koala falls asleep. 
+0x02ef  /  0x22f4 (0x000a)  : the koala wets itself over you. 
+0x02f0  /  0x22ff (0x0008)  : the koala scratches itself. 
+0x02f1  /  0x2308 (0x000c)  : the koala knocks something from your hand. 
+0x02f2  /  0x2315 (0x0011)  : the koala writhes about, as if it wants to get free. 
+0x02f3  /  0x2327 (0x000e)  : the koala pulls a note from under the statue. 
+0x02f4  /  0x2336 (0x001a)  : a dumpy droid arrives and takes it away, murmuring "I'll never get it tidy". 
+0x02f5  /  0x2351 (0x0012)  : you tear the packet into a thousand pieces to get the ticket. 
+0x02f6  /  0x2364 (0x0012)  : a little chef appears and asks, "Do you like nukes"
+0x02f7  /  0x2377 (0x0027)  : the chef's eyes pop. "Commie!", she shrieks, "If you don't like fireball heat, stay out of my kitchen!" 
+0x02f8  /  0x239f (0x0036)  : the chef smiles, "Welcome in! I'm always glad to mean another fair-minded and unbiased individual. There aren't many of us about - in fact, you're the first one." 
+0x02f9  /  0x23d6 (0x000e)  : you cross to the other side on the riverboat. 
+0x02fa  /  0x23e5 (0x0006)  : the riverboat arrives. 
+0x02fb  /  0x23ec (0x0005)  : the riverboat leaves. 
+0x02fc  /  0x23f2 (0x0022)  : you arrive at the casino. It is really magnificent, decked out in the best tradition of the casinos of Monte Carlo. 
+0x02fd  /  0x2415 (0x0017)  : the boatwoman, seeing that you are so poor, throws you back onto the bank. 
+0x02fe  /  0x242d (0x001e)  : the croupier discovers that you have no money left, and you are escorted, not very gently, from the island. 
+0x02ff  /  0x244c (0x0025)  : the croupier speaks, in sonorous tones.. "Place your bets, ladies and gentlemen please. Say red or black." 
+0x0300  /  0x2472 (0x000c)  : The wheel spins, and lands on: 
+0x0301  /  0x247f (0x0003)  : RED. 
+0x0302  /  0x2483 (0x0003)  : BLACK. 
+0x0303  /  0x2487 (0x0004)  : you win. 
+0x0304  /  0x248c (0x000a)  : you lose! Oh no! 
+0x0305  /  0x2497 (0x000b)  : the train leaves the station with a swoosh. 
+0x0306  /  0x24a3 (0x0010)  : the train glides into a station, and the doors open. 
+0x0307  /  0x24b4 (0x001b)  : an annoyed-sounding mechanical voice says: "Do not do that while the train is in motion!" 
+0x0308  /  0x24d0 (0x0025)  : while you are walking along the track, you hear a rumbling noise. You look up, straight into a train thundering towards you. 
+0x0309  /  0x24f6 (0x000d)  : the train went through the station without stopping. 
+0x030a  /  0x2504 (0x0006)  : the train is waiting. 
+0x030b  /  0x250b (0x0018)  : the brakes jam on. A sign lights: "Fine is 50 creds." 
+0x030c  /  0x2524 (0x0017)  : you walk down the tunnel for a long way, and eventually arrive at a station platform. 
+0x030d  /  0x253c (0x0007)  : indicator lights flicker. 
+0x030e  /  0x2544 (0x000d)  : the elevator shakes slightly and the door opens. 
+0x030f  /  0x2552 (0x0007)  : the door slides open. 
+0x0310  /  0x255a (0x000a)  : you can't get a grip on the door. 
+0x0311  /  0x2565 (0x0039)  : An android greets you.. "Welcome, Citizen Kim. We're holding a council election and as you're our only human we've added your name to the ballot. Walk right to vote." 
+0x0312  /  0x259f (0x0008)  : only councillors allowed through here. 
+0x0313  /  0x25a8 (0x0016)  : "Do you, a human of voting age, vote for Kim Kimberley"
+0x0314  /  0x25bf (0x0037)  : "That completes the voting. The results are: K. Kimberley, one vote. Others, no votes. I hereby declare K. Kimberley duly elected as a councillor of Enoch." 
+0x0315  /  0x25f7 (0x0007)  : the voting android leaves. 
+0x0316  /  0x25ff (0x002b)  : "Welcome, Councillor. As only representative of the people, er.. Person, you'll naturally be Mayor". Canned cheering resounds through the building. 
+0x0317  /  0x262b (0x003d)  : as you emerge from the bus, some robots grab you. They are preparing to attack the Snowball 9, believing it to be an alien craft, and want you out of the way in case you are a spy. You're locked in a habiviron. 
+0x0318  /  0x2669 (0x0011)  : you feel a jolt as the bus arrives at its destination. 
+0x0319  /  0x267b (0x000c)  : the space bus starts with a lurch. 
+0x031a  /  0x2688 (0x0006)  : the shower is on. 
+0x031b  /  0x268f (0x0006)  : the water drains away. 
+0x031c  /  0x2696 (0x0013)  : the plate blocks the drain and the shower cubicle fills with water. 
+0x031d  /  0x26aa (0x001e)  : a train suddenly appears from one end of the tunnel. You don't even have time to scream before it hits you. 
+0x031e  /  0x26c9 (0x0009)  : you are floating in the shower. 
+0x031f  /  0x26d3 (0x0010)  : you open the grill with your screwfinger, and clamber through. 
+0x0321  /  0x26e5 (0x0008)  : you can't reach the grill. 
+0x0322  /  0x26ee (0x0010)  : you drown in the swirling water, scrabbling at the grill. 
+0x0323  /  0x26ff (0x0015)  : you give the machine a resounding blow, it dispenses an empty plate. 
+0x0324  /  0x2715 (0x000c)  : behind the machine there is nothing but wall. 
+0x0325  /  0x2722 (0x0013)  : behind the bed you can see where the androids painted round it. 
+0x0326  /  0x2736 (0x0010)  : a robot spots you! It starts to run towards you. 
+0x0327  /  0x2747 (0x0007)  : a robot is chasing you. 
+0x0328  /  0x274f (0x0009)  : some more robots join the chase. 
+0x0329  /  0x2759 (0x0009)  : the robots are almost upon you. 
+0x032a  /  0x2763 (0x000d)  : the robots are upon you! They dismantle you. 
+0x032b  /  0x2771 (0x0011)  : the starbike roars into life and carries you to the Snowball 9. 
+0x032c  /  0x2783 (0x0019)  : the robots run past the cupboard where you are hiding and the sound of pursuit fades away. 
+0x032d  /  0x279d (0x001d)  : the bank manager turns up its plastic nose, "I say! Where's one's identity card?" 
+0x032e  /  0x27bb (0x0014)  : a crewmember sees you in the distance, and starts to run towards you. 
+0x032f  /  0x27d0 (0x0019)  : one of the Snowball crewmembers sees you and shouts, "Stop! Murderer at large!" 
+0x0330  /  0x27ea (0x000c)  : someone shouts "Intruder at large." 
+0x0331  /  0x27f7 (0x000c)  : the crew close in, waving handguns. 
+0x0332  /  0x2804 (0x0065)  : the crew in the control room are not pleased to see you. You try to explain about the need to identify the Snowball spaceship as friendly, to the Eden Robots, but they angrily indicate the smashed communication equipment and blame you for the fact that they have no working radio to use for this purpose. You are locked up until, shortly afterwards, the spacebase robots attack the Snowball. 
+0x0333  /  0x286b (0x0006)  : there's no air! 
+0x0334  /  0x2872 (0x0059)  : the crew seize you. Then they notice the radcom and use it to contact the space base, identifying the Snowball 9 properly. The Snowball is saved again! Your role in the whole affair is properly investigated and you are are acclaimed as a Mega-Hero and confirmed as Mayor of all Eden. Congratulations! You have won! 
+0x0335  /  0x28cd (0x0008)  : the screen lights:
+
+0x0336  /  0x28d6 (0x0006)  : the screen fades. 
+0x0337  /  0x28dd (0x002f)  : 1 Intro.
+2 Welcome.
+3 Alien Spacecraft.
+4 War Status.
+5 Destroy Jungle.
+6 Cease fire. 
+0x0338  /  0x290d (0x0011)  : Supreme Eden control system. For use by the Mayor, only. 
+0x0339  /  0x291f (0x0016)  : Welcome, Mayor! Here's to a long and fruitful working relationship! 
+0x033a  /  0x2936 (0x0096)  : urgent news that the spacebase, established in orbit about Eden when the robots first arrived, is about to attack the Snowball 9 under the impression that it's an aggressive alien craft. You can't blame them for thinking this, because the Snowball has ignored all attempts at radio communication - presumably its equipment has still not been mended after the earlier sabotage - and its engines have been used to blast a huge area of the planet. You had better get contact established as soon as possible, and may have to go into space yourself to do this. 
+0x033b  /  0x29cf (0x0020)  : The city is losing the war with the jungle. Select option 5 or 6 to tell us what to do. 
+0x033c  /  0x29f0 (0x001e)  : Attack! The robot Forest Fighters will go on the offensive and blast the forest to a radioactive slag! 
+0x033d  /  0x2a0f (0x0020)  : Cease fire! The robot Forest Fighters will restrict themselves to defensive operations and leave the jungle in peace. 
+0x033e  /  0x2a30 (0x0006)  : the number brightens. 
+0x033f  /  0x2a37 (0x0004)  : . Visit 
+0x0340  /  0x2a3c (0x000a)  : 
+the screen displays:
+
+0x0341  /  0x2a47 (0x0025)  : on a particularly broken rock is engraved, in a wobbly hand: "Use B & O tools for your DIY needs"
+0x0342  /  0x2a6d (0x0026)  : there is a message on a rock, shaped in the form of a Georgian style house: "Buy a Wimpish prestige family habiviron"
+0x0343  /  0x2a94 (0x0011)  : a seductive voice whispers: "Give generously to charity"
+0x0344  /  0x2aa6 (0x0020)  : you find a message on a rock in the shape of a molar: grindpin & clone, unisex dental stylists
+0x0345  /  0x2ac7 (0x0014)  : you find a scrawled message: BOOTY hospitals. We can rebuild you
+0x0346  /  0x2adc (0x000f)  : it reads: For a holiday you'll never forget
+0x0347  /  0x2aec (0x0014)  : you find a mushroom enscribed, "Visit your friendly police force"
+0x0349  /  0x2b02 (0x0010)  : the fountains play water music to advertise the talking bank
+0x034a  /  0x2b13 (0x001a)  : as the dentist advances, you panic and run away. Obviously there is nothing to be gained here. 
+0x034b  /  0x2b2e (0x001e)  : an android pushes you back: "Get lost, peasant. Only the Mayor is allowed past here." 
+0x034c  /  0x2b4d (0x0018)  : your entry is rudely blocked with a cry of, "Push off, Pauper!" 
+0x034d  /  0x2b66 (0x009a)  : the Nightingales in Snowball were only dangerous because they had been reprogrammed by the real hijacker: those here carrying out their normal function as medical robots. Unfortunately, however, they detect that you are suffering from stress, disorientation, flu and slight radiation damage, and insist on a period of bed rest. Then, while you are trying to talk your way out of the hospital, further tests show that you've been outside the city. This means 6 months quarantine and, regrettably, outside events come to a head long before then. 
+0x034e  /  0x2c03 (0x007d)  : the kind bank manager gives you a loan. (How unlike the situation in the UK, back on pre-Reveline Earth, where one could get a 30,000 pound loan to buy a bigger house, but not a 5,000 pound short-term overdraft for one's partnership over Christmas. This happened, we hasten to add, in the early 1980s.) anyway, now banks are run logically, you get your loan without any difficulty. 
+0x034f  /  0x2c82 (0x0038)  : a kind old lady sees your card with glee. Before you can stop her, she has run it through her deductor, saying "Thank you for your generous donation", and left through the back door. 
+0x0350  /  0x2cbb (0x0026)  : The estate agent pokes its head round a corner, does an instant credit rating and claims all its houses are under offer. 
+0x0351  /  0x2ce2 (0x0039)  : The estate agent appears, "I have the perfect house for you. Sold!" It disappears again. You wonder, "How come all these robots are programmed to be such pushy salesmen?"
+0x0352  /  0x2d1c (0x003e)  : You are grabbed by a huge robot whose head has a small fin on top. It grins broadly, says "I see you've got just enough money for a travel pass!" And runs off with your creds. 
+0x0353  /  0x2d5b (0x000e)  : a metallic voice shouts, "Tickets please! 
+0x0354  /  0x2d6a (0x0013)  : thank you. Please wait on the platform until the train arrives." 
+0x0355  /  0x2d7e (0x0018)  : no entry without a ticket!" A barrier temporarily descends to block your way. 
+0x0356  /  0x2d97 (0x0008)  : there's a platform to the west. 
+0x0357  /  0x2da0 (0x000a)  : the platform shudders and seems to move. 
+0x0358  /  0x2dab (0x0022)  : the platform is a dish-shaped "nest" of woven branches, about 2 metres in diameter, suspended from hanging vines. 
+0x0366  /  0x2dcf (0x0007)  :  on a stringy vine
+0x0367  /  0x2dd7 (0x0005)  :  in the scrub
+0x0368  /  0x2ddd (0x0004)  :  crawling about
+0x0369  /  0x2de2 (0x0007)  :  draped on a bush
+0x036a  /  0x2dea (0x0005)  :  on a twig
+0x036b  /  0x2df0 (0x0007)  :  growing in the weeds
+0x036c  /  0x2df8 (0x0005)  :  beside the path
+0x036d  /  0x2dfe (0x0006)  :  bobbing in the water
+0x036e  /  0x2e05 (0x0005)  :  growing well
+0x036f  /  0x2e0b (0x0006)  :  on a small bush
+0x0370  /  0x2e12 (0x0007)  :  growing on an air-bush
+0x0371  /  0x2e1a (0x0007)  :  sprouting from the earth
+0x0372  /  0x2e22 (0x0005)  :  in the undergrowth
+0x0373  /  0x2e28 (0x0004)  :  in the trees
+0x0374  /  0x2e2d (0x0004)  :  beside the water
+0x0375  /  0x2e32 (0x0005)  :  in a tangle
+0x0377  /  0x2e39 (0x0006)  :  growing beside the river
+0x0378  /  0x2e40 (0x0006)  :  on a rubber tree
+0x037a  /  0x2e48 (0x0006)  :  between the rocks
+0x037b  /  0x2e4f (0x0004)  :  on a tree
+0x037c  /  0x2e54 (0x0007)  :  on a log table
+0x037d  /  0x2e5c (0x0006)  :  on an ash tree
+0x037f  /  0x2e64 (0x0006)  :  nestled in the leaves
+0x0380  /  0x2e6b (0x0006)  :  on a fir tree
+0x0383  /  0x2e73 (0x0005)  :  climbing a tree
+0x0384  /  0x2e79 (0x0005)  :  on the ground
+0x03e9  /  0x2e80 (0x0006)  : north [aka] n
+0x03ea  /  0x2e87 (0x0006)  : northeast [aka] ne
+0x03eb  /  0x2e8e (0x0006)  : east [aka] e
+0x03ec  /  0x2e95 (0x0006)  : south [aka] s
+0x03ed  /  0x2e9c (0x0006)  : southeast [aka] se
+0x03ee  /  0x2ea3 (0x0006)  : southwest [aka] sw
+0x03ef  /  0x2eaa (0x0006)  : west [aka] w
+0x03f0  /  0x2eb1 (0x0006)  : northwest [aka] nw
+0x03f1  /  0x2eb8 (0x000a)  : up [aka] u upwards climb
+0x03f2  /  0x2ec3 (0x000a)  : down [aka] d downwards jump
+0x03f3  /  0x2ece (0x000e)  : into [aka] in enter on board inside
+0x03f4  /  0x2edd (0x000a)  : outside [aka] leave off out
+0x03f5  /  0x2ee8 (0x0004)  : oops undo
+0x03f6  /  0x2eed (0x0002)  : ram
+0x03f7  /  0x2ef0 (0x0002)  : wink
+0x03f8  /  0x2ef3 (0x0006)  : back [aka] behind
+0x03f9  /  0x2efa (0x0006)  : forward [aka] ahead
+0x03fa  /  0x2f01 (0x0002)  : dig
+0x03fb  /  0x2f04 (0x0002)  : right
+0x03fc  /  0x2f07 (0x0006)  : again [aka] a
+0x03fd  /  0x2f0e (0x001a)  : attack through kill break tear rip cut kick hit smash chop destroy damage
+0x03fe  /  0x2f29 (0x000a)  : inventory [aka] inv list i
+0x03ff  /  0x2f34 (0x0002)  : listen
+0x0400  /  0x2f37 (0x0004)  : words text
+0x0401  /  0x2f3c (0x0004)  : pictures graphics
+0x0402  /  0x2f41 (0x0006)  : quit restart stop
+0x0403  /  0x2f48 (0x0008)  : restore load restore load
+0x0404  /  0x2f51 (0x0004)  : save save
+0x0405  /  0x2f56 (0x0002)  : score
+0x0406  /  0x2f59 (0x0008)  : yes y sure please
+0x0407  /  0x2f62 (0x0002)  : no
+0x0408  /  0x2f65 (0x0006)  : sleep hide wait
+0x0409  /  0x2f6c (0x0006)  : authors credits copyright
+0x040b  /  0x2f74 (0x0006)  : search examine read
+0x040c  /  0x2f7b (0x0002)  : blink
+0x040d  /  0x2f7e (0x0004)  : look l
+0x040e  /  0x2f83 (0x0004)  : help hint
+0x040f  /  0x2f88 (0x0002)  : exits
+0x0410  /  0x2f8b (0x000a)  : take get stand ride buy
+0x0411  /  0x2f96 (0x0004)  : drop put
+0x0412  /  0x2f9b (0x0002)  : wear
+0x0413  /  0x2f9e (0x0002)  : throw
+0x0414  /  0x2fa1 (0x0006)  : give offer feed
+0x0415  /  0x2fa8 (0x0002)  : fill
+0x0416  /  0x2fab (0x0004)  : empty pour
+0x0417  /  0x2fb0 (0x0008)  : open unlock unscrew unfasten
+0x0418  /  0x2fb9 (0x0004)  : close lock
+0x0419  /  0x2fbe (0x0002)  : eat
+0x041a  /  0x2fc1 (0x0002)  : drink
+0x041b  /  0x2fc4 (0x0002)  : light
+0x041c  /  0x2fc7 (0x0002)  : extinguish
+0x041d  /  0x2fca (0x0004)  : press push
+0x041e  /  0x2fcf (0x0006)  : fasten tie attach
+0x041f  /  0x2fd6 (0x0002)  : wave
+0x0420  /  0x2fd9 (0x0004)  : play beat
+0x0421  /  0x2fde (0x0004)  : bury plant
+0x0423  /  0x2fe4 (0x0002)  : squeeze
+0x0425  /  0x2fe8 (0x0002)  : insert
+0x0426  /  0x2feb (0x0006)  : mend fix glue
+0x0428  /  0x2ff3 (0x0004)  : pull remove
+0x0429  /  0x2ff8 (0x0004)  : say shout
+0x042a  /  0x2ffd (0x0006)  : make produce construct
+0x042b  /  0x3004 (0x0008)  : catapult shoot fire propel
+0x042f  /  0x300e (0x000c)  : man woman human people humans person
+0x0430  /  0x301b (0x0002)  : nothing
+0x0431  /  0x301e (0x0004)  : trees tree
+0x0432  /  0x3023 (0x0002)  : love
+0x0433  /  0x3026 (0x0008)  : rumour [aka] news gossip
+0x0434  /  0x302f (0x0002)  : time
+0x0435  /  0x3032 (0x0006)  : life living soul
+0x0436  /  0x3039 (0x0004)  : fire flames
+0x0437  /  0x303e (0x0008)  : computer [aka] micro microcomputer
+0x049a  /  0x3048 (0x0002)  : red
+0x049b  /  0x304b (0x0002)  : black
+0x04b2  /  0x304f (0x0002)  : deactivated
+0x04d2  /  0x3053 (0x0002)  : door
+0x04d8  /  0x3057 (0x000a)  : nought [aka] zero 0 black
+0x04d9  /  0x3062 (0x0008)  : one [aka] 1 brown
+0x04da  /  0x306b (0x0008)  : two [aka] 2 red
+0x04db  /  0x3074 (0x0008)  : three [aka] 3 orange
+0x04dc  /  0x307d (0x0008)  : four [aka] 4 yellow
+0x04dd  /  0x3086 (0x0008)  : five [aka] 5 green
+0x04de  /  0x308f (0x0008)  : six [aka] 6 blue
+0x04df  /  0x3098 (0x0008)  : seven [aka] 7 violet
+0x04e0  /  0x30a1 (0x0008)  : eight [aka] 8 grey
+0x04e1  /  0x30aa (0x0008)  : nine [aka] 9 white
+0x04e2  /  0x30b3 (0x0004)  : everything all
+0x04e3  /  0x30b8 (0x0006)  : except [aka] but
+0x04e4  /  0x30bf (0x000a)  : it that them him her
+0x04e5  /  0x30ca (0x0002)  : then
+0x0640  /  0x30d0 (0x0005)  : I have it now. 
+0x0641  /  0x30d6 (0x0003)  : Dropped. 
+0x0642  /  0x30da (0x0003)  : OK. 
+0x076c  /  0x30e1 (0x0018)  : you'll need some of the equipment from the cupboard - particularly the radsuit and compass. 
+0x076d  /  0x30fa (0x0022)  : pleasant though it is up here, I think it would be a good idea to get underground before the place is blasted. 
+0x076e  /  0x311d (0x000c)  : there is one particularly safe place down here. 
+0x076f  /  0x312a (0x000d)  : you must be wearing the radsuit to survive. 
+0x0770  /  0x3138 (0x000c)  : now find another way up to the surface. 
+0x0771  /  0x3145 (0x000c)  : I bet something would like the pea. 
+0x0772  /  0x3152 (0x0016)  : the ground looks so fertile here, that even a brick might grow. 
+0x0773  /  0x3169 (0x0017)  : the forest creatures seem to think you're from the robot city - I wonder why? 
+0x0774  /  0x3181 (0x0020)  : just walk into the river carrying your boat, and let me worry about the details of paddling and boarding etc. 
+0x0775  /  0x31a2 (0x0007)  : the only way out is down. 
+0x07d2  /  0x31ab (0x0001)  : it
+0x07d3  /  0x31ad (0x0007)  : you can't use the word 
+0x07d4  /  0x31b5 (0x0003)  :  like that
+0x07d5  /  0x31b9 (0x000d)  : I don't understand what you mean by the word 
+0x07d6  /  0x31c7 (0x0003)  : OK. 
+0x07da  /  0x31cc (0x0004)  : I don't understand
+0x07db  /  0x31d1 (0x0004)  : you can't see 
+0x07dc  /  0x31d6 (0x0004)  : you don't have 
+0x07dd  /  0x31db (0x0004)  : you already have
+0x07de  /  0x31e0 (0x000a)  : you'll have to drop it first. 
+0x07e1  /  0x31ec (0x0004)  : it's not there. 
+0x07e4  /  0x31f2 (0x000a)  : I can't find any mention of "
+0x07e5  /  0x31fd (0x0004)  : " here. 
+0x07e7  /  0x3203 (0x000c)  : sorry, I can't tell you any more. 
+0x07e8  /  0x3210 (0x0005)  : you can't do that. 
+0x07ee  /  0x3217 (0x0006)  : that's not important. 
+0x07ef  /  0x321e (0x0007)  : that's just scenery. 
+0x07f0  /  0x3226 (0x0005)  : that's scenery. 
+0x07f1  /  0x322c (0x000c)  : there doesn't seem to be anything around. 
+0x0805  /  0x323a (0x000f)  : it's not clear what IT refers to in that context. 
+0x08fc  /  0x324c (0x0011)  : Sorry, we couldn't fit that facility into this version. 
+0x08fd  /  0x325e (0x001f)  : (this version allows you to use RAM SAVE and RAM RESTORE to save a position in memory).
+
+0x08fe  /  0x327e (0x002e)  : (this version allows you to use RAM SAVE and RAM RESTORE to save a position in memory, and OOPS to "take back" bad moves).
+
+0x08ff  /  0x32ad (0x000b)  : you must use RAM SAVE first. 
+0x0900  /  0x32b9 (0x000e)  : you can't use OOPS to go back further than this. 
+0x0906  /  0x32c9 (0x000c)  : 
+press SPACE to play again. 
+0x0907  /  0x32d6 (0x0011)  : 
+Which do you want to do, RESTART or RESTORE? 
+0x0908  /  0x32e8 (0x0009)  : please answer YES or NO. 
+0x0909  /  0x32f2 (0x003a)  : if you now SAVE this position to disk / cassette, and RESTORE it at the start of the next game, you can go on to achieve the maximum score for the whole trilogy. Do you want to SAVE? 
+0x090a  /  0x332d (0x0011)  : that position was not saved from this part of the adventure. 
+0x090b  /  0x333f (0x000f)  : And you solved the previous part of the game. 
+0x090d  /  0x3350 (0x0036)  : 
+Congratulations! I now know that you have solved the previous part of the game with a maximum score and are on target to solve all the Silicon Dreams. Good luck!
+ 
+
+0x090f  /  0x3388 (0x0055)  : This game was designed and programmed by Mike, Nick and Pete Austin, with help from Andrew Deeley and pictures by James Horsler. It is copyright (C) 1986 Level 9 Computing, who can be contacted at PO Box 39, Weston-super-Mare, Avon BS24 9UR, England. 
+0x0bb8  /  0x33e5 (0x0001)  : , 
+0x0bb9  /  0x33e7 (0x0001)  : . 
+0x0bba  /  0x33e9 (0x0001)  : : 
+0x0bbb  /  0x33eb (0x0002)  : 
+
+0x0bbc  /  0x33ee (0x0003)  : .
+
+0x0bbd  /  0x33f2 (0x0002)  : the 
+0x0bbe  /  0x33f5 (0x0002)  : a 
+0x0bbf  /  0x33f8 (0x0002)  : an 
+0x0bc0  /  0x33fb (0x0001)  : "
+0x0bc1  /  0x33fd (0x0001)  : the
+0x0bc2  /  0x33ff (0x0001)  : and
+0x0bc3  /  0x3401 (0x0001)  :  
+0x0bc4  /  0x3403 (0x0001)  : :
+0x0bcc  /  0x3406 (0x000a)  : there seem to be exits leading 
+0x0bcd  /  0x3411 (0x0006)  : an exit leads 
+0x0f3d  /  0x341f (0x0002)  : at
+0x0f3e  /  0x3422 (0x0006)  : underneath below under
+0x0f3f  /  0x3429 (0x0002)  : behind
+0x0f40  /  0x342c (0x0006)  : in into inside
+0x0f41  /  0x3433 (0x0002)  : out
+0x0f42  /  0x3436 (0x0006)  : with [aka] using
+0x0f43  /  0x343d (0x0002)  : off
+0x0f44  /  0x3440 (0x0002)  : up
+0x0f45  /  0x3443 (0x0002)  : down
+0x0f46  /  0x3446 (0x0002)  : to
+0x0f47  /  0x3449 (0x0002)  : from
+0x0f48  /  0x344c (0x0006)  : on onto over
+0x0f49  /  0x3453 (0x0002)  : through
+0x0fa0  /  0x3457 (0x002a)  : the this these that some a and also before wade jog plod rush dash march amble good of cute there at
+0x0fa1  /  0x3482 (0x0028)  : go about therefore am to of on my your try carefully slowly warily quickly rapidly want like say please wait
+0x0fa2  /  0x34ab (0x0002)  : paddle
+0x0fa3  /  0x34ae (0x0008)  : hole slot run walk
+0x1068  /  0x34b9 (0x004c)  : A microbot helicopter blatts to a halt beside your head and squeaks, "Halt! Who goes there? To prove you're a human and not one of these freeloading aliens, tell me one word from Eden Song, the great Earth classic by some fleshie or other. 
+0x1069  /  0x3507 (0x0005)  : word from the 
+0x106b  /  0x350e (0x0006)  : line of page 
+0x106c  /  0x3515 (0x0004)  : ?"
+
+0x106d  /  0x351a (0x0015)  : The microbot swoops round you, cheeping, "Negative. Have another go
+0x106e  /  0x3530 (0x0021)  : "Right, rustit! I'll get you next time." The helicopter zips off at high speed.
+
+0x106f  /  0x3552 (0x0004)  : what is the 
+0x1070  /  0x3557 (0x0029)  : "Still wrong!", shrieks the tiny helicopter. "Yippee! I get to blast a fleshie. That really makes my day!" 
+0x1072  /  0x3582 (0x0003)  : first 
+0x1073  /  0x3586 (0x0003)  : second 
+0x1074  /  0x358a (0x0003)  : third 
+0x1075  /  0x358e (0x0003)  : fourth 
+0x1076  /  0x3592 (0x0003)  : fifth 
+0x1077  /  0x3596 (0x0003)  : sixth 
+0x1078  /  0x359a (0x0003)  : seventh 
+0x1079  /  0x359e (0x0003)  : eighth 
+0x107a  /  0x35a2 (0x0003)  : ninth 
+0x107b  /  0x35a6 (0x0003)  : tenth 
+0x107c  /  0x35aa (0x0003)  : eleventh 
+0x107d  /  0x35ae (0x0003)  : twelfth 
+0x107e  /  0x35b2 (0x0003)  : thirteenth 
+0x107f  /  0x35b6 (0x0003)  : fourteenth 
+0x1080  /  0x35ba (0x0003)  : fifteenth 
+0x1081  /  0x35be (0x0003)  : sixteenth 
+0x1082  /  0x35c2 (0x0003)  : seventeenth 
+0x1083  /  0x35c6 (0x0003)  : eighteenth 
+0x1084  /  0x35ca (0x0003)  : nineteenth 
+0x1085  /  0x35ce (0x0003)  : twentieth 
+0x1086  /  0x35d2 (0x0005)  : twenty first 
+0x10cf  /  0x35d9 (0x0002)  : for
+0x10d1  /  0x35dd (0x0002)  : twilight
+0x10d3  /  0x35e1 (0x0002)  : buy
+0x10d4  /  0x35e4 (0x0002)  : the
+0x10d5  /  0x35e7 (0x0002)  : can
+0x10d6  /  0x35ea (0x0002)  : you
+0x10d8  /  0x35ee (0x0002)  : picked
+0x10d9  /  0x35f1 (0x0002)  : here
+0x10da  /  0x35f4 (0x0002)  : mad
+0x10db  /  0x35f7 (0x0002)  : silicon
+0x10dd  /  0x35fb (0x0002)  : my
+0x10df  /  0x35ff (0x0002)  : drifted
+0x10e0  /  0x3602 (0x0002)  : do
+0x10e3  /  0x3606 (0x0002)  : been
+0x10e4  /  0x3609 (0x0002)  : can
+0x10e5  /  0x360c (0x0002)  : card
+0x10e8  /  0x3610 (0x0002)  : was
+0x10e9  /  0x3613 (0x0002)  : when
+0x10eb  /  0x3617 (0x0002)  : hazardous
+0x10ec  /  0x361a (0x0002)  : listening
+0x10ed  /  0x361d (0x0002)  : wets
+0x10ee  /  0x3620 (0x0002)  : brought
+0x10ef  /  0x3623 (0x0002)  : rock
+0x10f0  /  0x3626 (0x0002)  : and
+0x10f1  /  0x3629 (0x0002)  : spotty
+0x10f2  /  0x362c (0x0002)  : they
+0x10f3  /  0x362f (0x0002)  : the
+0x10f4  /  0x3632 (0x0002)  : do
+0x10f5  /  0x3635 (0x0002)  : one
+0x10f6  /  0x3638 (0x0002)  : focus
+0x10f8  /  0x363c (0x0002)  : his
+0x10f9  /  0x363f (0x0002)  : and
+0x10fa  /  0x3642 (0x0006)  : weedibots [aka] arrived
+0x10fb  /  0x3649 (0x0002)  : asked
+0x10fc  /  0x364c (0x0002)  : witherspoon
+0x10fd  /  0x364f (0x0002)  : the
+0x1100  /  0x3653 (0x0002)  : it
+0x1102  /  0x3657 (0x0002)  : all
+0x1103  /  0x365a (0x0002)  : new
+0x1105  /  0x365e (0x0002)  : him
+0x1108  /  0x3662 (0x0002)  : too
+0x1109  /  0x3665 (0x0006)  : facing [aka] the
+0x110a  /  0x366c (0x0002)  : like
+0x110b  /  0x366f (0x0002)  : had
+0x110d  /  0x3673 (0x0002)  : the
+0x110f  /  0x3677 (0x0002)  : material
+0x1110  /  0x367a (0x0002)  : thoughtful
+0x1112  /  0x367e (0x0002)  : hard
+0x1113  /  0x3681 (0x0002)  : know
+0x1114  /  0x3684 (0x0002)  : seventeen
+0x1115  /  0x3687 (0x0002)  : right
+0x1117  /  0x368b (0x0002)  : the
+0x1118  /  0x368e (0x0002)  : to
+0x1119  /  0x3691 (0x0002)  : again
+0x111a  /  0x3694 (0x0002)  : cindy
+0x111b  /  0x3697 (0x0002)  : any
+0x111d  /  0x369b (0x0002)  : me
+0x111e  /  0x369e (0x0002)  : fingers
+0x111f  /  0x36a1 (0x0002)  : inside
+0x1122  /  0x36a5 (0x0002)  : the
+0x1123  /  0x36a8 (0x0002)  : a
+0x1124  /  0x36ab (0x0002)  : total
+0x1125  /  0x36ae (0x0002)  : the
+0x1126  /  0x36b1 (0x0002)  : out
+0x1127  /  0x36b4 (0x0002)  : was
+0x1129  /  0x36b8 (0x0002)  : adventurers
+0x112a  /  0x36bb (0x0002)  : they
+0x112b  /  0x36be (0x0002)  : tapping
+0x112d  /  0x36c2 (0x0002)  : shorty's
+0x112f  /  0x36c6 (0x0002)  : brightening
+<EOM>
