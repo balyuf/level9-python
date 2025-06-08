@@ -1,5 +1,5 @@
-Adventure Quest- Location Exit Definitions
----------------------------------------------
+Adventure Quest - Location Exit Definitions
+-------------------------------------------
 
 Bit configuration:
 

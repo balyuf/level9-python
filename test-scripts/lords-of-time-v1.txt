@@ -1,5 +1,5 @@
-#title: lords of time test script;
-#comment: bbc version [v1]. based on a solution by jacob gunness;
+#title: Lords of Time test script;
+#comment: MSX version [v1]. based on a solution by Jacob Gunness;
 
 #seed 42;
 look [you begin in your own room];

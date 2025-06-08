@@ -1,5 +1,5 @@
 #title: Colossal Adventure test script;
-#comment: Amiga version [v3];
+#comment: MSX version [v3];
 
 #SEED 42;
 E [start at the End of the Road];
@@ -460,3 +460,5 @@ E;
 E;
 E;
 UP;
+NO;
+#quit;

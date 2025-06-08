@@ -1,0 +1,590 @@
+0x0001  /  0x0978 (0x0001)  :  
+0x0002  /  0x097a (0x0004)  : ;
+
+0x0003  /  0x097f (0x0003)  : ,
+
+0x0004  /  0x0983 (0x0003)  : .
+
+0x0005  /  0x0987 (0x0002)  : 
+
+0x0006  /  0x098a (0x0003)  :  and 
+0x0007  /  0x098e (0x0003)  : .
+
+0x0008  /  0x0992 (0x0002)  : ) 
+0x0009  /  0x0995 (0x0002)  : I 
+0x000a  /  0x0998 (0x0002)  : ? 
+0x000b  /  0x099b (0x0005)  : 
+ 
+
+0x000c  /  0x09a1 (0x0003)  : : 
+0x000d  /  0x09a5 (0x0002)  : . 
+0x000e  /  0x09a8 (0x0002)  : , 
+0x001c  /  0x09ac (0x0008)  : yes y on enable
+0x001d  /  0x09b5 (0x0008)  : no n off disable
+0x001e  /  0x09be (0x0006)  : zero nought 0
+0x001f  /  0x09c5 (0x000a)  : 1)  [aka] one 1
+0x0020  /  0x09d0 (0x000a)  : 2)  [aka] two 2
+0x0021  /  0x09db (0x000a)  : 3)  [aka] three 3
+0x0022  /  0x09e6 (0x001c)  : type a command or HELP for details. Then press ENTER or RETURN. [aka] four 4
+0x0023  /  0x0a03 (0x0006)  : E five 5
+0x0024  /  0x0a0a (0x0006)  : F six 6
+0x0025  /  0x0a11 (0x0006)  : G seven 7
+0x0026  /  0x0a18 (0x0006)  : H eight 8
+0x0027  /  0x0a1f (0x0006)  : I nine 9
+0x0028  /  0x0a26 (0x000c)  : select one of these alternatives:
+
+0x0029  /  0x0a33 (0x000b)  : choose one of the following:
+
+0x002a  /  0x0a3f (0x0008)  : pick one of:
+
+0x002b  /  0x0a48 (0x0004)  : help info
+0x002c  /  0x0a4d (0x0002)  : save
+0x002d  /  0x0a50 (0x0004)  : load restore
+0x002e  /  0x0a55 (0x0004)  : pictures graphics
+0x002f  /  0x0a5a (0x0004)  : printer list
+0x0030  /  0x0a5f (0x0002)  : demo
+0x0031  /  0x0a62 (0x0002)  : restart
+0x0032  /  0x0a65 (0x0095)  : the commands are: 
+SAVE position on tape; 
+LOAD previously saved position; 
+PICTURES ON or PICTURES OFF; 
+PRINTER ON or PRINTER OFF; 
+DEMO to demonstrate the game; 
+RESTART to start again; 
+SCORE for an audience survey. 
+For more information, type HELP followed by the name of a command and press ENTER or RETURN. To return to the game, just press ENTER or RETURN by itself. [aka] score
+0x0033  /  0x0afd (0x0071)  : SAVE stores your position (the state of play) on cassette. Start a blank tape on RECORD, type SAVE and press ENTER or RETURN. If you're asked for a file name, type a short word (e.G. ANYNAME). Press ENTER or RETURN twice. When you're told the saving has finished, stop the tape. 
+0x0034  /  0x0b70 (0x0073)  : LOAD reads a previously saved position from cassette. Type LOAD and press ENTER or RETURN. (If you are asked for a file name, type the same name as when you SAVEd it.) Press ENTER or RETURN. Rewind the tape on which the position was saved and start it on PLAY. (If the tape doesn't move, press ENTER or RETURN again.) 
+0x0035  /  0x0be5 (0x000d)  : PICTURES turns the graphics off or back on. 
+0x0036  /  0x0bf3 (0x0016)  : PRINTER allows you to make a typed listing of the story as it unfolds. 
+0x0037  /  0x0c0a (0x001a)  : DEMO provides a continuous demonstration of the game, with the computer making random decisions. 
+0x0038  /  0x0c25 (0x0028)  : RESTART starts the game again at the beginning of the current part. 
+ 
+Type RESTART and press ENTER or RETURN to start again. 
+0x0039  /  0x0c4e (0x0045)  : SCORE reports how well, or badly, you are doing under various categories. Your main aim is to attract as many listeners as possible, but be careful not to do too badly in any category or you'll be fired. 
+0x003c  /  0x0c96 (0x0046)  : 
+welcome to part four of the "The Archers" from Level 9 and Mosaic. If you are loading from tape, and it is still running, STOP THE TAPE IMMEDIATELY. Then press any key to start the game. 
+0x003d  /  0x0cde (0x0008)  : 
+SAVE completed. 
+0x003e  /  0x0ce7 (0x0008)  : 
+LOAD completed. 
+0x003f  /  0x0cf0 (0x0026)  : 
+ 
+DEMO stopped. Press SHIFT when the game pauses and 1-4 to make decisions in future.
+ 
+
+0x0040  /  0x0d17 (0x0042)  : 
+ 
+well done! You've reached the end of the Archer's game and proved your worth as a trainee scriptwriter!
+ 
+Would you like to play the final part again and try for an even better score? 
+0x0041  /  0x0d5b (0x003e)  : this program would normally be loaded after you have finished playing through the part of the game leading up to it. This seems not to have happened. No problem, except that the score starts with default values. 
+0x0042  /  0x0d9a (0x0037)  : the position you just LOADed doesn't look as if it was saved from this part of the Archers game. No problem, except that you'll have to continue from the start of this part of the game. 
+0x0043  /  0x0dd2 (0x001f)  : and, because the position was SAVEd from a later part of the game, the score has been reset. 
+0x0044  /  0x0df2 (0x000d)  : sorry, I don't understand that command. 
+0x0045  /  0x0e00 (0x0037)  : 
+ 
+MEMO FROM CR4: unfortunately you've not gained the 1 million extra listeners needed for you to complete this part. Better try again...
+ 
+
+0x0046  /  0x0e38 (0x000c)  : DEMO started. Please wait. 
+0x005a  /  0x0e46 (0x0025)  : in this section, you control the story-line for Nelson Gabriel, slippery entrepreneur, wine bar owner and son of Walter. 
+0x0064  /  0x0e6d (0x000a)  : listeners are complaining about realism. 
+0x0065  /  0x0e78 (0x000f)  : recent reactions have been a bit out of character. 
+0x0066  /  0x0e88 (0x000f)  : the lack of realism has gone too far. 
+0x0067  /  0x0e98 (0x000c)  : buckle down and get back in the groove! 
+0x0068  /  0x0ea5 (0x000c)  : there's been little of interest lately. 
+0x0069  /  0x0eb2 (0x000c)  : can't you pep it up a bit? 
+0x006a  /  0x0ebf (0x000e)  : you've not kept the plots interesting enough. 
+0x006b  /  0x0ece (0x0009)  : better add more variety. 
+0x006c  /  0x0ed8 (0x000b)  : the decency brigade are closing in. 
+0x006d  /  0x0ee4 (0x0010)  : they complain the Archers is descending to gutter level. 
+0x006e  /  0x0ef5 (0x000f)  : you've not upheld the traditions of Lord Reith. 
+0x006f  /  0x0f05 (0x0012)  : please ensure good taste until the fuss dies down. 
+0x0070  /  0x0f18 (0x000c)  : you're not making my life easy. 
+0x0071  /  0x0f25 (0x000f)  : try to remember you're working at the BBC! 
+0x0072  /  0x0f35 (0x0010)  : I'm afraid you're just too much trouble. 
+0x0073  /  0x0f46 (0x000d)  : better be less adventurous for a bit. 
+0x0082  /  0x0f55 (0x0002)  : I 
+0x0083  /  0x0f58 (0x0003)  : it is 
+0x0084  /  0x0f5c (0x0006)  : I find him eating 
+0x0085  /  0x0f63 (0x0003)  : it is 
+0x0086  /  0x0f67 (0x0005)  : I save on 
+0x0087  /  0x0f6d (0x0004)  : I choose 
+0x0088  /  0x0f72 (0x0007)  : I ask the advice of 
+0x0089  /  0x0f7a (0x0005)  : I ask Sophie to 
+0x008a  /  0x0f80 (0x0004)  : I consider 
+0x008b  /  0x0f85 (0x0007)  : I decide to employ 
+0x008c  /  0x0f8d (0x0006)  : my first customer is 
+0x008d  /  0x0f94 (0x0007)  : my next customer is 
+0x008e  /  0x0f9c (0x0003)  : I find 
+0x0097  /  0x0fa1 (0x0012)  : MEMO FROM CR4, BROADCASTING HOUSE, LONDON. 
+0x0098  /  0x0fb4 (0x000c)  : audience research shows the Archers reaching 
+0x0099  /  0x0fc1 (0x0001)  : ,
+0x009a  /  0x0fc3 (0x0009)  : 00,000 listeners. 
+0x009f  /  0x0fce (0x000a)  : you're fired!
+ 
+
+0x00a0  /  0x0fd9 (0x001a)  : 
+ 
+but as this is just a simulation, you get to try again... 
+0x00a1  /  0x0ff4 (0x0005)  : watch it. 
+0x00a2  /  0x0ffa (0x0009)  : pull your socks up. 
+0x00a4  /  0x1005 (0x0006)  : best wishes. 
+0x00a5  /  0x100c (0x0005)  : well done. 
+0x00a6  /  0x1012 (0x0004)  : congratulations! 
+0x00a7  /  0x1017 (0x000b)  : you're doing a superb job! 
+0x00a8  /  0x1023 (0x000d)  : you must be in line for an OBE. 
+0x00a9  /  0x1031 (0x000b)  : remember me when you're the DG. 
+0x00b4  /  0x103e (0x0013)  : a survey shows the status of the Archers programme to be.. 
+0x00b5  /  0x1052 (0x0002)  : realism
+0x00b6  /  0x1055 (0x0002)  : interest
+0x00b7  /  0x1058 (0x0002)  : standards
+0x00b8  /  0x105b (0x0004)  : CR4's opinion
+0x00b9  /  0x1060 (0x0002)  : abysmal
+0x00ba  /  0x1063 (0x0002)  : low
+0x00bb  /  0x1066 (0x0002)  : average
+0x00bc  /  0x1069 (0x0002)  : high
+0x00bd  /  0x106c (0x0002)  : excellent
+0x00c9  /  0x1070 (0x003e)  : Elizabeth Archer has run up nearly #30 on her slate. This seems to me to be a case of robbing the poor to give to the rich. But getting money out of her is like getting blood out of a stone. 
+0x00ca  /  0x10af (0x0007)  : ban her from the wine bar
+0x00cb  /  0x10b7 (0x0057)  :  until she pays me back. She manages to keep away for three days, but I see her pressing her nose against the glass hoping for a glimpse of Tim Beecham. Finally she scrapes up #4.74 and promises to pay me #7 a week. I let her back in. 
+0x00cc  /  0x1110 (0x0008)  : threaten to tell her father
+0x00cd  /  0x1119 (0x003f)  : . She retorts that it's all his fault in the first place for not giving her enough allowance. When I reach for the phone she hurriedly comes up with #4.75 and promises to pay the rest in weekly instalments. 
+0x00ce  /  0x115a (0x000e)  : suggest she pays off the debt by cleaning for me
+0x00cf  /  0x1169 (0x0033)  : , at a rate of #1.50 an hour. Even her quicksilver mind can't see another way out. I've got 20 hours labour out of her! 
+0x00dc  /  0x119e (0x0044)  : Elizabeth kept up her debt repayments for two weeks, but this week I've received nothing, and watch her lashing out on a bottle of champagne to celebrate the end of term. I beckon her over and shower her with unveiled threats. 
+0x00dd  /  0x11e4 (0x000a)  : she threatens to sue me for extortion
+0x00de  /  0x11ef (0x002a)  : . Mark Hebden tells her that she's the one who ought to be worrying. She becomes contrite. I strike while the iron's hot. 
+0x00df  /  0x121a (0x0008)  : she scrounges a fiver off Sophie
+0x00e0  /  0x1223 (0x001c)  :  to keep me quiet. As long as I see the readies I don't care about the source. 
+0x00e1  /  0x1240 (0x0007)  : she plies me with champagne
+0x00e2  /  0x1248 (0x000e)  :  and promises to pay double next week. 
+0x00e3  /  0x1257 (0x003a)  : I wake up with a hangover. I must remember not to drink the house Hungarian Champagne. Then I realise I let Elizabeth have another bottle on the house. I am my own worst enemy. 
+0x00f0  /  0x1293 (0x000d)  : close down for a week and holiday in Sicily
+0x00f1  /  0x12a1 (0x0054)  : , hoping to learn a lesson from the natives. They welcome me with open arms, teaching me the art of gentle persuasion with the aid of cheese-wires, meat-hooks and powdered glass. This all seems a little savage for Borchester, but I am now trained to go for the jugular! 
+0x00f2  /  0x12f7 (0x0023)  : I have received strong protests from the Italian Embassy. They are furious at the misrepresentation of the peaceable farmers of Sicily. 
+0x00f3  /  0x131b (0x000b)  : go back to business classes at Borchester Tech
+0x00f4  /  0x1327 (0x0046)  : . I come bottom of the "Loopholes in the Law and how to Exploit them" quiz. My tutor advises me never to go self-employed. I slink back to the wine-bar and resolve to persevere nevertheless. A Gabriel never gives up. 
+0x00f5  /  0x136f (0x0005)  : phone Phil Archer
+0x00f6  /  0x1375 (0x0046)  :  and tell him Elizabeth owes me #30 for alcohol consumed over the past month. He says I was stupid to let her have credit in the first place, and if she's old enough to be in debt, she's old enough to pay it off. 
+0x0104  /  0x13be (0x001b)  : Elizabeth begins her cleaning today. I shall enjoy seeing those fair hands work-soiled. 
+0x0105  /  0x13da (0x000c)  : get her to wax my stripped-pine floor boards
+0x0106  /  0x13e7 (0x002d)  : . After 3 square feet she demands liquid refreshment. I tell her she's allowed water till opening time, when she can buy her own. 
+0x0107  /  0x1415 (0x0005)  : Elizabeth recognises defeat
+0x0108  /  0x141b (0x0011)  :  and makes a magnificent job of the floor boards. 
+0x0109  /  0x142d (0x0010)  : people really don't think Elizabeth would willingly clean floorboards! 
+0x010a  /  0x143e (0x0007)  : she smears wax everywhere
+0x010b  /  0x1446 (0x0010)  :  until I let her off, with more time to pay. 
+0x010c  /  0x1457 (0x0008)  : Elizabeth borrows a mechanical polisher
+0x010d  /  0x1460 (0x0036)  : , the one they use on the acres of parquet at Pargetter Hall. And Nigel is happy to demonstrate it. The floor is soon finished without Lizzie doing any work at all. 
+0x010e  /  0x1497 (0x0009)  : ask her to polish all the brass
+0x010f  /  0x14a1 (0x003c)  : . She thinks this is a doddle until I point out that all the curtain rails, rings, door handles, candle sticks and light fittings are brass. What it is to see an Archer toil! 
+0x0110  /  0x14de (0x0007)  : make her clean the windows
+0x0111  /  0x14e6 (0x004b)  :  - more than fifty square foot of glass! Elsa, my regular cleaner, follows her round pointing out all the smears she has left. Elizabeth retaliates by pouring a bucket of water over her head. She knows I can hardly sack her. 
+0x0118  /  0x1534 (0x000b)  : reduce Elizabeth's pay to 75p an hour
+0x0119  /  0x1540 (0x0028)  : , thus increasing her sentence to 40 hours. This increases my sentence at the same time - Miss Archer is an intolerable employee! 
+0x011a  /  0x1569 (0x000a)  : give Elsa #10 consolation money
+0x011b  /  0x1574 (0x0025)  : , adding it to Elizabeth's bill. She starts to kick up a fuss but I quell her protests with a malevolent glare. 
+0x011c  /  0x159a (0x000a)  : pour a bucketful of water over Elizabeth
+0x011d  /  0x15a5 (0x004a)  :  to teach her a lesson. She threatens to sue me. I check with my Solicitor and discover she is within her rights! I hastily write off her debt and release her from her duties. It is becoming too easy to get the better of me! 
+0x012c  /  0x15f2 (0x0035)  : Elizabeth continues to extort money from Sophie in order to pay me back. This seems fair enough to me as Sophie has more money than sense anyway. But David Archer gets wind of the situation. 
+0x012d  /  0x1628 (0x000d)  : David threatens to put me through a window
+0x012e  /  0x1636 (0x004e)  :  unless I stop squeezing money out of penniless young girls. I try to explain the circumstances of Elizabeth's debt, but it's like water off a duck's back. I forgot that Young Farmers lack the power of reason. I am forced to write off the debt. 
+0x012f  /  0x1686 (0x000a)  : David gives Elizabeth a good hiding
+0x0130  /  0x1691 (0x003f)  :  and pays me the #30 himself. I am amazed when Elizabeth whips out a bundle of five pound notes and pays him back straight away. Intimidation by a Young Farmer is obviously not a pleasant thing! 
+0x0131  /  0x16d2 (0x000e)  : David gives Sophie an earful for being so gullible
+0x0132  /  0x16e1 (0x0024)  : . Sophie bursts into tears and refuses to speak to him ever again. About time too! Now is my chance. 
+0x0133  /  0x1706 (0x001b)  : The Society against Permissive Standards are complaining about the treatment of Sophie as a sex object. 
+0x0140  /  0x1723 (0x0009)  : console her in a dark corner
+0x0141  /  0x172d (0x0052)  :  with champagne and strawberries. "You remind me of Grandpa," she says. "He always used to give me strawberries when I was sad." Resigned, I pop her in a taxi and send her home, giving her a regretful but paternal kiss on the forehead. 
+0x0142  /  0x1781 (0x000a)  : invite her to the races at Cheltenham
+0x0143  /  0x178c (0x0014)  : . She is thrilled and rushes off to design a hat specially. 
+0x0144  /  0x17a1 (0x0033)  : Sophie phones, "It's wonderful! David and I are back together! I'm awfully sorry about the races." I need something to keep my mind off the disappointment. 
+0x0145  /  0x17d5 (0x0013)  : tell her she needs a mature man who is sensitive to her needs
+0x0146  /  0x17e9 (0x0025)  : . "But David's ever so mature," she protests. "He's 27!" Curses, foiled again. 
+0x0153  /  0x1810 (0x0039)  : I am working Elizabeth so hard that she has callouses for the first time, and aches in places she never knew she had. She comes to me weeping, begging me for release. I remain stony-faced. 
+0x0154  /  0x184a (0x0017)  : I really don't think Elizabeth would work hard for anyone, let alone Nelson! 
+0x0155  /  0x1862 (0x000c)  : she tells Dad I am keeping her in bondage
+0x0156  /  0x186f (0x003d)  : . He is horrified, and says that unless I release her from slavery he will leave all his money to the Donkey Sanctuary. I am left with no option - what is #30 compared with the Gabriel millions? 
+0x0157  /  0x18ad (0x000e)  : she storms out purposefully with her Building Society book
+0x0159  /  0x18bd (0x004d)  :  and returns with her ransom. "I hope you feel guilty, I was saving this for Band Aid," she says spitefully. I'm not fooled - I know she's saving for a graphic equaliser for her Walkman. I take the money without compunction. 
+0x015a  /  0x190c (0x000e)  : she scrounges a fiver off Sophie to keep me quiet
+0x015b  /  0x191b (0x0017)  : . As long as I see the readies, I don't care about the source. 
+0x015c  /  0x1933 (0x0052)  : there is a happy end to Elizabeth's debts. She gets a job as Ms Snowy the ice cream lady, and makes enough money in her first week to pay me back AND buy me a bottle of Moet to say she's sorry. Perhaps I'm in the wrong business... 
+0x015e  /  0x1988 (0x001c)  : your aspersions about the intelligence of Young Farmers have cost us a lot of farming listeners. 
+0x0168  /  0x19a6 (0x002f)  : Dad is depressed. The demise of Dan still hangs over him and he fears his days are numbered. Mary Poppins and Little Grey Rabbit offer no consolation. 
+0x0169  /  0x19d6 (0x0010)  : slip Mrs P a fiver to keep an eye on him
+0x016a  /  0x19e7 (0x0010)  : . She is to ring me if anything is amiss. 
+0x016b  /  0x19f8 (0x000d)  : offer to buy him a friend for Joey the budgie
+0x016c  /  0x1a06 (0x0016)  : . We make plans to get it from a specialist pet shop in Coventry. 
+0x016d  /  0x1a1d (0x0011)  : refuse to buy him any more letteretti spaghetti until he cheers up
+0x016e  /  0x1a2f (0x0002)  : . 
+0x016f  /  0x1a32 (0x000e)  : I call round to find what Dad is eating. 
+0x017c  /  0x1a42 (0x0002)  : nothing
+0x017d  /  0x1a45 (0x0028)  :  - he is on hunger strike. I take him to the cash and carry to replenish his larder. He still doesn't cheer up. 
+0x017e  /  0x1a6e (0x0004)  : letteretti spaghetti
+0x017f  /  0x1a73 (0x002c)  : ! Martha has delivered it, along with a quarter of jelly babies and six gobstoppers. I need a spy to prevent subterfuge of this kind! 
+0x0180  /  0x1aa0 (0x0004)  : spaghetti dinosaurs
+0x0181  /  0x1aa5 (0x003b)  : . "Jennifer bought them for me," he says. "They're much more exciting than boring old spagetti letters." The village has branded me heartless. I must quash this vile rumour. 
+0x0190  /  0x1ae2 (0x0065)  : Mrs P has promised faithfully to raise the alarm if anything goes amiss. She rings me at the wine bar. "It's terrible - there's nothing I can do!" She cries. "What's happened?" I falter, fearing the worst. "It's the telly - right in the middle of Chock-A-Block!", she wails. 
+0x0191  /  0x1b49 (0x003b)  : we arrive at the pet shop. Nothing less than a macaw will put a smile back on Dad's face. I buy him a very, very small one. We call him "Skipper". 
+0x0192  /  0x1b85 (0x002b)  : I plug the aerial lead back into the telly at Honeysuckle Cottage and it works again. Dad and Mrs P are not amused - Chock-A-Block is over. 
+0x0193  /  0x1bb1 (0x0008)  : offer to fetch them a video
+0x0194  /  0x1bba (0x007a)  :  - they clamour for "Indiana Jones and the Temple of Doom." It is aptly named - Blockbusters of Borchester don't have it, Filmcity of Felpersham don't have it. I track it down in Birmingham. When I get back they are quite content in front of the Groovey Ghoulies. "Never mind, son, at least we know where to get it now," says Dad, chewing happily on a macaroon. 
+0x0195  /  0x1c36 (0x0007)  : rush back to the wine bar
+0x0196  /  0x1c3e (0x001c)  : . My conscience pricks me and I can't balance the till. I decide to make amends. 
+0x0197  /  0x1c5b (0x0009)  : arrange a tea party for them
+0x0198  /  0x1c65 (0x001f)  : , to boost morale. Dad says gloomily that he hasn't got many friends left to invite. 
+0x01a4  /  0x1c86 (0x000d)  : ask Mrs P to draw up a guest list
+0x01a5  /  0x1c94 (0x001b)  : . She produces a long list - of who NOT to invite. I ignore it! 
+0x01a6  /  0x1cb0 (0x0009)  : decide to ask who I think suitable
+0x01a7  /  0x1cba (0x002e)  : . I am dubious about Joe Grundy - he always pinches the Jaffa cakes for William and Edward. But I don't want to hurt anyone's feelings, so 
+0x01a8  /  0x1ce9 (0x000a)  : extend a general invitation to the Oversixties
+0x01a9  /  0x1cf4 (0x0027)  : . I don't want a repeat performance of Sleeping Beauty if I leave anyone out. Mrs Potter would be deadly with a bodkin. 
+0x01b8  /  0x1d1d (0x0055)  : Dad's macaw, Skipper, who was very, very small, grows very, very big. Dad has taught him to crow, "Me old pal, me old beauty," and I spend all my spare time feeding, cleaning and entertaining the dratted bird. 
+0x01b9  /  0x1d74 (0x000a)  : "accidentally" open the window
+0x01ba  /  0x1d7f (0x001a)  : , but Skipper evidently prefers Ambridge to the Amazon and makes no attempt to escape. 
+0x01bb  /  0x1d9a (0x0010)  : persuade Dad that Skipper would be perfect decoration for the wine bar
+0x01bc  /  0x1dab (0x0043)  : . He agrees reluctantly. I sell the mangy thing to a gypsy in Borchester market and tell Dad someone put whisky in his waterbowl. Dad is inconsolable. Even Mrs P is fretful. I am back to square one! 
+0x01bd  /  0x1df0 (0x0007)  : decide to tolerate Skipper
+0x01be  /  0x1df8 (0x000e)  :  - it is worth it to have Dad contented. 
+0x01bf  /  0x1e07 (0x0035)  : Dad becomes a fanatic! He joins the Macaw Fanciers Society of Great Britain! He asks me to take him to their AGM in Ruislip! What a thing is filial duty. 
+0x01cc  /  0x1e3e (0x0025)  : the paper doilies are out in force and the tea is stewing nicely for Walter's party. There is a knock at the door. 
+0x01cd  /  0x1e64 (0x0007)  : Tom and Pru Forrest
+0x01ce  /  0x1e6c (0x0033)  : . Pru has brought some Scotch Pancakes. "Elephants' Ears," chuckles Tom, and scoffs a plate of rock buns before anyone else arrives. 
+0x01cf  /  0x1ea0 (0x0003)  : Joe Grundy
+0x01d0  /  0x1ea4 (0x0030)  : . He says Eddie won't let him stay long, so can he have a doggie bag? Mrs P snaps that it is a social occasion and not a charity. 
+0x01d1  /  0x1ed5 (0x0004)  : Colonel Danby
+0x01d2  /  0x1eda (0x003c)  : . "I've brought you some of Laura's special gooseberry jam," he says. "I know she would have enjoyed an occasion like this." Mrs P spoons it neatly into a little glass dish. 
+0x01e0  /  0x1f18 (0x0018)  : ten minutes later I catch Joe Grundy cramming chocolate fingers into his pockets. 
+0x01e1  /  0x1f31 (0x0007)  : haul him into the kitchen
+0x01e2  /  0x1f39 (0x0047)  :  and make him empty his pockets. The soggy mess therein is not redeemable, so I promise not to mention the incident if he buys a replacement packet from Martha's. The rest of the afternoon passes peacefully to the soundtrack of South Pacific. 
+0x01e3  /  0x1f82 (0x0007)  : remind him it's milking time
+0x01e4  /  0x1f8a (0x003c)  : , in a threatening tone. "Very kind of you to point it out, I'm sure, but it's Eddie's turn tonight," he retorts. No one crosses me and gets away with it! 
+0x01e5  /  0x1fc7 (0x0007)  : politely ignore the incident
+0x01e6  /  0x1fcf (0x0030)  : . There is uproar when the plate is discovered empty - the Oversixties all LOVE chocolate fingers. Tom Forrest is accused and I cannot see an innocent man condemned. 
+0x01f4  /  0x2001 (0x0007)  : confess to snaffling them myself
+0x01f5  /  0x2009 (0x0057)  :  - though why I should protect an old rogue like Joe I don't know. Everyone is pacified, except Dad. "How could you do it, son - deprive my pals of one of the few pleasures they have left in life?" I shall have to make things up to him somehow. 
+0x01f6  /  0x2062 (0x0009)  : pour oil on troubled waters
+0x01f7  /  0x206c (0x0028)  :  by producing another packet. This does the trick and the rest of the afternoon is as socially graceful as a debutante's dinner dance. 
+0x01f8  /  0x2095 (0x0005)  : accuse Joe Grundy
+0x01f9  /  0x209b (0x0068)  :  outright of pinching the chocolate fingers - just as he slinks out of the door. Tom Forrest turns pink and confesses to having eaten most of them. The whole room turns on me for victimising Joe. "Why's he run off if he's not guilty?" I protest. "Because it's milking time, of course," they chorus. 
+0x01fa  /  0x2105 (0x0008)  : promise Joe a formal apology
+0x01fb  /  0x210e (0x002d)  : . It will stick in my throat, but at least I will have averted World War Three. I never realised I harboured such tact and diplomacy! 
+0x01fc  /  0x213c (0x0008)  : seek refuge in the wine bar
+0x01fd  /  0x2145 (0x002b)  : , not to mention several large vodkas. The confrontation with Dad tomorrow is a daunting prospect - I shall have to think of a suitable diversion. 
+0x01fe  /  0x2171 (0x0006)  : stick to my guns
+0x01ff  /  0x2178 (0x0048)  :  - my eyes did not deceive me. The Oversixties file out in disgust. "You should never give a dog a bad name and hang him," is the parting shot. I hang my head in shame - Dad will never forgive me. 
+0x0200  /  0x21c2 (0x0079)  : I resort to a bribe that I have been saving for an emergency, hoping my misdeeds will be forgotten. I promise Dad I'll take him and two friends to the Safari Park - but woe betide anyone who opens the window in the lion enclosure! Dad is overjoyed - we have a rousing chorus of "The animals went in two by two" before bedtime. Peace reigns once more at honeysuckle cottage! 
+0x0208  /  0x223e (0x0051)  : Gone are my cosmopolitan, jet-setting days. I no longer wake up hung over from retsina or gluhwein. Even worse, country life has softened my flair for business. I have been forced to stop sending my satin sheets to the French laundry. I need money. 
+0x0209  /  0x2291 (0x000a)  : get a franchise from "Pizzaville"
+0x020a  /  0x229c (0x0011)  :  and start redecorating my shop for the fast food trade.
+0x020b  /  0x22ae (0x001a)  : Borchester Council object to the huge neon pizza outside my new Pizzaville fast-food restaurant. 
+0x020c  /  0x22c9 (0x0009)  : agree to do without the sign
+0x020d  /  0x22d3 (0x0013)  :  altogether. As a result nobody knows Pizzaville exists. 
+0x020e  /  0x22e7 (0x0010)  : Pizzaville withdraw my franchise because of poor sales. 
+0x020f  /  0x22f8 (0x000c)  : change to a tasteful, wooden pizza
+0x0210  /  0x2305 (0x0012)  :  on display. I ask Jennifer Aldridge to paint me one. 
+0x0211  /  0x2318 (0x003c)  : Jennifer presents me with a pizza covered in capers, anchovies, artichoke, mushrooms and salami. It looks thoroughly unappetising. I ask her to paint a straight pizza with mozzarella and black olives. 
+0x0212  /  0x2355 (0x0011)  : agree to turn the neon light off after 10 pm
+0x0213  /  0x2367 (0x000d)  : . This seems like the perfect compromise! 
+0x021c  /  0x2376 (0x0041)  : Everything is underway for the grand Pizzaville opening. Shane practices tossing pizza dough like he's seen in the movies. I rush around stuffing candles into empty Lambrusco bottles. But what should I do about music? 
+0x021d  /  0x23b9 (0x0007)  : plump for Frank Sinatra
+0x021e  /  0x23c1 (0x002e)  : . There is a revival for this kind of schmaltz: the Borchester trendies all play "New York, New York" on their waterproof walkmans. 
+0x021f  /  0x23f0 (0x0012)  : get a copy of "50 Great Italian Love Songs"
+0x0220  /  0x2403 (0x000b)  :  from a mail order firm. 
+0x0221  /  0x240f (0x0028)  : We can not get copyright clearance for 50 GILS. The BBC could be sued for thousands! Change the music, pronto! 
+0x0222  /  0x2438 (0x0008)  : stick with what I've got
+0x0223  /  0x2441 (0x0017)  : , but tend towards Vivaldi rather than Satie, for ethnic authenticity. 
+0x0230  /  0x245a (0x0017)  : opening night comes, and Borchester samples my Pizza Margherita and Quattro Stagioni. 
+0x0231  /  0x2472 (0x0050)  : a certain Paolo Fiorenzi visits me. He says the "families" of Borchester are deeply offended by the spongy imitations that leave Pizzaville in cardboard boxes. Unless I forfeit the franchise, I will leave Pizzaville in a cardboard box. I am left with no choice. 
+0x0232  /  0x24c4 (0x000c)  : cut back on expenses and mark up the wine
+0x0233  /  0x24d1 (0x0014)  : . But it is not enough. What else can I save on? 
+0x0234  /  0x24e6 (0x0002)  : cleaning
+0x0235  /  0x24e9 (0x0039)  : . I only send the napkins and tablecloths to the laundry once a week. People start to complain and Caroline and Shula refuse to eat here any more. Cutting corners is not the answer. 
+0x0236  /  0x2523 (0x0002)  : wages
+0x0237  /  0x2526 (0x0019)  : I sack Shane. His bottom lip trembles as he folds his stripy apron. 
+0x0238  /  0x2540 (0x0027)  : The civil rights lobby are protesting about Shane. They claim he was the only representative of a minority group in the whole show! 
+0x0239  /  0x2568 (0x0015)  : I find myself boycotted and quite customerless. I determine to make amends. 
+0x023a  /  0x257e (0x0008)  : equipment by selling the microwave
+0x023b  /  0x2587 (0x0033)  : . As a result, food takes two hours to arrive. Caroline Bone has to wait till 3.20 for a jacket potato with sour cream and chives. 
+0x023c  /  0x25bb (0x000b)  : I have a brainwave about the wine bar. 
+0x0244  /  0x25c8 (0x000a)  : go into partnership with Pat and Tony
+0x0245  /  0x25d3 (0x0021)  :  Archer to open a whole-food restaurant called "Wild Oats." What shall I do about the decor? 
+0x0246  /  0x25f5 (0x000a)  : scatter rush matting on the floor
+0x0247  /  0x2600 (0x003b)  :  and keep my existing furniture. I keep tripping over vats of lentils that Shane is soaking in the kitchen. Tinned produce is strictly forbidden - but it all seems to be worth the effort! 
+0x0248  /  0x263c (0x0008)  : buy lots of trestle tables
+0x0249  /  0x2645 (0x003a)  :  and benches so everyone eats as one big happy family. It is exhilarating to see Mrs Antrobus perched next to Bert Horobin, munching on a piece of Field Bean and Cracked Wheat Flan! 
+0x024a  /  0x2680 (0x000a)  : exhibit the work of local artists
+0x024b  /  0x268b (0x000f)  :  amongst the wicker chairs and pine tables. 
+0x024c  /  0x269b (0x005f)  : the restaurant art exhibitions are a raging success! I am making more money out of my commission on paintings than I am out of Shane's spinach samosas. I have sold 29 prints by Betty Parfitt called "Springtime on Lakey Hill." It is a triangle painted green. Perhaps I should open an art gallery? 
+0x0258  /  0x26fd (0x0034)  : Pat comes into the restaurant with a long face. They've been struck by blackleg at Bridge Farm! I've got no-one to supply me with organic veg and hand-milled flour! 
+0x0259  /  0x2732 (0x0008)  : cheat and buy normal veg
+0x025a  /  0x273b (0x0043)  :  and flour. Shane finds out and refuses to touch another beanshoot. He's a very moralistic young man. However, he comes up with a very interesting proposition himself - and by now I am game for anything. 
+0x025b  /  0x2780 (0x0016)  : rub the words "organic" and "wholefood" off the menus
+0x025c  /  0x2797 (0x0030)  : . I'm back to the same boring old, profitless set-up as before. Oh well, perhaps it doesn't do to change one's routine in middle age! 
+0x025d  /  0x27c8 (0x0013)  : travel to Bristol every day to purchase my fresh organic produce
+0x025e  /  0x27dc (0x0050)  : , and charge double. My spirit of adventure and perseverance reap their reward - the restaurant gets three smiling chickpeas in "Wholefood Gastronomer Monthly"! But my petrol bill is eating into my profit. I cannot go on, even for further smiling chickpeas. 
+0x026c  /  0x282f (0x0052)  : I look to my younger friends for wild and exciting ideas. Tim Beecham says all the money lies in video discotheques, and offers his services as general manager. Shane points out that there is nowhere in Borchester for the gay community to hang out. It is a tricky decision. 
+0x026d  /  0x2883 (0x0002)  : Tim
+0x026e  /  0x2886 (0x0013)  : 's idea and start work on "Nelson's Victory." 
+0x026f  /  0x289a (0x0052)  : Nelson's Victory opens, with Tim Beecham as general manager. He promptly grabs anything female under 18 and disappears behind the PA. I remind him no-one under 18 should be allowed in. He says any nightclub worth its salt has to be crawling with schoolgirls. 
+0x0270  /  0x28ee (0x0005)  : Borchester CID arrive
+0x0271  /  0x28f4 (0x003a)  :  and find half Borchester Grammar guzzling Brandy and Babychams. My licence will be taken away! My sole livelihood is the antique shop! My sole customer is Jennifer Aldridge. I am finished! 
+0x0272  /  0x292f (0x0015)  : with creditors hammering on the door, I flee to Costa Rica. 
+0x0273  /  0x2945 (0x0017)  : Fool! You've written Nelson out of the script! You're fired! 
+0x0274  /  0x295d (0x0006)  : I hire a bouncer
+0x0275  /  0x2964 (0x003d)  :  to keep out the under 18s. It turns out that all my clientele were under 18. I have to let in Eddie Grundy and Snatch Foster to boost sales. I should have listened to Shane. 
+0x0276  /  0x29a2 (0x0009)  : Tim resigns as general manager
+0x0277  /  0x29ac (0x003e)  : . At my age I cannot be expected to operate laser beams, break up scuffles in dark corners, and circulate amongst the clientele until 2am. Perhaps the gay community will treat me more gently. 
+0x0280  /  0x29ec (0x0002)  : neither
+0x0281  /  0x29ef (0x0025)  :  of the ideas. They are both quite ridiculous. I will spruce up the wine bar a little and carry on as before. 
+0x0282  /  0x2a15 (0x0002)  : Shane
+0x0283  /  0x2a18 (0x0049)  :  as the voice of Borchester youth and open Adonis, Borchester's first gay nightclub. I cause a great stir amongst his friends by getting uncensored videos of several "rescheduled" tv programs, but after 39 viewings they get restless. 
+0x0284  /  0x2a63 (0x0010)  : buy lots of plastic jungle animals to decorate their cocktails
+0x0285  /  0x2a74 (0x003c)  :  and they compete to collect the whole set. I have learnt a lesson from the petrol stations - no-one has got a yellow rhino yet! My cocktail sales treble! Success at last! 
+0x0286  /  0x2ab1 (0x0007)  : book a male stripper
+0x0287  /  0x2ab9 (0x0022)  : . He is a huge success but everyone now clamours for live mud-wrestling. I think it's getting out of hand. 
+0x0288  /  0x2adc (0x0015)  : let's leave male strippers to Michael Grade's mob. OK? 
+0x0289  /  0x2af2 (0x000b)  : hold a Joan Collins look-alike competition
+0x028a  /  0x2afe (0x002d)  : . Underwoods sell out of scarlet lady lipstick and fishnet stockings. The overall effect is so intimidating I have to retire to my chamber for the evening. 
+0x0294  /  0x2b2d (0x006b)  : things go swimmingly for a while, then numbers suddenly dwindle until Adonis is is practically empty. Shane tells me that the "in" thing amongst his friends is to pretend to be straight. I shudder to think of them swilling bitter and eating black pudding sandwiches at the Cat and Fiddle. I close down Adonis before they seek refuge here again. 
+0x02bc  /  0x2b9b (0x0036)  : I have decided to redecorate the bar, bedecking it with bedouin-style striped silk and stuffing it full of Eastern promise. To start with I need swathes of material to create a tented effect. 
+0x02bd  /  0x2bd2 (0x000b)  : buy a job lot of Sari fabric
+0x02be  /  0x2bde (0x002c)  :  from Balsall Heath. Subtlety does not reign in this suburb of Birmingham, but I finally settle for oyster grey, burgundy and cream. 
+0x02bf  /  0x2c0b (0x000a)  : order the real McCoy from Liberty's
+0x02c0  /  0x2c16 (0x0008)  :  of Regent Street. 
+0x02c1  /  0x2c1f (0x0022)  : Liberty's pro-forma invoice arrives: the silk will cost #4997.25. I cancel the order. 
+0x02c2  /  0x2c42 (0x0008)  : buy reams of stripy cotton
+0x02c3  /  0x2c4b (0x0022)  :  from Borchester market. I am persuaded that petticoat silk would create the most sensual surroundings. Preparations continue! 
+0x02d0  /  0x2c6f (0x003a)  : I feel as if swimming in a turbulent ocean of silk and satin, but finally create the desired effect in the wine bar. I now need some glittering baubles and statuettes for greater visual impact. 
+0x02d1  /  0x2caa (0x000c)  : track down a mosque marked out for demolition
+0x02d2  /  0x2cb7 (0x0032)  :  in Bradford. Their eyes glitter greedily at the sum I offer. Unfortunately I let it slip that their icons are destined to decorate a wine bar. The deal is off. 
+0x02d3  /  0x2cea (0x0009)  : con the students at Borchester Tech
+0x02d4  /  0x2cf4 (0x001c)  :  into designing me artefacts based on the theme "Erotic mysteries of the ancient world." 
+0x02d5  /  0x2d11 (0x000f)  : We're getting complaints about Nelson exploiting students. 
+0x02d6  /  0x2d21 (0x0006)  : choose plaster statues
+0x02d7  /  0x2d28 (0x0049)  :  as the most practical solution. I amble down to the garden centre and leaf through "Reproduction Antique Garden Statuary." A bronzed effect is available at extra cost. This would save me messing about with cans of spray paint. 
+0x02e4  /  0x2d74 (0x0005)  : resist the temptation
+0x02e5  /  0x2d7a (0x0038)  :  and lug home the more exotic specimens of "Garden Statuary", arming myself with cans of gold paint from Woolies. I didn't get where I am today without cutting corners. 
+0x02e6  /  0x2db3 (0x0002)  : compromise
+0x02e7  /  0x2db6 (0x0034)  :  and order the larger statues bronzed - I will do the pineapples and gargoyles myself. I carefully cover the floor of the wine-bar in back copies of the "Sunday Times." 
+0x02e8  /  0x2deb (0x0005)  : succumb to extravagance
+0x02e9  /  0x2df1 (0x0033)  :  and order the whole lot ready bronzed. One must speculate to accumulate, and I need time to paint the "oasis" mural in the ladies' loo. 
+0x02f8  /  0x2e26 (0x0040)  : the students' progress is splendid - I didn't realise we harboured such talent in Borsetshire. But I receive an irate phone call from their tutor - he accuses me of exploitation and forbids the project to continue. 
+0x02f9  /  0x2e68 (0x0002)  : protest
+0x02fa  /  0x2e6b (0x003c)  :  my innocence, saying that I am giving the students an opportunity to display their talents to the public. He finally agrees to let me use their work as long as they can have their names clearly displayed. 
+0x02fb  /  0x2ea8 (0x0008)  : hang my head in shame
+0x02fc  /  0x2eb1 (0x0048)  :  and apologise for my wiliness. But when I offer a donation to the funds for the Tech's new multi-gym, he soon changes his tune. Apparently, the A level students would be more than proud to display in my wine-bar. Money talks! 
+0x02fd  /  0x2efb (0x000a)  : offer the miserable old goat a backhander
+0x02fe  /  0x2f06 (0x002a)  : . He threatens to have me sued by the local education committee! I back rapidly out of this one before I find hordes of parents hounding me. 
+0x030c  /  0x2f32 (0x0045)  : I spend the entire weekend spray-painting statues and have a headache worthy of any Uhu-sniffer in the Canning Factory ward. I offer Nigel Pargetter a tenner to finish it all off. I'm sure it won't have any affect on his brain whatsoever. 
+0x030d  /  0x2f79 (0x0065)  : everything is in place and reminiscent of the Arabian Nights. The doorway is flanked by two proud sphinxes, Pan and Aphrodite indicate the Ladies and Gents (tacky but irresistible!) and a pair of Bengalese lions stand guard over the bar. The effect is nothing if not eclectic, but I need a female opinion to confirm my taste. 
+0x030e  /  0x2fe0 (0x0011)  : Caroline Bone, a lady of experience and immaculate taste
+0x030f  /  0x2ff2 (0x0028)  : . She falters then declares it quite stunning. I suspect she is being evasive and she finally admits that it is somewhat overpowering. 
+0x0310  /  0x301b (0x000c)  : Sophie Barlow, sensitive and artistic like myself
+0x0311  /  0x3028 (0x0035)  : . She is quite ecstatic, and expects Omar Sharif or Rudolph Valentino to come bounding in. She offers to help me with the finishing touches. This has all been worthwhile! 
+0x0312  /  0x305e (0x000d)  : Elizabeth Archer, the barometer of wealthy Borchester youth
+0x0313  /  0x306c (0x0049)  : . Elizabeth takes one look and laughs horribly. She starts singing "Saturday Night under the Plastic Palm Trees." She won't get any more credit from me! But what can you expect from someone who did "Environmental Studies". 
+0x0320  /  0x30b8 (0x0024)  : Sophie is desperately eager to help - she wants somewhere to channel her creative energies. I wonder what she could do? 
+0x0321  /  0x30dd (0x0009)  : dye bunches of pampas grass
+0x0322  /  0x30e7 (0x0050)  :  deep and mysterious colours. Sophie throws all her energies into dying the pampas grass emerald and amethyst to display in my Grecian urns. After an hour her eyes swell up - she is allergic to pampas grass. My delightful assistant is now out of action! 
+0x0323  /  0x3139 (0x0008)  : make pounds of Turkish delight
+0x0324  /  0x3142 (0x002e)  : . The air is perfumed with the sweet scent of rose water as Sophie rustles up pounds of Turkish delight from a genuine recipe I picked up in Istanbul. 
+0x0325  /  0x3171 (0x0029)  : Sophie and Shane are spending days, cutting Turkish delight into identical cubes. I am expected to manage everything else on my own. 
+0x0326  /  0x319b (0x0007)  : illustrate a new menu
+0x0327  /  0x31a3 (0x003a)  : , with camels, glyphs and runic symbols. She suggests I should rethink the menu altogether. Ali Baba and the Forty Thieves did not dine on Kipper Pate and Waldorf Salad! 
+0x0328  /  0x31de (0x000e)  : pack Sophie off to the library to look up recipes
+0x0329  /  0x31ed (0x0036)  : . She trots off dutifully to the library, but comes back empty handed. Her knowledge of the Dewey decimal system is nonexistent. She is becoming more of a hindrance than a help. 
+0x032a  /  0x3224 (0x000c)  : invite Sophie for a research weekend in London
+0x032b  /  0x3231 (0x0007)  : . She accepts! 
+0x032c  /  0x3239 (0x004f)  : David Archer appears at Hollerton Junction as Sophie and I are embarking for London. He warns her that it's him or me. The silly girl murmurs an apology and rushes into his arms. I shall seek solace elsewhere, and carry on my crusade for a brighter Borchester regardless. 
+0x032d  /  0x328a (0x0009)  : promote Shane to assistant manager
+0x032e  /  0x3294 (0x003d)  :  and entrust him with the planning of a mouthwatering new menu. He starts babbling about clay ovens for baking our own pitta bread. I point out that it is readily available from the freezer centre. 
+0x0334  /  0x32d3 (0x002a)  : I need more help in the new-look wine bar. I pin up a notice in the window and half an hour later I get my first job applicant. 
+0x0335  /  0x32fe (0x0008)  : a leggy blonde in leopardskin
+0x0336  /  0x3307 (0x0050)  :  strolls in. I ask her if she's had any experience. She smiles and says, "What do you think?" She admits to being "Peaches" Mulcahy from the Cat and Fiddle. Reluctantly, I turn her down. One has to maintain some standards! 
+0x0337  /  0x3359 (0x0008)  : a pair of identical twins
+0x0338  /  0x3362 (0x0038)  : walk in - doe-eyed beauties of dubious origin. They are called Angel and Chastity! I suddenly find that I have two vacancies. If they don't help me boost sales, nothing will! 
+0x0339  /  0x339b (0x0004)  : Nigel Pargetter
+0x033a  /  0x33a0 (0x0016)  :  ambles in, ever eager to help. My heart sinks. 
+0x0348  /  0x33b8 (0x0009)  : offer him a job peeling vegetables
+0x0349  /  0x33c2 (0x003f)  : , hoping it will be beneath him. He accepts happily, then works his way through a whole box of sticking plasters. He finally hands in his notice when Shane's friend Damian pinches his bottom. 
+0x034a  /  0x3403 (0x0009)  : refuse him as gently as I can
+0x034b  /  0x340d (0x002c)  : . He admits that he's not surprised, after his former efforts at bankrupting the wine bar. He potters off for his weekly perusal of the Jobcentre. 
+0x034c  /  0x343a (0x000e)  : tell him I'm actually looking for female staff
+0x034d  /  0x3449 (0x0026)  :  but cannot advertise that because it's sex discrimination. We partake of a couple of glasses of vino to show no hard feelings. 
+0x034e  /  0x3470 (0x0017)  : Ghenghina Pushy MP has complained about sex discrimination in the Archers in Parliament. 
+0x035c  /  0x3489 (0x0049)  : horror of horrors! Peggy Archer has too much on her plate at Grey Gables to chaperone the Oversixties outing. Mrs Antrobus is only too eager to step into the breach. A deputation arrives from the village hall, pleading with me to do something. 
+0x035d  /  0x34d4 (0x000e)  : plead with Jack to release Peggy from her duties
+0x035e  /  0x34e3 (0x001a)  : . He says Peggy asked for extra duties in the first place to get out of the outing. 
+0x035f  /  0x34fe (0x0006)  : try to persuade Jennifer
+0x0360  /  0x3505 (0x0027)  :  it is her duty as next of kin. I ingratiate myself by sampling some of her ewe's milk yoghurt - her latest hobby. 
+0x0361  /  0x352d (0x0007)  : step into the breach myself
+0x0362  /  0x3535 (0x000c)  :  and pray for strength and patience. 
+0x0370  /  0x3543 (0x002f)  : while worrying about the Oversixties outing, I awake in the night with crippling stomach pains. I can only assume it is the fault of Jennifer's ewe's milk yoghurt. 
+0x0371  /  0x3573 (0x000c)  : pretend to be even sicker than I feel
+0x0372  /  0x3580 (0x002f)  : , hoping the Oversixties will find another chaperone. But the anxious faces over my bed show such touching concern that I feel it's all I can do to repay them. 
+0x0373  /  0x35b0 (0x000c)  : look upon it as a message from God
+0x0374  /  0x35bd (0x001f)  :  that I must not shirk my duty. No doubt I will reap my reward in the life hereafter. 
+0x0375  /  0x35dd (0x0015)  : threaten to reveal the source of my complaint if Jennifer doesn't take over the outing
+0x0376  /  0x35f3 (0x0020)  : . This hits home, as she is hoping to sell the yoghurt to the health food store in Borchester. 
+0x0384  /  0x3615 (0x000a)  : Jennifer falls to the floor in agony
+0x0385  /  0x3620 (0x0028)  : , a victim of her own poison. She has no choice but to improve hygiene and I have no choice but to run the Oversixties outing myself. 
+0x0386  /  0x3649 (0x000a)  : Jennifer mentions the Cricklewood sidings incident
+0x0387  /  0x3654 (0x0040)  :  and my involvement therein. I recall with horror one drunken night when I unburdened myself to her and realise that she has rather a lot of dirt on me. History has never seen a Gabriel retreat from battle so hastily! 
+0x0388  /  0x3696 (0x0003)  : Jennifer laughs
+0x0389  /  0x369a (0x0056)  :  and declares my threats quite ludicrous - her yoghurt making facilities have already been cleared by the health inspector. She dares to suggest my discomfort might stem from a surfeit of claret. I retire in high dudgeon, resigned to the fact that responsibility for the outing rests on my shoulders. 
+0x0398  /  0x36f3 (0x0012)  : I busy myself with plans to give the Oversixties an outing to remember. 
+0x0399  /  0x3706 (0x0008)  : respect the tradition of Weston-super-Mare
+0x039a  /  0x370f (0x002e)  :  - I wouldn't like to rock the boat. But to make it an outing to remember, I organise a special packed lunch, and entertainment for the coach. 
+0x039b  /  0x373e (0x0008)  : throw tradition to the winds
+0x039c  /  0x3747 (0x0031)  : , and tell the Oversixties we are off to Longleat. Before they open their mouths to complain, I remind them that I've saved them from Mrs Antrobus. They are silent. 
+0x039d  /  0x3779 (0x000b)  : plan to take in Weston and Longleat
+0x039e  /  0x3785 (0x0026)  : , pausing at Cheddar on the way. The only complaint is from Joe Grundy, who rightly suspects that this will be more expensive. 
+0x03ac  /  0x37ad (0x0048)  : I am smug about my special Oversixties packed lunches, which include chocolate animals (to make up for not going to Longleat), Chinese fortune cookies and special petits-fours made by Caroline Bone. But the coach entertainment poses a problem. 
+0x03ad  /  0x37f7 (0x000a)  : Madam Esmerelda, clairvoyante extraordinaire
+0x03ae  /  0x3802 (0x003c)  : , who could while away the long hours on the M5 by reading their palms. But I suspect there could be a riot if their fortune cookies conflict with her predictions so I cross her off the list. 
+0x03af  /  0x383f (0x0007)  : Mystical Merlin the Magician
+0x03b0  /  0x3847 (0x0030)  : , but I hate to think what the Oversixties could do to his props and I don't fancy crawling about on the coach floor searching for his balls if the conjuring act fails. 
+0x03b1  /  0x3878 (0x000f)  : Borchester's answer to Chas 'n' Dave
+0x03b2  /  0x3888 (0x004a)  : , Mick 'n' Dick, as my final choice. They do not have the same East End charm, or any musical talent, but one rousing chorus of "Knees Up, Mother Brown" is much like another. 
+0x03c0  /  0x38d5 (0x0056)  : as soon as Mrs Antrobus hears of the proposed trip to Longleat, she comes rushing to me with great plans for tea in the private quarters of the great house. "Teddy and the Marquess were such good chums," she trills, "I'm sure he'd be only too delighted." 
+0x03c1  /  0x392d (0x0007)  : remind her about Joe Grundy
+0x03c2  /  0x3935 (0x006e)  :  and intimate that he ought not to be let loose in the Marquess' private quarters. "Nonsense," Mrs Antrobus retorts, "I know Joe harbours a great respect for the landed gentry." Recollecting some of Joe's more scathing comments about Squire Lawson-Hope, I merely raise a quizzical eyebrow, but realise there is no stopping Mrs A when she is in full sail. 
+0x03c3  /  0x39a5 (0x000a)  : sit back and let her make the arrangements
+0x03c4  /  0x39b0 (0x000f)  : . If she can swing it all well and good. 
+0x03c5  /  0x39c0 (0x0009)  : secretly hope she forgets about it
+0x03c6  /  0x39ca (0x0022)  : , but underneath I know that once an officer's wife has the bit between her teeth, she will not let go. 
+0x03d4  /  0x39ee (0x008e)  : I receive an irate phone call from the Marquess' private secretary. Mrs Antrobus has been on the phone to her no less than 28 times! She also had the cheek to leave my name and number to "sort out the finer details - numbers and so on." The upshot is that if our coach so much as darkens the gates of Longleat, the lions will be set upon us. I think we will stick to the outing that has been tried and tested over the years. 
+0x03d5  /  0x3a7f (0x000f)  : the Oversixties outing rolls along quite merrily at first. 
+0x03d6  /  0x3a8f (0x000c)  : Mrs Perkins gets an ominous fortune cookie
+0x03d7  /  0x3a9c (0x006a)  :  saying "Prepare to meet thy Maker." The coach driver is forced to stop on the hard shoulder so she can get some fresh air. Mrs P's hysteria is so contagious that we are forced to turn round and go home. But every cloud has a silver lining - this incident has ensured that I will never be chosen to organise the outing again! 
+0x03d8  /  0x3b08 (0x000f)  : Dad puts a whoopee cushion on Pru Forrest's seat
+0x03d9  /  0x3b18 (0x005f)  : . I am horrified to see that she doesn't sit silent in mortification, but retaliates by poking Dad in the eye with a knitting needle. There is danger of an almighty brawl - Tom Forrest is already rolling up his sleeves. To distract their attention I ask Mick 'n' Dick to start another sing song. 
+0x03da  /  0x3b79 (0x0016)  : Mick 'n' Dick begin a rousing chorus of Eskimo Nell
+0x03db  /  0x3b90 (0x006a)  : . Dad, Joe Grundy, Tom Forrest, Bert Horobin, and Piggy Atkins (who gate-crashed in the first place) bawl their way through 47 verses, while the ladies and I sit mute with horror. The driver joins in, punctuating the end of each verse with a "toot, toot" on his horn. 
+0x03dc  /  0x3bfc (0x0021)  : the Discerning Viewers and Listeners Committee are horrified and I've been bombarded by requests for the words to Eskimo Nell! 
+0x03e8  /  0x3c1f (0x0007)  : we are stopped for speeding
+0x03e9  /  0x3c27 (0x0046)  : , swerving from lane to lane and unnecessary use of the horn by the police. Unfortunately, our driver has also been swigging cans of Newcastle Brown and is over the limit. We are left stranded at the side of the M5. 
+0x03ea  /  0x3c6f (0x000c)  : Mrs Antrobus starts a rival rendition of Jerusalem
+0x03eb  /  0x3c7c (0x002a)  : . But this only serves to encourage the hooligan element rife in the back seat, as they break into "Oh, Sir Jasper." 
+0x03ec  /  0x3ca7 (0x000d)  : I threaten Mick 'n' Dick
+0x03ed  /  0x3cb5 (0x005e)  :  with exposure in the Borchester Echo unless they change their tune. "Exposure - you mean like Sammy Fox in the Sun?" They guffaw. Things go from bad to worse - even Mrs Antrobus' best Sergeant Major impersonation fails to have any effect. It gets more and more like a Carry On film! 
+0x03fc  /  0x3d16 (0x0042)  : the name "Gabriel" may never have the same ring as Sotheby or Christie when bandied about in the antiques' trade. My only sale last week was a Victorian lavatory seat. I must step up business! 
+0x03fd  /  0x3d5a (0x0008)  : start a house clearance service
+0x03fe  /  0x3d63 (0x002a)  : , putting myself in direct competition with Chippendale Charlie - the only man who can sell genuine Georgian video cabinets to Borchester's nouveau riche. 
+0x03ff  /  0x3d8e (0x0008)  : start an antique restoration service
+0x0400  /  0x3d97 (0x002d)  : , bulk buying paint stripper, razor blades and wood stain. I hope my first customer won't mind my practising on their priceless antique! 
+0x0401  /  0x3dc5 (0x0010)  : knock on people's doors, offering cash for junk
+0x0402  /  0x3dd6 (0x004d)  : . I've heard tales of people discovering Rubens and van Goghs in this way. I end up with three Laughing Cavaliers, two trios of plaster ducks, and a plastic bust of Queen Victoria. I come to rest on Mrs Antrobus' doorstep. 
+0x0403  /  0x3e25 (0x0031)  : the BBC cannot condone Nelson carrying out what is essentially the practice of a con-merchant. You have already lost many older listeners who live in dread of people like this. 
+0x0410  /  0x3e58 (0x0008)  : she sets the dogs on me
+0x0411  /  0x3e61 (0x002a)  : , enraged by my touting like a rag-and-bone man. I race down the drive with Bettina, Georgia, and Portia in hot pursuit. 
+0x0412  /  0x3e8c (0x0007)  : Mrs Antrobus beckons me inside
+0x0413  /  0x3e94 (0x003f)  : . She bargains with me - if I do her an article on "Wines of the Rhine Valley" for the parish magazine, she'll give me a couple of stuffed warthog heads at a good price. Done! 
+0x0414  /  0x3ed5 (0x0010)  : she demands a lift to Borchester so she can visit the police
+0x0415  /  0x3ee6 (0x003d)  : , "I've heard tell there's a man on the loose demanding scrap off old people. He must be stopped." I do not flinch under her steely gaze, but inwardly digest the message. 
+0x0424  /  0x3f25 (0x001c)  : I need a strong lad to help me with the heavy furniture - I am no Spring chicken. 
+0x0425  /  0x3f42 (0x0004)  : Stuart Horobin
+0x0426  /  0x3f47 (0x0023)  :  - not only is he as strong as an ox but he's likely to turn a blind eye to any shady goings on. 
+0x0427  /  0x3f6b (0x0004)  : Mike Tucker
+0x0428  /  0x3f70 (0x0040)  :  and offer him a tenner for every clearance job he does for me. He tells me he has not sunk so low as to work for a crook like me. I shall have to approach someone who is not quite so sensitive. 
+0x0429  /  0x3fb2 (0x0002)  : Shane
+0x042a  /  0x3fb5 (0x0046)  : , when he is not already working for me in the kitchen, but it is soon evident that his furniture removing is not up to the standard of his chicken liver pate. I think it is wiser to leave him to his own devices in the kitchen. 
+0x0438  /  0x3ffe (0x002f)  : I have read three books on antique restoration and have had a practice on an old wash-stand I found in Dad's shed, so I'm ready for my first customer. 
+0x0439  /  0x402e (0x0003)  : Jill Archer
+0x043a  /  0x4032 (0x0015)  : , who wants me to restore an antique mirror for Elizabeth's birthday. 
+0x043b  /  0x4048 (0x003b)  : I make a right hash of restoring Elizabeth's mirror, but knowing her taste for the modern and garish, I paint it matt black with red splashes. She is delighted! The word spreads! 
+0x043c  /  0x4084 (0x0004)  : Colonel Danby
+0x043d  /  0x4089 (0x0034)  : , who wants me to restore a little walnut bureau that belonged to Laura Archer. I cannot bring myself to massacre such a beautiful item, and have to confess myself bogus. 
+0x043e  /  0x40be (0x0004)  : Kathy Holland
+0x043f  /  0x40c3 (0x0024)  : . She comes to me with six bright orange doors from D S Barry's cottage, convinced they are solid mahogany. 
+0x0440  /  0x40e8 (0x003d)  : I spend hours lovingly stripping down Kathy's doors, until I wear through the veneer and find hardboard beneath. I charge her top whack nonetheless and she threatens to send round D S Barry. 
+0x044c  /  0x4127 (0x0015)  : Stuart and I get our first house clearance job in Loxley Barratt. 
+0x044d  /  0x413d (0x000a)  : the van breaks down en route
+0x044e  /  0x4148 (0x0043)  : . By the time the AA get us moving again, the house owners have tired of waiting for us and have had a garage sale. I watch various valuable bits of furniture disappear into the back of Jennifer's Range Rover. 
+0x044f  /  0x418d (0x000b)  : Stuart drops a priceless Limoges bowl
+0x0450  /  0x4199 (0x004e)  :  while carrying it to the van. The owner says, "Don't worry, it was only the cat's drinking bowl." I am faint with horror - it was the only thing of any value. I make no profit from the venture and cannot afford to pay Stuart. 
+0x0451  /  0x41e9 (0x0007)  : Chippendale Charlie turns up
+0x0452  /  0x41f1 (0x0023)  : , sneaks in the back door and locks us in the broom cupboard. He then walks off with all the furniture. 
+0x0460  /  0x4216 (0x000a)  : get Stuart to break the door down
+0x0461  /  0x4221 (0x002c)  : . The owner of the house is furious and demands #60 for repairs. As a result, I cannot even afford to pay Stuart's wages. 
+0x0462  /  0x424e (0x0005)  : shout for help
+0x0463  /  0x4254 (0x0035)  : . When we are discovered later that evening, the police refuse to believe my explanation. We end up staying overnight in Borchester nick, until Dad comes to bail us out. 
+0x0464  /  0x428a (0x0007)  : escape through the window
+0x0465  /  0x4292 (0x002a)  : , hotfooting it back to Borchester. I have learnt never to mess with Chippendale Charlie. Unfortunately, I can't afford to pay Stuart's wages. 
+0x0474  /  0x42be (0x003f)  : D S Barry comes to see me about the doors. I point out that I still did the work even though the doors were only hardboard. He says that that a real restorer would have identified them straight away. 
+0x0475  /  0x42ff (0x0005)  : stand my ground
+0x0476  /  0x4305 (0x0012)  : . He threatens to get my wine bar licence taken away. 
+0x0477  /  0x4318 (0x0007)  : give in to police brutality
+0x0478  /  0x4320 (0x001d)  :  and give him his money back. There are some people in the community that I cannot afford to argue with! 
+0x0479  /  0x433e (0x0008)  : offer to repaint them for nothing
+0x047a  /  0x4347 (0x0036)  : . Although this placates him somewhat, he politely intimates that a bogus "restorer" might not be a fit person to run licensed premises. I can take a hint. 
+0x0488  /  0x437f (0x0021)  : late that night, I find myself surrounded by what seems like a score of burly Horobins demanding Stuart's wages. 
+0x0489  /  0x43a1 (0x000c)  : offer him a few bottles of whisky instead
+0x048a  /  0x43ae (0x0036)  : . The Horobin greed is placated by this offer, and they shamble away happily. Next morning the whole clan is found comatose in the park. All's well that ends well! 
+0x048b  /  0x43e5 (0x000f)  : rush to the safe and grab a fistful of fivers
+0x048c  /  0x43f5 (0x002d)  :  - there's one for each of them and three for Stuart. Never again will I employ a local yokel - especially one with a gang of hefty relatives. 
+0x048d  /  0x4423 (0x0008)  : threaten to call the police
+0x048e  /  0x442c (0x0076)  : . A voice behind me says, "By which I presume you mean me? Give the boy his money, Gabriel. I've had enough of you and your antics." It's none other than D S Barry. In fear of my life as well as my licence, I hand over the cash and offer the Sergeant a brandy - it's as well to keep certain members of the community sweet! 
+0x049c  /  0x44a5 (0x0023)  : Borchester is a cultural desert. I feel like a rose amongst thorns. A weekend with the delightful Hebe would compensate. 
+0x049d  /  0x44c9 (0x000b)  : invite her for a weekend in the country
+0x049e  /  0x44d5 (0x001a)  : . I am to collect her in the Jag, from Hollerton Junction on Saturday morning. 
+0x049f  /  0x44f0 (0x000d)  : decide to invite myself for a weekend in London
+0x04a0  /  0x44fe (0x0027)  :  - only to find I have lost her phone number. Directory Enquiries have no-one in the London area listed under "Hebe." 
+0x04a1  /  0x4526 (0x000c)  : decide to surprise her at the Ritz tearooms
+0x04a2  /  0x4533 (0x0038)  : . The prospect of sipping Earl Grey out of paper-thin bone china and hearing her rendering of "Sing Song Girl of Old Shanghai" sends a shiver of anticipation down my spine. 
+0x04b0  /  0x456d (0x0018)  : Hebe's arrival is imminent, but the delicate problem of accommodation remains unsolved. 
+0x04b1  /  0x4586 (0x0008)  : reserve her the Wisteria Suite
+0x04b2  /  0x458f (0x0034)  :  at the Rose and Crown. They are suckers for celebrities, and arrange for passion fruit and purple freesias to greet her in the room. This should set the tone! 
+0x04b3  /  0x45c4 (0x000c)  : ask Dad if Hebe can stay at Honeysuckle Cottage
+0x04b4  /  0x45d1 (0x0037)  : , in his spareroom. He gives an evil chuckle, "With pleasure, son, with pleasure!" On reflection, I think she might be safer in my flat! 
+0x04b5  /  0x4609 (0x000a)  : resolve to sneak her into my flat
+0x04b6  /  0x4614 (0x0011)  :  - offering to take the sofa, of course. 
+0x04c4  /  0x4627 (0x0040)  : I haven't the patience to write a letter to Hebe at the Ritz and wait for a reply. And their management are snotty and refuse to reveal her number to me. I have no choice but to go to London and surprise her. 
+0x04c5  /  0x4669 (0x0028)  : half an hour from Paddington I am gripped with insecurity and doubt - what if Hebe is horrified to see me? I need some Dutch courage. 
+0x04c6  /  0x4692 (0x000e)  : have a few bottled lagers in the buffet car
+0x04c7  /  0x46a1 (0x001b)  : . An American buys me whisky chasers - he says I remind him of Oscar Wilde. 
+0x04c8  /  0x46bd (0x0011)  : slip into La Gavroche for a Chateau Margaux '63
+0x04c9  /  0x46cf (0x002b)  : . While in there I bump into an old colleague from the antiques trade, Binky Randolph-Eccles. We have a few bevvies for old time's sake. 
+0x04ca  /  0x46fb (0x000b)  : have a few slugs of malt whisky
+0x04cb  /  0x4707 (0x0062)  :  in the Gents. But it slips down so easily I suddenly find it all gone. I stagger to the Underground. Five hours later I wake up at Blackfriars - I have been round the Circle Line 25 times! An innate sixth sense tells me the Ritz tea dance is over - I disconsolately make my way back to Borchester. 
+0x04d8  /  0x476c (0x004e)  : Hebe arrives on time - I scoop up her hat boxes and vanity case and whisk her away. I venture that she might like to stay in my little pied a terre this time. Her raised eyebrows say everything. I drive straight to the Rose and Crown. 
+0x04d9  /  0x47bc (0x0038)  : Hebe is enchanted with her room, which mollifies me slightly. The reception has discreetly offered to send me the bill. With such depleted funds, what shall I do with her tonight? 
+0x04da  /  0x47f5 (0x000d)  : we settle for a light supper in the flat
+0x04db  /  0x4803 (0x004f)  :  - Shane, with the panache of Humphrey Bogart, serves us gravad lax and a Stilton souffle. I conclude that if our relationship is to develop, then I will have to take her to the Mont Blanc, where many a clandestine relationship has flowered. 
+0x04dc  /  0x4854 (0x0013)  : Hebe clamours for steak and kidney pie in an olde worlde pub
+0x04dd  /  0x4868 (0x004f)  :  - Knightsbridge and Piccadilly do not abound with picturesque charm. Unfortunately, the Country Girl at Scowell Braddon serves us with a dodgy kidney - we spend the rest of the weekend with gyppy tummies, sipping weak tea and nibbling dry biscuits at Dad's. 
+0x04de  /  0x48b9 (0x0006)  : I hang the expense
+0x04df  /  0x48c0 (0x0050)  :  and bless American Express, and we go to the Mont Blanc at Waterley Cross; their salmon and asparagus in pastry puts the Roux brothers to shame. Halfway through our aperitifs, I notice Brian Aldridge and Caroline Bone talking in a dark corner. 
+0x04ec  /  0x4913 (0x0007)  : discreetly ignore their presence
+0x04ed  /  0x491b (0x001e)  :  - I don't want Hebe bored rigid by the merits of sugar beet versus oil seed rape. 
+0x04ee  /  0x493a (0x000b)  : acknowledge their presence with a conspiratorial smile
+0x04ef  /  0x4946 (0x001b)  : - Caroline appreciates my discretion, but I shall enjoy letting Brian Aldridge suffer. 
+0x04f0  /  0x4962 (0x000c)  : invite them to our table for a drink
+0x04f1  /  0x496f (0x0026)  : . Caroline and Hebe prattle on about Beauchamp Place versus Bond Street for silken undies. Brian looks close to apoplexy. 
+0x0500  /  0x4997 (0x0030)  : I stumble into the tearoom at the Ritz to catch the end of Hebe's rendering of "Button Up Your Overcoat." I applaud vigorously and holler for more. 
+0x0501  /  0x49c8 (0x0005)  : I am thrown out
+0x0502  /  0x49ce (0x0042)  :  into the cold London streets by the Ritz bouncers - I must be the only person to have been expelled from a tea-dance. I conclude that Hebe won't be interested after such an exhibition, and make my way back to Paddington. 
+0x0503  /  0x4a12 (0x0008)  : I rush onto the stage
+0x0504  /  0x4a1b (0x0053)  :  and give my rendition of "The Green Eye of the Little Yellow God." It goes down a storm! The manager of the Ritz pleads with me to perform every Sunday. Modestly, I refuse, but promise to put in an appearance at their Christmas Revue. 
+0x0505  /  0x4a70 (0x0009)  : Hebe spies the state I am in
+0x0506  /  0x4a7a (0x001f)  : , and drags me off to her dressing room. I apologise profusely and fall into a drunken stupor. 
+0x0507  /  0x4a9a (0x000b)  : I wake up some hours later. 
+0x0514  /  0x4aa7 (0x0006)  : Hebe nowhere in sight
+0x0515  /  0x4aae (0x0034)  : , and two very burly young men standing over me. They are waiters disguised as bouncers, or bouncers disguised as waiters - I am in no fit state to judge. 
+0x0516  /  0x4ae3 (0x000c)  : Hebe is looking over me with a bemused expression
+0x0517  /  0x4af0 (0x002b)  : . I plead forgiveness, and offer to make it up to her by treating her to a weekend in the country. I am mightily relieved when she accepts. 
+0x0518  /  0x4b1c (0x0009)  : I am in in a prison cell
+0x0519  /  0x4b26 (0x004b)  : . The manager of the Ritz phoned the cops when my exhibition cleared the hotel of all but twelve guests. I am kept in overnight. The next day I make my way home without establishing contact with Hebe - I think the less said the better. 
+0x0528  /  0x4b74 (0x004b)  : Brian is on his fifth whisky and soda - he cannot stand the tension and evidently fears I will spill the beans to Jennifer. Caroline tries to placate him, but after three more whiskies he threatens to flatten me if I so much as breathe a word. 
+0x0529  /  0x4bc1 (0x0012)  : assure Brian that I am not in the habit of breaking up marriages
+0x052a  /  0x4bd4 (0x0041)  : . He misconstrues this as provocation and flattens me anyway. I end up in Borchester General. This has its advantages - Hebe holds my hand all through the night. I think I could now die a happy man. 
+0x052b  /  0x4c17 (0x0006)  : complain to the management
+0x052c  /  0x4c1e (0x0047)  : . They escort Brian out and put him in a taxi home. Caroline, Hebe and I enjoy the rest of our meal on the house. Not only is Caroline relieved of a boorish dinner companion, but my financial problems are alleviated. 
+0x052d  /  0x4c67 (0x000c)  : whisk Caroline and Hebe off to Grey Gables
+0x052e  /  0x4c74 (0x003e)  : , knowing full well that Brian cannot follow and make a scene. Jack Woolley is so delighted by the presence of a celebrity that he gives us dinner and champagne on the house. All's well that ends well! 
+0x053c  /  0x4cb4 (0x0037)  : Hebe is delighted by my newfound success in showbiz. On the strength of our euphoria I invite her up to the country for a weekend. My cup of happiness overflows when she eagerly accepts. 
+<EOM>

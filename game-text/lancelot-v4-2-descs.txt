@@ -1,0 +1,1418 @@
+0x0001  /  0x0cd9 (0x0001)  :  
+0x0002  /  0x0cdb (0x0002)  : :
+0x0003  /  0x0cde (0x0001)  : , 
+0x0004  /  0x0ce0 (0x0001)  : .
+0x0005  /  0x0ce2 (0x0002)  : 
+
+0x0006  /  0x0ce5 (0x0002)  : and 
+0x0007  /  0x0ce8 (0x0003)  : .
+
+0x0008  /  0x0cec (0x0003)  : ?
+
+0x0009  /  0x0cf0 (0x0001)  : . 
+0x000a  /  0x0cf2 (0x0005)  : exits led 
+0x000b  /  0x0cf8 (0x0006)  : an exit led 
+0x000c  /  0x0cff (0x0004)  :  through a door
+0x000d  /  0x0d04 (0x0005)  :  through an open door
+0x000e  /  0x0d0a (0x0003)  :  and 
+0x0010  /  0x0d0f (0x0004)  : 
+> 
+0x0011  /  0x0d14 (0x0007)  : 
+What now? 
+0x0012  /  0x0d1c (0x0001)  : : 
+0x0013  /  0x0d1e (0x0001)  : "
+0x0014  /  0x0d20 (0x0002)  : a 
+0x0015  /  0x0d23 (0x0002)  : the 
+0x0016  /  0x0d26 (0x0002)  : an 
+0x0017  /  0x0d29 (0x0002)  : some 
+0x0018  /  0x0d2c (0x0003)  : ." 
+0x0019  /  0x0d30 (0x0004)  : 
+ 
+
+0x001a  /  0x0d35 (0x0002)  : worn
+0x001b  /  0x0d38 (0x0002)  : taken
+0x0033  /  0x0d3c (0x0006)  : north [aka] n
+0x0034  /  0x0d43 (0x0006)  : northeast [aka] ne
+0x0035  /  0x0d4a (0x0006)  : east [aka] e
+0x0036  /  0x0d51 (0x0006)  : south [aka] s
+0x0037  /  0x0d58 (0x0006)  : southeast [aka] se
+0x0038  /  0x0d5f (0x0006)  : southwest [aka] sw
+0x0039  /  0x0d66 (0x0006)  : west [aka] w
+0x003a  /  0x0d6d (0x0006)  : northwest [aka] nw
+0x003b  /  0x0d74 (0x0008)  : upwards [aka] u up
+0x003c  /  0x0d7d (0x0008)  : downwards [aka] d down
+0x003d  /  0x0d86 (0x000a)  : inside [aka] in into enter
+0x003e  /  0x0d91 (0x0008)  : outside [aka] out leave
+0x003f  /  0x0d9a (0x0006)  : cross [aka] across
+0x0040  /  0x0da1 (0x0006)  : climb [aka] ascend
+0x0046  /  0x0da9 (0x0002)  : i
+0x0047  /  0x0dac (0x0006)  : again [aka] a
+0x0048  /  0x0db3 (0x0006)  : look [aka] l
+0x0049  /  0x0dba (0x0008)  : inventory [aka] inv list
+0x004a  /  0x0dc3 (0x0004)  : quit restart
+0x004b  /  0x0dc8 (0x0004)  : Restore load
+0x004c  /  0x0dcd (0x0002)  : save
+0x004d  /  0x0dd0 (0x0004)  : ramsave ram
+0x004e  /  0x0dd5 (0x0002)  : ramload
+0x004f  /  0x0dd8 (0x0006)  : score rating status
+0x0050  /  0x0ddf (0x0002)  : verbose
+0x0051  /  0x0de2 (0x0002)  : brief
+0x0052  /  0x0de5 (0x000a)  : wait [aka] wa pause z
+0x0053  /  0x0df0 (0x0008)  : blow [aka] play sound
+0x0054  /  0x0df9 (0x0002)  : on
+0x0055  /  0x0dfc (0x0006)  : off [aka] jump
+0x0056  /  0x0e03 (0x0004)  : pictures graphics
+0x0057  /  0x0e08 (0x0004)  : words text
+0x0059  /  0x0e0e (0x0004)  : Undo Oops
+0x005a  /  0x0e13 (0x000a)  : attacked [aka] attack hit break
+0x005f  /  0x0e1f (0x0006)  : knocked [aka] knock
+0x0060  /  0x0e26 (0x000c)  : got [aka] stood stand hide conceal
+0x0061  /  0x0e33 (0x0006)  : lay [aka] lie
+0x0062  /  0x0e3a (0x0006)  : sat [aka] sit
+0x0064  /  0x0e42 (0x000a)  : said [aka] say whisper call
+0x0068  /  0x0e4e (0x0006)  : ran [aka] run
+0x0069  /  0x0e55 (0x0006)  : made [aka] make
+0x006a  /  0x0e5c (0x0006)  : prayed [aka] pray
+0x006b  /  0x0e63 (0x001c)  : Lancelot refused, for his tastes were accustomed to finer things [aka] eat bite taste nibble lick
+0x006c  /  0x0e80 (0x000c)  : went [aka] go goto find walk
+0x006d  /  0x0e8d (0x0008)  : stopped [aka] stop abort
+0x006e  /  0x0e96 (0x0006)  : drank [aka] drink
+0x0070  /  0x0e9e (0x0004)  : exits exit
+0x0082  /  0x0ea4 (0x0006)  : had [aka] have
+0x0083  /  0x0eab (0x0006)  : had [aka] has
+0x0084  /  0x0eb2 (0x0006)  : was [aka] am
+0x0085  /  0x0eb9 (0x0006)  : were [aka] are
+0x0086  /  0x0ec0 (0x0006)  : was [aka] is
+0x0087  /  0x0ec7 (0x0001)  : are
+0x0088  /  0x0ec9 (0x0001)  : is
+0x008f  /  0x0ecc (0x000a)  : fought [aka] challenge fight kill
+0x0096  /  0x0ed8 (0x000a)  : examined [aka] examine read search
+0x0097  /  0x0ee3 (0x0006)  : cut [aka] chop
+0x0098  /  0x0eea (0x0008)  : woke [aka] wake rouse
+0x009a  /  0x0ef4 (0x0006)  : got [aka] get
+0x009b  /  0x0efb (0x0018)  : took [aka] take carry pick pluck catch pull hold keep turn rotate
+0x009c  /  0x0f14 (0x0006)  : wore [aka] wear
+0x009d  /  0x0f1b (0x0008)  : dropped [aka] drop discard
+0x009e  /  0x0f24 (0x0002)  : put
+0x009f  /  0x0f27 (0x000a)  : removed [aka] remove free release
+0x00a0  /  0x0f32 (0x0008)  : threw [aka] throw hurl
+0x00a1  /  0x0f3b (0x000a)  : gave [aka] give offer offered
+0x00a3  /  0x0f47 (0x0008)  : followed [aka] follow chase
+0x00a4  /  0x0f50 (0x000a)  : opened [aka] open unlock unbolt
+0x00a5  /  0x0f5b (0x0002)  : choose
+0x00a8  /  0x0f5f (0x000a)  : pushed [aka] push launch shove
+0x00a9  /  0x0f6a (0x000a)  : fastened [aka] fasten tie attach
+0x00aa  /  0x0f75 (0x000a)  : unfastened [aka] unfasten untie untangle
+0x00be  /  0x0f81 (0x0008)  : closed [aka] close shut
+0x00c0  /  0x0f8b (0x0006)  : told [aka] tell
+0x00c2  /  0x0f93 (0x0002)  : struggled
+0x00c5  /  0x0f97 (0x0002)  : killed
+0x00d2  /  0x0f9b (0x0002)  : reached
+0x00d3  /  0x0f9e (0x0002)  : dragged
+0x00d4  /  0x0fa1 (0x0002)  : passed
+0x00d5  /  0x0fa4 (0x0002)  : flew
+0x00d6  /  0x0fa7 (0x0002)  : walked
+0x00d7  /  0x0faa (0x0002)  : caught
+0x00d8  /  0x0fad (0x0002)  : entered
+0x00f9  /  0x0fb1 (0x000c)  : if you say so [aka] no nay
+0x00fa  /  0x0fbe (0x000e)  : Lancelot could smell nothing of interest [aka] sniffed sniff
+0x00fb  /  0x0fcd (0x000c)  : if you say so [aka] yes yay
+0x00fc  /  0x0fda (0x0013)  : Lancelot looked scornful and refused [aka] leap hop skip dance celebrate
+0x00fe  /  0x0fef (0x000b)  : the weather was always fine in Camelot
+0x00ff  /  0x0ffb (0x0016)  : to talk, enter e.G Knight,follow me [aka] hello welcome
+0x0100  /  0x1012 (0x0011)  : Lancelot heard nothing but what he already knew of [aka] listen hear
+0x0101  /  0x1024 (0x0015)  : Level 9 Computing provide a passing fine cluesheet [aka] hint help
+0x0102  /  0x103a (0x0021)  : pray tell me which way you want to go, and I will handle getting into and out of the boat [aka] board sail
+0x0103  /  0x105c (0x0006)  : Lancelot offered his thanks
+0x0104  /  0x1063 (0x000b)  : the only escape is to finish the game
+0x0105  /  0x106f (0x0010)  : there was no need to worry about that [aka] mount dismount
+0x0106  /  0x1080 (0x000f)  : Lancelot would have to find that out for himself [aka] what
+0x0107  /  0x1090 (0x0009)  : Why not [aka] y why
+0x0108  /  0x109a (0x000b)  : I just wondering where it was myself
+0x0109  /  0x10a6 (0x0019)  : I am right sorry, but even I know not how things work in this land
+0x010a  /  0x10c0 (0x0016)  : in truth, I can help little with such matters [aka] whether who
+0x010b  /  0x10d7 (0x0060)  : such knavish talk comes ill from one who would be thought a knight [aka] sod motherfucker nigger cock nerd bloody frigging wanker turd twat cunt prick bollocks jesus christ dick god devil tits asshole arsehole cretin spastic coon wog fucking fucker fuck bastard bugger damn sex hell bonk pratt rape shag
+0x010c  /  0x1139 (0x001f)  : such foul behavior in public should be unthinkable for a knight [aka] crap piss shit fart burp belch
+0x010d  /  0x1159 (0x000b)  : Lancelot was no witch, to cast enchantments
+0x010f  /  0x1166 (0x001e)  : although Lancelot was of high learning, he did not write by choice. Such matters were for clerks and governesses
+0x0110  /  0x1185 (0x0009)  : Lancelot laughed [aka] laugh chuckle
+0x0111  /  0x118f (0x001a)  : taking your leave so soon? Pray save your position first [aka] goodbye bye farewell
+0x0112  /  0x11aa (0x000a)  : mercy ye shall have [aka] sorry
+0x0113  /  0x11b5 (0x0017)  : Lancelot screamed fit to make the heavens ring, but to no avail [aka] scream
+0x0114  /  0x11cd (0x000f)  : Lancelot fell down on his knees in reverence [aka] kneel
+0x0115  /  0x11dd (0x000d)  : for information, enter Examine Lancelot [aka] info
+0x0116  /  0x11eb (0x000b)  : tis rude to stare [aka] watch
+0x0117  /  0x11f7 (0x000b)  : Lancelot's duties would not permit him rest
+0x0118  /  0x1203 (0x0016)  : forsooth! An armoured man might as well try to fly as to swim
+0x011a  /  0x121b (0x0005)  : Lancelot was no minstrel
+0x011b  /  0x1221 (0x0002)  : hit
+0x011e  /  0x1225 (0x0010)  : Lancelot did so, but to no great effect [aka] shake sharpen
+0x011f  /  0x1236 (0x0015)  : rather than dismiss people, try e.G Tristram,go to Orkneys
+0x0120  /  0x124c (0x0010)  : Lancelot was no farmer, to dig the earth [aka] bury
+0x0121  /  0x125d (0x0011)  : to lead people, try e.G Gareth,follow me
+0x0122  /  0x126f (0x0011)  : Lancelot polished it until it gleamed [aka] rub clean polish
+0x0123  /  0x1281 (0x0028)  : you fill a container by, e.G Put thing in container. Or, in the Grail Quest, by e.G Fill chalice
+0x0124  /  0x12aa (0x002b)  : prithee empty a container by removing each object in turn. Or, in the Grail Quest, by e.G Empty cup, or Throw water
+0x0126  /  0x12d7 (0x0010)  : Lancelot had no way to light anything, but perhaps a beacon
+0x0127  /  0x12e8 (0x000e)  : try throwing lots of water at it [aka] extinguish
+0x0128  /  0x12f7 (0x000a)  : Lancelot expressed his gratitude [aka] thank
+0x0129  /  0x1302 (0x0018)  : if you do not mind, I pay no lip service to that command [aka] kiss
+0x012a  /  0x131b (0x000c)  : there are no magic wands to wave around here
+0x012d  /  0x1329 (0x0006)  : Lancelot [aka] me
+0x012e  /  0x1330 (0x0002)  : Tristram
+0x0130  /  0x1334 (0x0006)  : Bors de Ganis
+0x0131  /  0x133b (0x0003)  : Sir Pedivere
+0x0132  /  0x133f (0x0002)  : Gawain
+0x0133  /  0x1342 (0x0005)  : the Red Knight
+0x0134  /  0x1348 (0x0002)  : Meliot
+0x0135  /  0x134b (0x0002)  : Lamorak
+0x0136  /  0x134e (0x0006)  : Ector de Maris
+0x0137  /  0x1355 (0x0002)  : Agravain
+0x0138  /  0x1358 (0x0002)  : Aliduke
+0x0139  /  0x135b (0x0002)  : Brandiles
+0x013a  /  0x135e (0x0002)  : Brian
+0x013b  /  0x1361 (0x0002)  : Geheris
+0x013c  /  0x1364 (0x0002)  : Gareth
+0x013d  /  0x1367 (0x0002)  : Lionel
+0x013e  /  0x136a (0x0002)  : Marhaus
+0x013f  /  0x136d (0x0003)  : Sir Breunis
+0x0140  /  0x1371 (0x0008)  : someone invisible [aka] Garlon
+0x0142  /  0x137b (0x0005)  : the Magical Knight
+0x0143  /  0x1381 (0x0003)  : Sir Turquin
+0x0144  /  0x1385 (0x0003)  : Sir Phelot
+0x0145  /  0x1389 (0x0005)  : the Black Knight
+0x0146  /  0x138f (0x0005)  : the Green Knight
+0x0148  /  0x1396 (0x0002)  : Hellawes
+0x0149  /  0x1399 (0x0004)  : Queen Morgan
+0x014a  /  0x139e (0x0004)  : Queen Northgales
+0x014b  /  0x13a3 (0x0004)  : Queen Eastlands
+0x014c  /  0x13a8 (0x0004)  : Queen Outisles
+0x014d  /  0x13ad (0x0009)  : the Damosel Maledisant [aka] Lynet
+0x014e  /  0x13b7 (0x0002)  : maiden
+0x014f  /  0x13ba (0x0002)  : Damosel
+0x0150  /  0x13bd (0x0002)  : Lady
+0x0151  /  0x13c0 (0x000a)  : Giant Nabon [aka] head Nabon's
+0x0154  /  0x13cc (0x0002)  : army
+0x0155  /  0x13cf (0x0002)  : carter
+0x0156  /  0x13d2 (0x0002)  : Elaine
+0x0157  /  0x13d5 (0x0002)  : mermaid
+0x0158  /  0x13d8 (0x0008)  : old man [aka] spear
+0x0159  /  0x13e1 (0x0002)  : residents
+0x015a  /  0x13e4 (0x0002)  : sentries
+0x015b  /  0x13e7 (0x0004)  : Thirty Knights
+0x015c  /  0x13ec (0x0002)  : guard
+0x015e  /  0x13f0 (0x0006)  : hawk [aka] lunes
+0x015f  /  0x13f7 (0x0002)  : brachet
+0x017d  /  0x13fb (0x0002)  : cloth
+0x017e  /  0x13fe (0x0002)  : food
+0x017f  /  0x1401 (0x0005)  : glass of wine
+0x0180  /  0x1407 (0x0002)  : harp
+0x0181  /  0x140a (0x0006)  : horn [aka] toot
+0x0182  /  0x1411 (0x0004)  : hot coals
+0x0183  /  0x1416 (0x0002)  : plate
+0x0185  /  0x141a (0x0006)  : relic [aka] hand
+0x0186  /  0x1421 (0x0002)  : sack
+0x0187  /  0x1424 (0x0002)  : soup
+0x0188  /  0x1427 (0x0002)  : pillow
+0x0189  /  0x142a (0x0002)  : cauldron
+0x018a  /  0x142d (0x0002)  : winch
+0x018b  /  0x1430 (0x0004)  : dead wood
+0x019a  /  0x1436 (0x0002)  : bath
+0x019b  /  0x1439 (0x0002)  : beacon
+0x019d  /  0x143d (0x0002)  : boat
+0x019e  /  0x1440 (0x0002)  : briers
+0x019f  /  0x1443 (0x0002)  : bushes
+0x01a0  /  0x1446 (0x0002)  : cage
+0x01a1  /  0x1449 (0x0002)  : cart
+0x01a2  /  0x144c (0x0002)  : chest
+0x01a3  /  0x144f (0x0002)  : crossbow
+0x01a4  /  0x1452 (0x0002)  : fire
+0x01a5  /  0x1455 (0x0002)  : lever
+0x01a7  /  0x1459 (0x0002)  : keyhole
+0x01a8  /  0x145c (0x0002)  : panel
+0x01a9  /  0x145f (0x0004)  : loose planks
+0x01aa  /  0x1464 (0x0004)  : loose planks
+0x01ab  /  0x1469 (0x0004)  : loose planks
+0x01ac  /  0x146e (0x0002)  : portcullis
+0x01ad  /  0x1471 (0x0004)  : secret panel
+0x01ae  /  0x1476 (0x0002)  : ships
+0x01af  /  0x1479 (0x0002)  : shutters
+0x01b1  /  0x147d (0x0004)  : elm tree
+0x01b2  /  0x1482 (0x0002)  : inscription
+0x01b3  /  0x1485 (0x0005)  : pile of sails
+0x01b4  /  0x148b (0x0002)  : bed
+0x01b5  /  0x148e (0x0004)  : siege army
+0x01b6  /  0x1493 (0x0002)  : trapdoor
+0x01e0  /  0x1497 (0x0004)  : bleak shore
+0x01e1  /  0x149c (0x0005)  : isle of Servage
+0x01e2  /  0x14a2 (0x0008)  : shore near Corbin village
+0x0216  /  0x14ac (0x0006)  : everything all every
+0x0219  /  0x14b4 (0x0008)  : people [aka] everyone everybody
+0x021b  /  0x14be (0x0002)  : door
+0x021d  /  0x14c2 (0x0006)  : water [aka] river
+0x021e  /  0x14c9 (0x0002)  : be
+0x021f  /  0x14cc (0x0008)  : room [aka] ground floor
+0x0220  /  0x14d5 (0x0006)  : wall [aka] walls
+0x0221  /  0x14dc (0x0008)  : sky [aka] sun moon
+0x0223  /  0x14e6 (0x0004)  : except but
+0x0224  /  0x14eb (0x0010)  : it [aka] that them those none him her
+0x0225  /  0x14fc (0x0004)  : minute minutes
+0x0226  /  0x1501 (0x0004)  : sign cross
+0x0227  /  0x1506 (0x0004)  : then next
+0x0228  /  0x150b (0x0004)  : therefore so
+0x0229  /  0x1510 (0x0006)  : Lancelot [aka] you
+0x022a  /  0x1517 (0x000a)  : horse [aka] armour weapons sword
+0x0230  /  0x1523 (0x0001)  : it
+0x0231  /  0x1525 (0x0001)  : it
+0x0232  /  0x1527 (0x0001)  : some
+0x0233  /  0x1529 (0x0001)  : he
+0x0234  /  0x152b (0x0001)  : she
+0x0235  /  0x152d (0x0001)  : they
+0x0236  /  0x152f (0x0001)  : Lancelot
+0x0237  /  0x1531 (0x0001)  : he
+0x0238  /  0x1533 (0x0001)  : she
+0x023a  /  0x1536 (0x0001)  : it
+0x023b  /  0x1538 (0x0001)  : it
+0x023c  /  0x153a (0x0002)  : them
+0x023d  /  0x153d (0x0001)  : him
+0x023e  /  0x153f (0x0001)  : her
+0x023f  /  0x1541 (0x0002)  : them
+0x0240  /  0x1544 (0x0001)  : Lancelot
+0x0241  /  0x1546 (0x0001)  : him
+0x0242  /  0x1548 (0x0001)  : her
+0x0243  /  0x154a (0x0002)  : ~
+0x0244  /  0x154d (0x0002)  : s
+0x0245  /  0x1550 (0x0002)  : es
+0x0246  /  0x1553 (0x0001)  : is
+0x0249  /  0x1556 (0x0004)  : from the south
+0x024a  /  0x155b (0x0004)  : from the southwest
+0x024b  /  0x1560 (0x0004)  : from the west
+0x024c  /  0x1565 (0x0003)  : from the north
+0x024d  /  0x1569 (0x0004)  : from the northwest
+0x024e  /  0x156e (0x0004)  : from the northeast
+0x024f  /  0x1573 (0x0004)  : from the east
+0x0250  /  0x1578 (0x0004)  : from the southeast
+0x0251  /  0x157d (0x0002)  : from below
+0x0252  /  0x1580 (0x0003)  : from above
+0x0253  /  0x1584 (0x0003)  : from outside
+0x0254  /  0x1588 (0x0002)  : from inside
+0x0255  /  0x158b (0x0005)  : from across the way
+0x0256  /  0x1591 (0x0003)  : by climbing
+0x0257  /  0x1595 (0x0004)  : with a jump
+0x0259  /  0x159b (0x0021)  : a proud and valiant knight. His face was not comely, yet its strength and nobility made it ever a pleasure to behold
+0x025a  /  0x15bd (0x0016)  : a knight who did prefer the pleasures of the court, and the music of his harp
+0x025c  /  0x15d5 (0x0007)  : a stolid, reliable knight
+0x025d  /  0x15dd (0x0005)  : another valiant knight
+0x025e  /  0x15e3 (0x0004)  : a hot-tempered knight
+0x025f  /  0x15e8 (0x0016)  : clad entirely in red, from the plumes of his helm to his rust-coloured greaves
+0x0260  /  0x15ff (0x0004)  : badly wounded
+0x0261  /  0x1604 (0x0011)  : small and wiry, with a visage much given to scowling
+0x0262  /  0x1616 (0x0016)  : ever shadowed by his greater brother, Lancelot, yet loyal to him in all things
+0x0263  /  0x162d (0x0005)  : brother to Gawain
+0x0264  /  0x1633 (0x0007)  : a knight of towering strength
+0x0265  /  0x163b (0x000a)  : scratching himself, as was his wont
+0x0266  /  0x1646 (0x0015)  : a roaring giant of a man, with a shaggy growth of unkempt hair
+0x0267  /  0x165c (0x000e)  : brother to Gawain, with the same red hair
+0x0268  /  0x166b (0x0020)  : the youngest of Gawain's clan and quite unlike his brothers. He was broad and fair, with fair strong hands
+0x0269  /  0x168c (0x000d)  : one of the younger knights, and nephew to Lancelot
+0x026a  /  0x169a (0x001c)  : older than many of the other knights, with a face that was both scarred and weary of battles
+0x026b  /  0x16b7 (0x0007)  : a knight of evil mien
+0x026c  /  0x16bf (0x0002)  : invisible
+0x026e  /  0x16c3 (0x0010)  : as much spirit as knight, clad in a shimmering aura
+0x026f  /  0x16d4 (0x0017)  : a knight with features of granite and cold eyes that betrayed little of what he thought
+0x0270  /  0x16ec (0x001d)  : , it seemed, wearing near half the armour in the kingdom, for to keep himself safe from Lancelot
+0x0271  /  0x170a (0x0017)  : a daunting sight. He looked to be made of solid stone, so thick were his limbs
+0x0272  /  0x1722 (0x0010)  : a mighty oak of a man, clad all in green
+0x0274  /  0x1734 (0x0005)  : a fair-seeming enchantress
+0x0275  /  0x173a (0x0008)  : a tall, angular woman
+0x0276  /  0x1743 (0x0008)  : tall, blonde and statuesque
+0x0277  /  0x174c (0x000b)  : petite and dark, with impish features
+0x0278  /  0x1758 (0x001e)  : one whose imperious green gaze had often, it was said, brought lesser knights to grovelling on their knees
+0x0279  /  0x1777 (0x000c)  : furious to be examined like any object
+0x027a  /  0x1784 (0x000f)  : very pretty. She caught Lancelot's gaze and blushed
+0x027b  /  0x1794 (0x000c)  : sorely tried by the plight of her master
+0x027c  /  0x17a1 (0x000d)  : ever looking from the tree to the castle behind her
+0x027d  /  0x17af (0x0011)  : fully two yards taller than Lancelot and of huge strength
+0x0280  /  0x17c2 (0x0008)  : laying siege to Tintagel Castle
+0x0281  /  0x17cb (0x0011)  : a wizened old fellow, face gnarled like a walnut
+0x0282  /  0x17dd (0x0019)  : a comely damosel, plump and rosy, with fine fair hair and wide blue eyes
+0x0283  /  0x17f7 (0x001d)  : lithe and slim. Her long fair hair reached down to ENSHROUD her breasts and her green fish tail
+0x0284  /  0x1815 (0x000b)  : somehow of a sad, gentle appearance
+0x0285  /  0x1821 (0x0009)  : waving scythes and chitterling knives
+0x0286  /  0x182b (0x000f)  : all sturdy and dour men, wearing plaid kilts
+0x0287  /  0x183b (0x0017)  : a menacing group, faces hidden behind the visors of their black plumed helms
+0x0288  /  0x1853 (0x0009)  : keeping a close eye on Lancelot
+0x028a  /  0x185e (0x0023)  : a surpassing bloated bird, so fat with LUMPS that Lancelot was amazed it could ever fly. Its lunes were tangled in the branches
+0x028b  /  0x1882 (0x0019)  : a large dog. It had a wiry coat, and a droopy mouth that dribbled betimes
+0x02a9  /  0x189d (0x0008)  : of coarse, unbleached linen
+0x02aa  /  0x18a6 (0x0005)  : a mouth-watering pie
+0x02ab  /  0x18ac (0x000c)  : sparkling clear wine in a slender goblet
+0x02ac  /  0x18b9 (0x0015)  : made of rosewood and tightly strung. Its music would QUALIFY as of the best
+0x02ad  /  0x18cf (0x000c)  : a signal horn, intended to be blown
+0x02ae  /  0x18dc (0x0004)  : burning brightly
+0x02af  /  0x18e1 (0x000b)  : a simple dish, of beaten pewter
+0x02b1  /  0x18ee (0x000b)  : the mummified hand of some long-dead saint
+0x02b2  /  0x18fa (0x0007)  : a large hessian sack
+0x02b3  /  0x1902 (0x0005)  : a vegetable broth
+0x02b4  /  0x1908 (0x000c)  : plump and soft, made of the finest down
+0x02b5  /  0x1915 (0x000c)  : large iron pot, and very hot
+0x02b6  /  0x1922 (0x000b)  : connected by hidden chains to the cage
+0x02b7  /  0x192e (0x000a)  : a thick piece of elm wood
+0x02c6  /  0x193a (0x000e)  : by far the most strange that Lancelot had ever seen
+0x02c7  /  0x1949 (0x001b)  : well-provided with fuel and tinder. It could seemingly be lit and re-lit as many times as needed
+0x02c9  /  0x1966 (0x0014)  : a marvellous craft, made of golden cedarwood and draped with white samite
+0x02ca  /  0x197b (0x000c)  : armed with vicious thorns on whip-like stems
+0x02cb  /  0x1988 (0x0011)  : very large, with room enough for several knights to hide
+0x02cc  /  0x199a (0x0020)  : connected by chains to the winch, which could be turned to move it between the upper and lower floors of the prison
+0x02cd  /  0x19bb (0x000a)  : of solid planks, lashed together
+0x02ce  /  0x19c6 (0x0012)  : large and sturdy, made of oak with thick bands of iron
+0x02cf  /  0x19d9 (0x001d)  : cunning, but ill-made. The mechanism was destroyed by a single swift blow, shattering into tiny fragments
+0x02d0  /  0x19f7 (0x000f)  : a mound of driftwood and branches, now burning vigorously
+0x02d1  /  0x1a07 (0x000c)  : seemingly joined to something in the room below
+0x02d3  /  0x1a15 (0x0006)  : seemingly without purpose
+0x02d4  /  0x1a1c (0x0004)  : almost hidden
+0x02d5  /  0x1a21 (0x0009)  : rocked somewhat when stepped upon
+0x02d8  /  0x1a2c (0x000d)  : hung upon chains that ran up into the tower
+0x02d9  /  0x1a3a (0x000b)  : a small hidden door, with no handle
+0x02da  /  0x1a46 (0x0027)  : the Sessoine invasion fleet, drawn up on the shore. The vessels were long and narrow, with high, carved prows which reared up aloft
+0x02db  /  0x1a6e (0x000d)  : of solid timber, hinged beside the window
+0x02dd  /  0x1a7d (0x0015)  : very tall, but with low sweeping branches that reached almost to the ground
+0x02de  /  0x1a93 (0x0029)  : , "Here lives Elaine, cursed by Queens Morgan and Northgales to simmer in boiling water, until rescued by the best knight in the world"
+0x02df  /  0x1abd (0x000f)  : of canvas, dried and piled neatly upon the deck
+0x02e0  /  0x1acd (0x0008)  : large and built for comfort
+0x02e1  /  0x1ad6 (0x0005)  : besieging castle Lyonesse
+0x02e2  /  0x1adc (0x000e)  : a large square of boards, set in the floor
+0x030c  /  0x1aec (0x0007)  : barren of trees and plants
+0x030d  /  0x1af4 (0x000e)  : rising high from the water to a central summit
+0x030e  /  0x1b03 (0x0008)  : a damp and windswept place
+0x0323  /  0x1b0d (0x0006)  : in the lower prison
+0x0324  /  0x1b14 (0x000b)  : in the central courtyard of Turquin's manor
+0x0325  /  0x1b20 (0x0006)  : in a secret room
+0x0326  /  0x1b27 (0x0009)  : in a wide arch below the gatehouse
+0x0327  /  0x1b31 (0x0009)  : in the gateway of Turquin's manor
+0x0328  /  0x1b3b (0x0007)  : in another prison cell
+0x0329  /  0x1b43 (0x0008)  : in a north-south prison corridor
+0x032a  /  0x1b4c (0x000b)  : in the deepest dungeon of Castle Chariot
+0x032c  /  0x1b59 (0x0007)  : in the dungeons of Tintagel
+0x032d  /  0x1b61 (0x0008)  : on board a Sessoine warship
+0x032e  /  0x1b6a (0x0004)  : inside the tower
+0x032f  /  0x1b6f (0x0004)  : in a prison
+0x0330  /  0x1b74 (0x0004)  : on some stairs
+0x0331  /  0x1b79 (0x0008)  : in a room with a bath
+0x0332  /  0x1b82 (0x0009)  : in the hall of Corbin Castle
+0x0333  /  0x1b8c (0x0004)  : on the gallery
+0x0334  /  0x1b91 (0x0006)  : in the perilous bedroom
+0x0335  /  0x1b98 (0x000a)  : in the lower branches of the elm
+0x0336  /  0x1ba3 (0x0005)  : in Elaine's bedroom
+0x0337  /  0x1ba9 (0x0009)  : in a chapel beside a tomb
+0x0338  /  0x1bb3 (0x0009)  : in Castle Lyonesse [aka] Dame
+0x0339  /  0x1bbd (0x0006)  : in a decaying hall
+0x033a  /  0x1bc4 (0x000a)  : in the churchyard outside Chapel Perilous
+0x033b  /  0x1bcf (0x0004)  : inside the chapel
+0x033c  /  0x1bd4 (0x0006)  : in the inner chamber
+0x033d  /  0x1bdb (0x0008)  : at the top of the elm
+0x033e  /  0x1be4 (0x0004)  : on the stairs
+0x033f  /  0x1be9 (0x0006)  : in the living quarters
+0x0340  /  0x1bf0 (0x0004)  : on the stairs
+0x0341  /  0x1bf5 (0x0004)  : in a stable
+0x0342  /  0x1bfa (0x0008)  : at the base of the stairs
+0x0343  /  0x1c03 (0x0004)  : in the basement
+0x0344  /  0x1c08 (0x0004)  : in a tunnel
+0x0345  /  0x1c0d (0x0004)  : in a prison
+0x0346  /  0x1c12 (0x0011)  : in a guardroom. The guards looked up in surprise as Lancelot entered
+0x0347  /  0x1c24 (0x0006)  : in an upper prison
+0x034d  /  0x1c2c (0x0004)  : on a riverbank
+0x034e  /  0x1c31 (0x0007)  : crossing a decrepit bridge
+0x034f  /  0x1c39 (0x0007)  : outside a manor house
+0x0350  /  0x1c41 (0x0005)  : in forest Meliot
+0x0351  /  0x1c47 (0x0006)  : on a dangerous road
+0x0352  /  0x1c4e (0x000a)  : on the track outside Turquin's manor
+0x0353  /  0x1c59 (0x0006)  : on a straight track
+0x0354  /  0x1c60 (0x000b)  : on a Roman road beside a turret
+0x0355  /  0x1c6c (0x0008)  : at a junction in the forest
+0x0356  /  0x1c75 (0x0005)  : in Garlon's turret
+0x0357  /  0x1c7b (0x0010)  : at a great clearing beside the Castle of forest Sauvage
+0x0358  /  0x1c8c (0x0008)  : on an east-west Roman road
+0x0359  /  0x1c95 (0x000a)  : on a Roman road through forest Sauvage
+0x035a  /  0x1ca0 (0x0006)  : on the great north road
+0x035b  /  0x1ca7 (0x000e)  : on a wide avenue [aka] Camelot Arthur Guenever
+0x035c  /  0x1cb6 (0x0005)  : on the coast road
+0x035d  /  0x1cbc (0x0003)  : at Tintagel
+0x035e  /  0x1cc0 (0x0006)  : on a walled road
+0x035f  /  0x1cc7 (0x0004)  : on a road
+0x0360  /  0x1ccc (0x0004)  : on a beach
+0x0362  /  0x1cd2 (0x0006)  : on a windswept tor
+0x0363  /  0x1cd9 (0x0006)  : on a winding road
+0x0364  /  0x1ce0 (0x0004)  : at a crossroads
+0x0365  /  0x1ce5 (0x0004)  : on an island
+0x0366  /  0x1cea (0x0009)  : on a shore beside a tower
+0x0367  /  0x1cf4 (0x0005)  : in Corbin village
+0x0368  /  0x1cfa (0x0006)  : in a forest maze
+0x0369  /  0x1d01 (0x0006)  : in a forest maze
+0x036a  /  0x1d08 (0x0006)  : in a forest maze
+0x036b  /  0x1d0f (0x0006)  : in a forest maze
+0x036c  /  0x1d16 (0x0006)  : in a forest maze
+0x036d  /  0x1d1d (0x0006)  : in a forest maze
+0x036e  /  0x1d24 (0x0006)  : in a forest maze
+0x036f  /  0x1d2b (0x0006)  : in a forest maze
+0x0370  /  0x1d32 (0x0006)  : in a forest maze
+0x0371  /  0x1d39 (0x0006)  : in a forest maze
+0x0372  /  0x1d40 (0x0006)  : in a forest maze
+0x0373  /  0x1d47 (0x0006)  : in a forest maze
+0x0374  /  0x1d4e (0x0006)  : in a forest maze
+0x0375  /  0x1d55 (0x0006)  : in a forest maze
+0x0376  /  0x1d5c (0x0006)  : at the wailing Castle
+0x0377  /  0x1d63 (0x0006)  : in a forest maze
+0x0378  /  0x1d6a (0x0006)  : in a forest maze
+0x0379  /  0x1d71 (0x0006)  : in a forest maze
+0x037a  /  0x1d78 (0x0006)  : in a forest maze
+0x037b  /  0x1d7f (0x0006)  : in a forest maze
+0x037c  /  0x1d86 (0x0006)  : in a forest maze
+0x037d  /  0x1d8d (0x0006)  : in a forest maze
+0x037e  /  0x1d94 (0x0006)  : in a forest maze
+0x037f  /  0x1d9b (0x0006)  : in a forest maze
+0x0380  /  0x1da2 (0x0006)  : in a forest maze
+0x0381  /  0x1da9 (0x0006)  : on a forest road
+0x0382  /  0x1db0 (0x000e)  : on a reedy isle beside a castle [aka] Castle
+0x0383  /  0x1dbf (0x0006)  : in a trackless marsh
+0x0384  /  0x1dc6 (0x0006)  : on a marsh road
+0x0385  /  0x1dcd (0x0004)  : at a siegeworks
+0x0386  /  0x1dd2 (0x0006)  : in the red launds
+0x0387  /  0x1dd9 (0x0006)  : in the green launds
+0x0388  /  0x1de0 (0x0006)  : in the black launds
+0x0389  /  0x1de7 (0x0006)  : at a country junction
+0x038a  /  0x1dee (0x0006)  : at a main road
+0x038b  /  0x1df5 (0x0006)  : on a country road
+0x038c  /  0x1dfc (0x0006)  : on a stone road
+0x038d  /  0x1e03 (0x0006)  : on an overgrown road
+0x038e  /  0x1e0a (0x0006)  : on an overgrown road
+0x038f  /  0x1e11 (0x0005)  : beside a broch
+0x0390  /  0x1e17 (0x0004)  : on a beach
+0x0391  /  0x1e1c (0x0004)  : on a mountaintop
+0x0392  /  0x1e21 (0x0004)  : on the mountainside
+0x0393  /  0x1e26 (0x0004)  : in a glen
+0x0394  /  0x1e2b (0x0004)  : in the Orkneys
+0x0395  /  0x1e30 (0x0003)  : in Scotland
+0x0396  /  0x1e34 (0x0004)  : in the marches
+0x0397  /  0x1e39 (0x000e)  : in an apple tree clearing beside Castle Chariot
+0x039d  /  0x1e49 (0x002c)  : in the upper rooms of the broch. Finding nothing to help him, and fearing attack once the Orkney people had gathered and armed themselves, Lancelot returned downstairs
+0x039e  /  0x1e76 (0x0019)  : in DAMP woodland, thick with sparrows. Finding no semblance of a track, Lancelot backed out
+0x039f  /  0x1e90 (0x0045)  : in Castle Pellam. King Pellam confided that the Holy Grail would not appear for many years, and only after the arrival in Camelot of Lancelot's son Galahad. 
+At length, Lancelot bad the King goodbye and left to find further adventure
+0x03a0  /  0x1ed7 (0x0021)  : on some more stairs. Lancelot explored the rest of the castle, but found little of interest and returned whence he came
+0x03a1  /  0x1ef9 (0x002f)  : readying himself to jump for his life before the boat was dashed to pieces on the rocks, when a sudden gust of wind blew the boat back from the shore
+0x03a2  /  0x1f29 (0x0042)  : in the castle of Sir Ector of the Forest Sauvage. Each greeted the other warmly, and they ate and talked of their travels and of the latest news from Camelot. 
+At last they bade each other fond farewells and Lancelot left
+0x03a3  /  0x1f6d (0x0027)  : among the hens that pecked about the GRITSTONE castle. He rode the circuit of its walls, but could find no way in so he returned to the road
+0x0409  /  0x1f96 (0x0014)  : on the sea. The water was so deep as to be a rich blue-black
+0x040a  /  0x1fab (0x0009)  : on the sea beside a rock
+0x040b  /  0x1fb5 (0x0004)  : on the sea
+0x040c  /  0x1fba (0x0006)  : on the far shore
+0x040d  /  0x1fc1 (0x0004)  : on the sea
+0x040e  /  0x1fc6 (0x0004)  : on the sea
+0x040f  /  0x1fcb (0x0004)  : on the sea
+0x0410  /  0x1fd0 (0x0004)  : on the sea
+0x0411  /  0x1fd5 (0x000b)  : on the west shore of a wide sea
+0x0412  /  0x1fe1 (0x0004)  : on the sea
+0x0413  /  0x1fe6 (0x0004)  : on the sea
+0x0414  /  0x1feb (0x000d)  : on the east shore of the Isle of Servage
+0x0415  /  0x1ff9 (0x0004)  : on the sea
+0x0416  /  0x1ffe (0x0004)  : on the sea
+0x0417  /  0x2003 (0x0004)  : on the sea
+0x0418  /  0x2008 (0x0004)  : on the sea
+0x044f  /  0x200e (0x001c)  : . It was dark and rank, for little light or air came through from the opening high above
+0x0450  /  0x202b (0x0015)  : , a small stone-flagged square. An ugly building lay to the north side
+0x0452  /  0x2042 (0x0012)  : , under a wide arch of stone dressed with crumbling mortar
+0x0453  /  0x2055 (0x0009)  : . The manor was open and defenceless
+0x0455  /  0x2060 (0x0006)  : , beneath the fortress
+0x0459  /  0x2068 (0x001a)  : . The timbers creaked beneath his feet, and the air was thick with the smell of pitch
+0x045b  /  0x2084 (0x0011)  : , where the cells did seem to have been made from ancient caves
+0x045c  /  0x2096 (0x0013)  : , treacherous to walk upon, full worn and crumbled by the years
+0x045d  /  0x20aa (0x0010)  : , so filled with steam that it was nigh impossible to see
+0x045e  /  0x20bb (0x0017)  : . Stuffed ducks hung everywhere, trophies of the hunt, to EMBELLISH the walls
+0x045f  /  0x20d3 (0x0010)  : above the hall. There were bedrooms to east and south
+0x0460  /  0x20e4 (0x0022)  : . Tattered drapes of heavy grey cloth billowed oftimes in the draught. Their DEEP shadows moved like strange birds
+0x0461  /  0x2107 (0x0017)  : . Pushing the leaves aside, Lancelot could see the upper branches reaching high above
+0x0462  /  0x211f (0x002b)  : . Delicately woven tapestries hung upon the walls and the air was heavy with a musky scent. In truth, it was a place to enchant any man
+0x0463  /  0x214b (0x0024)  : , a simple building, with a wooden cross. Within, it was empty, but for a tomb GRAVE and the tick of beetles
+0x0464  /  0x2170 (0x003d)  : , an imposing building in smooth pale stone, atop a hill. This EMINENCE's position gave a view of the surrounding country, like unto that of a circling eagle. Within, the rooms were light and airy
+0x0465  /  0x21ae (0x000f)  : . Birds roosted in the ROCKY ledges of its walls
+0x0466  /  0x21be (0x001a)  : . Lancelot saw, around the entrance of the chapel, many fair rich shields turned up-so-down
+0x0467  /  0x21d9 (0x0010)  : , where dark wooden pillars rose up to darker rafters
+0x0468  /  0x21ea (0x0012)  : , where the air was stale and foul with the smell of rottenness
+0x0469  /  0x21fd (0x0016)  : . The wind blew more strongly and the whole treetop swayed in the breeze
+0x046a  /  0x2214 (0x0010)  : , where the stone steps gave way to treads of wood
+0x046b  /  0x2225 (0x001c)  : . The skins which hung across the windows did little to stop the draughts that swirled through the rooms
+0x046c  /  0x2242 (0x0009)  : , a twisting staircase of stone
+0x046d  /  0x224c (0x000f)  : , which was the only room on the ground floor of the broch
+0x046e  /  0x225c (0x001a)  : , which wound upwards steeply and unevenly in tight circles through the west wall of the broch
+0x046f  /  0x2277 (0x001e)  : , a low, damp storeroom. Some sacks had split, spilling little mounds of barley on the floor
+0x0471  /  0x2297 (0x0012)  : , with scarce room enough for a man to lie at length
+0x0473  /  0x22ab (0x0013)  : . A great unfenced pit was set into the centre of the floor
+0x0479  /  0x22c0 (0x001d)  : , a grassy stretch, pocked with stagnant mudpools. A rotten bridge led east across the flood
+0x047a  /  0x22de (0x001b)  : . Many of its planks were splintered, so that the water below was seen, with its SECRET fishes
+0x047b  /  0x22fa (0x0017)  : . It had fallen into ruin and the grounds were rank and overgrown with foul weeds
+0x047d  /  0x2313 (0x000c)  : . It was a place of ambushes and treachery
+0x047e  /  0x2320 (0x000e)  : , lined on either side with hedges of box
+0x047f  /  0x232f (0x0015)  : in a wide glade. Sunlight dappled between the mighty branches of the trees
+0x0480  /  0x2345 (0x0025)  : . The long straight highway stretched east-west as far as the eye could see. The turret threw a long dark shadow across it
+0x0481  /  0x236b (0x001c)  : . The track split into two here, both the western and northern being paths of trampled leaves
+0x0482  /  0x2388 (0x0021)  : , a squat tower built of small stones mortared together. Heavy shutters hung beside the narrow arched window
+0x0483  /  0x23aa (0x0037)  : . The cool dusk of the forest gave way to a sunny meadow sprinkled with buttercups and cowslips. A small castle stood beyond the meadow, bathed in the warm glow of the evening sun
+0x0485  /  0x23e3 (0x0010)  : , a straight wide track stretching deep into the forest
+0x0486  /  0x23f4 (0x002d)  : . Wide and even, it traversed the whistling MOOR or followed alongside rivers. And as a narrow stony track it wound around hills or descended into wooded vales
+0x0487  /  0x2422 (0x0030)  : . It was a fine highway to the north, and fully paved with flat stones. By order of the King, such roads were kept free of weeds and smothering bushes
+0x0488  /  0x2453 (0x000c)  : , a low east-west causeway through the marshes
+0x0489  /  0x2460 (0x0044)  : , the headland jutting out fiercely into the foaming ocean below. Atop the sheer ESCARPMENT rose the dark grey castle, surrounded by wheeling seagulls. Its battlements commanded the sea approaches from Wales and the lands of north Cornwall behind [aka] Castle
+0x048a  /  0x24a6 (0x001c)  : . The dry stone wall was the home for dozens of birds, their droppings ENTOMBED in its crevices
+0x048b  /  0x24c3 (0x0020)  : , that had been but recently repaired by the besieging host, to ease the way for men and carts up from the beach
+0x048c  /  0x24e4 (0x0012)  : , where scattered outcrops of rock pushed up from the golden sand
+0x048e  /  0x24f8 (0x0018)  : , covered in short coarse grass, the peak a bare head of hard granite
+0x048f  /  0x2511 (0x002a)  : , which ran through thickly wooded river valleys, where RICH lords DEFENDED their rights to the salmon. Then on, over the tops of bleak moors
+0x0490  /  0x253c (0x001d)  : , the which was much used. The ground was worn and pitted with footmarks and gouged by horses hooves
+0x0491  /  0x255a (0x0024)  : . This land was like unto a great boulder, set as a stepping-stone in the sea. Atop its peak was a dark tower
+0x0492  /  0x257f (0x0038)  : . From here a narrow track led up, past a slender tower built upon a rocky hill, and on towards a village. There could be seen squat, solid cottages and a small stone church
+0x0493  /  0x25b8 (0x0030)  : , an INHABITATION where the people ate mainly fish. A cluster of tiny stone houses around the castle. Their doors faced inland, and smoke blew furiously from the chimneys
+0x0494  /  0x25e9 (0x001a)  : . The trees grew so thickly and so close together that the way ahead was lost to view
+0x0497  /  0x2605 (0x0015)  : . A thin green light cast a pale glow on the forest floor
+0x04a2  /  0x261c (0x0018)  : , which loomed into view between the trees. It had the air of a place accursed
+0x04a3  /  0x2635 (0x0006)  : in a forest maze
+0x04a4  /  0x263c (0x0015)  : . The sky had gone from view, blocked by the closeness of the trees
+0x04ab  /  0x2653 (0x0014)  : . Twigs and branches rustled and unseen birds set up a great crying
+0x04ad  /  0x2669 (0x001b)  : , a wide, peaty track with trees and bushes growing thick and high on both sides
+0x04ae  /  0x2685 (0x0037)  : . The ground squelched underfoot, and bitterns boomed their hollow cries from amid the coarse reed beds. A castle stood upon an outcrop of solid rock that rose from the flat lands beyond
+0x04af  /  0x26bd (0x001a)  : . Oily stagnant pools gave way to brown shifting mud, with sparse tufts of grass
+0x04b1  /  0x26d9 (0x0027)  :  where the road ended. There were high mounds, and deep trenches. Above this waste chaos towered the entrance portals of Castle Lyonesse
+0x04b2  /  0x2701 (0x000b)  : , a clearing encompassed by Autumn trees
+0x04b3  /  0x270d (0x001a)  : , a clearing encompassed by leafy trees. The grass was as rich and fertile as a meadow
+0x04b4  /  0x2728 (0x001b)  : , a clearing encompassed by withered trees. The grass was as trampled and scored as a tournament ground
+0x04b5  /  0x2744 (0x0022)  : . Once a major meeting of the road with another from the east, it had been little used for many a long year
+0x04b6  /  0x2767 (0x0012)  : , a wide smooth highway, lined with regal elm trees
+0x04b7  /  0x277a (0x000c)  : . Lush growth overflowed the western roadside
+0x04b8  /  0x2787 (0x0008)  : , paved flat and even
+0x04ba  /  0x2791 (0x0016)  : , where fallen trees lay across the track, blocking all ways but south
+0x04bb  /  0x27a8 (0x0020)  : . The round tower looked but a poor fortress, but he knew that its thick stone walls were a strong defence
+0x04bc  /  0x27c9 (0x002a)  : , a small bay forming a deep curve between two jagged headlands. Lancelot fancied to see MERLIN'S name in the shape of a shoal of fish
+0x04bd  /  0x27f4 (0x0024)  : . The bark of deer echoed from the MEGALITHIC rocks. 
+Lancelot noticed a tower far below, but it was dwarfed by distance
+0x04be  /  0x2819 (0x0033)  : . A STEEP path passed above the gurgles of a stream. The path followed a twisting route along ridges and across the gentler slopes. Then it climbed steeply to the summit
+0x04bf  /  0x284d (0x002f)  : . It which sloped west through low forest, to a narrow beck where salmon hid beneath the YELLOW gorse. Above the trees, the mountainside was all purple with heather
+0x04c0  /  0x287d (0x001b)  : . He was on a large isle, seeming barren, save for short grass and wind-bowed trees
+0x04c1  /  0x2899 (0x0020)  : , a country of goodly forests and pasture in the south, but dangerous mountains and dark secretive pines in the north
+0x04c2  /  0x28ba (0x0049)  : . The marches were crossed by a great wall, built many long years since to keep out the wild tribes of the north. Now it lay unused, its battlements reduced in part to rubble. Yet elsewhere it still LIES strong, for eagles to perch upon
+0x04c3  /  0x2905 (0x0031)  : . In the clearing stood on old apple tree, its branches casting welcome shade on the trimmed grass. Above the encompassing wood rose the conical roofs of Castle Chariot
+0x0535  /  0x2938 (0x0019)  : . As giant waves passed, children of distant STORMS, Lancelot watched the fish leap
+0x0536  /  0x2952 (0x0010)  : , where a comely mermaid sat a-combing her long tresses
+0x0538  /  0x2964 (0x0011)  : , where a narrow path wound east through a strange country
+0x0539  /  0x2976 (0x001c)  : . A shoal of small fishes flurried NEAR the surface, sending silver ripples across the water
+0x053b  /  0x2994 (0x0023)  : , amidst a shoal of cod. Beyond the fish, a large island, like unto ANGLESEY, rose to the east
+0x05ae  /  0x29b9 (0x000e)  : the manor had the air of a place deserted. 
+0x05af  /  0x29c8 (0x0018)  : the loose wooden floor creaked and sank beneath his weight, as if a see-saw. 
+0x05b0  /  0x29e1 (0x0018)  : here, too, the floor was timbered, and ill-fitted planks moved beneath his feet. 
+0x05b1  /  0x29fa (0x002b)  : 
+Lancelot heard the sound of running feet, as Turquin's gatekeepers fled north. He could scarce believe his good fortune in taking the manor so easily. 
+0x05b3  /  0x2a27 (0x000f)  : a low moan echoed hollowly around the stone walls. 
+0x05b8  /  0x2a38 (0x0082)  : 
+the giant spoke, "Sir Lancelot, I fear you not, for it was prophesied that I should be slain by a blow from the right hand of a saint. But that cannot be, for I hewed the right hand from the only saint that ever was in these parts, and now keep it in my pillow. So be you afeared, Sir Knight, for tomorrow we shall fight and you shall die". The giant laughed savagely then, yawning, returned to his bed to sleep. 
+0x05bb  /  0x2abe (0x002f)  : 
+In the bath sat Elaine, naked as a needle, and Lancelot thought that she was the most beautiful woman that he had ever seen, except for Queen Guenever.
+
+0x05bd  /  0x2aef (0x000e)  : 
+Lancelot knew that his honour was at stake. 
+0x05be  /  0x2afe (0x0007)  : Lancelot shivered with cold. 
+0x05bf  /  0x2b06 (0x001c)  : from far above, Lancelot heard the hawk mewing miserably. Clearly the bird was trapped up YONDER. 
+0x05c1  /  0x2b24 (0x0040)  : Lancelot found a fiendly dragon in the chapel. 
+The battle raged from noon to dusk, till at last, Lancelot, though sorely wounded with deep scores and burns, slew the great beast with one desperate lunge. 
+0x05c2  /  0x2b66 (0x003e)  : 
+Dame Lyonesse greeted Lancelot and thanked him warmly for restoring her estates unto her. She said that Lynet, the Damosel Maledisant, could stay with him. 
+Dame Lyonesse then retired to tend to her wounded soldiers. 
+0x05c3  /  0x2ba5 (0x0013)  : the damosel did bend over Sir Meliot and wept bitter tears. 
+0x05c4  /  0x2bb9 (0x0032)  : Lancelot recognised many of the shields as those of former great knights. As he marvelled WHERE they hung, he bethought himself to hear a scraping. Perhaps swords were unsheathed nearby. 
+0x05c5  /  0x2bec (0x0023)  : each knight was taller by a yard than any man that ever he had seen, and they all grinned and gnashed at Sir Lancelot. 
+0x05c6  /  0x2c10 (0x0033)  : 
+Hellawes greeted him in sweet tones. Lancelot thought he heard music as she said, "Alas Lancelot, if you do not surrender you WILL die for it. Put down your sword". 
+0x05c7  /  0x2c44 (0x001f)  : Lancelot grabbed at a branch as his balance slipped, and the hawk spitefully bit a chunk out of his hand. 
+0x05ca  /  0x2c65 (0x0015)  : the grating of a chair on a wooden floor sounded from somewhere up above. 
+0x05cb  /  0x2c7b (0x002a)  : Lancelot looked at the stairs to the west and fancied that the local people lived in the upper levels of the broch, while there seemed to be cellars below. 
+0x05cd  /  0x2ca7 (0x001e)  : as his eyes accustomed to the gloom, Lancelot saw the deeper shadow of a doorway in the eastern wall. 
+0x05ce  /  0x2cc6 (0x0010)  : a thin rain of dust trickled down from the ceiling. 
+0x05d1  /  0x2cd8 (0x002b)  : the rattle of dice came from behind the thick oak door of a guardroom to the west, and mingled with the faint clank of chains from the pit. 
+0x05d8  /  0x2d05 (0x0013)  : Lancelot made his way forward slowly, testing each footfall with care. 
+0x05d9  /  0x2d19 (0x001a)  : There were people inside there, for Lancelot could hear a soft keening from somewhere within the manor. 
+0x05da  /  0x2d34 (0x000f)  : the soft clink of weapons sounded to the south. 
+0x05db  /  0x2d44 (0x0043)  : 
+a host of swarthy knaves leapt into the track, lashing out at Lancelot with clubs and scythes. But within six strokes, Sir Lancelot had stricken them all to the earth. The survivors fled south for sanctuary, towards a forest chapel. 
+0x05de  /  0x2d8a (0x0018)  : Lancelot saw the door of the turret open and close again quickly, yet nobody emerged. 
+0x05e0  /  0x2da4 (0x001b)  : bright sun streamed in through the window, casting a wide pool of golden light on the floor. 
+0x05e4  /  0x2dc1 (0x002a)  : in places, the track had been stamped into a hard smooth surface, and smaller tracks led off to many villages and settlements along the way. 
+0x05e5  /  0x2dec (0x003d)  : Lancelot looked about him at the Realm of Logris. Here were fierce dragons to be fought, and fair damosels to be succoured. Here too were those captive knights that he must free to complete the company of the Round Table. 
+0x05e6  /  0x2e2a (0x0013)  : The road tilted and shook beneath the hooves of Lancelot's horse. 
+0x05e7  /  0x2e3e (0x0020)  : the land about the castle was filled with the tents and hosts of a besieging army, landed from their nearby ships. 
+0x05e8  /  0x2e5f (0x0027)  : mounted, Lancelot could see over the walls to the rolling lands to the northwest, where a great army lay encamped around the castle of Tintagel. 
+0x05e9  /  0x2e87 (0x001f)  : sentries leant upon their spears along towards the sea edge. Though at their ease, they seemed ever watchful. 
+0x05ea  /  0x2ea7 (0x001f)  : drawn up onto the beach lay the fleet of the Sessoines, a long row of narrow, high-prowed ships. 
+0x05ed  /  0x2ec8 (0x0076)  : the liveried figure of a herald hastened from the west. "O Lancelot, flower of chivalry, now have I found thee", he cried. "The Sessoine host have landed from their ships and lie in siege about Tintagel. My lord bade me ride through their army and to bring King Arthur's knights to our aid. Prithee come with all speed!" 
+Spurring his horse, the herald rode quickly away. 
+0x05ee  /  0x2f40 (0x0025)  : a fine lady in a carriage, with a retinue of liveried servants, passed across from east to west at a steady trot. 
+0x05ef  /  0x2f66 (0x0051)  : some fishermen appeared and came up to Lancelot. Speaking softly, for fear of being overheard, they warned him about the lord of Servage, saying that Sir Nabon le Noir was an evil giant who was wont to eat his visitors. Even now, a knight awaited this doom in the castle prison. 
+0x05f8  /  0x2fba (0x000c)  : a stag bellowed in the depths of the forest
+0x060f  /  0x2fc8 (0x0011)  : the remains of past battles lay scattered about the field. 
+0x0613  /  0x2fdb (0x001c)  : as he rested on a small KNOLL, Lancelot heard the howls of a brachet, far to his right. 
+0x0614  /  0x2ff8 (0x0018)  : peasants walked down in the road, bearing their goods to market and gossiping the while. 
+0x0616  /  0x3012 (0x0013)  : the brachet pointed its nose towards the east and bayed mournfully. 
+0x0617  /  0x3026 (0x001c)  : a brachet ran away north as Lancelot drew close, looking ever backwards to see if he would follow. 
+0x0618  /  0x3043 (0x0018)  : as an eagle flew overhead, Lancelot thought back to ARTHUR and Camelot, far away. 
+0x061b  /  0x305d (0x0013)  : Lancelot realised that the beacon must be intended to warn the people below. 
+0x061e  /  0x3072 (0x001b)  : a group of hardy sheep stared back at Lancelot, before running away into a fold of the ground. 
+0x061f  /  0x308e (0x0034)  : Lancelot found but poor fodder for his horse and worried ever about ambush. For the Scots had but lately fought against King ARTHUR'S men and Lancelot thought to hear the music of the pipes
+0x0621  /  0x30c4 (0x003c)  : 
+Lancelot lay him down in the shade, for he was full tired from his travails, and he fell into a sleep. At length he was awakened by the coming of four royal ladies, riding forth from the castle. 
+0x0640  /  0x3102 (0x0003)  : Lancelot could see
+0x0641  /  0x3106 (0x0006)  : on [aka] onto
+0x0642  /  0x310d (0x0008)  : underneath [aka] below under
+0x0643  /  0x3116 (0x0002)  : behind
+0x0646  /  0x311a (0x0005)  : in [aka] at
+0x0647  /  0x3120 (0x0008)  : in [aka] into inside
+0x0648  /  0x3129 (0x0003)  : hanging from
+0x0649  /  0x312d (0x0004)  : growing from 
+0x064a  /  0x3132 (0x0002)  : between
+0x064c  /  0x3136 (0x0003)  : lying on
+0x064d  /  0x313a (0x0003)  : sitting on
+0x064e  /  0x313e (0x0003)  : fastened to
+0x0650  /  0x3143 (0x0006)  : with [aka] using
+0x0651  /  0x314a (0x0002)  : from
+0x0669  /  0x314e (0x0001)  : was
+0x066a  /  0x3150 (0x0001)  : was
+0x066b  /  0x3152 (0x0001)  : was
+0x066c  /  0x3154 (0x0003)  : was carrying
+0x066d  /  0x3158 (0x0003)  : was wearing
+0x066e  /  0x315c (0x0004)  : was blocked by
+0x066f  /  0x3161 (0x0001)  : was
+0x0670  /  0x3163 (0x0001)  : was
+0x0671  /  0x3165 (0x0001)  : was
+0x0672  /  0x3167 (0x0003)  : was tied
+0x0673  /  0x316b (0x0003)  : was driving
+0x0676  /  0x3170 (0x0001)  : was
+0x0677  /  0x3172 (0x0004)  : was lying on
+0x0687  /  0x3178 (0x0001)  : were
+0x0688  /  0x317a (0x0001)  : were
+0x0689  /  0x317c (0x0001)  : were
+0x068a  /  0x317e (0x0003)  : were carrying
+0x068b  /  0x3182 (0x0003)  : were wearing
+0x068c  /  0x3186 (0x0004)  : were blocked by
+0x068d  /  0x318b (0x0001)  : were
+0x068e  /  0x318d (0x0001)  : were
+0x068f  /  0x318f (0x0001)  : were
+0x0690  /  0x3191 (0x0003)  : were tied
+0x0691  /  0x3195 (0x0003)  : were driving
+0x0694  /  0x319a (0x0001)  : were
+0x0695  /  0x319c (0x0004)  : were lying on
+0x06b3  /  0x31a2 (0x0003)  : tied to
+0x06cd  /  0x31a7 (0x0002)  : was on
+0x06d0  /  0x31ab (0x0002)  : owned
+0x06d1  /  0x31ae (0x0003)  : was wearing
+0x06d2  /  0x31b2 (0x0003)  : was riding
+0x06d3  /  0x31b6 (0x0002)  : was in
+0x06d7  /  0x31ba (0x0003)  : was driving
+0x06d8  /  0x31be (0x0004)  : was lying on
+0x06d9  /  0x31c3 (0x0004)  : was sitting on
+0x06da  /  0x31c8 (0x0004)  : was fastened to
+0x06db  /  0x31cd (0x0004)  : was lying on
+0x06eb  /  0x31d3 (0x0002)  : were on
+0x06ee  /  0x31d7 (0x0002)  : owned
+0x06ef  /  0x31da (0x0003)  : were wearing
+0x06f0  /  0x31de (0x0003)  : were riding
+0x06f1  /  0x31e2 (0x0002)  : were in
+0x06f6  /  0x31e6 (0x0004)  : were lying on
+0x06f7  /  0x31eb (0x0004)  : were sitting on
+0x06f8  /  0x31f0 (0x0004)  : were fastened to
+0x06f9  /  0x31f5 (0x0001)  : were
+0x0708  /  0x31f8 (0x0002)  : off
+0x0709  /  0x31fb (0x0002)  : up
+0x070a  /  0x31fe (0x0002)  : down
+0x070b  /  0x3201 (0x0002)  : to
+0x070c  /  0x3204 (0x0002)  : out
+0x070d  /  0x3207 (0x0004)  : from the 
+0x070e  /  0x320c (0x0002)  : for
+0x070f  /  0x320f (0x0002)  : until
+0x0710  /  0x3212 (0x0002)  : debug
+0x0711  /  0x3215 (0x0002)  : through
+0x0712  /  0x3218 (0x0002)  : about
+0x07d0  /  0x321d (0x0009)  : you do not need to use "
+0x07d1  /  0x3227 (0x0008)  : " to finish this part
+0x07d3  /  0x3231 (0x0009)  : I do not understand the word "
+0x07d4  /  0x323b (0x0009)  : " when used like that
+0x07d6  /  0x3246 (0x0003)  : Lancelot was 
+0x07d7  /  0x324a (0x0003)  : in a 
+0x07d8  /  0x324e (0x0003)  : in an 
+0x07d9  /  0x3252 (0x0008)  : exits led in all directions
+0x07da  /  0x325b (0x0009)  : I do not understand what you mean
+0x07db  /  0x3265 (0x0004)  : Lancelot could not see
+0x07dc  /  0x326a (0x0004)  : Lancelot did not have
+0x07dd  /  0x326f (0x0004)  : Lancelot already had
+0x07de  /  0x3274 (0x000b)  : (I really don't understand)
+0x07df  /  0x3280 (0x0007)  : it is too far away
+0x07e0  /  0x3288 (0x000c)  : I cannot find a verb in that sentence
+0x07e1  /  0x3295 (0x0004)  : it is not there
+0x07e2  /  0x329a (0x000d)  : there were too many nouns in that sentence. 
+0x07e3  /  0x32a8 (0x0006)  : Lancelot could not see that here
+0x07e4  /  0x32af (0x0007)  : Lancelot owned nothing at all. 
+0x07e5  /  0x32b7 (0x000a)  : it was dark, Lancelot could not see. 
+0x07f4  /  0x32c3 (0x000d)  : sorry, I do not fully understand that verb
+0x07f5  /  0x32d1 (0x000c)  : there did not seem to be anything suitable. 
+0x07f6  /  0x32de (0x000c)  : said, "That was a rhetorical question"
+0x07f7  /  0x32eb (0x0006)  : what a mouthful! 
+0x07fc  /  0x32f3 (0x0004)  : could not have 
+0x07fe  /  0x32f9 (0x0001)  : that
+0x07ff  /  0x32fb (0x0001)  : here
+0x0800  /  0x32fd (0x0006)  : Lancelot could not find 
+0x0805  /  0x3305 (0x0008)  : it is not clear to what 
+0x0806  /  0x330e (0x0004)  :  is referring
+0x080c  /  0x3314 (0x0009)  : are you talking to yourself again?
+0x080d  /  0x331e (0x000c)  : Lancelot could not talk to several people at once
+0x0840  /  0x332c (0x0008)  : Lancelot saw nothing of note. 
+0x0842  /  0x3336 (0x0006)  : Lancelot could not go that way
+0x0843  /  0x333d (0x0003)  : through the door
+0x0845  /  0x3342 (0x0005)  : it is already open
+0x084b  /  0x3349 (0x0006)  : Lancelot could not put 
+0x084c  /  0x3350 (0x0001)  : there
+0x084e  /  0x3353 (0x0009)  : Lancelot would have to drop it first
+0x0852  /  0x335e (0x000a)  : I cannot find a reference to "
+0x0853  /  0x3369 (0x0006)  : Lancelot was on it! 
+0x0854  /  0x3370 (0x0003)  : what? 
+0x0855  /  0x3374 (0x0003)  : where? 
+0x0856  /  0x3378 (0x0005)  : Lancelot was wearing 
+0x0857  /  0x337e (0x000b)  : Please try again, saying what with? 
+0x0858  /  0x338a (0x0004)  : which one?
+0x0859  /  0x338f (0x0003)  : at what?
+0x085b  /  0x3394 (0x0003)  : was full
+0x085c  /  0x3398 (0x0003)  : " here
+0x085d  /  0x339c (0x0005)  : nobody wants it
+0x085e  /  0x33a2 (0x0006)  : Lancelot could not wear 
+0x0863  /  0x33aa (0x0007)  : Lancelot was already wearing that
+0x0864  /  0x33b2 (0x0008)  : Lancelot did not need to do that
+0x0868  /  0x33bc (0x0002)  : worn
+0x0869  /  0x33bf (0x0002)  : OK
+0x086b  /  0x33c3 (0x0004)  : time passed. 
+0x086c  /  0x33c8 (0x0001)  : said
+0x086e  /  0x33cb (0x000c)  : Lancelot found he would have to untie it first
+0x0870  /  0x33d9 (0x000a)  : Yea or Nay please.
+
+0x0898  /  0x33e5 (0x0006)  : really restart? 
+0x089a  /  0x33ed (0x0006)  : really restore? 
+0x089b  /  0x33f4 (0x000a)  : 
+ 
+did Lancelot continue? 
+0x089c  /  0x33ff (0x0007)  : said, "Thank you"
+0x08a1  /  0x3408 (0x001f)  : 
+ 
+the adventure is over. 
+Please type Restart, Undo, Restore or Ram Restore: 
+0x08a7  /  0x3429 (0x0008)  : that is too long to wait
+0x08a8  /  0x3432 (0x001f)  : you can wait for someone, or for a period of time; eg Wait for Gawain, or Wait 10
+0x08c0  /  0x3453 (0x0006)  : 
+Lancelot scored 
+0x08c1  /  0x345a (0x0011)  : 
+ 
+you seem to have got Lancelot killed.
+
+0x08c2  /  0x346c (0x0005)  :  out of 1000
+0x08fc  /  0x3473 (0x0014)  : Undo and Ram Save/Restore do not work in this version. 
+0x08fd  /  0x3488 (0x0013)  : 
+please insert save disc and press a key. 
+
+0x08fe  /  0x349c (0x000d)  : 
+please insert game disc.
+
+0x0904  /  0x34ab (0x0011)  : I can not use Undo to go back further than this. 
+0x0905  /  0x34bd (0x0029)  : 
+(You can use Ram Save/Restore to save a position in memory, and Undo to retrace your steps).
+
+0x0906  /  0x34e7 (0x0009)  : cannot return to that position. 
+0x0907  /  0x34f1 (0x0027)  : 
+ 
+Lancelot is about to start another part of the game. Do you want to save his position first, just in case? 
+0x0908  /  0x3519 (0x000a)  : that data was not saved from Lancelot. 
+0x0909  /  0x3524 (0x000d)  : play the game tape to load part 
+0x090a  /  0x3532 (0x001d)  : 
+ 
+Lancelot is about to start another part of the game. Do you want to go ahead? 
+0x090f  /  0x3551 (0x001b)  : you have started in the middle of the game. Please restore a position saved from this part. 
+0x0961  /  0x356e (0x0006)  : that might kill Lancelot
+0x09c0  /  0x3576 (0x000b)  : had grievously slain a Round Table knight
+0x09c2  /  0x3583 (0x0009)  : could not possibly attack a woman
+0x09c3  /  0x358d (0x000e)  : said, "I cannot yet return to Camelot"
+0x09c4  /  0x359c (0x000a)  : took his leave and returned to Camelot
+0x09c5  /  0x35a7 (0x0005)  : the sentries blocked
+0x09c6  /  0x35ad (0x000b)  : and said, "Thou shall not pass"
+0x09c7  /  0x35b9 (0x0005)  : the army blocked
+0x09c8  /  0x35bf (0x0008)  : and waved their pikes menacingly
+0x09c9  /  0x35c8 (0x0006)  : the soup drained away
+0x09ca  /  0x35cf (0x0015)  : tasted the soup. It was very good, but a bit too salty
+0x09cb  /  0x35e5 (0x0064)  : the sails caught fire! Full fiercely did they burn, the flames spreading fast to engulf much of the deck, and carried by the breeze to set afire the others of the fleet. 
+Their fleet lost, the Sessoines could do nought but surrender. King Mark of Cornwall declared Lancelot a hero and bade him enter Tintagel city in triumph
+0x09cc  /  0x364b (0x007b)  : as Lancelot entered the castle, King Mark stepped forward. "Welcome, Sir Knight", he said, "You have our thanks for ridding us of our besiegers. But I believe they were helped by Sir Tristram, your fellow knight of the Table Round, and my prisoner. I cannot chance that you will seek to free him". 
+ 
+Thereupon, King Mark signalled treacherously to his guards, who seized Lancelot and threw him into the dungeons
+0x09cd  /  0x36c8 (0x0045)  : Tristram sighed and said, "King Mark has no reason to fear me. Yet I am imprisoned here for that he thinks me a rival for his throne and he wants me dead. Now, had I but a harp, perchance we might escape"
+0x09ce  /  0x370f (0x0006)  : said a devout prayer
+0x09cf  /  0x3716 (0x0002)  : rode
+0x09d0  /  0x3719 (0x0006)  : , mounting his horse
+0x09d1  /  0x3720 (0x0005)  : dismounted and went
+0x09d2  /  0x3726 (0x000b)  : such things are below your knightly gaze
+0x09d3  /  0x3732 (0x0002)  : -
+0x09d4  /  0x3735 (0x0008)  : was riding a fine horse
+0x09d5  /  0x373e (0x0008)  : made the sign of the cross
+0x09d6  /  0x3747 (0x0009)  : left all his possessions behind and
+0x09d7  /  0x3751 (0x0008)  : made the long trip to Camelot
+0x09d8  /  0x375a (0x0007)  : strummed a few chords
+0x09d9  /  0x3762 (0x001e)  : played a hauntingly beautiful tune, his fair head bent low over the harp, engrossed in his music
+0x09da  /  0x3781 (0x0031)  : soon all the guards fell under the enchantment of his music, and gladly opened the cells. Then Tristram led the escape of the prisoners by leaping down from the chapel window
+0x09db  /  0x37b3 (0x0026)  : the carter drove his cart up to the sentries, who gave it a cursory glance, missing the lump that was Lancelot, and waved it on
+0x09dc  /  0x37da (0x0005)  : drove the cart
+0x09dd  /  0x37e0 (0x001a)  : hiss! The soup boiled away, but the coals were yet glowing with a fierce heat
+0x09de  /  0x37fb (0x0006)  : was in excruciating pain
+0x09df  /  0x3802 (0x0006)  : was in dreadful pain
+0x09e0  /  0x3809 (0x000b)  : was in great agony and had to drop 
+0x09e1  /  0x3815 (0x0008)  : unfortunately, the door was locked
+0x09e2  /  0x381e (0x0017)  : Merlin appeared, "Well, young man, you seem to be in a fix
+0x09e3  /  0x3836 (0x000d)  : Merlin appeared and looked sadly around, "Hmm
+0x09e4  /  0x3844 (0x0018)  : Merlin came as from nowhere, "My faith, Lancelot, you are a bother to me
+0x09e5  /  0x385d (0x0011)  : Merlin arrived in the nick of time, "Greetings, Sire
+0x09e6  /  0x386f (0x0015)  : Merlin came in view muttering, "More trouble? Tut tut
+0x09ec  /  0x3886 (0x0002)  : smote
+0x09ed  /  0x3889 (0x0002)  : buffeted
+0x09ee  /  0x388c (0x0002)  : walloped
+0x09ef  /  0x388f (0x0002)  : clouted
+0x09f0  /  0x3892 (0x0002)  : lambasted
+0x0a00  /  0x3896 (0x0002)  : dead
+0x0a01  /  0x3899 (0x0005)  : close to death
+0x0a02  /  0x389f (0x0004)  : gravely wounded
+0x0a03  /  0x38a4 (0x0004)  : sorely hurt
+0x0a04  /  0x38a9 (0x0004)  : badly hurt
+0x0a05  /  0x38ae (0x0002)  : injured
+0x0a06  /  0x38b1 (0x0005)  : but lightly wounded
+0x0a07  /  0x38b7 (0x0004)  : slightly hurt
+0x0a08  /  0x38bc (0x0004)  : scarcely harmed
+0x0a09  /  0x38c1 (0x0002)  : unhurt
+0x0a0a  /  0x38c4 (0x0008)  : would have sunk in the water
+0x0a0b  /  0x38cd (0x0007)  : directed the boat to the
+0x0a0c  /  0x38d5 (0x0005)  : directed the boat
+0x0a14  /  0x38dc (0x000c)  : would you like me to rescue you?" 
+0x0a15  /  0x38e9 (0x000b)  : "OK, stay where you are then"
+0x0a16  /  0x38f5 (0x001c)  : "I will see what I can do..." There was a flash and Lancelot found that he had moved
+0x0a23  /  0x3913 (0x0004)  : was not watertight
+0x0a28  /  0x3919 (0x004b)  : tried to haul Elaine out the cauldron, but his hands ever slipped and she seemed to be fixed fast within it. The maiden sighed and said sorrowfully that only the best knight in the world could break her enchantment, and it would seem that he was not yet worthy of that title
+0x0a29  /  0x3966 (0x003e)  : led Elaine from the cauldron. She was delighted to be rescued, but hastened to quit the room and cover her nakedness. At the door, she briefly turned back, with a shy smile and invited Lancelot to visit her at Corbin Castle
+0x0a2d  /  0x39a6 (0x000d)  : Lancelot received a quick slap across the face
+0x0a30  /  0x39b5 (0x000b)  : could not in honour return to Corbin Castle
+0x0a31  /  0x39c1 (0x000b)  : was too afraid to enter Corbin castle
+0x0a32  /  0x39cd (0x001a)  : could not enter Corbin Castle without invitation, for that would abuse the hospitality of a goodly King
+0x0a33  /  0x39e8 (0x00ac)  : 
+King Pelles, father of Elaine had commanded a feast to honour Lancelot. For he knew well the prophesy that Sir Lancelot should get a child upon his daughter, the which would be named Sir Galahad and would complete Arthur's Round Table knights. 
+The banquet was magnificent and, afterwards, King Pelles bade his goodnights and withdrew, leaving Elaine and her saviour alone. 
+Before Lancelot had time to think of pleasantries, he realised that Elaine was blushingly flirting with him. In truth, she made her love for him plain. Then, whispering, "Come to me tonight, in the east bedroom", she slipped quietly upstairs
+0x0a34  /  0x3a97 (0x0035)  : 
+Elaine turned to Lancelot and stretched forth an arm in welcome; the soft sheets slipping to reveal that she was naked. 
+Did Lancelot remember Guenever and quit the room forthwith? 
+0x0a35  /  0x3acd (0x0044)  : Of course not. Lancelot locked the door behind him, and the joy of that night would stay with him forever. Lancelot felt that his actions of the night had been fated to come to pass, and knew that they would prove in time to be for good
+0x0a36  /  0x3b13 (0x0013)  : Lancelot stepped back and closed the door behind him, resolutely faithful to Guenever
+0x0a37  /  0x3b27 (0x0011)  : Lancelot could not leave his room before morning without losing honour
+0x0a38  /  0x3b39 (0x000d)  : the panel was held shut by some magical force
+0x0a39  /  0x3b47 (0x0014)  : the blows merely rebounded, making not the least mark upon the surface
+0x0a3a  /  0x3b5c (0x001b)  : Lancelot fell asleep straightway. But during the night he was awakened by the creaking of the panel opening
+0x0a3b  /  0x3b78 (0x0028)  : a glowing spear flew from within the opening. It smote Lancelot in the shoulder, wounding him sorely, then it vanished. The panel ground shut again
+0x0a3c  /  0x3ba1 (0x0006)  : a Magical Knight emerged
+0x0a3d  /  0x3ba8 (0x0022)  : an old man emerged, enveloped in adders which seethed constantly around him. In his hand he bore a spear of vengeance
+0x0a3e  /  0x3bcb (0x001b)  : four gentlewomen and a bishop emerged, then withdrew back through the panel, which closed again behind them
+0x0a3f  /  0x3be7 (0x001b)  : at last, a cock crowed in the castle grounds and the bedroom door opened to permit Lancelot to leave
+0x0a40  /  0x3c03 (0x0022)  : the knight staggered back through the open panel, only to emerge again a moment later, healed full well and stronger than before
+0x0a41  /  0x3c26 (0x000f)  : the panel moved a little, but would not close completely
+0x0a42  /  0x3c36 (0x000a)  : the panel was now almost half shut
+0x0a43  /  0x3c41 (0x0006)  : the panel shut completely
+0x0a44  /  0x3c48 (0x0030)  : the old man blessed Lancelot for not attacking him, and sang how Joseph of Arimathea had come into that land to prepare the way for the Grail. Then he returned through the panel
+0x0a45  /  0x3c79 (0x00b2)  : as Lancelot readied himself to leave the castle, he met Dame Brisen, who was Elaine's lady and the greatest enchantress that was in the world. 
+Dame Brisen brought Lancelot a cup of drugged wine, and showed him a ring, like that worn by Guenever, and said that the Queen was waiting for him. And Lancelot weened that maiden Elaine had been Queen Guenever and he took her in his arms. 
+When they had lain together, Lancelot remembered himself and left. But his anger and guilt did not last, because it was not by his intent that he was unfaithful to Guenever. And Lancelot knew that it was his fate to sire Galahad by Elaine, despite all his efforts
+0x0a46  /  0x3d2e (0x001e)  : the panel was open, but nothing could be seen through the gap, and an invisible force prevented Lancelot from reaching within
+0x0a47  /  0x3d4d (0x000e)  : the old man screamed and disappeared back through the panel
+0x0a4b  /  0x3d5d (0x000b)  : could see that the mermaid was very annoyed
+0x0a4c  /  0x3d69 (0x000b)  : the mermaid laughed and played the harp
+0x0a4d  /  0x3d75 (0x0007)  : the mermaid dodged easily
+0x0a4e  /  0x3d7d (0x000e)  : the mermaid played a haunting tune on the harp
+0x0a50  /  0x3d8d (0x000d)  : the giant was fast asleep and snoring betimes
+0x0a51  /  0x3d9b (0x0008)  : the giant slept on soundly
+0x0a52  /  0x3da4 (0x000d)  : the giant's head hung for an instant in mid-air
+0x0a53  /  0x3db2 (0x000d)  : the giant's head fell to the ground without support
+0x0a54  /  0x3dc0 (0x000a)  : the new pillow caused him discomfort
+0x0a55  /  0x3dcb (0x0004)  : dawn broke
+0x0a56  /  0x3dd0 (0x000a)  : the giant's head was already supported by
+0x0a57  /  0x3ddb (0x001a)  : the giant collapsed in a pile of dust as the saintly hand struck him full on the head
+0x0a58  /  0x3df6 (0x0010)  : the giant grabbed the sack and hid it inside his jacket
+0x0a59  /  0x3e07 (0x0014)  : tried to open the door, but could not do so without the aid of another
+0x0a5a  /  0x3e1c (0x000e)  : also pushed on the door, which now opened easily
+0x0a5b  /  0x3e2b (0x000b)  : the relic was trapped under Nabon's head
+0x0a5c  /  0x3e37 (0x000f)  : inside was something Lancelot could not see without taking the sack
+0x0a5d  /  0x3e47 (0x0006)  : Giant Nabon awoke
+0x0a5f  /  0x3e4f (0x0016)  : Lancelot lost his bearings in the mists and ended up at the edge of the marsh
+0x0a60  /  0x3e66 (0x0005)  : a horn sounded
+0x0a61  /  0x3e6c (0x000c)  : Lancelot could once more tell which way was which
+0x0a62  /  0x3e79 (0x0012)  : Sir Pedivere thanked Lancelot for destroying Breunis, and offered his services
+0x0a63  /  0x3e8c (0x000b)  : Sir Pedivere was the prisoner of Sir Breunis
+0x0a64  /  0x3e98 (0x0008)  : could not get through the briers
+0x0a65  /  0x3ea1 (0x0007)  : chopped away at the briers
+0x0a66  /  0x3ea9 (0x0006)  : the briers grew again
+0x0a67  /  0x3eb0 (0x0013)  : chopped through the main stem. The briers shrivelled magically and disappeared
+0x0a6a  /  0x3ec5 (0x0028)  : Queen Northgales spoke, "Lancelot, which one of us will you choose for your love? We must have an answer before you may leave"
+0x0a6b  /  0x3eee (0x0015)  : Queen Eastlands said, "You must choose one of us ere you leave"
+0x0a6c  /  0x3f04 (0x0011)  : the queens were furious that Lancelot would not choose one of them
+0x0a6d  /  0x3f16 (0x0017)  : hundreds of guards sallied from the castle and dragged Lancelot away to a cell beneath the castle
+0x0a6e  /  0x3f2e (0x0023)  : Queen Morgan offered Lancelot a glass of wine, "Drink this," she said imperiously, "Then will you feel better"
+0x0a6f  /  0x3f52 (0x001e)  : Queen Morgan said, "Have you changed your mind? Are you yet willing to love only me?" 
+0x0a70  /  0x3f71 (0x0011)  : she said, "Then you shall stay here for another day"
+0x0a71  /  0x3f83 (0x0029)  : Queen Morgan laughed in triumph, having won her wager with the other queens that Lancelot would betray Guenever and choose her. She gloatingly ordered him to go
+0x0a72  /  0x3fad (0x005a)  : she said, "Very well, beloved. We shall meet again. And know you well that you must remain ever faithful to me." Then away rode the queens, their heads close together, laughing in merry triumph over their conquest. 
+Lancelot bowed his head sadly, for he knew that he had been untrue to Guenever
+0x0a73  /  0x4009 (0x0053)  : drank the wine. Its rich fumes filled his head and his heart, for this was a love potion. Under its enchantment, he betrayed Guenever and cried out for Queen Morgan. She smirked in triumph, having won her wager with the other queens that Lancelot would choose her, and arrogantly told Lancelot to leave
+0x0a74  /  0x405e (0x000a)  : the maiden offered some food to Lancelot
+0x0a75  /  0x4069 (0x000f)  : Queen Morgan said, "Drink of it at your leisure"
+0x0a76  /  0x4079 (0x002e)  : the maiden drank the love potion and fell in love with Lancelot. Knowing that her new beloved desired only freedom, she kissed him chastely and opened the castle doors
+0x0a77  /  0x40a8 (0x0010)  : another night and day passed, with no visitors for Lancelot
+0x0a78  /  0x40b9 (0x001b)  : the maiden said impatiently, "Sir Lancelot, if you do not eat, then will you surely die"
+0x0a79  /  0x40d5 (0x0048)  : ate the food. It was enchanted with a love potion! Under its enchantment, he betrayed Guenever and cried out for Queen Morgan. She smirked in triumph, having won her wager with the other queens that Lancelot would choose her, and arrogantly told Lancelot to leave
+0x0a7a  /  0x411f (0x0021)  : the maiden refused, saying "Thank you, but I hunger not, though a drink of wine would not go amiss"
+0x0a7d  /  0x4142 (0x0012)  : Sir Turquin challenged Lancelot, "Fight and be vanquished, knave"
+0x0a7e  /  0x4155 (0x0019)  : Sir Turquin banged on the door to the manor. After a brief pause, it swung open
+0x0a7f  /  0x416f (0x001d)  : knocked on the door. There was a brief pause, then a shower of dirty water splashed down from above
+0x0a80  /  0x418d (0x000c)  : Sir Turquin submitted and fled inside his manor
+0x0a81  /  0x419a (0x0008)  : trod on the loose planks
+0x0a82  /  0x41a3 (0x0004)  : the panel opened
+0x0a83  /  0x41a8 (0x0009)  : an arrow flew from the open panel
+0x0a84  /  0x41b2 (0x0008)  : , but Lancelot dodged it easily
+0x0a85  /  0x41bb (0x0006)  : and found its target
+0x0a86  /  0x41c2 (0x0005)  : was severely wounded
+0x0a87  /  0x41c8 (0x0005)  : the panel was closed
+0x0a88  /  0x41ce (0x0004)  : the panel closed
+0x0a89  /  0x41d3 (0x000a)  : clutched at the panel to hold it open
+0x0a8a  /  0x41de (0x0011)  : Lancelot felt the floor move unsteadily. Did he jump back? 
+0x0a8b  /  0x41f0 (0x0009)  : Lancelot jumped back from the treacherous floor
+0x0a8c  /  0x41fa (0x0014)  : the floor tipped up! Lancelot fell a long way, and landed in a prison
+0x0a8d  /  0x420f (0x001c)  : there was a grinding sound from the north, followed by a brief scream, then a further grinding noise
+0x0a8e  /  0x422c (0x001d)  : the floor felt unstable, but was balanced by the weight of someone in the secret passage and did not collapse
+0x0a92  /  0x424b (0x000b)  : there was a loud grating noise from below
+0x0a93  /  0x4257 (0x000a)  : the winch squeaked as it was turned
+0x0a94  /  0x4262 (0x0005)  : the cage disappeared
+0x0a95  /  0x4268 (0x0005)  : the cage appeared
+0x0a96  /  0x426e (0x0005)  : the cage rose
+0x0a97  /  0x4274 (0x0005)  : the cage descended
+0x0a98  /  0x427a (0x000e)  : the chains were held by some mechanism out of sight
+0x0a99  /  0x4289 (0x0002)  : released
+0x0a9a  /  0x428c (0x0011)  : a guard looked down the shaft and Lancelot knew that all was lost
+0x0a9b  /  0x429e (0x0020)  : the guard shouted into the guardroom, "To arms, you lazy band of tosspots, we are attacked!"
+0x0a9c  /  0x42bf (0x0023)  : dozens of guards poured forth from the guardroom. They drove the party from the castle, with Lancelot fighting a heroic rearguard action
+0x0a9d  /  0x42e3 (0x000f)  : , who stretched and arose, then got into the cage
+0x0a9e  /  0x42f3 (0x001c)  : he was bound fast by chains that looped into the wall and were held tight by some hidden mechanism
+0x0a9f  /  0x4310 (0x0007)  : from within the guardroom, 
+0x0aa0  /  0x4318 (0x0005)  : all conversation stopped
+0x0aa1  /  0x431e (0x000d)  : someone said, "I thought I heard something"
+0x0aa2  /  0x432c (0x0011)  : another voice said, "No, it was only the wind"
+0x0aa3  /  0x433e (0x000c)  : "Should not we go and find out"
+0x0aa4  /  0x434b (0x000c)  : "Ah, finish your drink first"
+0x0aa5  /  0x4358 (0x000c)  : "I think you should go and look"
+0x0aa6  /  0x4365 (0x0016)  : "Who are you trying to order around? I am in charge here"
+0x0aa7  /  0x437c (0x0009)  : "It was only an idea"
+0x0aa8  /  0x4386 (0x000f)  : "Since you are so keen, you go and look"
+0x0aa9  /  0x4396 (0x0018)  : a guard emerged and saw Lancelot. He turned round and shouted to the others within
+0x0aaa  /  0x43af (0x0016)  : Lancelot saw the door open and heard footsteps emerge. But there was nobody to be seen
+0x0aab  /  0x43c6 (0x0002)  : someone
+0x0aac  /  0x43c9 (0x000c)  : flailed around at random, but hit nobody
+0x0aad  /  0x43d6 (0x0008)  : Lancelot heard footsteps follow him inside
+0x0aae  /  0x43df (0x0029)  : with the shutters closed, the turret was completely dark. Lancelot heard foul cursing from nearby as Garlon realized he had lost the advantage of his invisibility
+0x0aaf  /  0x4409 (0x001f)  : with Garlon dead, Lancelot had removed from the land a foul scourge that had been the death of many good knights
+0x0ab4  /  0x442a (0x003d)  : 
+the meantime, came a lady out of the castle and cried aloud, "O Lancelot, thou flower of all knights, help me to recover my falcon, for she is slipped from me and the lunes about her feet are 
+0x0ab5  /  0x4468 (0x0004)  : once again 
+0x0ab6  /  0x446d (0x000e)  : entangled fast in the branches of yonder elm"
+0x0ab7  /  0x447c (0x001e)  : the lady seemed sore sorrowful, "Alack and woe! My falcon has gone from me forever"
+0x0ab8  /  0x449b (0x0029)  : the lady smiled and gazed at Lancelot in adoration, "I would be greatly honoured if the most worthy Lancelot would rescue the bird", she simpered
+0x0ab9  /  0x44c5 (0x0025)  : could not climb the tree while encumbered with his heavy armour, so he shed himself of its weight and left it heaped upon the ground
+0x0aba  /  0x44eb (0x0015)  : the hawk was held fast by its lunes, which were entangled in the branches
+0x0abc  /  0x4502 (0x0022)  : untied the tangled lunes, and tossed the hawk down to the ground. A cry of joy from below heralded its safe arrival
+0x0abd  /  0x4525 (0x0008)  : heard sounds of fighting from below
+0x0abf  /  0x452f (0x0017)  : turned away to leave, but Sir Phelot lashed out eagerly to strike a mortal wound
+0x0ac0  /  0x4547 (0x0009)  : was wounded badly without armour
+0x0ac1  /  0x4551 (0x007d)  : the wood smote Sir Phelot on the one side of the head, so that he fell in a swoon upon the ground. Then Sir Lancelot took the sword out of his hand and struck his head from the body, for Sir Phelot was a false knight who would have slain Sir Lancelot most treacherously. 
+ 
+The lady departed, weeping. And therewithal, Sir Lancelot put his armour upon him as fast as he might, for he feared an attack from the knight's castle that stood nearby
+0x0ac2  /  0x45d0 (0x0024)  : Lancelot was without weapons, while Sir Phelot was armed with a flashing broadsword. Lancelot could not approach him to land a single blow
+0x0ac8  /  0x45f6 (0x000a)  : yielded. Did Lancelot spare him? 
+0x0ac9  /  0x4601 (0x000d)  : said, "None shall pass" and blocked
+0x0aca  /  0x460f (0x000e)  : rode away, striking Lancelot to the ground as he left
+0x0acb  /  0x461e (0x000e)  : ran him through with a single, clean, stroke
+0x0acc  /  0x462d (0x0007)  : rode away, saluting Lancelot
+0x0acd  /  0x4635 (0x0008)  : a flurry of arrows dissuaded
+0x0ace  /  0x463e (0x003d)  : the commander rode up, trembling visibly. 
+He had been besieging Dame Lyonesse, but had no wish to do battle with Sir Lancelot and promised to desist and withdraw his army. Lancelot was free to enter the castle at his will
+0x0acf  /  0x467c (0x000d)  : he offered the services of the red knight to Lancelot
+0x0ad0  /  0x468a (0x000e)  : he rode off with his army in a great hurry
+0x0ad1  /  0x4699 (0x0006)  : hid in the bushes
+0x0ad2  /  0x46a0 (0x0007)  : Lancelot heard a brachet barking
+0x0ad4  /  0x46a9 (0x002a)  : the damosel murmured tearfully to Lancelot that Sir Meliot, her master, was grievously hurt and could not be healed save by a cloth from the Chapel Perilous. 
+0x0ad5  /  0x46d4 (0x0006)  : Lancelot put down his sword
+0x0ad6  /  0x46db (0x0011)  : all thirty knights attacked at once, and Lancelot was swiftly overcome
+0x0ad7  /  0x46ed (0x0006)  : picked up his sword again
+0x0ad8  /  0x46f4 (0x000e)  : Hellawes bade Lancelot put up his sword and kiss her
+0x0ad9  /  0x4703 (0x000b)  : kissed her and was entrapped by her witchcraft
+0x0ada  /  0x470f (0x0033)  : Hellawes' protests were in vain. As soon as Lancelot had hold of the magic fabric, there was a great storm and a tempest. The evil witch vanished, and all her knights with her
+0x0adb  /  0x4743 (0x002a)  : 
+Sir Meliot touched the cloth to his grievous wounds and was rightway healed. He rode off to Camelot with his maid, there to join Arthur
+0x0adc  /  0x476e (0x000c)  : the guard signalled to someone inside the tower
+0x0add  /  0x477b (0x0008)  : the portcullis started to descend
+0x0ade  /  0x4784 (0x0009)  : the portcullis was now half shut
+0x0adf  /  0x478e (0x0007)  : the portcullis clicked shut
+0x0ae0  /  0x4796 (0x0014)  : the guard blocked the way and cried, "Ye shall nay pass"
+0x0ae1  /  0x47ab (0x000c)  : the guard was standing inside the closed portcullis
+0x0ae2  /  0x47b8 (0x000c)  : could not fit through the gaps in the portcullis
+0x0ae3  /  0x47c5 (0x0010)  : lit the beacon, which flared briefly and then died away
+0x0ae4  /  0x47d6 (0x0006)  : put out the beacon
+0x0ae5  /  0x47dd (0x0005)  : heard some people approaching
+0x0ae6  /  0x47e3 (0x000a)  : the prison door was bolted from this side
+0x0ae7  /  0x47ee (0x0006)  : slid back the bolts
+0x0ae8  /  0x47f5 (0x0007)  : strained against the chest
+0x0ae9  /  0x47fd (0x0008)  : too few people were helping
+0x0aea  /  0x4806 (0x000a)  : the chest slid away from the trapdoor
+0x0aeb  /  0x4811 (0x000d)  : the heavy chest was on top of the trapdoor
+0x0aec  /  0x481f (0x0011)  : the inhabitants regrouped and came forth with pitchforks to capture Lancelot
+0x0aed  /  0x4831 (0x0019)  : the chest opened just far enough to reveal that it was full of rocks and sand
+0x0aee  /  0x484b (0x0006)  : of the Round Table
+0x0aef  /  0x4852 (0x0002)  : squire
+0x0af0  /  0x4855 (0x0001)  : Sir
+0x0afa  /  0x4858 (0x0008)  : whined and licked its master
+0x0afb  /  0x4861 (0x0008)  : lay down next to Meliot
+0x0afc  /  0x486a (0x0006)  : ran around in circles
+0x0b18  /  0x4872 (0x0018)  : looked nervously at the guards and said, "I think I will go to powder my nose"
+0x0b19  /  0x488b (0x0029)  : the Damosel Maledisant looked from Lancelot to the Queens and said, "Humph! If you are going to dally with these trollops, I will be off"
+0x0b1a  /  0x48b5 (0x0019)  : looked from Lancelot to Elaine and back and said, "Well really, do not let me interrupt you"
+0x0b1b  /  0x48cf (0x001d)  : was sitting by the side of the road. "Well", she said, "I hope you enjoyed yourself"
+0x0b1c  /  0x48ed (0x0011)  : said, "I suppose I will have to help you out this time"
+0x0b22  /  0x4900 (0x0008)  : Ugh, not enough garlic
+0x0b23  /  0x4909 (0x0004)  : Very clever
+0x0b24  /  0x490e (0x000b)  : Try taking some music lessons first
+0x0b25  /  0x491a (0x000a)  : Weakling! Bet you drop it
+0x0b26  /  0x4925 (0x0004)  : Told you so
+0x0b27  /  0x492a (0x0008)  : Do you not have a key
+0x0b28  /  0x4933 (0x000b)  : You are not Jesus Christ, you know
+0x0b29  /  0x493f (0x0007)  : That was most careless
+0x0b2a  /  0x4947 (0x0008)  : Nowhere good enough yet
+0x0b2b  /  0x4950 (0x0007)  : Methinks you needed help
+0x0b2c  /  0x4958 (0x0007)  : Now you have done it
+0x0b2d  /  0x4960 (0x0007)  : You filthy little devil
+0x0b2e  /  0x4968 (0x000e)  : Have care! She is only after your title
+0x0b2f  /  0x4977 (0x0007)  : I hope you enjoyed that
+0x0b30  /  0x497f (0x0010)  : Make No Noise Which Might Wake Him Up
+0x0b31  /  0x4990 (0x0004)  : Cowardly beast
+0x0b32  /  0x4995 (0x000d)  : It takes two to cut such briers
+0x0b33  /  0x49a3 (0x0008)  : You cannot refuse a challenge
+0x0b34  /  0x49ac (0x000b)  : He did not seem a worthy opponent
+0x0b35  /  0x49b8 (0x0009)  : You should have seen that coming
+0x0b36  /  0x49c2 (0x0009)  : That should have been you, Lancelot
+0x0b37  /  0x49cc (0x0007)  : You really messed that up
+0x0b38  /  0x49d4 (0x0008)  : That was a cowardly trick
+0x0b39  /  0x49dd (0x0008)  : Fancy letting down a lady
+0x0b3a  /  0x49e6 (0x000c)  : You are not worthy to wear armour anyway
+0x0b3b  /  0x49f3 (0x0010)  : Ha ha! Not so great now, are you, Lancelot?
+0x0b3c  /  0x4a04 (0x0007)  : How cruel and dishonourable
+0x0b3d  /  0x4a0c (0x0006)  : That was a mistake
+0x0b3e  /  0x4a13 (0x0007)  : I think he saw you
+0x0b3f  /  0x4a1b (0x000b)  : What did you expect? Treasure?
+0x0b67  /  0x4a28 (0x0010)  : said, "You have trespassed in my forest and you shall die"
+0x0b68  /  0x4a39 (0x000a)  : said, "Soon you shall die"
+0x0b6a  /  0x4a45 (0x000c)  : remained full silent, enwrapped in mystery
+0x0b6b  /  0x4a52 (0x0005)  : repeated his challenge
+0x0b6c  /  0x4a58 (0x0021)  : curled his lip, saying, "Soon I will have slain Lancelot, and shall be called the best knight in the world"
+0x0b6d  /  0x4a7a (0x0021)  : raised his black spear and challenged Lancelot, "Turn back, Sir Knight, for I have sworn to guard these Launds"
+0x0b6e  /  0x4a9c (0x000b)  : tilted his green lance and challenged Lancelot
+0x0b6f  /  0x4aa8 (0x0007)  : raised his red spear
+0x0b70  /  0x4ab0 (0x0009)  : said, "Just kiss me"
+0x0b75  /  0x4abb (0x0011)  : said, "You are supposed to be the great knight, do it yourself
+0x0b76  /  0x4acd (0x000a)  : said, "I cannot help you"
+0x0b77  /  0x4ad8 (0x0008)  : said, "Sorry, no"
+0x0b78  /  0x4ae1 (0x0008)  : said, "Sorry, no"
+0x0b79  /  0x4aea (0x0002)  : said nothing
+0x0b7c  /  0x4aee (0x0006)  : paid him no heed
+0x0b7d  /  0x4af5 (0x0007)  : appeared to be stone deaf
+0x0b7e  /  0x4afd (0x0007)  : smiled and shook her head
+0x0b7f  /  0x4b05 (0x000b)  : laughed with a kind of tinkling noise
+0x0b80  /  0x4b11 (0x0004)  : seemed surprised
+0x0b81  /  0x4b16 (0x000a)  : seemed busy with their own affairs
+0x0b82  /  0x4b21 (0x0004)  : refused angrily
+0x0b83  /  0x4b26 (0x000a)  : refused angrily and closed in around Lancelot
+0x0b84  /  0x4b31 (0x0002)  : refused
+0x0b86  /  0x4b35 (0x0004)  : squawked loudly
+0x0b87  /  0x4b3a (0x000c)  : was only a dog, so could not understand Lancelot
+0x0bba  /  0x4b48 (0x0013)  : Tristram said, "Hello Lancelot, have you brought my harp?" 
+0x0bbc  /  0x4b5d (0x0014)  : Bors said, "Hail Sir Lancelot, I thank you for rescuing me". 
+0x0bbd  /  0x4b72 (0x0019)  : Sir Pedivere said, "Sir Lancelot, prithee slay Sir Breunis that I may be free". 
+0x0bbe  /  0x4b8c (0x0023)  : Gawain said, "Lancelot, you are come in my time of greatest peril. How can I thank you for rescuing me?". 
+0x0bbf  /  0x4bb0 (0x0008)  : the Red Knight challenged Lancelot. 
+0x0bc0  /  0x4bb9 (0x002b)  : 
+Meliot said, "Sir Lancelot, prithee give me succour. My wounds may only be cured by a cloth belonging to the witch that made them". 
+0x0bc1  /  0x4be5 (0x001a)  : Lamorak said, "I cannot tell you how grateful I am that you have saved me". 
+0x0bc2  /  0x4c00 (0x0025)  : Ector said, "Hail Sir Lancelot. We salute you, we who have been held prisoner for so long by the wicked Sir Turquin". 
+0x0bcb  /  0x4c27 (0x0014)  : Sir Breunis said, "You have trespassed in my forest and you shall die". 
+0x0bcf  /  0x4c3d (0x0016)  : 
+Sir Turquin greeted Lancelot with a roar, and challenged him to do battle. 
+0x0bd0  /  0x4c54 (0x004c)  : 
+as the Lady turned away and wept, Sir Phelot sneered down from his great horse and taunted Lancelot, "My wife has done as I bade her. Now, without your armour, you are helpless as a maid. The hour is come that you must die!" 
+0x0bd1  /  0x4ca2 (0x001b)  : the Black Knight directed his horse to the middle of the road and sat, awaiting Lancelot's attack. 
+0x0bd2  /  0x4cbe (0x000f)  : the Green Knight said, "None shall pass me". 
+0x0bd5  /  0x4ccf (0x0022)  : Queen Morgan said, "Lancelot, you must choose one of us to be your beloved, or you will never leave this forest". 
+0x0bd9  /  0x4cf3 (0x0032)  : the Damosel Maledisant said, "Greetings, you poor excuse for a knight. My lady, Dame Lyonesse, is besieged. She needs help, and I suppose you will have to do". 
+0x0bda  /  0x4d26 (0x0021)  : the maiden said, "Greetings Lancelot. It grieves me that such a handsome knight has been interred in this foul prison". 
+0x0be0  /  0x4d49 (0x0014)  : a ripple of fear ran through the army as Lancelot came into view. 
+0x0be7  /  0x4d5f (0x0035)  : the knights spake all together, with a grimly voice, and said, "Knight Lancelot, put down your sword straight away, and go not inside the inner chapel, and we may show you mercy". 
+0x0beb  /  0x4d96 (0x000a)  : the brachet whined pleadingly at Lancelot. 
+0x0c1c  /  0x4da2 (0x0008)  : now that is just not sensible
+0x0c1d  /  0x4dab (0x000b)  : you do come up with some peculiar ideas
+0x0c1e  /  0x4db7 (0x000f)  : what? You seem to have taken leave of your senses
+0x0c1f  /  0x4dc7 (0x0013)  : you must be two lengths short of a halberd to think of that
+0x0c20  /  0x4ddb (0x0008)  : Lancelot thought that marvellously silly
+0x0c26  /  0x4de5 (0x0006)  : that was a nice try
+0x0c27  /  0x4dec (0x000b)  : a good plan but it achieves naught
+0x0c28  /  0x4df8 (0x000d)  : alas that your fine idea should achieve nothing
+0x0c29  /  0x4e06 (0x000b)  : an interesting try, but worth no bezants
+0x0c2a  /  0x4e12 (0x000d)  : keep trying, but not along those lines
+0x0c30  /  0x4e21 (0x0007)  : Lancelot found nothing of interest
+0x0c31  /  0x4e29 (0x000a)  : you do not need to bother with that
+0x0c32  /  0x4e34 (0x000a)  : that has no import to the game
+0x0c33  /  0x4e3f (0x0008)  : Lancelot refused to waste his time
+0x0c34  /  0x4e48 (0x0008)  : suchlike matters have no import
+0x0c3a  /  0x4e52 (0x000c)  : now what was the object of that? Try again
+0x0c3b  /  0x4e5f (0x0007)  : please be more specific
+0x0c3c  /  0x4e67 (0x000c)  : prithee give me an object to work with
+0x0c3d  /  0x4e74 (0x000c)  : I think I have lost the object somewhere
+0x0c3e  /  0x4e81 (0x000b)  : do it to what? You did not say
+0x0c44  /  0x4e8e (0x0003)  : nothing happened
+0x0c45  /  0x4e92 (0x0008)  : that did not seem to work
+0x0c46  /  0x4e9b (0x0005)  : there was no effect
+0x0c47  /  0x4ea1 (0x0006)  : that was marvellously useless
+0x0c48  /  0x4ea8 (0x0009)  : that did nothing at all, I fear
+0x0c4e  /  0x4eb3 (0x0004)  : would not move
+0x0c4f  /  0x4eb8 (0x0004)  : did not budge
+0x0c50  /  0x4ebd (0x0007)  : would not shift an inch
+0x0c51  /  0x4ec5 (0x0007)  : seemed fixed in place
+0x0c52  /  0x4ecd (0x0008)  : stayed rooted to the spot
+0x0c58  /  0x4ed7 (0x0005)  : there is no point
+0x0c59  /  0x4edd (0x0008)  : that would be a waste of time
+0x0c5a  /  0x4ee6 (0x0007)  : that would not change anything
+0x0c5b  /  0x4eee (0x0009)  : that will not do anything of value
+0x0c5c  /  0x4ef8 (0x0008)  : do not bother yourself with that
+0x0c62  /  0x4f02 (0x0005)  : bowed in acknowledgement
+0x0c63  /  0x4f08 (0x0006)  : said, "Greetings"
+0x0c64  /  0x4f0f (0x0005)  : murmured a reply
+0x0c65  /  0x4f15 (0x0002)  : smiled
+0x0c66  /  0x4f18 (0x0004)  : nodded politely
+0x0c6c  /  0x4f1e (0x000c)  : had not been able to complete Lancelot's command
+0x0c6d  /  0x4f2b (0x0009)  : apologised for not finishing his task
+0x0c6e  /  0x4f35 (0x0012)  : said, "I fear I did not manage to do all you wanted"
+0x0c6f  /  0x4f48 (0x000f)  : said, "There was not time to attend to everything"
+0x0c70  /  0x4f58 (0x0010)  : said, "Sir, some of your requests could not be done"
+0x0c76  /  0x4f6a (0x000f)  : said, "Sorry, Sir. All did not go well with
+0x0c77  /  0x4f7a (0x000b)  : said, "Alas that I had problems with
+0x0c78  /  0x4f86 (0x000b)  : said, "I fear I had difficulty with
+0x0c79  /  0x4f92 (0x0007)  : apologized for his problems with
+0x0c7a  /  0x4f9a (0x0006)  : muttered about problems with
+0x0c9e  /  0x4fa2 (0x0008)  : said, "Very well"
+0x0c9f  /  0x4fab (0x0002)  : agreed
+0x0ca0  /  0x4fae (0x0002)  : nodded
+0x0ca1  /  0x4fb1 (0x0004)  : promptly agreed
+0x0ca2  /  0x4fb6 (0x0005)  : turned in acceptance
+0x0cc6  /  0x4fbd (0x0006)  : refused point blank
+0x0cc7  /  0x4fc4 (0x0005)  : clutched it progressively
+0x0cc8  /  0x4fca (0x0004)  : did not respond
+0x0cc9  /  0x4fcf (0x0005)  : gripped it tightly
+0x0cca  /  0x4fd5 (0x0006)  : stared back in refusal
+0x0cda  /  0x4fdd (0x0004)  : did not understand
+0x0cdb  /  0x4fe2 (0x000c)  : said, "Sorry Sir, I understand you not
+0x0cdc  /  0x4fef (0x000a)  : cupped a hand behind an ear
+0x0cdd  /  0x4ffa (0x0010)  : said, "Could you perhaps speak slower, Sire"
+0x0cde  /  0x500b (0x000a)  : said, "Perhaps I misheard that"
+0x0dca  /  0x5018 (0x0009)  : the previous command was not repeatable
+0x0dcb  /  0x5022 (0x0003)  : not again!
+0x0dcc  /  0x5026 (0x0009)  : it would not help to try that again
+0x0dcd  /  0x5030 (0x0007)  : prithee try something different
+0x0dce  /  0x5038 (0x0006)  : you already tried that
+0x0de8  /  0x5040 (0x0002)  : dead
+0x0e10  /  0x5044 (0x0012)  : a voice in the distance shouted, "Stack overflow!" 
+0x0e15  /  0x5058 (0x000f)  : sorry, Lancelot would have to find his own way from here
+0x0e1e  /  0x5069 (0x0009)  : Lancelot yelled "Arrrgggghhhhh"! 
+0x0e24  /  0x5074 (0x0005)  : swore back at Lancelot
+0x0e25  /  0x507a (0x0003)  : looked scornful
+0x0e26  /  0x507e (0x0005)  : spat in disgust
+0x0e27  /  0x5084 (0x0004)  : was not impressed
+0x0e28  /  0x5089 (0x0009)  : gave Lancelot a mouthful in reply
+0x0e4c  /  0x5094 (0x0004)  : just smiled
+0x0e4d  /  0x5099 (0x0003)  : looked askance
+0x0e4e  /  0x509d (0x0007)  : saw no purpose in that
+0x0e4f  /  0x50a5 (0x0010)  : laughed, "You do have some odd ideas, Sir Lancelot"
+0x0e50  /  0x50b6 (0x0006)  : sighed and looked heavenward
+0x0e74  /  0x50be (0x0005)  : waited in readiness
+0x0e75  /  0x50c4 (0x0004)  : examined his sword
+0x0e76  /  0x50c9 (0x0007)  : hummed a popular ballad
+0x0e77  /  0x50d1 (0x000a)  : pressed out a dent in his shield
+0x0e78  /  0x50dc (0x0002)  : looked around
+0x0e7e  /  0x50e0 (0x0003)  : looked evil
+0x0e7f  /  0x50e4 (0x0002)  : grimaced
+0x0e80  /  0x50e7 (0x0002)  : smirked
+0x0e81  /  0x50ea (0x0005)  : eyed Lancelot maliciously
+0x0e82  /  0x50f0 (0x0005)  : paced up and down
+0x0ea6  /  0x50f7 (0x000a)  : warned Lancelot not to touch the cloth
+0x0ea7  /  0x5102 (0x0019)  : made mystic signs in the air. Lancelot was surprised at how much she reminded him of Guenever
+0x0ea8  /  0x511c (0x0015)  : offered Lancelot that he should live if he would but forget Guenever and kiss her
+0x0ea9  /  0x5132 (0x0005)  : looked strangely attractive
+0x0eaa  /  0x5138 (0x000c)  : pouted at Lancelot and invited him to kiss her
+0x0eb0  /  0x5146 (0x0006)  : smiled winningly at Lancelot
+0x0eb1  /  0x514d (0x0004)  : winked at Lancelot
+0x0eb2  /  0x5152 (0x0007)  : raised an eyebrow at Lancelot
+0x0eb3  /  0x515a (0x0007)  : smoothed her gown sensuously
+0x0eb4  /  0x5162 (0x0004)  : cocked her head
+0x0eba  /  0x5168 (0x0002)  : smirked
+0x0ebb  /  0x516b (0x0004)  : leered at Lancelot
+0x0ebc  /  0x5170 (0x0007)  : curled her lip at Lancelot
+0x0ebd  /  0x5178 (0x000a)  : told Lancelot what a poor knight he was
+0x0ebe  /  0x5183 (0x0007)  : harped upon Lancelot's failings
+0x0ec4  /  0x518c (0x0002)  : wept
+0x0ec5  /  0x518f (0x0002)  : cried
+0x0ec6  /  0x5192 (0x0005)  : tended Sir Meliot
+0x0ec7  /  0x5198 (0x0007)  : mopped Sir Meliot's brow
+0x0ec8  /  0x51a0 (0x000a)  : comforted Sir Meliot as best she could
+0x0ece  /  0x51ac (0x0005)  : looked into the tree
+0x0ecf  /  0x51b2 (0x0003)  : looked guilty
+0x0ed0  /  0x51b6 (0x0005)  : wrung her hands
+0x0ed1  /  0x51bc (0x0004)  : looked around furtively
+0x0ed2  /  0x51c1 (0x0005)  : paced up and down
+0x0ed8  /  0x51c8 (0x0003)  : threatened Lancelot
+0x0ed9  /  0x51cc (0x0008)  : closed in around Lancelot a little
+0x0eda  /  0x51d5 (0x0009)  : told Lancelot to put down his sword
+0x0edb  /  0x51df (0x000a)  : tried to block Lancelot's way south
+0x0edc  /  0x51ea (0x0003)  : menaced Lancelot
+0x0ee2  /  0x51ef (0x0007)  : blew a raspberry at Lancelot
+0x0ee3  /  0x51f7 (0x0004)  : grinned at Lancelot
+0x0ee4  /  0x51fc (0x0005)  : looked warily at Lancelot
+0x0ee5  /  0x5202 (0x000b)  : spoke with a messenger, who then left
+0x0ee6  /  0x520e (0x0004)  : polished his sword
+0x0eec  /  0x5214 (0x0004)  : squawked loudly
+0x0eed  /  0x5219 (0x0010)  : tried to fly away, but got its wings all atangle
+0x0eee  /  0x522a (0x0005)  : pecked Lancelot spitefully
+0x0eef  /  0x5230 (0x000b)  : fixed Lancelot with a malicious beady eye
+0x0ef0  /  0x523c (0x0008)  : puffed out its breast feathers
+0x0ef6  /  0x5246 (0x0004)  : barked eagerly
+0x0ef7  /  0x524b (0x000a)  : seemed to sniff a new scent
+0x0ef8  /  0x5256 (0x0004)  : barked loudly
+0x0ef9  /  0x525b (0x0008)  : pounced on its own shadow
+0x0efa  /  0x5264 (0x0005)  : chased its tail
+0x0f96  /  0x526c (0x000b)  : groaned and murmured Hellawes' name
+0x0f97  /  0x5278 (0x0008)  : lost consciousness for a moment
+0x0f98  /  0x5281 (0x0002)  : moaned
+0x0f99  /  0x5284 (0x0008)  : suddenly cried out in pain
+0x0f9a  /  0x528d (0x000a)  : murmured something about the Chapel Perilous
+0x0fa0  /  0x5299 (0x001c)  : the this these that some and also before wade rush march good of there
+0x0fa1  /  0x52b6 (0x001a)  : therefore am my your try carefully slowly quickly rapidly following around please Sir
+0x1068  /  0x52d3 (0x0016)  : 
+A sorceress blocked Lancelot, flourishing a copy of a blue book. 
+0x1069  /  0x52ea (0x0003)  : page 
+0x106a  /  0x52ee (0x0004)  : , line 
+0x106b  /  0x52f3 (0x0004)  : , word 
+0x106c  /  0x52f8 (0x0004)  : ?"
+
+0x106d  /  0x52fd (0x0011)  : The sorceress smiled nastily and Lancelot knew he was wrong. 
+0x106e  /  0x530f (0x000e)  : The sorceress blew a kiss and faded away. 
+0x106f  /  0x531e (0x000e)  : The sorceress wanted to know the word at 
+0x1070  /  0x532d (0x0013)  : Wrong again! Lancelot felt the strength drain from his limbs.. 
+0x10cd  /  0x5342 (0x0002)  : she
+0x10ce  /  0x5345 (0x0004)  : were of
+0x10cf  /  0x534a (0x0002)  : recalled
+0x10d0  /  0x534d (0x0004)  : living these
+0x10d1  /  0x5352 (0x0004)  : of had
+0x10d2  /  0x5357 (0x0002)  : the
+0x10d3  /  0x535a (0x0002)  : see
+0x10d4  /  0x535d (0x0002)  : board
+0x10d5  /  0x5360 (0x0002)  : by
+0x10d7  /  0x5364 (0x0002)  : is
+0x10d8  /  0x5367 (0x0004)  : were this
+0x10d9  /  0x536c (0x0002)  : between
+0x10da  /  0x536f (0x0002)  : not
+0x10db  /  0x5372 (0x0002)  : speak
+0x10dc  /  0x5375 (0x0002)  : next
+0x10dd  /  0x5378 (0x0004)  : Arthur of
+0x10e0  /  0x537e (0x0002)  : altar
+0x10e1  /  0x5381 (0x0002)  : Arthur
+0x10e2  /  0x5384 (0x0002)  : to
+0x10e3  /  0x5387 (0x0002)  : please
+0x10e4  /  0x538a (0x0002)  : within
+0x10e5  /  0x538d (0x0002)  : had
+0x10e6  /  0x5390 (0x0002)  : teaching
+0x10e7  /  0x5393 (0x0002)  : her
+0x10e9  /  0x5397 (0x0002)  : that
+0x10ea  /  0x539a (0x0002)  : Arthur
+0x10eb  /  0x539d (0x0002)  : see
+0x10ec  /  0x53a0 (0x0002)  : Merlin
+0x10ed  /  0x53a3 (0x0002)  : aloft
+0x10ee  /  0x53a6 (0x0002)  : the
+0x10ef  /  0x53a9 (0x0002)  : the
+0x10f0  /  0x53ac (0x0002)  : gift
+0x10f2  /  0x53b0 (0x0002)  : that
+0x10f3  /  0x53b3 (0x0002)  : all
+0x10f4  /  0x53b6 (0x0002)  : counsel
+0x10f6  /  0x53ba (0x0002)  : came
+0x10f7  /  0x53bd (0x0002)  : other
+0x10f8  /  0x53c0 (0x0002)  : was
+0x10f9  /  0x53c3 (0x0004)  : Pendragon time
+0x10fa  /  0x53c8 (0x0002)  : Grail
+0x10fc  /  0x53cc (0x0002)  : after
+0x10fd  /  0x53cf (0x0002)  : and
+0x10fe  /  0x53d2 (0x0004)  : she distressed
+0x10ff  /  0x53d7 (0x0002)  : his
+0x1100  /  0x53da (0x0002)  : Nimue
+0x1102  /  0x53de (0x0004)  : battles Uther
+0x1103  /  0x53e3 (0x0004)  : adventures was
+0x1104  /  0x53e8 (0x0002)  : after
+0x1105  /  0x53eb (0x0004)  : birth the
+0x1106  /  0x53f0 (0x0002)  : it
+0x1107  /  0x53f3 (0x0002)  : young
+0x1108  /  0x53f6 (0x0004)  : who but
+0x1109  /  0x53fb (0x0002)  : with
+0x110a  /  0x53fe (0x0002)  : dreamed
+0x110b  /  0x5401 (0x0002)  : at
+0x110c  /  0x5404 (0x0002)  : slept
+0x110d  /  0x5407 (0x0002)  : the
+0x110e  /  0x540a (0x0002)  : he
+0x110f  /  0x540d (0x0002)  : seat
+0x1112  /  0x5411 (0x0002)  : and
+0x1113  /  0x5414 (0x0002)  : could
+0x1114  /  0x5417 (0x0002)  : the
+0x1116  /  0x541b (0x0002)  : Lancelot
+0x1117  /  0x541e (0x0002)  : wife
+0x1118  /  0x5421 (0x0002)  : empty
+0x1119  /  0x5424 (0x0002)  : what
+0x111a  /  0x5427 (0x0002)  : their
+0x111b  /  0x542a (0x0002)  : Uther's
+0x111c  /  0x542d (0x0002)  : when
+0x111d  /  0x5430 (0x0002)  : son
+0x111e  /  0x5433 (0x0002)  : child
+0x1120  /  0x5437 (0x0002)  : knelt
+0x1121  /  0x543a (0x0004)  : were flee
+0x1122  /  0x543f (0x0002)  : return
+0x1123  /  0x5442 (0x0002)  : ye
+0x1124  /  0x5445 (0x0002)  : hoods
+0x1125  /  0x5448 (0x0002)  : Galahad
+0x1126  /  0x544b (0x0004)  : that her
+0x1127  /  0x5450 (0x0004)  : him Uther
+0x1128  /  0x5455 (0x0002)  : at
+0x112a  /  0x5459 (0x0004)  : the complete
+0x112b  /  0x545e (0x0002)  : sword
+0x112c  /  0x5461 (0x0002)  : hoods
+0x112d  /  0x5464 (0x0002)  : Round
+0x112f  /  0x5468 (0x0002)  : was
+0x1130  /  0x546b (0x0002)  : the
+<EOM>

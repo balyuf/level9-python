@@ -1,8 +1,7 @@
 #title: Lords of Time test script;
-#comment: Amiga version [v4]. Based on a solution by Jacob Gunness;
+#comment: MSX version [v4]. Based on a solution by Jacob Gunness;
 
 #SEED 42;
-1;
 LOOK [You begin in your own room];
 GET HOURGLASS;
 GET PICTURE [Father Time tells you about the evil Timelords];
@@ -105,8 +104,7 @@ N;
 NE;
 W;
 POUR PETROL;
-LIGHT MATCH;
-LIGHT PETROL [the mammoth sheds its fur!];
+LIGHT MATCH [petrol lights up and the mammoth sheds its fur!];
 GET * TUSK *;
 GET COAT;
 WEAR COAT [it protects you against the cold];
@@ -528,3 +526,5 @@ THROW BUCKLE;
 W;
 E;
 THROW CHIP [all ingredients are now in the cauldron, and soon the Timelords are defeated. Way to go!!];
+NO;
+#quit

@@ -1,5 +1,5 @@
 #title: The Price of Magik test script;
-#comment: BBC version [v3]. Based on a solution by Dorothy Millard;
+#comment: MSX version [v3]. Based on a solution by Dorothy Millard;
 
 #SEED 42;
 QUIT;
@@ -441,3 +441,4 @@ CAST SAN AT MYGLAR [Myglar stares at you from newly sane eyes, haunted by the fi
 CAST ESP NW;
 CAST DED AT MYGLAR [there is a loud thunderclap as Myglar's magik is neutralised... he crumples as time regains it's power and soon nothing remains of the proud wizard but ancient dust];
 YES;
+#quit;

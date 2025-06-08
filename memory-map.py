@@ -1,3 +1,4 @@
+#!/bin/env python3
 import json
 
 fSnowball    = open("src/snowball/memory-locations.json")

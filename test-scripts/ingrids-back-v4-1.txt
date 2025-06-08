@@ -1,5 +1,5 @@
 #title: Ingrid's Back test script;
-#comment: C64 version [v4]. Based on a solution by Jacob Gunness;
+#comment: MSX version [v4]. Based on a solution by Jacob Gunness;
 
 #SEED 42;
 N [Part 1. You begin in the town hall];
@@ -35,7 +35,7 @@ D;
 GIVE PETITION TO MILLIE;
 OUT;
 N;
-FLOPSY, NW AND WAIT 2;
+FLOPSY, NW AND WAIT TWO;
 NE;
 KNOCK ON DOOR [Flopsy catches Isfrunt when he tries to make his escape];
 SW;
@@ -364,3 +364,4 @@ N [Jasper seeing that the game is over, hides in the ballroom];
 U;
 EXAMINE CHANDELIER;
 UNTIE CHANDELIER [Ingrid floats down and lands on Jasper and they get married. Hooray ?!];
+#quit;

@@ -1,5 +1,5 @@
 #title: Snowball test script;
-#comment: BBC version [v1];
+#comment: MSX version [v1];
 
 #SEED 42;
 QUIT;
