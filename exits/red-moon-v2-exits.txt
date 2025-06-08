@@ -1,5 +1,5 @@
-Red Moon - Location Exit Definition
----------------------------------------------
+Red Moon - Location Exit Definitions
+------------------------------------
 
 Bit configuration:
 

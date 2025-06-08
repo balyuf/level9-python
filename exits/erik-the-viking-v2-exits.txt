@@ -1,5 +1,5 @@
-Erik the Viking - Location Exit Definition
----------------------------------------------
+Erik the Viking - Location Exit Definitions
+-------------------------------------------
 
 Bit configuration:
 
@@ -419,7 +419,7 @@ Address From  To  Dir       Bit 0 Bit 1 Bit 2 MsgId Location Text
 0x034a  0xd9 0xd4 EAST      No    No    No    0x269 a yellow room
 0x034c  0xd9 0xda SOUTH     No    No    Yes   0x269 a yellow room
 0x034e  0xd9 0xd3 WEST      No    No    No    0x269 a yellow room
-0x0350  0xda 0xea <Missing> No    No    No    0x26a the Enchanter's study
+0x0350  0xda 0xea 0x0f      No    No    No    0x26a the Enchanter's study
 0x0352  0xdb 0xa0 SOUTH     Yes   No    No    0x26b the long gallery
 0x0354  0xdc 0xdb SOUTH     Yes   No    No    0x26c a throne room
 0x0356  0xdd 0xdc SOUTH     Yes   No    No    0x26d the throne

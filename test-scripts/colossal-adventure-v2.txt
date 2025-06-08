@@ -1,5 +1,5 @@
 #title: Colossal Adventure test script;
-#comment: CPC version [v2];
+#comment: MSX version [v2];
 
 #SEED 42;
 E [start at the End of the Road];
@@ -457,3 +457,4 @@ E;
 E;
 E;
 UP;
+N;

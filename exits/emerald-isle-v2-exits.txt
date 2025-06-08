@@ -1,5 +1,5 @@
-Emerald Isle - Location Exit Definition
----------------------------------------------
+Emerald Isle - Location Exit Definitions
+----------------------------------------
 
 Bit configuration:
 

@@ -1,9 +1,7 @@
 Welcome to Red Moon, copyright (C) 1985 from Level 9 Computing.
 You are on a wide, flat grassy plain, baked by the yellow sun. Exits are north to a steep rock slide, east to a pothole, south to a grassy mound and west to a grassy mound. 
 What now? #title: Red Moon test script
-Invalid command
-#comment: C-64 version
-Invalid command
+#comment: MSX version
 #SEED 42
 Seed set to 42
 DIG
@@ -1087,8 +1085,6 @@ You are in a dark junction. Exits are north to a door, east to a temple to Litte
 What now? E
 
 You are in a temple to Litter Muurdox the god of light and darkness, evil lord of the Sun. The only exit is west to a dark junction. You can see a black ball. 
-What now? who is the god of light and darkness]
-You can't move that way
 What now? GET BALL
 
 What now? W

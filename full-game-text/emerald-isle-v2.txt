@@ -1,9 +1,7 @@
 Welcome to Level 9's Emerald Isle, copyright (C) 1985. 
 You are in the topmost branches of a mangrove. The only exit is down. Your parachute is snagged on a branch and you swing from it, unable to move, dangling high above the jungle floor.
-What next? #title: Emerals Isle test script
-Invalid command
-#comment: BBC version
-Invalid command
+What next? #title: Emerald Isle test script
+#comment: MSX version
 #SEED 42
 Seed set to 42
 RELEASE PARACHUTE

@@ -1,5 +1,5 @@
 #title: Return to Eden test script;
-#comment: PC version [v3];
+#comment: MSX version [v3];
 
 #SEED 42;
 QUIT;
@@ -551,3 +551,4 @@ UP;
 W;
 S;
 W;
+#quit;
