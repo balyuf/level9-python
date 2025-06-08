@@ -1,0 +1,1367 @@
+0x0001  /  0x0d07 (0x0001)  :  
+0x0002  /  0x0d09 (0x0002)  : :
+0x0003  /  0x0d0c (0x0001)  : , 
+0x0004  /  0x0d0e (0x0001)  : .
+0x0005  /  0x0d10 (0x0002)  : 
+
+0x0006  /  0x0d13 (0x0002)  : and 
+0x0007  /  0x0d16 (0x0003)  : .
+
+0x0008  /  0x0d1a (0x0003)  : ?
+
+0x0009  /  0x0d1e (0x0001)  : . 
+0x000a  /  0x0d20 (0x0005)  : exits led 
+0x000b  /  0x0d26 (0x0006)  : an exit led 
+0x000c  /  0x0d2d (0x0004)  :  through a door
+0x000d  /  0x0d32 (0x0006)  :  through an open door
+0x000e  /  0x0d39 (0x0003)  :  and 
+0x000f  /  0x0d3d (0x0014)  : 
+Ingrid put a stop to the "What gnow" prompts. 
+0x0010  /  0x0d52 (0x0004)  : 
+> 
+0x0011  /  0x0d57 (0x0008)  : 
+What gnow? 
+0x0012  /  0x0d60 (0x0001)  : : 
+0x0013  /  0x0d62 (0x0001)  : "
+0x0014  /  0x0d64 (0x0002)  : a 
+0x0015  /  0x0d67 (0x0002)  : the 
+0x0016  /  0x0d6a (0x0002)  : an 
+0x0017  /  0x0d6d (0x0002)  : some 
+0x0018  /  0x0d70 (0x0003)  : ." 
+0x0019  /  0x0d74 (0x0004)  : 
+ 
+
+0x001a  /  0x0d79 (0x0002)  : worn
+0x001b  /  0x0d7c (0x0002)  : taken
+0x0033  /  0x0d80 (0x000e)  : gnorth [aka] north gn n gnorthwards northwards
+0x0034  /  0x0d8f (0x000a)  : gnortheast [aka] northeast gne ne
+0x0035  /  0x0d9a (0x0008)  : east [aka] e eastwards
+0x0036  /  0x0da3 (0x0008)  : south [aka] s southwards
+0x0037  /  0x0dac (0x0006)  : southeast [aka] se
+0x0038  /  0x0db3 (0x0006)  : southwest [aka] sw
+0x0039  /  0x0dba (0x0008)  : west [aka] w westwards
+0x003a  /  0x0dc3 (0x000a)  : gnorthwest [aka] northwest gnw nw
+0x003b  /  0x0dce (0x0008)  : upwards [aka] u up
+0x003c  /  0x0dd7 (0x0008)  : downwards [aka] d down
+0x003d  /  0x0de0 (0x000c)  : inside [aka] in inwards into enter
+0x003e  /  0x0ded (0x000a)  : outside [aka] o out leave
+0x003f  /  0x0df8 (0x0008)  : across [aka] cross over
+0x0040  /  0x0e01 (0x000c)  : upwards [aka] climb scramble ascend mount
+0x0047  /  0x0e0f (0x0006)  : again [aka] a
+0x0048  /  0x0e16 (0x000c)  : look [aka] l display redisplay refresh
+0x0049  /  0x0e23 (0x000e)  : inventory [aka] I inv possessions possess list
+0x004a  /  0x0e32 (0x0004)  : quit restart
+0x004b  /  0x0e37 (0x0004)  : restore load
+0x004c  /  0x0e3c (0x0002)  : save
+0x004d  /  0x0e3f (0x0004)  : ramsave ram
+0x004e  /  0x0e44 (0x0002)  : ramload
+0x004f  /  0x0e47 (0x0006)  : score rating status
+0x0050  /  0x0e4e (0x0002)  : verbose
+0x0051  /  0x0e51 (0x0002)  : brief
+0x0052  /  0x0e54 (0x000a)  : wait [aka] wa pause z
+0x0053  /  0x0e5f (0x000c)  : ring [aka] play blow toot sound
+0x0054  /  0x0e6c (0x0002)  : on
+0x0055  /  0x0e6f (0x0006)  : off [aka] jump
+0x0056  /  0x0e76 (0x0004)  : pictures graphics
+0x0057  /  0x0e7b (0x0004)  : words text
+0x0059  /  0x0e81 (0x0006)  : undo oops whoops
+0x005a  /  0x0e88 (0x0010)  : attacked [aka] attack hit break kick punch smash
+0x005b  /  0x0e99 (0x0006)  : signed [aka] sign
+0x005c  /  0x0ea0 (0x0008)  : searched [aka] search explore
+0x005e  /  0x0eaa (0x0008)  : sniffed [aka] sniff smell
+0x005f  /  0x0eb3 (0x0006)  : knocked [aka] knock
+0x0060  /  0x0eba (0x0007)  : got [aka] stood stand
+0x0061  /  0x0ec2 (0x0006)  : lay [aka] lie
+0x0062  /  0x0ec9 (0x0006)  : sat [aka] sit
+0x0063  /  0x0ed0 (0x0006)  : hid [aka] hide
+0x0064  /  0x0ed7 (0x000a)  : said [aka] say whisper call
+0x0065  /  0x0ee2 (0x0006)  : teleported [aka] teleport
+0x0066  /  0x0ee9 (0x0002)  : getme
+0x0067  /  0x0eec (0x0006)  : filled [aka] fill
+0x0068  /  0x0ef3 (0x0008)  : ran [aka] run fly
+0x0069  /  0x0efc (0x0006)  : made [aka] make
+0x006b  /  0x0f04 (0x001a)  : what Ingrid really wanted was turnip stew and dumplings [aka] eat bite taste gnibble lick
+0x006c  /  0x0f1f (0x000e)  : went [aka] go goto find walk fly
+0x006d  /  0x0f2e (0x0008)  : stopped [aka] stop abort
+0x006e  /  0x0f37 (0x0006)  : drank [aka] drink
+0x0070  /  0x0f3f (0x0004)  : exits exit
+0x0082  /  0x0f45 (0x0006)  : had [aka] have
+0x0083  /  0x0f4c (0x0006)  : had [aka] has
+0x0084  /  0x0f53 (0x0006)  : was [aka] am
+0x0085  /  0x0f5a (0x0006)  : were [aka] are
+0x0086  /  0x0f61 (0x0006)  : was [aka] is
+0x0087  /  0x0f68 (0x0002)  : are
+0x0088  /  0x0f6b (0x0001)  : is
+0x008f  /  0x0f6e (0x0008)  : fought [aka] fight kill
+0x0091  /  0x0f78 (0x0006)  : dodged [aka] dodge
+0x0092  /  0x0f7f (0x0002)  : gdgo
+0x0093  /  0x0f82 (0x0002)  : gdrun
+0x0094  /  0x0f85 (0x0002)  : stuff
+0x0096  /  0x0f89 (0x000a)  : examined [aka] examine read x
+0x0097  /  0x0f94 (0x0006)  : cut [aka] chop
+0x0098  /  0x0f9b (0x0008)  : woke [aka] wake rouse
+0x009a  /  0x0fa5 (0x0006)  : got [aka] get
+0x009b  /  0x0fac (0x0020)  : took [aka] take carry acquire steal picked pick pluck catch lift hold keep turn rotate grab
+0x009c  /  0x0fcd (0x0006)  : wore [aka] wear
+0x009d  /  0x0fd4 (0x0008)  : dropped [aka] drop discard
+0x009e  /  0x0fdd (0x0006)  : put [aka] conceal
+0x009f  /  0x0fe4 (0x000a)  : removed [aka] remove free release
+0x00a0  /  0x0fef (0x000c)  : threw [aka] throw chuck toss hurl
+0x00a1  /  0x0ffc (0x000e)  : gave [aka] give offer show offered sell
+0x00a2  /  0x100b (0x0008)  : asked [aka] ask question
+0x00a3  /  0x1014 (0x0008)  : followed [aka] follow chase
+0x00a4  /  0x101d (0x0008)  : opened [aka] open unlock
+0x00a8  /  0x1027 (0x000e)  : pushed [aka] tug push launch shove paddle
+0x00a9  /  0x1036 (0x000a)  : fastened [aka] fasten tie attach
+0x00aa  /  0x1041 (0x0008)  : unfastened [aka] unfasten untie
+0x00ab  /  0x104a (0x0008)  : pulled [aka] pull yank
+0x00b0  /  0x1054 (0x0006)  : inserted [aka] insert
+0x00ba  /  0x105c (0x0004)  : return object
+0x00bd  /  0x1062 (0x0002)  : gdfind
+0x00be  /  0x1065 (0x0008)  : closed [aka] close shut
+0x00c0  /  0x106f (0x0006)  : told [aka] tell
+0x00c2  /  0x1077 (0x0002)  : struggled
+0x00c5  /  0x107b (0x0002)  : killed
+0x00d2  /  0x107f (0x0002)  : reached
+0x00d3  /  0x1082 (0x0002)  : dragged
+0x00d4  /  0x1085 (0x0002)  : passed
+0x00d5  /  0x1088 (0x0002)  : flew
+0x00d6  /  0x108b (0x0002)  : walked
+0x00d7  /  0x108e (0x0002)  : caught
+0x00d8  /  0x1091 (0x0002)  : entered
+0x00fa  /  0x1095 (0x000e)  : OK, if you say gnot [aka] no gno
+0x00fb  /  0x10a4 (0x000a)  : right, so be it [aka] yes
+0x00fc  /  0x10af (0x001d)  : gosh! That was fun. Gnow then, back to business [aka] leap hop skip dance celebrate
+0x00fd  /  0x10cd (0x005e)  : gno sooner had it been said, than there were bright lights and a fanfare from massed sousaphones. Then a hollow voice moaned "What the heck were that?" And another replied, "Gnever gno mind. I bain't answering it". Then everything went back to gnormal [aka] plugh xyzzy sesame plover humakaat satarh ollabin obis
+0x00fe  /  0x112d (0x000c)  : the weather was gnice and cool and damp
+0x00ff  /  0x113a (0x0031)  : if you want to talk to someone, follow their gname with what you want to say to them. For example GNAT, HELLO [aka] hello welcome hi greetings day afternoon
+0x0100  /  0x116c (0x0012)  : Ingrid heard gnothing that she hadn't heard before [aka] listen hear
+0x0101  /  0x117f (0x0012)  : send the coupon to Level 9 for a hint [aka] help
+0x0102  /  0x1192 (0x0010)  : the ground was much to hard for digging [aka] dig
+0x0104  /  0x11a4 (0x000b)  : the only escape is to finish the game
+0x0105  /  0x11b0 (0x0022)  : well I gnever! I want some fish to go with my chips, but we can't always get what we want
+0x0106  /  0x11d3 (0x000f)  : Ingrid will have to find that out for herself [aka] what
+0x0107  /  0x11e3 (0x0009)  : why gnot [aka] y why
+0x0108  /  0x11ed (0x0015)  : gnow that you ask, I realise that I don't know where it is myself
+0x0109  /  0x1203 (0x0016)  : gnot even I know how things work around here. I'm just grateful when they do
+0x010a  /  0x121a (0x0012)  : sorry, I can't help with such matters [aka] whether who
+0x010b  /  0x122d (0x0069)  : tut,tut! Really, what a thing to say [aka] sod motherfucker crap nipples cock bloody scott adams frigging wanker turd piss shit twat cunt prick bollocks jesus christ fanny god devil tits asshole arsehole cretin spastic coon wog fucking screw fucker fuck bastard bugger damn fart sex hell bonk pratt rape shag
+0x010e  /  0x1299 (0x0013)  : so what is there to shout about? I don't know [aka] yell
+0x010f  /  0x12ad (0x000f)  : royalties are gnever enough and always late arriving
+0x0110  /  0x12bd (0x000e)  : nobody gets killed in this game [aka] death
+0x0111  /  0x12cc (0x0015)  : going already? Don't forget to save your position [aka] goodbye bye
+0x0112  /  0x12e2 (0x0013)  : you're forgiven, and thank you for the gnice thought [aka] sorry
+0x0113  /  0x12f6 (0x000f)  : EEEK! (Will that do?) [aka] scream
+0x0114  /  0x1306 (0x0008)  : what a scorcher [aka] phew
+0x0115  /  0x130f (0x0027)  : 
+directory of disc A:\ 
+Gno files. 
+Space free = gno Megabytes [aka] dir catalog cat
+0x0117  /  0x1338 (0x0018)  : Ingrid closed her eyes and tried to sleep, but couldn't while there was so much to do
+0x0118  /  0x1351 (0x001f)  : Ingrid thought of the gnasty cold, muddy waters of the Dribble and decided that swimming was gnot for her [aka] swim
+0x0119  /  0x1371 (0x000b)  : gnuts! Go and think for yourself
+0x011b  /  0x137e (0x0002)  : hit
+0x011d  /  0x1382 (0x0008)  : Ingrid wasn't thirsty [aka] drink
+0x011e  /  0x138b (0x0019)  : Ingrid thought about shaking it, but decided it might gnot be a good idea [aka] shake
+0x0120  /  0x13a6 (0x000f)  : you are here to use objects, gnot to bury them
+0x0122  /  0x13b7 (0x0017)  : Ingrid polished it until it gleamed in the gnoonday sun [aka] rub clean polish
+0x0123  /  0x13cf (0x0014)  : you fill a container by, eg, "Put thing in container"
+0x0124  /  0x13e4 (0x0010)  : please empty a container by removing its contents in turn
+0x0126  /  0x13f6 (0x0013)  : Ingrid had gnothing with which to light anything. She was a gnon-smoker, you see
+0x0127  /  0x140a (0x000d)  : try throwing some water at it [aka] extinguish
+0x0129  /  0x1419 (0x001b)  : come closer, I'm puckering up for you. 
+XXX. How was that? [aka] kiss
+0x012a  /  0x1435 (0x0021)  : the only thing worth waving would be a magic wand, and I don't know if we've got one of those [aka] wave
+0x012b  /  0x1457 (0x0022)  : gnothing happened. Ingrid tried again a bit harder. That time gnothing happened again [aka] press select depress poke prod touch
+0x012d  /  0x147b (0x0008)  : Ingrid [aka] player me
+0x012e  /  0x1484 (0x0008)  : Gnora [aka] mother mum
+0x012f  /  0x148d (0x0008)  : Gnoah [aka] father dad
+0x0130  /  0x1496 (0x0002)  : Bumpy
+0x0131  /  0x1499 (0x0002)  : Dimple
+0x0132  /  0x149c (0x0002)  : Gnoggin
+0x0133  /  0x149f (0x0008)  : Arback Garden [aka] gardener
+0x0134  /  0x14a8 (0x0004)  : Isfrunt Garden
+0x0135  /  0x14ad (0x000c)  : Jumbo Butterpat [aka] barman bartender landlord
+0x0136  /  0x14ba (0x000a)  : Flora Butterpat [aka] cook chef
+0x0137  /  0x14c5 (0x0004)  : Miss Farthing
+0x0138  /  0x14ca (0x0004)  : Grandma Gnutson
+0x0139  /  0x14cf (0x000a)  : Uncle Dusty Halfyard [aka] arm
+0x013a  /  0x14da (0x000e)  : Great Aunt Halfyard [aka] Auntie Aunty Aggie
+0x013b  /  0x14e9 (0x0004)  : Boney Spratt
+0x013c  /  0x14ee (0x0004)  : Gnat Tackhammer
+0x013d  /  0x14f3 (0x0004)  : Mrs Tackhammer
+0x013e  /  0x14f8 (0x0004)  : Millie Watts
+0x013f  /  0x14fd (0x0008)  : Seamus Sosmall [aka] leprechaun
+0x0140  /  0x1506 (0x0007)  : the Hermit [aka] hermit
+0x0141  /  0x150e (0x0004)  : Mistress Spratt
+0x0142  /  0x1513 (0x0004)  : Jasper Quickbuck
+0x0145  /  0x1519 (0x000a)  : Silas Crawley [aka] creepy creepie
+0x0146  /  0x1524 (0x0002)  : surveyor
+0x0147  /  0x1527 (0x0008)  : Mrs Underlay [aka] housekeeper
+0x0148  /  0x1530 (0x0004)  : travelling salesgnome
+0x0149  /  0x1535 (0x0008)  : Armillaria Budblast [aka] gardener
+0x014f  /  0x153f (0x000a)  : Flopsy [aka] dog Mutt hound
+0x0150  /  0x154a (0x0008)  : rook [aka] bird crow
+0x0151  /  0x1553 (0x0004)  : watch chickens
+0x0152  /  0x1558 (0x0016)  : mad gorilla [aka] ape orang-outang monkey suit costume baboon Rollo Butterpat
+0x017c  /  0x1570 (0x000c)  : groceries [aka] provisions food brown bag
+0x017d  /  0x157d (0x000a)  : invitation [aka] eviction gnote note
+0x017e  /  0x1588 (0x0002)  : petition
+0x017f  /  0x158b (0x0004)  : short ladder
+0x0180  /  0x1590 (0x0011)  : mug of scrumpy [aka] special brew booze vile liquid
+0x019a  /  0x15a3 (0x0002)  : bed
+0x019b  /  0x15a6 (0x000a)  : brier patch [aka] brambles briers
+0x019c  /  0x15b1 (0x0006)  : bush [aka] bushes
+0x019d  /  0x15b8 (0x0004)  : long ladder
+0x019e  /  0x15bd (0x0006)  : gnotice [aka] notice
+0x019f  /  0x15c4 (0x0006)  : gnotice [aka] notice
+0x01a0  /  0x15cb (0x0005)  : pile of sacks
+0x01a1  /  0x15d1 (0x0006)  : gnotice [aka] notice
+0x01a2  /  0x15d8 (0x0008)  : wardrobe [aka] cupboard closet
+0x01a3  /  0x15e1 (0x0008)  : wardrobe [aka] cupboard closet
+0x01a4  /  0x15ea (0x0002)  : window
+0x01a5  /  0x15ed (0x0002)  : window
+0x01a6  /  0x15f0 (0x0008)  : bellrope [aka] rope bell
+0x01a7  /  0x15f9 (0x0002)  : flowerbeds
+0x01b8  /  0x15fd (0x0004)  : fishing boat
+0x01b9  /  0x1602 (0x000a)  : broken carriage [aka] dogless cart
+0x01ba  /  0x160d (0x0008)  : dogless carriage [aka] cart
+0x01c2  /  0x1617 (0x0002)  : cottage
+0x01c3  /  0x161a (0x000c)  : Inn [aka] Green Gnome pub tavern
+0x01c4  /  0x1627 (0x0004)  : hermit's molehill
+0x01c5  /  0x162c (0x000c)  : village hall [aka] town townhall villagehall
+0x01c8  /  0x163a (0x0008)  : barn [aka] shack shed
+0x01c9  /  0x1643 (0x0004)  : Dribblemouth Lighthouse
+0x01ca  /  0x1648 (0x000a)  : rabbit warren [aka] burrow hole
+0x01cb  /  0x1653 (0x0008)  : Gnettlefield farm [aka] farmhouse
+0x01cc  /  0x165c (0x0006)  : mill [aka] windmill
+0x01cd  /  0x1663 (0x0002)  : Bridge
+0x01ce  /  0x1666 (0x0002)  : Bridge
+0x01cf  /  0x1669 (0x000a)  : River [aka] Dribble stream water
+0x01d0  /  0x1674 (0x000a)  : River [aka] Dribble stream water
+0x01d1  /  0x167f (0x000a)  : River [aka] Dribble stream water
+0x01d2  /  0x168a (0x0006)  : farm [aka] farmhouse
+0x01d3  /  0x1691 (0x0002)  : Dunrollin
+0x01d4  /  0x1694 (0x0002)  : Dunrollin
+0x01d5  /  0x1697 (0x0004)  : Ferry Cottage
+0x01d6  /  0x169c (0x0008)  : Ridley's End [aka] Manor
+0x01d7  /  0x16a5 (0x0002)  : bar
+0x01d8  /  0x16a8 (0x000c)  : beer [aka] booze beer ale scrumpy
+0x01d9  /  0x16b5 (0x0006)  : glasses [aka] drinks
+0x01e0  /  0x16bd (0x000a)  : groceries shop [aka] grocers greengrocers
+0x01e1  /  0x16c8 (0x0008)  : smithy [aka] forge blacksmiths
+0x01f4  /  0x16d2 (0x0004)  : mouldy turnips
+0x01f5  /  0x16d7 (0x0002)  : carrots
+0x01f6  /  0x16da (0x0004)  : rotten beetroots
+0x01f7  /  0x16df (0x0006)  : King Edward potatoes
+0x01f8  /  0x16e6 (0x0002)  : radishes
+0x01f9  /  0x16e9 (0x0004)  : spring onions
+0x01fa  /  0x16ee (0x0002)  : leeks
+0x01fb  /  0x16f1 (0x0002)  : swedes
+0x01fc  /  0x16f4 (0x000f)  : spanish onions (which made her eyes water)
+0x01fd  /  0x1704 (0x0004)  : smelly parsnips
+0x0212  /  0x170a (0x0002)  : rainbird
+0x0213  /  0x170d (0x000a)  : breadcrumbs [aka] marsbars stuffing paxo
+0x0216  /  0x1719 (0x0006)  : everything all every
+0x0217  /  0x1720 (0x0002)  : ingredients
+0x0219  /  0x1724 (0x0008)  : people [aka] everyone everybody
+0x021b  /  0x172e (0x0002)  : door
+0x021d  /  0x1732 (0x0012)  : plants [aka] weeds flowers daisy bean husk grass soil
+0x021e  /  0x1745 (0x0002)  : be
+0x021f  /  0x1748 (0x0008)  : room [aka] ground floor
+0x0220  /  0x1751 (0x0006)  : wall [aka] walls
+0x0221  /  0x1758 (0x0008)  : sky [aka] sun moon
+0x0223  /  0x1762 (0x0004)  : except but
+0x0224  /  0x1767 (0x0010)  : it [aka] that them those none him her
+0x0225  /  0x1778 (0x0004)  : minute minutes
+0x0227  /  0x177e (0x0004)  : then gnext
+0x0228  /  0x1783 (0x0004)  : therefore so
+0x0229  /  0x1788 (0x0006)  : Ingrid [aka] you
+0x0230  /  0x1790 (0x0001)  : it
+0x0231  /  0x1792 (0x0001)  : it
+0x0232  /  0x1794 (0x0001)  : some
+0x0233  /  0x1796 (0x0001)  : he
+0x0234  /  0x1798 (0x0001)  : she
+0x0235  /  0x179a (0x0001)  : they
+0x0236  /  0x179c (0x0001)  : Ingrid
+0x0237  /  0x179e (0x0001)  : he
+0x0238  /  0x17a0 (0x0001)  : she
+0x023a  /  0x17a3 (0x0001)  : it
+0x023b  /  0x17a5 (0x0001)  : it
+0x023c  /  0x17a7 (0x0001)  : them
+0x023d  /  0x17a9 (0x0001)  : him
+0x023e  /  0x17ab (0x0001)  : her
+0x023f  /  0x17ad (0x0001)  : them
+0x0240  /  0x17af (0x0001)  : Ingrid
+0x0241  /  0x17b1 (0x0001)  : him
+0x0242  /  0x17b3 (0x0001)  : her
+0x0243  /  0x17b5 (0x0002)  : ~
+0x0244  /  0x17b8 (0x0002)  : s
+0x0245  /  0x17bb (0x0002)  : es
+0x0246  /  0x17be (0x0001)  : is
+0x0249  /  0x17c1 (0x0004)  : from the south
+0x024a  /  0x17c6 (0x0004)  : from the southwest
+0x024b  /  0x17cb (0x0004)  : from the west
+0x024c  /  0x17d0 (0x0004)  : from the gnorth
+0x024d  /  0x17d5 (0x0004)  : from the gnorthwest
+0x024e  /  0x17da (0x0004)  : from the gnortheast
+0x024f  /  0x17df (0x0004)  : from the east
+0x0250  /  0x17e4 (0x0004)  : from the southeast
+0x0251  /  0x17e9 (0x0003)  : from below
+0x0252  /  0x17ed (0x0003)  : from above
+0x0253  /  0x17f1 (0x0003)  : from outside
+0x0254  /  0x17f5 (0x0002)  : from inside
+0x0255  /  0x17f8 (0x0005)  : from across the way
+0x0256  /  0x17fe (0x0003)  : by climbing
+0x0257  /  0x1802 (0x0004)  : with a jump
+0x0259  /  0x1808 (0x0030)  : incorrigible, indefatigable and in the Dribble Valley. And if it hadn't been uphill all the way out, more gnomes might have gone to stay with distant relatives until she left again
+0x025a  /  0x1839 (0x0027)  : Ingrid's mother. She took great pride in giving her family three solid meals a day, and her loaves and rock cakes were legendary
+0x025b  /  0x1861 (0x0030)  : Ingrid's father and master of Gnettlefield Farm. His was a very Earthy body - that is, he was just slightly bigger round his Equator than he was from Gnorth to South
+0x025c  /  0x1892 (0x0039)  : Ingrid's brother, and the family rabbit-herd. He couldn't decide if he was keeping rabbits for their meat, milk or fur, but it didn't matter anyway because the rabbits wouldn't let him have any of them
+0x025d  /  0x18cc (0x001e)  : Ingrid's second brother. He claimed to be keen on fishing, but had gnever caught more than a cold
+0x025e  /  0x18eb (0x002a)  : Ingrid's other brother. For all that Ingrid might say, he wasn't completely useless. In fact, he came in right handy for propping doors open
+0x025f  /  0x1916 (0x0026)  : getting on a bit, wizened and frail. But Flopsy loved him. She would rather play with him than with her rubber ball any day
+0x0260  /  0x193d (0x0012)  : Arback's younger brother, that lived down at Dunrollin in the Dunes
+0x0261  /  0x1950 (0x001d)  : landlord of the Green Gnome. Jumbo believed in the survival of the fattest and was the biggest gnome around
+0x0262  /  0x196e (0x0028)  : a big lass and a wonderful baker. But she would have gno gnonsense in her inn. Gno-one laid a hand on her buns without her say-so
+0x0263  /  0x1997 (0x0007)  : a jolly old thing
+0x0264  /  0x199f (0x004d)  : the guardian of the true Gnomish dialect. She was always telling off the younger gnomes for droppigng their G's, and her fondest wish was for the return of the Gnorsegnomes of old. She would sit for days beside the Dribble, hoping to see their "agnciegnt logngships rugngnigng ign"
+0x0265  /  0x19ee (0x0027)  : thick and brawny. But Dusty was still gnervous from the time when his old mill accidentally collapsed on top of him after Ingrid's improvements [aka] arm
+0x0266  /  0x1a16 (0x0009)  : the councillor for for the Dribble Valley
+0x0267  /  0x1a20 (0x002f)  : the local fishergnome, gnow doubling as the ferrygnome since the Dribble Bridge collapsed. He gnever did any ferrying because he was too busy fishing to feed the stranded travellers
+0x0268  /  0x1a50 (0x0024)  : the village blacksmith, and inventor of the combination safe. Unfortunately, he then locked the plans inside the prototype and forgot the combination
+0x0269  /  0x1a75 (0x000f)  : a good-looking gnomess, still the right side of eighty
+0x026a  /  0x1a85 (0x0009)  : the keeper of the Dribblemouth Light
+0x026b  /  0x1a8f (0x002e)  : a travelling leprechaun, who spent his days peddling his charms to housewives everywhere. He was very small, but very jolly and given to saying that size wasn't everything
+0x0271  /  0x1abf (0x0008)  : Jasper Quickbuck's land agent
+0x0272  /  0x1ac8 (0x001f)  : a dwarf from the Gnorth, who measured for pleasure with his pole in a hole and his theodolite on the right
+0x0273  /  0x1ae8 (0x003b)  : wearing a grease-spotted pinny, with a matching headscarf over her curlers. Being the housekeeper at Ridley's End, she knew she was better than the common herd and didn't have to dress up to prove it. So she didn't
+0x0274  /  0x1b24 (0x002f)  : stranded in Little Moaning and starting to get a bit ratty about it, on account of (a) gno-one was buying anything and (b) so would you be
+0x0275  /  0x1b54 (0x003a)  : the gardener at Ridley's End. She was devoted to her flower garden and would do anything for a better blossom. Rumour had it that she had been offered the job of head floral gardener in the proposed Gnorsegnome development
+0x027b  /  0x1b90 (0x002a)  : the best dog a gnome ever had, according to Ingrid, and a great flolloping, slobber-mouthed lummox, according to Arback and the less rude gnomes
+0x027c  /  0x1bbb (0x000f)  : a huge rattle-feathered bird, much bigger than Ingrid
+0x027d  /  0x1bcb (0x0006)  : coming fast..
+0x027e  /  0x1bd2 (0x002a)  : a big fat furry beast, jumping up and down and swinging its arms wildly. Ingrid knew immediately that it was Rollo Butterpat in a monkey suit
+0x02a8  /  0x1bfe (0x0017)  : in a big brown paper bag with "Mr. Halfyard" written on it
+0x02a9  /  0x1c16 (0x0140)  : an invitation to some sort of mid-winter party. The fancy writing and fancier words made it very hard to read, but this was the important part: 
+ 
+"Whereas under the provisions laid out in Section 97 Sub-Section 24a of the Land Registration Act Jasper Quickbuck has with due formality made claims to the land and the easements rights and privileges entailed therein of the Dribble Valley and in default of contrary representation thereto title to the aforesaid property has been granted to the above mentioned Jasper Quickbuck and gnoting that all prior claims to ownership are thereby extinguished the recipient of this missive is hereby given gnotice of termination of right of residency effective from 21st Deadembers gnext and that vacation of properties on that date shall be deemed to signify unqualified acceptance of this gnotification". 
+ 
+"I don't follow that at all", admitted Ingrid. "But as the eviction date is already past, I think that it would be a good idea to show my protest petition to all the gnomes of Little Moaning, so they can sign quickly. Then I'll take it to Great Aunt Halfyard who could present it to the council"
+0x02aa  /  0x1d5c (0x0056)  : getting very crumpled, but still read as follows: 
+ 
+"Dear Chairgnome of the Council, 
+The undermentioned residents and voters of Little Moaning have signed in protest against Squire Quickbuck's plans to demolish the village to make way for a gnew Gnorsegnome marina and landscaped mini-city of luxury maisonettes"
+0x02ab  /  0x1db4 (0x0031)  : about seven rungs long, which was ideal for carrying a gnome back from the inn. It could be climbed when on the ground; if there was anywhere to climb to, of course
+0x02ac  /  0x1de6 (0x0030)  : bubbling sullenly, as if daring someone to drink it. A few drops of scrumpy had oozed down the outside of the mug and seemed to be eating their way back in through the glaze
+0x02c6  /  0x1e18 (0x0014)  : a bit crumpled and muddy from all the vegetables that had been piled on top
+0x02c7  /  0x1e2d (0x001d)  : a tangled mass of brambles, with just about enough room for a plump gnome maid to squeeze past
+0x02c8  /  0x1e4b (0x002a)  : a privet gone wild. It was a solid mass of leaves on the outside, but with quite a lot of space between the branches at its heart
+0x02c9  /  0x1e76 (0x0018)  : a bit rickety and missing the odd rung here and there, but otherwise gnot too bad
+0x02ca  /  0x1e8f (0x0018)  : written clearly in large red letters that said, "Beware of the escaped gorilla"
+0x02cb  /  0x1ea8 (0x003f)  : an advertisement for a job at Ridley's End. It read, "Maid wanted. Top rates paid: 30 turnips per week, plus accommodation". 
+"I'd gnever work here at that salary!" Thought Ingrid
+0x02cc  /  0x1ee9 (0x003b)  : very high, very heavy and very full of flour. Uncle Dusty had obviously been busy. "Very good for him", thought Ingrid, making a mental gnote to get help, just as soon as she had finished the petition
+0x02cd  /  0x1f25 (0x000c)  : corrected to read, "Gno Ingress"
+0x02ce  /  0x1f32 (0x0002)  : closed
+0x02cf  /  0x1f35 (0x0002)  : open
+0x02d0  /  0x1f38 (0x0014)  : that of an upstairs room. It was wide open but quite high up
+0x02d1  /  0x1f4d (0x0045)  : facing south towards the coast, so that Ingrid was looking out right across to Dunrollin in the Dunes and the Dribblemouth Lighthouse, perched at the end of the Spit. From up there, Ingrid could see a bright red landing pad on the top of the lighthouse
+0x02d2  /  0x1f94 (0x0029)  : a tatty length of hemp rope with a big knot in one end. The other end disappeared up and off through a small hole in the mill door
+0x02d3  /  0x1fbe (0x0020)  : where Isfrunt grew his courting flowers. Like Isfrunt, the flowers were going to seed and easily blown over by the wind
+0x02e4  /  0x1fe0 (0x002b)  : a flat-bottomed rowing boat, with room enough for a few people to sit, though you had to watch out because it was slippery and smelly from the fish
+0x02e5  /  0x200c (0x0056)  : in a bit of a mess, though Ingrid was sure that Gnat Tackhammer could soon sort it out. He only had to bend the frame back into shape, get the kinks out of the wheels, put the seats back on (if he could find them), make some gnew pedally things and do a few other odd jobs
+0x02e6  /  0x2064 (0x002e)  : like an ordinary four-wheeled cart, but without the shafts for the dog. 
+Ingrid knew immediately that she could drive it by getting in the carriage and going in any direction
+0x02ee  /  0x2094 (0x0027)  : Great Aunt Halfyard's place at Doomladen. The gloomy setting discouraged folk from visiting, and they only usually came to moan about the Council
+0x02ef  /  0x20bc (0x001b)  : called the Green Gnome, on account of what happened to folk who drank the gnome-made scrumpy
+0x02f0  /  0x20d8 (0x0033)  : '752:just to the left of the other molehills, with lots of sage growing all around, as a sort of advert for the hermit. There seemed to be a cave in its side
+0x02f1  /  0x210c (0x0034)  : , according to Grandma Gnutson, built by the ancient Gnorsegnomes as a place to hold their rites. She said the stains on the floor were blood. Everybody else said they were raspberry jelly
+0x02f4  /  0x2142 (0x001c)  : gneglected, like everything else on Tack's Farm, as Gnat Tackhammer spent all his time down at his smithy
+0x02f5  /  0x215f (0x004d)  : a beacon of light and hope to sea-tossed gnavigators, guiding them past the wrecks and shoals of the Dribble. (At least it was when it was working, and that wasn't as often as it should have been which is why there were wrecks). There was a red landing pad on the very top
+0x02f6  /  0x21ae (0x000e)  : in a sandy bank at the top of Sandybottom Field
+0x02f7  /  0x21bd (0x004a)  : Ingrid's home. The farmhouse was on one side of an overgrown yard. On the other sides where a crumbling barn, a crumbled guinea pig sty, and a pile of rubble that could have been anything, but Ingrid knew had been a mill because she was there when it fell down
+0x02f8  /  0x2209 (0x0020)  : Dusty Halfyard's gnew mill, tucked away in a little valley, surrounded by tall trees to protect it from the wind
+0x02f9  /  0x222a (0x001a)  : the broken remnants of a bridge, sticking out a few yards from the west bank of the Dribble
+0x02fa  /  0x2245 (0x0009)  : the tattered end of a bridge
+0x02fb  /  0x224f (0x001d)  : wet and muddy. The Dribble was too wide to jump, too shallow to swim and too yukky to wade
+0x02fc  /  0x226d (0x0024)  : muddy and wet. In fact, it was very hard to tell between the slodgy river bank, and the squidgy river water
+0x02fd  /  0x2292 (0x000a)  : smooth and flat like cold gravy
+0x02fe  /  0x229d (0x002b)  : a two-storey house with a barn close by. It had been called Tackhammer's farm in the past, but folk had dropped the hammer because it was too heavy
+0x02ff  /  0x22c9 (0x0023)  : Isfrunt Garden's house by the sea. The back door opened onto a little path that led to a gneatly dug vegetable plot
+0x0300  /  0x22ed (0x0005)  : Isfrunt Garden's place
+0x0301  /  0x22f3 (0x0030)  : where Boney Spratt lived. Ingrid had heard that the cottage went with the ferrying - in which case the Spratt's ought to have been homeless seeing as there wasn't any ferrying going on
+0x0302  /  0x2324 (0x0022)  : the local Manor house, recently inherited by the mysterious Jasper Quickbuck, who had yet to show his face hereabouts
+0x0303  /  0x2347 (0x002a)  : divided in two by the big counter. It didn't leave much room for customers this side, but at least the Butterpats could both get on the other side
+0x0304  /  0x2372 (0x0031)  : "the main reason why gnothing ever got done in the Dribble Valley" (Ingrid), or "lovely stuff" (Isfrunt, Gnoah, Bumpy, Dimple, etc)
+0x0305  /  0x23a4 (0x0024)  : stacked up on every table, mute witnesses to the evils of drink. The gnot-so-mute witnesses were slumped around and under the tables
+0x030c  /  0x23ca (0x0021)  : stocked with souvenirs for the passing trade (well, stopping trade with the bridge down and the ferry gnot working)
+0x030d  /  0x23ec (0x0014)  : the size of a small barn, with doors wide enough for a carriage
+0x0323  /  0x2402 (0x0014)  : in the kitchen [aka] dishes cup tea cupboard plate egg sink
+0x0324  /  0x2417 (0x000f)  : at the top of the stairs [aka] stairway staircase steps
+0x0325  /  0x2427 (0x0005)  : in Grandma's bedroom
+0x0326  /  0x242d (0x000c)  : in the bar of the Green Gnome Inn
+0x0327  /  0x243a (0x0018)  : in the kitchen [aka] stove cooker oven frying pan food buns eggs worktop
+0x0328  /  0x2453 (0x0006)  : in the hermit's cave
+0x0329  /  0x245a (0x0006)  : in the village hall
+0x032a  /  0x2461 (0x000f)  : in Miss Farthing's grocers shop [aka] fruit food
+0x032b  /  0x2471 (0x0007)  : in Gnat Tackhammer's smithy
+0x032c  /  0x2479 (0x0004)  : in a barn
+0x032d  /  0x247e (0x0004)  : in the hallway
+0x032e  /  0x2483 (0x0004)  : in the bedroom
+0x032f  /  0x2488 (0x0005)  : in Dribblemouth Lighthouse
+0x0330  /  0x248e (0x000a)  : in a rabbit warren [aka] burrows
+0x0331  /  0x2499 (0x0009)  : in Great Aunt Halfyard's cottage
+0x0334  /  0x24a4 (0x000a)  : outside Great Aunt Halfyard's cottage
+0x0335  /  0x24af (0x0003)  : in Darkwood
+0x0336  /  0x24b3 (0x0003)  : in Darkwood
+0x0337  /  0x24b7 (0x0004)  : in a field
+0x0338  /  0x24bc (0x0005)  : on Cawing Road
+0x0339  /  0x24c2 (0x0009)  : in the yard of Gnettlefield farm
+0x033a  /  0x24cc (0x0005)  : in Soggybottom field
+0x033b  /  0x24d2 (0x000e)  : on a bright red landing pad [aka] lighthouse
+0x033c  /  0x24e1 (0x0004)  : on the track
+0x033d  /  0x24e6 (0x0008)  : in the yard [aka] feathers
+0x033e  /  0x24ef (0x0009)  : at the top of Ploughgnome Hill
+0x033f  /  0x24f9 (0x0005)  : on Ploughgnome Hill
+0x0340  /  0x24ff (0x0005)  : on Ploughgnome Lane
+0x0341  /  0x2505 (0x0006)  : in the Market Square
+0x0342  /  0x250c (0x000d)  : beside the west end of the Dribblemouth Bridge
+0x0343  /  0x251a (0x0005)  : in the River Dribble
+0x0344  /  0x2520 (0x000b)  : on the east bank of the River Dribble
+0x0345  /  0x252c (0x0005)  : on Gnomebridge Road
+0x0346  /  0x2532 (0x0003)  : in parkland
+0x0347  /  0x2536 (0x0007)  : beside the three molehills
+0x0348  /  0x253e (0x0005)  : on Hampton Road
+0x0349  /  0x2544 (0x0009)  : in the yard of Tack's farm
+0x034a  /  0x254e (0x000b)  : at the back of Dunrollin [aka] backdoor
+0x034b  /  0x255a (0x000a)  : in front of Dunrollin [aka] frontdoor
+0x034c  /  0x2565 (0x0004)  : in the dunes
+0x034d  /  0x256a (0x0012)  : beside Dribblemouth Lighthouse [aka] seaside sea shore beach coast
+0x039d  /  0x257e (0x002f)  : on the landing by the other bedrooms. She decided that they all gneeded a good clean and a tidy, but as there wasn't time to organise it then, she returned to the stairs
+0x039e  /  0x25ae (0x0006)  : in her own bedroom
+0x039f  /  0x25b5 (0x0030)  : in the main part of Gnettlefield farm. She made a gnote of all the jobs that gneeded doing, then went back to the kitchen, which was the only place where anything happened
+0x03a0  /  0x25e6 (0x0023)  : inside Halfyard's gnew mill, which was gnothing like as draughty as the old one. 
+Ingrid gnoted down a dozen improvements before leaving
+0x03a1  /  0x260a (0x002d)  : by the bar, gnibbling peanuts. Mrs Butterpat came up and whipped them away, saying "They're for paying customers!" As Ingrid wasn't paying, she went off
+0x03a2  /  0x2638 (0x0020)  : in Ferry Cottage. There was gnothing much to see, and a terrible smell of old fish, so Ingrid went back out again
+0x03a3  /  0x2659 (0x002e)  : in the manor house at Ridley's End. She had hardly got through the door when she heard footsteps gnearby and, gnot wanting to get into trouble, tip-toed heavily outside again
+0x03a4  /  0x2688 (0x0026)  : inside Dunrollin. Ingrid flicked through Isfrunt's picture books, to see if she recognised any of the gnome maids from the Institute, then left hurriedly
+0x03ac  /  0x26b0 (0x0026)  : on Cawing Road, which seemed to go on forever and wasn't getting her anywhere useful. Ingrid rubbed her sore feet and decided to turn back
+0x03ad  /  0x26d7 (0x0042)  : among the farm buildings. The guinea pigs gneeded mucking out, and there were bantam eggs to be collected. Ingrid made a mental gnote to tell Dimple and Gnoggin, just as soon as the petition was finished, and went back to the farmhouse
+0x03ae  /  0x271b (0x0020)  : in the fields around the farm. Gnettle Field was gnettley as usual, and Ingrid squelched painfully back to Soggybottom field
+0x03af  /  0x273c (0x0027)  : on Gnomebridge Road. The town was miles away to the east, and there was gnobody there that would help, so she decided to head back to the manor
+0x03b0  /  0x2764 (0x001d)  : on Hampton Road. There didn't seem to be anything in this direction for a long way, so Ingrid turned back
+0x03fc  /  0x2783 (0x0014)  : on the High Street, which led east-west past Gnat Tackhammer's smithy
+0x03fd  /  0x2798 (0x0016)  : on the High Street, which led east-west past Miss Farthing's grocery shop
+0x044f  /  0x27b0 (0x0021)  : . As usual, dirty dishes were piled up by the sink, and the kettle was boiling dry on the smoky fire
+0x0450  /  0x27d2 (0x0008)  :  leading up to the bedrooms
+0x0451  /  0x27db (0x0011)  : , decorated all over with Gnorsegnome rugnes and bright model logngships
+0x0453  /  0x27ee (0x0007)  :  of the Green Gnome
+0x0455  /  0x27f7 (0x0017)  :  of Little Moaning. Its wide doorway opened gnorth onto the Market Square
+0x0456  /  0x280f (0x000f)  : . Fresh, and gnot-so-fresh food was on display all around
+0x0458  /  0x2820 (0x001b)  :  with heaps of hay, stacks of straw, clumps of carrots and whacking mounds of mangel-wurzels
+0x0459  /  0x283c (0x0009)  : , at the base of the stairs
+0x045a  /  0x2846 (0x0020)  : , opposite the door which led downstairs. It was a comfy looking room, with a big, soft double bed
+0x045b  /  0x2867 (0x0046)  : , in the bit where it all happened. There was a big table in the middle, where the light was kept, and a bed in the corner - or what would have been the corner if the room hadn't been round. There was also a door to the outside
+0x045c  /  0x28af (0x0022)  : . It was a real maze of passages and dead ends, but that didn't bother Ingrid who had a wonderful sense of direction
+0x045d  /  0x28d2 (0x001d)  : , a cosy place, despite its gloomy exterior. Aunt Aggie knew how to look after herself
+0x0460  /  0x28f1 (0x0021)  : that was known as Doomladen. It looked it too, with its soot covered thatch and dark walls thick with sooty ivy
+0x0461  /  0x2913 (0x0008)  : , amongst the gloomy trees
+0x0462  /  0x291c (0x0011)  : , where the well-trodden path dwindled rapidly to a gnarrow track
+0x0463  /  0x292e (0x0009)  :  that made Gnettlefield's look well-tended
+0x0464  /  0x2938 (0x000b)  : , close by the Greater Cawing Rookery
+0x0465  /  0x2944 (0x0036)  : . The farmhouse stood on the gnorth side, facing the remaining farm buildings where the animals were kept. Between them, to the southeast, Ingrid could see Soggybottom Field beyond the rotten five-bar gate
+0x0466  /  0x297b (0x001b)  : , which should really have been called Soggybog, gnow it was partially flooded by her drainage ditch
+0x0467  /  0x2997 (0x0038)  :  at the top of Dribblemouth Light. There was a wonderful view from up there. Ingrid could see the whole valley, from Doomladen right across to Ridley's End. A hatch in the floor led to some stairs
+0x0468  /  0x29d0 (0x0027)  :  leading down to Dusty Halfyard's mill. It was a gnice sheltered spot here, away from the wind that had been blowing up along the lane
+0x0469  /  0x29f8 (0x001d)  :  gnext to the mill. It was still and quiet, save for the leisurely creaking of the mill sails
+0x046a  /  0x2a16 (0x0051)  : . At that point it turned into Cawing Road and carried on gnorth. But if you didn't want to go that way - and you were feeling adventurous - there was a path across the field to Darkwood in the west. Otherwise, there was always good old Gnettlefield just a step away to the east
+0x046b  /  0x2a69 (0x0010)  : , where it passed a little track to a wooded valley
+0x046c  /  0x2a7a (0x000b)  : , where it headed gnorthwest from the village
+0x046d  /  0x2a86 (0x0032)  :  of Little Moaning, between the infamous Green Gnome Inn and the Village Hall. The High Street lead east and west, and Ploughgnome Lane climbed away to the gnorthwest
+0x046e  /  0x2ab9 (0x0008)  : , outside the Ferry Cottage
+0x0470  /  0x2ac3 (0x0029)  : , with the stump of the bridge behind her. Rolling parkland stretched away along the gnorth side of the Gnomebridge road, which led to Ridley's End
+0x0471  /  0x2aed (0x0034)  : , outside Ridley's End. It was a smashing manor house, and gnicely modernised with single glazing in all the windows. It was definitely the sort of home for Ingrid's sort of gnome
+0x0472  /  0x2b22 (0x001a)  : , rolling gently gnorth from the road, towards the lumps known as Three Mole Hill
+0x0473  /  0x2b3d (0x0023)  : , where lived the hermit. The faint footpath from the park led into the entrance of a small cave in the gnearest molehill
+0x0474  /  0x2b61 (0x0023)  : by the open gateway of Tack's Farm. Opposite it, on the southern side, was the path to Dunrollin and the Dribblemouth Lighthouse
+0x0475  /  0x2b85 (0x0018)  : . There was a barn to the east, but the farmhouse itself seemed to be securely locked
+0x0476  /  0x2b9e (0x0036)  :  in the Dunes, outside the back door of Isfrunt Garden's house. The dunes were spreading from the southeast and threatening to engulf Isfrunt's back garden again, but Ingrid was gnot about to clear it for him twice
+0x0477  /  0x2bd5 (0x0027)  :  in the Dunes. There were scratch marks all around the door, where Isfrunt had had trouble opening it after a heavy gnight at the Green Gnome
+0x0478  /  0x2bfd (0x0041)  : , alongside Isfrunt's place. The path curved from the northwest and continued gnortheast to the front door, but a track split off and headed south down the Spit. Ingrid stood for a moment and enjoyed the salt air and sea views
+0x0479  /  0x2c40 (0x0004)  : on the spit
+0x0549  /  0x2c47 (0x0012)  : a bluebottle emerged from a stack of dishes and buzzed upstairs. 
+0x054a  /  0x2c5a (0x0022)  : Ingrid tutted over the scratches and scuffs all down the walls on both sides. Father would HAVE to go on a diet! 
+0x054c  /  0x2c7e (0x0015)  : 
+interesting clatterings and smells drifted in from the kitchen to the gnorth. 
+0x054d  /  0x2c94 (0x002b)  : the rich smell of buns wafted out into the room as Ingrid peeked in the oven; she had gnot realised that you could do so many things with sticklebacks. 
+0x054e  /  0x2cc0 (0x0026)  : 
+Ingrid thought she saw movements in the dark recesses of the cave, but she could find gnothing. It seemed that the hermit was avoiding her. 
+0x054f  /  0x2ce7 (0x0061)  : 
+only a little while ago, folk had been milling about waiting for the do that gnever did. Then they learned that their so-called party invitations had been gnotices to quit their homes. 
+True to their gnature, everygnome had gone to get a drink in the Green Gnome, while they still could. But Ingrid had decided to get together a protest petition. 
+0x0550  /  0x2d4a (0x0079)  : 
+"Hello, Ingrid!", called Miss Farthing. "Would you do me a favour and take them there groceries to your Uncle Dusty's mill? I'm that busy I don't have the time to do it myself". 
+"Well, I do have a lot to do..." Began Ingrid. 
+"Thanks, love. I knew you'd help. They're in yon corner", she said, pointing at a big brown bag. 
+0x0551  /  0x2dc5 (0x006a)  : 
+"I suppose you'll be after borrowing my dogless carriage", groaned Gnat. "Perhaps it could do with some testing", he sighed, "But I be going with you, to make sure you don't smash it up". 
+"Really, Mr Tackhammer, it will be safe with me", said Ingrid. 
+But despite her soothing words, Gnat still got in the carriage. 
+0x0554  /  0x2e32 (0x005a)  : 
+"Ooh, hello Ingrid, what brings you here?", asked Mrs Tackhammer, who was a bit red in the face. Ingrid was about to ask if she had got a fever, when a clattering gnoise came from the wardrobe, and Mrs Tackhammer began to cough loudly as if trying to muffle it. She smiled weakly at Ingrid. 
+0x055e  /  0x2e8f (0x0018)  : 
+the rook flew over to Ingrid and greeted her with a cool, deep-throated caw. 
+0x0561  /  0x2ea9 (0x001e)  : Ingrid thanked the rook politely and promised that she'd gnever let that awful Quickbuck chop down his trees. 
+0x0562  /  0x2ec8 (0x0046)  : oddly enough, the gnotice was positioned exactly at Ingrid's eye-level. It read "Gno Ingrids", which made her laugh at Uncle Dusty's bad spelling and correct it to "Gno Ingress". 
+A loud clucking sounded to the east. 
+0x0565  /  0x2f11 (0x001e)  : the top of a mill sail appeared briefly over the trees to the left, then sank slowly out of sight. 
+0x0566  /  0x2f30 (0x001f)  : this was the steep bit, where Ingrid had once escaped from the press gang. She'd given them what for! 
+0x0568  /  0x2f51 (0x0030)  : unfortunately, the bridge had collapsed in the middle. Since gnobody had bothered to repair it, the road from the east ended here. The River Dribble muddied along below. 
+0x056d  /  0x2f83 (0x0023)  : Ingrid contemplated hiking up to the top of the Molehill, but decided that she had taken enough exercise already and would rather go inside. 
+0x056e  /  0x2fa7 (0x001e)  : the path was scored with wheelbarrow tracks, probably where Isfrunt's friends had brought him home from the pub. 
+0x0572  /  0x2fc7 (0x0023)  : Ingrid stared south, as a seagull landed on top of the Dribblemouth Lighthouse for a quick breather before going back to its fishing. 
+0x0573  /  0x2feb (0x002a)  : Ingrid walked right round the lighthouse and came back to the path. She scratched her head. Most odd! There was gno way in at ground level. 
+0x0640  /  0x3018 (0x0003)  : Ingrid could see
+0x0641  /  0x301c (0x0006)  : on [aka] onto
+0x0642  /  0x3023 (0x0008)  : undergneath [aka] below under
+0x0643  /  0x302c (0x0002)  : behind
+0x0646  /  0x3030 (0x0005)  : in [aka] at
+0x0647  /  0x3036 (0x0008)  : in [aka] into inside
+0x064c  /  0x3040 (0x0003)  : lying on
+0x064d  /  0x3044 (0x0003)  : sitting on
+0x0650  /  0x3049 (0x0006)  : with [aka] using
+0x0651  /  0x3050 (0x0002)  : from
+0x0669  /  0x3054 (0x0001)  : was
+0x066a  /  0x3056 (0x0001)  : was
+0x066b  /  0x3058 (0x0001)  : was
+0x066c  /  0x305a (0x0003)  : was carrying
+0x066d  /  0x305e (0x0003)  : was wearing
+0x066f  /  0x3063 (0x0001)  : was
+0x0677  /  0x3066 (0x0004)  : was lying on
+0x0687  /  0x306c (0x0001)  : were
+0x0688  /  0x306e (0x0001)  : were
+0x0689  /  0x3070 (0x0001)  : were
+0x068a  /  0x3072 (0x0003)  : was carrying
+0x068b  /  0x3076 (0x0003)  : was wearing
+0x068d  /  0x307b (0x0001)  : were
+0x068e  /  0x307d (0x0001)  : were
+0x068f  /  0x307f (0x0001)  : were
+0x0695  /  0x3082 (0x0004)  : was lying on
+0x06b3  /  0x3088 (0x0003)  : tied to
+0x06cd  /  0x308d (0x0002)  : was on
+0x06d0  /  0x3091 (0x0002)  : owned
+0x06d1  /  0x3094 (0x0003)  : was wearing
+0x06d3  /  0x3099 (0x0002)  : was in
+0x06d8  /  0x309d (0x0004)  : was lying on
+0x06d9  /  0x30a2 (0x0004)  : was sitting on
+0x06db  /  0x30a8 (0x0004)  : was lying on
+0x06eb  /  0x30ae (0x0002)  : were on
+0x06ee  /  0x30b2 (0x0002)  : owned
+0x06ef  /  0x30b5 (0x0003)  : were wearing
+0x06f1  /  0x30ba (0x0002)  : were in
+0x06f6  /  0x30be (0x0004)  : were lying on
+0x06f7  /  0x30c3 (0x0004)  : were sitting on
+0x0708  /  0x30c9 (0x0002)  : off
+0x0709  /  0x30cc (0x0002)  : up
+0x070a  /  0x30cf (0x0002)  : down
+0x070b  /  0x30d2 (0x0002)  : to
+0x070c  /  0x30d5 (0x0002)  : out
+0x070d  /  0x30d8 (0x0004)  : from the 
+0x070e  /  0x30dd (0x0002)  : for
+0x070f  /  0x30e0 (0x0002)  : until
+0x0710  /  0x30e3 (0x0002)  : debug
+0x0711  /  0x30e6 (0x0002)  : through
+0x0712  /  0x30e9 (0x0002)  : about
+0x07d0  /  0x30ee (0x0008)  : you don't gneed to use "
+0x07d1  /  0x30f7 (0x0008)  : " to finish this part
+0x07d3  /  0x3101 (0x0008)  : I don't understand the word "
+0x07d4  /  0x310a (0x0007)  : " when used like that
+0x07d6  /  0x3113 (0x0003)  : Ingrid was 
+0x07d7  /  0x3117 (0x0003)  : in a 
+0x07d8  /  0x311b (0x0003)  : in an 
+0x07d9  /  0x311f (0x0008)  : exits led in all directions
+0x07da  /  0x3128 (0x0008)  : I don't understand what you mean
+0x07db  /  0x3131 (0x0004)  : Ingrid couldn't see
+0x07dc  /  0x3136 (0x0003)  : Ingrid didn't have
+0x07dd  /  0x313a (0x0004)  : Ingrid already had
+0x07de  /  0x313f (0x001e)  : ('Scuse I, squire, but I really haven't a clue as to what you are drivelling on about)
+0x07df  /  0x315e (0x0006)  : it's too far away
+0x07e0  /  0x3165 (0x000b)  : I can't find a verb in that sentence
+0x07e1  /  0x3171 (0x0004)  : it's gnot there
+0x07e2  /  0x3176 (0x000b)  : there were too many gnouns in that sentence
+0x07e3  /  0x3182 (0x0006)  : Ingrid couldn't see that here
+0x07e4  /  0x3189 (0x0007)  : Ingrid owned gnothing at all. 
+0x07e5  /  0x3191 (0x000a)  : it was dark, Ingrid could gnot see. 
+0x07f4  /  0x319d (0x000c)  : sorry, I don't fully understand that verb
+0x07f5  /  0x31aa (0x000b)  : there didn't seem to be anything suitable. 
+0x07f6  /  0x31b6 (0x000c)  : said, "That was a rhetorical question"
+0x07f7  /  0x31c3 (0x0006)  : what a mouthful! 
+0x07fc  /  0x31cb (0x0004)  : couldn't have 
+0x07fe  /  0x31d1 (0x0001)  : that
+0x07ff  /  0x31d3 (0x0001)  : here
+0x0800  /  0x31d5 (0x0005)  : Ingrid couldn't find 
+0x0805  /  0x31dc (0x0008)  : it's gnot clear to what 
+0x0806  /  0x31e5 (0x0004)  :  is referring
+0x080c  /  0x31eb (0x000b)  : are you talking to yourself again? 
+0x080d  /  0x31f7 (0x000c)  : Ingrid could only talk to one person at a time
+0x0834  /  0x3205 (0x001b)  : Welcome to Ingrid's Back!, copyright (C) 1988 from Level 9 Computing. 
+0x0840  /  0x3222 (0x000a)  : it looked exactly as Ingrid had expected. 
+0x0842  /  0x322e (0x0006)  : Ingrid couldn't go that way
+0x0843  /  0x3235 (0x0003)  : through the door
+0x0845  /  0x323a (0x0006)  : it's already open
+0x084b  /  0x3242 (0x0006)  : Ingrid couldn't put 
+0x084c  /  0x3249 (0x0001)  : there
+0x084e  /  0x324c (0x0009)  : Ingrid would have to drop it first
+0x0850  /  0x3257 (0x002d)  : 
+Did you know that you can go quickly to a far off place? Eg "Run to Gnettlefield" or "Go to Inn".
+
+0x0852  /  0x3286 (0x0009)  : I can't find a reference to "
+0x0853  /  0x3290 (0x0006)  : Ingrid was on it! 
+0x0854  /  0x3297 (0x0003)  : what? 
+0x0855  /  0x329b (0x000a)  : Ingrid did gnot know where to look. 
+0x0856  /  0x32a6 (0x0005)  : Ingrid was wearing 
+0x0857  /  0x32ac (0x000c)  : please try again, saying what with? 
+0x0858  /  0x32b9 (0x0004)  : which one? 
+0x0859  /  0x32be (0x0004)  : at what? 
+0x085b  /  0x32c4 (0x0003)  : was full
+0x085c  /  0x32c8 (0x0003)  : " here
+0x085e  /  0x32cd (0x0006)  : Ingrid couldn't wear 
+0x0863  /  0x32d5 (0x0007)  : Ingrid was already wearing that
+0x0864  /  0x32dd (0x000a)  : Ingrid found she didn't gneed to do that
+0x0868  /  0x32e9 (0x0002)  : worn
+0x0869  /  0x32ec (0x0002)  : OK
+0x086b  /  0x32f0 (0x0004)  : time passed. 
+0x086c  /  0x32f5 (0x0001)  : said
+0x086e  /  0x32f8 (0x000c)  : Ingrid realised she would have to untie it first
+0x0870  /  0x3306 (0x000b)  : YES or GNO please.
+
+0x087c  /  0x3313 (0x000b)  : you didn't mention anygnome who wants it
+0x0898  /  0x3320 (0x0006)  : really restart? 
+0x089a  /  0x3328 (0x0006)  : really restore? 
+0x089b  /  0x332f (0x000b)  : 
+ 
+did Ingrid continue? 
+0x089c  /  0x333b (0x0007)  : said, "Thank you"
+0x08a1  /  0x3344 (0x0024)  : 
+ 
+the adventure had come to an end. 
+Please type RESTART, OOPS, RESTORE or RAM RESTORE: 
+0x08a2  /  0x3369 (0x0008)  : the room was badly damaged
+0x08a3  /  0x3372 (0x001c)  : Ingrid looked around and decided it wasn't worth the effort. She had smashed up the place a treat last time
+0x08a4  /  0x338f (0x000a)  : really! You're so destructive!
+0x08a5  /  0x339a (0x000e)  : it looks as though the Gnorsegnomes have been at work here
+0x08a7  /  0x33aa (0x0008)  : that's too long to wait
+0x08a8  /  0x33b3 (0x000e)  : try eg Wait for Isfrunt or Wait 3
+0x08c0  /  0x33c3 (0x0006)  : 
+Ingrid scored 
+0x08c1  /  0x33ca (0x0010)  : 
+ 
+you seem to have got Ingrid killed.
+
+0x08c2  /  0x33db (0x0008)  :  out of 300 and was 
+0x08c3  /  0x33e4 (0x0002)  : -
+0x08c9  /  0x33e8 (0x0004)  : doing awful
+0x08ca  /  0x33ed (0x0013)  : a pretty useless little gnome (well, gnot very pretty)
+0x08cb  /  0x3401 (0x0005)  : way below average
+0x08cc  /  0x3407 (0x0005)  : just below average
+0x08cd  /  0x340d (0x0008)  : an average sort of gnome
+0x08ce  /  0x3416 (0x0007)  : getting better all the time
+0x08cf  /  0x341e (0x0004)  : above average
+0x08d0  /  0x3423 (0x0007)  : doing very well indeed
+0x08d1  /  0x342b (0x0007)  : a clever little gnome
+0x08d2  /  0x3433 (0x0007)  : getting pleased with herself
+0x08d3  /  0x343b (0x0004)  : smiling happily
+0x08d4  /  0x3440 (0x0003)  : very satisfied
+0x08fc  /  0x3445 (0x0012)  : oops and ram save/restore don't work in this version. 
+0x08fd  /  0x3458 (0x0013)  : 
+please insert save disc and press a key. 
+
+0x08fe  /  0x346c (0x000d)  : 
+please insert game disc.
+
+0x0904  /  0x347b (0x0010)  : I can't use OOPS to go back further than this. 
+0x0905  /  0x348c (0x002f)  : 
+(This version allows you to use RAM SAVE and RAM RESTORE to save a position in memory, and OOPS to take back bad moves).
+
+0x0906  /  0x34bc (0x001e)  : I can't find that saved position in memory. Perhaps you've restarted the game, since it was saved. 
+0x0907  /  0x34db (0x0026)  : 
+ 
+Ingrid is about to start another part of the game. Do you want to save her position first, just in case? 
+0x0908  /  0x3502 (0x000d)  : that data was gnot saved from Ingrid's Back. 
+0x0909  /  0x3510 (0x000d)  : play the game tape to load part 
+0x090a  /  0x351e (0x001d)  : 
+ 
+Ingrid is about to start another part of the game. Do you want to go ahead? 
+0x090f  /  0x353d (0x001b)  : you've started in the middle of the game. Please restore a position saved from this part. 
+0x0961  /  0x355a (0x0007)  : gnow that's just daft
+0x0964  /  0x3563 (0x0008)  : Ingrid could smell gnothing of interest
+0x0965  /  0x356c (0x000a)  : Ingrid found gnothing much to write about
+0x0966  /  0x3577 (0x0005)  : Ingrid smelled gnomishly
+0x0967  /  0x357d (0x0004)  : Ingrid said hello
+0x0970  /  0x3583 (0x000e)  : to be, or gnot to be, that is the question
+0x09c4  /  0x3593 (0x0009)  : the door was high out of reach
+0x09c5  /  0x359d (0x000a)  : the lighthouse was too slippery to climb
+0x09c9  /  0x35a9 (0x0007)  : climbed down from the rook
+0x09cb  /  0x35b2 (0x0011)  : the rook took to the air and flew quickly to its destination
+0x09cc  /  0x35c4 (0x0008)  : the rook landed beside Ingrid
+0x09cd  /  0x35cd (0x0024)  : "On second thoughts", said the rook, "That doesn't seem like the kind of place a rook ought to go"
+0x09ce  /  0x35f2 (0x000d)  : Millie lowered the ladder out of the door and 
+0x09cf  /  0x3600 (0x000f)  : climbed down. The ladder was promptly raised again afterwards
+0x09d0  /  0x3610 (0x0007)  : got out of the boat. 
+0x09d1  /  0x3618 (0x000a)  : the river was too deep to cross
+0x09d2  /  0x3623 (0x0005)  : got in the boat
+0x09d3  /  0x3629 (0x0006)  : got out of the carriage. 
+0x09d4  /  0x3630 (0x0008)  : the boat was in the river
+0x09d5  /  0x3639 (0x0003)  : Flopsy followed
+0x09d8  /  0x363e (0x000e)  : 
+The carriage trundled downhill. Gnat looked concerned
+0x09d9  /  0x364d (0x0013)  : 
+The carriage began to pick up speed. Gnat began to look worried
+0x09da  /  0x3661 (0x0019)  : 
+The carriage sped down the lane. Gnat began to sweat and urged Ingrid to slow down
+0x09db  /  0x367b (0x0026)  : 
+The carriage was moving very fast. "I can't bear to watch!", screamed Gnat, covering his eyes with his hands
+0x09e2  /  0x36a3 (0x000c)  : slammed the brakes on to slow the carriage down
+0x09e3  /  0x36b0 (0x000d)  : 
+it was hard work pushing the carriage uphill
+0x09e4  /  0x36be (0x0034)  : the carriage trundled over the edge of the bridge and fell into the river with a loud splash. Ingrid thought it best to say gnothing, and just helped drag the carriage back to the west bank
+0x09e5  /  0x36f3 (0x000c)  : the carriage trundled to a stop on the brink
+0x09e6  /  0x3700 (0x0054)  : the carriage sped over the edge of the bridge, flew across the gap and landed gracefully on the far bank. Ingrid thought it looked only a little damaged. She waved cheerily to Gnat, who had leapt out half-way and landed head first in the river, as he waded angrily to the west bank
+0x09e7  /  0x3756 (0x0045)  : the carriage sped over the edge of the bridge and flew into the air before landing with a crunch on the far bank. But Gnat was thrown clear, twirling over and landing head first in the Dribble. He spluttered to his feet and waded angrily back
+0x09f1  /  0x379e (0x0004)  : knocked merrily
+0x09f2  /  0x37a3 (0x000b)  : the door appeared to be locked from the inside
+0x09f3  /  0x37af (0x002e)  : the door opened a crack. Ingrid gnoticed that flour sacks were piled up against the other side of the door, so it couldn't be opened. Then the door slammed shut again
+0x09f4  /  0x37de (0x0007)  : the door was out of reach
+0x09f6  /  0x37e7 (0x000b)  : said, "I've already signed the petition"
+0x09f7  /  0x37f3 (0x000d)  : the door was too damp and spongy to knock on
+0x09f9  /  0x3802 (0x0036)  : Isfrunt Garden ran out of the back door and was stopped by Ingrid. "Aaaah! I give up", he whimpered, collapsing into a heap. Ingrid hauled him up and pushed the petition into his hand
+0x09fa  /  0x3839 (0x0068)  : thudded loudly on the front door and said, "Come on out, Isfrunt! It's only little me!" 
+ 
+Isfrunt Garden tried to sneak out of the back door, but Flopsy picked him up and carried him back to Ingrid. Then she trotted round to the back door in case he tried to escape again. 
+ 
+As Isfrunt spluttered abjectly, Ingrid forced the petition into his hand
+0x09fb  /  0x38a3 (0x0036)  : thumped her fist loudly on the front door and waited. 
+ 
+Ingrid heard the back door creak open. She looked around the corner of the cottage and gnoticed Isfrunt Garden tip-toeing off into the distance
+0x09fc  /  0x38da (0x0019)  : 
+he ran back into the house to take cover, locking the door securely behind him
+0x09ff  /  0x38f5 (0x003d)  : the mill door creaked open just enough for Dusty Halfyard to peek out. "Go away!", he shouted on seeing Ingrid. Obviously he didn't recognise his own dear gniece, she thought, as Dusty slammed the door firmly shut
+0x0a00  /  0x3933 (0x0008)  : footsteps approached the door from inside
+0x0a01  /  0x393c (0x0027)  : the door opened a crack and Dusty Halfyard peered out gnervously to find gnognome waiting. "Pesky kids", he muttered and closed the door again
+0x0a02  /  0x3964 (0x0036)  : Dusty Halfyard peered out through a gap in the door. "Ah", he said, "My groceries have come". 
+He moved the sacks from behind the door and went outside to pick them up
+0x0a03  /  0x399b (0x001a)  : Dusty picked his groceries up and went back inside the mill. He piled the sacks back up against the door
+0x0a04  /  0x39b6 (0x0057)  : "Arrrgh!", shouted Dusty in surprise as he suddenly saw Ingrid behind him. He leapt back with the shock and his sacks of flour collapsed on top of him, filling the yard with a great white cloud. When the flour cleared, all that could be seen was a single arm, waving angrily from the sacks
+0x0a05  /  0x3a0f (0x0005)  : ding, dong
+0x0a06  /  0x3a15 (0x0012)  : 
+the chickens attacked Ingrid and chased her back to the mill track
+0x0a07  /  0x3a28 (0x001d)  : frantic clucking gnoises came from the mill as Flopsy chased the chickens away in a cloud of dust and feathers
+0x0a08  /  0x3a46 (0x0006)  : it was out of reach
+0x0a0b  /  0x3a4e (0x0008)  : paddled the boat to the 
+0x0a0c  /  0x3a57 (0x0008)  : paddled the boat from the 
+0x0a0d  /  0x3a60 (0x0005)  : drove the carriage 
+0x0a0e  /  0x3a66 (0x0007)  : drove the carriage from the 
+0x0a14  /  0x3a6f (0x000a)  : since it was chock full of 
+0x0a15  /  0x3a7a (0x0009)  : , Ingrid decided to go back out again
+0x0a19  /  0x3a85 (0x000a)  : the window was high out of reach
+0x0a1a  /  0x3a90 (0x000d)  : climbed up the ladder and went in through the window
+0x0a1b  /  0x3a9e (0x0063)  : inside it she found Seamus Sosmall holding his breath and looking a bit surprised to see her. "Oh, err, top o' the morning to you, Ingrid", he began, "Sure and didn't one of my teleport spells go wrong and, begorrah!, here I am and there you are and somewhere's else is where I should be!" He grinned gnervously
+0x0a1e  /  0x3b04 (0x0045)  : "I'm too fed up to sign your petition", grumbled Boney Spratt. "I haven't caught a decent fish all day", he muttered, "And my fishing boat's being on the wrong side of the river doesn't help gnone, gneither"
+0x0a1f  /  0x3b4b (0x003b)  : 
+"Hello there Ingrid", cried Boney Spratt happily, "That were right grand of you to bring my fishing boat across the Dribble. If there's owt I can do for you by return, just ask"
+0x0a20  /  0x3b87 (0x001b)  : 
+the gorilla beat its chest angrily and roared in a fierce, but seemingly familiar voice
+0x0a21  /  0x3ba3 (0x003e)  : 
+the gorilla plunged into the brier patch after Ingrid, until its fur was so caught up on the thorns that it could move gno further. 
+"That'll teach Rollo gnot to play tricks on me", thought Ingrid
+0x0a22  /  0x3be2 (0x0012)  : 
+the gorilla chased Ingrid, pounding its fists on its stomach
+0x0a23  /  0x3bf5 (0x0017)  : the gorilla jumped in front of Ingrid and growled a muffled growl through clenched teeth
+0x0a28  /  0x3c0e (0x006a)  : "Hmmm", began Great Aunt Halfyard, "This petition looks just about complete. I'll take it with me to the council meeting gnext week and see what they have to say about it." 
+ 
+The sun began to set as Ingrid strolled towards the Green Gnome. She had won the first stage in her battle against Jasper Quickbuck, and intended to celebrate in style
+0x0a29  /  0x3c7a (0x0030)  : "I'm glad to see that somebody's doing something about that Jasper Whassisname", she said, "and when you've got enough signatures, then I'll present your petition to the council"
+0x0a32  /  0x3cac (0x0006)  : couldn't sign the petition
+0x0a33  /  0x3cb3 (0x0008)  : said, "Sign what?"
+0x0a3c  /  0x3cbd (0x000b)  : returned again, looking rather fed up
+0x0a3d  /  0x3cc9 (0x0023)  : knocked on the door and waited. A few creaking gnoises came from the bedroom window above, but still gnobody answered the door
+0x0a3e  /  0x3ced (0x000c)  : thumped loudly on the door of Ferry Cottage
+0x0a46  /  0x3cfb (0x0006)  : booted the door impatiently
+0x0a8d  /  0x3d03 (0x0003)  : Ingrid Bottomlow
+0x0a8e  /  0x3d07 (0x0004)  : Gnora Bottomlow
+0x0a8f  /  0x3d0c (0x0004)  : Gnoah Bottomlow
+0x0a90  /  0x3d11 (0x0004)  : Bumpy Bottomlow
+0x0a91  /  0x3d16 (0x0004)  : Dimple Bottomlow
+0x0a92  /  0x3d1b (0x0004)  : Gnoggin Bottomlow
+0x0a93  /  0x3d20 (0x0004)  : Arback Garden
+0x0a94  /  0x3d25 (0x0003)  : Isfrunt Garden
+0x0a95  /  0x3d29 (0x0004)  : Jumbo Butterpat
+0x0a96  /  0x3d2e (0x0004)  : Flora Butterpat
+0x0a97  /  0x3d33 (0x0004)  : Miss Farthing
+0x0a98  /  0x3d38 (0x0004)  : Grandma Gnutson
+0x0a99  /  0x3d3d (0x0003)  : Dusty Halfyard
+0x0a9a  /  0x3d41 (0x0006)  : Great Aunt Halfyard
+0x0a9b  /  0x3d48 (0x0004)  : Boney Spratt
+0x0a9c  /  0x3d4d (0x0003)  : Gnat Tackhammer
+0x0a9d  /  0x3d51 (0x0003)  : Mrs Tackhammer
+0x0a9e  /  0x3d55 (0x0004)  : Millie Watts
+0x0a9f  /  0x3d5a (0x0004)  : Seamus Sosmall
+0x0aa0  /  0x3d5f (0x000a)  : The Hermit of Three Mole Hill
+0x0aa1  /  0x3d6a (0x0004)  : Mistress Spratt
+0x0aa5  /  0x3d70 (0x0004)  : Gnicholas Gnimby
+0x0aa6  /  0x3d75 (0x0005)  : D. Mollish
+0x0aa7  /  0x3d7b (0x0004)  : Micky Mouse
+0x0aa8  /  0x3d80 (0x0004)  : Desperate Dan
+0x0aa9  /  0x3d85 (0x0004)  : Rose Garden
+0x0ab4  /  0x3d8b (0x000b)  : 
+ 
+The petition bore gno signatures
+0x0ab5  /  0x3d97 (0x000e)  : 
+ 
+The following signatures were on the petition: 
+0x0ab6  /  0x3da6 (0x0012)  : 
+ 
+The following gnomes had GNOT yet signed the petition: 
+0x0ab7  /  0x3db9 (0x0009)  : 
+ 
+The petition was complete
+0x0abf  /  0x3dc4 (0x0004)  : Ingrid signed the petition
+0x0ac0  /  0x3dc9 (0x000d)  : Gnora signed the petition and then told Ingrid to go away
+0x0ac1  /  0x3dd7 (0x0007)  : Gnoah gladly signed the petition
+0x0ac2  /  0x3ddf (0x000b)  : Bumpy twitched his gnose and signed the petition
+0x0ac3  /  0x3deb (0x000a)  : Dimple was happy to sign the petition
+0x0ac4  /  0x3df6 (0x000a)  : Gnoggin Bottomlow gnodded and signed the petition
+0x0ac5  /  0x3e01 (0x0013)  : Arback Garden said, "Oh, arr!", and signed the petition
+0x0ac6  /  0x3e15 (0x0006)  : Isfrunt quickly signed the petition
+0x0ac7  /  0x3e1c (0x000c)  : Jumbo Butterpat smiled broadly and signed the petition
+0x0ac8  /  0x3e29 (0x0007)  : Flora Butterpat signed gladly
+0x0ac9  /  0x3e31 (0x000c)  : Miss Farthing was pleased to sign the petition
+0x0aca  /  0x3e3e (0x0007)  : Grandma Gnutson signed the petition
+0x0acb  /  0x3e46 (0x0033)  : Dusty Halfyard strained with his one free arm to sign the petition. Ingrid thanked him and made a mental gnote to send help to dig him out of the sacks, once her petition was finished
+0x0acc  /  0x3e7a (0x0009)  : Great Aunt Halfyard signed the petition
+0x0acd  /  0x3e84 (0x0007)  : Boney Spratt signed the petition
+0x0ace  /  0x3e8c (0x0006)  : Gnat Tackhammer signed the petition
+0x0acf  /  0x3e93 (0x000e)  : Mrs Tackhammer quickly signed the petition and asked Ingrid to leave
+0x0ad0  /  0x3ea2 (0x000c)  : Millie Watts was happy to sign the petition
+0x0ad1  /  0x3eaf (0x000d)  : Seamus Sosmall signed the petition with his shaking hand
+0x0ad3  /  0x3ebe (0x001a)  : 
+Mistress Spratt opened the door a crack, signed the petition and quickly slammed the door shut
+0x0ad7  /  0x3eda (0x0010)  : Silas laughed loudly and wrote something silly on the petition
+0x0ad8  /  0x3eeb (0x000e)  : The surveyor scribbled something on the petition and then smirked
+0x0ad9  /  0x3efa (0x000b)  : Mrs Underlay seemed to find the petition amusing
+0x0ada  /  0x3f06 (0x0009)  : The salesgnome grinned and signed the petition
+0x0adb  /  0x3f10 (0x0019)  : Armillaria wrote something on the petition. She looked suspiciously pleased with herself as she handed it back
+0x0b1b  /  0x3f2b (0x000c)  : put the mug of scrumpy by the bar
+0x0b22  /  0x3f39 (0x0013)  : looked down in excitement. Her ears waved about in the air like windsocks
+0x0b23  /  0x3f4d (0x0015)  : watched the scenery whizz by, her ears batting about madly in the air
+0x0b24  /  0x3f63 (0x0005)  : barked with excitement
+0x0b25  /  0x3f69 (0x000e)  : slid to the front of the carriage and crashed into Ingrid
+0x0b26  /  0x3f78 (0x0004)  : panted furiously
+0x0b27  /  0x3f7d (0x000d)  : shook herself, giving Ingrid a quick shower
+0x0b28  /  0x3f8b (0x000d)  : looked over to the east bank and yapped impatiently
+0x0b29  /  0x3f99 (0x0007)  : woofed, "Bark-a-bark-bark"
+0x0b2a  /  0x3fa1 (0x000b)  : gnudged Ingrid as if she were hinting something
+0x0b2b  /  0x3fad (0x001b)  : looked at Ingrid as if to say, "Well, you missed your chance to catch him there, Ingrid"
+0x0b2c  /  0x3fc9 (0x001f)  : began to lick at Dusty Halfyard. "Get that mutt away from me and I'll sign your petition!" He shouted
+0x0b2d  /  0x3fe9 (0x001f)  : looked at Seamus as if to say, "Of course we believe you, Seamus, of course we do"
+0x0b2e  /  0x4009 (0x000b)  : stood barking, with her hackles raised
+0x0b2f  /  0x4015 (0x0003)  : growled back
+0x0b30  /  0x4019 (0x0009)  : urged Ingrid to get a move on
+0x0b31  /  0x4023 (0x000c)  : looked at the petition and wagged her tail contently
+0x0b32  /  0x4030 (0x0007)  : wagged her tail frantically
+0x0b56  /  0x4039 (0x000c)  : said, "I can't. I'm baking"
+0x0b57  /  0x4046 (0x0006)  : pretended to be busy
+0x0b58  /  0x404d (0x0019)  : said, "I promised I'd go see rabbits. They'll be cross if I don't turn up"
+0x0b59  /  0x4067 (0x0007)  : said he was about to go fishing
+0x0b5a  /  0x406f (0x000b)  : said, "Stop bothering me, Ingrid"
+0x0b5b  /  0x407b (0x001c)  : said, "I'm afraid I can't help you, Ingrid. I've got that much to do on the farm"
+0x0b5c  /  0x4098 (0x0006)  : pretended to be deaf
+0x0b5d  /  0x409f (0x0011)  : said, "Sorry, but I've got my inn to run"
+0x0b5e  /  0x40b1 (0x0014)  : said, "Sorry Ingrid, but I've got a lot of cooking to do"
+0x0b5f  /  0x40c6 (0x000c)  : said she could gnever leave her shop untended
+0x0b60  /  0x40d3 (0x000a)  : carried on "hugntigng for Gnorsegnomes"
+0x0b61  /  0x40de (0x000c)  : said, "I just want to be alone"
+0x0b62  /  0x40eb (0x0012)  : said, "Sorry, but I've got the housework to do today"
+0x0b63  /  0x40fe (0x000d)  : said, "I've gno time for any work but fishing"
+0x0b64  /  0x410c (0x0005)  : gnervously ignored Ingrid
+0x0b65  /  0x4112 (0x000f)  : said, "Gno, I've taken to my bed"
+0x0b66  /  0x4122 (0x0013)  : said, "All my time is taken with looking after the lighthouse"
+0x0b67  /  0x4136 (0x001b)  : said, "Sure and I'd love to, but haven't I got all my calls to make, Ingrid"
+0x0b6d  /  0x4153 (0x0009)  : laughed and patted Ingrid on the head
+0x0b6e  /  0x415d (0x000c)  : said, "I work for Jasper, gnot you"
+0x0b6f  /  0x416a (0x000b)  : just yawned and sat down for a rest
+0x0b70  /  0x4176 (0x0012)  : said, "Push off, kid, you're scaring the customers"
+0x0b71  /  0x4189 (0x0007)  : sprayed Ingrid against greenfly
+0x0b78  /  0x4192 (0x0012)  : said, "Sorry, but I only go the way the crow flies"
+0x0b79  /  0x41a5 (0x0003)  : ignored Ingrid
+0x0b7a  /  0x41a9 (0x000a)  : beat its chest and growled menacingly
+0x0c1c  /  0x41b6 (0x0004)  : that's silly
+0x0c1d  /  0x41bb (0x000a)  : well, that's a gnovel concept
+0x0c1e  /  0x41c6 (0x000d)  : you must be gnutty if you really mean that
+0x0c1f  /  0x41d4 (0x000e)  : gnow there's a funny thing to want to do
+0x0c20  /  0x41e3 (0x0006)  : daft I call it
+0x0c26  /  0x41eb (0x0008)  : gnice try, my friend
+0x0c27  /  0x41f4 (0x0010)  : a good bash at the answer. Shame it doesn't work
+0x0c28  /  0x4205 (0x0003)  : gno chance
+0x0c29  /  0x4209 (0x0016)  : that gets a quick round of applause for trying. But it didn't do any good
+0x0c2a  /  0x4220 (0x0011)  : with ideas like that, you'll go far - but gnot yet
+0x0c30  /  0x4233 (0x000b)  : you might as well leave it alone
+0x0c31  /  0x423f (0x0009)  : I suggest that you forget about it
+0x0c32  /  0x4249 (0x0009)  : that's gnot important to the game
+0x0c33  /  0x4253 (0x0009)  : forget it. It's only scenery
+0x0c34  /  0x425d (0x0006)  : pay it gno heed
+0x0c3a  /  0x4265 (0x000e)  : gnow what was the object of that? Try again
+0x0c3b  /  0x4274 (0x000c)  : sorry, I couldn't find an object in that
+0x0c3c  /  0x4281 (0x0007)  : please be more specific
+0x0c3d  /  0x4289 (0x0012)  : I don't like to object, but I could find gno object in that command
+0x0c3e  /  0x429c (0x000a)  : do it to what? You didn't say
+0x0c44  /  0x42a8 (0x0003)  : gnothing happened
+0x0c45  /  0x42ac (0x0006)  : that didn't seem to work
+0x0c46  /  0x42b3 (0x0008)  : there had gno effect on anything
+0x0c47  /  0x42bc (0x0006)  : that was remarkably useless
+0x0c48  /  0x42c3 (0x000b)  : that did gnothing at all, I'm afraid
+0x0c4e  /  0x42d0 (0x0004)  : wouldn't move
+0x0c4f  /  0x42d5 (0x0003)  : didn't budge
+0x0c50  /  0x42d9 (0x0006)  : refused to be moved
+0x0c51  /  0x42e0 (0x0006)  : seemed fixed in place
+0x0c52  /  0x42e7 (0x0003)  : was unmoved
+0x0c58  /  0x42ec (0x0004)  : that would do gnothing
+0x0c59  /  0x42f1 (0x0008)  : that would be a waste of time
+0x0c5a  /  0x42fa (0x0005)  : that would be pointless
+0x0c5b  /  0x4300 (0x0007)  : that will get you gnowhere
+0x0c5c  /  0x4308 (0x0008)  : don't expect any results from that
+0x0c62  /  0x4312 (0x0008)  : said, "Hello, Ingrid"
+0x0c63  /  0x431b (0x0006)  : said, "Greetings"
+0x0c64  /  0x4322 (0x000d)  : said, "Hello, what brings you here?"
+0x0c65  /  0x4330 (0x0009)  : greeted her with an suspicious smile
+0x0c66  /  0x433a (0x000d)  : said, "How do you do?" Doubtfully
+0x0c6c  /  0x4349 (0x000b)  : seemed to be puzzled by something Ingrid had asked
+0x0c6d  /  0x4355 (0x000b)  : scratched thoughtfully and shook a puzzled head
+0x0c6e  /  0x4361 (0x000a)  : looked distinctly confused by Ingrid's order
+0x0c6f  /  0x436c (0x000a)  : didn't seem to understand what was wanted
+0x0c70  /  0x4377 (0x0005)  : looked blankly at Ingrid
+0x0c76  /  0x437e (0x000c)  : seemed puzzled by something Ingrid had asked concerning "
+0x0c77  /  0x438b (0x0006)  : mentioned problems with "
+0x0c78  /  0x4392 (0x0008)  : seemed to have had problems with "
+0x0c79  /  0x439b (0x0006)  : had had difficulties with "
+0x0c7a  /  0x43a2 (0x0005)  : looked mystified about "
+0x0c9e  /  0x43a9 (0x0005)  : gnodded in acknowledgement
+0x0c9f  /  0x43af (0x0004)  : gnodded slowly
+0x0ca0  /  0x43b4 (0x0004)  : gnodded obediently
+0x0ca1  /  0x43b9 (0x0002)  : agreed
+0x0ca2  /  0x43bc (0x0004)  : gnodded enthusiastically
+0x0cb2  /  0x43c2 (0x0010)  : said, "You'll have to find that out for yourself, Ingrid"
+0x0cb3  /  0x43d3 (0x0011)  : said, "You won't get gno help from me, young Ingrid"
+0x0cb4  /  0x43e5 (0x0008)  : pretended to ignore her question
+0x0cb5  /  0x43ee (0x0012)  : demurred, saying "Sorry, but I really can't say"
+0x0cb6  /  0x4401 (0x0015)  : spread sorrowful hands and said, "Ah, if only I could help.."
+0x0cc6  /  0x4418 (0x0002)  : refused
+0x0cc7  /  0x441b (0x0002)  : refused
+0x0cc8  /  0x441e (0x0002)  : refused
+0x0cc9  /  0x4421 (0x0002)  : refused
+0x0cca  /  0x4424 (0x0002)  : refused
+0x0cda  /  0x4428 (0x0003)  : looked puzzled
+0x0cdb  /  0x442c (0x0008)  : seemed confused by Ingrid's request
+0x0cdc  /  0x4435 (0x0005)  : shrugged in gnon-comprehension
+0x0cdd  /  0x443b (0x0007)  : made a questioning gnoise
+0x0cde  /  0x4443 (0x0006)  : didn't seem to understand
+0x0ce4  /  0x444b (0x000e)  : Ingrid heard some gnoises come from inside the gnearby door
+0x0ce5  /  0x445a (0x000c)  : creaking gnoises sounded behind the gnearby door
+0x0ce6  /  0x4467 (0x000b)  : Ingrid heard gnoises behind the gnearby door
+0x0ce7  /  0x4473 (0x0009)  : someone was inside the gnearby building
+0x0ce8  /  0x447d (0x000f)  : Ingrid heard footsteps on the other side of the gnearby door
+0x0cee  /  0x448e (0x003e)  : the gorilla struggled helplessly in the brambles for a while. It began to grumble angrily. 
+Ingrid smiled. "Stop struggling, Rollo, I'll soon get you free", she called. But the gorilla only struggled the more
+0x0cef  /  0x44cd (0x001d)  : the gorilla thrashed its arms about and finally broke free from the brambles, running away across the field
+0x0d2a  /  0x44ec (0x001e)  : struggled to wriggle out from under the sacks. Ingrid promised to send help as soon as she got round to it
+0x0d2b  /  0x450b (0x0021)  : waved his hand angrily in the air. 
+Ingrid said he only had himself to blame for stacking his sacks so badly
+0x0d2c  /  0x452d (0x0005)  : grumbled to himself
+0x0d2d  /  0x4533 (0x0017)  : sneezed and a small cloud of flour blew into the air from the topmost sack
+0x0d2e  /  0x454b (0x0025)  : struggled to free himself. 
+"Don't worry", said Ingrid, "I'll get help just as soon as I've got my petition all signed"
+0x0d34  /  0x4572 (0x0002)  : growled
+0x0d35  /  0x4575 (0x000c)  : waved its hairy arms about in the air
+0x0d36  /  0x4582 (0x0005)  : thumped its chest
+0x0d37  /  0x4588 (0x0004)  : looked very realistic
+0x0d38  /  0x458d (0x0005)  : jumped up and down
+0x0d3e  /  0x4594 (0x000b)  : gave Ingrid a gnervous sort of smile
+0x0d3f  /  0x45a0 (0x0004)  : looked around uneasily
+0x0d40  /  0x45a5 (0x0005)  : bit his gnails
+0x0d41  /  0x45ab (0x000a)  : toyed gnervously with his lower lip
+0x0d42  /  0x45b6 (0x0006)  : looked at Ingrid and gulped
+0x0d48  /  0x45be (0x000d)  : asked Ingrid if she felt like another holiday yet
+0x0d49  /  0x45cc (0x000f)  : muttered about Seamus Sosmall and his useless teleport spells
+0x0d4a  /  0x45dc (0x0010)  : pushed his finger into his ear and began to waggle it about
+0x0d4b  /  0x45ed (0x0013)  : saw Ingrid and tried to look thoughtful and busy. He wasn't very convincing
+0x0d4c  /  0x4601 (0x000c)  : tried to tip-toe away without being seen
+0x0d52  /  0x460f (0x0005)  : blew her gnose
+0x0d53  /  0x4615 (0x000a)  : asked Ingrid why she wasn't married yet
+0x0d54  /  0x4620 (0x0018)  : looked at Ingrid and smiled, remembering those happy but all too brief years when she was away
+0x0d55  /  0x4639 (0x000d)  : asked Ingrid if she planned another holiday this year
+0x0d56  /  0x4647 (0x0007)  : hummed a little tune
+0x0d5c  /  0x4650 (0x0008)  : stared absently at the ground
+0x0d5d  /  0x4659 (0x000b)  : looked at Ingrid and tilted its head to one side
+0x0d5e  /  0x4665 (0x0006)  : shook itself briskly
+0x0d5f  /  0x466c (0x0006)  : looked up into the sky
+0x0d60  /  0x4673 (0x0005)  : stretched and squawked
+0x0d66  /  0x467a (0x000c)  : took a good look around and studied the landscape
+0x0d67  /  0x4687 (0x000c)  : scribbled a few gnotes into a gnote pad
+0x0d68  /  0x4694 (0x000b)  : paced along, counting each step
+0x0d69  /  0x46a0 (0x000b)  : looked at the ground and stroked his chin
+0x0d6a  /  0x46ac (0x000e)  : told Ingrid to go away and mind her own business
+0x0d70  /  0x46bc (0x0006)  : practiced his long-suffering look
+0x0d71  /  0x46c3 (0x0002)  : sneezed
+0x0d72  /  0x46c6 (0x0004)  : muttered mutinously
+0x0d73  /  0x46cb (0x0004)  : hummed tunelessly
+0x0d74  /  0x46d0 (0x0009)  : pretended to have gone to sleep
+0x0d7a  /  0x46db (0x0004)  : barked playfully
+0x0d7b  /  0x46e0 (0x0007)  : wagged her tail frantically
+0x0d7c  /  0x46e8 (0x0007)  : sniffed the air inquisitively
+0x0d7d  /  0x46f0 (0x0009)  : scratched her ears with her forepaws
+0x0d7e  /  0x46fa (0x000e)  : ran around in circles, chasing her own tail
+0x0d84  /  0x470a (0x0017)  : muttered, "I'll be glad when this draughty old place has been demolished"
+0x0d85  /  0x4722 (0x000f)  : could gnot believe anygnome would live in a place like this
+0x0d86  /  0x4732 (0x0005)  : straightened her stockings
+0x0d87  /  0x4738 (0x000b)  : asked if Ingrid had considered emigrating to Gnomezealand
+0x0d88  /  0x4744 (0x0010)  : talked about how exciting the gnew housing estate would be
+0x0d8e  /  0x4756 (0x000b)  : wandered around, trying to sell suitcases
+0x0d8f  /  0x4762 (0x001a)  : tried to interest Ingrid in his samples of little concrete men, for use as garden decorations
+0x0d90  /  0x477d (0x0029)  : shouted, "Get your turnip peelers here! Only 23 turnips each!" Someone asked if he had got any that would peel more than that
+0x0d91  /  0x47a7 (0x0010)  : tried to sell some shares in the gnew Gnorsegnome project
+0x0d92  /  0x47b8 (0x000a)  : asked if Ingrid had ever tried cosmetics
+0x0d98  /  0x47c4 (0x0006)  : looked pleased to see Ingrid
+0x0d99  /  0x47cb (0x0009)  : said, "Hello there, Ingrid"
+0x0d9a  /  0x47d5 (0x000b)  : sang a snatch of an old gnome-song
+0x0d9b  /  0x47e1 (0x0005)  : said hello to Ingrid
+0x0d9c  /  0x47e7 (0x0004)  : smiled at Ingrid
+0x0dac  /  0x47ed (0x0011)  : stepped down the bar and pulled himself a pint of best
+0x0dad  /  0x47ff (0x000f)  : sang merrily as he stood there, polishing the glasses
+0x0dae  /  0x480f (0x0009)  : piled up a tray with drinks
+0x0daf  /  0x4819 (0x0010)  : emptied the ash trays by tipping them out of a window
+0x0db0  /  0x482a (0x0009)  : chatted to a few of his regulars
+0x0db6  /  0x4835 (0x0002)  : smiled
+0x0db7  /  0x4838 (0x000b)  : muttered about more wood for the fire
+0x0db8  /  0x4844 (0x000b)  : turned her back and added up the takings
+0x0db9  /  0x4850 (0x000a)  : chewed vigorously on a fish pie
+0x0dba  /  0x485b (0x0006)  : smoothed down her apron
+0x0dc0  /  0x4863 (0x000e)  : grinned lopsidedly and began to go red in the face
+0x0dc1  /  0x4872 (0x0006)  : blushed like a beetroot
+0x0dc2  /  0x4879 (0x0014)  : stressed that there was gno call to say anything about anything to Mr Tackhammer
+0x0dc3  /  0x488e (0x0006)  : muttered feeble excuses
+0x0dc4  /  0x4895 (0x0016)  : said, "Gnow you won't go telling Mr Tackhammer about this, will you?"
+0x0dca  /  0x48ad (0x0009)  : the previous command was gnot repeatable
+0x0dcb  /  0x48b7 (0x0006)  : you can't do that again
+0x0dcc  /  0x48be (0x0009)  : it wouldn't help to try that again
+0x0dcd  /  0x48c8 (0x000e)  : that was a once-only command. It doesn't do seconds
+0x0dce  /  0x48d7 (0x0010)  : oh, gnot again! I've been through that once already
+0x0de8  /  0x48e9 (0x0002)  : gnot around
+0x0e10  /  0x48ed (0x0010)  : a voice in the distance shouted about a stack overflow. 
+0x0e15  /  0x48ff (0x000f)  : sorry, Ingrid will have to find her own way from here
+0x0e1e  /  0x4910 (0x0009)  : Ingrid yelled "ARRRGGGGGHHHHH"! 
+0x0e24  /  0x491b (0x0005)  : swore back at Ingrid
+0x0e25  /  0x4921 (0x0004)  : swore loudly
+0x0e26  /  0x4926 (0x0004)  : seemed very offended
+0x0e27  /  0x492b (0x001b)  : said, "@@*!#\*&@!!, to you too"
+0x0e28  /  0x4947 (0x0009)  : gave Ingrid a mouthful in reply
+0x0e38  /  0x4952 (0x000a)  : said, "Help yourself, Ingrid"
+0x0e39  /  0x495d (0x0012)  : said, "I value my health too much for that, lass"
+0x0e3a  /  0x4970 (0x000f)  : said, "You'll get gno help from me, my lass"
+0x0e3b  /  0x4980 (0x0012)  : said, "I would if I could, but I can't so I shan't"
+0x0e3c  /  0x4993 (0x001b)  : said, "Stand on your own two feet.. Oh, you are standing, sorry"
+0x0e4c  /  0x49b0 (0x000b)  : said, "You must be gnuts"
+0x0e4d  /  0x49bc (0x0010)  : said, "Sorry Ingrid, but I think you're batty"
+0x0e4e  /  0x49cd (0x0017)  : said, "I can't do that. And if I could, I wouldn't while you were watching"
+0x0e4f  /  0x49e5 (0x0011)  : laughed, "Oh! You are a hoot, Ingrid"
+0x0e50  /  0x49f7 (0x0005)  : looked askance at Ingrid
+0x0fa0  /  0x4a00 (0x0024)  : the this these that some and also before wade jog plod rush dash march amble good of there
+0x0fa1  /  0x4a25 (0x0018)  : therefore am my your try carefully slowly warily quickly rapidly following around
+0x0fa2  /  0x4a3e (0x000e)  : please road Mister Mr Mrs Miss Bottomlow
+0x1068  /  0x4a4f (0x001c)  : 
+A funny little gremlin stopped Ingrid by waving a copy of a quite expensive book. 
+0x1069  /  0x4a6c (0x0003)  : page 
+0x106a  /  0x4a70 (0x0004)  : , line 
+0x106b  /  0x4a75 (0x0004)  : , word 
+0x106c  /  0x4a7a (0x0003)  : ?
+
+0x106d  /  0x4a7e (0x0010)  : The gremlin grinned gnastily and Ingrid knew she was wrong. 
+0x106e  /  0x4a8f (0x000f)  : The gremlin vanished in a puff of pink smoke. 
+0x106f  /  0x4a9f (0x000c)  : It wanted to know the word at 
+0x1070  /  0x4aac (0x0016)  : Wrong again! The gremlin snapped its fingers and everything went black... 
+0x10cd  /  0x4ac4 (0x0004)  : even maintain
+0x10ce  /  0x4ac9 (0x0002)  : writing
+0x10cf  /  0x4acc (0x0002)  : rat
+0x10d0  /  0x4acf (0x0002)  : go
+0x10d1  /  0x4ad2 (0x0002)  : it
+0x10d2  /  0x4ad5 (0x0002)  : enter
+0x10d3  /  0x4ad8 (0x0004)  : hundreds you
+0x10d4  /  0x4add (0x0002)  : used
+0x10d5  /  0x4ae0 (0x0002)  : used
+0x10d6  /  0x4ae3 (0x0002)  : and
+0x10d8  /  0x4ae7 (0x0002)  : go
+0x10d9  /  0x4aea (0x0002)  : sure
+0x10da  /  0x4aed (0x0004)  : until then
+0x10db  /  0x4af2 (0x0002)  : level
+0x10df  /  0x4af6 (0x0002)  : the
+0x10e0  /  0x4af9 (0x0002)  : I
+0x10e1  /  0x4afc (0x0002)  : dusting
+0x10e6  /  0x4b00 (0x0002)  : brothers
+0x10e7  /  0x4b03 (0x0002)  : hadn't
+0x10e8  /  0x4b06 (0x0002)  : I
+0x10e9  /  0x4b09 (0x0002)  : old
+0x10ea  /  0x4b0c (0x0002)  : cabbage
+0x10eb  /  0x4b0f (0x0002)  : disappeared
+0x10ed  /  0x4b13 (0x0002)  : sure
+0x10ee  /  0x4b16 (0x0004)  : start doesn't
+0x10f0  /  0x4b1c (0x0002)  : won't
+0x10f1  /  0x4b1f (0x0002)  : below
+0x10f2  /  0x4b22 (0x0002)  : se
+0x10f3  /  0x4b25 (0x0004)  : instructions section
+0x10f7  /  0x4b2b (0x0002)  : the
+0x10f8  /  0x4b2e (0x0002)  : won't
+0x10f9  /  0x4b31 (0x0002)  : climb
+0x10fa  /  0x4b34 (0x0002)  : asked
+0x10fb  /  0x4b37 (0x0002)  : and
+0x10fc  /  0x4b3a (0x0004)  : see are
+0x10fe  /  0x4b40 (0x0002)  : axe
+0x10ff  /  0x4b43 (0x0002)  : hadn't
+0x1100  /  0x4b46 (0x0002)  : is
+0x1103  /  0x4b4a (0x0002)  : was
+0x1106  /  0x4b4e (0x0002)  : through
+0x1109  /  0x4b52 (0x0002)  : over
+0x110a  /  0x4b55 (0x0002)  : enter
+0x110c  /  0x4b59 (0x0004)  : the like
+0x110d  /  0x4b5e (0x0002)  : days
+0x110e  /  0x4b61 (0x0004)  : from of
+0x1110  /  0x4b67 (0x0004)  : insert the
+0x1112  /  0x4b6d (0x0004)  : readme insert
+0x1113  /  0x4b72 (0x0004)  : moved Dimple
+0x1114  /  0x4b77 (0x0006)  : white use slide
+0x1115  /  0x4b7e (0x0002)  : washing
+0x1116  /  0x4b81 (0x0002)  : writing
+0x1118  /  0x4b85 (0x0004)  : insert the
+0x1119  /  0x4b8a (0x0002)  : enter
+0x111a  /  0x4b8d (0x0002)  : Doomladen
+0x111b  /  0x4b90 (0x0002)  : I
+0x111c  /  0x4b93 (0x0002)  : the
+0x111e  /  0x4b97 (0x0002)  : and
+0x1121  /  0x4b9b (0x0002)  : me
+0x1122  /  0x4b9e (0x0002)  : one
+0x1123  /  0x4ba1 (0x0004)  : loading for
+0x1129  /  0x4ba7 (0x0002)  : it
+0x112a  /  0x4baa (0x0002)  : se
+0x112b  /  0x4bad (0x0004)  : to bs24
+0x112c  /  0x4bb2 (0x0002)  : at
+0x112e  /  0x4bb6 (0x0002)  : brothers
+0x1130  /  0x4bba (0x0004)  : the your
+0x1388  /  0x4bc4 (0x0014)  : filled the sink with cold water and put the dishes in to soak
+0x1389  /  0x4bd9 (0x001f)  : watched the dishes soaking in the sink for a while, then took then out and piled them on the side to drain dry
+0x138a  /  0x4bf9 (0x0017)  : fastened the springs back into the sofa that Flopsy had ruined by using it as a trampoline
+0x138b  /  0x4c11 (0x0015)  : 
+Flopsy spotted the mended sofa and leapt onto it, bouncing happily
+0x138d  /  0x4c28 (0x001f)  : cracked an egg into a frying pan and began to fry it over the stove. It sizzled gnoisily in the fat
+0x138e  /  0x4c48 (0x0020)  : put the egg on a plate and sat down to eat it, using the yolk to soften a slice of bread
+0x138f  /  0x4c69 (0x001a)  : 
+Flopsy mooched around the kitchen floor, eating all the dropped crumbs and splodges of egg
+0x1390  /  0x4c84 (0x0009)  : threw the plate into the sink
+0x1392  /  0x4c8f (0x0023)  : trudged over to the barn with a shovel to muck out the guinea pigs, fell head first into the swill bucket and returned
+0x1393  /  0x4cb3 (0x0033)  : 
+Flopsy ran to the barn to play hide and seek with the guinea pigs in their bedding. When she returned, Ingrid held her gnose and sent Flopsy down to the Dribble for a bath
+0x1394  /  0x4ce7 (0x0018)  : threw a few handfuls of grain towards the bantams, while keeping at a safe distance
+0x1395  /  0x4d00 (0x003b)  : 
+Flopsy ran playfully around the farmyard, chasing the bantams. Suddenly, she yelped and returned with a swollen gnose. "My, my", mused Ingrid, "You do look a bit hen-pecked today, Flopsy"
+0x1396  /  0x4d3c (0x000d)  : wandered over to the hayloft to look for a gneedle
+0x1397  /  0x4d4a (0x001f)  : scattered a few seeds around the field, then sat down saying, "Phew! Hard work all this farming"
+0x1398  /  0x4d6a (0x001e)  : 
+Flopsy dug the seeds up again and collected them into a gnice gneat pile, then waited for a pat
+0x1399  /  0x4d89 (0x0019)  : dug up a large turnip, brushed the soil off it, and began to chew it thoughtfully
+0x139a  /  0x4da3 (0x001d)  : wandered all over the field, trampling the crop and complaining that it was going to be a poor harvest again
+0x139c  /  0x4dc2 (0x0018)  : looked down a few holes in the warren and tried to work out how many rabbits there were
+0x139d  /  0x4ddb (0x0027)  : 
+Flopsy thought it would be a good idea to chase the rabbits. So she tried it, but they boxed her ears and refused to play
+0x139e  /  0x4e03 (0x0031)  : helped Bumpy to dig up a few carrots. They found a handful for themselves and had just sat down for a gnibble, when some rabbits came up and walked off with most of them
+0x139f  /  0x4e35 (0x0011)  : chatted to Bumpy and shared the last gnarled carrot with him
+0x13a0  /  0x4e47 (0x0015)  : 
+Flopsy began to dig furiously, throwing dust and soil into the air
+0x13a1  /  0x4e5d (0x0037)  : greeted Ingrid with a friendly twitch of his gnose. "Hello, Ingrid", he said, "Come and have a look at the gnew gnurseries. Rabbits have built two of them, all soft and fur-lined"
+0x13a2  /  0x4e95 (0x0052)  : tried to remember which of the entrances lead to the gnurseries. He had three false starts - Ingrid got him out again each time - then had the bright idea of following a doe. He reappeared moments later with a black eye. "She were just going to the ladies loo", he explained
+0x13a3  /  0x4ee9 (0x0012)  : explained for the umpteenth time how important his job as rabbit-herd was
+0x13a4  /  0x4efc (0x002b)  : 
+Bumpy remembered where the gnurseries were, wandered into a gnarrow tunnel and got stuck. Ingrid watched as Flopsy bounded across and dragged him out by the foot
+0x13a6  /  0x4f29 (0x0049)  : greeted Ingrid with a big smile and asked, "How about a gnice drop of my special brew?" 
+Before she had time to refuse, Jumbo had already filled a mug with the seething liquid. "Have it on the house", he said with a grin
+0x13a7  /  0x4f74 (0x0029)  : 
+Flopsy wandered around the inn, licking up puddles of spilled beer. When she had finished, she walked smack into a table leg and collapsed
+0x13a8  /  0x4f9e (0x0034)  : mopped his sweating brow. "It's thirsty work is this!", he sighed and pulled himself a pint of Gnewcastle Brown. He raised the tankard and drained it in one large gulp
+0x13a9  /  0x4fd3 (0x0027)  : asked Flora if the pies were ready yet. She gnodded and brought in a plate of tempting fish pies, still hot from the oven
+0x13aa  /  0x4ffb (0x0026)  : licked his lips and said, "Mmmm! Those pies look mighty good!" He took the plate of pies and grinned broadly
+0x13ab  /  0x5022 (0x0014)  : went along the bar and began to stuff himself furtively with fish pies
+0x13ad  /  0x5038 (0x0098)  : Ingrid took a small sip of the scrumpy and suddenly felt violently ill. The room began to revolve around her and soon all she could see was a whirling frenzy of chairs and tables until finally the ceiling came into view. Then everything went black. 
+ 
+Ingrid woke to bright flashing lights and firework displays, and the peculiar sensation of something hot and wet sliding across her forehead. She opened her eyes and found that she was sprawled in the lane outside the inn, with Flopsy standing over her, licking her face.
+ 
+
+0x13b0  /  0x50d4 (0x0029)  : cracked half a dozen eggs into a bowl and whipped them up. She threw in a few more ingredients, mainly fish, and stirred the mixture
+0x13b1  /  0x50fe (0x0023)  : poured the mixture out of the bowl and into a bun-tray. She popped it into the oven and turned up the draught on the fire
+0x13b2  /  0x5122 (0x0019)  : 
+Flopsy put her front paws up on the worktop and began to lick out the bowl out
+0x13b5  /  0x513d (0x000f)  : sorted out the groceries and made a tray of sandwiches
+0x13b6  /  0x514d (0x001c)  : opened the oven and took out a tray of golden-baked buns. The kitchen was filled with delicious smells
+0x13b7  /  0x516a (0x0028)  : held a tray of buns in the air and shouted, "Anyone for buns?" There was a stampede as the customers fought to be first
+0x13b8  /  0x5193 (0x000e)  : sipped a tankard of stout and chatted to Jumbo
+0x13ba  /  0x51a3 (0x0010)  : unpacked a crate of turnips and arranged them on a shelf
+0x13bb  /  0x51b4 (0x002a)  : 
+Flopsy pulled a box down off a shelf and tipped mushrooms all over the floor. Miss Farthing yelled angrily as Flopsy bounced about, eating them all
+0x13bc  /  0x51df (0x0017)  : made interesting arrangements of vegetables in the shop window and smiled broadly to herself
+0x13bd  /  0x51f7 (0x0014)  : chomped on an apple and talked to Ingrid, splattering the counter with bits
+0x13be  /  0x520c (0x0036)  : counted the change in the till and shook her head sadly. "If you're gnot going to buy anything, clear off!", she said, "There's gno-one else'll come in while you're here"
+0x13c4  /  0x5244 (0x0021)  : bent down and looked under her bed. "There'd best gnot be gno Gnorsegnomes hidigng ign my bedroom!", she said
+0x13c5  /  0x5266 (0x0030)  : lifted a section of carpet. "Well, I cagn't see gno Gnorsegnomes dowgn there!", she sighed, "But it beigng so dark I cagn't see gnowt agnyway"
+0x13c6  /  0x5297 (0x000c)  : opened the oven door and looked inside for Gnorsegnomes
+0x13c7  /  0x52a4 (0x0026)  : went into the pantry and lifted down the stack of smoked hams looking for invading Gnorsegnomes. "They could be lurkigng agnywhere", she explained
+0x13c8  /  0x52cb (0x0013)  : 
+Flopsy followed her into the pantry and set to work on the hams
+0x13c9  /  0x52df (0x001c)  : hobbled to the barn to root among the bantam eggs for any sign that the Gnorsegnomes were in town
+0x13ca  /  0x52fc (0x0016)  : 
+Flopsy trotted behind, licking up the eggs that Grandma dropped and broke
+0x13cb  /  0x5313 (0x0017)  : pushed the guinea pigs out of the way so that she could probe their bedding for Gnorsegnomes
+0x13cc  /  0x532b (0x0015)  : waded into the pond, and prodded among the weeds, looking for Gnorsegnomes
+0x13cd  /  0x5341 (0x0024)  : 
+Flopsy jumped into the pond with Grandma Gnutson. "Help!", cried Grandma, "You're soakigng me with your splashigng"
+0x13ce  /  0x5366 (0x0010)  : dug up a few potatoes while searching the earth for Gnorsegnomes
+0x13cf  /  0x5377 (0x000b)  : looked down all the rabbit holes for Gnorsegnomes
+0x13d0  /  0x5383 (0x0012)  : made Bumpy stand up in case he was sitting on a Gnorsegnome
+0x13d8  /  0x5397 (0x001d)  : handed a cup of tea to Ingrid, who thirstily gulped it down before realising how hot it was
+0x13d9  /  0x53b5 (0x0019)  : 
+Flopsy wagged her tail excitedly as Great Aunt Halfyard handed her a large bone
+0x13da  /  0x53cf (0x0053)  : sat down and sipped her tea slowly while reading the local gnewspaper. "Well I gnever", she sighed, "Just look at this picture of that Jasper Whassisname person!" The front page of her paper showed a photograph of Jasper Quickbuck on his yacht with members of the local council
+0x13db  /  0x5424 (0x0033)  : read another article in her paper, "Look at this photo of the escaped gorilla". 
+Ingrid wondered how Rollo had managed to get his gorilla story into a gnational gnewspaper
+0x13dc  /  0x5458 (0x000e)  : 
+Flopsy shook herself and spread dust everywhere
+0x13dd  /  0x5467 (0x0025)  : looked up at the clouds and sighed. "What a lovely day", she said, pruning the ivy around the window with a large axe
+0x13de  /  0x548d (0x0016)  : 
+Just then, Flopsy decided to water the ivy by Aunt Halfyard's feet
+0x13df  /  0x54a4 (0x001a)  : hummed a merrily while she trampled a patch of long grass to make space for her deckchair
+0x13e0  /  0x54bf (0x0029)  : sat down in the rain and daydreamed for a while. "I hope things stay this way in Little Moaning for years to come", she sighed
+0x13e2  /  0x54ea (0x002c)  : took a worm out of a tin and pushed it onto the end of his fishing hook. He cast his line into the river and rested his rod on the bank
+0x13e3  /  0x5517 (0x0031)  : 
+Flopsy sniffed Boney's worms and decided to eat one of them. "Oi!", stormed Boney. "That was my best worm you just ate, you daft mutt"
+0x13e4  /  0x5549 (0x0022)  : opened his lunchbox and took out a carrot and treacle sandwich. He chomped it hungrily while keeping an eye on his fishing float
+0x13e5  /  0x556c (0x0019)  : 
+Flopsy sniffed at Boney's carrot and treacle sandwich and turned up her gnose in disgust
+0x13e6  /  0x5586 (0x0044)  : shouted with glee as his float bobbed up and down in the water. He spluttered half of a sandwich out of his mouth and a gherkin fell into his worm tin. 
+He frantically reeled in his line to find an old boot on his hook
+0x13e7  /  0x55cc (0x0026)  : unhitched the boot, threw it back in and absently put a gherkin on his hook by mistake. He cast out his line again and waited
+0x13e8  /  0x55f3 (0x0018)  : opened a flask, poured himself a mug of warm beer and sipped it gnoisily
+0x13e9  /  0x560c (0x001f)  : tripped and fell into the water. 
+Luckily, Boney managed to wade back before any damage was done
+0x13ea  /  0x562c (0x0013)  : packed his fishing tackle up in a huff (gnomish fishing bag)
+0x13ec  /  0x5641 (0x005e)  : clung gnervously onto the carriage and said, "I'm gnot getting out, lass! You'd smash this thing up on your own!" 
+"Really, Mr Tackhammer", said Ingrid reassuringly, "You know you can rely on me to look after it". 
+"Well, I'm sticking with my carriage!", Gnat said intrepidly
+0x13ed  /  0x56a1 (0x000b)  : yelled at Flopsy to stop chewing his carriage
+0x13ee  /  0x56ad (0x0050)  : patted his invention lovingly and said, "Do take care of my carriage. It took me ages to build it". 
+Ingrid said, "And I'll make sure that it lasts for ages, Mr. Tackhammer. Gnow don't you worry about a thing. I've got it all worked out"
+0x13ef  /  0x56ff (0x001b)  : shook his head and groaned, "Eee, I wish you'd gnever laid eyes on this carriage"
+0x13f6  /  0x571c (0x0024)  : said, "Well, hello there Ingrid. It's gnice to have a bit of company. It gets so boring on my own here"
+0x13f7  /  0x5741 (0x0055)  : chatted to Ingrid and told her how, this being the dull season for glow-worms, she was having to improvise the lighting for the time being. 
+She pointed to a candle in a foil-covered washing up bowl. "It's terrible, isn't it?", she sighed. Ingrid gnodded sympathetically as the candle went out
+0x13f8  /  0x5798 (0x0034)  : lit the lighthouse candle again. 
+Flopsy wagged her tail happily, and the draught blew the candle out again. Millie lost her temper and chased Flopsy round and round the room
+0x13f9  /  0x57cd (0x001f)  : jumped up at the sound of a loud crash as a ship ploughed into all the other wrecks on Dribble Banks. 
+0x13fa  /  0x57ed (0x0019)  : said, "Go on, hop it! Or I'll sling you out of the window"
+0x1400  /  0x5808 (0x0036)  : twitched gnervously. "Sure and it's these teleport spells!", he complained, "They'll gnot work properly at all, at all. See me, I gnever know where I'll end up gnext"
+0x1401  /  0x583f (0x001a)  : 
+Flopsy put her head on one side and looked at Seamus as if she didn't believe a word of it
+0x1402  /  0x585a (0x004e)  : said, "Begorra! I think I've left my magic wand behind". He grinned sheepishly at Ingrid. 
+"I must have, err, left it upstairs somewhere. Anyhow, don't you go hanging round for me, Ingrid. You'd best be away about your business"
+0x1403  /  0x58aa (0x009f)  : and Mrs Tackhammer were busy looking for the magic wand. It seems like it must have been somewhere in the bed because they were both rummaging about under the covers. 
+ 
+Ingrid coughed to attract their attention, and two heads popped out and blinked in the light. It must have been hot under there since they both had very red faces. "Err, we haven't found it yet", explained Seamus, and added quickly, before she offered to help, "But don't you worry, we can manage by ourselves. Good day to you gnow"
+0x140a  /  0x594d (0x003e)  : cawed and said, "I think it's terrible that Jasper Quickbuck is trying to clear the valley. It'll be our trees gnext, after your village. If there's anything that I can do to help, then just ask"
+0x140b  /  0x598c (0x0015)  : 
+Flopsy sniffed the rook. It took offence and pecked her on the gnose
+0x140c  /  0x59a2 (0x000a)  : ruffled its feathers and dipped its back
+0x1414  /  0x59ae (0x000b)  : tapped the bar impatiently with a coin
+0x1415  /  0x59ba (0x0012)  : said, "What do I have to do to get served around here?"
+0x1416  /  0x59cd (0x000d)  : said, "Will somebody please serve me"
+0x1417  /  0x59db (0x000a)  : waited impatiently for Jumbo to arrive
+0x1418  /  0x59e6 (0x0016)  : said, "What kind of an inn is this? Where's the bargnome?"
+0x141e  /  0x59fe (0x001d)  : said, "My, my! I'm hungry. I wonder when Flora will serve some food"
+0x141f  /  0x5a1c (0x0010)  : sniffed the air for the well-loved smell of Flora's cooking
+0x1420  /  0x5a2d (0x0011)  : said, "I wouldn't mind a gnibble of Flora's buns"
+0x1421  /  0x5a3f (0x0017)  : shouted towards the kitchen, "Come on Flora! We're starving in here"
+0x1422  /  0x5a57 (0x000f)  : said, "Is there any grub in this inn?"
+0x1428  /  0x5a68 (0x001c)  : went to the bar, asked for a pint of best, and gossiped to Jumbo while he pulled the drink
+0x1429  /  0x5a85 (0x000f)  : 
+Flopsy licked up the beer that Jumbo had spilled
+0x142a  /  0x5a95 (0x0019)  : slapped some change on the counter to pay for the beer, then sat down to drink it
+0x142b  /  0x5aaf (0x0022)  : looked at Armillaria Budblast and yelled, "There's a funny smell around here! Have you stood in something, Armillaria?"
+0x142c  /  0x5ad2 (0x0011)  : sipped a pint of best and chatted to the other customers
+0x142d  /  0x5ae4 (0x0016)  : 
+The customers held their gnoses and moved to the opposite side of the inn
+0x142e  /  0x5afb (0x0019)  : went off to see when the gnext ferry would be, then returned and asked about rooms for the gnight
+0x142f  /  0x5b15 (0x003d)  : bought a packet of peanuts and tossed them one by one into the air, trying to be clever and catch them in the mouth as they fell. Flopsy hovered close by, snapping up each one as it bounced on the floor
+0x1432  /  0x5b54 (0x0012)  : chatted to Flora and took a bun from the tray she was carrying
+0x1433  /  0x5b67 (0x0013)  : dipped the bun in a pint of beer and gnibbled it with delight
+0x1434  /  0x5b7b (0x001c)  : 
+Flopsy sniffed around the inn, eating any crumbs and pieces of bun that fell to the floor
+0x143c  /  0x5b99 (0x003e)  : wiped the darts scoreboard clean with a cloth and chalked up 501 for himself and the salesgnome. 
+ 
+The salesgnome had the first throw at the board and scored twelve. A few sniggers came from the watching crowd
+0x143d  /  0x5bd8 (0x002a)  : threw his darts at the board and scored one hundred and eighty. Everyone in the inn cheered. The salesgnome got two fives and an old calendar
+0x143e  /  0x5c03 (0x002c)  : threw again and scored another one hundred and eighty! The audience applauded him. The salesgnome threw his darts on the floor in a temper and stamped on them
+0x143f  /  0x5c30 (0x003e)  : threw his darts and scored one hundred and thirty gnine. Those few customers that could do sums gasped in amazement. He only gneeded double 1 to win. The salesgnome started to throw his darts at the other drinkers
+0x1440  /  0x5c6f (0x0014)  : 
+Flopsy leapt up and sat on the salesgnome before someone got hurt
+0x1441  /  0x5c84 (0x0012)  : took his last throw and won the game with the first dart
+0x1446  /  0x5c98 (0x000a)  : practiced playing darts on his own
+0x1447  /  0x5ca3 (0x0021)  : pushed all three darts in the bullseye of the dartboard when gnobody was looking. He quickly stood back and coughed loudly
+0x1448  /  0x5cc5 (0x0013)  : shouted, "Anyone for darts?" But there was gno reply
+0x1449  /  0x5cd9 (0x0026)  : aimed carefully and threw his darts at the dartboard. He succeeded in hitting a table, a vase and somebody's stickleback pie and chips
+0x144a  /  0x5d00 (0x0020)  : bad-temperedly threw his darts towards the board without looking. Amazingly he hit the bull and two triple twenties
+0x1450  /  0x5d22 (0x0034)  : measured the front of the Green Gnome Inn with a tape measure and then scribbled a few figures onto a gnotepad. He stood back, looking at the inn and stroking his chin thoughtfully
+0x1451  /  0x5d57 (0x0024)  : aimed a kick at Flopsy. Flopsy looked at Ingrid to check if it was all right to bite him. Ingrid wasn't looking, so she did
+0x1452  /  0x5d7c (0x0023)  : inspected the broken bridge and shook his head. "Doesn't gnobody bother to repair gnothing in this village?", he asked rhetorically
+0x1453  /  0x5da0 (0x0047)  : prodded Boney in the back and said, "Oi! Why don't you fix that bridge instead of fooling around with that silly fishing rod?" 
+"Mind your own business", snapped Boney, "or I'll fix you with my fishing rod"
+0x1454  /  0x5de9 (0x002c)  : took a pad out of his pocket and began to sketch the buildings along the High Street. "Hmmm", he said, "Soon have this little lot down"
+0x1455  /  0x5e16 (0x0033)  : looked up Ploughgnome Lane and shook his head. "This hill's going to be a gnuisance when we start work. It will have to be moved at least half a chain to the left"
+0x1456  /  0x5e4a (0x001c)  : looked around and rubbed his hands together. "Plenty of land to build on around here", he concluded
+0x1457  /  0x5e67 (0x0014)  : looked down across Little Moaning and compared the view with some development plans
+0x1458  /  0x5e7c (0x000a)  : took one look at the farm and laughed
+0x1459  /  0x5e87 (0x001b)  : read the gnotice and scratched his head. "That's a funny name for a mill", he muttered
+0x145a  /  0x5ea3 (0x0013)  : shouted to Jumbo, "Oi! Get me a tomato juice"
+0x145b  /  0x5eb7 (0x0028)  : spilled most of her tomato juice on the floor. "Oi!", she shouted to Jumbo, "Look at the mess in this place"
+0x145c  /  0x5ee0 (0x000c)  : opened a gnewspaper and lit up a cigarette
+0x145d  /  0x5eed (0x001b)  : read her gnewspaper loudly, so that everyone could hear about Little Moaning being due for demolition
+0x145e  /  0x5f09 (0x0005)  : folded the gnewspaper
+0x145f  /  0x5f0f (0x0007)  : dozed for a few minutes
+0x1460  /  0x5f17 (0x000f)  : took some tobacco out of a pouch and began to chew it
+0x1461  /  0x5f27 (0x000c)  : spat a plug of tobacco into the ashtray
+0x1462  /  0x5f34 (0x001c)  : talked to herself about the weather. The other guests at the inn began to look at her rather strangely
+0x1464  /  0x5f52 (0x0023)  : patted her coat pockets, which bulged with compost. "I'll plant my daffodils in this", she quietly muttered to herself
+0x1465  /  0x5f76 (0x0011)  : searched around for dead leaves to put on her compost heap
+0x1466  /  0x5f88 (0x0011)  : ignored the gnotice and examined the plants growing around its post
+0x1467  /  0x5f9a (0x0026)  : 
+Flopsy leapt up at the gnotice while Armillaria was still crouched down examining the plants around it. Armillaria struggled slowly up from the mud
+0x1468  /  0x5fc1 (0x000f)  : pulled up some weeds that were growing along the track
+0x1469  /  0x5fd1 (0x000a)  : gnattered on about plants on the riverbank
+0x146a  /  0x5fdc (0x000a)  : picked wild flowers from the riverbank
+0x146b  /  0x5fe7 (0x000d)  : 
+Flopsy pinched Armillaria's flowers and ate them
+0x146c  /  0x5ff5 (0x000a)  : looked at the brambles and shook her head
+0x146e  /  0x6001 (0x000d)  : 
+Ingrid didn't seem to be very welcome around here
+0x146f  /  0x600f (0x0009)  : 
+Ingrid wasn't very popular around here
+0x1470  /  0x6019 (0x000b)  : 
+it seemed to be time that Ingrid left
+0x1471  /  0x6025 (0x000d)  : 
+Ingrid got the impression that she was gnot wanted
+0x1472  /  0x6033 (0x000c)  : 
+Ingrid was wasting her time hanging around here
+<EOM>

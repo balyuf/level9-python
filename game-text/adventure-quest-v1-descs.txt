@@ -1,815 +1,815 @@
-0x0  /  0x1800  : 
-0x1  /  0x1801  : Welcome to Adventure Quest from Level 9. Enter English phrases (without punctuation) to play, find and defeat the Demon Lord AGALIAREPT to win.
+0x0  /  0x1820  : 
+0x1  /  0x1821  : Welcome to Adventure Quest from Level 9. Enter English phrases (without punctuation) to play, find and defeat the Demon Lord AGALIAREPT to win.
 
 
-0x2  /  0x1862  : 
+0x2  /  0x1882  : 
 
 What next?
 
 
-0x3  /  0x186e  : I don't understand
-0x4  /  0x187b  : Please be more specific
-0x5  /  0x188a  : You can't do that
-0x6  /  0x1893  : You don't have it
-0x7  /  0x189e  : It's not on the ground
-0x8  /  0x18a8  : Your lamp is lit and shines brightly
-0x9  /  0x18bd  : Your lamp is off
-0xa  /  0x18c8  : 
+0x3  /  0x188e  : I don't understand
+0x4  /  0x189b  : Please be more specific
+0x5  /  0x18aa  : You can't do that
+0x6  /  0x18b3  : You don't have it
+0x7  /  0x18be  : It's not on the ground
+0x8  /  0x18c8  : Your lamp is lit and shines brightly
+0x9  /  0x18dd  : Your lamp is off
+0xa  /  0x18e8  : 
 
 The water extinguishes your lamp
-0xb  /  0x18dc  : You have:
+0xb  /  0x18fc  : You have:
 
 
-0xc  /  0x18e3  : Nothing
-0xd  /  0x18e9  : "Do that again and you'll regret it!", snarls the djinn
-0xe  /  0x190c  : The djinn appears: 
+0xc  /  0x1903  : Nothing
+0xd  /  0x1909  : "Do that again and you'll regret it!", snarls the djinn
+0xe  /  0x192c  : The djinn appears: 
 
-0xf  /  0x191a  : The djinn blocks your way. 
+0xf  /  0x193a  : The djinn blocks your way. 
 
-0x10  /  0x192b  : 
+0x10  /  0x194b  : 
 
 A pack of wolves emerges from the trees!
-0x11  /  0x1943  : 
+0x11  /  0x1963  : 
 
 A pack of wolves is stalking you
-0x12  /  0x1956  : 
+0x12  /  0x1976  : 
 
 The wolves attack..
-0x13  /  0x1962  : 
+0x13  /  0x1982  : 
 
 The wolves are startled and run off
-0x14  /  0x1976  : Tree branches bend to block the path
-0x15  /  0x198b  : The unicorn snorts disdainfully
-0x16  /  0x199f  : The unicorn takes the orchid, nods and walks off north. He gestures for you to follow
-0x17  /  0x19cf  : 
+0x14  /  0x1996  : Tree branches bend to block the path
+0x15  /  0x19ab  : The unicorn snorts disdainfully
+0x16  /  0x19bf  : The unicorn takes the orchid, nods and walks off north. He gestures for you to follow
+0x17  /  0x19ef  : 
 
 They retreat slightly and then lunge forward again
-0x18  /  0x19f0  : 
+0x18  /  0x1a10  : 
 
 A robed wizard is standing waiting. She hands you a scroll, smiles and fades away
-0x19  /  0x1a1f  : "Take the Talisman to the Black Tower through the four elements twice. It can defeat the Demon Lord, but only a companion can bring victory at the end. The Talisman is nearby, but you will also need 4 Stones to gain entry and these are guarded by servants of the Enemy. You are the only hope for Middle Earth - the High Council lied when they pretended otherwise. The blesssing of Typo, god of Adventures, goes with you. Good Luck!"
-0x1a  /  0x1b14  : 
-0x1b  /  0x1b15  : 
+0x19  /  0x1a3f  : "Take the Talisman to the Black Tower through the four elements twice. It can defeat the Demon Lord, but only a companion can bring victory at the end. The Talisman is nearby, but you will also need 4 Stones to gain entry and these are guarded by servants of the Enemy. You are the only hope for Middle Earth - the High Council lied when they pretended otherwise. The blesssing of Typo, god of Adventures, goes with you. Good Luck!"
+0x1a  /  0x1b34  : 
+0x1b  /  0x1b35  : 
 
 Oh dear! You got yourself killed
-0x1c  /  0x1b29  : 
+0x1c  /  0x1b49  : 
 
 FOOL! You got killed again!
-0x1d  /  0x1b3b  : 
+0x1d  /  0x1b5b  : 
 
 This is becoming a habit!
-0x1e  /  0x1b4b  : 
+0x1e  /  0x1b6b  : 
 
 Do you want to be resurrected?
 
 
-0x1f  /  0x1b62  : Sorry, I've run out of orange smoke..
-0x20  /  0x1b7b  : 
+0x1f  /  0x1b82  : Sorry, I've run out of orange smoke..
+0x20  /  0x1b9b  : 
 
 There is a puff of orange smoke..
-0x21  /  0x1b90  : 
+0x21  /  0x1bb0  : 
 
 Do you really want to stop?
 
 
-0x22  /  0x1ba2  : 
+0x22  /  0x1bc2  : 
 
 Do you want to try again?
 
 
-0x23  /  0x1bb5  : 
+0x23  /  0x1bd5  : 
 
 Please answer YES or NO
 
 
-0x24  /  0x1bc6  : Your hands are full
-0x25  /  0x1bd2  : That was just what you needed
-0x26  /  0x1be5  : it is full of water
-0x27  /  0x1bee  : it is full of oil
-0x28  /  0x1bf8  : The liquid soaks into the ground
-0x29  /  0x1c09  : You're carrying too much to climb up
-0x2a  /  0x1c22  : The orchid is two foot above your reach
-0x2b  /  0x1c38  : 
+0x24  /  0x1be6  : Your hands are full
+0x25  /  0x1bf2  : That was just what you needed
+0x26  /  0x1c05  : it is full of water
+0x27  /  0x1c0e  : it is full of oil
+0x28  /  0x1c18  : The liquid soaks into the ground
+0x29  /  0x1c29  : You're carrying too much to climb up
+0x2a  /  0x1c42  : The orchid is two foot above your reach
+0x2b  /  0x1c58  : 
 
 You are standing on the table
-0x2c  /  0x1c46  : The pipes play oriental music
-0x2d  /  0x1c59  : You sever the rope bridge, preventing pursuit
-0x2e  /  0x1c73  : 
+0x2c  /  0x1c66  : The pipes play oriental music
+0x2d  /  0x1c79  : You sever the rope bridge, preventing pursuit
+0x2e  /  0x1c93  : 
 
 A rope bridge spans the chasm from east to west
-0x2f  /  0x1c8e  : 
+0x2f  /  0x1cae  : 
 
 The stick grows incredibly as it hits the ground. Buds form, leaves burst from them and drink in the light, and then the stick is a mass of flowers! Fruit quickly swells and falls onto the ground and the leaves are shed. It is just a stick again
-0x30  /  0x1d0a  : The 'onion' tastes very odd: it is garlic! However as you are obviously ravenous (why else would anyone want to eat an entire onion) you gulp it down. Then you notice movement nearby and turn 
+0x30  /  0x1d2a  : The 'onion' tastes very odd: it is garlic! However as you are obviously ravenous (why else would anyone want to eat an entire onion) you gulp it down. Then you notice movement nearby and turn 
 in fascination: all the vegetation down-wind has curled up
-0x31  /  0x1da2  : 
+0x31  /  0x1dc2  : 
 
 It is dark, you cannot see
-0x32  /  0x1db2  : 
+0x32  /  0x1dd2  : 
 
 You are underwater
-0x33  /  0x1dbd  : 
+0x33  /  0x1ddd  : 
 
 
-0x34  /  0x1dbf  : 
+0x34  /  0x1ddf  : 
 
 You are 
 
-0x35  /  0x1dc5  : You swing the silver ball around in the sling and release it. 
+0x35  /  0x1de5  : You swing the silver ball around in the sling and release it. 
 
-0x36  /  0x1de3  : You have no sling stone
-0x37  /  0x1df1  : There is nothing here worth opening
-0x38  /  0x1e06  : You have no keys (or crowbar)
-0x39  /  0x1e1a  : The Talisman shines with a clear blue light and 
+0x36  /  0x1e03  : You have no sling stone
+0x37  /  0x1e11  : There is nothing here worth opening
+0x38  /  0x1e26  : You have no keys (or crowbar)
+0x39  /  0x1e3a  : The Talisman shines with a clear blue light and 
 you seem to hear triumphal music
-0x3a  /  0x1e4c  : , all the orcs about you shrink back
-0x3b  /  0x1e60  : , the Demon Lord shrieks and flees through an opening behind His throne
-0x3c  /  0x1e84  : You cannot move in that direction
-0x3d  /  0x1e98  : It tastes delightful
-0x3e  /  0x1ea5  : 
+0x3a  /  0x1e6c  : , all the orcs about you shrink back
+0x3b  /  0x1e80  : , the Demon Lord shrieks and flees through an opening behind His throne
+0x3c  /  0x1ea4  : You cannot move in that direction
+0x3d  /  0x1eb8  : It tastes delightful
+0x3e  /  0x1ec5  : 
 
 The orcs fall upon you with cries of triumph
-0x3f  /  0x1ebf  : The giant picks you up in one hand and carries you off for lunch
-0x40  /  0x1ee8  : 
+0x3f  /  0x1edf  : The giant picks you up in one hand and carries you off for lunch
+0x40  /  0x1f08  : 
 
 The giant dodges and runs off: "Stay there, I'm just off to fetch my helmet", he booms
-0x41  /  0x1f20  : .
+0x41  /  0x1f40  : .
 
 
-0x42  /  0x1f23  : The snowman is free and leaps about joyfully
-0x43  /  0x1f3c  : You aren't strong enough to move the rocks
-0x44  /  0x1f52  :  but with the snowman's help they move! The orcs in the tower flee as the giant stones bounce towards them followed by the abominable snowman. Eventually the dust settles: the mountain seems to be deserted
-0x45  /  0x1fbb  : 
+0x42  /  0x1f43  : The snowman is free and leaps about joyfully
+0x43  /  0x1f5c  : You aren't strong enough to move the rocks
+0x44  /  0x1f72  :  but with the snowman's help they move! The orcs in the tower flee as the giant stones bounce towards them followed by the abominable snowman. Eventually the dust settles: the mountain seems to be deserted
+0x45  /  0x1fdb  : 
 
 A fearsome dark shape flies at you: claws and tentacles flail the air!
-0x46  /  0x1fe8  : The shape engulfs you..
-0x47  /  0x1ff8  : 
+0x46  /  0x2008  : The shape engulfs you..
+0x47  /  0x2018  : 
 
 A gigantic worm rises from the sand, swallowing all in its path!
-0x48  /  0x201e  : 
+0x48  /  0x203e  : 
 
 A rushing noise is nearly upon you!
-0x49  /  0x2034  : 
+0x49  /  0x2054  : 
 
 Sand is sliding nearby
-0x4a  /  0x2042  : 
+0x4a  /  0x2062  : 
 
 You can hear sand sliding softly in the distance
-0x4b  /  0x205c  :  Including you!
-0x4c  /  0x2067  : A cavern opens to the north
-0x4d  /  0x2074  : 
+0x4b  /  0x207c  :  Including you!
+0x4c  /  0x2087  : A cavern opens to the north
+0x4d  /  0x2094  : 
 
 You are very thirsty
-0x4e  /  0x2080  : 
+0x4e  /  0x20a0  : 
 
 You are very thirsty and will die without water
-0x4f  /  0x209a  : You must be joking! That sphinx looks dangerous!
-0x50  /  0x20ba  : The snakes rear up, spitting venom, and block your way to the temple
-0x51  /  0x20dd  :  and the snakes dance away into holes
-0x52  /  0x20f3  : 
+0x4f  /  0x20ba  : You must be joking! That sphinx looks dangerous!
+0x50  /  0x20da  : The snakes rear up, spitting venom, and block your way to the temple
+0x51  /  0x20fd  :  and the snakes dance away into holes
+0x52  /  0x2113  : 
 
 It lands with a splash in the distance
-0x53  /  0x2108  : 
-0x54  /  0x2109  : A blast of air roars from the bag
-0x55  /  0x211d  : : blowing the djinn towards a nearby lamp
-0x56  /  0x2134  : The ruby ball explodes, surrounding you with a ball of searing flame!
-0x57  /  0x2159  : The ruby explodes as it lands, destroying everything nearby in a ball of fire
-0x58  /  0x2183  : The priestess gives you a small ruby in exchange for the sun-dial. She vanishes, mouthing "Be careful!"
-0x59  /  0x21be  : A priestess greets you: "I can help your quest if you return my sun-dial", she says, "It was stolen and hidden in a cave near the oasis. Without it I am powerless and dare not leave the temple!"
-0x5a  /  0x2233  : 
+0x53  /  0x2128  : 
+0x54  /  0x2129  : A blast of air roars from the bag
+0x55  /  0x213d  : : blowing the djinn towards a nearby lamp
+0x56  /  0x2154  : The ruby ball explodes, surrounding you with a ball of searing flame!
+0x57  /  0x2179  : The ruby explodes as it lands, destroying everything nearby in a ball of fire
+0x58  /  0x21a3  : The priestess gives you a small ruby in exchange for the sun-dial. She vanishes, mouthing "Be careful!"
+0x59  /  0x21de  : A priestess greets you: "I can help your quest if you return my sun-dial", she says, "It was stolen and hidden in a cave near the oasis. Without it I am powerless and dare not leave the temple!"
+0x5a  /  0x2253  : 
 
 Water bubbles from the ground!
 
 
-0x5b  /  0x2246  : 
+0x5b  /  0x2266  : 
 
 Your blows bounce off its thick skin
-0x5c  /  0x225e  : 
+0x5c  /  0x227e  : 
 
 "Right, you asked for it!", he shouts, gesticulating crudely..
-0x5d  /  0x228a  : The Djinn is furious!
-0x5e  /  0x2297  : 
+0x5d  /  0x22aa  : The Djinn is furious!
+0x5e  /  0x22b7  : 
 
 The ruby vanishes in a hissing cloud of steam
 
 
-0x5f  /  0x22af  : 
+0x5f  /  0x22cf  : 
 
 You cannot breath!
-0x60  /  0x22b9  : 
+0x60  /  0x22d9  : 
 
 You can breath again!
-0x61  /  0x22c6  : 
+0x61  /  0x22e6  : 
 
 You are swept over the rapids 
 
-0x62  /  0x22d7  : and held under for a long time..
-0x63  /  0x22ee  : 
+0x62  /  0x22f7  : and held under for a long time..
+0x63  /  0x230e  : 
 
 A shark circles round, eying you
-0x64  /  0x22ff  : 
+0x64  /  0x231f  : 
 
 The shark attacks!
-0x65  /  0x230a  : 
+0x65  /  0x232a  : 
 
 But the trident protects you!
-0x66  /  0x231f  : The clam opens, belches out a cloud of decaying 
+0x66  /  0x233f  : The clam opens, belches out a cloud of decaying 
 filth in your direction, and then snaps tight shut again. Its shell contains nothing but clam.
-0x67  /  0x2373  : The jelly floats just out of reach
-0x68  /  0x2382  : You catch the luminous jelly with the net
-0x69  /  0x2397  : A huge octopus leaps out and bites at your treasure. 
+0x67  /  0x2393  : The jelly floats just out of reach
+0x68  /  0x23a2  : You catch the luminous jelly with the net
+0x69  /  0x23b7  : A huge octopus leaps out and bites at your treasure. 
 
-0x6a  /  0x23b7  : It starts on the wind-bag, inflates like a balloon and whizzes off!
-0x6b  /  0x23e0  : Then it reaches for you..
-0x6c  /  0x23ef  : 
+0x6a  /  0x23d7  : It starts on the wind-bag, inflates like a balloon and whizzes off!
+0x6b  /  0x2400  : Then it reaches for you..
+0x6c  /  0x240f  : 
 
 The luminous jelly shrivels to nothing as it dries
-0x6d  /  0x240b  : The current sucks it down a hole!
-0x6e  /  0x241d  : 
+0x6d  /  0x242b  : The current sucks it down a hole!
+0x6e  /  0x243d  : 
 
 There is a sensation of rapid movement..
-0x6f  /  0x2435  : "ARMED INTRUDER! ARMED INTRUDER! ARMED INTRUDER! ARMED INTRUDER! ARMED INTRUDER! ARMED INTRUDER!" yells a gargoyle overhead. The door slams
-0x70  /  0x245e  : 
+0x6f  /  0x2455  : "ARMED INTRUDER! ARMED INTRUDER! ARMED INTRUDER! ARMED INTRUDER! ARMED INTRUDER! ARMED INTRUDER!" yells a gargoyle overhead. The door slams
+0x70  /  0x247e  : 
 
 An arrow lands nearby
-0x71  /  0x246d  : 
+0x71  /  0x248d  : 
 
 An arrow is fired. It gets you! A cry of triumph echoes round the hall "A head for Melkor!"
-0x72  /  0x24a1  : 
+0x72  /  0x24c1  : 
 
 An orc archer is crouched, peering down into the gloom. When he sees you he jumps up and runs north to his kin standing there
-0x73  /  0x24e1  : The status nods in thanks and gives you its rune-encrusted sword. It uses the eye to look around for a while and then hides it in one marble fist
-0x74  /  0x2532  : An enormous spider leaps out as you reach for the stone! 
+0x73  /  0x2501  : The status nods in thanks and gives you its rune-encrusted sword. It uses the eye to look around for a while and then hides it in one marble fist
+0x74  /  0x2552  : An enormous spider leaps out as you reach for the stone! 
 
-0x75  /  0x2552  : You are defenceless! It bites you..
-0x76  /  0x2566  : You fight it off with your sword but the Earth-Stone is lost! Far below, an orc snatches a small object and runs away south-west
-0x77  /  0x25a8  : As you cross the bridge the alarm is raised! A host of orcs rush onto the bridge after you
-0x78  /  0x25d9  : The dragon's fire drives you back. It grins happily and settles itself, watching you carefully
-0x79  /  0x2611  : The dragon stretches and swallows it in one gulp!
-0x7a  /  0x262d  :  A belch of steam explodes from the dragon's mouth. It hiccoughs and backs away, coughing smoke
-0x7b  /  0x2667  : 
+0x75  /  0x2572  : You are defenceless! It bites you..
+0x76  /  0x2586  : You fight it off with your sword but the Earth-Stone is lost! Far below, an orc snatches a small object and runs away south-west
+0x77  /  0x25c8  : As you cross the bridge the alarm is raised! A host of orcs rush onto the bridge after you
+0x78  /  0x25f9  : The dragon's fire drives you back. It grins happily and settles itself, watching you carefully
+0x79  /  0x2631  : The dragon stretches and swallows it in one gulp!
+0x7a  /  0x264d  :  A belch of steam explodes from the dragon's mouth. It hiccoughs and backs away, coughing smoke
+0x7b  /  0x2687  : 
 
 north-east
-0x7c  /  0x266d  : 
+0x7c  /  0x268d  : 
 
 north-west
-0x7d  /  0x2671  : 
+0x7d  /  0x2691  : 
 
 west
-0x7e  /  0x2676  : 
+0x7e  /  0x2696  : 
 
 south-west
-0x7f  /  0x267b  : 
+0x7f  /  0x269b  : 
 
 south-east
-0x80  /  0x2682  : 
+0x80  /  0x26a2  : 
 
 east
-0x81  /  0x2686  : 
-0x82  /  0x2687  : 
+0x81  /  0x26a6  : 
+0x82  /  0x26a7  : 
 
 A blast of fire licks you into the crater..
-0x83  /  0x269e  : 
+0x83  /  0x26be  : 
 
 They all miss!
-0x84  /  0x26aa  : 
+0x84  /  0x26ca  : 
 
 A living flame leaps at you from the wall!
-0x85  /  0x26c1  : 
+0x85  /  0x26e1  : 
 
 A sheet of living flame is attacking you
-0x86  /  0x26d6  :  but the insulation cloak protects you
-0x87  /  0x26ee  : The flame vanishes into the sword! A hundred voices seem to shout in disappointment from the walls of Hell Well
-0x88  /  0x272d  : 
-0x89  /  0x272e  : You must be joking! Those coals are red-hot!
-0x8a  /  0x274c  : 
+0x86  /  0x26f6  :  but the insulation cloak protects you
+0x87  /  0x270e  : The flame vanishes into the sword! A hundred voices seem to shout in disappointment from the walls of Hell Well
+0x88  /  0x274d  : 
+0x89  /  0x274e  : You must be joking! Those coals are red-hot!
+0x8a  /  0x276c  : 
 
 Fortunately your feet are protected
-0x8b  /  0x2765  : The cloak covers the coals, shutting off their heat
-0x8c  /  0x2784  : But you're standing on it!
-0x8d  /  0x2793  : The egg falls into the nest which burns brighter, throwing up a pillar of sparks which rises to 
+0x8b  /  0x2785  : The cloak covers the coals, shutting off their heat
+0x8c  /  0x27a4  : But you're standing on it!
+0x8d  /  0x27b3  : The egg falls into the nest which burns brighter, throwing up a pillar of sparks which rises to 
 the ceiling. Then a shape seems to come together within the flames, getting ever clearer. A proud bird flies from the now-fading fire: the PHOENIX is born again!
-0x8e  /  0x2822  : The stately phoenix perches nearby, watching you
-0x8f  /  0x283e  : A BALROG stands astride the bridge, holding its 
+0x8e  /  0x2842  : The stately phoenix perches nearby, watching you
+0x8f  /  0x285e  : A BALROG stands astride the bridge, holding its 
 whip of flames. You are trapped!
-0x90  /  0x286e  : 
+0x90  /  0x288e  : 
 
 The Balrog's fire-whip strikes out..
-0x91  /  0x2885  :  It gets you!
-0x92  /  0x288e  :  It misses!
-0x93  /  0x2896  : Your blows pass through it with no effect!
-0x94  /  0x28b1  : You smite the bridge assunder and the Balrog plummets into the chasm. But its whip catches you even as it falls and you are dragged down
-0x95  /  0x28fd  : You fall into the abyss
-0x96  /  0x2908  : 
+0x91  /  0x28a5  :  It gets you!
+0x92  /  0x28ae  :  It misses!
+0x93  /  0x28b6  : Your blows pass through it with no effect!
+0x94  /  0x28d1  : You smite the bridge assunder and the Balrog plummets into the chasm. But its whip catches you even as it falls and you are dragged down
+0x95  /  0x291d  : You fall into the abyss
+0x96  /  0x2928  : 
 
 You fall for hours, it seems, but then a thick 
 mist gently slows your speed..
 
 
-0x97  /  0x2937  : You should only attack enemies
-0x98  /  0x2948  : 
+0x97  /  0x2957  : You should only attack enemies
+0x98  /  0x2968  : 
 
 A puny effort!
-0x99  /  0x2955  : 
+0x99  /  0x2975  : 
 
 Not bad.. for a beginner
-0x9a  /  0x2967  : 
+0x9a  /  0x2987  : 
 
 You are hereby admitted to the ranks of Adventuredom as an "Adventurer"
-0x9b  /  0x2993  : 
+0x9b  /  0x29b3  : 
 
 You are clearly a Master Adventurer!
-0x9c  /  0x29a9  : 
+0x9c  /  0x29c9  : 
 
 All Middle-Earth hails thee: "Grandmaster Adventurer!". Congratulations, you are one of the elite who have cracked this game.
-0x9d  /  0x29fa  : 
-0x9e  /  0x29fb  : 
+0x9d  /  0x2a1a  : 
+0x9e  /  0x2a1b  : 
 
 You are severely chilled and must have warmth
-0x9f  /  0x2a15  : 
+0x9f  /  0x2a35  : 
 
 Without heat you will die of exposure
 
 
-0xa0  /  0x2a2f  : 
+0xa0  /  0x2a4f  : 
 
 The orcs are closing in
-0xa1  /  0x2a3a  : 
+0xa1  /  0x2a5a  : 
 
 The food warms you a little
-0xa2  /  0x2a4a  : 
+0xa2  /  0x2a6a  : 
 
 You die of thirst!
-0xa3  /  0x2a55  : 
+0xa3  /  0x2a75  : 
 
 The brazier warms you instantly!
-0xa4  /  0x2a68  : The brazier shrinks into a tiny ornament
-0xa5  /  0x2a80  : The brazier expands, giving out a welcome warmth
-0xa6  /  0x2a9d  : You slide down a scree slope. The orcs daren't follow..
-0xa7  /  0x2abe  : 
-0xa8  /  0x2abf  : A reflected face in the marsh looks back. Your gaze is locked!
-0xa9  /  0x2ae6  : You cannot escape the hypnotic link
-0xaa  /  0x2afb  : 
+0xa4  /  0x2a88  : The brazier shrinks into a tiny ornament
+0xa5  /  0x2aa0  : The brazier expands, giving out a welcome warmth
+0xa6  /  0x2abd  : You slide down a scree slope. The orcs daren't follow..
+0xa7  /  0x2ade  : 
+0xa8  /  0x2adf  : A reflected face in the marsh looks back. Your gaze is locked!
+0xa9  /  0x2b06  : You cannot escape the hypnotic link
+0xaa  /  0x2b1b  : 
 
 You take a step towards the face..
-0xab  /  0x2b0f  : 
+0xab  /  0x2b2f  : 
 
 Ripples disrupt the reflection. You are free!
-0xac  /  0x2b2e  : 
+0xac  /  0x2b4e  : 
 
 The quicksand sucks you down!
-0xad  /  0x2b40  : 
+0xad  /  0x2b60  : 
 
 You stumble into the marsh. 
 
-0xae  /  0x2b4d  : 
+0xae  /  0x2b6d  : 
 
 A skeletal hand is gripping your leg and dragging you into the marsh!
-0xaf  /  0x2b71  : You sever the hand which falls back into the marsh
-0xb0  /  0x2b87  : You cannot move!
-0xb1  /  0x2b8f  : 
+0xaf  /  0x2b91  : You sever the hand which falls back into the marsh
+0xb0  /  0x2ba7  : You cannot move!
+0xb1  /  0x2baf  : 
 
 You are surrounded by cold shadowy ghosts which are feeding from your very life energy
-0xb2  /  0x2bbb  : 
+0xb2  /  0x2bdb  : 
 
 The blast of heat banishes the shadows
-0xb3  /  0x2bd0  : 
-0xb4  /  0x2bd1  : The bell rings and the door creaks open. A gravelly voice croaks from the darkness: 'Enter.. The master awaits..'
-0xb5  /  0x2c11  : 
+0xb3  /  0x2bf0  : 
+0xb4  /  0x2bf1  : The bell rings and the door creaks open. A gravelly voice croaks from the darkness: 'Enter.. The master awaits..'
+0xb5  /  0x2c31  : 
 
 A cloaked figure stands at the back of the hall. It walks slowly forwards and then springs! 
 
-0xb6  /  0x2c44  : 'Ugh! Garlic! I'm leaving!' The vampire flees
-0xb7  /  0x2c65  : "I'm so glad that someone has finally dropped in for a bite. Just tilt your head to one side..."
-0xb8  /  0x2ca4  : As you insert the stone the alarms sound. It's the wrong one! The corridoor fills with gas..
-0xb9  /  0x2cd5  : The door swings open
-0xba  /  0x2cdf  : You stand before the throne where the Demon Lord sits laughing. You cannot move!
-0xbb  /  0x2d07  : 
+0xb6  /  0x2c64  : 'Ugh! Garlic! I'm leaving!' The vampire flees
+0xb7  /  0x2c85  : "I'm so glad that someone has finally dropped in for a bite. Just tilt your head to one side..."
+0xb8  /  0x2cc4  : As you insert the stone the alarms sound. It's the wrong one! The corridoor fills with gas..
+0xb9  /  0x2cf5  : The door swings open
+0xba  /  0x2cff  : You stand before the throne where the Demon Lord sits laughing. You cannot move!
+0xbb  /  0x2d27  : 
 
 "Come in!", sneers an evil voice, "I have watched your pitiful efforts against MY servants. Surely you did not expect to defeat ME!!". Dozens of orcs surround you and herd you north
 
 
-0xbc  /  0x2d7f  : 
+0xbc  /  0x2d9f  : 
 
 The Demon shrieks in terror, struggles through 
 the skins lining the north wall and is gone
-0xbd  /  0x2dad  : You hear pursuit close behind
-0xbe  /  0x2dbd  : The orcs run past and the sound of pursuit dies 
+0xbd  /  0x2dcd  : You hear pursuit close behind
+0xbe  /  0x2ddd  : The orcs run past and the sound of pursuit dies 
 away
-0xbf  /  0x2dd9  : The Demon Lord freezes you with a look: "You will still fail!", he snarls, "No amulet can work so close to the centre of my power." 
+0xbf  /  0x2df9  : The Demon Lord freezes you with a look: "You will still fail!", he snarls, "No amulet can work so close to the centre of my power." 
 
-0xc0  /  0x2e25  : 
-0xc1  /  0x2e26  : 
-0xc2  /  0x2e27  : 
+0xc0  /  0x2e45  : 
+0xc1  /  0x2e46  : 
+0xc2  /  0x2e47  : 
 
 But the PHOENIX dives at the fire, destroying it completely! The Demon Lord screams and implodes to nothing: your mission is successful!!
 
  
 
 
-0xc3  /  0x2e7a  : You scored 
+0xc3  /  0x2e9a  : You scored 
 
-0xc4  /  0x2e81  :  
+0xc4  /  0x2ea1  :  
 out of about 6000.
 
 
-0xc5  /  0x2e8f  : A giant sits in the middle of the path, blocking it. He is picking at the bones of some unfortunate creature
-0xc6  /  0x2ec6  : You sever the bridge which falls away into the cavern, preventing any pursuit
-0xc7  /  0x2eef  : 
+0xc5  /  0x2eaf  : A giant sits in the middle of the path, blocking it. He is picking at the bones of some unfortunate creature
+0xc6  /  0x2ee6  : You sever the bridge which falls away into the cavern, preventing any pursuit
+0xc7  /  0x2f0f  : 
 
 Fires leap from the crater to the:
-0xc8  /  0x2f02  : Nothing happens
-0xc9  /  0x2f0d  : 
+0xc8  /  0x2f22  : Nothing happens
+0xc9  /  0x2f2d  : 
 
 A unicorn stands in the clearing
-0xca  /  0x2f1f  : 
+0xca  /  0x2f3f  : 
 
 A sphinx guards the pyramid
-0xcb  /  0x2f31  : 
+0xcb  /  0x2f51  : 
 
 Poisonous snakes cover the pyramid
-0xcc  /  0x2f46  : 
+0xcc  /  0x2f66  : 
 
 A stone slab blocks the way north
-0xcd  /  0x2f57  : You can't get near to it
-0xce  /  0x2f65  : 
+0xcd  /  0x2f77  : You can't get near to it
+0xce  /  0x2f85  : 
 
 A Djinn stands before you, guarding the oasis to the south
-0xcf  /  0x2f82  : 
+0xcf  /  0x2fa2  : 
 
 The tower is surrounded by orcs
-0xd0  /  0x2f8c  : 
+0xd0  /  0x2fac  : 
 
 The snowman is chained to the mountain
-0xd1  /  0x2f9d  : 
+0xd1  /  0x2fbd  : 
 
 There is a small stalagmite near the edge
-0xd2  /  0x2fb2  : 
+0xd2  /  0x2fd2  : 
 
 A pile of giant rocks lies beside the steps
-0xd3  /  0x2fca  : 
+0xd3  /  0x2fea  : 
 
 A rock bridge spans the chasm
-0xd4  /  0x2fda  : 
+0xd4  /  0x2ffa  : 
 
 A dragon fills the cave!
-0xd5  /  0x2fe8  : 
+0xd5  /  0x3008  : 
 
 Orcs block the way north
-0xd6  /  0x2ff5  : 
+0xd6  /  0x3015  : 
 
 A rope hangs down into the darkness below
-0xd7  /  0x300a  : You have nothing to drink
-0xd8  /  0x3019  : There is no suitable liquid within reach
-0xd9  /  0x3032  : 
+0xd7  /  0x302a  : You have nothing to drink
+0xd8  /  0x3039  : There is no suitable liquid within reach
+0xd9  /  0x3052  : 
 
 The door is rusted solid
-0xda  /  0x303d  : 
+0xda  /  0x305d  : 
 
 The door is locked
-0xdb  /  0x3044  : You oil the door and think that it might open now
-0xdc  /  0x305e  :  
+0xdb  /  0x3064  : You oil the door and think that it might open now
+0xdc  /  0x307e  :  
 
-0xdd  /  0x3060  : The Earth-Stone
-0xde  /  0x3067  : The Mist-Stone
-0xdf  /  0x306e  : The Star-Stone
-0xe0  /  0x3075  : The Sun-Stone
-0xe1  /  0x307c  : The Medallion of Good
-0xe2  /  0x3087  : a pair of water-proof boots
-0xe3  /  0x3098  : a bottle: 
+0xdd  /  0x3080  : The Earth-Stone
+0xde  /  0x3087  : The Mist-Stone
+0xdf  /  0x308e  : The Star-Stone
+0xe0  /  0x3095  : The Sun-Stone
+0xe1  /  0x309c  : The Medallion of Good
+0xe2  /  0x30a7  : a pair of water-proof boots
+0xe3  /  0x30b8  : a bottle: 
 
-0xe4  /  0x30a1  : a tiny brazier
-0xe5  /  0x30ab  : a bunch of keys
-0xe6  /  0x30b6  : an insulation cloak
-0xe7  /  0x30c2  : a crystal compass enscribed 'this game Copyright (C) 1983 Level 9 Computing'. Unauthorised copying or loan is prohibited.
-0xe8  /  0x3116  : a bird's egg
-0xe9  /  0x311f  : an emerald eye
-0xea  /  0x3127  : a ruby
-0xeb  /  0x312c  : a lung-fish token
-0xec  /  0x3139  : some fruit
-0xed  /  0x3140  : a luminous jelly-fish
-0xee  /  0x314f  : a little lamp
-0xef  /  0x3158  : a fishing net
-0xf0  /  0x3160  : an onion
-0xf1  /  0x3165  : a rare orchid
-0xf2  /  0x316e  : a set of pan pipes
-0xf3  /  0x3179  : a crooked stick
-0xf4  /  0x3183  : a coil of rope
-0xf5  /  0x318d  : a scroll
-0xf6  /  0x3193  : a small silver ball
-0xf7  /  0x319c  : a sling
-0xf8  /  0x31a2  : an abominable snowman, following you
-0xf9  /  0x31b5  : The Sacred Sun-Dial
-0xfa  /  0x31c3  : a richly-worked sword
-0xfb  /  0x31d1  : a kitchen table
-0xfc  /  0x31db  : a three-pronged trident
-0xfd  /  0x31eb  : an inflated leather bag
-0xfe  /  0x31f8  : 
-0xff  /  0x31f9  : 
-0x100  /  0x31fa  : 
-0x101  /  0x31fb  : 
-0x102  /  0x31fc  : 
-0x103  /  0x31fd  : 
-0x104  /  0x31fe  : An insulating cloak lies nearby
-0x105  /  0x3212  : The Earth-stone is here!
-0x106  /  0x3220  : The Mist-Stone is here!
-0x107  /  0x322c  : The Star-Stone is here!
-0x108  /  0x3238  : The Sun-Stone is here!
-0x109  /  0x3244  : An ancient medallion lies on the ground
-0x10a  /  0x3257  : A pair of boots lies nearby
-0x10b  /  0x3269  : A bottle lies nearby: 
+0xe4  /  0x30c1  : a tiny brazier
+0xe5  /  0x30cb  : a bunch of keys
+0xe6  /  0x30d6  : an insulation cloak
+0xe7  /  0x30e2  : a crystal compass enscribed 'this game Copyright (C) 1983 Level 9 Computing'. Unauthorised copying or loan is prohibited.
+0xe8  /  0x3136  : a bird's egg
+0xe9  /  0x313f  : an emerald eye
+0xea  /  0x3147  : a ruby
+0xeb  /  0x314c  : a lung-fish token
+0xec  /  0x3159  : some fruit
+0xed  /  0x3160  : a luminous jelly-fish
+0xee  /  0x316f  : a little lamp
+0xef  /  0x3178  : a fishing net
+0xf0  /  0x3180  : an onion
+0xf1  /  0x3185  : a rare orchid
+0xf2  /  0x318e  : a set of pan pipes
+0xf3  /  0x3199  : a crooked stick
+0xf4  /  0x31a3  : a coil of rope
+0xf5  /  0x31ad  : a scroll
+0xf6  /  0x31b3  : a small silver ball
+0xf7  /  0x31bc  : a sling
+0xf8  /  0x31c2  : an abominable snowman, following you
+0xf9  /  0x31d5  : The Sacred Sun-Dial
+0xfa  /  0x31e3  : a richly-worked sword
+0xfb  /  0x31f1  : a kitchen table
+0xfc  /  0x31fb  : a three-pronged trident
+0xfd  /  0x320b  : an inflated leather bag
+0xfe  /  0x3218  : 
+0xff  /  0x3219  : 
+0x100  /  0x321a  : 
+0x101  /  0x321b  : 
+0x102  /  0x321c  : 
+0x103  /  0x321d  : 
+0x104  /  0x321e  : An insulating cloak lies nearby
+0x105  /  0x3232  : The Earth-stone is here!
+0x106  /  0x3240  : The Mist-Stone is here!
+0x107  /  0x324c  : The Star-Stone is here!
+0x108  /  0x3258  : The Sun-Stone is here!
+0x109  /  0x3264  : An ancient medallion lies on the ground
+0x10a  /  0x3277  : A pair of boots lies nearby
+0x10b  /  0x3289  : A bottle lies nearby: 
 
-0x10c  /  0x3279  : A cool brazier sits, glowing like a commercial
-0x10d  /  0x3295  : A bunch of keys is here
-0x10e  /  0x32a4  : A cloak of insulation material lies nearby
-0x10f  /  0x32bd  : 
-0x110  /  0x32be  : There is a bird's egg here
-0x111  /  0x32cd  : An emerald eye is here
-0x112  /  0x32da  : A ruby is here
-0x113  /  0x32e3  : A model of a lung-fish lies on the ground
-0x114  /  0x32f9  : Some fruit is lying here
-0x115  /  0x3307  : A luminous jelly-fish floats overhead
-0x116  /  0x331f  : An oriental lamp is here
-0x117  /  0x332f  : There is a fishing net here
-0x118  /  0x333e  : An onion rolls on the ground
-0x119  /  0x334b  : There is a rare orchid here
-0x11a  /  0x335a  : Pan pipes lie on the ground
-0x11b  /  0x3367  : A stick lies on the ground
-0x11c  /  0x3373  : There is a coil of rope here
-0x11d  /  0x3383  : A scroll is here
-0x11e  /  0x338d  : A silver ball is here
-0x11f  /  0x3399  : A small sling is here
-0x120  /  0x33a3  : An abominable snowman lurks nearby
-0x121  /  0x33b8  : The Sacred Sun-Dial is here!
-0x122  /  0x33cb  : A fine sword is here
-0x123  /  0x33d7  : A small table is here
-0x124  /  0x33e1  : A trident is here
-0x125  /  0x33ec  : A small leather bag lies here, moving slightly as if it held a live creature
-0x126  /  0x3415  : 
-0x127  /  0x3416  : 
-0x128  /  0x3417  : 
-0x129  /  0x3418  : 
-0x12a  /  0x3419  : 
-0x12b  /  0x341a  : 
-0x12c  /  0x341b  : 
-0x12d  /  0x341c  : lost in the forest
-0x12e  /  0x3424  : lost in the forest
-0x12f  /  0x342c  : lost in the forest
-0x130  /  0x3434  : lost in the forest
-0x131  /  0x343c  : lost in the forest beside a huge oak tree with branches resting on the ground
-0x132  /  0x3461  : in dense forest, surrounded by clinging plants and small biting insects
-0x133  /  0x3481  : at the end of a road from the north, outside a small brick building. A river flows south through a narrow valley and there is dense woodland all around
-0x134  /  0x34ca  : in a narrow north-south valley through the forest. A small stream, clogged by dead vegetation, seeps sluggishly south. A miasma of decay pervades the scene
-0x135  /  0x351a  : in a north-south valley. A small steam flows from the north and seeps away into the swampy ground
-0x136  /  0x3545  : in a 20 foot deep depression in the floor of a steep valley. The remains of an iron grate can just be made out, set into the ground, but it is blocked by concrete and has almost rusted away
-0x137  /  0x35a3  : stumbling over sharp stones in a steeply sloping gulley
-0x138  /  0x35c0  : at the top of a high cliff which slices across the land. Far below you are the southern lowlands: once a prosperous farming area but now devastated by drought, plague and war. A few animals roam the dry fields
-0x139  /  0x3634  : on the steep east side of a valley, overgrown with brambles and stinging plants
-0x13a  /  0x365c  : at the base of a stone pinnacle which rises from the gloom of the trees into the sunlight above. A narrow path spirals round it, climbing upwards
-0x13b  /  0x36a7  : on a road north of the building. All around is desolate scrub-land where sparse weeds strive for life in the poisoned ground
-0x13c  /  0x36ea  : at the edge of the 'fertile' land. Nothing grows in the desert which stretches north as far as the eye can see. Heat haze blurs your vision, but you can just make out the shape of a high mountain within it
-0x13d  /  0x3757  : sitting on a gnarled tree-branch which is half-split from its parent trunk and resting on the ground
-0x13e  /  0x378d  : in the building. Steps lead down a well in the centre of the floor. A white dot is marked over the door
-0x13f  /  0x37be  : in the well. A message on the wall says "Congratulations on bringing light to the dark well! Give yourself a 1000 point bonus for being lucky!!"
-0x140  /  0x3812  : in a small woodland clearing carpetted with buttercups and sweet grasses
-0x141  /  0x3839  : in a grove of tall trees, relics of the original "Great Forest" which covered this area before the coming of the Desolation
-0x142  /  0x3879  : on a path through dense forest
-0x143  /  0x3888  : in woodland above the valley. A path leads north into dense forest
-0x144  /  0x38a9  : on a path winding round the rock pinnacle
-0x145  /  0x38bc  : at the top of a stone pinnacle high above the forest. A steep escarpment falls away to the south, leading down to once-fertile lowlands. A forest of tangled trees smothers the higher land around you and to the north is baked desert. A mountain rises above the sands, and you can just make out a stone tower on its slopes
-0x146  /  0x395b  : on trackless desert
-0x147  /  0x395f  : on trackless desert
-0x148  /  0x3963  : on trackless desert
-0x149  /  0x3967  : on trackless desert
-0x14a  /  0x396b  : on trackless desert
-0x14b  /  0x396f  : on trackless desert
-0x14c  /  0x3973  : on trackless desert beside a black pillar. The pillar is round, and perfectly smooth but for a single white dot half-way up
-0x14d  /  0x39af  : on trackless desert above a deep canyon. A small oasis sits in the bottom of the canyon, nestling at the foot of the southern cliffs below
-0x14e  /  0x39e8  : on trackless desert south of a canyon
-0x14f  /  0x39f3  : on trackless desert south of a canyon. A large flat-topped pyramid with steps on all sides rises from the desert, and to the east an outcrop ofpolished rock resists the shifting sands
-0x150  /  0x3a4b  : inside a small temple to the sun god on the pyramid. It is surrounded by stone pillars and has a large central altar, but is roofless of course
-0x151  /  0x3a8e  : on top of the pyramid outside a small temple
-0x152  /  0x3aa2  : on a rocky outcrop overlooking the desert and the pyramid. A path leads down to the north into a chasm between the outcrop and its parent mountain
-0x153  /  0x3ae9  : at the southern edge of a vast desert, baked by 
+0x10c  /  0x3299  : A cool brazier sits, glowing like a commercial
+0x10d  /  0x32b5  : A bunch of keys is here
+0x10e  /  0x32c4  : A cloak of insulation material lies nearby
+0x10f  /  0x32dd  : 
+0x110  /  0x32de  : There is a bird's egg here
+0x111  /  0x32ed  : An emerald eye is here
+0x112  /  0x32fa  : A ruby is here
+0x113  /  0x3303  : A model of a lung-fish lies on the ground
+0x114  /  0x3319  : Some fruit is lying here
+0x115  /  0x3327  : A luminous jelly-fish floats overhead
+0x116  /  0x333f  : An oriental lamp is here
+0x117  /  0x334f  : There is a fishing net here
+0x118  /  0x335e  : An onion rolls on the ground
+0x119  /  0x336b  : There is a rare orchid here
+0x11a  /  0x337a  : Pan pipes lie on the ground
+0x11b  /  0x3387  : A stick lies on the ground
+0x11c  /  0x3393  : There is a coil of rope here
+0x11d  /  0x33a3  : A scroll is here
+0x11e  /  0x33ad  : A silver ball is here
+0x11f  /  0x33b9  : A small sling is here
+0x120  /  0x33c3  : An abominable snowman lurks nearby
+0x121  /  0x33d8  : The Sacred Sun-Dial is here!
+0x122  /  0x33eb  : A fine sword is here
+0x123  /  0x33f7  : A small table is here
+0x124  /  0x3401  : A trident is here
+0x125  /  0x340c  : A small leather bag lies here, moving slightly as if it held a live creature
+0x126  /  0x3435  : 
+0x127  /  0x3436  : 
+0x128  /  0x3437  : 
+0x129  /  0x3438  : 
+0x12a  /  0x3439  : 
+0x12b  /  0x343a  : 
+0x12c  /  0x343b  : 
+0x12d  /  0x343c  : lost in the forest
+0x12e  /  0x3444  : lost in the forest
+0x12f  /  0x344c  : lost in the forest
+0x130  /  0x3454  : lost in the forest
+0x131  /  0x345c  : lost in the forest beside a huge oak tree with branches resting on the ground
+0x132  /  0x3481  : in dense forest, surrounded by clinging plants and small biting insects
+0x133  /  0x34a1  : at the end of a road from the north, outside a small brick building. A river flows south through a narrow valley and there is dense woodland all around
+0x134  /  0x34ea  : in a narrow north-south valley through the forest. A small stream, clogged by dead vegetation, seeps sluggishly south. A miasma of decay pervades the scene
+0x135  /  0x353a  : in a north-south valley. A small steam flows from the north and seeps away into the swampy ground
+0x136  /  0x3565  : in a 20 foot deep depression in the floor of a steep valley. The remains of an iron grate can just be made out, set into the ground, but it is blocked by concrete and has almost rusted away
+0x137  /  0x35c3  : stumbling over sharp stones in a steeply sloping gulley
+0x138  /  0x35e0  : at the top of a high cliff which slices across the land. Far below you are the southern lowlands: once a prosperous farming area but now devastated by drought, plague and war. A few animals roam the dry fields
+0x139  /  0x3654  : on the steep east side of a valley, overgrown with brambles and stinging plants
+0x13a  /  0x367c  : at the base of a stone pinnacle which rises from the gloom of the trees into the sunlight above. A narrow path spirals round it, climbing upwards
+0x13b  /  0x36c7  : on a road north of the building. All around is desolate scrub-land where sparse weeds strive for life in the poisoned ground
+0x13c  /  0x370a  : at the edge of the 'fertile' land. Nothing grows in the desert which stretches north as far as the eye can see. Heat haze blurs your vision, but you can just make out the shape of a high mountain within it
+0x13d  /  0x3777  : sitting on a gnarled tree-branch which is half-split from its parent trunk and resting on the ground
+0x13e  /  0x37ad  : in the building. Steps lead down a well in the centre of the floor. A white dot is marked over the door
+0x13f  /  0x37de  : in the well. A message on the wall says "Congratulations on bringing light to the dark well! Give yourself a 1000 point bonus for being lucky!!"
+0x140  /  0x3832  : in a small woodland clearing carpetted with buttercups and sweet grasses
+0x141  /  0x3859  : in a grove of tall trees, relics of the original "Great Forest" which covered this area before the coming of the Desolation
+0x142  /  0x3899  : on a path through dense forest
+0x143  /  0x38a8  : in woodland above the valley. A path leads north into dense forest
+0x144  /  0x38c9  : on a path winding round the rock pinnacle
+0x145  /  0x38dc  : at the top of a stone pinnacle high above the forest. A steep escarpment falls away to the south, leading down to once-fertile lowlands. A forest of tangled trees smothers the higher land around you and to the north is baked desert. A mountain rises above the sands, and you can just make out a stone tower on its slopes
+0x146  /  0x397b  : on trackless desert
+0x147  /  0x397f  : on trackless desert
+0x148  /  0x3983  : on trackless desert
+0x149  /  0x3987  : on trackless desert
+0x14a  /  0x398b  : on trackless desert
+0x14b  /  0x398f  : on trackless desert
+0x14c  /  0x3993  : on trackless desert beside a black pillar. The pillar is round, and perfectly smooth but for a single white dot half-way up
+0x14d  /  0x39cf  : on trackless desert above a deep canyon. A small oasis sits in the bottom of the canyon, nestling at the foot of the southern cliffs below
+0x14e  /  0x3a08  : on trackless desert south of a canyon
+0x14f  /  0x3a13  : on trackless desert south of a canyon. A large flat-topped pyramid with steps on all sides rises from the desert, and to the east an outcrop ofpolished rock resists the shifting sands
+0x150  /  0x3a6b  : inside a small temple to the sun god on the pyramid. It is surrounded by stone pillars and has a large central altar, but is roofless of course
+0x151  /  0x3aae  : on top of the pyramid outside a small temple
+0x152  /  0x3ac2  : on a rocky outcrop overlooking the desert and the pyramid. A path leads down to the north into a chasm between the outcrop and its parent mountain
+0x153  /  0x3b09  : at the southern edge of a vast desert, baked by 
 the burning sun. Great lines of dunes seem to march north
-0x154  /  0x3b1e  : beside giant rocks which block the valley
-0x155  /  0x3b33  : in a dry east-west canyon with sheer rocky walls
-0x156  /  0x3b4b  : in a dry canyon. Cliffs tower overhead and you can see an oasis to the south
-0x157  /  0x3b6f  : on the side of a mountain rising from the desert
-0x158  /  0x3b84  : in a sheltered wadi. Oil seeps from the rocks
-0x159  /  0x3b9b  : where the wadi ends at a mountain. You could climb up
-0x15a  /  0x3bbb  : at the north edge of an oasis
-0x15b  /  0x3bc8  : in an oasis beside a deep pool of cool water
-0x15c  /  0x3bdf  : swimming in a clear desert pool
-0x15d  /  0x3bf0  : in a looted treasure cave. It has been cleaned out completely and on one wall is written "Ali wuz here"!
-0x15e  /  0x3c28  : in a sheltered east-west valley, protected from 
+0x154  /  0x3b3e  : beside giant rocks which block the valley
+0x155  /  0x3b53  : in a dry east-west canyon with sheer rocky walls
+0x156  /  0x3b6b  : in a dry canyon. Cliffs tower overhead and you can see an oasis to the south
+0x157  /  0x3b8f  : on the side of a mountain rising from the desert
+0x158  /  0x3ba4  : in a sheltered wadi. Oil seeps from the rocks
+0x159  /  0x3bbb  : where the wadi ends at a mountain. You could climb up
+0x15a  /  0x3bdb  : at the north edge of an oasis
+0x15b  /  0x3be8  : in an oasis beside a deep pool of cool water
+0x15c  /  0x3bff  : swimming in a clear desert pool
+0x15d  /  0x3c10  : in a looted treasure cave. It has been cleaned out completely and on one wall is written "Ali wuz here"!
+0x15e  /  0x3c48  : in a sheltered east-west valley, protected from 
 the burning sun by high rocky walls
-0x15f  /  0x3c53  : on a stone staircase zig-zagging up the mountain
-0x160  /  0x3c6e  : on a stone staircase up the mountain
-0x161  /  0x3c80  : on the stone staircase some distance below a stone tower. A body hangs from a gallows and a notice reads "KEEP AWAY OR YOU WILL DIE"
-0x162  /  0x3cd5  : on an east-west track round the mountain
-0x163  /  0x3ce6  : on a climbing path up the mountain
-0x164  /  0x3cf7  : on a track up the mountain
-0x165  /  0x3d04  : on a sheep-track leading upwards
-0x166  /  0x3d15  : on a sheep-track looping back round the mountain
-0x167  /  0x3d2c  : on stone steps some way above a stone tower. A narrow path joins the stairway from the west
-0x168  /  0x3d5d  : on steps leading upwards
-0x169  /  0x3d69  : on a bleak rocky mountainside buffetted by cruel winds which whistle round the peak. A wide stone staircase leads down to the lower slopes
-0x16a  /  0x3dae  : on a steep path through sparse vegetation hung with tatters of bleached lichin
-0x16b  /  0x3dd5  : standing on a snowfield outside a small dark mountain cave
-0x16c  /  0x3df0  : in a smelly cave: the sound of running water reverberates from the walls. A white dot is marked 
+0x15f  /  0x3c73  : on a stone staircase zig-zagging up the mountain
+0x160  /  0x3c8e  : on a stone staircase up the mountain
+0x161  /  0x3ca0  : on the stone staircase some distance below a stone tower. A body hangs from a gallows and a notice reads "KEEP AWAY OR YOU WILL DIE"
+0x162  /  0x3cf5  : on an east-west track round the mountain
+0x163  /  0x3d06  : on a climbing path up the mountain
+0x164  /  0x3d17  : on a track up the mountain
+0x165  /  0x3d24  : on a sheep-track leading upwards
+0x166  /  0x3d35  : on a sheep-track looping back round the mountain
+0x167  /  0x3d4c  : on stone steps some way above a stone tower. A narrow path joins the stairway from the west
+0x168  /  0x3d7d  : on steps leading upwards
+0x169  /  0x3d89  : on a bleak rocky mountainside buffetted by cruel winds which whistle round the peak. A wide stone staircase leads down to the lower slopes
+0x16a  /  0x3dce  : on a steep path through sparse vegetation hung with tatters of bleached lichin
+0x16b  /  0x3df5  : standing on a snowfield outside a small dark mountain cave
+0x16c  /  0x3e10  : in a smelly cave: the sound of running water reverberates from the walls. A white dot is marked 
 on the roof, and at the back of the cave is a sheer drop down into darkness
-0x16d  /  0x3e43  : outside the south door of a stone tower which stands astride the stairway
-0x16e  /  0x3e65  : outside the north door of the tower
-0x16f  /  0x3e73  : in the south tower room. A spiral staircase leads upwards and there are doors to south and east
-0x170  /  0x3ea1  : in the north tower room. Doors lead north and south
-0x171  /  0x3eb9  : in a small room used by the orc guards
-0x172  /  0x3ecb  : on a tight spiral staircase up the inside of the tower
-0x173  /  0x3ee4  : on a spiral staircase half-way up the tower
-0x174  /  0x3efb  : outside a small door. A foul smell seeps from behind it
-0x175  /  0x3f18  : in a small gloomy room with an alcove in the north wall
-0x176  /  0x3f30  : in a tiny alcove at the back of a squalid room
-0x177  /  0x3f48  : on a wide stone staircase climbing up the mountain. A narrow uneven path joins it from the westand leads round the mountain
-0x178  /  0x3f86  : on a ledge. It collapses, hurling you into a fast-flowing underground river! You are swept along helplessly
-0x179  /  0x3fc5  : in a raging torrent
-0x17a  /  0x3fcf  : buffeted by the swift current
-0x17b  /  0x3fe2  : swept round a bend in the river
-0x17c  /  0x3ff4  : in a series of rapids
-0x17d  /  0x3fff  : on the brink of a stretch of rapids
-0x17e  /  0x4012  : tossed around by the rapids
-0x17f  /  0x4022  : in a quiet pool below the rapids and near a gravel beach
-0x180  /  0x4042  : on a featureless lake-bed
-0x181  /  0x4051  : on the lake-bed. A huge clam is firmly rooted to the rocks
-0x182  /  0x4071  : on the lake bed
-0x183  /  0x4079  : on the lake bed
-0x184  /  0x4081  : on the lake bed above a deep dark trench
-0x185  /  0x4098  : on the lake bed above a deep dark trench
-0x186  /  0x40af  : safe in a thick mass of water weed
-0x187  /  0x40c3  : in a drowned grave yard, outside a church. A ringing sound can be heard
-0x188  /  0x40e8  : inside the drowned church. A slow ringing can be heard from the west, behind the pulpit
-0x189  /  0x4115  : inside the belfry, below a tolling bell
-0x18a  /  0x4128  : at the west end of an underwater trench. A swift current flows away through a small gap in the rocks
-0x18b  /  0x415a  : at the east end of an underwater trench, outside a small cave. You think that there may be movement in the cave
-0x18c  /  0x4190  : in shallow water at the edge of the lake
-0x18d  /  0x41a2  : inside an octopus lair. The water is warm and there is a white dot on the wall
-0x18e  /  0x41c5  : on a small gravel beach to the south of a lake in a volcanic crater. You can see a door on the opposite shore, almost hidden in deep shadows
-0x18f  /  0x4209  : on a ledge along the side of a deep chasm, above a swift river
-0x190  /  0x4228  : on a ledge above a series of rapids
-0x191  /  0x423b  : south of a huge door on the north shore of the crater lake. A host of carved stone heads glare at you from above the door, seeming to follow your every move. To the east is a second, smaller entrance, marked with a black dot
-0x192  /  0x42ac  : at the south of a magnificent cave with holes all around. A huge door stands open behind you
-0x193  /  0x42dc  : at a dead end
-0x194  /  0x42e5  : in the centre of a magnificent cave. A web-covered stalagmite reaches upwards towards the sculpted roof
-0x195  /  0x4320  : clinging to a web-covered stalagmite. The cavern floor is far below
-0x196  /  0x4346  : in the middle of a huge web at the top of the stalagmite. A thick web walkway continues upwards
-0x197  /  0x437b  : in the lair of a giant spider, surrounded by a maze of web strands
-0x198  /  0x4399  : at a dead end decorated with ornate carvings cut into the rock
-0x199  /  0x43bb  : at the north of a magnificent cave with holes all around
-0x19a  /  0x43da  : in a small dead-end room. An ancient statue of a warrior elf stands in the centre. One of his eyes is covered by a jewelled patch - the other is missing
-0x19b  /  0x4427  : in an east-west passage decorated with carvings
-0x19c  /  0x4441  : in a sloping corridoor warmed by rising hot air
-0x19d  /  0x4458  : at a dead end
-0x19e  /  0x4461  : in a steeply-sloping east-west passage which winds upwards through the rock
-0x19f  /  0x4487  : at a junction between north-south and east-west 
+0x16d  /  0x3e63  : outside the south door of a stone tower which stands astride the stairway
+0x16e  /  0x3e85  : outside the north door of the tower
+0x16f  /  0x3e93  : in the south tower room. A spiral staircase leads upwards and there are doors to south and east
+0x170  /  0x3ec1  : in the north tower room. Doors lead north and south
+0x171  /  0x3ed9  : in a small room used by the orc guards
+0x172  /  0x3eeb  : on a tight spiral staircase up the inside of the tower
+0x173  /  0x3f04  : on a spiral staircase half-way up the tower
+0x174  /  0x3f1b  : outside a small door. A foul smell seeps from behind it
+0x175  /  0x3f38  : in a small gloomy room with an alcove in the north wall
+0x176  /  0x3f50  : in a tiny alcove at the back of a squalid room
+0x177  /  0x3f68  : on a wide stone staircase climbing up the mountain. A narrow uneven path joins it from the westand leads round the mountain
+0x178  /  0x3fa6  : on a ledge. It collapses, hurling you into a fast-flowing underground river! You are swept along helplessly
+0x179  /  0x3fe5  : in a raging torrent
+0x17a  /  0x3fef  : buffeted by the swift current
+0x17b  /  0x4002  : swept round a bend in the river
+0x17c  /  0x4014  : in a series of rapids
+0x17d  /  0x401f  : on the brink of a stretch of rapids
+0x17e  /  0x4032  : tossed around by the rapids
+0x17f  /  0x4042  : in a quiet pool below the rapids and near a gravel beach
+0x180  /  0x4062  : on a featureless lake-bed
+0x181  /  0x4071  : on the lake-bed. A huge clam is firmly rooted to the rocks
+0x182  /  0x4091  : on the lake bed
+0x183  /  0x4099  : on the lake bed
+0x184  /  0x40a1  : on the lake bed above a deep dark trench
+0x185  /  0x40b8  : on the lake bed above a deep dark trench
+0x186  /  0x40cf  : safe in a thick mass of water weed
+0x187  /  0x40e3  : in a drowned grave yard, outside a church. A ringing sound can be heard
+0x188  /  0x4108  : inside the drowned church. A slow ringing can be heard from the west, behind the pulpit
+0x189  /  0x4135  : inside the belfry, below a tolling bell
+0x18a  /  0x4148  : at the west end of an underwater trench. A swift current flows away through a small gap in the rocks
+0x18b  /  0x417a  : at the east end of an underwater trench, outside a small cave. You think that there may be movement in the cave
+0x18c  /  0x41b0  : in shallow water at the edge of the lake
+0x18d  /  0x41c2  : inside an octopus lair. The water is warm and there is a white dot on the wall
+0x18e  /  0x41e5  : on a small gravel beach to the south of a lake in a volcanic crater. You can see a door on the opposite shore, almost hidden in deep shadows
+0x18f  /  0x4229  : on a ledge along the side of a deep chasm, above a swift river
+0x190  /  0x4248  : on a ledge above a series of rapids
+0x191  /  0x425b  : south of a huge door on the north shore of the crater lake. A host of carved stone heads glare at you from above the door, seeming to follow your every move. To the east is a second, smaller entrance, marked with a black dot
+0x192  /  0x42cc  : at the south of a magnificent cave with holes all around. A huge door stands open behind you
+0x193  /  0x42fc  : at a dead end
+0x194  /  0x4305  : in the centre of a magnificent cave. A web-covered stalagmite reaches upwards towards the sculpted roof
+0x195  /  0x4340  : clinging to a web-covered stalagmite. The cavern floor is far below
+0x196  /  0x4366  : in the middle of a huge web at the top of the stalagmite. A thick web walkway continues upwards
+0x197  /  0x439b  : in the lair of a giant spider, surrounded by a maze of web strands
+0x198  /  0x43b9  : at a dead end decorated with ornate carvings cut into the rock
+0x199  /  0x43db  : at the north of a magnificent cave with holes all around
+0x19a  /  0x43fa  : in a small dead-end room. An ancient statue of a warrior elf stands in the centre. One of his eyes is covered by a jewelled patch - the other is missing
+0x19b  /  0x4447  : in an east-west passage decorated with carvings
+0x19c  /  0x4461  : in a sloping corridoor warmed by rising hot air
+0x19d  /  0x4478  : at a dead end
+0x19e  /  0x4481  : in a steeply-sloping east-west passage which winds upwards through the rock
+0x19f  /  0x44a7  : at a junction between north-south and east-west 
 passages
-0x1a0  /  0x44a5  : on a ledge clinging to the west wall of a huge cavern. The cavern floor is just visible, far below
-0x1a1  /  0x44d7  : on a ledge which clings to the west wall of a large cavern
-0x1a2  /  0x44f6  : trapped at a dead end
-0x1a3  /  0x4504  : at the entrance to an orc lair. Crude passages are hacked to east and south and an opening looks out over the east side of an immense cavern. The lair is unguarded
-0x1a4  /  0x4555  : in a smelly store-room
-0x1a5  /  0x4560  : in a feast-hall full of celebrating orcs. You'll have to guess what they are feasting upon
-0x1a6  /  0x4595  : in a jagged north-south passage. The roof is supported by rotting tree-trunks. The noise of a celebration comes from an opening to the east
-0x1a7  /  0x45dd  : at the end of the passage: it is blocked by a cave-in. A narrow opening leads west
-0x1a8  /  0x4605  : in a tiny store-room
-0x1a9  /  0x460f  : in a mass of giant rocks
-0x1aa  /  0x461c  : in a sloping corridoor lit from the west by a weird flickering light. The floor and walls feel warm to the touch
-0x1ab  /  0x4656  : in a round smooth cave with several exits
-0x1ac  /  0x466f  : in the dragon's lair. The floor is covered in gold coins but, sadly for you, the dragon's breath has fused them solid. "Why don't all dragons do this", you wonder
-0x1ad  /  0x46cb  : in a cave overlooking a huge volcanic crater
-0x1ae  /  0x46e0  : on a ledge over the crater. A path spirals anticlockwise to a cave far below
-0x1af  /  0x4705  : on a ledge north-east of the crater
-0x1b0  /  0x4711  : on a ledge north-west of the crater
-0x1b1  /  0x471c  : on a ledge west of the crater, opposite two caves on the far side. The path slopes up towards one cave and down to the other
-0x1b2  /  0x4758  : on a ledge south-west of the crater
-0x1b3  /  0x4764  : on a ledge south-east of the crater
-0x1b4  /  0x4771  : on a ledge east of the volcanic crater, beside a cave entrance. The heat from the bubbling lava 
+0x1a0  /  0x44c5  : on a ledge clinging to the west wall of a huge cavern. The cavern floor is just visible, far below
+0x1a1  /  0x44f7  : on a ledge which clings to the west wall of a large cavern
+0x1a2  /  0x4516  : trapped at a dead end
+0x1a3  /  0x4524  : at the entrance to an orc lair. Crude passages are hacked to east and south and an opening looks out over the east side of an immense cavern. The lair is unguarded
+0x1a4  /  0x4575  : in a smelly store-room
+0x1a5  /  0x4580  : in a feast-hall full of celebrating orcs. You'll have to guess what they are feasting upon
+0x1a6  /  0x45b5  : in a jagged north-south passage. The roof is supported by rotting tree-trunks. The noise of a celebration comes from an opening to the east
+0x1a7  /  0x45fd  : at the end of the passage: it is blocked by a cave-in. A narrow opening leads west
+0x1a8  /  0x4625  : in a tiny store-room
+0x1a9  /  0x462f  : in a mass of giant rocks
+0x1aa  /  0x463c  : in a sloping corridoor lit from the west by a weird flickering light. The floor and walls feel warm to the touch
+0x1ab  /  0x4676  : in a round smooth cave with several exits
+0x1ac  /  0x468f  : in the dragon's lair. The floor is covered in gold coins but, sadly for you, the dragon's breath has fused them solid. "Why don't all dragons do this", you wonder
+0x1ad  /  0x46eb  : in a cave overlooking a huge volcanic crater
+0x1ae  /  0x4700  : on a ledge over the crater. A path spirals anticlockwise to a cave far below
+0x1af  /  0x4725  : on a ledge north-east of the crater
+0x1b0  /  0x4731  : on a ledge north-west of the crater
+0x1b1  /  0x473c  : on a ledge west of the crater, opposite two caves on the far side. The path slopes up towards one cave and down to the other
+0x1b2  /  0x4778  : on a ledge south-west of the crater
+0x1b3  /  0x4784  : on a ledge south-east of the crater
+0x1b4  /  0x4791  : on a ledge east of the volcanic crater, beside a cave entrance. The heat from the bubbling lava 
 just below is immense. A path slopes up clockwise to another cave high above
-0x1b5  /  0x47c8  : in a cave opening onto a volcanic crater. A huge hole almost fills the cave floor and a ramp spirals down into it. Warning runes are carved at the top of the ramp
-0x1b6  /  0x4815  : on a spiral ramp at the top of Hell-well. The walls of the well are inset with small niches containing small flickering lights
-0x1b7  /  0x4849  : on a spiral ramp half way up Hell-well. The walls are inset with small niches containing trapped flames
-0x1b8  /  0x487a  : on a spiral ramp near the bottom of Hell-well. The walls of the well are inset with small niches holding tiny flames
-0x1b9  /  0x48ad  : standing on shattered rocks at the bottom of Hell-well. A broken door leads west
-0x1ba  /  0x48cd  : at a crossing between passages. The floor is made up of red-hot coals
-0x1bb  /  0x48f4  : in a hot room. The north door is marked with a black dot
-0x1bc  /  0x490e  : in an ornate room decorated with symbols of infinity. A nest burns on a marble plinth in the centre of the room: yet it is not consumed, and neither does it give off any smoke or heat
-0x1bd  /  0x4974  : in a hot east-west corridor. To the east is a bed of glowing coals
-0x1be  /  0x4992  : standing by the alter
-0x1bf  /  0x499b  : on the east side of a bottomless chasm
-0x1c0  /  0x49ae  : on a narrow stone bridge poised over the chasm
-0x1c1  /  0x49c4  : on the west of the chasm. Steps lead up to an altar above you
-0x1c2  /  0x49e3  : iQ a very hot passage. The floor is covered by hot coals to the west
-0x1c3  /  0x4a07  : on a bleak moor
-0x1c4  /  0x4a0c  : on a bleak moor above swirling mists. A black tower rises above the fog to the south
-0x1c5  /  0x4a29  : on a bleak moor above swirling mists. A black tower rises from the fog to the south
-0x1c6  /  0x4a47  : on a bleak moor
-0x1c7  /  0x4a4c  : on a bleak moor above swirling mists. A black tower rises from the fog to the south
-0x1c8  /  0x4a6a  : on a bleak moor above swirling mists
-0x1c9  /  0x4a77  : on a bleak moor above swirling mists
-0x1ca  /  0x4a84  : on a bleak moor
-0x1cb  /  0x4a89  : on a bleak moor
-0x1cc  /  0x4a8e  : on a bleak moor overlooking a deep ravine
-0x1cd  /  0x4aa1  : on a bleak moor between mists and a deep ravine
-0x1ce  /  0x4ab9  : on a bleak moor above swirling mists
-0x1cf  /  0x4ac6  : on a bleak moor above swirling mists
-0x1d0  /  0x4ad3  : on a bleak moor south of a barrow-topped hill
-0x1d1  /  0x4ae7  : on a hill-top outside a long barrow. The lintel 
+0x1b5  /  0x47e8  : in a cave opening onto a volcanic crater. A huge hole almost fills the cave floor and a ramp spirals down into it. Warning runes are carved at the top of the ramp
+0x1b6  /  0x4835  : on a spiral ramp at the top of Hell-well. The walls of the well are inset with small niches containing small flickering lights
+0x1b7  /  0x4869  : on a spiral ramp half way up Hell-well. The walls are inset with small niches containing trapped flames
+0x1b8  /  0x489a  : on a spiral ramp near the bottom of Hell-well. The walls of the well are inset with small niches holding tiny flames
+0x1b9  /  0x48cd  : standing on shattered rocks at the bottom of Hell-well. A broken door leads west
+0x1ba  /  0x48ed  : at a crossing between passages. The floor is made up of red-hot coals
+0x1bb  /  0x4914  : in a hot room. The north door is marked with a black dot
+0x1bc  /  0x492e  : in an ornate room decorated with symbols of infinity. A nest burns on a marble plinth in the centre of the room: yet it is not consumed, and neither does it give off any smoke or heat
+0x1bd  /  0x4994  : in a hot east-west corridor. To the east is a bed of glowing coals
+0x1be  /  0x49b2  : standing by the alter
+0x1bf  /  0x49bb  : on the east side of a bottomless chasm
+0x1c0  /  0x49ce  : on a narrow stone bridge poised over the chasm
+0x1c1  /  0x49e4  : on the west of the chasm. Steps lead up to an altar above you
+0x1c2  /  0x4a03  : iQ a very hot passage. The floor is covered by hot coals to the west
+0x1c3  /  0x4a27  : on a bleak moor
+0x1c4  /  0x4a2c  : on a bleak moor above swirling mists. A black tower rises above the fog to the south
+0x1c5  /  0x4a49  : on a bleak moor above swirling mists. A black tower rises from the fog to the south
+0x1c6  /  0x4a67  : on a bleak moor
+0x1c7  /  0x4a6c  : on a bleak moor above swirling mists. A black tower rises from the fog to the south
+0x1c8  /  0x4a8a  : on a bleak moor above swirling mists
+0x1c9  /  0x4a97  : on a bleak moor above swirling mists
+0x1ca  /  0x4aa4  : on a bleak moor
+0x1cb  /  0x4aa9  : on a bleak moor
+0x1cc  /  0x4aae  : on a bleak moor overlooking a deep ravine
+0x1cd  /  0x4ac1  : on a bleak moor between mists and a deep ravine
+0x1ce  /  0x4ad9  : on a bleak moor above swirling mists
+0x1cf  /  0x4ae6  : on a bleak moor above swirling mists
+0x1d0  /  0x4af3  : on a bleak moor south of a barrow-topped hill
+0x1d1  /  0x4b07  : on a hill-top outside a long barrow. The lintel 
 over the door of the barrow is marked with a black dot. The hill is surrounded on three sides by sheer cliffs and from the other orcs are closing in
-0x1d2  /  0x4b44  : on a tiny ledge clinging to a steep cliff
-0x1d3  /  0x4b5a  : on a bleak moor above a deep ravine
-0x1d4  /  0x4b68  : on a bleak moor above swirling mists
-0x1d5  /  0x4b75  : on a bleak moor above swirling mists. A black tower rises through the fog to the south
-0x1d6  /  0x4b93  : on a bleak moor
-0x1d7  /  0x4b98  : on a bleak moor above a deep ravine
-0x1d8  /  0x4ba6  : on a bleak moor above swirling mists. A black tower rises above the fog to the south
-0x1d9  /  0x4bc3  : on a bleak moor. A path leads down into a ravine
-0x1da  /  0x4bd7  : on a steep path in a deep ravine. A black tower 
+0x1d2  /  0x4b64  : on a tiny ledge clinging to a steep cliff
+0x1d3  /  0x4b7a  : on a bleak moor above a deep ravine
+0x1d4  /  0x4b88  : on a bleak moor above swirling mists
+0x1d5  /  0x4b95  : on a bleak moor above swirling mists. A black tower rises through the fog to the south
+0x1d6  /  0x4bb3  : on a bleak moor
+0x1d7  /  0x4bb8  : on a bleak moor above a deep ravine
+0x1d8  /  0x4bc6  : on a bleak moor above swirling mists. A black tower rises above the fog to the south
+0x1d9  /  0x4be3  : on a bleak moor. A path leads down into a ravine
+0x1da  /  0x4bf7  : on a steep path in a deep ravine. A black tower 
 rises above the fog to the south
-0x1db  /  0x4bfb  : on a bleak moor
-0x1dc  /  0x4c00  : on a north-south path winding through a dank marsh. Bubbles of gas pop round you
-0x1dd  /  0x4c2b  : surrounded by a circle of thirteen standing stones on a small hill in the marsh. There is a dead silence
-0x1de  /  0x4c51  : lost in the marsh! There is no visible path
-0x1df  /  0x4c67  : on a narrow east-west path between pools of stinking water
-0x1e0  /  0x4c83  : lost in the marsh. A light beckons in the east
-0x1e1  /  0x4c96  : lost in the marsh
-0x1e2  /  0x4c9b  : in deadly quicksand
-0x1e3  /  0x4ca9  : lost in the marsh. A light flickers from the east
-0x1e4  /  0x4cbf  : deep in the marsh. You can see a lantern in the 
+0x1db  /  0x4c1b  : on a bleak moor
+0x1dc  /  0x4c20  : on a north-south path winding through a dank marsh. Bubbles of gas pop round you
+0x1dd  /  0x4c4b  : surrounded by a circle of thirteen standing stones on a small hill in the marsh. There is a dead silence
+0x1de  /  0x4c71  : lost in the marsh! There is no visible path
+0x1df  /  0x4c87  : on a narrow east-west path between pools of stinking water
+0x1e0  /  0x4ca3  : lost in the marsh. A light beckons in the east
+0x1e1  /  0x4cb6  : lost in the marsh
+0x1e2  /  0x4cbb  : in deadly quicksand
+0x1e3  /  0x4cc9  : lost in the marsh. A light flickers from the east
+0x1e4  /  0x4cdf  : deep in the marsh. You can see a lantern in the 
 east
-0x1e5  /  0x4cd6  : deep in the marsh with no way out. Every way you look seems blocked by areas of quicksand. A Will o'Wisp dances overhead in triumph
-0x1e6  /  0x4d26  : on a north-south path through the marsh
-0x1e7  /  0x4d33  : on a path deep in the marsh
-0x1e8  /  0x4d3d  : lost in the marsh
-0x1e9  /  0x4d42  : on an east-west causeway through the marsh
-0x1ea  /  0x4d52  : in deadly quicksand
-0x1eb  /  0x4d60  : on an island outside the door of an ancient house. Lightning flashes, illuminating bats flying overhead, and gusts of wind rattle the flapping shutters
-0x1ec  /  0x4db0  : in a ancient panelled entrance hall of a decaying house. Rats scurry behind the walls. There are doors to north and south
-0x1ed  /  0x4df0  : in the main hall. Steps lead upwards
-0x1ee  /  0x4e03  : in a high room. A window looks out onto the marsh to the south, and you catch a glimpse of a huge black tower nearby
-0x1ef  /  0x4e3c  : on a small ledge south of a small door marked with a black dot. There is a window in the wall above
-0x1f0  /  0x4e66  : on a dark granite ramp at the foot of the BLACK 
+0x1e5  /  0x4cf6  : deep in the marsh with no way out. Every way you look seems blocked by areas of quicksand. A Will o'Wisp dances overhead in triumph
+0x1e6  /  0x4d46  : on a north-south path through the marsh
+0x1e7  /  0x4d53  : on a path deep in the marsh
+0x1e8  /  0x4d5d  : lost in the marsh
+0x1e9  /  0x4d62  : on an east-west causeway through the marsh
+0x1ea  /  0x4d72  : in deadly quicksand
+0x1eb  /  0x4d80  : on an island outside the door of an ancient house. Lightning flashes, illuminating bats flying overhead, and gusts of wind rattle the flapping shutters
+0x1ec  /  0x4dd0  : in a ancient panelled entrance hall of a decaying house. Rats scurry behind the walls. There are doors to north and south
+0x1ed  /  0x4e10  : in the main hall. Steps lead upwards
+0x1ee  /  0x4e23  : in a high room. A window looks out onto the marsh to the south, and you catch a glimpse of a huge black tower nearby
+0x1ef  /  0x4e5c  : on a small ledge south of a small door marked with a black dot. There is a window in the wall above
+0x1f0  /  0x4e86  : on a dark granite ramp at the foot of the BLACK 
 TOWER
-0x1f1  /  0x4e84  : on slippery steps behind falling mists
-0x1f2  /  0x4e99  : on steps behind a waterfall. Water drips from every stone
-0x1f3  /  0x4eb9  : on steps leading behind a waterfall. A dark tower shows to the south, briefly
-0x1f4  /  0x4edb  : at the foot of a flight of steps leading upwards through the mist
-0x1f5  /  0x4ef8  : below the Door of Rock. A small opening in the door is just large enough to take one of the Stones
-0x1f6  /  0x4f21  : below the Door of Gold. A small opening in the door is just large enough to take one of the Stones
-0x1f7  /  0x4f4b  : below the Door of Silver. A small opening is just large enough to take one of the Stones
-0x1f8  /  0x4f72  : below the Door of Glass. You can see nothing behind the door. An opening is large enough for a Stone
-0x1f9  /  0x4fa3  : at the south of a magnificent throne-room
-0x1fa  /  0x4fb8  : at an open doorway in a narrow north-south corridor
-0x1fb  /  0x4fd2  : in front of a carved granite throne in a magnificent room lined with decorated leather. This seems to be fashioned from human skin
-0x1fc  /  0x501b  : at a crossing of passages
-0x1fd  /  0x5029  : at a dead end
-0x1fe  /  0x5032  : at a dead end
-0x1ff  /  0x503b  : in an east-west corridor
-0x200  /  0x5047  : in an east-west passage by a narrow entrance to 
+0x1f1  /  0x4ea4  : on slippery steps behind falling mists
+0x1f2  /  0x4eb9  : on steps behind a waterfall. Water drips from every stone
+0x1f3  /  0x4ed9  : on steps leading behind a waterfall. A dark tower shows to the south, briefly
+0x1f4  /  0x4efb  : at the foot of a flight of steps leading upwards through the mist
+0x1f5  /  0x4f18  : below the Door of Rock. A small opening in the door is just large enough to take one of the Stones
+0x1f6  /  0x4f41  : below the Door of Gold. A small opening in the door is just large enough to take one of the Stones
+0x1f7  /  0x4f6b  : below the Door of Silver. A small opening is just large enough to take one of the Stones
+0x1f8  /  0x4f92  : below the Door of Glass. You can see nothing behind the door. An opening is large enough for a Stone
+0x1f9  /  0x4fc3  : at the south of a magnificent throne-room
+0x1fa  /  0x4fd8  : at an open doorway in a narrow north-south corridor
+0x1fb  /  0x4ff2  : in front of a carved granite throne in a magnificent room lined with decorated leather. This seems to be fashioned from human skin
+0x1fc  /  0x503b  : at a crossing of passages
+0x1fd  /  0x5049  : at a dead end
+0x1fe  /  0x5052  : at a dead end
+0x1ff  /  0x505b  : in an east-west corridor
+0x200  /  0x5067  : in an east-west passage by a narrow entrance to 
 the north
-0x201  /  0x5062  : at a crossover between passages
-0x202  /  0x5075  : at a dead end
-0x203  /  0x507e  : at a dead end
-0x204  /  0x5087  : at a dead end
-0x205  /  0x5090  : surrounded by doorways. To the east is a curtained alcove
-0x206  /  0x50a7  : at a dead end
-0x207  /  0x50b0  : hidden in a curtained alcove
-0x208  /  0x50be  : in a long dusty north-south passage
-0x209  /  0x50cf  : at the top of a stairway
-0x20a  /  0x50db  : on gloomy stairs leading downwards
-0x20b  /  0x50ed  : at the south of the Pit. The Demon Lord AGALIAREPT crouches over a green bane-fire in the middle of the room, shrieking curses
-0x20c  /  0x512a  : standing by the Bane-fire. But you can't get near enough to use the Amulet because of the evil radiance from the flames!
-0x20d  /  0x516f  : on a wide ramp up the side of the Black Tower
-0x20e  /  0x5184  : in Purgatory. You will have to stay here for a century or two.. if you're lucky!
-0x20f  /  0x51b8  : 
-0x210  /  0x51b9  : 
-0x211  /  0x51ba  : 
-0x212  /  0x51bb  : 
-0x213  /  0x51bc  : 
-0x214  /  0x51bd  : 
-0x215  /  0x51be  : 
-0x216  /  0x51bf  : 
-0x217  /  0x51c0  : 
-0x218  /  0x51c1  : 
-0x219  /  0x51c2  : 
-0x21a  /  0x51c3  : 
-0x21b  /  0x51c4  : 
-0x21c  /  0x51c5  : 
-0x21d  /  0x51c6  : 
-0x21e  /  0x51c7  : 
-0x21f  /  0x51c8  : 
-0x220  /  0x51c9  : 
-0x221  /  0x51ca  : 
-0x222  /  0x51cb  : 
-0x223  /  0x51cc  : 
-0x224  /  0x51cd  : 
-0x225  /  0x51ce  : 
-0x226  /  0x51cf  : 
-0x227  /  0x51d0  : <EOM>
+0x201  /  0x5082  : at a crossover between passages
+0x202  /  0x5095  : at a dead end
+0x203  /  0x509e  : at a dead end
+0x204  /  0x50a7  : at a dead end
+0x205  /  0x50b0  : surrounded by doorways. To the east is a curtained alcove
+0x206  /  0x50c7  : at a dead end
+0x207  /  0x50d0  : hidden in a curtained alcove
+0x208  /  0x50de  : in a long dusty north-south passage
+0x209  /  0x50ef  : at the top of a stairway
+0x20a  /  0x50fb  : on gloomy stairs leading downwards
+0x20b  /  0x510d  : at the south of the Pit. The Demon Lord AGALIAREPT crouches over a green bane-fire in the middle of the room, shrieking curses
+0x20c  /  0x514a  : standing by the Bane-fire. But you can't get near enough to use the Amulet because of the evil radiance from the flames!
+0x20d  /  0x518f  : on a wide ramp up the side of the Black Tower
+0x20e  /  0x51a4  : in Purgatory. You will have to stay here for a century or two.. if you're lucky!
+0x20f  /  0x51d8  : 
+0x210  /  0x51d9  : 
+0x211  /  0x51da  : 
+0x212  /  0x51db  : 
+0x213  /  0x51dc  : 
+0x214  /  0x51dd  : 
+0x215  /  0x51de  : 
+0x216  /  0x51df  : 
+0x217  /  0x51e0  : 
+0x218  /  0x51e1  : 
+0x219  /  0x51e2  : 
+0x21a  /  0x51e3  : 
+0x21b  /  0x51e4  : 
+0x21c  /  0x51e5  : 
+0x21d  /  0x51e6  : 
+0x21e  /  0x51e7  : 
+0x21f  /  0x51e8  : 
+0x220  /  0x51e9  : 
+0x221  /  0x51ea  : 
+0x222  /  0x51eb  : 
+0x223  /  0x51ec  : 
+0x224  /  0x51ed  : 
+0x225  /  0x51ee  : 
+0x226  /  0x51ef  : 
+0x227  /  0x51f0  : <EOM>

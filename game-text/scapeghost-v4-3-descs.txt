@@ -1,0 +1,1153 @@
+0x0001  /  0x0a71 (0x0001)  :  
+0x0002  /  0x0a73 (0x0002)  : :
+0x0003  /  0x0a76 (0x0001)  : , 
+0x0004  /  0x0a78 (0x0001)  : .
+0x0005  /  0x0a7a (0x0002)  : 
+
+0x0006  /  0x0a7d (0x0002)  : and 
+0x0007  /  0x0a80 (0x0003)  : .
+
+0x0008  /  0x0a84 (0x0003)  : ?
+
+0x0009  /  0x0a88 (0x0001)  : . 
+0x000a  /  0x0a8a (0x0005)  : exits led 
+0x000b  /  0x0a90 (0x0006)  : an exit led 
+0x000c  /  0x0a97 (0x0004)  :  through a door
+0x000d  /  0x0a9c (0x0006)  :  through an open door
+0x000e  /  0x0aa3 (0x0003)  :  and 
+0x000f  /  0x0aa7 (0x0015)  : 
+A haunting breeze carried away the "What now" prompts. 
+0x0010  /  0x0abd (0x0004)  : 
+> 
+0x0011  /  0x0ac2 (0x0007)  : 
+What now? 
+0x0012  /  0x0aca (0x0001)  : : 
+0x0013  /  0x0acc (0x0001)  : "
+0x0014  /  0x0ace (0x0002)  : a 
+0x0015  /  0x0ad1 (0x0002)  : the 
+0x0016  /  0x0ad4 (0x0002)  : an 
+0x0017  /  0x0ad7 (0x0002)  : some 
+0x0018  /  0x0ada (0x0003)  : ." 
+0x0019  /  0x0ade (0x0004)  : 
+ 
+
+0x001a  /  0x0ae3 (0x0002)  : worn
+0x001b  /  0x0ae6 (0x0002)  : taken
+0x0033  /  0x0aea (0x000a)  : north [aka] north n northwards
+0x0034  /  0x0af5 (0x0006)  : northeast [aka] ne
+0x0035  /  0x0afc (0x0008)  : east [aka] e eastwards
+0x0036  /  0x0b05 (0x0008)  : south [aka] s southwards
+0x0037  /  0x0b0e (0x0006)  : southeast [aka] se
+0x0038  /  0x0b15 (0x0006)  : southwest [aka] sw
+0x0039  /  0x0b1c (0x0008)  : west [aka] w westwards
+0x003a  /  0x0b25 (0x0006)  : northwest [aka] nw
+0x003b  /  0x0b2c (0x0008)  : upwards [aka] u up
+0x003c  /  0x0b35 (0x0008)  : downwards [aka] d down
+0x003d  /  0x0b3e (0x000c)  : inside [aka] in inwards into enter
+0x003e  /  0x0b4b (0x0008)  : outside [aka] out leave
+0x003f  /  0x0b54 (0x0008)  : cross [aka] across over
+0x0040  /  0x0b5d (0x0004)  : with the climb
+0x0046  /  0x0b63 (0x0002)  : i
+0x0047  /  0x0b66 (0x0006)  : again [aka] a
+0x0048  /  0x0b6d (0x000a)  : look [aka] l display redisplay
+0x0049  /  0x0b78 (0x0008)  : inventory [aka] inv possessions
+0x004a  /  0x0b81 (0x0004)  : quit RESTART
+0x004b  /  0x0b86 (0x0004)  : RESTORE LOAD
+0x004c  /  0x0b8b (0x0002)  : save
+0x004d  /  0x0b8e (0x0004)  : RAMSAVE RAM
+0x004e  /  0x0b93 (0x0002)  : ramload
+0x004f  /  0x0b96 (0x0006)  : score rating status
+0x0050  /  0x0b9d (0x0002)  : verbose
+0x0051  /  0x0ba0 (0x0002)  : brief
+0x0052  /  0x0ba3 (0x000a)  : wait [aka] wa pause z
+0x0053  /  0x0bae (0x000c)  : blew [aka] ring play sound blow
+0x0054  /  0x0bbb (0x0002)  : on
+0x0055  /  0x0bbe (0x0002)  : off
+0x0059  /  0x0bc2 (0x0004)  : UNDO OOPS
+0x005a  /  0x0bc7 (0x000e)  : hit [aka] attack hit break smash kill
+0x005c  /  0x0bd7 (0x0008)  : searched [aka] search explore
+0x005d  /  0x0be0 (0x0006)  : dug [aka] dig
+0x005e  /  0x0be7 (0x0008)  : sniffed [aka] sniff smell
+0x005f  /  0x0bf0 (0x0006)  : knocked [aka] knock
+0x0060  /  0x0bf7 (0x0009)  : got [aka] stood stand jump
+0x0061  /  0x0c01 (0x0006)  : lay [aka] lie
+0x0062  /  0x0c08 (0x0008)  : got [aka] sat sit
+0x0063  /  0x0c11 (0x0006)  : hid [aka] hide
+0x0064  /  0x0c18 (0x000a)  : said [aka] say whisper talk
+0x0065  /  0x0c23 (0x0006)  : teleported [aka] teleport
+0x0066  /  0x0c2a (0x0002)  : getme
+0x0067  /  0x0c2d (0x0006)  : filled [aka] fill
+0x0068  /  0x0c34 (0x0008)  : ran [aka] run fly
+0x0069  /  0x0c3d (0x0006)  : made [aka] make
+0x006b  /  0x0c45 (0x000d)  : ghosts don't eat [aka] taste nibble lick
+0x006c  /  0x0c53 (0x000e)  : went [aka] go goto find walk fly
+0x006d  /  0x0c62 (0x0008)  : stopped [aka] stop abort
+0x006e  /  0x0c6b (0x000e)  : I couldn't drink anything, being a ghost [aka] sip
+0x0070  /  0x0c7b (0x0004)  : exits exit
+0x0071  /  0x0c80 (0x000c)  : manifested [aka] materialise materialize manifest appear
+0x0082  /  0x0c8e (0x0006)  : had [aka] have
+0x0083  /  0x0c95 (0x0006)  : had [aka] has
+0x0084  /  0x0c9c (0x0006)  : was [aka] am
+0x0085  /  0x0ca3 (0x0006)  : were [aka] are
+0x0086  /  0x0caa (0x0006)  : was [aka] is
+0x0087  /  0x0cb1 (0x0002)  : are
+0x0088  /  0x0cb4 (0x0002)  : is
+0x0096  /  0x0cb8 (0x000a)  : examined [aka] examine read x
+0x0097  /  0x0cc3 (0x0006)  : cut [aka] chop
+0x0098  /  0x0cca (0x0008)  : woke [aka] wake rouse
+0x009a  /  0x0cd4 (0x0006)  : got [aka] get
+0x009b  /  0x0cdb (0x0014)  : took [aka] take carry picked pick lift hold keep grab
+0x009c  /  0x0cf0 (0x0006)  : wore [aka] wear
+0x009d  /  0x0cf7 (0x0008)  : dropped [aka] drop discard
+0x009e  /  0x0d00 (0x0008)  : put [aka] conceal wrap
+0x009f  /  0x0d09 (0x000a)  : removed [aka] remove free release
+0x00a0  /  0x0d14 (0x0008)  : threw [aka] throw hurl
+0x00a1  /  0x0d1d (0x000a)  : gave [aka] give offer show
+0x00a2  /  0x0d28 (0x0008)  : asked [aka] ask question
+0x00a3  /  0x0d31 (0x0008)  : followed [aka] follow chase
+0x00a4  /  0x0d3a (0x0008)  : opened [aka] open unlock
+0x00a8  /  0x0d44 (0x0010)  : pushed [aka] push pump press prod touch switch
+0x00a9  /  0x0d55 (0x000a)  : fastened [aka] fasten tie attach
+0x00aa  /  0x0d60 (0x0008)  : unfastened [aka] unfasten untie
+0x00ab  /  0x0d69 (0x0006)  : pulled [aka] pull
+0x00ac  /  0x0d70 (0x000a)  : cooled [aka] cool freeze chill
+0x00ad  /  0x0d7b (0x000c)  : charged [aka] light spark shock charge
+0x00ae  /  0x0d88 (0x0008)  : bent [aka] bend twist
+0x00af  /  0x0d91 (0x0008)  : deflated [aka] deflate let
+0x00b0  /  0x0d9a (0x0006)  : inserted [aka] insert
+0x00b1  /  0x0da1 (0x0008)  : sprayed [aka] spray pump
+0x00be  /  0x0dab (0x000c)  : closed [aka] close shut lock bolt
+0x00c0  /  0x0db9 (0x0002)  : told
+0x00c2  /  0x0dbd (0x0002)  : struggled
+0x00c5  /  0x0dc1 (0x0002)  : killed
+0x00d2  /  0x0dc5 (0x0002)  : reached
+0x00d3  /  0x0dc8 (0x0002)  : dragged
+0x00d4  /  0x0dcb (0x0002)  : passed
+0x00d5  /  0x0dce (0x0002)  : flew
+0x00d6  /  0x0dd1 (0x0002)  : walked
+0x00d7  /  0x0dd4 (0x0002)  : caught
+0x00d8  /  0x0dd7 (0x0002)  : entered
+0x00fa  /  0x0ddb (0x000c)  : OK, if you say not [aka] no
+0x00fb  /  0x0de8 (0x000a)  : right, so be it [aka] yes
+0x00fc  /  0x0df3 (0x001a)  : what fun! That keeps the old spirits up [aka] leap hop skip dance celebrate
+0x00fd  /  0x0e0e (0x0023)  : As I spoke the word, I felt my strength drain [aka] plugh xyzzy sesame plover humakaat satarh ollabin obis
+0x00ff  /  0x0e33 (0x0031)  : if you want to talk to someone, follow their name with what you want to say to them. For example JOE, HELLO [aka] hello welcome hi greetings day afternoon
+0x0100  /  0x0e65 (0x000f)  : I heard nothing that I hadn't heard before [aka] listen hear
+0x0101  /  0x0e75 (0x0012)  : send the coupon to Level 9 for a hint [aka] help
+0x0107  /  0x0e89 (0x0009)  : why not [aka] y why
+0x010b  /  0x0e94 (0x0051)  : you stupid person [aka] sod motherfucker crap nipples bloody frigging wanker turd piss shit twat cunt bollocks jesus christ god devil tits asshole arsehole cretin conservatives spastic coon wog fucking fucker bastard bugger damn sex hell bonk pratt rape shag fuck
+0x0111  /  0x0ee8 (0x001a)  : what? Off already? Don't forget to save your position first [aka] goodbye bye
+0x0112  /  0x0f03 (0x0008)  : you're forgiven [aka] sorry
+0x0117  /  0x0f0d (0x0018)  : I closed my eyes but it made no difference. There was to be no sleep for me this night
+0x0118  /  0x0f26 (0x0010)  : spirits are better kept away from water [aka] swim
+0x0119  /  0x0f37 (0x003b)  : for all I tried, I could pick up no sensation of anything important having happened in this place. As I was tiring and getting nowhere, I stopped concentrating [aka] concentrate meditate recreate reconstruct meditating recreating reconstructing
+0x011b  /  0x0f74 (0x0002)  : hit
+0x011c  /  0x0f77 (0x000a)  : I didn't have the breath to inflate anything
+0x011d  /  0x0f82 (0x0005)  : ghosts don't drink
+0x011e  /  0x0f88 (0x000f)  : that would be a waste of telekinetic power [aka] shake
+0x011f  /  0x0f98 (0x0024)  : I had no need to heat things in this house, when I could chill them, or charge them with static [aka] warm ignite burn
+0x0120  /  0x0fbd (0x000c)  : it's not your job to bury things
+0x0122  /  0x0fcb (0x000d)  : I tried to polish it [aka] rub clean
+0x0123  /  0x0fd9 (0x0018)  : you fill a container by, e.G, "PUT THING IN CONTAINER"
+0x0124  /  0x0ff2 (0x0011)  : please empty a container by removing its contents in turn
+0x0129  /  0x1005 (0x000c)  : my lips passed straight through [aka] kiss
+0x012d  /  0x1013 (0x000e)  : I [aka] player me Alan Chance myself
+0x012e  /  0x1022 (0x0008)  : Sarah [aka] Pearson hostage
+0x012f  /  0x102b (0x0007)  : the priest [aka] vicar
+0x0130  /  0x1033 (0x0008)  : Big John [aka] B
+0x0131  /  0x103c (0x0006)  : John [aka] Q
+0x0132  /  0x1043 (0x0002)  : Weasel
+0x0133  /  0x1046 (0x0002)  : Jude
+0x0134  /  0x1049 (0x0003)  : the Professor
+0x0135  /  0x104d (0x0002)  : Severian
+0x017c  /  0x1051 (0x0008)  : holy water [aka] phial
+0x017d  /  0x105a (0x0008)  : whisky flask [aka] booze
+0x017e  /  0x1063 (0x0004)  : broken glass
+0x017f  /  0x1068 (0x0008)  : bulb [aka] lamp lightbulb
+0x0180  /  0x1071 (0x0002)  : gag
+0x0181  /  0x1074 (0x0006)  : ropes [aka] bonds
+0x0182  /  0x107b (0x000a)  : insecticide sprayer [aka] spraypump pump
+0x0183  /  0x1086 (0x0002)  : key
+0x0186  /  0x108a (0x0002)  : briefcase
+0x0187  /  0x108d (0x0002)  : chair
+0x0188  /  0x1090 (0x0002)  : hammer
+0x019a  /  0x1094 (0x0006)  : hay [aka] straw
+0x019b  /  0x109b (0x0002)  : taxi
+0x019c  /  0x109e (0x0006)  : van [aka] transit
+0x019f  /  0x10a6 (0x0002)  : window
+0x01a0  /  0x10a9 (0x0002)  : window
+0x01a1  /  0x10ac (0x0008)  : cupboard [aka] closet wardrobe
+0x01a2  /  0x10b5 (0x0004)  : circuit breaker
+0x01a3  /  0x10ba (0x0002)  : curtains
+0x01a4  /  0x10bd (0x0002)  : shelf
+0x01a5  /  0x10c0 (0x0006)  : lampholder [aka] socket
+0x01a6  /  0x10c7 (0x0002)  : table
+0x01a7  /  0x10ca (0x0006)  : rubble [aka] stone
+0x01a8  /  0x10d1 (0x0008)  : connectors [aka] connecters terminals
+0x01a9  /  0x10da (0x0006)  : wires [aka] leads
+0x01aa  /  0x10e1 (0x0006)  : heavy oak door
+0x01ab  /  0x10e8 (0x000a)  : collapsed vault [aka] heap rubble
+0x01ac  /  0x10f3 (0x0004)  : creaky stair
+0x01ae  /  0x10f9 (0x0002)  : pocket
+0x01c2  /  0x10fd (0x000a)  : farmhouse [aka] farm house hideout
+0x01c3  /  0x1108 (0x0002)  : church
+0x01cc  /  0x110c (0x0006)  : grave [aka] headstone
+0x01cd  /  0x1113 (0x0002)  : police
+0x01ce  /  0x1116 (0x000a)  : movements [aka] disturbances trees shadow
+0x01cf  /  0x1121 (0x0004)  : playing cards
+0x01d0  /  0x1126 (0x0008)  : money [aka] cash dosh
+0x01d1  /  0x112f (0x0008)  : cigarette [aka] fag tab
+0x01d2  /  0x1138 (0x0004)  : whisky bottle
+0x01d3  /  0x113d (0x0008)  : barn [aka] shed hut
+0x01d4  /  0x1146 (0x0008)  : tyres [aka] taxi whitewall
+0x01d5  /  0x114f (0x0008)  : tyres [aka] van muddy
+0x01d6  /  0x1158 (0x0008)  : attic [aka] loft bedroom
+0x01d7  /  0x1161 (0x0006)  : newspaper [aka] paper
+0x01d8  /  0x1168 (0x0002)  : jacket
+0x01d9  /  0x116b (0x000f)  : copy of "The Beano" [aka] beano comic
+0x01db  /  0x117c (0x0005)  : light in the house
+0x01e0  /  0x1183 (0x0002)  : farmyard
+0x0216  /  0x1187 (0x0006)  : everything all every
+0x0217  /  0x118e (0x0002)  : ingredients
+0x0219  /  0x1192 (0x0008)  : people [aka] everyone everybody
+0x021b  /  0x119c (0x0002)  : door
+0x021d  /  0x11a0 (0x000c)  : plants [aka] weeds flowers grass soil
+0x021e  /  0x11ad (0x0002)  : be
+0x021f  /  0x11b0 (0x000a)  : room [aka] ground floor air
+0x0220  /  0x11bb (0x0006)  : wall [aka] walls
+0x0221  /  0x11c2 (0x000a)  : sky [aka] sun moon stars
+0x0223  /  0x11ce (0x0004)  : except but
+0x0224  /  0x11d3 (0x0010)  : it [aka] that them those none him her
+0x0225  /  0x11e4 (0x0004)  : minute minutes
+0x0227  /  0x11ea (0x0004)  : then next
+0x0228  /  0x11ef (0x0004)  : therefore so
+0x0229  /  0x11f4 (0x0006)  : I [aka] you
+0x0230  /  0x11fc (0x0001)  : it
+0x0231  /  0x11fe (0x0001)  : it
+0x0232  /  0x1200 (0x0001)  : some
+0x0233  /  0x1202 (0x0001)  : he
+0x0234  /  0x1204 (0x0001)  : she
+0x0235  /  0x1206 (0x0001)  : they
+0x0236  /  0x1208 (0x0001)  : I
+0x0237  /  0x120a (0x0001)  : he
+0x0238  /  0x120c (0x0001)  : she
+0x023a  /  0x120f (0x0001)  : it
+0x023b  /  0x1211 (0x0001)  : it
+0x023c  /  0x1213 (0x0001)  : them
+0x023d  /  0x1215 (0x0001)  : him
+0x023e  /  0x1217 (0x0001)  : her
+0x023f  /  0x1219 (0x0001)  : them
+0x0240  /  0x121b (0x0001)  : me
+0x0241  /  0x121d (0x0001)  : him
+0x0242  /  0x121f (0x0001)  : her
+0x0243  /  0x1221 (0x0002)  : ~
+0x0244  /  0x1224 (0x0002)  : s
+0x0245  /  0x1227 (0x0002)  : es
+0x0246  /  0x122a (0x0002)  : is
+0x0249  /  0x122e (0x0004)  : from the south
+0x024a  /  0x1233 (0x0004)  : from the southwest
+0x024b  /  0x1238 (0x0004)  : from the west
+0x024c  /  0x123d (0x0004)  : from the north
+0x024d  /  0x1242 (0x0004)  : from the northwest
+0x024e  /  0x1247 (0x0004)  : from the northeast
+0x024f  /  0x124c (0x0004)  : from the east
+0x0250  /  0x1251 (0x0004)  : from the southeast
+0x0251  /  0x1256 (0x0003)  : from below
+0x0252  /  0x125a (0x0003)  : from above
+0x0253  /  0x125e (0x0002)  : from outside
+0x0254  /  0x1261 (0x0003)  : from inside
+0x0255  /  0x1265 (0x0004)  : from across the way
+0x0256  /  0x126a (0x0003)  : by climbing
+0x0257  /  0x126e (0x0004)  : with a jump
+0x0259  /  0x1274 (0x0037)  : the ghost of Alan Chance; my spirit earthbound for one last night by the pressing need to clear my name. They say only the good die young. I was trying to prove it
+0x025a  /  0x12ac (0x0055)  : street wise and a natural actress. She had seemed to find it easier than I did to infiltrate the gang and to keep her cover. Once my partner, she had apparently betrayed me when it came to the crunch. Was it an act? Anyway, I would need her help against the crooks tonight
+0x025b  /  0x1303 (0x0017)  : the local clergyman, a kindly man in normal circumstances, but now he looked terrified
+0x025c  /  0x131b (0x001e)  : a big heavy man, slow-moving but powerful. He had the battered face and slurred speech of an ex-boxer
+0x025d  /  0x133a (0x004f)  : the leader of the drug importers and a man that nobody crossed. His ruthlessness was only partly cloaked by his well-cut business suit and clean-shaven jaw. He was the one with the overseas contacts, who handled the import end of the traffic. He was wearing a smartly-pressed tweed jacket
+0x025e  /  0x138b (0x0021)  : a small, grey ex-con, sinking into a shabby middle-age. A newspaper was thrust into a pocket of his grey coat
+0x025f  /  0x13ad (0x0039)  : a lithe, classy woman; attractive if you were into tough Sloane chic. She made a big show of being fond of John Q., but this may just have been good business sense on her part
+0x0260  /  0x13e7 (0x0059)  : "the best brains in the drugs business" - according to him - and leader of the drugs buyers. But currently the Professor was not happy at all the police activity nearby, or at having to hole up overnight with a bunch of third-rate crooks, until he could leave under cover of next morning's rush hour traffic
+0x0261  /  0x1442 (0x0039)  : a snake in a suit, a nasty, shifty piece of work. He was a crooked policeman who had wormed his way into the drugs squad. He was responsible for my death and the failure of the police operation
+0x02a8  /  0x147d (0x0013)  : about to be sprinkled over my grave, as part of the rite of exorcism
+0x02a9  /  0x1491 (0x001e)  : Big John's hipflask, which he kept topped up with Scotch and which kept him company when he stood on lookout
+0x02aa  /  0x14b0 (0x000b)  : the sharp remains of a shattered lightbulb
+0x02ab  /  0x14bc (0x0007)  : an ordinary low-wattage lightbulb
+0x02ac  /  0x14c4 (0x000b)  : made from a handkerchief and a boot lace
+0x02ad  /  0x14d0 (0x000a)  : too strong for anyone to break
+0x02ae  /  0x14db (0x0019)  : an old-fashioned pump-action sprayer. Its brass body had turned green with age and neglect
+0x02af  /  0x14f5 (0x0007)  : a flimsy vehicle key
+0x02b2  /  0x14fe (0x0028)  : a very heavy black leather briefcase, stuffed tight with the drugs that this case was all about. I would need it as evidence [aka] case
+0x02b3  /  0x1527 (0x001f)  : a rickety wood and steel affair, the cane seat sagging with age after six month's careful use
+0x02b4  /  0x1547 (0x0007)  : a heavy club hammer
+0x02c6  /  0x1550 (0x000a)  : damp and full of fungus tendrils
+0x02c7  /  0x155b (0x0023)  : a dusty black London cab, probably stolen for the use of the gangsters. It had seen better days [aka] car
+0x02c8  /  0x157f (0x0023)  : a dented old transit van, used by the drugs importers. There were deep shadows to hide me, should I get inside
+0x02cb  /  0x15a4 (0x001d)  : a small window, looking out from beneath the eaves onto the farm and beyond to the nearby village
+0x02cc  /  0x15c2 (0x000f)  : a dirt-encrusted window, set into the thick cellar door
+0x02cd  /  0x15d2 (0x001a)  : a walk-in wardrobe, that may have been used for storing brooms and coats but was now bare
+0x02ce  /  0x15ed (0x002e)  : the switch controlling the mains electricity supply. The backup supply from the generator bypassed this, so the lights in the house could still glow dimly [aka] trip switch
+0x02cf  /  0x161c (0x000a)  : a pair of old flowered curtains
+0x02d0  /  0x1627 (0x000a)  : set into the wall above the door
+0x02d1  /  0x1632 (0x0012)  : hanging from the ceiling on a twisted flex [aka] lamp holder
+0x02d2  /  0x1645 (0x0014)  : large and circular, with Fablon peeling from its cheap Formica top
+0x02d3  /  0x165a (0x000b)  : the fallen remains of the church wall
+0x02d4  /  0x1666 (0x000c)  : where the electricity supply cables joined the house
+0x02d5  /  0x1673 (0x0017)  : connected to the electricity supply terminals. They were well insulated, unlike the connectors
+0x02d6  /  0x168b (0x0006)  : made of solid oak
+0x02d7  /  0x1692 (0x0012)  : the remains of the vault which had collapsed beneath the church wall
+0x02d8  /  0x16a5 (0x0011)  : a creaky floorboard at the top of the stairs [aka] loose
+0x02da  /  0x16b8 (0x0003)  : just a pocket
+0x02ee  /  0x16bd (0x0056)  : the place where John Q had set up his base. He had not intended to bring the gang here, but had been forced to when I was revealed as an agent - he could not be sure that I had not revealed the location of their original hideout. It was here that the importers and buyers had met to exchange drugs and money
+0x02ef  /  0x1715 (0x0019)  : a ruined church, with the rubble of the collapsed wall piled high along one side
+0x02f8  /  0x1730 (0x0007)  : my own resting place
+0x02f9  /  0x1738 (0x0011)  : closing in gradually, some across the fields and others down the road
+0x02fa  /  0x174a (0x0011)  : signs that the boys in blue were closing in on the farm
+0x02fb  /  0x175c (0x000a)  : John's lucky pack of playing cards
+0x02fc  /  0x1767 (0x000a)  : most of it belonged to John by now
+0x02fd  /  0x1772 (0x0014)  : smouldering slowly, filling the room with a hanging haze of blue-grey smoke
+0x02fe  /  0x1787 (0x0024)  : full of of Jack Daniels. The level of whisky in it seemed to have gone down every time I noticed it [aka] booze scotch
+0x02ff  /  0x17ac (0x0017)  : a decrepit stone and brick building which the gang had pressed into use as a garage
+0x0300  /  0x17c4 (0x0020)  : well-worn and almost shiny smooth in places. If nothing else, the police could always do this lot for insufficient tread
+0x0301  /  0x17e5 (0x0024)  : large black round objects which, if filled with air, made the van a lot easier to drive. But that's not important
+0x0302  /  0x180a (0x0010)  : a dark, but comfortable, little bedroom in the loft
+0x0303  /  0x181b (0x0012)  : Weasel's "Daily Express", which helped him pass the hours
+0x0304  /  0x182e (0x0006)  : lightweight woollen coat
+0x0305  /  0x1835 (0x0018)  : Big John's favourite read, though he spent most of the time looking at the pictures
+0x0307  /  0x184f (0x000c)  : dim, as the generator was running low
+0x0308  /  0x185c (0x0014)  : bright downstairs, and I didn't fancy leaving the friendly shadows of the attic
+0x030c  /  0x1872 (0x0005)  : a cobbled square
+0x0323  /  0x1879 (0x0006)  : overlooking my own grave
+0x0324  /  0x1880 (0x000d)  : on a path of stone chippings [aka] cemetery
+0x0325  /  0x188e (0x000d)  : on a path leading south out of the cemetery
+0x0326  /  0x189c (0x000c)  : at a junction in the path [aka] drugs
+0x0327  /  0x18a9 (0x0006)  : outside the cemetery gate
+0x0328  /  0x18b0 (0x000a)  : at a junction [aka] main road
+0x0329  /  0x18bb (0x000a)  : at a junction [aka] main road
+0x032a  /  0x18c6 (0x000e)  : at a sharp bend in the road [aka] corner
+0x032b  /  0x18d5 (0x0008)  : on a narrow dirt track
+0x032c  /  0x18de (0x0006)  : on a muddy track
+0x032d  /  0x18e5 (0x0008)  : in the front of the barn
+0x032e  /  0x18ee (0x0007)  : in the back of the barn
+0x032f  /  0x18f6 (0x0008)  : by the side of the farmhouse
+0x0330  /  0x18ff (0x0007)  : at the back of the house
+0x0334  /  0x1908 (0x0008)  : in the hallway [aka] hall
+0x0335  /  0x1911 (0x0007)  : on a flight of steps
+0x0336  /  0x1919 (0x0006)  : in a large cellar
+0x0337  /  0x1920 (0x000b)  : in the back of the cellar [aka] basement
+0x0338  /  0x192c (0x0004)  : in the kitchen
+0x0339  /  0x1931 (0x000a)  : in the living room [aka] lounge
+0x033a  /  0x193c (0x000c)  : at the top of the stairs [aka] landing
+0x033b  /  0x1949 (0x0008)  : in the attic [aka] loft
+0x033c  /  0x1952 (0x000a)  : in the attic bedroom [aka] loft
+0x033e  /  0x195e (0x0030)  : among some of the graves which had been exorcised. I felt my figure disperse into a thin mist and it was only when I reached a safe distance that I recovered my form
+0x033f  /  0x198f (0x0028)  : among the graves which had already been exorcised by the priest. Everything began to fade to darkness, and I felt myself being drawn back to my grave
+0x0340  /  0x19b8 (0x0027)  : blocked by a pile of fallen rubble. I found that I could get neither through it nor over it, so I returned to where I had come from
+0x0341  /  0x19e0 (0x001e)  : dazzled by a row of bright street lights. I backed away swiftly before my powers became completely drained
+0x0342  /  0x19ff (0x002e)  : on a main road that seemed to run on for endless miles through the countryside. I could see no point in following it further, so turned back to return to the junction
+0x0343  /  0x1a2e (0x001a)  : on a wide road, leading into the far distance, so I decided to return to the junction
+0x0344  /  0x1a49 (0x0039)  : on a main road which led down into a valley towards the street lamps of the town. There was too much light down there for me to be able to get far on that road, so I turned around and headed back
+0x0345  /  0x1a83 (0x0036)  : in a cold and windy field, where tall blades of grass whisped through me and made me shiver. There didn't seem to be anything else for miles in this direction, so I drifted back to the track
+0x0348  /  0x1abb (0x002e)  : in a draughty stone outhouse which contained a small standby generator for when the farm had an electricity cut. I couldn't make any impression on it, so I went back outside
+0x0349  /  0x1aea (0x0018)  : in the bathroom. There was nothing here to interest a ghost, so I returned to the stairs
+0x034a  /  0x1b03 (0x0017)  : among the bedrooms. After a brief look around, I drifted back to the stairs
+0x0352  /  0x1b1c (0x0004)  : in the farmyard
+0x044f  /  0x1b23 (0x003e)  : . It was difficult to see anything to the north, as that part of the cemetery seemed somehow drained of colour and form. To the west, a path led towards the pile of rubble that had once been the abbey wall
+0x0450  /  0x1b62 (0x0027)  : , running east-west between my grave and the rubble of the wall. A second path led off to the south through a scattering of fallen stones
+0x0451  /  0x1b8a (0x0029)  : . The church wall had collapsed into a great pile of rubble that was strewn across the graveyard, though much of the debris had by now been cleared
+0x0452  /  0x1bb4 (0x0023)  : . The ruins of the church lay to the northwest and a narrow path led east towards the gate to the car park
+0x0453  /  0x1bd8 (0x000b)  :  where there was a small car park
+0x0454  /  0x1be4 (0x001c)  : . A narrow track split off from the main north-south road and disappeared into the darkness to the west
+0x0455  /  0x1c01 (0x0011)  :  where the muddy track opened out a main north-south road
+0x0456  /  0x1c13 (0x0021)  : , sweeping from north to east as it came into a wooded valley. It was almost pitch black between the trees
+0x0457  /  0x1c35 (0x0024)  : . I could see a farmhouse ahead of me to the west. The junction with the road, to the east, was lost in the dark
+0x0458  /  0x1c5a (0x0027)  : , running from the farmyard, south-east across a grassy field. Other fields lay to the east and west beyond low hedges of thorn
+0x0459  /  0x1c82 (0x001c)  :  at the western edge of the farmyard. The ground inside was thick with dung and sodden straw
+0x045b  /  0x1ca0 (0x001c)  : , where stood a small stone-built outhouse. A concrete path carried on northwards around the back of the house
+0x045c  /  0x1cbd (0x002e)  : . Thick clumps of nettles and weeds thrust upwards between the paving stones and the wall. Behind them, two thick electricity supply cables emerged from the house
+0x0460  /  0x1ced (0x0051)  : . It was a cold room with a hard quarry tiled floor. Stairways led up and down from here, and there were two doors. The one to the east had "Kitchen" carved on the ornamented woodwork above it. The one to the north was marked in discriminatory fashion, "Living Room"
+0x0461  /  0x1d40 (0x0016)  :  cut into the stone foundations of the house and leading down into a dank basement
+0x0462  /  0x1d57 (0x000f)  :  which stretched to the north beneath a low ceiling
+0x0464  /  0x1d68 (0x000a)  : , used by the gang while they waited
+0x0465  /  0x1d73 (0x0025)  : . There had been some attempt to make this room comfortable, with sagging armchairs pulled up beside an oversprung sofa in front of the hearth
+0x0466  /  0x1d99 (0x002d)  :  next to the bathroom door. A narrow corridor hung with cheap prints led off northwards to the bedrooms, and a small hatch above gave access to the attic
+0x0467  /  0x1dc7 (0x0024)  :  which had been converted into a small bed-sitting room. At its western end there was a low bed beneath a small window
+0x0468  /  0x1dec (0x0014)  : . A small single bed had been pushed hard up against the wall
+0x047e  /  0x1e02 (0x003e)  :  outside a small stone farmhouse. A ramshackle old barn stood to the west, from which scatterings of straw were strewn all the way to the track on the east. A small passage ran northeast to the side of the house
+0x0549  /  0x1e43 (0x0074)  : 
+ 
+the priest made the sign of a cross, his eyes raised blankly towards heaven. Beside him, the villain that they called Weasel rubbed his hands together in evil satisfaction. 
+"Get a move on", John urged the priest. "We all dreamed of Luke last night, and he warned us that the ghost of this one was still walking. Let's get the holy water business over with". 
+0x054a  /  0x1eb9 (0x004b)  : 
+ 
+I sensed that if I returned to my exorcised grave I would be banished forever. It would be the same if I returned as a free spirit or if I were cast there by sudden light. I would have to be very careful on this last night as a ghost... 
+0x054b  /  0x1f06 (0x0025)  : 
+ 
+I felt a twinge of guilt about the damage that I had created, even though it had been in a good cause. 
+0x054c  /  0x1f2c (0x003f)  : though there was no sign of Joe that night, I thought I heard him saying, "Good luck and happy haunting". 
+ 
+I would need all the luck going, if I were going to slow down the gangsters. 
+0x054e  /  0x1f6e (0x0015)  : 
+ 
+drizzle began to patter lightly on the roof of the van. 
+0x0551  /  0x1f85 (0x0049)  : 
+ 
+I knew where we were now; this was the track I had seen on the criminals' map. Obviously they were still using their new hideout, which meant that the police had not yet closed in, and that I still had work to do... 
+0x0553  /  0x1fd1 (0x003d)  : 
+ 
+a dull glimmer caught my eye for a moment, but I couldn't see anything when I looked again. I guessed I must have frightened a rat, but there bigger rats around the place that needed my attention more. 
+0x0555  /  0x2010 (0x0017)  : the long shadow of the farmhouse made it difficult to see much along that side. 
+0x0556  /  0x2028 (0x0018)  : 
+ 
+the insulation on the connectors had crumbled away, leaving them dangerously exposed. 
+0x055a  /  0x2042 (0x0054)  : 
+ 
+the electricity supply to the house now came from the ancient generator outside, so the lights only glowed dimly. 
+ 
+I realised that my powers had grown since the previous night, and that now I had the power to charge things with static, and to manifest myself if I wished. 
+0x055b  /  0x2098 (0x0023)  : 
+ 
+droplets of icy water dripped from the ceiling and splashed onto the steps, making patterns in the dust. 
+0x055e  /  0x20bd (0x0021)  : 
+ 
+"Luck may have been on his side", I thought grimly, "but Chance was against him."
+0x055f  /  0x20df (0x0010)  : a wood fire crackled warmly in the open grate. 
+0x0560  /  0x20f0 (0x003a)  : I glanced at the prints. They were of thatched cottages, horse-drawn ploughs, bright clean farmyards - and always the sun shone gaily and the people were tanned and smiling. Country-living as it never was. 
+0x0561  /  0x212b (0x0016)  : tiny motes of dust danced lazily in the moonbeams that shone through the window. 
+0x0562  /  0x2142 (0x006c)  : 
+ 
+I looked through the window with concern. I felt sure that my colleagues would soon have puzzled out the clues that I had left for them. But the window overlooked several points on the main road to the farm, and anyone sitting here would be sure to see the police coming. Unless he was distracted, of course, and I somehow knew that I would have to do this five times... 
+0x0578  /  0x21b1 (0x004f)  : 
+ 
+the farm stood on a small hill, with views of the countryside all around. The rain would help restrict visibility, but if the police were to have a chance of closing in without being seen, I would have to help. Otherwise, the evidence would all be destroyed before they got here. 
+0x0640  /  0x2204 (0x0003)  : I could see
+0x0641  /  0x2208 (0x0006)  : on [aka] onto
+0x0642  /  0x220f (0x0008)  : underneath [aka] below under
+0x0643  /  0x2218 (0x0002)  : behind
+0x0647  /  0x221c (0x0008)  : in [aka] into inside
+0x064e  /  0x2226 (0x0003)  : frozen to
+0x0650  /  0x222b (0x0006)  : with [aka] using
+0x0651  /  0x2232 (0x0002)  : from
+0x0669  /  0x2236 (0x0001)  : was
+0x066a  /  0x2238 (0x0001)  : was
+0x066b  /  0x223a (0x0001)  : was
+0x066c  /  0x223c (0x0003)  : was carrying
+0x066d  /  0x2240 (0x0003)  : was wearing
+0x066f  /  0x2245 (0x0001)  : was
+0x0676  /  0x2248 (0x0001)  : was
+0x0677  /  0x224a (0x0003)  : was escorting
+0x0687  /  0x224f (0x0001)  : were
+0x0688  /  0x2251 (0x0001)  : were
+0x0689  /  0x2253 (0x0001)  : were
+0x068a  /  0x2255 (0x0003)  : was carrying
+0x068b  /  0x2259 (0x0003)  : was wearing
+0x068d  /  0x225e (0x0001)  : were
+0x0694  /  0x2261 (0x0001)  : was
+0x0695  /  0x2263 (0x0003)  : was escorting
+0x06cd  /  0x2268 (0x0002)  : was on
+0x06d0  /  0x226c (0x0002)  : owned
+0x06d1  /  0x226f (0x0003)  : was wearing
+0x06d3  /  0x2274 (0x0002)  : was in
+0x06da  /  0x2278 (0x0004)  : was frozen to
+0x06db  /  0x227d (0x0004)  : was escorted by
+0x06eb  /  0x2283 (0x0002)  : were on
+0x06ee  /  0x2287 (0x0002)  : owned
+0x06ef  /  0x228a (0x0003)  : were wearing
+0x06f1  /  0x228f (0x0002)  : were in
+0x06f8  /  0x2293 (0x0004)  : were frozen to
+0x06f9  /  0x2298 (0x0004)  : were escorted by
+0x0708  /  0x229e (0x0002)  : off
+0x0709  /  0x22a1 (0x0002)  : up
+0x070a  /  0x22a4 (0x0002)  : down
+0x070b  /  0x22a7 (0x0002)  : to
+0x070c  /  0x22aa (0x0002)  : out
+0x070d  /  0x22ad (0x0004)  : from the 
+0x070e  /  0x22b2 (0x0002)  : for
+0x070f  /  0x22b5 (0x0002)  : until
+0x0710  /  0x22b8 (0x0002)  : debug
+0x0711  /  0x22bb (0x0002)  : through
+0x0712  /  0x22be (0x0002)  : about
+0x07d0  /  0x22c3 (0x0008)  : you don't need to use "
+0x07d1  /  0x22cc (0x0007)  : " to finish the game
+0x07d3  /  0x22d5 (0x0008)  : I don't understand the word "
+0x07d4  /  0x22de (0x0008)  : " when used like that
+0x07d6  /  0x22e8 (0x0003)  : I was 
+0x07d7  /  0x22ec (0x0003)  : in a 
+0x07d8  /  0x22f0 (0x0003)  : in an 
+0x07d9  /  0x22f4 (0x0008)  : exits led in all directions
+0x07da  /  0x22fd (0x0008)  : I don't understand what you mean
+0x07db  /  0x2306 (0x0003)  : I couldn't see
+0x07dc  /  0x230a (0x0003)  : I didn't have
+0x07dd  /  0x230e (0x0004)  : I already had
+0x07de  /  0x2313 (0x0025)  : (Perhaps I'm having just being dead stupid, but I don't seem to be able to grasp the body of your meaning)
+0x07df  /  0x2339 (0x0007)  : it's too far away
+0x07e0  /  0x2341 (0x000c)  : I can't find a verb in that sentence
+0x07e1  /  0x234e (0x0004)  : it's not there
+0x07e2  /  0x2353 (0x000c)  : there were too many nouns in that sentence
+0x07e3  /  0x2360 (0x0005)  : I couldn't see that here
+0x07e4  /  0x2366 (0x0007)  : I owned nothing at all. 
+0x07e5  /  0x236e (0x0005)  : it was dark. 
+0x07e6  /  0x2374 (0x0007)  : I couldn't reach that from here
+0x07f4  /  0x237d (0x000c)  : sorry, I don't fully understand that verb
+0x07f5  /  0x238a (0x000a)  : there didn't seem to be anything suitable. 
+0x07f6  /  0x2395 (0x000b)  : said "That was a rhetorical question"
+0x07f7  /  0x23a1 (0x0006)  : what a mouthful! 
+0x07fc  /  0x23a9 (0x0003)  : couldn't have 
+0x07fe  /  0x23ae (0x0001)  : that
+0x07ff  /  0x23b0 (0x0001)  : here
+0x0800  /  0x23b2 (0x0005)  : I couldn't find 
+0x0805  /  0x23b9 (0x0007)  : it's not clear what 
+0x0806  /  0x23c1 (0x0004)  :  refers to
+0x080c  /  0x23c7 (0x000b)  : are you talking to yourself again? 
+0x080d  /  0x23d3 (0x000c)  : I couldn't talk to several people at once
+0x0834  /  0x23e1 (0x00bb)  : Welcome to part 3 of Scapeghost, copyright (C) 1989 from Level 9 Computing. 
+ 
+I awoke abruptly at the start of my third night, feeling stronger than ever and wondering if I would be able to achieve such feats as bending metal and manifesting myself to mortals. 
+ 
+With a shock, I noticed a priest kneeling before my grave, mumbling passages from a leather-bound book. Two men stood over him. I thought at first they were some kind of assistants, until I saw through their disguises and recognised them as members of the drugs gang. They weren't helping him. They were making sure he did what he was told.. 
+0x0840  /  0x24a0 (0x000a)  : it looked exactly as I had expected. 
+0x0842  /  0x24ac (0x0006)  : I couldn't go that way
+0x0843  /  0x24b3 (0x0003)  : through the door
+0x0845  /  0x24b8 (0x0006)  : it's already open
+0x084b  /  0x24c0 (0x0005)  : I couldn't put 
+0x084c  /  0x24c6 (0x0001)  : there
+0x084e  /  0x24c9 (0x0009)  : I would have to drop it first
+0x0850  /  0x24d4 (0x0030)  : 
+did you know that you can go quickly to a far off place? E.G "RUN TO ATTIC" or "GOTO SARAH".
+
+0x0852  /  0x2506 (0x000a)  : I can't find a reference to "
+0x0853  /  0x2511 (0x0006)  : I was on it! 
+0x0854  /  0x2518 (0x0003)  : what? 
+0x0855  /  0x251c (0x0003)  : where? 
+0x0856  /  0x2520 (0x0005)  : I was wearing 
+0x0857  /  0x2526 (0x000b)  : please try again, saying what with. 
+0x0858  /  0x2532 (0x0004)  : which one? 
+0x0859  /  0x2537 (0x0004)  : at what? 
+0x085b  /  0x253d (0x0003)  : was full
+0x085c  /  0x2541 (0x0003)  : " here
+0x085e  /  0x2546 (0x0005)  : I couldn't wear 
+0x0863  /  0x254d (0x0007)  : I was already wearing that
+0x0864  /  0x2555 (0x000b)  : I found that I didn't need to do that
+0x0868  /  0x2562 (0x0002)  : worn
+0x0869  /  0x2565 (0x0002)  : OK
+0x086b  /  0x2569 (0x0004)  : time passed. 
+0x086c  /  0x256e (0x0001)  : said
+0x086e  /  0x2571 (0x000d)  : I found that I would have to untie it first
+0x0870  /  0x2580 (0x000a)  : YES or NO please.
+
+0x087c  /  0x258c (0x000b)  : you didn't mention anyone who wants it
+0x0898  /  0x2599 (0x0006)  : really restart? 
+0x089a  /  0x25a1 (0x0006)  : really restore? 
+0x089b  /  0x25a8 (0x000b)  : 
+ 
+did I continue? 
+0x08a1  /  0x25b5 (0x0021)  : 
+the adventure had come to an end. 
+Please type RESTART, UNDO, RESTORE or RAM RESTORE: 
+0x08a2  /  0x25d7 (0x0007)  : the room was badly damaged
+0x08a3  /  0x25df (0x0008)  : the place was already damaged
+0x08a4  /  0x25e8 (0x000b)  : really! You're so destructive! 
+0x08a5  /  0x25f4 (0x0006)  : it looked badly damaged
+0x08a7  /  0x25fc (0x0009)  : that's too long to wait
+0x08a8  /  0x2606 (0x000d)  : try eg Wait for Sarah or Wait 3
+0x08c0  /  0x2615 (0x0007)  : 
+I had scored 
+0x08c1  /  0x261d (0x0011)  : 
+ 
+the adventure had come to an end.
+
+0x08c2  /  0x262f (0x0008)  :  out of 1000 and was 
+0x08c3  /  0x2638 (0x0002)  : -
+0x08c9  /  0x263c (0x0005)  : a faded vision
+0x08ca  /  0x2642 (0x0005)  : a vain spirit
+0x08cb  /  0x2648 (0x0005)  : an incompetent ghost
+0x08cc  /  0x264e (0x0005)  : a harmless apparition
+0x08cd  /  0x2654 (0x0005)  : an ordinary ghost
+0x08ce  /  0x265a (0x0005)  : a competent spirit
+0x08cf  /  0x2660 (0x0008)  : progressing in the spirit world
+0x08d0  /  0x2669 (0x0005)  : a strong presence
+0x08d1  /  0x266f (0x0005)  : a powerful phantasm
+0x08d2  /  0x2675 (0x0005)  : a vivid phantom
+0x08d3  /  0x267b (0x0007)  : a dominant supernatural force
+0x08d4  /  0x2683 (0x0003)  : a poltergeist
+0x0904  /  0x2688 (0x000b)  : I couldn't go back further than this. 
+0x0905  /  0x2694 (0x0030)  : 
+(this version allows you to use RAM SAVE and RAM RESTORE to save a position in memory, and UNDO to take back bad moves).
+
+0x0906  /  0x26c5 (0x0019)  : can't find that saved position. Perhaps you've restarted the game since it was saved. 
+0x0907  /  0x26df (0x0026)  : 
+ 
+I am about to start another part of the game. Do you want to save my position first, just in case? 
+0x0908  /  0x2706 (0x000b)  : that data was not saved from Scapeghost. 
+0x0909  /  0x2712 (0x000c)  : play the game tape to load part 
+0x090a  /  0x271f (0x001e)  : 
+ 
+I am about to start another part of the game. Do you want to go ahead? 
+0x0964  /  0x273f (0x0005)  : I could smell nothing
+0x0965  /  0x2745 (0x000a)  : I found nothing much to write about
+0x0966  /  0x2750 (0x000b)  : I didn't smell of anything, being a ghost
+0x0967  /  0x275c (0x0004)  : I said hello
+0x0970  /  0x2762 (0x000e)  : to be, or not to be, that is the question
+0x0971  /  0x2771 (0x0008)  : knocked with a ghostly scratching
+0x0974  /  0x277b (0x000d)  : I couldn't seem to find what I was looking for
+0x097e  /  0x278a (0x0002)  : itself
+0x097f  /  0x278d (0x0002)  : itself
+0x0980  /  0x2790 (0x0002)  : themselves
+0x0981  /  0x2793 (0x0002)  : himself
+0x0982  /  0x2796 (0x0002)  : herself
+0x0983  /  0x2799 (0x0002)  : themselves
+0x0984  /  0x279c (0x0002)  : myself
+0x0985  /  0x279f (0x0002)  : himself
+0x0986  /  0x27a2 (0x0002)  : herself
+0x09a6  /  0x27a6 (0x0003)  : got out 
+0x09a7  /  0x27aa (0x0006)  : drove the van 
+0x09a8  /  0x27b1 (0x0006)  : drove the taxi 
+0x09a9  /  0x27b8 (0x0004)  : escorted Sarah 
+0x09ba  /  0x27be (0x0002)  : walked
+0x09bb  /  0x27c1 (0x0002)  : trudged
+0x09bc  /  0x27c4 (0x0002)  : stomped
+0x09bd  /  0x27c7 (0x0002)  : wandered
+0x09be  /  0x27ca (0x0002)  : went
+0x09c4  /  0x27ce (0x0002)  : floated
+0x09c5  /  0x27d1 (0x0002)  : drifted
+0x09c6  /  0x27d4 (0x0002)  : hovered
+0x09c7  /  0x27d7 (0x0002)  : glided
+0x09c8  /  0x27da (0x0002)  : went
+0x09ce  /  0x27de (0x0018)  : didn't fancy going in that direction by foot, for there was nothing to be seen for miles
+0x09cf  /  0x27f7 (0x002c)  : drove for miles through the damp and dismal countryside, while I hid in the shadows at the back of the van. At last, we began to slow down..
+0x09d0  /  0x2824 (0x001d)  : I tested the controls to see if I could drive, but my hands couldn't get a proper grip on the wheel
+0x09d1  /  0x2842 (0x0046)  : 
+ 
+as I heard John and Weasel driving off into the distance, I realised that I had blown my last chance of getting to their new hideout. 
+I got the feeling that I had used up all my valuable time, and I simply faded away in disappointment
+0x09d8  /  0x288b (0x0031)  : 
+ 
+my grave had been exorcised and I suddenly found myself fading to nothingness. I couldn't find the strength to move away, and I was soon banished from the earth forever
+0x09d9  /  0x28bd (0x0021)  : 
+ 
+the priest ran past me in a panic as I heard the cruel laughter of John and Weasel coming from my grave
+0x09e2  /  0x28e0 (0x0016)  : the attic was then much darker, lit only by the light that came through the window
+0x09e3  /  0x28f7 (0x0007)  : the bulb glowed dimly
+0x09e4  /  0x28ff (0x0017)  : the electricity supply had been reconnected, and the bulb came on with a bright flash
+0x09e5  /  0x2917 (0x0018)  : the house was brightly lit, and I dared not risk being banished back to my exorcised grave
+0x09e6  /  0x2930 (0x0019)  : the lights had come back on to their full brightness downstairs, and I was trapped in the attic
+0x09e7  /  0x294a (0x0005)  : it was switched off
+0x09e8  /  0x2950 (0x0005)  : it was switched on
+0x09e9  /  0x2956 (0x0008)  : switched off the circuit breaker
+0x09ea  /  0x295f (0x0008)  : switched on the circuit breaker
+0x09eb  /  0x2968 (0x001a)  : I touched the sprayer on the connectors but nothing happened, as the electricity had already been shorted out
+0x09ec  /  0x2983 (0x002c)  : I touched the sprayer on the connectors and there was a swift shower of crisp blue sparks and a sharp crack as I shorted out the electricity supply to the house
+0x09ed  /  0x29b0 (0x0017)  : 
+ 
+suddenly, the lights in the house came back on to their full brightness
+0x09ee  /  0x29c8 (0x0055)  : 
+ 
+the sudden shock of light instantly blinded me and I was banished back to my exorcised grave, where I could not remain. 
+ 
+My three days on earth were at an end, and I passed on to the hereafter. But I had failed to clear my name among those I left behind..
+0x09ef  /  0x2a1f (0x0014)  : said, "You must be joking! The shock could kill me"
+0x09f0  /  0x2a34 (0x0008)  : there wasn't much light here. 
+0x09f1  /  0x2a3d (0x0017)  : the backup generator was still running, and the house switched back to a lower voltage
+0x09f2  /  0x2a55 (0x0005)  : smashed to smithereens
+0x09f3  /  0x2a5b (0x000e)  : "Not another power cut", groaned John
+0x09f4  /  0x2a6a (0x000f)  : "Ah, it's come back on again", said John
+0x09f6  /  0x2a7b (0x0016)  : the table was covered with playing cards and money, and there was no room for anything else
+0x09f7  /  0x2a92 (0x000c)  : felt it move and placed a hand over it
+0x09f8  /  0x2a9f (0x000c)  : would never be strong enough to carry that
+0x0a00  /  0x2aad (0x000b)  : could only deflate the tyres from the outside
+0x0a01  /  0x2ab9 (0x0012)  : was moving, making it rather difficult to let the tyres down
+0x0a02  /  0x2acc (0x0008)  : the tyres were already deflated
+0x0a03  /  0x2ad5 (0x0004)  : they were flat
+0x0a04  /  0x2ada (0x0011)  : took a foot pump out of the boot and inflated the tyres
+0x0a05  /  0x2aec (0x0027)  : kicked the tyres impatiently and said, "We don't have time to inflate those. Let's go! Just drive the damn thing carefully"
+0x0a0a  /  0x2b15 (0x0038)  : 
+ 
+pain struck me as I entered the back of the barn, as if something ghastly had once happened here. A powerful sense of danger overwhelmed me, and I found myself driven away..
+0x0a0b  /  0x2b4e (0x007d)  : 
+ 
+at the back of the barn were spectral images. I saw a bound figure, guarded by an armed man. Severian raised his weapon; the prisoner tried a futile attack; the gun went off. I felt a stabbing pain, then a second shot rang out and everything went black. 
+ 
+I found myself at the front of the barn and knew now what this place was. It was the place of my death
+0x0a0c  /  0x2bcd (0x0027)  : 
+ 
+no matter how hard I fought to stay here, I could not remain at the place of my death. I weakened and fled
+0x0a14  /  0x2bf6 (0x000b)  : found that the key was already bent
+0x0a15  /  0x2c02 (0x0035)  : John felt the movement in his pocket and guessed that Jude was feeling friendly. He casually put his hand on her knee and was taken aback when she pulled it away and hissed, "Not now"
+0x0a16  /  0x2c38 (0x0004)  : it was bent
+0x0a1e  /  0x2c3e (0x005b)  : 
+ 
+"I think I just saw somebody", I heard Severian shout from the kitchen. "But I'm not sure". 
+"Let's not take any chances", said the Professor, "Come on, we'd better get going early". 
+John shouted to tell the others in the house to meet in the hallway
+0x0a1f  /  0x2c9b (0x001b)  : 
+ 
+I heard Big John muttering upstairs in the attic, as if he had seen something through the window
+0x0a20  /  0x2cb7 (0x0015)  : nervously, he looked away from the window and so didn't see the signs of the police approaching
+0x0a21  /  0x2ccd (0x0018)  : I waited patiently for a while, and then noticed something going on outside the window... 
+0x0a28  /  0x2ce7 (0x006a)  : suddenly, I heard Big John shout a warning to the rest of the gang. "The filth have found us!", he spluttered, "There's jam sandwiches in the village!" 
+The next thing I heard was a clattering of chairs in the kitchen as everyone got up. "All meet in the hall!", shouted John, "We're getting out of here before we're busted!"
+0x0a3c  /  0x2d54 (0x0011)  : "Whassat!", snapped John as he heard the bulb smash
+0x0a3d  /  0x2d66 (0x0025)  : the stair creaked eerily and I heard Big John let out a nervous whine. "T-there's s-something creepy going on here", he stammered
+0x0a3e  /  0x2d8c (0x0010)  : the curtains wafted into the room and John stared at them uneasily
+0x0a3f  /  0x2d9d (0x0026)  : John clasped his arms around himself, shivering in the sudden cold. He sat on the edge of his bed, eyes darting nervously around the attic
+0x0a40  /  0x2dc4 (0x0023)  : John's hair stood on end and panic got the better of him. "Aargh! I'm being possessed!", he spluttered
+0x0a47  /  0x2de9 (0x0027)  : the stair groaned again. "Hah", sniggered Big John, "It's just a creaky floorboard somewhere. Fancy me being scared of that!"
+0x0a48  /  0x2e11 (0x0023)  : "There they go again", said John as the curtains wafted into the room. "There must be a draught blowing through the window"
+0x0a49  /  0x2e35 (0x0039)  : "It gets colder by the minute", said John, rubbing his hands together. "Well I know one way to keep out the chill of the night", he added and took a warming swig of whisky
+0x0a4a  /  0x2e6f (0x0032)  : John put his hand on his head to stop his hair from standing on end. "Blasted nylon carpets", he grumbled, "It's no wonder there's so much static around here"
+0x0a4e  /  0x2ea3 (0x000f)  : walked around, complaining about static from the nylon carpets
+0x0a4f  /  0x2eb3 (0x0013)  : jogged up and down, complaining about the lack of heating in the farmhouse
+0x0a50  /  0x2ec7 (0x000b)  : I prepared to attack by manifesting myself
+0x0a51  /  0x2ed3 (0x000d)  : I concentrated my ghostly powers and manifested myself
+0x0a52  /  0x2ee1 (0x0010)  : appeared to have seen me, but just seemed to avoid me
+0x0a53  /  0x2ef2 (0x0035)  : John shone his torch and stared at me, making me fade away. He must have caught a glimpse of me though, for he shouted an alarm to warn the rest of the gang of my presence
+0x0a54  /  0x2f28 (0x0021)  : Already tense with fear, John stared at me wide-eyed and shaking, then fled off towards the hatch in sheer panic
+0x0a55  /  0x2f4a (0x003a)  : John fixed his eyes on me and screamed, firing off the full magazine of his gun through me. The gang must have thought that they were under attack and I heard them running from the kitchen, to see what was going on
+0x0a57  /  0x2f86 (0x0017)  : 
+ 
+In the presence of hostile humans, I became invisible once again
+0x0a58  /  0x2f9e (0x0012)  : "Where's Alan got to?", whispered Sarah, slightly puzzled
+0x0a5a  /  0x2fb2 (0x0015)  : I couldn't open the door, since it was fastened securely with a heavy bolt
+0x0a5b  /  0x2fc8 (0x001a)  : I wasn't strong enough to move the thick iron bolt and thus close the door properly
+0x0a5c  /  0x2fe3 (0x0014)  : I couldn't open the door, so I decided that I would have to float through it
+0x0a5d  /  0x2ff8 (0x000f)  : unfortunately, I couldn't carry anything with me and had to drop
+0x0a5e  /  0x3008 (0x0004)  : it was closed
+0x0a5f  /  0x300d (0x0004)  : it was open
+0x0a60  /  0x3012 (0x0011)  : through it, I could see Sarah tied up at the back of the cellar
+0x0a61  /  0x3024 (0x0014)  : through it, I could see Weasel fiddling with a bolt at the bottom of the door
+0x0a62  /  0x3039 (0x000a)  : was on the other side of the window
+0x0a64  /  0x3045 (0x000f)  : couldn't get on the chair while somebody was tied up to it
+0x0a65  /  0x3055 (0x0010)  : Sarah watched me closely, waiting for me to say something
+0x0a66  /  0x3066 (0x004a)  : Sarah's eyes widened and she let out a muffled shriek. As the initial shock wore off, she realised who I was and her expression slowly changed from fear to amazement. Soon, when she had calmed down, she sat still, hoping that I would cut the ropes
+0x0a67  /  0x30b2 (0x000b)  : I wasn't strong enough to untie that
+0x0a68  /  0x30be (0x0009)  : untied the ropes and the gag
+0x0a69  /  0x30c8 (0x009d)  : I cut the ropes and the gag with the glass, freeing Sarah. 
+ 
+"I don't know how you managed to return from the dead", she whispered with a shudder, "but I never thought I'd be glad to see a ghost. Thank you for freeing me". 
+She ran over to the cellar door and balanced a hammer on the shelf above it, before returning to her previous position on the chair. 
+"You know what to do when Weasel returns", she said with a tight smile, tossing the bonds back over her as if she were still tied up
+0x0a6a  /  0x3168 (0x0006)  : had nothing sharp enough
+0x0a6c  /  0x3170 (0x000a)  : the door closed from the other side
+0x0a6d  /  0x317b (0x000a)  : the door opened from the other side
+0x0a6e  /  0x3186 (0x0018)  : was frightened by the glass, and squirmed away from it, preventing me from cutting the bonds
+0x0a6f  /  0x319f (0x0021)  : Sarah shook her head, as if warning me that Weasel was still close by, and that he might notice the ropes being cut
+0x0a70  /  0x31c1 (0x0010)  : somebody was already tied up with the ropes and the gag
+0x0a71  /  0x31d2 (0x0017)  : I wasn't strong enough to tie either the ropes or the gag tight enough
+0x0a72  /  0x31ea (0x0012)  : Sarah bound and gagged Weasel, finishing just as he began to wake up
+0x0a73  /  0x31fd (0x0013)  : couldn't tie me up, since the bonds kept passing straight through me
+0x0a74  /  0x3211 (0x0003)  : would need
+0x0a75  /  0x3215 (0x0008)  : to tie somebody up properly
+0x0a76  /  0x321e (0x0006)  : couldn't tie herself up
+0x0a77  /  0x3225 (0x000d)  : she bolted the cellar door securely on her way out
+0x0a78  /  0x3233 (0x000f)  : bit the gag in frustration, trying to break it
+0x0a79  /  0x3243 (0x000c)  : helplessly tried to wriggle out of the ropes
+0x0a7a  /  0x3250 (0x0008)  : let out a muffled cry
+0x0a7b  /  0x3259 (0x0007)  : muttered behind her gag
+0x0a7c  /  0x3261 (0x000e)  : pulled at the ropes, trying to break free
+0x0a82  /  0x3271 (0x000b)  : pushed the heavy hammer off the shelf
+0x0a8c  /  0x327e (0x0054)  : quickly grabbed hold of Sarah before she could get away. "Not so fast, my girl, you're not going anywhere!", snarled the crook, "Who helped you escape from the cellar?" 
+Sarah kicked and struggled to break free, but her captor just tightened the grip around her neck
+0x0a8d  /  0x32d4 (0x000e)  : couldn't help me, since she was still a hostage
+0x0a8e  /  0x32e3 (0x0036)  : shouted a warning to the rest of the gang, telling them that Sarah had managed to escape. 
+The gang guessed that somebody must have helped her, and they decided that it would be best to leave
+0x0a8f  /  0x331a (0x001c)  : grabbed hold of Sarah, snarling, "You set us up, you bitch, didn't you?!"
+0x0a96  /  0x3338 (0x0018)  : picked up the briefcase, saying, "What the hell are the drugs doing here"
+0x0a97  /  0x3351 (0x001c)  : grabbed the briefcase. "I'll look after this, thank you very much!", he snapped
+0x0aa0  /  0x336f (0x0002)  : ran
+0x0aa1  /  0x3372 (0x0002)  : dashed
+0x0aa2  /  0x3375 (0x0002)  : hurried
+0x0aa3  /  0x3378 (0x0002)  : rushed
+0x0aa4  /  0x337b (0x0002)  : scuttled
+0x0aaa  /  0x337f (0x0033)  : "It's bent!", exclaimed John as he took the key from his pocket. "Lucky we've plenty of time to straighten it", he added as he bashed it flat against the dashboard
+0x0aab  /  0x33b3 (0x003b)  : "Hell and Damnation!", stormed John as he took the bent key from his pocket. "Come on! I haven't got time to straighten the damn thing. Leg it across the fields before the Bill catch us
+0x0aac  /  0x33ef (0x0030)  : 
+ 
+although the police were closing in, they weren't quite quick enough to catch them and John Q. And his gang were able to escape across the fields on foot
+0x0aad  /  0x3420 (0x001f)  : Sarah knew too much to be left behind - or left alive. They took her with them, and murdered her
+0x0aae  /  0x3440 (0x001e)  : 
+ 
+unfortunately for the drug traffickers, the police had the farm surrounded, making the gang easy prey
+0x0aaf  /  0x345f (0x0051)  : 
+ 
+the press of people in the van became so great that I faded away, allowing the importers to escape. I was too weak to do anything to prevent the Professor and Severian from leaving either. I had failed at the final hurdle and dissolved into the night, overcome with futility..
+0x0ab4  /  0x34b3 (0x0024)  : in a last attempt to stop the buyers from getting away, I made myself visible and tried to overcome Severian, who was driving
+0x0ab5  /  0x34d8 (0x003a)  : for all my efforts, all I could achieve was to cause him to swerve around as he fought back. When the Professor joined in I was defeated by their combined strength, and I began to fade, allowing them both to escape
+0x0ab6  /  0x3513 (0x007c)  : he fought back, waving his arms about in a frenzy. The taxi began to career madly all over the track. The flat tyres had made it difficult to drive anyway, now it went completely out of control. 
+ 
+The taxi skidded off the side of the track and crashed into a tree. Severian and the Professor struggled free of the wreck, moments before it burst into flames. Bruised and shaken, they made a run for it across the fields
+0x0ab7  /  0x3591 (0x001a)  : 
+ 
+unfortunately for them, the police were close by, and soon had them caught and cuffed
+0x0ab8  /  0x35ac (0x001e)  : 
+ 
+luck was with them, and they managed to get clear of the area just minutes before the police arrived
+0x0abe  /  0x35cc (0x0021)  : stared at me, causing me to fade away, and then shouted an alarm to warn the rest of the gang of my presence
+0x0abf  /  0x35ee (0x0024)  : "Can't take any chances tonight", I heard John shout. "All meet in the hall and then we'll make tracks"
+0x0ac0  /  0x3613 (0x0062)  : In a last attempt to free Sarah, I launched an attack on the gang. It didn't last long, for I faded, unable to resist, under their concentrated attention. And it didn't help to achieve what I really wanted. Sarah was OK. She legged it good and fast, but she did nothing to clear my name as she would otherwise have done
+0x0ac2  /  0x3678 (0x001d)  : my powers were too weak at this stage, and I found that I didn't have the strength to manifest myself
+0x0ac7  /  0x3697 (0x0005)  : epilogue... 
+0x0ac8  /  0x369d (0x0016)  : I had succeeded in bringing John Q and the other drug smugglers to justice. 
+0x0ac9  /  0x36b4 (0x0012)  : my attempts to bring the drug traffickers to justice had failed. 
+0x0aca  /  0x36c7 (0x0025)  : and as for the buyers, Severian and the Professor, they were caught, with the drugs being available as evidence - irrefutable proof of their guilt. 
+0x0acb  /  0x36ed (0x000e)  : and as for the buyers, they managed to escape. 
+0x0acc  /  0x36fc (0x0014)  : , but the drugs were left behind, for the police to collect as evidence. 
+0x0acd  /  0x3711 (0x000d)  :  with the drugs, thus removing the evidence. 
+0x0ace  /  0x371f (0x0008)  : 
+Sarah was still alive
+0x0acf  /  0x3728 (0x003a)  : 
+Sarah had been killed by John Q.'S gang. I was sorry - for her, despite everything because we had been partners once - and for me as now my name would never be cleared. 
+0x0ad0  /  0x3763 (0x0043)  :  and gave evidence to the police to clear my name. 
+ 
+Knowing that my work was done, I returned at peace to the spirit world. My three days on earth were at an end, and I ascended triumphally to Heaven. 
+0x0ad1  /  0x37a8 (0x0013)  : , but she had fled and couldn't give evidence to clear my name. 
+0x0ad2  /  0x37bc (0x0053)  : 
+ 
+having failed in clearing my name, I returned miserably to the spirit world. 
+ 
+My three days on earth were at an end, and I passed on to the hereafter. My old colleagues would go on believing I had been criminally stupid. I knew I was just incompetent. 
+0x0ad3  /  0x3811 (0x001b)  : , but the drugs were utterly destroyed in the burning taxi, leaving nothing that would serve as evidence. 
+0x0ad4  /  0x382d (0x0013)  : she had also taken the drugs with her, thus removing the evidence. 
+0x0adc  /  0x3842 (0x001c)  : 
+ 
+"I wish someone would fix the loose floorboards in this place?", sighed Sarah
+0x0add  /  0x385f (0x001e)  : 
+ 
+"Maybe I'd better find somewhere to hide", said Sarah, her eyes exploring the hallway
+0x0ae1  /  0x387f (0x0005)  : try dropping it
+0x0ae6  /  0x3886 (0x000e)  : pumped the sprayer, but found that it was empty
+0x0ae7  /  0x3895 (0x0017)  : 
+ 
+there was a long hissing noise as the taxi's tyres were being deflated
+0x0ae8  /  0x38ad (0x0022)  : I crouched down to sit on the chair and found to my surprise that I floated straight through it and fell onto the floor
+0x0af0  /  0x38d1 (0x001a)  : 
+ 
+with a boost of confidence, I had the feeling that the police were now on their way. 
+0x0af6  /  0x38ed (0x0025)  : 
+ 
+a feeling of satisfaction coursed through me as I realised that the police should be hot on the trail of the crooks by now. 
+0x0afc  /  0x3914 (0x002d)  : 
+ 
+the wail of a distant siren drifted faintly through the air and then faded again. It seemed like it wouldn't be long before the police would be here. 
+0x0b02  /  0x3943 (0x001a)  : 
+ 
+I heard the faint noise of an approaching car and prayed that it was the police. 
+0x0b08  /  0x395f (0x0013)  : 
+ 
+the sound of approaching cars gradually became louder. 
+0x0b0e  /  0x3974 (0x0020)  : 
+ 
+I heard the squeal of tyres on a wet road as if a car had just taken a sharp corner. 
+0x0b14  /  0x3996 (0x0034)  : 
+ 
+the engine noises stopped suddenly, followed by the abrupt slamming of car doors. At the same time, the faint chopping of a helicopter became audible in the distance. 
+0x0b1a  /  0x39cc (0x0027)  : 
+ 
+the thwacking of helicopter blades grew louder, and a beam of light engulfed the whole farm, making me feel dizzy. 
+0x0b20  /  0x39f5 (0x0030)  : 
+ 
+"This is the police! ", blasted an amplified voice from the helicopter, "Come out with your hands up! We have you surrounded!" 
+0x0b23  /  0x3a27 (0x0011)  : 
+"Maybe I can help you", offered Sarah. 
+0x0b24  /  0x3a39 (0x000d)  : 
+ 
+Sarah sniggered quietly to herself. 
+0x0b25  /  0x3a47 (0x0015)  : 
+ 
+"You won't get him with that one again", sighed Sarah. 
+0x0b56  /  0x3a5e (0x000a)  : didn't appear to have seen me at all
+0x0b57  /  0x3a69 (0x0011)  : could feel my presence, but he forced himself to ignore me
+0x0b58  /  0x3a7b (0x000a)  : looked straight through me and squinted slightly
+0x0b59  /  0x3a86 (0x000a)  : didn't appear to have noticed me at all
+0x0b5a  /  0x3a91 (0x0025)  : glanced through me out of the corner of his eye. He scratched the stubble on his chin thoughtfully for a moment, but still ignored me
+0x0b5b  /  0x3ab7 (0x000a)  : didn't acknowledge my presence in the least
+0x0b5c  /  0x3ac2 (0x0005)  : paid no attention
+0x0b5d  /  0x3ac8 (0x0009)  : didn't seem to notice me at all
+0x0c1c  /  0x3ad4 (0x0004)  : don't be silly
+0x0c1d  /  0x3ad9 (0x0007)  : well, that's new
+0x0c1e  /  0x3ae1 (0x0007)  : sorry, no can do
+0x0c1f  /  0x3ae9 (0x000c)  : that's a funny thing to want to do
+0x0c20  /  0x3af6 (0x0007)  : daft, I call it
+0x0c30  /  0x3aff (0x000b)  : you might as well leave it alone
+0x0c31  /  0x3b0b (0x0009)  : I suggest that you forget about it
+0x0c32  /  0x3b15 (0x0008)  : that's not important to the game
+0x0c33  /  0x3b1e (0x000a)  : forget it. It's only scenery
+0x0c34  /  0x3b29 (0x0006)  : pay it no heed
+0x0c3a  /  0x3b31 (0x000d)  : now what was the object of that? Try again
+0x0c3b  /  0x3b3f (0x000c)  : sorry, I couldn't find an object in that
+0x0c3c  /  0x3b4c (0x0007)  : please be more specific
+0x0c3d  /  0x3b54 (0x0009)  : there was no object in that command
+0x0c3e  /  0x3b5e (0x000a)  : do it to what? You didn't say
+0x0c44  /  0x3b6a (0x0003)  : nothing happened
+0x0c45  /  0x3b6e (0x0007)  : that didn't seem to work
+0x0c46  /  0x3b76 (0x0007)  : there was no effect on anything
+0x0c47  /  0x3b7e (0x0006)  : that was remarkably useless
+0x0c48  /  0x3b85 (0x000b)  : that did nothing at all, I'm afraid
+0x0c4e  /  0x3b92 (0x0004)  : wouldn't move
+0x0c4f  /  0x3b97 (0x0003)  : didn't budge
+0x0c50  /  0x3b9b (0x0006)  : refused to be moved
+0x0c51  /  0x3ba2 (0x0007)  : seemed fixed in place
+0x0c52  /  0x3baa (0x0003)  : was unmoved
+0x0c58  /  0x3baf (0x0008)  : don't bother, it would do nothing
+0x0c59  /  0x3bb8 (0x0008)  : that would be a waste of time
+0x0c5a  /  0x3bc1 (0x0005)  : that would be pointless
+0x0c5b  /  0x3bc7 (0x0007)  : that will get you nowhere
+0x0c5c  /  0x3bcf (0x0009)  : don't expect any results from that
+0x0c62  /  0x3bda (0x0004)  : smiled crookedly
+0x0c63  /  0x3bdf (0x0005)  : returned my greeting
+0x0c64  /  0x3be5 (0x000e)  : started to shake hands, but changed her mind
+0x0c65  /  0x3bf4 (0x0005)  : raised an eyebrow
+0x0c66  /  0x3bfa (0x0004)  : nodded politely
+0x0c6c  /  0x3c00 (0x0004)  : seemed puzzled
+0x0c6d  /  0x3c05 (0x0006)  : shook a puzzled head
+0x0c6e  /  0x3c0c (0x0005)  : looked distinctly confused
+0x0c6f  /  0x3c12 (0x000a)  : didn't seem to understand what was wanted
+0x0c70  /  0x3c1d (0x0009)  : looked at me with a blank expression
+0x0c76  /  0x3c28 (0x0006)  : had had problems with 
+0x0c77  /  0x3c2f (0x0005)  : looked troubled about 
+0x0c78  /  0x3c35 (0x0006)  : mentioned trouble with 
+0x0c79  /  0x3c3c (0x0008)  : obviously hadn't understood about 
+0x0c7a  /  0x3c45 (0x0006)  : had been mystified about 
+0x0c9e  /  0x3c4d (0x0005)  : nodded in acknowledgement
+0x0c9f  /  0x3c53 (0x0004)  : nodded slowly
+0x0ca0  /  0x3c58 (0x0004)  : nodded obediently
+0x0ca1  /  0x3c5d (0x0002)  : agreed
+0x0ca2  /  0x3c60 (0x0004)  : nodded enthusiastically
+0x0cb2  /  0x3c66 (0x0006)  : refused to answer that
+0x0cb3  /  0x3c6d (0x0007)  : remained silent as the grave
+0x0cb4  /  0x3c75 (0x0008)  : pretended to ignore the question
+0x0cb5  /  0x3c7e (0x000b)  : refused to give any help whatsoever
+0x0cb6  /  0x3c8a (0x0004)  : looked back stubbornly
+0x0cc6  /  0x3c90 (0x0007)  : refused to part with anything
+0x0cc7  /  0x3c98 (0x0007)  : refused to give it away
+0x0cc8  /  0x3ca0 (0x0008)  : didn't want to give anything away
+0x0cc9  /  0x3ca9 (0x0005)  : clutched it tightly
+0x0cca  /  0x3caf (0x0008)  : stared back in silent refusal
+0x0cda  /  0x3cb9 (0x0010)  : said, "Sorry Alan, I don't quite follow you"
+0x0cdb  /  0x3cca (0x001f)  : said, "It must be me, Alan, but I can't make head nor tail of what you're saying"
+0x0cdc  /  0x3cea (0x0011)  : said, "Come again? Could you put that another way"
+0x0cdd  /  0x3cfc (0x000d)  : looked blank and said, "Eh?.."
+0x0cde  /  0x3d0a (0x000d)  : said, "Can we try that again?"
+0x0cee  /  0x3d19 (0x0002)  : looked around
+0x0cef  /  0x3d1c (0x0002)  : sighed
+0x0cf0  /  0x3d1f (0x0005)  : muffled a cough
+0x0cf1  /  0x3d25 (0x0003)  : looked worried
+0x0cf2  /  0x3d29 (0x0002)  : sneezed
+0x0cf8  /  0x3d2d (0x0004)  : twitched nervously
+0x0cf9  /  0x3d32 (0x0007)  : began to shake a little
+0x0cfa  /  0x3d3a (0x0003)  : was sweating
+0x0cfb  /  0x3d3e (0x0007)  : looked at John and Weasel nervously
+0x0cfc  /  0x3d46 (0x000a)  : tried to steady his shaking hands
+0x0d02  /  0x3d52 (0x0004)  : narrowed his eyes
+0x0d03  /  0x3d57 (0x0004)  : coughed loudly
+0x0d04  /  0x3d5c (0x0006)  : spat on the floor
+0x0d05  /  0x3d63 (0x0008)  : wiped his nose on his hand
+0x0d06  /  0x3d6c (0x0007)  : smoothed his tangled hair
+0x0d0c  /  0x3d75 (0x0005)  : smoothed her dress
+0x0d0d  /  0x3d7b (0x0005)  : tossed her head back
+0x0d0e  /  0x3d81 (0x0006)  : chewed on some gum
+0x0d0f  /  0x3d88 (0x0004)  : stretched sensuously
+0x0d10  /  0x3d8d (0x0006)  : toyed with her earrings
+0x0d16  /  0x3d95 (0x0005)  : looked at his watch
+0x0d17  /  0x3d9b (0x0004)  : sighed impatiently
+0x0d18  /  0x3da0 (0x0004)  : smiled crookedly
+0x0d19  /  0x3da5 (0x0005)  : chewed a fingernail
+0x0d1a  /  0x3dab (0x0005)  : stroked his chin
+0x0dca  /  0x3db3 (0x0009)  : the previous command was not repeatable
+0x0dcb  /  0x3dbd (0x0006)  : you can't do that again
+0x0dcc  /  0x3dc4 (0x000a)  : it wouldn't help to try that again
+0x0dcd  /  0x3dcf (0x0007)  : that was a once-only command
+0x0dce  /  0x3dd7 (0x0005)  : oh, not again
+0x0de8  /  0x3dde (0x0002)  : not around
+0x0e10  /  0x3de2 (0x000c)  : a voice moaned about a stack overflow. 
+0x0e15  /  0x3df0 (0x000b)  : sorry, I can't find my way here
+0x0e1e  /  0x3dfd (0x0006)  : I wailed eerily. 
+0x0e24  /  0x3e05 (0x0002)  : laughed
+0x0e25  /  0x3e08 (0x0006)  : paid me no heed
+0x0e26  /  0x3e0f (0x0003)  : had not heard
+0x0e27  /  0x3e13 (0x0004)  : took no notice
+0x0e28  /  0x3e18 (0x0003)  : ignored me
+0x0e38  /  0x3e1d (0x0006)  : needed specific orders
+0x0e39  /  0x3e24 (0x0005)  : waited for instructions
+0x0e3a  /  0x3e2a (0x0005)  : looked me up and down
+0x0e3b  /  0x3e30 (0x0008)  : asked, "Why?"
+0x0e3c  /  0x3e39 (0x0008)  : did not know what to do
+0x0e4c  /  0x3e43 (0x0005)  : raised an eyebrow
+0x0e4d  /  0x3e49 (0x0007)  : gave a spirited response
+0x0e4e  /  0x3e51 (0x0003)  : looked offended
+0x0e4f  /  0x3e55 (0x000f)  : laughed, "Oh! You are a hoot"
+0x0e50  /  0x3e65 (0x0005)  : looked askance at me
+0x0fa0  /  0x3e6e (0x0024)  : the this these that some and also before wade jog plod rush dash march amble good of there
+0x0fa1  /  0x3e93 (0x0018)  : therefore am my your try carefully slowly warily quickly rapidly following around
+0x0fa2  /  0x3eac (0x0002)  : please
+0x0fa3  /  0x3eaf (0x000c)  : road Mister Mr Mrs Miss hand
+0x1194  /  0x3ec0 (0x0017)  : looking through the window, I noticed a series of flashing lights in the nearby village
+0x1195  /  0x3ed8 (0x002c)  : the lights in the village continued, and it became apparent that they were coming from the police station. Luckily, John was too busy drinking his whisky to notice anything
+0x1196  /  0x3f05 (0x0017)  : John slouched against the window, almost catching a glimpse of the lights in the village
+0x1197  /  0x3f1d (0x0021)  : I knew that I had to distract John away from the window, or even he would eventually notice the disturbances in the nearby village
+0x1198  /  0x3f3f (0x0016)  : John rubbed his tired eyes and squinted out of the window as if he had seen something
+0x119e  /  0x3f57 (0x0026)  : from the window, I saw the lights of a fleet of cars leaving the centre of the village. It looked like the police were now on their way
+0x119f  /  0x3f7e (0x0024)  : luckily, John didn't see the police cars as they left the village, but he would soon spot them unless I could distract him in some way
+0x11a0  /  0x3fa3 (0x002f)  : John glanced up briefly from his magazine and took a casual look out of the window. "Wonder who's out driving at this hour", he murmured, before returning to his reading
+0x11a1  /  0x3fd3 (0x0023)  : the approaching cars cast beams of light across the distant fields. John looked out of the window again and stroked his chin in suspicion
+0x11a2  /  0x3ff7 (0x0027)  : John continued looking out of the window. If I didn't distract him soon, I knew that he would see the police arriving and alert the rest of the gang
+0x11a8  /  0x4020 (0x002d)  : I caught a glimpse of some cars passing over a nearby hill. A number of them disappeared back into the valley, but one of them parked by the side of the road
+0x11a9  /  0x404e (0x0023)  : in the distance, the headlights of the parked car went off and a much dimmer light began to move slowly away from the car
+0x11aa  /  0x4072 (0x0029)  : John squinted through his bloodshot eyes and looked out of the window. If he spotted the dim light in the distance, he didn't seem to take much notice of it
+0x11ab  /  0x409c (0x001e)  : the dim light turned out to be from a torch, casting its beam across the fields as it slowly approached
+0x11ac  /  0x40bb (0x002e)  : John looked through the window again, this time it was clear from his expression that he had seem something. I would have to act quickly to distract his attention before it was too late
+0x11b2  /  0x40eb (0x001e)  : looking through the window again, I noticed a series of torch beams passing along a hedge in a field outside
+0x11b3  /  0x410a (0x002a)  : although they were quite a distance away, I could make out three policemen walking alongside a hedge. I thought I caught a glimpse of dogs with them
+0x11b4  /  0x4135 (0x0019)  : John took a brief look out of the window, but he didn't appear to have seen the police yet
+0x11b5  /  0x414f (0x0016)  : I knew that it was only a matter of time before John would notice the police arriving
+0x11b6  /  0x4166 (0x002e)  : John scratched his head as he noticed a torch beam cast its light across a field. He fixed his eyes on the field, but the light disappeared behind a tall hedge
+0x11bc  /  0x4196 (0x002f)  : the police were closing in through the fields beyond the window. By now I could make out all three figures quite well, but luckily John was too drunk to notice them yet
+0x11bd  /  0x41c6 (0x0020)  : I briefly took my eyes off the police in the fields, and I noticed a number of cars passing along the adjacent road
+0x11be  /  0x41e7 (0x0042)  : John watched the approaching cars curiously for a while, until they disappeared behind a nearby hill. He scratched his head thoughtfully for a while then went back to his magazine, spreading the pages wide and turning it round to get a better look
+0x11bf  /  0x422b (0x0029)  : looking back to the fields, I saw that the police were closing in around the farm. At the same time, I heard the faint sound of approaching cars
+0x11c0  /  0x4255 (0x0021)  : John's eyes scanned the fields outside the farm. If I wasn't careful, it wouldn't be long until he noticed the police
+0x11c6  /  0x4278 (0x001e)  : bright torch beams shone across the nearby fields, while police cars screeched along the narrow country roads
+0x11c7  /  0x4297 (0x0018)  : John slouched on the bed, pulling hard on his whisky flask and missing all the excitement outside
+0x11c8  /  0x42b0 (0x001a)  : the movements outside the window continued, and John stirred himself and began to ease himself up off the bed
+0x11c9  /  0x42cb (0x001e)  : John had almost reached the window when he rolled drunkenly off the end of the bed, and missed all the action outside
+0x11ca  /  0x42ea (0x0025)  : the police could clearly be seen outside the window as John began to pick himself off the floor. Reeling with drink, he staggered over to the window
+0x1388  /  0x4314 (0x0035)  : reached into his pocket and removed a small phial of holy water. He blessed it and read another passage from his book before preparing to sprinkle the water over my grave. My powers began to drain
+0x1389  /  0x434a (0x0035)  : sprinkled the holy water over my grave and I faded away to the laughter of John and Weasel. I was banished from the earthly spirit world to the hereafter, and had failed to clear my tarnished reputation
+0x1392  /  0x4381 (0x0030)  : grinned contentedly to Weasel. "There's no need to worry about him coming back to haunt us now", he laughed. "Come on, let's grab the drugs and disappear"
+0x1393  /  0x43b2 (0x0019)  : and Weasel collected the drugs from the rubble and stuffed them into the deep pockets of their overalls
+0x139c  /  0x43cd (0x0012)  : started the engine and said, "Right, let's be off then"
+0x139d  /  0x43e0 (0x0027)  : "Bit of a rough night, Weasel", moaned John. "Better not get one of those blasted power cuts at the farm tonight"
+0x139e  /  0x4408 (0x0027)  : "Park the van in the barn", said John. "And make sure it's facing out in case we need to do a runner"
+0x13a6  /  0x4431 (0x003f)  : John cursed the electricity board vigorously, and went into the outhouse to start the backup generator. 
+"Ruddy thing's knackered", he complained as he reappeared. "It's only giving out sixty flamin' volts"
+0x13ab  /  0x4473 (0x0013)  : John and Weasel emptied the drugs onto the table for Severian and the Professor to inspect
+0x13ac  /  0x4487 (0x002f)  : "As agreed", asked Severian as he took two thick wads of money from his briefcase and handed them to John. 
+John counted the money and nodded confirmingly
+0x13ad  /  0x44b7 (0x0031)  : split the money evenly between the rest of his gang of importers, keeping a large cut for himself. Severian crammed the drugs into his briefcase and put it beneath his chair
+0x13ae  /  0x44e9 (0x007f)  : nodded briefly to Weasel and said, "Well, I think this calls for a bit of entertainment. Don't you?". Weasel returned a devious smile and got up from his chair. 
+With some help from Big John, he grabbed Sarah in a headlock and took back her share of the loot while she shouted and struggled. "Didn't think we'd really cut in a spy did you?" Sneered Weasel. "The police think you're a hostage, and now you are one"
+0x13af  /  0x456b (0x003c)  : "So sorry to see you go, Sarah", said Weasel as he tossed her share of the money to John. "But don't worry, you're our insurance police and will be quite safe for a few hours"..
+0x13b0  /  0x45a8 (0x0030)  : sniggered as he heard Sarah being dragged through the hallway. "Okay, the cabaret's over", he said, turning to Big John. "Now it's time for you to play night watchman"
+0x13b5  /  0x45da (0x0008)  : John smoked a cigarette contentedly
+0x13b6  /  0x45e3 (0x0016)  : Severian and the Professor talked between themselves about how they were going to distribute the drugs
+0x13b7  /  0x45fa (0x0023)  : Severian made some rude comments to John about the cackhanded way his gang had operated. "Bunch of bleedin' amateurs", he sneered
+0x13b8  /  0x461e (0x0026)  : John apologised to the Professor about the way things had almost gone wrong with the operation. He would keep everything under better control next time
+0x13b9  /  0x4645 (0x000c)  : the Professor discussed the next drugs deal with John
+0x13ba  /  0x4652 (0x0044)  : took a deck of cards out of his pocket and began shuffling them. "We're not going anywhere until the morning rush-hour hides us from the police, are we? So how about a few hands to pass the time?", he said with a smile
+0x13bb  /  0x4698 (0x003f)  : Jude cleared the table while John cut the deck of cards. "Are we all in?", he asked the crooks. Each of them returned a nod and John continued, "Good. Table stakes, no limit. OK?"
+0x13bc  /  0x46d9 (0x003e)  : The crooks fished into their pockets and each slapped a pile of notes onto the table in front of them. Severian fingered his nervously; watching while John dealt the first hand; watching the cards intently as he dealt
+0x13bd  /  0x4718 (0x004c)  : The players studied their hands thoughtfully, passing around a bottle of whisky. "Can't keep a clear head drinking that stuff", said the Professor as he passed on the bottle untouched. "You'll all see when I clean you out." 
+John smiled slyly but said nothing
+0x13be  /  0x4766 (0x002e)  : The first game began in earnest as they all pushed an initial twenty into the middle of the table. Jude took two new cards, but was unimpressed by them and dropped out
+0x13bf  /  0x4795 (0x0041)  : Severian grunted, "Two", took the new cards and slotted them purposefully into his hand. "I'll raise you twenty", he said, trying to hold back a grin.
+The Professor and John both took new cards and stayed in the game
+0x13c0  /  0x47d8 (0x0045)  : Severian took a single on the next round and pushed the stakes up higher. The other two folded and gave him the game; the Professor after a long while apparently calculating the odds, John after a long thoughtful stare at the back of Severian's cards
+0x13c1  /  0x481f (0x0039)  : the second game lasted for some time, all four pushing the stakes higher all the time. There was an argument at one point when John dealt himself a card out of turn, but tempers were soon soothed with whisky
+0x13c2  /  0x4859 (0x0049)  : Jude was running a straight bluff with her singleton King. Severian was hopeful with his pair of Queens. The Professor had calculated the odds and reckoned that his flush was 90% certain to win. John knew nobody was going to beat his four Twos
+0x13c3  /  0x48a4 (0x0042)  : Jude lit a cigarette and drew deeply on it before tossing her hand on the table and saying, "Maybe next time." The Professor followed the betting for another round before deciding that perhaps a 90% chance wasn't good enough
+0x13c4  /  0x48e8 (0x0050)  : "Let's see you", snapped Severian, pushing another hundred into the pile. John smiled and lay down his hand. His opponent scowled as he threw his cards down. "Do you know the odds against four of anything are nearly a quarter of a million to one?" Asked the Professor
+0x13c5  /  0x493a (0x0039)  : Severian had a good hand on the third game, and set out to play it cool, aiming to sucker John in and win back his money. But John seemed to know it and folded early, losing hardly anything
+0x13c6  /  0x4974 (0x0039)  : John played the next hand cautiously until Jude - whose straight was a winner, had she known it - dropped out. Then he pushed the stakes up steadily to scoop a big pot at the showdown
+0x13c7  /  0x49ae (0x0043)  : the deal was with the Professor. Cards flashed from his nimble fingers, winging low across the table to land in four compact piles. John struggled to follow the deal, his eyes flickering rapidly in a vain attempt to see each card properly
+0x13c8  /  0x49f3 (0x0045)  : the Professor scooped his cards up and held them close, concealed behind his outspread fingers. John surveyed his hand then let his gaze pass across the backs of the other player's cards. A flicker of anger escaped him as his eyes fell on the Professor's hand
+0x13c9  /  0x4a3a (0x0040)  : the Professor lay down his cards and picked up the deck. He glanced around the table, "Who's in?" He asked, then noticing John's interest in his hand, said, "I sometimes think you can see through the backs of cards"
+0x13ca  /  0x4a7c (0x001f)  : laughed it off. "That would be a handy trick! Give me two", he added with sudden decision
+0x13cb  /  0x4a9c (0x0052)  : "Let's make things interesting", suggested John. "Opening at five hundred. Anybody playing?" He tossed a thick wad of notes onto the table. Severian and the Professor matched his bid reluctantly. But Jude just shook her head and made it clear that she was dropping out of the game
+0x13cc  /  0x4af0 (0x0050)  : the other two would have been wise to follow Jude's example, but they had good hands and were feeling lucky. In the end, John just about cleaned them out. 
+"Poker's supposed to be a game of chance", the Professor glared at John, "but it isn't the way you play it"
+0x13cd  /  0x4b42 (0x0035)  : collected his winnings from the table and smiled broadly as he lit up a cigarette. 
+"Pity you don't handle the business as well as you play cards", said Severian, angry at his losses
+0x13ce  /  0x4b78 (0x005d)  : "Ah, easy come, easy go", said Jude soothingly, handing the whisky to Severian. He refused it angrily. "Maybe you'll have better luck next time", she went on, "Tonight is John's lucky night. Isn't that right, honey?" John slipped his arm around her waist and smiled again
+0x13cf  /  0x4bd7 (0x0034)  : Severian cast his gaze angrily across the room, looking anywhere except at John and Jude. Suddenly, his eyes stopped and focussed on where I was standing. "What the hell's that", he yelled
+0x13d0  /  0x4c0c (0x0035)  : Severian pointed towards me and the others turned in my direction too. From their confused expressions, it was clear that they couldn't see me, but their combined stares began to make me feel very weak
+0x13d1  /  0x4c42 (0x0078)  : All four of the crooks squinted towards me, as if they could almost see me, and I suddenly felt very drowsy. 
+I couldn't stand them all staring at me any longer, and I felt myself dissolving into the air and being drawn back to my exorcised grave. 
+ 
+Within seconds I was banished to darkness, leaving the spirit world forever, and failing to clear the blemished name that I had left behind..
+0x13d2  /  0x4cbc (0x001d)  : shuffled his deck of cards and announced, "Okay, how about another little game of cards, then?"
+0x13d8  /  0x4cdb (0x000c)  : piled some more logs onto the fire
+0x13d9  /  0x4ce8 (0x000c)  : stirred the fire up into a steady blaze
+0x13da  /  0x4cf5 (0x0012)  : emptied some papers from her pockets and threw them onto the fire
+0x13db  /  0x4d08 (0x0011)  : went around the room tidying up the newspapers and a few letters
+0x13dc  /  0x4d1a (0x000d)  : threw some newspapers and letters onto the fire
+0x13dd  /  0x4d28 (0x000c)  : picked up the telephone and dialed a number
+0x13de  /  0x4d35 (0x001a)  : talked to someone over the telephone. It seemed that she was arranging for some money to be laundered
+0x13df  /  0x4d50 (0x0029)  : opened the cocktail cabinet and took out a bottle of whisky. "This should keep us occupied", she said to herself as she walked towards the door
+0x13e0  /  0x4d7a (0x002d)  : "I've brought something to help us through the night", said Jude as she put a bottle of whisky on the table and sat down with the rest of the crooks
+0x13e2  /  0x4da9 (0x001d)  : "I always get the worst jobs around here", grumbled Big John as he reluctantly got up out of his chair
+0x13e3  /  0x4dc7 (0x0040)  : sat down on the bed next to the window and opened his flask of whisky. "Well, at least I won't be losing all my money to John when he plays poker", he sighed. "I can get sloshed in peace up here"
+0x13e4  /  0x4e09 (0x002c)  : took his copy of "The Beano" out his pocket and began to read it. "Gosh!", he exclaimed, "Isn't Dennis being naughty this week"
+0x13e5  /  0x4e36 (0x002d)  : began to pour whisky down his throat like there was no tomorrow. "Sheesh!", he wheezed as he took the flask from his mouth, "Fiery stuff, that"
+0x13e6  /  0x4e64 (0x0040)  : flicked through his Beano with excitement, as if trying to find something. "Yeah!", he shouted, "The Bash Street kids! I wonder what teach' is going to get up to this week..."
+0x13e7  /  0x4ea6 (0x0033)  : missed his mouth with his flask and dribbled whisky down his chin and onto his comic. "Haw! Haw!", he guffawed, "It's gone all over Walter the softy"
+0x13e8  /  0x4eda (0x004f)  : "Ho! Ho! This is fun", giggled John as he rolled about on the bed, reading his Beano and swigging large mouthfuls of whisky. "Ha! Ha! Ha!", he laughed as he rolled off the end of the bed and fell onto the floor
+0x13e9  /  0x4f2b (0x003e)  : picked his soggy comic up and attempted wring the whisky back into his flask before climbing onto the bed again. Once he had got comfortable, he took another swig from his flask and dribbled a sort of alcoholic ink down his t-shirt
+0x13ea  /  0x4f6a (0x002a)  : read the letters page of his Beano aloud, occasionally breaking into fits of helpless mirth, and sometimes bashing his fists vigorously against the pillow
+0x13eb  /  0x4f95 (0x0029)  : put his copy of the Beano back into his pocket. "Drat!", he grumbled, "I wish I had brought my Dandy along as well"
+0x13ec  /  0x4fbf (0x0034)  : sat quietly, stroking his chin for a while, as if thinking of what to do next. "I know!", he said finally, "I'll write a letter to my best pal"
+0x13ed  /  0x4ff4 (0x0057)  : took a pen and a piece of paper out of his pocket and began to write...
+"Dear Dennis, I read your comic every week and I think you are really swell. Yours Menacingly, Big John.
+P.S. Publish this letter or I will blow your nuts off"
+0x13f6  /  0x504e (0x002a)  : John scratched his head in frustration. "Dunno what it is about this place", he said, shaking his head. "But it sure gives me the willies"
+0x13f7  /  0x5079 (0x0041)  : John shone his torch around the room, thinking that the other members of the gang were playing tricks on him. "Come on, I can see you", he shouted, although he couldn't see anyone at all. "It's not funny, y'know"
+0x13f8  /  0x50bc (0x0036)  : John put his torch down and sat back on the bed, slightly more at ease. "Must be the gang takin' the Mick", he said. "Well, they won't scare me easily"
+0x1400  /  0x50f4 (0x0027)  : John leapt into bed and pulled up the covers until only his eyes were visible. "This attic is haunted", he said in a muffled voice
+0x1401  /  0x511c (0x0050)  : John climbed hesitantly out of the bed and paced across the attic towards the hatch. "No, I can't do that", he said as he got half way across the room. "If I tell the others they'll just laugh in my face". 
+He paced reluctantly back to the bed and sat down, shivering
+0x1402  /  0x516e (0x0041)  : "It must be the booze", decided John. "I've been drinking steady ever since I came up here. No wonder I'm seeing things". 
+He took another swig of whisky from his flask, to calm himself down
+0x140a  /  0x51b2 (0x0012)  : John let out a frightened whine and looked frantically towards the hatch
+0x140b  /  0x51c5 (0x0074)  : Big John stood quivering before the crooks. "Th-the at-tic!", he stammered, "It-it's haunted!" 
+One by one, the crooks burst out with laughter and Big John hung his head in shame. "There's some garlic in the fridge, John", said Jude. "Maybe that will keep the vampires at bay..." 
+John turned around and shambled back towards the door, amidst everyone's laughter
+0x140c  /  0x523b (0x0035)  : John sat on the bed again and began to calm down. "Not surprising they laughed at me", he sighed, "I mean, it does sound a bit daft. Huh! Haunted!"
+0x1414  /  0x5272 (0x0015)  : John shrieked and darted into the bed, pulling the covers up to his twitching eyes
+0x1415  /  0x5288 (0x0017)  : John lay trembling in the bed, cautiously edging back the covers with his quivering hands
+0x1416  /  0x52a0 (0x0052)  : John climbed hesitantly out of the bed and wiped the sweat from his brow with the back of his hand. 
+"Pull yourself together", he said to himself, "It's probably just the wind outside". 
+Having reassured himself a little, he lay back on the bed and tried to calm down again
+0x141e  /  0x52f5 (0x002a)  : John squealed in terror and hid in a dark corner of the attic. "Go away!", he pleaded, "Go and haunt somebody else!"
+0x141f  /  0x5320 (0x001e)  : John shivered in terror as he sat crouched in a corner of the attic, his beady eyes scanning the room nervously
+0x1420  /  0x533f (0x0043)  : slowly, John got out from the corner of the attic and carefully made his way over to the bed. He sat down and began to mutter nervously. 
+"It's just my imagination", he said, trying to convince himself. "Just my imagination..."
+0x1429  /  0x5385 (0x005b)  : "I-I've s-seen someone!", shouted Big John in the kitchen. "W-we've got to go before we get caught!" 
+"Are you going mad?", I heard the Professor say. 
+"Come on, Prof", said Severian, "Better safe than sorry. We'd better make a move"..
+0x1432  /  0x53e3 (0x003c)  : "This should be safe enough for you, Sarah", laughed Weasel as he waggled the bolt at the bottom of the door. 
+Sarah struggled fiercely to break free, but Weasel just tightened the stranglehold on her neck
+0x1433  /  0x5420 (0x0031)  : held Sarah down on the chair while he bound and gagged her. "If someone 'phones, shall I tell them you're rather tied up at the moment?", cackled Weasel
+0x1434  /  0x5452 (0x0017)  : "Now for a quiet read", said Weasel as he reached down to bolt the door
+0x1435  /  0x546a (0x0012)  : sat down on the sofa and took a rolled up newspaper from his pocket
+0x1436  /  0x547d (0x0012)  : flicked through his newspaper leisurely and stopped when he reached the crossword
+0x1437  /  0x5490 (0x0014)  : nibbled the end of his pen as he studied the crossword in his newspaper
+0x1438  /  0x54a5 (0x0023)  : "Hmm", pondered Weasel, looking at the crossword. "One across. Medicine or narcotic. Four letters. Hmmm". 
+0x1439  /  0x54c9 (0x0014)  : gave up the untouched crossword in disgust and turned to the television page
+0x143a  /  0x54de (0x0020)  : "Blast!", grunted Weasel as he read the television page of his newspaper. "I've missed Neighbours again"
+0x143b  /  0x54ff (0x0028)  : rolled up his newspaper and put it back in his pocket. "I'd better check on our hostage", he sighed as he got up from the sofa
+0x143c  /  0x5528 (0x004d)  : Weasel suddenly shouted an alarm from the cellar to warn the rest of the gang. "Sarah's escaped!", he yelled, "Somebody must have helped her" 
+"Let's hit the road!", I heard John call to the others, "All meet in the hallway"
+0x143d  /  0x5577 (0x0040)  : "Just checking you're still here", said Weasel to Sarah. "If you want anything to eat, just give me a shout and I'll ignore you", he sniggered. 
+Sarah glared at him and cursed vigorously behind her gag
+0x1446  /  0x55ba (0x0018)  : It hit Weasel smack on the back of the head, knocking him flat out on the floor
+0x1447  /  0x55d3 (0x000b)  : groaned as he lay there on the floor
+0x1448  /  0x55df (0x0004)  : groaned louder
+0x1449  /  0x55e4 (0x000e)  : twitched and stirred as if he were about to wake up
+0x144a  /  0x55f3 (0x0027)  : gradually began to come to. Looking rather dazed, he slowly sat up and then rubbed the back of his head before fully opening his eyes..
+0x1450  /  0x561c (0x001d)  : Sarah saw Weasel lying on the floor and smiled in satisfaction. "Greasy little shrimp", she laughed
+0x1451  /  0x563a (0x0027)  : suddenly, she looked around as if puzzled. "I wonder where Alan's got to?", she continued, "I can't see him anywhere..."
+0x1455  /  0x5663 (0x0022)  : "Hurry up, Jude", called John. "I want us to check things in the cellar before we go"
+0x1458  /  0x5687 (0x001f)  : John searched through the cellar, to make sure that nobody had left anything behind that could be used to identify them
+0x1459  /  0x56a7 (0x001d)  : "We can't leave without our hostage, can we?", laughed John as he seized Sarah
+0x145a  /  0x56c5 (0x0021)  : "Fool!", yelled John as he shook Weasel. "How did you manage to foul things up this time?"
+0x145b  /  0x56e7 (0x001b)  : "Okay, let's hit the road", said John as he fumbled in his pocket for his ignition key
+0x145c  /  0x5703 (0x000f)  : John turned the key and the engine roared into action
+0x145e  /  0x5714 (0x0017)  : the van sped off into the distance along the track and soon disappeared from sight
+0x1464  /  0x572d (0x0010)  : "Better get the drugs from the kitchen", said Severian hastily
+0x1465  /  0x573e (0x0020)  : "Somebody's swiped my briefcase!", seethed Severian. "I knew I should have chained it to my wrist!"
+0x1467  /  0x5760 (0x0018)  : "Can't leave these behind", said Severian with a smile as he patted his briefcase
+0x1469  /  0x577a (0x001f)  : with a roar of its engine, the taxi sped away from the farm, taking with it the drugs buyers..
+0x146e  /  0x579b (0x0020)  : "Blast!", cursed Big John. "John's got the van key with him. Where the hell's he got to?"
+0x1478  /  0x57bd (0x003c)  : "What the hell happened!", demanded John as he tried to slap some sense into Big John. 
+"I-I seen someone", gibbered Big John, "But he just vanished when I shot him..."
+0x1479  /  0x57fa (0x001f)  : "Whether you saw someone or not", said John, "I think we'd better make tracks..."
+0x147a  /  0x581a (0x000f)  : stood trembling, clutching his smoking gun in his hand
+0x147b  /  0x582a (0x000a)  : whined nervously through his chattering teeth
+<EOM>

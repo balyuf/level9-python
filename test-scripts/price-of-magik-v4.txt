@@ -1,8 +1,10 @@
 #title: The Price of Magik test script;
-#comment: Amiga version [v4]. Based on a solution by Dorothy Millard;
+#comment: MSX version [v4]. Based on a solution by Dorothy Millard;
 
 #SEED 42;
-3;
+RESTART;
+YES;
+#SEED 42;
 W [woodshed];
 EXAMINE WOODPILE [ready for a fire, underneath it is something nasty];
 EXAMINE NASTY [it oozes away into the ground];
@@ -119,8 +121,8 @@ GET SHOVEL;
 W;
 NW;
 SW [cellar];
-EXAMINE CHESTS [there are ten of them all coloured differently, ie. black, brown, red, orange, yellow, green, blue, violet, grey, white - it is necessary to magikally examine each one in turn with the DOW spell to establish which one contains the salt that you will need, to do this you will need to study the action of the pendulum when the spell is cast... a circular movement of the pendulum indicates no contents, a side to side motion is the indication that you've located the correct chest... the colour of the chest containing the salt is randomly allocated for each game];
-CAST DOW AT BLUE CHEST [repeat this with each chest in turn until you get the correct response from the pendulum];
+EXAMINE CHESTS [there are ten of them all coloured differently, ie. black, brown, red, orange, yellow, green, blue, violet, grey, white - it is necessary to magikally examine each one in turn with the DOW spell to establish which one contains the salt that you will need, to do this you will need to study the action of the pendulum when the spell is cast... a circular movement of the pendulum indicates no contents, a side to side motion is the indication that you've located the correct chest...];
+CAST DOW AT BLUE CHEST [the colour of the chest containing the salt is randomly allocated for each game; repeat this with each chest in turn until you get the correct response from the pendulum];
 OPEN BLUE CHEST;
 EXAMINE BLUE CHEST;
 GET SALT;
@@ -486,3 +488,4 @@ CAST SAN AT MYGLAR [Myglar stares at you from newly sane eyes, haunted by the fi
 CAST ESP NW;
 CAST DED AT MYGLAR [there is a loud thunderclap as Myglar's magik is neutralised... he crumples as time regains it's power and soon nothing remains of the proud wizard but ancient dust];
 YES;
+#quit;

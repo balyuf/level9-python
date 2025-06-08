@@ -1,5 +1,5 @@
 #title: Adventure Quest test script;
-#comment: CPC version [v2]. Based on a solution script by Jacob Gunness;
+#comment: MSX version [v2]. Based on a solution script by Jacob Gunness;
 
 #SEED 42;
 IN [you start by a brick building];
@@ -515,3 +515,4 @@ N;
 D;
 D;
 N [the Phoenix helps you defeating the Demon Lord. The country is saved!];
+N;

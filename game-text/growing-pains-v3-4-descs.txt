@@ -1,0 +1,896 @@
+0x0001  /  0x098d (0x0001)  :  
+0x0002  /  0x098f (0x0004)  : ;
+
+0x0003  /  0x0994 (0x0003)  : ,
+
+0x0004  /  0x0998 (0x0003)  : .
+
+0x0005  /  0x099c (0x0002)  : 
+
+0x0006  /  0x099f (0x0003)  :  and 
+0x0007  /  0x09a3 (0x0003)  : .
+
+0x0008  /  0x09a7 (0x0002)  : ) 
+0x0009  /  0x09aa (0x0002)  : I 
+0x000a  /  0x09ad (0x0002)  : ? 
+0x000b  /  0x09b0 (0x0005)  : 
+ 
+
+0x0015  /  0x09b7 (0x0003)  : Monday 
+0x0016  /  0x09bb (0x0003)  : Tuesday 
+0x0017  /  0x09bf (0x0003)  : Wednesday 
+0x0018  /  0x09c3 (0x0003)  : Thursday 
+0x0019  /  0x09c7 (0x0003)  : Friday 
+0x001a  /  0x09cb (0x0003)  : Saturday 
+0x001b  /  0x09cf (0x0003)  : Sunday 
+0x001c  /  0x09d3 (0x0006)  : yes y on
+0x001d  /  0x09da (0x0006)  : no n off
+0x001e  /  0x09e1 (0x0006)  : zero nought 0
+0x001f  /  0x09e8 (0x000a)  : 1)  [aka] one 1
+0x0020  /  0x09f3 (0x000a)  : 2)  [aka] two 2
+0x0021  /  0x09fe (0x000a)  : 3)  [aka] three 3
+0x0022  /  0x0a09 (0x002e)  : type a command, HELP for a list of commands, or leave the line blank to return to the game. Then press ENTER or RETURN. [aka] four 4
+0x0023  /  0x0a38 (0x0004)  : five 5
+0x0024  /  0x0a3d (0x0004)  : six 6
+0x0025  /  0x0a42 (0x0004)  : seven 7
+0x0026  /  0x0a47 (0x0004)  : eight 8
+0x0027  /  0x0a4c (0x0004)  : nine 9
+0x0028  /  0x0a51 (0x0008)  : what shall I do?
+
+0x0029  /  0x0a5a (0x000c)  : choose one of the following for me:
+
+0x002a  /  0x0a67 (0x000d)  : which of the following shall I do?
+
+0x002b  /  0x0a75 (0x0004)  : help info
+0x002c  /  0x0a7a (0x0002)  : save
+0x002d  /  0x0a7d (0x0004)  : load restore
+0x002e  /  0x0a82 (0x0004)  : pictures graphics
+0x002f  /  0x0a87 (0x0004)  : printer list
+0x0030  /  0x0a8c (0x0002)  : demo
+0x0031  /  0x0a8f (0x0008)  : new restart quit stop
+0x0032  /  0x0a98 (0x0118)  : Adrian Mole. Myself. 
+Address: 2 Laurel Close, Leicester, Leicestershire, England. 
+Birthday: 2nd April. 
+Eyes: Blue/Grey (Green in strong sunlight). 
+Height: Small for my age (15). 
+School: Neil Armstrong Comprehensive. 
+Hobbies: Reading, Studying Norwegian Leather Industry, Model Aeroplane Making, Writing Poetry. 
+Ambitions: To be a famous intellectual. 
+Sport: None. 
+Favourite Group: Red Wedge. Male Singer: Bruce Springsteen. 
+Favourite Foods: Vesta Prawn Curry, Chocolate Instant Whip. 
+Likes: Mars bars, Racing Bikes, Pandora. 
+Dislikes: All Sport, Showers, Dentists, Maths, Exams, Barry Kent. 
+Pets: the Dog [aka] me
+0x0033  /  0x0bb5 (0x0015)  : George Alfred Mole (42). My scruffy father [aka] Dad
+0x0034  /  0x0bcb (0x002c)  : Pauline Monica Mole (38). My mother. A Guardian Woman. Thin, talkative and bossy with red hair [aka] Paulie Mum
+0x0035  /  0x0bf8 (0x0028)  : Rosie Germaine Mole (0). My new sister, who looks like Winston Churchill and rules our house from her cot [aka] baby
+0x0036  /  0x0c21 (0x002b)  : May Mole (77). My grandma. Kind but strict. Lives at 19 Ploughmans Dell, Beeby on the Wold [aka] grandmother
+0x0037  /  0x0c4d (0x0025)  : Grandma and Grandad Sugden. My mother's parents. Decent, god-fearing and dead boring. They live in a Norfolk potato field
+0x0038  /  0x0c73 (0x0028)  : Auntie Susan Mole. Prison warder in Holloway. Hairy fingers. Smokes Panama cigars. Has a sexy friend called Gloria
+0x0039  /  0x0c9c (0x0048)  : The Dog (12). A shaggy black mongrel with hair over its eyes. It pretends to forget what you tell it, does stupid things and costs a fortune. I think it is a father, although it is younger than me
+0x003a  /  0x0ce6 (0x0012)  : Mr Derek Ratfink Lucas. My mother's ex-lover in Sheffield
+0x003b  /  0x0cf9 (0x004c)  : Stick Insect (Doreen Slater). My father's ex-lover and single parent mother of Maxwell House and Brett, by Trevor Roper and my father respectively. Stick Insect has just given my father the boot (good!) and is living with Trevor Roper again
+0x003c  /  0x0d47 (0x001a)  : Brett Insect (Brett Slater, really). My father's new unmarried child
+0x003d  /  0x0d62 (0x0018)  : Maxwell House. Stick Insect's grubby little toddler who is definitely not my brother
+0x003e  /  0x0d7b (0x0022)  : Trevor Roper. Father of Stick Insect's first kid, who has just returned from Arab lands to live with her again
+0x003f  /  0x0d9e (0x0066)  : Bert Baxter (90). 14 stone. The awful OAP I got lumbered with by the Good Samaritans. He likes beetroot sandwiches, Woodbines and Brown Ale and smells funny. He is a Communist and reads the "Morning Star", but served for king and country in the first War. He was briefly married to Queenie
+0x0040  /  0x0e06 (0x0014)  : Queenie Baxter. Bert's wife, who died around last Christmas
+0x0041  /  0x0e1b (0x0075)  : Pandora Braithwaite (15). My future lover. Beautiful, with treacle-coloured hair and eyes the colour of our dog's. Sporty. Plays the viola. Goes on protest marches and gets up petitions. She has a ginger cat called Marley and smokes Benson & Hedges. Pandora lives in a posh house at 69 Elm Tree Avenue. Her parents are Ivan and Tanya Braithwaite
+0x0042  /  0x0e92 (0x005b)  : Ivan Braithwaite. Pandora's father. A senior milkman who belonged to the Labour Party in pre-witch-hunt days. He reads the Guardian and must be a bit rich and stupid because he drives a Volvo.
+ 
+Tanya Braithwaite. Pandora's mother. She is a Marriage Guidance Counsellor who fills the house with plants
+0x0043  /  0x0eef (0x005a)  : Barry Kent (15). School Bully. He is stupid, but has massive muscles and a studded jacket. He chain-smokes Benson & Hedges and lives in a Council slum at 13 Corporation Row. His unlucky parents are Frederick and Ida Kent. His brother Clive is in the army [aka] Baz
+0x0044  /  0x0f4b (0x0016)  : Elizabeth Sally Broadway. A nice-enough schoolgirl who seems to like me a bit
+0x0045  /  0x0f62 (0x0012)  : Claire Neilson. Schoolgirl. Her father is a Conservative greengrocer
+0x0046  /  0x0f75 (0x0016)  : Sharon Bott. A schoolgirl ex-friend of Nigel's. Dead pretty and athletic
+0x0047  /  0x0f8c (0x0033)  : Nigel. My best ex-friend. The fashion leader of the school. Always has new things but they are wasted on him. Founder of the Neil Armstrong Comprehensive Gay Club
+0x0048  /  0x0fc0 (0x000c)  : Brainbox Henderson. Disgustingly talented schoolboy
+0x0049  /  0x0fcd (0x003f)  : Headmaster Scruton (58). He has finally "retired" (i.E gone completely barmy and been locked up, if you believe the rumours) and has been replaced by his deputy, Podgy Pickles
+0x004a  /  0x100e (0x0012)  : Miss Sproxton. English Teacher. Interfering old stoat
+0x004b  /  0x1021 (0x000c)  : Mr Hill. Decrepit Science Teacher
+0x004c  /  0x102e (0x0008)  : Mr Lambert. Teacher
+0x004d  /  0x1037 (0x000e)  : Mrs Leech. Kind Kitchen Supervisor at school
+0x004e  /  0x1046 (0x000d)  : Mrs Bull. Our domestic science teacher
+0x004f  /  0x1054 (0x0017)  : Courtney Elliot. Our Postman. He says he is a retired Doctor of Philosophy
+0x0050  /  0x106c (0x0013)  : Ms Fossington-Gore (32). Art Teacher [aka] Gore
+0x0051  /  0x1080 (0x001e)  : Mr and Mrs Caitlin O'Leary. Neighbours opposite. He is noisy and she is nosy [aka] Leary
+0x0052  /  0x109f (0x0028)  : Mr Ujjal and Mrs Sita Singh and the little Singhs. Our next-door neighbours, who live in Ratfink Lucas' old house
+0x0053  /  0x10c8 (0x0011)  : Mr Cherry. Runs the newsagent's shop on the corner
+0x0054  /  0x10da (0x002d)  : Dr Gray. My Doctor (48). He must save the NHS lots of money because he never treats my spots or anything [aka] Doctor
+0x0055  /  0x1108 (0x002c)  : Rick Lemon. Hippy who runs the "Off The Streets Youth Club". Lives in a squat with girlfriend Titia and baby daughter Herod
+0x0056  /  0x1135 (0x002c)  : Titia. Hippy girlfriend of Rick Lemon. Stringy hair and beads. Lives in a squat with him and their baby daughter Herod [aka] Tit
+0x0057  /  0x1162 (0x000e)  : Herod. Baby daughter of Rick and Titia
+0x0058  /  0x1171 (0x0021)  : Level 9 Computing: Mike, Nick and Pete Austin who live in the Mendips and write adventure games
+0x0059  /  0x1193 (0x007b)  : Credits: "The Growing Pains of Adrian Mole" was based on the book of the same name by Sue Townsend, with additional text from Peter McBride and Pete Austin. Pictures were by Joan Lamb. The game was programmed by Pete Austin and James Stanley, and brought to your micro by Andrew Deeley, Nick Austin and others. It is copyright (C) 1986 Level 9 Computing
+0x0065  /  0x1211 (0x0009)  : January 1st NEW YEAR'S DAY
+0x0066  /  0x121b (0x0003)  : January 2nd
+0x0067  /  0x121f (0x0003)  : January 3rd
+0x0068  /  0x1223 (0x0003)  : January 4th
+0x0069  /  0x1227 (0x0003)  : January 5th
+0x006a  /  0x122b (0x0003)  : January 6th
+0x006b  /  0x122f (0x0003)  : January 7th
+0x006c  /  0x1233 (0x0003)  : January 8th
+0x006d  /  0x1237 (0x0003)  : January 9th
+0x006e  /  0x123b (0x0003)  : January 10th
+0x006f  /  0x123f (0x0003)  : January 11th
+0x0070  /  0x1243 (0x0003)  : January 12th
+0x0071  /  0x1247 (0x0003)  : January 13th
+0x0072  /  0x124b (0x0003)  : January 14th
+0x0073  /  0x124f (0x0003)  : January 15th
+0x0074  /  0x1253 (0x0003)  : January 16th
+0x0075  /  0x1257 (0x0003)  : January 17th
+0x0076  /  0x125b (0x0003)  : January 18th
+0x0077  /  0x125f (0x0003)  : January 19th
+0x0078  /  0x1263 (0x0003)  : January 20th
+0x0079  /  0x1267 (0x0003)  : January 21st
+0x007a  /  0x126b (0x0003)  : January 22nd
+0x007b  /  0x126f (0x0003)  : January 23rd
+0x007c  /  0x1273 (0x0003)  : January 24th
+0x007d  /  0x1277 (0x0003)  : January 25th
+0x007e  /  0x127b (0x0003)  : January 26th
+0x007f  /  0x127f (0x0003)  : January 27th
+0x0080  /  0x1283 (0x0003)  : January 28th
+0x0081  /  0x1287 (0x0003)  : January 29th
+0x0082  /  0x128b (0x0003)  : January 30th
+0x0083  /  0x128f (0x0003)  : January 31st
+0x0084  /  0x1293 (0x0003)  : February 1st
+0x0085  /  0x1297 (0x0003)  : February 2nd
+0x0086  /  0x129b (0x0003)  : February 3rd
+0x0087  /  0x129f (0x0003)  : February 4th
+0x0088  /  0x12a3 (0x0003)  : February 5th
+0x0089  /  0x12a7 (0x0003)  : February 6th
+0x008a  /  0x12ab (0x0003)  : February 7th
+0x008b  /  0x12af (0x0003)  : February 8th
+0x008c  /  0x12b3 (0x0003)  : February 9th
+0x008d  /  0x12b7 (0x0003)  : February 10th
+0x008e  /  0x12bb (0x0003)  : February 11th
+0x008f  /  0x12bf (0x0003)  : February 12th
+0x0090  /  0x12c3 (0x0003)  : February 13th
+0x0091  /  0x12c7 (0x0009)  : February 14th ST VALENTINE'S DAY
+0x0092  /  0x12d1 (0x0007)  : February 15th SHROVE TUESDAY
+0x0093  /  0x12d9 (0x0007)  : February 16th ASH WEDNESDAY
+0x0094  /  0x12e1 (0x0003)  : February 17th
+0x0095  /  0x12e5 (0x0003)  : February 18th
+0x0096  /  0x12e9 (0x0003)  : February 19th
+0x0097  /  0x12ed (0x0003)  : February 20th
+0x0098  /  0x12f1 (0x0009)  : February 21st WASHINGTON'S BIRTHDAY OBSERVANCE
+0x0099  /  0x12fb (0x0003)  : February 22nd
+0x009a  /  0x12ff (0x0003)  : February 23rd
+0x009b  /  0x1303 (0x0003)  : February 24th
+0x009c  /  0x1307 (0x0003)  : February 25th
+0x009d  /  0x130b (0x0003)  : February 26th
+0x009e  /  0x130f (0x0003)  : February 27th
+0x009f  /  0x1313 (0x0003)  : February 28th
+0x00a0  /  0x1317 (0x0003)  : March 1st
+0x00a1  /  0x131b (0x0009)  : March 2nd ST DAVID'S DAY
+0x00a2  /  0x1325 (0x0003)  : March 3rd
+0x00a3  /  0x1329 (0x0003)  : March 4th
+0x00a4  /  0x132d (0x0003)  : March 5th
+0x00a5  /  0x1331 (0x0003)  : March 6th
+0x00a6  /  0x1335 (0x0003)  : March 7th
+0x00a7  /  0x1339 (0x0003)  : March 8th
+0x00a8  /  0x133d (0x0003)  : March 9th
+0x00a9  /  0x1341 (0x0003)  : March 10th
+0x00aa  /  0x1345 (0x0003)  : March 11th
+0x00ab  /  0x1349 (0x0003)  : March 12th
+0x00ac  /  0x134d (0x0007)  : March 13th MOTHERING SUNDAY
+0x00ad  /  0x1355 (0x0007)  : March 14th COMMONWEALTH DAY
+0x00ae  /  0x135d (0x0003)  : March 15th
+0x00af  /  0x1361 (0x0003)  : March 16th
+0x00b0  /  0x1365 (0x0009)  : March 17th ST PATRICK'S DAY
+0x00b1  /  0x136f (0x0003)  : March 18th
+0x00b2  /  0x1373 (0x0003)  : March 19th
+0x00b3  /  0x1377 (0x000b)  : March 20th BRITISH SUMMER TIME BEGINS
+0x00b4  /  0x1383 (0x0003)  : March 21st
+0x00b5  /  0x1387 (0x0003)  : March 22nd
+0x00b6  /  0x138b (0x0003)  : March 23rd
+0x00b7  /  0x138f (0x0003)  : March 24th
+0x00b8  /  0x1393 (0x0003)  : March 25th
+0x00b9  /  0x1397 (0x0003)  : March 26th
+0x00ba  /  0x139b (0x0003)  : March 27th
+0x00bb  /  0x139f (0x0003)  : March 28th
+0x00bc  /  0x13a3 (0x0003)  : March 29th
+0x00bd  /  0x13a7 (0x0003)  : March 30th
+0x00be  /  0x13ab (0x0003)  : March 31st
+0x00bf  /  0x13af (0x0012)  : April 1st GOOD FRIDAY. ALL FOOLS' DAY
+0x00c0  /  0x13c2 (0x0003)  : April 2nd
+0x00c1  /  0x13c6 (0x0007)  : April 3rd EASTER SUNDAY
+0x00c2  /  0x13ce (0x0003)  : April 4th
+0x00c3  /  0x13d2 (0x0003)  : April 5th
+0x00c4  /  0x13d6 (0x0003)  : April 6th
+0x00c5  /  0x13da (0x0003)  : April 7th
+0x00c6  /  0x13de (0x0003)  : April 8th
+0x00c7  /  0x13e2 (0x0003)  : April 9th
+0x00c8  /  0x13e6 (0x0003)  : April 10th
+0x00c9  /  0x13ea (0x0003)  : April 11th
+0x00ca  /  0x13ee (0x0003)  : April 12th
+0x00cb  /  0x13f2 (0x0003)  : April 13th
+0x00cc  /  0x13f6 (0x0003)  : April 14th
+0x00cd  /  0x13fa (0x0003)  : April 15th
+0x00ce  /  0x13fe (0x0003)  : April 16th
+0x00cf  /  0x1402 (0x0003)  : April 17th
+0x00d0  /  0x1406 (0x0003)  : April 18th
+0x00d1  /  0x140a (0x0003)  : April 19th
+0x00d2  /  0x140e (0x0003)  : April 20th
+0x00d3  /  0x1412 (0x0003)  : April 21st
+0x00d4  /  0x1416 (0x0003)  : April 22nd
+0x00d5  /  0x141a (0x0003)  : April 23rd
+0x00d6  /  0x141e (0x0003)  : April 24th
+0x00d7  /  0x1422 (0x0003)  : April 25th
+0x00d8  /  0x1426 (0x0003)  : April 26th
+0x00d9  /  0x142a (0x0003)  : April 27th
+0x00da  /  0x142e (0x0003)  : April 28th
+0x00db  /  0x1432 (0x0003)  : April 29th
+0x00dc  /  0x1436 (0x0003)  : April 30th
+0x00dd  /  0x143a (0x0003)  : May 1st
+0x00de  /  0x143e (0x0007)  : May 2nd BANK HOLIDAY
+0x00df  /  0x1446 (0x0003)  : May 3rd
+0x00e0  /  0x144a (0x0003)  : May 4th
+0x00e1  /  0x144e (0x0003)  : May 5th
+0x00e2  /  0x1452 (0x0003)  : May 6th
+0x00e3  /  0x1456 (0x0003)  : May 7th
+0x00e4  /  0x145a (0x0003)  : May 8th
+0x00e5  /  0x145e (0x0003)  : May 9th
+0x00e6  /  0x1462 (0x0003)  : May 10th
+0x00e7  /  0x1466 (0x0003)  : May 11th
+0x00e8  /  0x146a (0x0003)  : May 12th
+0x00e9  /  0x146e (0x0003)  : May 13th
+0x00ea  /  0x1472 (0x0003)  : May 14th
+0x00eb  /  0x1476 (0x0003)  : May 15th
+0x00ec  /  0x147a (0x0003)  : May 16th
+0x00ed  /  0x147e (0x0003)  : May 17th
+0x00ee  /  0x1482 (0x0003)  : May 18th
+0x00ef  /  0x1486 (0x0003)  : May 19th
+0x00f0  /  0x148a (0x0003)  : May 20th
+0x00f1  /  0x148e (0x0003)  : May 21st
+0x00f2  /  0x1492 (0x0003)  : May 22nd
+0x00f3  /  0x1496 (0x0003)  : May 23rd
+0x00f4  /  0x149a (0x0003)  : May 24th
+0x00f5  /  0x149e (0x0003)  : May 25th
+0x00f6  /  0x14a2 (0x0003)  : May 26th
+0x00f7  /  0x14a6 (0x0003)  : May 27th
+0x00f8  /  0x14aa (0x0003)  : May 28th
+0x00f9  /  0x14ae (0x0003)  : May 29th
+0x00fa  /  0x14b2 (0x0003)  : May 30th
+0x00fb  /  0x14b6 (0x0003)  : May 31st
+0x00fc  /  0x14ba (0x0004)  : June 1st
+0x00fd  /  0x14bf (0x0004)  : June 2nd
+0x0104  /  0x14c5 (0x00d2)  : these are my New Year resolutions: 
+1. I will revise for my O levels at least two hours a night. 
+2. I will stop using my mother's Buff-Puff to clean the bath. 
+3. I will buy a suede brush for my coat. 
+4. I will stop thinking erotic thoughts during school hours. 
+5. I will oil my bike once a week. 
+6. I will try to like Bert Baxter again. 
+7. I will pay my library fines (88 pence) and rejoin the library. 
+8. I will get my mother and father together again. 
+9. I will cancel the Beano. 
+0x0109  /  0x159c (0x0035)  : this will be my last entry until the exams are over. Courtney Elliot is coming round to give me last-minute coaching; must stop, his taxi has just drawn up outside. 
+0x010a  /  0x15d2 (0x005c)  : my parents went to see a family therapist last night. During their absense Pandora and I indulged in extremely heavy petting; so heavy that I felt a weight fall from me.
+ 
+If I don't pass my exams it won't matter. I have known what it is to have the love of a good woman. 
+0x0118  /  0x1631 (0x002f)  : negotiations are going on between my parents for a return to the married state. My mother said, "But how can it work? There is so much to forget." 
+0x0119  /  0x1661 (0x0010)  : say, "Why not go to the Marriage Guidance?"
+0x011a  /  0x1672 (0x001b)  : . My mother replies, "What, and have Tanya Braithwaite know all our problems!" 
+0x011b  /  0x168e (0x0004)  : suggest hypnosis
+0x011c  /  0x1693 (0x0002)  : . 
+0x011d  /  0x1696 (0x0005)  : sigh and agree
+0x011e  /  0x169c (0x000a)  : . My mother looks discouraged. 
+0x012c  /  0x16a8 (0x0015)  : more negotiations behind closed doors. I saw my father leaving. 
+0x012d  /  0x16be (0x0009)  : go to make my mother some tea
+0x012e  /  0x16c8 (0x000b)  : . She'll probably need it. 
+0x012f  /  0x16d4 (0x0007)  : ask my father how it went
+0x0130  /  0x16dc (0x0013)  : . He said, "No comment," and left. 
+0x0131  /  0x16f0 (0x0003)  : do nothing
+0x0132  /  0x16f4 (0x0006)  :  but hope. 
+0x0133  /  0x16fb (0x0008)  : negotiations have broken down. 
+0x0140  /  0x1705 (0x001a)  : a message was passed to an intermediary (me) that fresh negotiations would be welcomed. 
+0x0141  /  0x1720 (0x0006)  : pass on the message
+0x0142  /  0x1727 (0x0012)  : . The response was favourable and a meeting has been arranged. 
+0x0143  /  0x173a (0x0008)  : tell my father to ask for himself
+0x0144  /  0x1743 (0x0002)  : . 
+0x0145  /  0x1746 (0x0015)  : he did. They are going out for a meal tonight to talk again. 
+0x0146  /  0x175c (0x0003)  : do nothing
+0x0147  /  0x1760 (0x001a)  : . My father rang this evening anyway. I handed him straight over to my mother. 
+0x0148  /  0x177b (0x0011)  : my parents have agreed to a trial reunion for a month. 
+0x0154  /  0x178e (0x003f)  : I had to look after Rosie while my parents swanned down to the pub. I was also in charge of the pork and roast potatoes and switching on the greens. I fed Rosie OK, but now she needs changing. 
+0x0155  /  0x17cf (0x0007)  : change her yukky nappy
+0x0156  /  0x17d7 (0x0021)  : . When I get married, I shan't have kids until I am rich and famous and can employ a nanny. 
+0x0157  /  0x17f9 (0x0003)  : ignore it
+0x0158  /  0x17fd (0x0019)  :  and act surprised when my mother points out there was a yukky smell in the room. 
+0x0159  /  0x1817 (0x0009)  : wait for Rosie to complain about it
+0x015a  /  0x1821 (0x0018)  : . Fortunately, she didn't seem to mind so I left it for my mother. 
+0x015b  /  0x183a (0x0038)  : 10 pm. My father is back. How do I feel about it? They've had reconciliations before, so I think I'll reserve judgement until the slopping has stopped and they're back to normal. 
+0x0168  /  0x1874 (0x000a)  : breakfast TV starts tomorrow. 
+0x0169  /  0x187f (0x0003)  : ignore it
+0x016a  /  0x1883 (0x0012)  : . I am a Channel 4 and Radio 4 person. 
+0x016b  /  0x1896 (0x000a)  : ask Pandora to record it on their video
+0x016c  /  0x18a1 (0x0010)  :  so that we can watch it at a civilized hour. 
+0x016d  /  0x18b2 (0x000b)  : set my alarm for 5.45
+0x016e  /  0x18be (0x0010)  :  so that I don't miss history in the making. 
+0x017c  /  0x18d0 (0x001b)  : at 6.25 I am settled in the lounge ready to see the start of Breakfast TV. 
+0x017d  /  0x18ec (0x0007)  : wait with baited breath
+0x017e  /  0x18f4 (0x002e)  : .
+ 
+6.30 came and went and nothing happened. Then I realized my father had left the TV tuned to ITV by mistake! 
+0x017f  /  0x1923 (0x000b)  : creep up to see if my parents are awake
+0x0180  /  0x192f (0x0039)  : . They were, and I think the central heating must have come on too early for they both looked hot and flushed. Neither was interested in the fact that breakfast TV was about to start. 
+0x0181  /  0x1969 (0x0008)  : shout to wake up my parents
+0x0182  /  0x1972 (0x004b)  : . My father shouted down the stairs that he didn't want to see bloody Frank Bough at 6.30 am. And he would break my neck if I didn't turn the volume down. That woke up Rosie and with all the fuss I missed the opening ceremony. 
+0x0183  /  0x19bf (0x0025)  : I enjoyed most of breakfast TV, but best of all was Selina Scott, with her ravishing looks and quicksilver brain. 
+0x0190  /  0x19e6 (0x0037)  : Selina Scott is haunting my dreams: last night she and I were rowing the Atlantic single handed, and the night before she was walking down our street selling cucumbers door to door. 
+0x0191  /  0x1a1e (0x000b)  : get a book about the meaning of dreams
+0x0192  /  0x1a2a (0x0007)  :  from the library. 
+0x0193  /  0x1a32 (0x0007)  : choose a Freudian book
+0x0194  /  0x1a3a (0x001e)  : . It is fascinating but very rude. I wonder who Mary Whitehouse complains to about her dreams? 
+0x0195  /  0x1a59 (0x0007)  : choose a Jungian book
+0x0196  /  0x1a61 (0x004b)  :  to explain my dreams. I don't really understand it, but it seems that dreams come from the Collective Unconscience. My father says that television sounds the sort of thing that to make people Collectively Unconscience, so I guess Jung is probably right. 
+0x0197  /  0x1aae (0x0007)  : choose an occult book
+0x0198  /  0x1ab6 (0x0040)  : . It seems that my dreams stem from a previous existence when I must have been a Viking explorer, bringing back plants from Vinland. Me, a Viking! It makes me feel a bit tough, somehow. 
+0x0199  /  0x1af8 (0x0007)  : tell my mother about my dreams
+0x019a  /  0x1b00 (0x0025)  : . She says that listening to other people's dreams is deadly boring and starts telling me one of hers. She is right. 
+0x019b  /  0x1b26 (0x0007)  : tell my father about my dreams
+0x019c  /  0x1b2e (0x000f)  :  but I can see that he's not really interested. 
+0x01a4  /  0x1b3f (0x0023)  : no Selina Scott this morning, so I had to make do with going into town with Pandora. We stopped for coffee. 
+0x01a5  /  0x1b63 (0x0006)  : ask for two coffees
+0x01a6  /  0x1b6a (0x0014)  : , one black, one with milk and Selina. Oops. 
+0x01a7  /  0x1b7f (0x0008)  : casually ask about Breakfast Time
+0x01a8  /  0x1b88 (0x0014)  : . Pandora looks puzzled and says, "eight o'clock". 
+0x01a9  /  0x1b9d (0x0009)  : confess how I feel about Selina
+0x01aa  /  0x1ba7 (0x0032)  : . Pandora took it very calmly, then went on to tell me how Selina's beauty was all the result of plastic surgery and that her real name was Edna Grubbe. 
+0x01ae  /  0x1bdb (0x0006)  : say that she is jealous
+0x01af  /  0x1be2 (0x0029)  : . She said, "Well, how would you feel if I started raving on about Frank Bough?" I'd think she was barmy. 
+0x01b0  /  0x1c0c (0x0008)  : go right off Selina Scott
+0x01b1  /  0x1c15 (0x000a)  :  now I'm in the know. 
+0x01b2  /  0x1c20 (0x0006)  : ask her how she knows
+0x01b3  /  0x1c27 (0x0018)  : . She said that her family are on intimate terms with a high-up in the BBC. 
+0x01b9  /  0x1c41 (0x0003)  : believe her
+0x01ba  /  0x1c45 (0x0016)  : . I shall give up breakfast tv until TV AM starts. 
+0x01bb  /  0x1c5c (0x000e)  : ask "Who, a window cleaner?"
+0x01bc  /  0x1c6b (0x0021)  :  Pandora said, rather stiffly, "I shall finish my shopping on my own," and walked out. 
+0x01bd  /  0x1c8d (0x0003)  : say nothing
+0x01be  /  0x1c91 (0x0011)  : . Sometimes it pays to be economical with the truth. 
+0x01cc  /  0x1ca4 (0x0022)  : the water workers have gone on strike, so my father made us all have a bath tonight. The dog included. 
+0x01cd  /  0x1cc7 (0x0030)  : fabulous! Amazing! Brilliant! Magic! Showers have been banned at school! The twice weekly torture of displaying my inferior muscle development is over. 
+0x01ce  /  0x1cf8 (0x000b)  : hope the water workers prolong the strike
+0x01cf  /  0x1d04 (0x000d)  :  until I've left full-time education. 
+0x01d0  /  0x1d12 (0x0006)  : write to their union
+0x01d1  /  0x1d19 (0x0012)  :  encouraging them to stick out for 500 pounds a week. 
+0x01d2  /  0x1d2c (0x0004)  : try weight-lifting
+0x01d3  /  0x1d31 (0x0012)  :  so that I will be ready if we have to have showers again. 
+0x01d6  /  0x1d45 (0x0058)  : a water main has burst at the end of Laurel Close. Workmen came to stop the leak, but because of the strike they selfishly refused to restart the water - even though my father explained we were all Labour voters. Stupid unions, don't they realize when they are helping the Tory government? 
+0x01d7  /  0x1d9f (0x0004)  : collect rainwater
+0x01d8  /  0x1da4 (0x0012)  :  in my father's old tent. It tastes disgusting. 
+0x01d9  /  0x1db7 (0x000b)  : 'phone the council for a water tanker
+0x01da  /  0x1dc3 (0x0018)  : . Being without water is an emergency. We could all die of thirst. 
+0x01db  /  0x1ddc (0x0043)  : the council have still done nothing to provide water. But for drinking lemonade, I could have died of thirst, and my parents are forced to survive on lager. I wish they would take the situation more seriously though! 
+0x01dc  /  0x1e21 (0x000a)  : get my father to borrow some water containers
+0x01dd  /  0x1e2c (0x002a)  :  from the Braithwaites - they use the five gallon kind in their caravan. My father fills them at Pandora's and brings the water home by car. 
+0x01e0  /  0x1e58 (0x0007)  : refill the attic tank
+0x01e1  /  0x1e60 (0x0016)  :  so we can use a bit of hot water for washing up and showers. 
+0x01e2  /  0x1e77 (0x0008)  : turn off the immersion heater
+0x01e3  /  0x1e80 (0x001d)  :  so the tank can't go dry, but my poor mother will have to wash up with cold water. 
+0x01e4  /  0x1e9e (0x0009)  : take everything into the kitchen
+0x01e5  /  0x1ea8 (0x0002)  : . 
+0x01ea  /  0x1eac (0x0013)  : I put the full containers beside the sink as drinking water. 
+0x01eb  /  0x1ec0 (0x0033)  : my slave-driving parents are making ME fetch water from Elm Tree Avenue each day. It's not fair, they can drive but I am forced to use my racing bike. 
+0x01f4  /  0x1ef5 (0x001f)  : the water strike is over. That means water for Laurel Close, but they have started school showers again. 
+0x01f5  /  0x1f15 (0x0009)  : organize a petition against showers
+0x01f6  /  0x1f1f (0x0015)  : . Mr Jones calls me a filthy beast and tears it up. 
+0x01f7  /  0x1f35 (0x0009)  : resign myself to twice-weekly humiliation
+0x01f8  /  0x1f3f (0x0002)  : . 
+0x01f9  /  0x1f42 (0x0006)  : sabotage the school showers
+0x01fa  /  0x1f49 (0x0002)  : . 
+0x01fe  /  0x1f4d (0x0005)  : remove the tap
+0x01ff  /  0x1f53 (0x000d)  :  so that the water cannot be turned on. 
+0x0200  /  0x1f61 (0x0029)  : we are having to have cold showers until they can get a new hot water tap. I wish I had realized that there were two taps! 
+0x0201  /  0x1f8b (0x000b)  : block the drains with my football socks
+0x0202  /  0x1f97 (0x0002)  : . 
+0x0203  /  0x1f9a (0x0025)  : came home soaked from school as all our clothes got wet when the shower room flooded. A plumber arrived as we were leaving. 
+0x0204  /  0x1fc0 (0x0007)  : remove the shower heads
+0x0205  /  0x1fc8 (0x001d)  : , well only one of them. The others refused to come off. Will one be enough? 
+0x0206  /  0x1fe6 (0x0021)  : Mr Scruton announced in assembly that there will be no more showers until a crucial spare part has been found. 
+0x0208  /  0x2009 (0x0024)  : Ratfink Lucas rang up today. I told him that my mother was at the pub with my father. He asked me which pub. 
+0x0209  /  0x202e (0x0008)  : ask why he wants to know
+0x020a  /  0x2037 (0x0015)  : . He says he just wants to talk to her, and asks again. 
+0x020b  /  0x204d (0x0006)  : say that I don't know
+0x020c  /  0x2054 (0x0002)  : . 
+0x020d  /  0x2057 (0x0002)  : tell him
+0x020e  /  0x205a (0x0002)  : . 
+0x020f  /  0x205d (0x0007)  : ask him to leave a message
+0x0210  /  0x2065 (0x001b)  : . He said, "Please get her to ring me." I promise to tell my mother. 
+0x021c  /  0x2082 (0x0014)  : instead of ringing off, he asked me loads of questions about Rosie. 
+0x021d  /  0x2097 (0x0005)  : tell him all about her
+0x021e  /  0x209d (0x0002)  : . 
+0x021f  /  0x20a0 (0x0008)  : ask why he wants to know
+0x0220  /  0x20a9 (0x0021)  : . He said that Rosie was his daughter and he had a right to know. I was so shocked I put the phone down. 
+0x0221  /  0x20cb (0x000e)  : say, "You must talk to my mother,"
+0x0222  /  0x20da (0x0007)  :  and ring off. 
+0x0223  /  0x20e2 (0x002f)  : my mother and father came back from the pub in bad moods. It seems that my mother had to leave the darts match at a crucial point to answer a phone call. 
+0x0231  /  0x2113 (0x0008)  : tell my mother of the phone call
+0x0232  /  0x211c (0x000c)  :  when she gets back from the pub. 
+0x0233  /  0x2129 (0x0006)  : leave my mother a message
+0x0234  /  0x2130 (0x000a)  :  where she might see it. 
+0x0235  /  0x213b (0x000d)  : go to bed and try to forget about Lucas
+0x0236  /  0x2149 (0x0002)  : . 
+0x0244  /  0x214d (0x002f)  : Lucas turned up on our doorstep halfway through Coronation Street demanding to see Rosie. He claimed that she was his child. This started the most awful row. 
+0x0245  /  0x217d (0x000a)  : turn up the volume on the telly
+0x0246  /  0x2188 (0x002d)  : . My father suddenly remembered I was there and said, "I think you'd better leave us for a while, Adrian." I left them to it. 
+0x0247  /  0x21b6 (0x0006)  : run from the room
+0x0248  /  0x21bd (0x0013)  :  saying, "I can't stand this eternal insecurity." 
+0x0249  /  0x21d1 (0x0003)  : do nothing
+0x024a  /  0x21d5 (0x0009)  :  but watch in awe. 
+0x0258  /  0x21e0 (0x0029)  : I have spent the day in matron's office due to feeling weak in the first lesson. She asked me if there was anything wrong at home. 
+0x0259  /  0x220a (0x0006)  : say "No"
+0x025a  /  0x2211 (0x000d)  : , and keep my troubles to myself. 
+0x025b  /  0x221f (0x000a)  : start to cry and say that everything is
+0x025c  /  0x222a (0x0020)  : . She was very kind and sensible, and let me stay until my eyes had got back to normal. 
+0x025d  /  0x224b (0x000c)  : say that parents ought to be moral and consistent
+0x025e  /  0x2258 (0x000d)  : . She says it's a lot to ask. 
+0x026c  /  0x2267 (0x0029)  : Lucas continues to persecute my mother. A solicitor's letter arrived today. He is taking her to court unless he is allowed access to Rosie. 
+0x026d  /  0x2291 (0x0008)  : suggest we let him see her
+0x026e  /  0x229a (0x000d)  : . My father is dead against that idea. 
+0x026f  /  0x22a8 (0x000a)  : tell my father to rip up the letter
+0x0270  /  0x22b3 (0x0014)  : . He says, "Good idea," and does so. 
+0x0271  /  0x22c8 (0x0009)  : ask Courtney Elliot for his advice
+0x0272  /  0x22d2 (0x0019)  : . Courtney thinks we should get a solicitor to write back and warn Lucas off. 
+0x0273  /  0x22ec (0x0010)  : the solicitor's letter to Lucas cost 20 pounds! 
+0x0276  /  0x22fe (0x0021)  : another letter with a Sheffield postmark. My father read it, then ripped it up and threw it away. 
+0x0294  /  0x2321 (0x0032)  : I wrote a poem on the toilet wall at school today. I thought it was a good way of getting a bit of political consciousness over to my moronic fellow pupils. 
+0x0295  /  0x2354 (0x000d)  : add, "The Poet of the Midlands"
+0x0296  /  0x2362 (0x0002)  : . 
+0x0297  /  0x2365 (0x0007)  : stand back to admire it
+0x0298  /  0x236d (0x0002)  : . 
+0x0299  /  0x2370 (0x000b)  : add, "A.Mole"
+0x029a  /  0x237c (0x0002)  : . 
+0x029b  /  0x237f (0x003a)  : I was sent to see the headmaster today. He has found out about my toilet poem. I asked him how he knew I'd written it. He said, "You signed it, idiot boy". 
+0x029c  /  0x23ba (0x0039)  : I was sent to see the headmaster today. He has found out about my toilet poem. I asked him how he knew I'd written it. He said, "We've still got the handwriting samples". 
+0x029d  /  0x23f4 (0x000b)  : I have been suspended for a week. 
+0x02a8  /  0x2401 (0x0029)  : Barry Kent and his gang called for me today. Kent said, "We're going down town, you can come with us if you like." 
+0x02a9  /  0x242b (0x0009)  : ask, "What for?"
+0x02aa  /  0x2435 (0x0010)  : . Kent says they are just going to hang around. 
+0x02ab  /  0x2446 (0x0002)  : decline
+0x02ac  /  0x2449 (0x0002)  : . 
+0x02ad  /  0x244c (0x0003)  : go with them
+0x02ae  /  0x2450 (0x000d)  :  as I am feeling a bit nihilistic. 
+0x02af  /  0x245e (0x000a)  : suggest a visit to Bert instead
+0x02b0  /  0x2469 (0x0002)  : . 
+0x02b1  /  0x246c (0x005f)  : 
+ 
+Sabre came charging to meet us at the door of Bert's bungalow. I caught hold of his collar to calm him down, but Barry Kent and his gang fled up the path shouting, "See you, Moley." They're a useless lot. Old Bert's got more guts than them. 
+0x02b2  /  0x24cd (0x0028)  : hung about the deserted shopping centre with Barry Kent and the lads. Barry graciously gave me permission to call him "Baz". 
+0x02bc  /  0x24f7 (0x002e)  : Baz took me home and introduced me to his family. Mrs. Kent said, "Ain't you the lad what's 'ad all the scandal?" 
+0x02bd  /  0x2526 (0x0004)  : ask what scandal
+0x02be  /  0x252b (0x000c)  :  and Mrs Kent lets it drop. 
+0x02bf  /  0x2538 (0x0010)  : say, "Yeah that's me, but so what?"
+0x02c0  /  0x2549 (0x0014)  : . Mr Kent reminded me of my manners and I apologized immediately. 
+0x02c1  /  0x255e (0x0004)  : smile enigmatically
+0x02c2  /  0x2563 (0x0002)  : . 
+0x02c3  /  0x2566 (0x003c)  : I had a nice tea with the family; chip sandwiches with tomato sauce, and once I'd got used to the funny smell in the house I was able to relax for the first time in weeks. 
+0x02d0  /  0x25a4 (0x001a)  : had a note from Pandora breaking off our relationship as she doesn't like the company I am keeping. 
+0x02d1  /  0x25bf (0x0007)  : resign from Kent's gang
+0x02d2  /  0x25c7 (0x000c)  :  and turn my attention back to Pandora. 
+0x02d3  /  0x25d4 (0x0004)  : write to Pandora
+0x02d4  /  0x25d9 (0x0020)  :  explaining that I am trying to broaden my experience of the world, and that my feelings for her are unchanged. 
+0x02d5  /  0x25fa (0x0003)  : do nothing
+0x02d6  /  0x25fe (0x0002)  : . 
+0x02e4  /  0x2602 (0x0011)  : I draw some money out of my Building Society account. 
+0x02e5  /  0x2614 (0x0006)  : get a punk haircut
+0x02e6  /  0x261b (0x001f)  : . It adds three inches to my height. My father is horrified but my mother says it looks cool. 
+0x02e7  /  0x263b (0x000a)  : buy a pair of Doc Martens
+0x02e8  /  0x2646 (0x0014)  : . They are bully-boy brown and add an inch to my height. 
+0x02e9  /  0x265b (0x0006)  : send flowers to Pandora
+0x02ea  /  0x2662 (0x000f)  :  as I feel an extravagant gesture is needed. 
+0x02f8  /  0x2673 (0x0026)  : Pandora has just rung to say thank you for the flowers. She has asked if I will stop going around with "those awful louts". 
+0x02f9  /  0x269a (0x000b)  : offer to if Pandora will go out with me again
+0x02fa  /  0x26a6 (0x0019)  : . She agrees. I'm glad about that, as I do prefer her company. 
+0x02fb  /  0x26c0 (0x0007)  : say that they are not louts
+0x02fc  /  0x26c8 (0x0023)  : . She says, very politely, "I will not argue with you, Adrian," and puts the phone down. 
+0x02fd  /  0x26ec (0x0006)  : tell her I already have
+0x02fe  /  0x26f3 (0x0027)  :  and I mean it. She invites me round to listen to her new records. That beats hanging around with Kent's gang. 
+0x02ff  /  0x271b (0x0037)  : spent the evening outside the Chinese chip shop chucking prawn crackers about with the gang. I haven't read a book for ages. Instead of reading about life I am living it. 
+0x030c  /  0x2754 (0x0027)  : PC Gordon, the community policeman called round to see me. He wanted to know why I had suddenly gone off the rails. 
+0x030d  /  0x277c (0x000f)  : give him a full account of the last two years
+0x030e  /  0x278c (0x0025)  : . He looked drained by the time I had finished, and left shaking his head saying, "That's awful!" 
+0x030f  /  0x27b2 (0x000a)  : tell him it's none of his business
+0x0310  /  0x27bd (0x001a)  :  as I haven't committed a crime. He gave me a lecture on responsible citizenship. 
+0x0311  /  0x27d8 (0x0008)  : say I am an existential nihilist
+0x0312  /  0x27e1 (0x0022)  : . He said that lads usually blame it on being bored, but I could tell he was impressed by my vocabulary. 
+0x0320  /  0x2805 (0x0029)  : being in a gang is not as exciting as I thought it would be. All we do is hang around shopping precincts and windy recreation grounds. 
+0x0321  /  0x282f (0x0006)  : resign from the gang
+0x0322  /  0x2836 (0x0008)  :  and return to Pandora. 
+0x0323  /  0x283f (0x000a)  : suggest we do something more interesting
+0x0324  /  0x284a (0x0019)  : . Baz asked, "What?" And I suggested a visit to Bert. 
+0x0325  /  0x2864 (0x0003)  : carry on
+0x0326  /  0x2868 (0x0002)  : . 
+0x0334  /  0x286c (0x0021)  : there was a very unpleasant incident tonight. Barry Kent shouted horrible names at two of the Singh kids. 
+0x0335  /  0x288e (0x000d)  : say, "Lay off them, Baz"
+0x0336  /  0x289c (0x001a)  : . He sneered and said, "I 'ate anyone who ain't English." 
+0x0337  /  0x28b7 (0x000c)  : go round to the Singh's later to apologize
+0x0338  /  0x28c4 (0x000f)  : . I have decided to quit the Kent gang. 
+0x0339  /  0x28d4 (0x0003)  : do nothing
+0x033a  /  0x28d8 (0x0002)  : . 
+0x0348  /  0x28dc (0x002d)  : saw Danny Thompson, the white Rasta, outside the Chinese chip shop tonight. He asked me if I'd write some lyrics for his group. 
+0x0349  /  0x290a (0x000c)  : say I'm into life, not music
+0x034a  /  0x2917 (0x0002)  : . 
+0x034b  /  0x291a (0x000b)  : promise to go home immediately and write some
+0x034c  /  0x2926 (0x0023)  : . I was glad of an excuse to leave. I was tired of Barry Kent shoving his prawn balls down my trousers. 
+0x034d  /  0x294a (0x0009)  : tell him I'll get round to it
+0x034e  /  0x2954 (0x0002)  : . 
+0x034f  /  0x2957 (0x0030)  : at last! My parents have noticed that I am out of control, and have banned me from going out after school. I have written to Barry Kent, resigning from his gang. 
+0x035c  /  0x2989 (0x0038)  : Elizabeth Sally Broadway keeps snatching my school scarf from around my neck and running away with it, forcing me to chase her. This is a sure sign that she is romantically interested in me. 
+0x035d  /  0x29c2 (0x000c)  : ask her if she would like to go to the pictures
+0x035e  /  0x29cf (0x0029)  : . Superman is on. She says, "Oh, yes! You can be my Superman, I'll be your Lois Lane." 
+0x035f  /  0x29f9 (0x0006)  : stop wearing a scarf
+0x0360  /  0x2a00 (0x0002)  : . 
+0x0361  /  0x2a03 (0x0006)  : try to ignore her
+0x0362  /  0x2a0a (0x0002)  : . 
+0x0370  /  0x2a0e (0x001c)  : Elizabeth grabbed my executive brief case and sprinted across the field during the afternoon break. 
+0x0371  /  0x2a2b (0x0007)  : refuse to chase after her
+0x0372  /  0x2a33 (0x001d)  : . Elizabeth sulked because I wouldn't play, and dumped my briefcase in the coke store. 
+0x0373  /  0x2a51 (0x0013)  : shout, "Elizabeth, my love! Come back!"
+0x0374  /  0x2a65 (0x000f)  :  She wheeled round and came straight back. 
+0x0375  /  0x2a75 (0x0004)  : run after her
+0x0376  /  0x2a7a (0x0038)  : and catch up with her in the shrubbery. We had a very enjoyable tussle which ended in me removing her glasses and hair pins. She looked different, despectacled and with her hair down. 
+0x0385  /  0x2ab4 (0x000a)  : make her promise to stop bothering me
+0x0386  /  0x2abf (0x000b)  :  before I return her spectacles. 
+0x0387  /  0x2acb (0x0010)  : say, "But Elizabeth, you're beautiful."
+0x0388  /  0x2adc (0x001a)  :  God knows what would have happened if the bell hadn't rung for the next lesson. 
+0x0389  /  0x2af7 (0x0005)  : reclaim my briefcase
+0x038a  /  0x2afd (0x000b)  :  and go to my next lesson. 
+0x039b  /  0x2b0a (0x0008)  : chatter frivolously about this and that
+0x039c  /  0x2b13 (0x000e)  :  and make sure nothing serious develops. 
+0x039d  /  0x2b22 (0x0007)  : take my briefcase and go
+0x039e  /  0x2b2a (0x0002)  : . 
+0x039f  /  0x2b2d (0x0007)  : ask her to go out with me
+0x03a0  /  0x2b35 (0x000f)  : . We are going to see Jaws at the pictures. 
+0x03ac  /  0x2b46 (0x0064)  : just back from my first date with Elizabeth. She is not as nice as Pandora, but not bad. And Elizabeth is much keener on kissing, so I missed a lot of the film, including most of the best bits. She didn't offer to pay for herself either! We had a long kissing session outside her front door. 
+0x03ad  /  0x2bac (0x0005)  : ask to see her again
+0x03ae  /  0x2bb2 (0x0002)  : . 
+0x03af  /  0x2bb5 (0x000a)  : say that I'll give her a call
+0x03b0  /  0x2bc0 (0x000d)  : , though I know I won't really. 
+0x03b1  /  0x2bce (0x0007)  : mention her bad breath
+0x03b2  /  0x2bd6 (0x0023)  : . She said, "Well, if you feel like that, zit face, you shan't kiss me again." 
+0x03c0  /  0x2bfb (0x0031)  : spent most of the day wandering about the centre with Elizabeth. She kept looking at furniture and carpets and saying, "Wouldn't that look nice in our house?" 
+0x03c1  /  0x2c2d (0x0006)  : disagree with her choices
+0x03c2  /  0x2c34 (0x002e)  :  as her taste is appalling. We argued so much that in the end the only thing we could agree on is that we will never set up house together! 
+0x03c3  /  0x2c63 (0x0009)  : say, "Our house?"
+0x03c4  /  0x2c6d (0x0029)  :  and point out that I have no intention of getting married before I am rich and famous, and that could take a year or two. 
+0x03c5  /  0x2c97 (0x000e)  : nod and say, "Yes, dear"
+0x03c6  /  0x2ca6 (0x0012)  : , as I have been temporarily enslaved by her dog-like devotion. 
+0x03d4  /  0x2cba (0x002b)  : my parents have hardly spoken to me since Friday night. They are too busy watching Rosie's manual dexterity develop. They never notice me. 
+0x03d5  /  0x2ce6 (0x0003)  : join in
+0x03d6  /  0x2cea (0x0018)  : . With three of us to teach her, Rosie could become a genius. 
+0x03d7  /  0x2d03 (0x0005)  : decide to leave home
+0x03d8  /  0x2d09 (0x000a)  : and go somewhere I'm appreciated. 
+0x03d9  /  0x2d14 (0x0007)  : ask for some of their time
+0x03da  /  0x2d1c (0x0046)  : . My mother said, "Not just now, Adrian, we are trying to get Rosie to sit up". The crumblies spent three hours forcing Rosie to sit up on her own. But she kept sliding down the cushions and laughing. 
+0x03e9  /  0x2d65 (0x000f)  : point out her back muscles are not strong enough yet
+0x03ea  /  0x2d75 (0x0035)  : , but the crumblies wouldn't listen. My mother said, "You were nowhere near as advanced as she is at five months." That does it. I'm leaving home. 
+0x03eb  /  0x2dab (0x0004)  : laugh with her
+0x03ec  /  0x2db0 (0x0033)  : . My father thought I was laughing at her and said, "She's trying to succeed. That's more than you do." They don't appreciate me. I'm going. 
+0x03ed  /  0x2de4 (0x0004)  : leave them to it
+0x03ee  /  0x2de9 (0x0010)  :  and go to pack my bags. I'm off. 
+0x03fc  /  0x2dfb (0x0044)  : 6 am. I have made my preparations to leave. I have written my goodbye letters to everyone and packed food and clothes in my Adidas bag. I say goodbye to the dog, but it refuses to understand and keeps following me. 
+0x03fd  /  0x2e41 (0x0007)  : stay because of the dog
+0x03fe  /  0x2e49 (0x002a)  : 's loyalty. I couldn't go off and leave it behind. My mother would probably forget to feed it, she is so engrossed with Rosie. 
+0x03ff  /  0x2e74 (0x0005)  : argue with the dog
+0x0400  /  0x2e7a (0x0027)  :  but the noise starts to wake my parents, next door, and my father bangs on the wall. I will have to take the dog
+0x0401  /  0x2ea2 (0x0004)  : take the dog
+0x0402  /  0x2ea7 (0x001f)  : . It will be my guard and companion on this adventure. The only question is, where to go? 
+0x0403  /  0x2ec7 (0x0007)  : go to stay with Grandma Mole
+0x0404  /  0x2ecf (0x0002)  : . 
+0x0405  /  0x2ed2 (0x0009)  : hitch to the Sugdens in Norfolk
+0x0406  /  0x2edc (0x0002)  : . 
+0x0407  /  0x2edf (0x0004)  : head North
+0x0408  /  0x2ee4 (0x0002)  : . 
+0x0410  /  0x2ee8 (0x001c)  : Grandma was surprised to see me on the doorstep at 7.30 am and asked me why I was there. 
+0x0411  /  0x2f05 (0x0007)  : tell her I have left home
+0x0412  /  0x2f0d (0x0021)  :  and ask if I can stay with her. She said, "Come and have some breakfast and tell me all about it." 
+0x0413  /  0x2f2f (0x0011)  : say, "Can I stay for a few days?"
+0x0414  /  0x2f41 (0x001b)  :  Grandma agreed though she insisted that I go to school as normal. It is just my luck. 
+0x0415  /  0x2f5d (0x004c)  : back Home. Grandma has gone on a trip with the Evergreens, so I can't stay any longer, but my week there was dead restorative. I can face a few more months with the crumblies now, and that will get me through my O levels. 
+0x0416  /  0x2fab (0x0008)  : change my mind about staying
+0x0417  /  0x2fb4 (0x001d)  :  and say I am just walking the dog. She doesn't believe me, and winkles the truth out. 
+0x0418  /  0x2fd2 (0x005a)  : 9 pm. Back Home. After a dead long talk with me, Grandma rang my parents and told them to come round to her house. We had a big family meeting and negotiated terms for my return. As of today, I get equal treatment with Rosie, and help to get me through my O levels. 
+0x0424  /  0x302f (0x0034)  : 4 pm. King's Lynn. There's a terrific amount of sky out here in the Fens, and a lot of ignorance. No-one seems to have heard of Yosserdyke. 
+0x0425  /  0x3064 (0x0005)  : buy a map
+0x0426  /  0x306a (0x0009)  :  and plan a route. 
+0x0427  /  0x3074 (0x003e)  : 1 am. Hitching is dead difficult out here. There aren't many cars and lorries, and I think the dog puts people off. I'm only half-way, so I must find somewhere for the night. 
+0x0428  /  0x30b3 (0x0007)  : sleep in a phone kiosk
+0x0429  /  0x30bb (0x002d)  : . It was dead uncomfortable and I was forced to sleep standing up. Then someone came to use the phone, so I moved to a nearby bus shelter
+0x042a  /  0x30e9 (0x0006)  : sleep in a shed
+0x042b  /  0x30f0 (0x0021)  :  at the bottom of someone's garden. It is very comfortable, but I was worried that I'd be discovered. 
+0x042c  /  0x3112 (0x0008)  : sleep in a bus shelter
+0x042d  /  0x311b (0x000f)  :  and spend a cold, damp night. 
+0x042e  /  0x312b (0x003e)  : 7am. Tractor coming. The last one was good for a lift, and this one is going the right way.
+ 
+10 am. Kings Lynn. I must have turned round in the night! 
+0x042f  /  0x316a (0x000b)  : ask a policeman to show me the way
+0x0430  /  0x3176 (0x0045)  : . He wanted to know who I was and what I was doing by myself. Then he rang my parents. My mother was dead surprised to hear where I was. She thought I was at school. I'm waiting now for my father to collect me. 
+0x0431  /  0x31bd (0x0007)  : go to the bus station
+0x0432  /  0x31c5 (0x002d)  :  and buy a ticket to Yosserdyke. I'll have to change buses three times and it will take nearly four hours, but it will get me there. 
+0x0433  /  0x31f3 (0x0006)  : give up and go home
+0x0434  /  0x31fa (0x004d)  : .
+ 
+Midnight. My parents were dead mad when I got back. They said they'd been really worried. When I told them that I had tried to run away to the Sugdens, my mother was dead sympathetic and said that she hadn't realized how miserable I must have been. 
+0x0438  /  0x324a (0x0022)  : Yosserdyke. Grandma and Grandad Sugden were dead surprised to see me. They wanted to know why I'd left home. 
+0x0439  /  0x326d (0x0006)  : tell them I am miserable
+0x043a  /  0x3274 (0x003d)  : . Grandma Sugden said, "Why, if we all left home when we were miserable, do you think there would be anyone living here now?" She went round to the neighbours to phone my parents. 
+0x043b  /  0x32b2 (0x000f)  : say I can't stand my parents' heathen ways
+0x043c  /  0x32c2 (0x0002)  : . 
+0x043d  /  0x32c5 (0x0007)  : complain of being neglected
+0x043e  /  0x32cd (0x002d)  :  in favour of Rosie. Grandad Sugden said that was jealousy, and gave me a lecture on the Seven Deadly Sins while Grandma went to phone my parents. 
+0x043f  /  0x32fb (0x003b)  : Grandma Sugden agreed that with my parents' smoking, drinking and generally enjoying themselves, my home was no place for me, and that I should stay with them and be brought up as a true Christian. 
+0x044c  /  0x3338 (0x0045)  : this is awful! There's no telly, the food is mainly potatoes and cabbages, and Grandma and Grandad Sugden hardly ever speak to each other, let alone me. All they do in the evenings is write complaining letters. 
+0x044d  /  0x337f (0x000c)  : wait for my parents to come and rescue me
+0x044e  /  0x338c (0x0002)  : . 
+0x044f  /  0x338f (0x0017)  : at last! A letter from Leicester. My parents are coming for me tomorrow. 
+0x0450  /  0x33a7 (0x0006)  : catch a bus home
+0x0451  /  0x33ae (0x0032)  : . When I got home, all my father said was, "Oh, you're back. Let us know next time, before you go on holiday, will you?" 
+0x0452  /  0x33e1 (0x0009)  : run away and head North
+0x0453  /  0x33eb (0x0002)  : . 
+0x0454  /  0x33ee (0x0019)  : King's Lynn again. I shall have to go past Leicester to get to the M1. 
+0x0455  /  0x3408 (0x0036)  : my father has brought me home. He was dead grumpy in the car, but my mother was sympathetic. She said, "If you went there, Adrian, you must have been desperate." 
+0x0460  /  0x3440 (0x000c)  : junction 22, M1 Motorway. 
+0x0461  /  0x344d (0x000b)  : wait on the bridge over the motorway
+0x0462  /  0x3459 (0x0029)  : . After about an hour, I realized that no-one was going to stop there, so I carried on over to the motorway on the other side. 
+0x0463  /  0x3483 (0x0008)  : cross to the far side
+0x0464  /  0x348c (0x000b)  :  as I want to go North. 
+0x0465  /  0x3498 (0x002b)  : 6 pm. Home. Nobody gave me a lift. I think the dog put them off. My parents might have looked a bit grateful! 
+0x0466  /  0x34c4 (0x0007)  : go down the slip road
+0x0467  /  0x34cc (0x0040)  : .
+ 
+9.30 pm. Sheffield. Tuned into the Radio Four nine o'clock news. But no mention of my mysterious disappearance. I am writing this at the side of the railway line. 
+0x0468  /  0x350e (0x0009)  : go to sleep under a bridge
+0x0469  /  0x3518 (0x0026)  : .
+ 
+12pm. I never realized trains were so noisy, but it's too late to move on now. 
+0x046a  /  0x353f (0x0002)  : phone home
+0x046b  /  0x3542 (0x0023)  : . The phone wasn't snatched up immediately like it is in the films about runaway children. Another sign of their indifference. 
+0x046c  /  0x3566 (0x0009)  : search for lodgings for the night
+0x046d  /  0x3570 (0x0041)  : .
+ 
+11 pm. I must be in the wrong part of Sheffield. It's all factories and grotty houses round here. I have found an unvandalized bench in a small park and shall sleep here. 
+0x0474  /  0x35b4 (0x0027)  : 7.30 pm. Manchester. Still nothing about me on the news. I can't face another night in the open. 
+0x0475  /  0x35dc (0x0002)  : phone home
+0x0476  /  0x35df (0x003b)  : . Mrs Singh answered. They must have gone out, leaving her to babysit. How could they go out having fun when their only legal son is missing? I rang off without speaking. 
+0x0477  /  0x361b (0x0005)  : ring the police
+0x0478  /  0x3621 (0x0032)  :  using a disguised voice, saying that I had just spotted the runaway Adrian Mole, and giving my description and location. The policeman refused to take me seriously! 
+0x0479  /  0x3654 (0x0005)  : look for shelter
+0x047a  /  0x365a (0x0002)  : . 
+0x047b  /  0x365d (0x0040)  : still in Manchester. (St. Ignatius's church porch.) 1 am. It is traditional for the homeless to sleep in church porches so why don't vicars make sure that their porches are more comfortable? 
+0x047c  /  0x369f (0x0020)  : I have been taken in by the vicar's wife. She has phoned my parents and asked them to come and fetch me. 
+0x047d  /  0x36c0 (0x0054)  : bedroom. Home. My father doesn't talk when he's driving so we hardly said a word to each other on the way home. But my mother and Grandma said a great many things. Eventually I pleaded for mercy and went to bed and pulled the crisp white sheets over my head. 
+0x0488  /  0x3717 (0x0028)  : the dog had an unfortunate accident on the kitchen floor this morning. Unfortunate for me, that is, because I had to clear it up. 
+0x0489  /  0x3740 (0x0009)  : reach for the dustpan and brush
+0x048a  /  0x374a (0x001f)  :  but my mother says "Don't get that brush full of dog crap! Use an old newspaper." 
+0x048b  /  0x376a (0x000b)  : go to get a handful of bog paper
+0x048c  /  0x3776 (0x0017)  :  but my father is in the toilet. I shall have to use a newspaper. 
+0x048d  /  0x378e (0x000d)  : grab last week's copy of the Sunday Times
+0x048e  /  0x379c (0x0002)  : . 
+0x049c  /  0x37a0 (0x0022)  : when I opened the paper I saw that The Sunday Times claimed to have the story of the discovery of Hitler's Diaries. 
+0x049d  /  0x37c3 (0x0005)  : read on avidly
+0x049e  /  0x37c9 (0x002d)  : . My mother got a bit mad when she came in five minutes later to find me reading in the smelly kitchen with the mess still on the floor. 
+0x049f  /  0x37f7 (0x0008)  : save the article for later
+0x04a0  /  0x3800 (0x0012)  :  and use the business pages to wipe up the mess. 
+0x04a1  /  0x3813 (0x0007)  : clean the floor with it
+0x04a2  /  0x381b (0x0002)  : . 
+0x04b0  /  0x381f (0x001c)  : Pandora has also read The Sunday Times article, but thinks the Hitler Diaries are forgeries. 
+0x04b1  /  0x383c (0x0004)  : agree with her
+0x04b2  /  0x3841 (0x0010)  : . It all seems so unlikely after forty years. 
+0x04b3  /  0x3852 (0x0007)  : keep an open mind
+0x04b4  /  0x385a (0x001c)  :  and wait until scientists and historians have had the opportunity to study them and report their findings. 
+0x04b5  /  0x3877 (0x001c)  : the Diaries are a hoax. I should have used that article to wipe up the dog crap! 
+0x04b6  /  0x3894 (0x000f)  : bet her fifty p. That they are real
+0x04b7  /  0x38a4 (0x002b)  : . Even a sceptic like me knows that The Sunday Times wouldn't risk its reputation if there was the faintest chance that the diaries were a forgery. 
+0x04b8  /  0x38d0 (0x0031)  : Lord Dacre has vouched for the Hitler Diaries' authenticity. So Pandora owes me fifty pence in a lost bet. Ha! Ha! Ha! 
+0x04b9  /  0x3902 (0x001e)  : yet another disenchantment. The Hitler Diaries are a hoax. I have paid Pandora fifty pence. 
+0x04c4  /  0x3922 (0x0019)  : the Sunday Times has printed a grovelling apology to its readers, and ex-readers. 
+0x04c5  /  0x393c (0x0007)  : offer them the Mole Diaries
+0x04c6  /  0x3944 (0x000b)  : . At least they are authentic. 
+0x04c8  /  0x3951 (0x000b)  : persuade my parents to switch to The Observer
+0x04c9  /  0x395d (0x0002)  : . 
+0x04ca  /  0x3960 (0x0006)  : save today's edition
+0x04cb  /  0x3967 (0x0020)  :  for cleaning up any future dog crap. We Moles do not like being made to look like fools. 
+0x04d8  /  0x3989 (0x004f)  : my father went to the bank today to try to get a loan. He didn't want to buy anything, just to feel some money in his hand. After hearing that both my parents were out of work, Mr Niggard, the Bank Manager, refused the loan. 
+0x04d9  /  0x39da (0x001d)  : I overheard my father say, "Well it looks like the North Sea for me, Pauline." 
+0x04da  /  0x39f8 (0x0006)  : ask him what he means
+0x04db  /  0x39ff (0x0014)  : . He said he was going to get a job on an oil rig. 
+0x04dc  /  0x3a14 (0x000c)  : say, "Don't do it, Dad
+0x04dd  /  0x3a21 (0x0034)  : . The economy is bound to pick up." My father looked puzzled. Perhaps he was surprised to hear such an emotional outburst from me. I was surprised myself. 
+0x04de  /  0x3a56 (0x0008)  : ask if I can come with him
+0x04df  /  0x3a5f (0x0018)  : . I shall be an intellectual oilman and rise to become Chairman of BP. 
+0x04ec  /  0x3a79 (0x0037)  : my father has had an interview for a job as a roustabout on an oil rig in the North Sea. He wants to buy himself some roustabout clothes and is going to borrow some money off Grandma. 
+0x04ed  /  0x3ab1 (0x000f)  : draw the remaining 40 pounds from my Building Society
+0x04ee  /  0x3ac1 (0x001f)  :  account and and lend it to my father. I know he doesn't want to borrow any more from Grandma. 
+0x04f0  /  0x3ae2 (0x0006)  : tell him it's premature
+0x04f1  /  0x3ae9 (0x0014)  :  to buy the clothes before he has got the job for sure. 
+0x04f2  /  0x3afe (0x000c)  : remind him to get thermal underwear as well
+0x04f3  /  0x3b0b (0x0002)  : . 
+0x04f4  /  0x3b0e (0x0032)  : our house is intolerable because my father is beside himself with grief at being turned down by the oil firm. And he's got to repay the money he owes for the clothes. 
+0x0500  /  0x3b42 (0x003f)  : at breakfast time my mother announced that after the exams we are going to sell our house and move to a desolate area of Wales. She said, "I want to give us a chance of surviving a nuclear attack." 
+0x0501  /  0x3b83 (0x000c)  : say that New South Wales would be safer
+0x0502  /  0x3b90 (0x003b)  : . My mother said, "Perhaps, but we would never see our relatives again." My father has written to the Australian High Commission asking about opportunities for Storage Heater Engineers and Salesmen in Australia. 
+0x0504  /  0x3bcd (0x000d)  : argue that Wales is no safer than Leicester
+0x0505  /  0x3bdb (0x0025)  :  as the radiation would spread there if there was a nuclear attack. I know because we did it in Social Studies last term. 
+0x0506  /  0x3c01 (0x0006)  : write to the council
+0x0507  /  0x3c08 (0x0034)  :  asking to be put on the waiting list. I will be homeless when my parents leave, so I have asked for a two-bedroom flat facing south, with balcony and working lift. 
+0x0508  /  0x3c3d (0x001b)  : my mother and father are having to negotiate a new Marriage Contract. My father hates Wales. 
+0x0514  /  0x3c5a (0x0020)  : I was shown a blurred picture of a broken-down cottage this morning, and asked if I would like to live there. 
+0x0515  /  0x3c7b (0x0006)  : reply in the negative
+0x0516  /  0x3c82 (0x0041)  : . My mother said, "It sounds perfect. It's two miles from the nearest shop and fifty-five miles from the nearest American Air Base! Wouldn't you like to get up in the morning and feed the chickens?" 
+0x0519  /  0x3cc6 (0x0008)  : tell her that I hate chickens
+0x051a  /  0x3ccf (0x0013)  : . Their nasty beaks and cruel eyes absolutely repel me. 
+0x051b  /  0x3ce3 (0x0008)  : ask if I can live with Grandma
+0x051c  /  0x3cec (0x0009)  :  when they go to Wales. 
+0x051d  /  0x3cf6 (0x000a)  : see the poetic possibilities of the place
+0x051e  /  0x3d01 (0x0018)  :  and get dead enthusiastic about it. Now all we have to do is convince my father. 
+0x051f  /  0x3d1a (0x000c)  : suggest we try it for a holiday first
+0x0520  /  0x3d27 (0x003c)  : . My father seconded that idea. He thinks, like I do, that when my mother realizes that getting a packet of fags means taking a four-mile walk, she will decide to stay where we are. 
+0x0521  /  0x3d64 (0x002e)  : my mother has insisted that we go to Wales to have a look at her cottage tomorrow. The trouble is, we can't find Ffynnon-y-morfoel on any of our maps. 
+0x0522  /  0x3d93 (0x0048)  : 11 pm. Just back from Wales. It was dead good. It rained solidly all day, the pubs were shut and we couldn't find a shop to buy cigarettes. My mother is taking her books about bee-keeping and self-sufficiency back to the library. 
+0x0528  /  0x3dde (0x002e)  : no reply yet from the Council, so I rang them up. The man said that with any luck I might get the council flat I want by 2025. 
+0x053c  /  0x3e0e (0x0012)  : my racing bike has been stolen from out of the back garden. 
+0x053d  /  0x3e21 (0x000c)  : ask Barry Kent if he knows anything about it
+0x053e  /  0x3e2e (0x003c)  : . He was dead offended that I suspected him. He said, "You was in our gang, and I don't nick from my mates. I look after 'em." Then he thumped me. 
+0x053f  /  0x3e6b (0x0006)  : ring up the police
+0x0540  /  0x3e72 (0x0037)  : . They asked if it was postcoded. I replied that it was a bike not a letter, and that it had been stolen. The policeman sighed and said they would let me know if it turned up. 
+0x0541  /  0x3eaa (0x0005)  : suspect the dustmen
+0x0542  /  0x3eb0 (0x0018)  : . They have never forgiven us for having maggots in our dustbin last summer. 
+0x0546  /  0x3eca (0x003d)  : followed the dustbin men up our road and tried to overhear any suspicious conversation, but they were only talking about Dirty Den. One of them warned me to keep away from the mangling machinery at the back. 
+0x0547  /  0x3f08 (0x0007)  : treat this as a threat
+0x0548  /  0x3f10 (0x000d)  :  and report the incident to the police. 
+0x0549  /  0x3f1e (0x0010)  : ask casually if the machinery could mangle a racing bike
+0x054a  /  0x3f2f (0x0029)  : . The dustbin man said that he supposed so, but he'd never seen it happen. I have struck them from my list of suspects. 
+0x054b  /  0x3f59 (0x0005)  : watch from afar
+0x054c  /  0x3f5f (0x0002)  : . 
+0x054d  /  0x3f62 (0x0038)  : Nigel brought my bike back today. He intended to run away on it to avoid his O levels, but decided not to after his father bought him a set of video cassette study aids. 
+0x0550  /  0x3f9c (0x0031)  : had a visit from a tired looking policeman today. He said that he didn't think the dustbin men had meant any harm, nor that they had stolen my bike. 
+0x0551  /  0x3fce (0x0026)  : the dustbin men scattered rubbish all down our path when they called today. My mother was going to complain, but I put her off. 
+0x0564  /  0x3ff6 (0x001d)  : we spent the first day back at school being taught how to revise for the dreaded O levels. 
+0x0565  /  0x4014 (0x0007)  : organize a revision timetable
+0x0566  /  0x401c (0x0028)  : . It takes me all evening to plan it, then another hour adjusting it to allow for the evening I had lost in planning. 
+0x0567  /  0x4045 (0x000c)  : start revising English, Biology and Geography
+0x0568  /  0x4052 (0x003c)  : .
+ 
+7 pm. Decided to concentrate on one subject at a time. Chose English.
+ 
+8 pm. Finished revising when Bert Baxter phoned and requested my help. 
+0x0569  /  0x408f (0x0008)  : decide to start revising tomorrow
+0x056a  /  0x4098 (0x0015)  : . There's so much to do, I don't know where to start. 
+0x0578  /  0x40af (0x0039)  : Mrs Thatcher has called a General Election for June 9th! How can teenagers study when loudspeakers are blaring out lying promises day and night, and canvassers are continually knocking on our door. 
+0x0579  /  0x40e9 (0x0008)  : write to our local parties
+0x057a  /  0x40f2 (0x000d)  :  asking them to leave our house in peace. 
+0x057b  /  0x4100 (0x002b)  : have received replies from all the political parties, going on about the "democratic process" and promising to visit and discuss the issues in depth! 
+0x057c  /  0x412c (0x0008)  : try to ignore the Election
+0x057d  /  0x4135 (0x0013)  :  as far as possible. Not that there is much hope. 
+0x057e  /  0x4149 (0x0007)  : adjust my revision schedule
+0x057f  /  0x4151 (0x000d)  :  to allow time for Election interruptions. 
+0x058c  /  0x4160 (0x0027)  : the Conservative candidate has just knocked at our door. He thrust out his hand and said, "I trust I have your vote!" 
+0x058d  /  0x4188 (0x000a)  : invite him in to wait for my parents
+0x058e  /  0x4193 (0x0035)  : . I managed to keep him there for over an hour, AND made him help me with my History revision, before he finally escaped. That ruined his day's canvassing! 
+0x058f  /  0x41c9 (0x0013)  : say, "You are planning to exterminate the working class!"
+0x0590  /  0x41dd (0x001c)  :  He laughed like a horse and replied that they were just trying to trim them down to size. 
+0x0591  /  0x41fa (0x0009)  : tell him we are all Revolutionary Socialists
+0x0592  /  0x4204 (0x0009)  :  and shut the door. 
+0x05a0  /  0x420f (0x0018)  : what with politicians, my parents and Rosie, I am getting no peace to study. 
+0x05a1  /  0x4228 (0x0007)  : go to Grandma's to revise
+0x05a2  /  0x4230 (0x0035)  : . She has given me some brain pills as a revision aid. They are concocted from a disgusting part of a bull. She said, "Your dead Grandad swore by them." 
+0x05a3  /  0x4266 (0x0007)  : refuse her kind offer
+0x05a4  /  0x426e (0x001a)  :  as I don't know what killed Grandad, nor why he swore about the pills. 
+0x05a5  /  0x4289 (0x0006)  : test them on the dog
+0x05a6  /  0x4290 (0x0002)  : . 
+0x05a7  /  0x4293 (0x0027)  : the dog seems healthy enough, but he is still just as stupid. I don't think I'll bother with Grandma's revolting pills. 
+0x05a8  /  0x42bb (0x0008)  : take two in the morning
+0x05a9  /  0x42c4 (0x0017)  :  By the afternoon I still couldn't remember the capital of British Honduras. 
+0x05aa  /  0x42dc (0x0008)  : ban people from my room
+0x05ab  /  0x42e5 (0x0002)  : . 
+0x05ac  /  0x42e8 (0x0031)  : no one came into my room to wake me up. So I was late for school and when I got home my dirty washing was still on the floor and my curtains were drawn. 
+0x05ad  /  0x431a (0x0005)  : appeal to my mother
+0x05ae  /  0x4320 (0x0013)  : . She is going to do what she can to keep people away. 
+0x07d0  /  0x4339 (0x002d)  : must go and see how Bert is getting on. God! I wish I'd never got involved with him; he is like an Ancient Mariner around my neck
+0x07d1  /  0x4367 (0x0014)  : Rosie has got her first tooth. My index finger is still bleeding
+0x07d2  /  0x437c (0x0032)  : my mother has decided that sugar is the cause of all the evil in the world, and has banned it from the house. She smoked two cigarettes while she informed me of her decision
+0x07d3  /  0x43af (0x0015)  : Rosie started crawling at 5 pm. My parents gave her a standing ovation
+0x07d4  /  0x43c5 (0x0031)  : 8 pm. Rained solidly all day.
+ 
+10.30pm. How can rain be "solid"? What a strange mistress is the English language
+0x07d5  /  0x43f7 (0x0026)  : I've changed my mind about going to London. According to The Guardian, lead poisoning is sending the cockneys who live there mad
+0x07d6  /  0x441e (0x001f)  : reminded my father about the new seat belt law. He was not a bit grateful to be saved from prison
+0x07d7  /  0x443e (0x001a)  : I wish shops could open on Sunday, so their assistants were less harrassed on Saturday
+0x07d8  /  0x4459 (0x0021)  : watched a dead good BBC movie about marital breakdown. It was just like my home-life until the chain-saw salesman arrived
+0x07d9  /  0x447b (0x0019)  : the air traffic controllers are threatening a strike. It must be the holiday season soon
+0x07e4  /  0x4496 (0x002c)  : I am dead worried. Donkey Dawkins of 5P says his thing comes off the end of the ruler, yet he is only a week older than me
+0x07e5  /  0x44c3 (0x0010)  : after school, I went to Smiths to read the magazines
+0x07e6  /  0x44d4 (0x0020)  : Michael Heseltine has chickened out of a public debate with CND. I expect he is scared of being shown up
+0x07e7  /  0x44f5 (0x003b)  : My Vann the careers master was going on about defence jobs. I could not abandon my principles, but he says there must be money in weapons if GEC can get about a billion pounds for NOT finishing Nimrod
+0x07e8  /  0x4531 (0x001f)  : threw away my last nylon shirt. It is not very fashionable, in fact nylon is very entre-nous
+0x07e9  /  0x4551 (0x002d)  : Mrs Braithwaite was most offended when I criticized her trees. She hates flowering cherries too, but says her trees are called Prunus and are much better
+0x07ea  /  0x457f (0x0036)  : architecture is a mystery to me. Why do architects keep designing new buildings, most with problems, when they could copy the best existing designs? Such things baffle me
+0x07eb  /  0x45b6 (0x0029)  : it's the first dry day in ages, so all the women have put out their clothes to dry. And all the men have lit bonfires
+0x07ec  /  0x45e0 (0x0037)  : Barry Kent hit me today. He has decided to be an anti-racist this week and I accidentally said the toilets were like the Black Hole of Calcutta. Nobody dares use words like "blackboard"
+0x07ed  /  0x4618 (0x002d)  : my father wore on his new straight-legged jeans today. He looks dead stupid in them. Talk about mutton dressed as lamb. He looks like stewing steak
+0x0802  /  0x4647 (0x009f)  : the commands are: 
+SAVE position on tape/disk; 
+LOAD previously saved position; 
+PICTURES ON or PICTURES OFF; 
+PRINTER ON or PRINTER OFF; 
+DEMO to demonstrate the game; 
+RESTART to start again. 
+For more information, type HELP followed by the name of a command and press ENTER or RETURN. And, on larger computers, you should be able to type HELP, followed by the name of one of Adrian's acquaintances, to find out more about them
+0x0803  /  0x46e9 (0x009e)  : to save your position on tape, start a blank tape on RECORD, type SAVE and press ENTER or RETURN. If you're asked for a file name, type a short word (eg ANYNAME). Now press ENTER or RETURN twice. When the program asks for your next command, stop the tape.
+ 
+To save on disk (Commodore 64 only), do the same thing except that you should use a new, formatted disk and type ,8 after the file name (eg ANYNAME,8 )
+0x0804  /  0x478a (0x00a2)  : to load a previously saved position from tape, type LOAD and press ENTER or RETURN. If you are asked for a file name, type the one you used when SAVEing and press ENTER or RETURN again. Rewind the cassette on which the position was saved and start it on PLAY. (If the tape doesn't move, press ENTER or RETURN again.
+ 
+To load from disk (Commodore 64 only), do the same thing, using the disk on which the position was saved and typing ,8 after the file name (eg ANYNAME,8 )
+0x0805  /  0x482f (0x0028)  : type PICTURES OFF and press ENTER or RETURN to stop pictures being displayed while you play. Type PICTURES ON and press ENTER or RETURN to display them again
+0x0806  /  0x4858 (0x0047)  : on some computers, the PRINTER command allows you to make a typed listing of the story as it unfolds.
+ 
+Type PRINTER ON and press ENTER or RETURN to list the story as you play. Type PRINTER OFF and press ENTER or RETURN to stop this
+0x0807  /  0x48a1 (0x001b)  : type DEMO and press ENTER or RETURN for automatic play. Press just about any key to stop the demonstration
+0x0808  /  0x48bd (0x0014)  : type RESTART and press ENTER or RETURN to start the current part of the game again
+0x080a  /  0x48d3 (0x0022)  : 
+ 
+That's the end of this part of the game. Would you like to continue with the next part? 
+0x080b  /  0x48f6 (0x0044)  : 
+Check the program tape/disk is in the drive and press ENTER or RETURN. If using tape, check the recorder is set to PLAY (and, if the tape isn't moving, press ENTER or RETURN again).
+ 
+0x080c  /  0x493c (0x003f)  : 
+Welcome to Part 4 of the Growing Pains of Adrian Mole, from Level 9 and Virgin Games. If you are loading from tape, and it is still running, STOP THE TAPE IMMEDIATELY.
+
+0x080d  /  0x497d (0x0009)  : 
+SAVE completed.
+
+0x080e  /  0x4987 (0x0009)  : 
+LOAD completed.
+
+0x080f  /  0x4991 (0x0027)  :  
+DEMO stopped. Press SHIFT when the game pauses and 1-4 to make decisions in future.
+ 
+
+0x0810  /  0x49b9 (0x0021)  : 
+ 
+The game is over, unless you'd like to play the final part again. Would you? 
+0x0811  /  0x49db (0x0043)  : 
+This program would normally be loaded after you have finished playing through the part of Adrian's life leading up to it. This seems not to have happened. No problem, except that the score starts at 40 percent.
+
+0x0812  /  0x4a20 (0x003b)  : 
+The position you just LOADed doesn't look as if it was saved from this part of the Adrian Mole game. No problem, except that you'll have to continue from the start of this part of the game. 
+0x0813  /  0x4a5c (0x0022)  :  And, because the position was SAVEd from a later part of the game, the score has been reset. 
+0x0814  /  0x4a7f (0x000d)  : 
+I, Adrian Mole, score 
+0x0815  /  0x4a8d (0x000b)  :  percent, which makes me 
+0x0816  /  0x4a99 (0x0005)  : dreg of society
+0x0817  /  0x4a9f (0x0004)  : bully boy
+0x0818  /  0x4aa4 (0x0002)  : creep
+0x0819  /  0x4aa7 (0x0002)  : thicko
+0x081a  /  0x4aaa (0x0002)  : schoolboy
+0x081b  /  0x4aad (0x0002)  : youth
+0x081c  /  0x4ab0 (0x0002)  : poet
+0x081d  /  0x4ab3 (0x0002)  : prodigy
+0x081e  /  0x4ab6 (0x0005)  : paragon of virtue
+0x081f  /  0x4abc (0x0002)  : intellectual
+0x0820  /  0x4abf (0x0003)  : an idiot
+0x0821  /  0x4ac3 (0x0003)  : a useless
+0x0822  /  0x4ac7 (0x0003)  : a second-rate
+0x0823  /  0x4acb (0x0003)  : an unrespectable
+0x0824  /  0x4acf (0x0003)  : a lowly
+0x0825  /  0x4ad3 (0x0003)  : a namby-pamby
+0x0826  /  0x4ad7 (0x0003)  : an unimportant
+0x0827  /  0x4adb (0x0003)  : a mediocre
+0x0828  /  0x4adf (0x0003)  : a spotty
+0x0829  /  0x4ae3 (0x0003)  : a suburban
+0x082a  /  0x4ae7 (0x0003)  : an ordinary
+0x082b  /  0x4aeb (0x0003)  : a middling
+0x082c  /  0x4aef (0x0003)  : an average
+0x082d  /  0x4af3 (0x0003)  : a worthy
+0x082e  /  0x4af7 (0x0006)  : a superior kind of
+0x082f  /  0x4afe (0x0003)  : a talented
+0x0830  /  0x4b02 (0x0003)  : a brilliant
+0x0831  /  0x4b06 (0x0003)  : a star
+0x0832  /  0x4b0a (0x0003)  : a knockout
+0x0833  /  0x4b0e (0x0003)  : an awesome
+<EOM>

@@ -1,0 +1,1026 @@
+Welcome to the Price of Magik, copyright (c) 1986 from Level 9 Computing. 
+(This version allows you to use RAM SAVE and RAM RESTORE to save a position in memory, and OOPS to take back bad moves). 
+You are on a winding drive just to the south of a house which must have been magnificent once, but has now decayed into a malevolent shadow of its former self. Assorted creepers cling desperately to the walls, almost completely enveloping the building. A huge carved door with a knocker in the shape of a griffin's head is set in the front. Exits are west to a woodshed, upwards to a vine and in through a door. You can see a vine. 
+What now? #title: The Price of Magik test script
+#comment: MSX version
+#SEED 42
+Seed set to 42
+QUIT
+Really restart? YES
+Press space to play again. 
+Welcome to the Price of Magik, copyright (c) 1986 from Level 9 Computing. 
+(This version allows you to use RAM SAVE and RAM RESTORE to save a position in memory, and OOPS to take back bad moves). 
+You are on a winding drive just to the south of a house which must have been magnificent once, but has now decayed into a malevolent shadow of its former self. Assorted creepers cling desperately to the walls, almost completely enveloping the building. A huge carved door with a knocker in the shape of a griffin's head is set in the front. Exits are west to a woodshed, upwards to a vine and in through a door. You can see a vine. 
+What now? #SEED 42
+Seed set to 42
+W
+You are in a woodshed in the swampy grounds of the house. It is rapidly rotting away. Exits are east to a winding drive and west to a herb garden. You can see a candle and a woodpile. 
+What now? EXAMINE WOODPILE
+Ready for a fire. Underneath it is something nasty. 
+What now? EXAMINE NASTY
+The nasty oozes away into the ground. 
+Your sanity is shaken. 
+What now? GET CANDLE
+Taken. 
+Your sanity is shaken. 
+What now? EXAMINE CANDLE
+Tallow. It is burning weakly. It is less than half burnt. 
+What now? LIGHT WOODPILE
+The woodpile bursts into flames and is soon converted to ashes. 
+What now? EXTINGUISH CANDLE
+The candle goes out. 
+What now? GET ASHES
+Taken. 
+Your sanity is shaken. 
+What now? W
+You are on a herb garden on an insect-infested mound which rises through the marsh mist. A few stunted plants survive. An exit leads east to a woodshed. You can see an elder cross, a mandrake and some eyebright flowers. 
+What now? TAKE ALL
+Eyebright flowers: taken. 
+Mandrake: the mandrake screams as you grab its leaves. Do you want to continue? YES
+You brutally wrench it from the ground. Some things fall from around its roots to the ground. 
+Skull: taken. 
+Knucklebone: taken. 
+Elder cross: taken. 
+Your sanity is shaken. 
+What now? EXAMINE ALL
+Eyebright flowers: a magical plant which is rumoured to miraculously improve vision when rubbed into the eyes. 
+Mandrake: a vile weed. 
+Skull: human. 
+Knucklebone: part of a human hand. Around it is a ring. 
+Ashes: the remains of the woodpile. 
+Candle: tallow. It is less than half burnt. 
+Elder cross: a weird wooden cross. 
+What now? EXAMINE RING
+Set with a beautiful solitaire diamond. 
+What now? DROP MANDRAKE
+Dropped. 
+What now? REMOVE RING FROM KNUCKLEBONE
+OK. 
+What now? DROP KNUCKLEBONE
+Dropped. 
+What now? DROP SKULL
+Dropped. 
+What now? E
+You are in a woodshed in the swampy grounds of the house. It is rapidly rotting away. Exits are east to a winding drive and west to a herb garden. 
+What now? E
+You are on a winding drive just to the south of a house which must have been magnificent once, but has now decayed into a malevolent shadow of its former self. Assorted creepers cling desperately to the walls, almost completely enveloping the building. A huge carved door with a knocker in the shape of a griffin's head is set in the front. Exits are west to a woodshed, upwards to a vine and in through a door. You can see a vine. 
+What now? U
+You are on a vine with strong branches. Exits are upwards to a vine and downwards to a winding drive. 
+What now? U
+You are on a vine, pushing through a mass of decaying tendrils. Exits are upwards to the top of the vine and downwards to a vine. 
+What now? U
+You are on the top of the vine which clings precariously to the crumbling wall of the house. Exits are upwards to a sloping roof and downwards to a vine. 
+What now? U
+You are on a sloping roof in weak sunlight. Exits are upwards to a roof and downwards to the top of the vine. 
+What now? U
+You are on a roof. Exits are west to the east of an attic and downwards to a sloping roof. 
+What now? RUB EYEBRIGHT INTO EYES
+You rub the eyebright into your eyes. 
+You are on a roof. Exits are west to the east of an attic and downwards to a sloping roof. 
+What now? W
+You are in the east of an attic. Exits are north to a shadowy alcove, east to a roof and west to the west of an attic. You can see a full-length mirror. Your sanity is shaken. 
+What now? N
+You are in a shadowy alcove. An exit leads south to the east of an attic. You can see a wardrobe. There is a feeling of magik. Your sanity is shaken. 
+What now? EXAMINE WARDROBE
+Elegantly carved mahogany. In it are some robes. 
+What now? GET ROBES
+Taken. 
+What now? WEAR ROBES
+Worn. 
+What now? S
+You are in the east of an attic. Exits are north to a shadowy alcove, east to a roof and west to the west of an attic. You can see a full-length mirror. 
+What now? CUT MIRROR WITH DIAMOND
+You score a neat circle of glass and tap it out gently. As it falls, the rest of the mirror shimmers and disappears. 
+What now? GET SMALL MIRROR
+Taken. 
+Your sanity is shaken. 
+What now? LOOK
+You are in the east of an attic. Exits are north to a shadowy alcove, east to a roof, south to a recess and west to the west of an attic. 
+What now? S
+You are in a recess. An exit leads north to the east of an attic. You can see a prism. 
+What now? GET PRISM
+Taken. 
+Your sanity is shaken. 
+What now? EXAMINE PRISM
+It bends the light and is enscribed "XAM". 
+Your sanity is shaken. 
+What now? N
+You are in the east of an attic. Exits are north to a shadowy alcove, east to a roof, south to a recess and west to the west of an attic. 
+What now? W
+You are in the west of an attic. Exits are east to the east of an attic and southwest to the doorway to an attic. You can see a cage. 
+What now? GET CAGE
+Taken. 
+What now? SW
+You are in the doorway to an attic. Exits are northeast to the west of an attic, southeast to an office and west to a landing. 
+What now? SE
+You are in an office. An exit leads northwest to the doorway to an attic. You can see a table. 
+What now? EXAMINE TABLE
+The word "MAD" is enscribed there. On it is a scroll and a knife. 
+Your sanity is shaken. 
+What now? GET SCROLL
+Taken. 
+What now? GET KNIFE
+Taken. 
+What now? READ SCROLL
+Part of an ancient magik training manual. It is old and faded, but you can just make out: to use a spell, "CAST spell", "CAST spell AT target" or "CAST spell direction".. 
+Your sanity is shaken. 
+What now? NW
+You are in the doorway to an attic. Exits are northeast to the west of an attic, southeast to an office and west to a landing. 
+What now? NE
+You are in the west of an attic. Exits are east to the east of an attic and southwest to the doorway to an attic. 
+What now? E
+You are in the east of an attic. Exits are north to a shadowy alcove, east to a roof, south to a recess and west to the west of an attic. 
+What now? E
+You are on a roof. Exits are west to the east of an attic and downwards to a sloping roof. 
+What now? D
+You are on a sloping roof in weak sunlight. Exits are upwards to a roof and downwards to the top of the vine. 
+What now? D
+You are on the top of the vine which clings precariously to the crumbling wall of the house. Exits are upwards to a sloping roof and downwards to a vine. 
+What now? D
+You are on a vine, pushing through a mass of decaying tendrils. Exits are upwards to the top of the vine and downwards to a vine. 
+What now? D
+You are on a vine with strong branches. Exits are upwards to a vine and downwards to a winding drive. 
+What now? D
+You are on a winding drive just to the south of a house which must have been magnificent once, but has now decayed into a malevolent shadow of its former self. Assorted creepers cling desperately to the walls, almost completely enveloping the building. A huge carved door with a knocker in the shape of a griffin's head is set in the front. Exits are west to a woodshed, upwards to a vine and in through a door. You can see a vine. 
+What now? CUT VINE
+You cut a staff from the vine. 
+What now? GET STAFF
+Taken. 
+Your sanity is shaken. 
+What now? KNOCK DOOR
+Rat-a-tat tat. 
+You can hear vile slithering noises approaching. 
+What now? OPEN DOOR
+OK. 
+The squelching noises are getting nearer. 
+What now? IN
+The door closes behind you. 
+You are in an entrance hall of the rambling mansion. Exits are west to a butler's passage, northwest to an entrance hall and outside through a door. You can see a postcard. The noises die away. 
+What now? EXAMINE POSTCARD
+It is from the post office and reads: "Following the mysterious disappearances of three postmen working in this area, we have suspended deliveries locally. Post may be collected from the sorting office. We apologise for any inconvenience". 
+What now? NW
+You are in an entrance hall. Exits are north to an alcove, northeast to an elm panelled corridor, east to a broom cupboard, southeast to an entrance hall and northwest to amongst hanging tentacles. You can see a grandmother clock. The clock goes BOM. Your sanity is shaken. 
+What now? EXAMINE CLOCK
+An antique. The time is 6: 2 am. In it is a pendulum. 
+What now? GET PENDULUM
+Taken. 
+Your sanity is shaken. 
+What now? EXAMINE PENDULUM
+Inscribed with 'DOW'. 
+Your sanity is shaken. 
+What now? WAIT
+Time passes. . . 
+What now? E
+You are in a broom cupboard. An exit leads west to an entrance hall. You can see a broom. 
+What now? GET BROOM
+Taken. 
+Somewhere nearby, you hear a clock strike. Your sanity is shaken. 
+What now? W
+You are in an entrance hall. Exits are north to an alcove, northeast to an elm panelled corridor, east to a broom cupboard, southeast to an entrance hall and northwest to amongst hanging tentacles. You can see a grandmother clock. 
+What now? SE
+You are in an entrance hall of the rambling mansion. Exits are west to a butler's passage, northwest to an entrance hall and outside through a door. You can see a postcard. 
+What now? W
+You are in a butler's passage. Exits are east to an entrance hall and west to a rock-walled room. 
+What now? W
+You are in a rock-walled room. Exits are east to a butler's passage, south to a scullery kitchen and northwest to a yellow river. You can see a picture of Stonehenge. 
+What now? NW
+You are on a yellow river. Exits are north to a distorted junction, south to a slime slide and southeast to a rock-walled room. 
+What now? N
+You are in a distorted junction. Exits are north to a better hole, northeast to an anti-chapel and south to a yellow river. 
+What now? NE
+You are in an anti-chapel. Exits are north to an anti-alcove, south to amongst hanging tentacles and southwest to a distorted junction. There is a feeling of magik. 
+What now? N
+You are in an anti-alcove. An exit leads south to an anti-chapel. You can see an altar. On it is a red moon. There is a feeling of magik. 
+What now? TOUCH MOON
+As soon as you touch the moon, a thrill runs through your body, and you feel very youthful. You recoil in surprise. 
+What now? S
+You are in an anti-chapel. Exits are north to an anti-alcove, south to amongst hanging tentacles and southwest to a distorted junction. There is a feeling of magik. 
+What now? SW
+You are in a distorted junction. Exits are north to a better hole, northeast to an anti-chapel and south to a yellow river. 
+What now? N
+You are in a better hole. Exits are north to a hole and south to a distorted junction. 
+What now? N
+You are in a hole. Exits are south to a better hole and upwards to a stairway. 
+What now? UP
+You are in a stairway. Exits are east to an oak panelled corridor, upwards to a landing and downwards to a hole. 
+What now? E
+You are in an oak panelled corridor. Exits are north to a misty corridor, southeast to an oak panelled corridor and west to a stairway. 
+What now? N
+You are in a misty corridor. There is a feeling of magik. 
+What now? NE
+You are in a marble hall. Exits are northeast to a roof garden, southwest to a misty corridor and west to a once-good room. 
+What now? NE
+You are on a roof garden. Exits are southeast to a room with a large table, southwest to a marble hall and northwest to the north tower. You can see a valerian plant and a sprig of wolfsbane. 
+What now? GET VALERIAN
+Taken. 
+Your sanity is shaken. 
+What now? EXAMINE VALERIAN
+A magik herb with long-lasting flowers. 
+What now? GET WOLFSBANE
+Taken. 
+What now? NW
+You are in the north tower. An exit leads southeast to a roof garden. You can see a rope. There is a feeling of magik. 
+What now? UP
+You gingerly climb the ancient rope. Ding. Dong. Ding. Dong. 
+You are in a belfry. An exit leads downwards to the north tower. You can see a blood-sucking bat and a bell. The blood-sucking bat goes "peep peep". You can hear vile slithering noises approaching. 
+What now? GET BAT
+Taken. 
+The squelching noises are getting nearer. 
+What now? EXAMINE BELL
+Cast from several tonnes of bronze. 
+A nameless horror rears from the gloom. You pass out from terror. Your sanity is shaken. 
+What now? D
+You are in the north tower. An exit leads southeast to a roof garden. You can see a rope. There is a feeling of magik. The blood-sucking bat stretches its wings. 
+What now? SE
+You are on a roof garden. Exits are southeast to a room with a large table, southwest to a marble hall and northwest to the north tower. The blood-sucking bat eyes a vein in your neck. 
+What now? SE
+You are in a room with a large table. Exits are southwest to a small landing and northwest to a roof garden. You can see a wargame. The blood-sucking bat goes "peep peep". 
+What now? EXAMINE WARGAME
+It re-enacts the massacre in the council chamber which brought Myglar to power. 
+The blood-sucking bat stretches its wings. 
+What now? SW
+You are in a small landing. Exits are northeast to a room with a large table, south to a musty hall, southwest to a pentagonal room and west to below a huge gallows. The blood-sucking bat eyes a vein in your neck. 
+What now? W
+You are in below a huge gallows. Exits are east to a small landing and west to a misty corridor. There is a feeling of magik. The blood-sucking bat goes "peep peep". 
+What now? W
+You are in a misty corridor. There is a feeling of magik. You almost fall over a wheel that some idiot has left lying about. Fortunately, you regain your balance, but the wheel rolls out of sight in the mist. The blood-sucking bat stretches its wings. 
+What now? DROP BAT
+Dropped. 
+What now? CAST HYP AT BAT
+The blood-sucking bat looks at you expectantly. 
+You almost fall over a wheel that some idiot has left lying about. Fortunately, you regain your balance, but the wheel rolls out of sight in the mist. It eyes a vein in your neck. Your sanity is shaken. 
+What now? BAT TAKE WHEEL
+The bat disappears into the mist, then after a short time, returns dragging a wheel along the ground. The bat can only just keep airborne, but it obeys your command faithfully, and drops the wheel on your foot. 
+What now? GET WHEEL
+Taken. 
+The blood-sucking bat goes "peep peep". Your sanity is shaken. 
+What now? GET BAT
+Taken. 
+What now? S
+You are in an oak panelled corridor. Exits are north to a misty corridor, southeast to an oak panelled corridor and west to a stairway. The blood-sucking bat stretches its wings. 
+What now? SE
+You are in an oak panelled corridor. Exits are north to a pentagonal room, south to a white-wood corridor and northwest to an oak panelled corridor. 
+What now? PUSH PANEL
+You try all the panels in turn, working from the north end southwards. About two thirds of the way along, one of them gives as you touch it, you hear a click, and a group of panels above and below the one you were pushing all swing back together as a door. 
+What now? LOOK
+You are in an oak panelled corridor. Exits are north to a pentagonal room, east to a store room, south to a white-wood corridor and northwest to an oak panelled corridor. The blood-sucking bat eyes a vein in your neck. 
+What now? E
+You are in a store room. An exit leads west to an oak panelled corridor. You can see a lever and a sword point. The blood-sucking bat goes "peep peep". 
+What now? EXAMINE SWORD
+Sharp. It sticks up through a hole in the floor. 
+The blood-sucking bat stretches its wings. The existing HYP spell wears off. 
+What now? PULL LEVER
+The sword drops out of sight, and you hear clattering noises from below. 
+The blood-sucking bat eyes a vein in your neck. 
+What now? W
+You are in an oak panelled corridor. Exits are north to a pentagonal room, east to a store room, south to a white-wood corridor and northwest to an oak panelled corridor. The blood-sucking bat goes "peep peep". 
+What now? S
+You are in a white-wood corridor. Exits are north to an oak panelled corridor, east to a store room, southwest to an arch-roofed corridor and northwest to an old sea-dog's room. The blood-sucking bat stretches its wings. 
+What now? E
+You are in a store room. An exit leads west to a white-wood corridor. You can see a shovel. The blood-sucking bat eyes a vein in your neck. 
+What now? GET SHOVEL
+Taken. 
+What now? W
+You are in a white-wood corridor. Exits are north to an oak panelled corridor, east to a store room, southwest to an arch-roofed corridor and northwest to an old sea-dog's room. The blood-sucking bat goes "peep peep". 
+What now? NW
+You are in an old sea-dog's room. Exits are southeast to a white-wood corridor and southwest to a cellar. The blood-sucking bat stretches its wings. 
+What now? SW
+You are in a cellar. An exit leads northeast to an old sea-dog's room. You can see some chests. 
+What now? EXAMINE CHESTS
+The chests are coloured black, brown, red, orange, yellow, green, blue, violet, grey and white. 
+The blood-sucking bat eyes a vein in your neck. 
+What now? CAST DOW AT BLUE CHEST
+The pendulum swings side to side. 
+Your sanity is shaken. 
+What now? OPEN BLUE CHEST
+OK. 
+The blood-sucking bat goes "peep peep". Your sanity is shaken. 
+What now? EXAMINE BLUE CHEST
+In it is a pile of salt. 
+The blood-sucking bat stretches its wings. 
+What now? GET SALT
+Taken. 
+What now? NE
+You are in an old sea-dog's room. Exits are southeast to a white-wood corridor and southwest to a cellar. The blood-sucking bat eyes a vein in your neck. 
+What now? SE
+You are in a white-wood corridor. Exits are north to an oak panelled corridor, east to a store room, southwest to an arch-roofed corridor and northwest to an old sea-dog's room. The blood-sucking bat goes "peep peep". 
+What now? SW
+You are in an arch-roofed corridor. Torches line the walls, seemingly burning for ever without consuming any fuel. Exits are northeast to a white-wood corridor and west to a dead end. You can see an inscription on the ceiling. The blood-sucking bat stretches its wings. 
+What now? CAST FLY AT ME
+You float into the air. 
+The blood-sucking bat eyes a vein in your neck. Your sanity is shaken. 
+What now? READ INSCRIPTION
+It reads: 'HYP'. 
+The blood-sucking bat goes "peep peep". Your sanity is shaken. 
+What now? WAIT
+Time passes. . . The blood-sucking bat stretches its wings. The existing FLY spell wears off. 
+What now? NE
+You are in a white-wood corridor. Exits are north to an oak panelled corridor, east to a store room, southwest to an arch-roofed corridor and northwest to an old sea-dog's room. 
+What now? N
+You are in an oak panelled corridor. Exits are north to a pentagonal room, east to a store room, south to a white-wood corridor and northwest to an oak panelled corridor. 
+What now? N
+You are in a pentagonal room. Exits are northeast to a small landing and south to an oak panelled corridor. There is a feeling of magik. The blood-sucking bat eyes a vein in your neck. 
+What now? NE
+You are in a small landing. Exits are northeast to a room with a large table, south to a musty hall, southwest to a pentagonal room and west to below a huge gallows. The blood-sucking bat goes "peep peep". 
+What now? S
+You are in a musty hall. Exits are north to a small landing and east to a spiral stair. You can see a tapestry. 
+What now? EXAMINE TAPESTRY
+It shows a healer. 
+The blood-sucking bat stretches its wings. 
+What now? E
+You are in a spiral stair. Exits are west to a musty hall and downwards to an alcove. 
+What now? D
+You are in an alcove. Exits are west to a hall hung with paintings and upwards to a spiral stair. 
+What now? W
+You are in a hall hung with paintings. Exits are east to an alcove and northwest to a bone chamber. You can see a warped portrait. The blood-sucking bat eyes a vein in your neck. 
+What now? NW
+You are in a bone chamber. Exits are east to a rest room, south to a rough-hewn tunnel, southeast to a hall hung with paintings and west to an echoing crypt. You can see some bones. There is a feeling of magik. The blood-sucking bat goes "peep peep". 
+What now? GET BONES
+Taken. 
+What now? EXAMINE BONES
+Human. 
+What now? S
+You are in a rough-hewn tunnel. Exits are north to a bone chamber and southeast to a panelled corridor. The blood-sucking bat stretches its wings. 
+What now? SE
+You are in a panelled corridor with walls intricately carved from elm wood. Exits are south to an elm panelled corridor and northwest to a rough-hewn tunnel. You can see a sword. The blood-sucking bat eyes a vein in your neck. 
+What now? GET SWORD
+Taken. 
+The blood-sucking bat goes "peep peep". 
+What now? EXAMINE SWORD
+Enscribed, "rubilacxe". 
+What now? S
+You are in an elm panelled corridor. Exits are north to a panelled corridor, east to a cupboard and southwest to an entrance hall. You can see a werewolf. It rears up on its back legs. 
+What now? SW
+You are in an entrance hall. Exits are north to an alcove, northeast to an elm panelled corridor, east to a broom cupboard, southeast to an entrance hall and northwest to amongst hanging tentacles. You can see a grandmother clock. The blood-sucking bat eyes a vein in your neck. 
+What now? SE
+You are in an entrance hall of the rambling mansion. Exits are west to a butler's passage, northwest to an entrance hall and outside through a door. You can see a postcard. The blood-sucking bat goes "peep peep". Somewhere nearby, you hear a clock strike. 
+What now? OPEN DOOR
+OK. 
+The blood-sucking bat stretches its wings. 
+What now? OUT
+The door closes behind you. 
+You are on a winding drive just to the south of a house which must have been magnificent once, but has now decayed into a malevolent shadow of its former self. Assorted creepers cling desperately to the walls, almost completely enveloping the building. A huge carved door with a knocker in the shape of a griffin's head is set in the front. Exits are west to a woodshed, upwards to a vine and in through a door. You can see a vine. The blood-sucking bat eyes a vein in your neck. 
+What now? W
+You are in a woodshed in the swampy grounds of the house. It is rapidly rotting away. Exits are east to a winding drive and west to a herb garden. The blood-sucking bat goes "peep peep". 
+What now? W
+You are on a herb garden on an insect-infested mound which rises through the marsh mist. A few stunted plants survive. An exit leads east to a woodshed. You can see a knucklebone, a skull and a mandrake. The blood-sucking bat stretches its wings. 
+What now? GET SKULL
+Taken. 
+The blood-sucking bat eyes a vein in your neck. 
+What now? GET KNUCKLEBONE
+Taken. 
+The blood-sucking bat goes "peep peep". 
+What now? BURY BONES
+OK. You dig a little hole. You throw it into the hole. You fill it in again. A ghost appears. It says, "I thank thee, adventurer, but wouldst thou leave the job undone? I canst only find peace when all my remains are thus entombed". 
+What now? BURY SKULL
+OK. You dig a little hole. You throw it into the hole. You fill it in again. A ghost appears. It says, "I thank thee, adventurer, but wouldst thou leave the job undone? I canst only find peace when all my remains are thus entombed". 
+What now? BURY KNUCKLEBONE
+OK. You dig a little hole. You throw it into the hole. You fill it in again. A ghost appears. It says, "Thank you, most noble adventurer. As a reward, I give you two things. Firstly, you may take my armour which served me well until I met my end. Secondly, some advice. BEWARE OF MYGLAR, for when I met him, all my weapons were to no avail". 
+What now? E
+You are in a woodshed in the swampy grounds of the house. It is rapidly rotting away. Exits are east to a winding drive and west to a herb garden. The blood-sucking bat stretches its wings. 
+What now? E
+You are on a winding drive just to the south of a house which must have been magnificent once, but has now decayed into a malevolent shadow of its former self. Assorted creepers cling desperately to the walls, almost completely enveloping the building. A huge carved door with a knocker in the shape of a griffin's head is set in the front. Exits are west to a woodshed, upwards to a vine and in through a door. You can see a vine. The blood-sucking bat eyes a vein in your neck. 
+What now? OPEN DOOR
+OK. 
+The blood-sucking bat goes "peep peep". 
+What now? IN
+The door closes behind you. 
+You are in an entrance hall of the rambling mansion. Exits are west to a butler's passage, northwest to an entrance hall and outside through a door. You can see a postcard. 
+What now? NW
+You are in an entrance hall. Exits are north to an alcove, northeast to an elm panelled corridor, east to a broom cupboard, southeast to an entrance hall and northwest to amongst hanging tentacles. You can see a grandmother clock. 
+What now? NE
+You are in an elm panelled corridor. Exits are north to a panelled corridor, east to a cupboard and southwest to an entrance hall. You can see a werewolf. It rears up on its back legs. Somewhere nearby, you hear a clock strike. 
+What now? N
+You are in a panelled corridor with walls intricately carved from elm wood. Exits are south to an elm panelled corridor and northwest to a rough-hewn tunnel. 
+What now? NW
+You are in a rough-hewn tunnel. Exits are north to a bone chamber and southeast to a panelled corridor. The blood-sucking bat eyes a vein in your neck. 
+What now? N
+You are in a bone chamber. Exits are east to a rest room, south to a rough-hewn tunnel, southeast to a hall hung with paintings and west to an echoing crypt. There is a feeling of magik. 
+What now? W
+You are in an echoing crypt. An exit leads east to a bone chamber. You can see some plate armour. There is a feeling of magik. The blood-sucking bat goes "peep peep". 
+What now? GET PLATE ARMOUR
+Taken. 
+What now? E
+You are in a bone chamber. Exits are east to a rest room, south to a rough-hewn tunnel, southeast to a hall hung with paintings and west to an echoing crypt. There is a feeling of magik. The blood-sucking bat stretches its wings. 
+What now? E
+You are in a rest room. Exits are north to a library and west to a bone chamber. The blood-sucking bat eyes a vein in your neck. 
+What now? N
+You are in a library. Exits are north to a library, south to a rest room and northwest to a sagging corridor. You can see some books. 
+What now? N
+You are in a library. Exits are south to a library and northwest to a study. You can see a grimoire. 
+What now? EXAMINE GRIMOIRE
+A tome which explains that you must be mad to use magik. 
+Your sanity is shaken. 
+What now? GET GRIMOIRE
+Taken. 
+What now? NW
+You are in a study, surrounded by dark shadows. An exit leads southeast to a library. You can see a desk. 
+What now? EXAMINE DESK
+A sturdy oak desk. In it is a parchment. 
+What now? GET PARCHMENT
+Taken. 
+The blood-sucking bat goes "peep peep". 
+What now? READ PARCHMENT
+It reads, "The ZEN spell allows rapid movement". 
+The blood-sucking bat stretches its wings. Your sanity is shaken. 
+What now? SE
+You are in a library. Exits are south to a library and northwest to a study. The blood-sucking bat eyes a vein in your neck. 
+What now? S
+You are in a library. Exits are north to a library, south to a rest room and northwest to a sagging corridor. You can see some books. 
+What now? NW
+You are in a sagging corridor. Exits are southeast to a library and southwest to a collapsing junction. The blood-sucking bat goes "peep peep". 
+What now? SW
+You are in a collapsing junction. Exits are north to a solarium and northeast to a sagging corridor. You can see a curtain. 
+What now? CUT CURTAIN
+Your blow lands on the enchanted curtain, which shimmers and then disappears. 
+The blood-sucking bat stretches its wings. 
+What now? LOOK
+You are in a collapsing junction. Exits are north to a solarium, northeast to a sagging corridor and west to a sanctum. The blood-sucking bat eyes a vein in your neck. 
+What now? W
+You are in a sanctum. Exits are east to a collapsing junction and south to an inner sanctum. There is a feeling of magik. The blood-sucking bat goes "peep peep". 
+What now? S
+You are in an inner sanctum. An exit leads north to a sanctum. You can see a feldspar lens. There is a feeling of magik. The blood-sucking bat stretches its wings. 
+What now? GET FELDSPAR LENS
+Taken. 
+The blood-sucking bat eyes a vein in your neck. Your sanity is shaken. 
+What now? N
+You are in a sanctum. Exits are east to a collapsing junction and south to an inner sanctum. There is a feeling of magik. The blood-sucking bat goes "peep peep". 
+What now? E
+You are in a collapsing junction. Exits are north to a solarium, northeast to a sagging corridor and west to a sanctum. 
+What now? N
+You are in a solarium. Exits are south to a collapsing junction and northwest to a laboratory. 
+What now? NW
+You are in a laboratory. The word "SEE" is written on one wall. An exit leads southeast to a solarium. Your sanity is shaken. 
+What now? SE
+You are in a solarium. Exits are south to a collapsing junction and northwest to a laboratory. The blood-sucking bat stretches its wings. 
+What now? S
+You are in a collapsing junction. Exits are north to a solarium, northeast to a sagging corridor and west to a sanctum. The blood-sucking bat eyes a vein in your neck. 
+What now? NE
+You are in a sagging corridor. Exits are southeast to a library and southwest to a collapsing junction. The blood-sucking bat goes "peep peep". 
+What now? SE
+You are in a library. Exits are north to a library, south to a rest room and northwest to a sagging corridor. You can see some books. 
+What now? N
+You are in a library. Exits are south to a library and northwest to a study. The blood-sucking bat stretches its wings. 
+What now? NW
+You are in a study, surrounded by dark shadows. An exit leads southeast to a library. You can see a desk. The blood-sucking bat eyes a vein in your neck. 
+What now? CAST SEE
+You see a hidden exit leading north. 
+The blood-sucking bat goes "peep peep". Your sanity is shaken. 
+What now? N
+You are in a dusty priest hole. The word "DET" is scrawled in blood on the wall. Exits are south to a study and southeast to a cold room. The blood-sucking bat stretches its wings. Your sanity is shaken. 
+What now? SE
+You are in a cold room. Exits are north to a magnificent treasury and northwest to a dusty priest hole. The blood-sucking bat eyes a vein in your neck. 
+What now? N
+You are in a magnificent treasury. An exit leads south to a cold room. You can see a bag. Your sanity is shaken. 
+What now? GET BAG
+Taken. 
+The blood-sucking bat goes "peep peep". 
+What now? EXAMINE BAG
+Canvas. In it is some gold. 
+The blood-sucking bat stretches its wings. 
+What now? S
+You are in a cold room. Exits are north to a magnificent treasury and northwest to a dusty priest hole. The blood-sucking bat eyes a vein in your neck. 
+What now? NW
+You are in a dusty priest hole. The word "DET" is scrawled in blood on the wall. Exits are south to a study and southeast to a cold room. 
+What now? S
+You are in a study, surrounded by dark shadows. An exit leads southeast to a library. You can see a desk. The blood-sucking bat goes "peep peep". 
+What now? SE
+You are in a library. Exits are south to a library and northwest to a study. 
+What now? S
+You are in a library. Exits are north to a library, south to a rest room and northwest to a sagging corridor. You can see some books. The blood-sucking bat stretches its wings. 
+What now? S
+You are in a rest room. Exits are north to a library and west to a bone chamber. The blood-sucking bat eyes a vein in your neck. 
+What now? W
+You are in a bone chamber. Exits are east to a rest room, south to a rough-hewn tunnel, southeast to a hall hung with paintings and west to an echoing crypt. There is a feeling of magik. The blood-sucking bat goes "peep peep". 
+What now? S
+You are in a rough-hewn tunnel. Exits are north to a bone chamber and southeast to a panelled corridor. 
+What now? SE
+You are in a panelled corridor with walls intricately carved from elm wood. Exits are south to an elm panelled corridor and northwest to a rough-hewn tunnel. The blood-sucking bat stretches its wings. 
+What now? S
+You are in an elm panelled corridor. Exits are north to a panelled corridor, east to a cupboard and southwest to an entrance hall. You can see a werewolf. The blood-sucking bat eyes a vein in your neck. 
+What now? SW
+You are in an entrance hall. Exits are north to an alcove, northeast to an elm panelled corridor, east to a broom cupboard, southeast to an entrance hall and northwest to amongst hanging tentacles. You can see a grandmother clock. 
+What now? SE
+You are in an entrance hall of the rambling mansion. Exits are west to a butler's passage, northwest to an entrance hall and outside through a door. You can see a postcard. 
+What now? W
+You are in a butler's passage. Exits are east to an entrance hall and west to a rock-walled room. The blood-sucking bat goes "peep peep". 
+What now? W
+You are in a rock-walled room. Exits are east to a butler's passage, south to a scullery kitchen and northwest to a yellow river. You can see a picture of Stonehenge. 
+What now? NW
+You are on a yellow river. Exits are north to a distorted junction, south to a slime slide and southeast to a rock-walled room. The blood-sucking bat stretches its wings. 
+What now? N
+You are in a distorted junction. Exits are north to a better hole, northeast to an anti-chapel and south to a yellow river. The blood-sucking bat eyes a vein in your neck. 
+What now? NE
+You are in an anti-chapel. Exits are north to an anti-alcove, south to amongst hanging tentacles and southwest to a distorted junction. There is a feeling of magik. The blood-sucking bat goes "peep peep". 
+What now? N
+You are in an anti-alcove. An exit leads south to an anti-chapel. You can see an altar. On it is a red moon. There is a feeling of magik. The blood-sucking bat stretches its wings. 
+What now? TOUCH MOON
+As soon as you touch the moon, a thrill runs through your body, and you feel very youthful. You recoil in surprise. 
+What now? S
+You are in an anti-chapel. Exits are north to an anti-alcove, south to amongst hanging tentacles and southwest to a distorted junction. There is a feeling of magik. The blood-sucking bat eyes a vein in your neck. 
+What now? SW
+You are in a distorted junction. Exits are north to a better hole, northeast to an anti-chapel and south to a yellow river. The blood-sucking bat goes "peep peep". 
+What now? S
+You are on a yellow river. Exits are north to a distorted junction, south to a slime slide and southeast to a rock-walled room. The blood-sucking bat stretches its wings. 
+What now? S
+You are on a slime slide. Exits are north to a yellow river and downwards to some steps. You can see a giant slug. It attacks you but you dodge. The blood-sucking bat eyes a vein in your neck. 
+What now? THROW SALT AT SLUG
+The salt hits the slug and drives it away. 
+The blood-sucking bat goes "peep peep". 
+What now? DOWN
+You are in some steps. Exits are upwards to a slime slide and downwards to a circular room. You can see a marble statue. Your sanity is shaken. 
+What now? EXAMINE STATUE
+A tall statue of Myglar. A vandal has written "SPY" on its left foot. It is carrying a claymore. 
+Your sanity is shaken. 
+What now? DOWN
+You slide down a chute, which closes behind you. 
+You are in a circular room. An exit leads south to a pentagonal room. The blood-sucking bat goes "peep peep". 
+What now? S
+You slide down a chute, which closes behind you. 
+You are in a pentagonal room. Exits are south to a triangular room, southeast to a store room and southwest to a store room. 
+What now? SW
+You slide down a chute, which closes behind you. 
+You are in a store room. Exits are north to a store room and southeast to an altar with an unholy font. The blood-sucking bat stretches its wings. 
+What now? SE
+You are in an altar with an unholy font. Exits are north to a reflecting room, northeast to a cloakroom, southwest to a sloping room and northwest to a store room. There is a feeling of magik. The blood-sucking bat eyes a vein in your neck. 
+What now? NE
+You are in a cloakroom. Exits are south to a short corridor and southwest to an altar with an unholy font. 
+What now? S
+You are in a short corridor. Exits are north to a cloakroom and south to a low cellar. 
+What now? S
+You are in a low cellar. Exits are north to a short corridor and east to an ominous chamber. 
+What now? E
+You are in an ominous chamber where the word "FLY" is written on a wall. An exit leads west to a low cellar. There is a feeling of magik. The blood-sucking bat goes "peep peep". Your sanity is shaken. 
+What now? W
+You are in a low cellar. Exits are north to a short corridor and east to an ominous chamber. 
+What now? N
+You are in a short corridor. Exits are north to a cloakroom and south to a low cellar. 
+What now? N
+You are in a cloakroom. Exits are south to a short corridor and southwest to an altar with an unholy font. The blood-sucking bat stretches its wings. 
+What now? SW
+You are in an altar with an unholy font. Exits are north to a reflecting room, northeast to a cloakroom, southwest to a sloping room and northwest to a store room. There is a feeling of magik. 
+What now? SW
+You are in a sloping room. Exits are northeast to an altar with an unholy font and northwest to a red room. 
+What now? NW
+You are in a red room. Exits are north to a dark room, northeast to a store room, south to a dangerous dead end, southeast to a sloping room and northwest to a green room. The blood-sucking bat eyes a vein in your neck. 
+What now? NW
+You are in a green room. Exits are south to a silvery room and southeast to a red room. The blood-sucking bat goes "peep peep". 
+What now? S
+You are in a silvery room. Exits are north to a green room and south to a winding corridor. You can see a picture by moon light. The blood-sucking bat stretches its wings. 
+What now? S
+You are in a winding corridor. Exits are north to a silvery room and west to some steps. You can see a picture of werewolves. 
+What now? W
+You are in some steps. Exits are east to a winding corridor and downwards to some steps. You can see a metallic golem. The blood-sucking bat eyes a vein in your neck. The metallic golem shuffles about. 
+What now? EXAMINE METALLIC GOLEM
+It has iron teeth. It is wearing some silver mail. 
+The blood-sucking bat stretches its wings. The metallic golem flexes its slab-like muscles. 
+What now? REMOVE ROBES
+OK. 
+The blood-sucking bat goes "peep peep". 
+What now? GIVE ROBES TO GOLEM
+The golem says, "Ah, just what I was looking for." It quickly changes into the robes and hands you the silver mail. 
+The metallic golem stamps its feet. 
+What now? DOWN
+You are in some steps. Exits are northwest to a boardwalk and upwards to some steps. Your sanity is shaken. 
+What now? NW
+You are on a boardwalk. Exits are southeast to some steps, southwest to a morgue and west to the landing stage. The blood-sucking bat eyes a vein in your neck. 
+What now? SW
+You are in a morgue. Exits are northeast to a boardwalk and west to a tomb. There is a feeling of magik. The blood-sucking bat goes "peep peep". 
+What now? W
+You are in a tomb. Exits are east to a morgue, southeast to a cavern and southwest to a marble vault. There is a feeling of magik. 
+What now? SE
+You are in a cavern. Exits are east to a grotto, south to a stone platform and northwest to a tomb. The blood-sucking bat stretches its wings. 
+What now? E
+You are in a grotto. Exits are southeast to a web cavern and west to a cavern. The blood-sucking bat eyes a vein in your neck. 
+What now? SE
+You are in a web cavern. Exits are west to a stone platform and northwest to a grotto. You can see a crowbar and a web. On it is a giant spider. There is a feeling of magik. It attacks you. The blow strikes your plate armour (which has 46 stamina points left). The giant spider shuffles about. The blood-sucking bat stretches its wings. 
+What now? CUT WEB
+The web collapses, and the spider runs away in terror. 
+What now? GET CROWBAR
+Taken. 
+The blood-sucking bat eyes a vein in your neck. 
+What now? W
+You are in a stone platform. Exits are north to a cavern, east to a web cavern, southwest to a rotting wood room and northwest to a limestone cave with torches on the wall. The blood-sucking bat goes "peep peep". 
+What now? N
+You are in a cavern. Exits are east to a grotto, south to a stone platform and northwest to a tomb. The blood-sucking bat stretches its wings. 
+What now? NW
+You are in a tomb. Exits are east to a morgue, southeast to a cavern and southwest to a marble vault. There is a feeling of magik. The blood-sucking bat eyes a vein in your neck. 
+What now? E
+You are in a morgue. Exits are northeast to a boardwalk and west to a tomb. There is a feeling of magik. The blood-sucking bat goes "peep peep". 
+What now? NE
+You are on a boardwalk. Exits are southeast to some steps, southwest to a morgue and west to the landing stage. The blood-sucking bat stretches its wings. 
+What now? W
+You are on the landing stage. Exits are north to the river and east to a boardwalk. You can see a boat. In it is a ferryman. It cracks his knuckles. The blood-sucking bat goes "peep peep". 
+What now? GIVE CROWBAR
+The ferryman says, "I suppose that will do. Hop in". 
+The blood-sucking bat stretches its wings. 
+What now? HOP IN
+You are standing on the boat. The ferryman cracks his knuckles. The blood-sucking bat goes "peep peep". The ferryman pulls on his oars and the boat moves steadily on. 
+You are on the river. Exits are north to a damp cave, south to the landing stage and downwards to a riverbed. You can see a boat. In it is a ferryman. You are standing on the boat. 
+What now? CAST FIN AT ME
+You become a fish. 
+Your sanity is shaken. 
+What now? DOWN
+You are on a riverbed. An exit leads upwards to the river. You can see a plaque. 
+What now? READ PLAQUE
+It reads, "SAN". 
+Your sanity is shaken. 
+What now? WAIT
+Time passes. . . The existing FIN spell wears off. You can't hold your breath for long enough to see anything. 
+You are on the river. Exits are north to a damp cave, south to the landing stage and downwards to a riverbed. You can see a grimoire, a pendulum, a feldspar lens, a valerian plant, a prism, an elder cross, a candle, a small mirror, a broom, some ashes, a wheel, a staff, a bag, a cage, a parchment, some plate armour, a ring, a scroll, a knife, a sword, a blood-sucking bat, a sprig of wolfsbane, a shovel and a boat. In it is a ferryman. 
+What now? TAKE ALL
+Boat: the ferryman says, "Hands off my boat, you ill-mannered git"
+shovel: taken. 
+Sprig of wolfsbane: taken. 
+Blood-sucking bat: taken. 
+Ferryman: it won't move. 
+Sword: taken. 
+Knife: taken. 
+Scroll: taken. 
+Ring: taken. 
+Plate armour: taken. 
+Parchment: taken. 
+Cage: taken. 
+Bag: taken. 
+Staff: taken. 
+Wheel: taken. 
+Ashes: taken. 
+Broom: taken. 
+Small mirror: taken. 
+Candle: taken. 
+Elder cross: taken. 
+Prism: taken. 
+Valerian plant: taken. 
+Feldspar lens: taken. 
+Pendulum: taken. 
+Grimoire: taken. 
+The blood-sucking bat eyes a vein in your neck. 
+What now? N
+You are on a damp cave. Exits are north to a watery tunnel and south to the river. You can see a boat. In it is a ferryman. It says, "This job will be the death of me, rowing across this stinking river in the cold, damp air". 
+What now? N
+You are on a watery tunnel. Exits are north to a watery tunnel and south to a damp cave. 
+What now? N
+You are on a watery tunnel. Exits are north to a boardwalk and south to a watery tunnel. You can see a colossal bloodworm. It attacks you. The blow strikes your plate armour (which has 40 stamina points left). The bat sees the bloodworm, and swoops upon it. The bloodworm turns tail and runs off into the gloom but, unfortunately, the irritating little bat doesn't follow it. 
+What now? N
+You are in a boardwalk. Exits are south to a watery tunnel and northwest to a short stone corridor. 
+What now? NW
+You slide down a chute, which closes behind you. 
+You are in a short stone corridor. Exits are north to a spherical junction and east to a storeroom. The blood-sucking bat stretches its wings. 
+What now? N
+You are in a spherical junction. Exits are northeast to a hall of statues, south to a short stone corridor, southwest to a glass cave and northwest to a laboratory. 
+What now? SW
+You are in a glass cave. Exits are northeast to a spherical junction and south to a temple, beside an altar. 
+What now? S
+You are in a temple, beside an altar. Exits are north to a glass cave and southeast to a misty room. You can see an altar. On it is a talisman. Hanging above the altar is a weight. There is a feeling of magik. The blood-sucking bat eyes a vein in your neck. 
+What now? CAST FLY AT WEIGHT
+The weight shudders, but remains exactly where it is. 
+The blood-sucking bat goes "peep peep". 
+What now? GET TALISMAN
+As it moves, you hear a click. The weight stays where it is, suspended by your spell. 
+What now? N
+You are in a glass cave. Exits are northeast to a spherical junction and south to a temple, beside an altar. 
+What now? NE
+You are in a spherical junction. Exits are northeast to a hall of statues, south to a short stone corridor, southwest to a glass cave and northwest to a laboratory. 
+What now? NE
+You are in a hall of statues. Exits are southeast to a dry gallery and southwest to a spherical junction. You can see a chubby stone cherub. 
+What now? EXAMINE CHERUB
+A chubby little statue. It is carrying a trumpet. 
+What now? CAST ZAP AT CHERUB
+The chubby stone cherub is wreathed in jagged lightning. It has 23 stamina points. 
+The blood-sucking bat goes "peep peep". Your sanity is shaken. 
+What now? CAST ZAP AT CHERUB
+The chubby stone cherub is wreathed in jagged lightning. It has 21 stamina points. 
+What now? CAST ZAP AT CHERUB
+The chubby stone cherub is wreathed in jagged lightning. It has 17 stamina points. 
+What now? CAST ZAP AT CHERUB
+The chubby stone cherub is wreathed in jagged lightning. It has 13 stamina points. 
+The blood-sucking bat goes "peep peep". 
+What now? CAST ZAP AT CHERUB
+The chubby stone cherub is wreathed in jagged lightning. It has 12 stamina points. 
+The blood-sucking bat stretches its wings. 
+What now? CAST ZAP AT CHERUB
+The chubby stone cherub is wreathed in jagged lightning. It has 6 stamina points. 
+The blood-sucking bat goes "peep peep". 
+What now? CAST ZAP AT CHERUB
+The chubby stone cherub is wreathed in jagged lightning. It is dead, the body vanishes. 
+What now? LOOK
+You are in a hall of statues. Exits are southeast to a dry gallery and southwest to a spherical junction. You can see a trumpet. The blood-sucking bat stretches its wings. 
+What now? GET TRUMPET
+Taken. 
+The blood-sucking bat eyes a vein in your neck. Your sanity is shaken. 
+What now? SE
+You are in a dry gallery. Exits are northeast to just south of a glowing gateway, south to a glass room and northwest to a hall of statues. You can see a crowbar. 
+What now? NE
+You are in just south of a glowing gateway. Exits are north to a grassy plain and southwest to a dry gallery. There is a feeling of magik. 
+What now? N
+You charge straight towards the gate. Something stops you and a voice says, "Before you may enter, you must offer a gift to Myglar." 
+What now? GIVE PENDULUM
+The voice says, "I suppose that will do." The pendulum disappears. 
+The blood-sucking bat goes "peep peep". 
+What now? N
+You charge straight towards the gate. As you go through it, a monkey drops onto your back. 
+You are on a grassy plain. Exits are north to a grassy plain and south to just south of a glowing gateway. The monkey pretends to ignore you. The blood-sucking bat eyes a vein in your neck. 
+What now? S
+You are in just south of a glowing gateway. Exits are north to a grassy plain and southwest to a dry gallery. There is a feeling of magik. The monkey bares its teeth. The blood-sucking bat stretches its wings. 
+What now? SW
+You are in a dry gallery. Exits are northeast to just south of a glowing gateway, south to a glass room and northwest to a hall of statues. You can see a crowbar. The blood-sucking bat eyes a vein in your neck. 
+What now? CAST ZEN
+You are transported to another place.. You slide down a chute, which closes behind you. 
+You are in the mists of time. An exit leads south to the mists of time. 
+The monkey bares its teeth. The blood-sucking bat stretches its wings. Your sanity is shaken. 
+What now? S
+You are in the mists of time. Exits are north to the mists of time, east to the mists of time, south to the mists of time and downwards to an entrance hall. The monkey wriggles about. The blood-sucking bat goes "peep peep". 
+What now? S
+You are in the mists of time. Exits are north to the mists of time, east to the mists of time, south to the mists of time, west to the mists of time and downwards to a cold store. The monkey pretends to ignore you. The blood-sucking bat eyes a vein in your neck. 
+What now? D
+You slide down a chute, which closes behind you. 
+You are in a cold store. An exit leads north to a depressing junction. You can see some snow. The monkey bares its teeth. The blood-sucking bat stretches its wings. 
+What now? WAIT
+Time passes. . . The blood-sucking bat eyes a vein in your neck. It must be your imagination, but the monkey seems to be shivering violently. Now you seem to think that you can hear the monkey's teeth chattering. There is a loud crack from the monkey, and something drops to the ground nearby. The monkey leaps off your back, and runs off, its teeth chattering loudly. 
+What now? EXAMINE SNOW
+Grey and flaky. In it is a crystal ball and a black ball. 
+What now? GET CRYSTAL BALL
+Taken. 
+Your sanity is shaken. 
+What now? GET BLACK BALL
+Taken. 
+The blood-sucking bat goes "peep peep". 
+What now? CAST ZEN
+You are transported to another place.. You slide down a chute, which closes behind you. 
+You are in the mists of time. An exit leads south to the mists of time. 
+The blood-sucking bat stretches its wings. 
+What now? S
+You are in the mists of time. Exits are north to the mists of time, east to the mists of time, south to the mists of time and downwards to an entrance hall. The blood-sucking bat eyes a vein in your neck. 
+What now? E
+You are in the mists of time. Exits are north to the mists of time, east to the mists of time, south to the mists of time, west to the mists of time and downwards to an anti-alcove. The blood-sucking bat goes "peep peep". 
+What now? D
+You slide down a chute, which closes behind you. 
+You are in an anti-alcove. An exit leads south to an anti-chapel. You can see an altar. On it is a red moon. There is a feeling of magik. The blood-sucking bat stretches its wings. 
+What now? TOUCH MOON
+As soon as you touch the moon, a thrill runs through your body, and you feel very youthful. You recoil in surprise. 
+What now? S
+You are in an anti-chapel. Exits are north to an anti-alcove, south to amongst hanging tentacles and southwest to a distorted junction. There is a feeling of magik. 
+What now? SW
+You are in a distorted junction. Exits are north to a better hole, northeast to an anti-chapel and south to a yellow river. 
+What now? S
+You are on a yellow river. Exits are north to a distorted junction, south to a slime slide and southeast to a rock-walled room. The blood-sucking bat eyes a vein in your neck. 
+What now? SE
+You are in a rock-walled room. Exits are east to a butler's passage, south to a scullery kitchen and northwest to a yellow river. You can see a picture of Stonehenge. The blood-sucking bat goes "peep peep". 
+What now? EXAMINE PICTURE
+It shows Stonehenge, imprisoned by blood-stained razor-wire. 
+The blood-sucking bat stretches its wings. 
+What now? CAST BOM AT PICTURE
+You are sucked into the picture. 
+You are on a standing stone. Exits are north to a rock-walled room, southeast to a standing stone and southwest to a pillar. 
+The blood-sucking bat eyes a vein in your neck. Your sanity is shaken. 
+What now? SE
+You are on a standing stone. Exits are southeast to a pillar and northwest to a standing stone. The blood-sucking bat goes "peep peep". 
+What now? SE
+You are on a pillar. Exits are southwest to a standing stone, west to a standing stone and northwest to a standing stone. The blood-sucking bat stretches its wings. 
+What now? W
+You are on a standing stone. Exits are east to a pillar, southwest to a standing stone and northwest to a pillar. The blood-sucking bat eyes a vein in your neck. 
+What now? NW
+You are on a pillar. Exits are south to a carved pedestal, southeast to a standing stone and southwest to a standing stone. The blood-sucking bat goes "peep peep". 
+What now? S
+You are on a carved pedestal. An exit leads north to a pillar. You can see a blue box. Your sanity is shaken. 
+What now? GET BLUE BOX
+Taken. 
+The blood-sucking bat stretches its wings. Your sanity is shaken. 
+What now? EXAMINE BLUE BOX
+Written on it is 'IBM'. 
+What now? N
+You are on a pillar. Exits are south to a carved pedestal, southeast to a standing stone and southwest to a standing stone. 
+What now? SW
+You are on a standing stone. Exits are northeast to a pillar, southeast to a standing stone and west to a pillar. 
+What now? W
+You are on a pillar. Exits are northeast to a pillar, east to a standing stone and southeast to a standing stone. 
+What now? NE
+You are on a pillar. Exits are northeast to a standing stone and southwest to a pillar. The blood-sucking bat eyes a vein in your neck. 
+What now? NE
+You are on a standing stone. Exits are north to a rock-walled room, southeast to a standing stone and southwest to a pillar. The blood-sucking bat goes "peep peep". 
+What now? N
+You slide down a chute, which closes behind you. 
+You are in a rock-walled room. Exits are east to a butler's passage, south to a scullery kitchen and northwest to a yellow river. You can see a picture of Stonehenge. 
+What now? RUB TALISMAN
+There is a flash, and you feel yourself being propelled through space ... You slide down a chute, which closes behind you. 
+You are in a stone archway. An exit leads north to a strange rock formation. 
+The blood-sucking bat stretches its wings. Your sanity is shaken. 
+What now? N
+You slide down a chute, which closes behind you. 
+You are on a strange rock formation. An exit leads northeast to a grassy plain. The blood-sucking bat eyes a vein in your neck. 
+What now? NE
+You are on a grassy plain. Exits are east to a volcanic rock outcrop and southwest to a strange rock formation. The blood-sucking bat goes "peep peep". 
+What now? E
+You are on a volcanic rock outcrop. Exits are east to a grassy plain and west to a grassy plain. There is a flash, and a ghost of the chubby stone cherub appears. The blood-sucking bat stretches its wings. 
+What now? CAST ZAP AT CHERUB
+The chubby stone cherub is wreathed in jagged lightning. It has 29 stamina points. 
+What now? CAST ZAP AT CHERUB
+The chubby stone cherub is wreathed in jagged lightning. It has 28 stamina points. 
+The blood-sucking bat goes "peep peep". 
+What now? CAST ZAP AT CHERUB
+The chubby stone cherub is wreathed in jagged lightning. It has 19 stamina points. 
+The blood-sucking bat eyes a vein in your neck. 
+What now? CAST ZAP AT CHERUB
+The chubby stone cherub is wreathed in jagged lightning. It has 14 stamina points. 
+The blood-sucking bat goes "peep peep". 
+What now? CAST ZAP AT CHERUB
+The chubby stone cherub is wreathed in jagged lightning. It has 6 stamina points. 
+The blood-sucking bat eyes a vein in your neck. 
+What now? CAST ZAP AT CHERUB
+The chubby stone cherub is wreathed in jagged lightning. It is dead, the body vanishes. 
+What now? E
+You are on a grassy plain. Exits are southwest to a lake shore, west to a volcanic rock outcrop and in to a pillar. 
+What now? IN
+You are in a pillar. Exits are downwards to some steps and outside to a grassy plain. The blood-sucking bat goes "peep peep". 
+What now? D
+You are in some steps. Exits are upwards to a pillar and downwards to some steps. 
+What now? D
+You are in some steps. Exits are upwards to some steps and downwards to some steps. The blood-sucking bat stretches its wings. 
+What now? D
+You are in some steps. Exits are southwest to a spherical rock bubble and upwards to some steps. The blood-sucking bat eyes a vein in your neck. 
+What now? SW
+You are in a spherical rock bubble. Exits are north to a spherical rock bubble, northeast to some steps and east to a spherical rock bubble. The blood-sucking bat goes "peep peep". 
+What now? N
+You are in a spherical rock bubble. An exit leads south to a spherical rock bubble. You can see a riddle. The blood-sucking bat stretches its wings. 
+What now? READ RIDDLE
+It says, "My father is dark,
+My mother's unknown.
+I dwell in high places,
+and where the ghosts moan". 
+What now? S
+You are in a spherical rock bubble. Exits are north to a spherical rock bubble, northeast to some steps and east to a spherical rock bubble. The blood-sucking bat eyes a vein in your neck. 
+What now? NE
+You are in some steps. Exits are southwest to a spherical rock bubble and upwards to some steps. The blood-sucking bat goes "peep peep". 
+What now? U
+You are in some steps. Exits are upwards to some steps and downwards to some steps. 
+What now? U
+You are in some steps. Exits are upwards to a pillar and downwards to some steps. 
+What now? U
+You are in a pillar. Exits are downwards to some steps and outside to a grassy plain. The blood-sucking bat stretches its wings. 
+What now? OUT
+You are on a grassy plain. Exits are southwest to a lake shore, west to a volcanic rock outcrop and in to a pillar. 
+What now? SW
+You are on a lake shore. An exit leads northeast to a grassy plain. You can see a magik lake. 
+What now? EXAMINE LAKE
+A beautiful expanse of sparkling water. 
+What now? DRINK WATER
+Most refreshing. 
+The blood-sucking bat eyes a vein in your neck. Your sanity is shaken. 
+What now? RUB TALISMAN
+There is a flash, and you feel yourself being propelled through space ... You slide down a chute, which closes behind you. 
+You are in a rock-walled room. Exits are east to a butler's passage, south to a scullery kitchen and northwest to a yellow river. You can see a picture of Stonehenge. 
+The blood-sucking bat goes "peep peep". 
+What now? CAST ZEN
+You are transported to another place.. You slide down a chute, which closes behind you. 
+You are in the mists of time. An exit leads south to the mists of time. 
+What now? S
+You are in the mists of time. Exits are north to the mists of time, east to the mists of time, south to the mists of time and downwards to an entrance hall. The blood-sucking bat stretches its wings. 
+What now? E
+You are in the mists of time. Exits are north to the mists of time, east to the mists of time, south to the mists of time, west to the mists of time and downwards to an anti-alcove. 
+What now? E
+You are in the mists of time. Exits are north to the mists of time, east to the mists of time, south to the mists of time, west to the mists of time and downwards to a morgue. The blood-sucking bat eyes a vein in your neck. 
+What now? E
+You are in the mists of time. Exits are north to the mists of time, east to the mists of time, south to the mists of time and west to the mists of time. The blood-sucking bat goes "peep peep". 
+What now? E
+You are in the mists of time. Exits are north to the mists of time, south to the mists of time, west to the mists of time and downwards to the north tower. 
+What now? S
+You are in the mists of time. Exits are north to the mists of time, east to the mists of time, south to the mists of time, west to the mists of time and downwards to a standing stone. The blood-sucking bat stretches its wings. 
+What now? S
+You are in the mists of time. Exits are north to the mists of time, east to the mists of time, south to the mists of time, west to the mists of time and downwards to a temple, beside an altar. 
+What now? S
+You are in the mists of time. Exits are north to the mists of time, east to the mists of time, south to the mists of time, west to the mists of time and downwards to a portico. The blood-sucking bat eyes a vein in your neck. 
+What now? S
+You are in the mists of time. Exits are north to the mists of time, east to the mists of time, south to the mists of time, west to the mists of time and downwards to a winding corridor. 
+What now? D
+You slide down a chute, which closes behind you. 
+You are in a winding corridor. Exits are north to a silvery room and west to some steps. You can see a picture of werewolves. The blood-sucking bat goes "peep peep". 
+What now? N
+You are in a silvery room. Exits are north to a green room and south to a winding corridor. You can see a picture by moon light. The blood-sucking bat stretches its wings. 
+What now? N
+You are in a green room. Exits are south to a silvery room and southeast to a red room. 
+What now? SE
+You are in a red room. Exits are north to a dark room, northeast to a store room, south to a dangerous dead end, southeast to a sloping room and northwest to a green room. 
+What now? N
+You are in a dark room. An exit leads south to a red room. You can see a picture of dark spawn. The blood-sucking bat eyes a vein in your neck. 
+What now? EXAMINE PICTURE
+It shows a dark spawn, clawing its way through the earth. 
+What now? CAST BOM AT PICTURE
+A dark spawn leaps from the picture. In its frenzy, it breaks a claw on the frame. 
+The blood-sucking bat goes "peep peep". The dark spawn attacks you. The blow strikes your plate armour (which has 32 stamina points left). The dark spawn flexes its slab-like muscles. 
+What now? GET CLAW
+Taken. 
+The blood-sucking bat eyes a vein in your neck. The dark spawn attacks you. The blow strikes your plate armour (which has 23 stamina points left). Your sanity is shaken. 
+What now? S
+You are in a red room. Exits are north to a dark room, northeast to a store room, south to a dangerous dead end, southeast to a sloping room and northwest to a green room. 
+What now? CAST ZEN
+You are transported to another place.. You slide down a chute, which closes behind you. 
+You are in the mists of time. An exit leads south to the mists of time. 
+The blood-sucking bat goes "peep peep". 
+What now? S
+You are in the mists of time. Exits are north to the mists of time, east to the mists of time, south to the mists of time and downwards to an entrance hall. The blood-sucking bat stretches its wings. 
+What now? E
+You are in the mists of time. Exits are north to the mists of time, east to the mists of time, south to the mists of time, west to the mists of time and downwards to an anti-alcove. The blood-sucking bat eyes a vein in your neck. 
+What now? E
+You are in the mists of time. Exits are north to the mists of time, east to the mists of time, south to the mists of time, west to the mists of time and downwards to a morgue. 
+What now? E
+You are in the mists of time. Exits are north to the mists of time, east to the mists of time, south to the mists of time and west to the mists of time. The blood-sucking bat goes "peep peep". 
+What now? E
+You are in the mists of time. Exits are north to the mists of time, south to the mists of time, west to the mists of time and downwards to the north tower. The blood-sucking bat stretches its wings. 
+What now? S
+You are in the mists of time. Exits are north to the mists of time, east to the mists of time, south to the mists of time, west to the mists of time and downwards to a standing stone. 
+What now? S
+You are in the mists of time. Exits are north to the mists of time, east to the mists of time, south to the mists of time, west to the mists of time and downwards to a temple, beside an altar. 
+What now? S
+You are in the mists of time. Exits are north to the mists of time, east to the mists of time, south to the mists of time, west to the mists of time and downwards to a portico. The blood-sucking bat eyes a vein in your neck. 
+What now? D
+You slide down a chute, which closes behind you. 
+You are in a portico. Exits are east to some steps, west to some steps and in through a door. You can see some army of giant ants. The blood-sucking bat goes "peep peep". The army of giant ants attack you. The blow strikes your plate armour (which has 18 stamina points left). 
+What now? CAST IBM AT ANTS
+The army of giant ants try to hide in a corner. 
+They wave their antennae furiously. Your sanity is shaken. 
+What now? OPEN DOOR
+OK. 
+The blood-sucking bat stretches its wings. The army of giant ants wave their antennae furiously. 
+What now? IN
+The door closes behind you. 
+You are in an entrance hall. Exits are north to a statue-lined room and outside through a door. The blood-sucking bat eyes a vein in your neck. 
+What now? N
+You are in a statue-lined room. Exits are south to an entrance hall and northwest to an arched stone corridor. 
+What now? NW
+You are in an arched stone corridor. Exits are north to an arched stone corridor and southeast to a statue-lined room. 
+What now? N
+You are in an arched stone corridor. Exits are north to an arched stone corridor, south to an arched stone corridor and southeast to a jade room. The blood-sucking bat goes "peep peep". 
+What now? N
+You are in an arched stone corridor. Exits are north to an arched stone corridor, south to an arched stone corridor and southeast to a stone room. 
+What now? SE
+You are in a stone room. Exits are east through a door and northwest to an arched stone corridor. The blood-sucking bat stretches its wings. 
+What now? CAST ESP EAST
+Your astral self floats into another room. . 
+You are in a huge hall of swirling mist. Exits are northeast to a cylindrical chamber and west through a door. You can see a dead idol. Your sanity is shaken. 
+What now? EXAMINE IDOL
+658;a huge stone representation of Myglar. 
+You return to your body. 
+You are in a stone room. Exits are east through a door and northwest to an arched stone corridor. 
+What now? CAST ESP EAST
+Your astral self floats into another room. . 
+You are in a huge hall of swirling mist. Exits are northeast to a cylindrical chamber and west through a door. You can see a dead idol. 
+What now? CAST BOM AT IDOL
+The dead idol wakes. 
+You return to your body. 
+You are in a stone room. Exits are east through a door and northwest to an arched stone corridor. 
+What now? CAST ESP EAST
+Your astral self floats into another room. . 
+You are in a huge hall of swirling mist. Exits are northeast to a cylindrical chamber and west through a door. You can see a dead idol. 
+What now? CAST HYP AT IDOL
+The dead idol looks at you expectantly. 
+You return to your body. 
+You are in a stone room. Exits are east through a door and northwest to an arched stone corridor. 
+What now? CAST ESP EAST
+Your astral self floats into another room. . 
+You are in a huge hall of swirling mist. Exits are northeast to a cylindrical chamber and west through a door. You can see a dead idol. 
+What now? IDOL OPEN DOOR
+What now? LOOK
+You are in a huge hall of swirling mist. Exits are northeast to a cylindrical chamber and west through an open door. You can see a dead idol. You return to your body. 
+You are in a stone room. Exits are east through an open door and northwest to an arched stone corridor. 
+What now? E
+The door closes behind you. 
+You are in a huge hall of swirling mist. Exits are northeast to a cylindrical chamber and west through a door. You can see a dead idol. The blood-sucking bat eyes a vein in your neck. 
+What now? NE
+You are in a cylindrical chamber. Exits are south to a great stone room and southwest to a huge hall of swirling mist. The blood-sucking bat goes "peep peep". 
+What now? S
+You are in a great stone room. Exits are north to a cylindrical chamber and south to an ice room. 
+What now? S
+You are in an ice room. Exits are north to a great stone room and south to a moon room. There is a feeling of magik. The floor is so cold that you jump back. 
+You are in a great stone room. Exits are north to a cylindrical chamber and south to an ice room. The blood-sucking bat stretches its wings. 
+What now? CAST FLY AT ME
+The black ball absorbs the spell, but it crumbles into dust. 
+The blood-sucking bat eyes a vein in your neck. 
+What now? CAST FLY AT ME
+You float into the air. 
+What now? S
+You are in an ice room. Exits are north to a great stone room and south to a moon room. There is a feeling of magik. The blood-sucking bat goes "peep peep". 
+What now? S
+You are in a moon room. Exits are north to an ice room and northwest to the tomb of Myglar. You can see a gargoyle and a moonbeast. There is a feeling of magik. The gargoyle lumbers heavily forwards. The moonbeast attacks you but you dodge. The moonbeast bares its teeth. 
+What now? EXAMINE GARGOYLE
+A hideous winged monster. 
+The moonbeast attacks you. The blow strikes your plate armour (which has 12 stamina points left). The moonbeast pretends to ignore you. 
+What now? NW
+The moonbeast won't let you. The gargoyle lumbers heavily forwards. The moonbeast attacks you but you dodge. The moonbeast bares its teeth. The blood-sucking bat goes "peep peep". 
+What now? FEAR
+The gargoyle says, "Pass, master". 
+What now? CAST ESP NW
+Your astral self floats into another room. . 
+You are in the tomb of Myglar. An exit leads southeast to a moon room. You can see Myglar. Your sanity is shaken. 
+What now? CAST SAN AT MYGLAR
+Myglar stares at you from newly sane eyes, haunted by the final realisation of his crimes, and unwillingly draws his sword. . 
+Myglar shuffles about. You return to your body. 
+You are in a moon room. Exits are north to an ice room and northwest to the tomb of Myglar. You can see a gargoyle and a moonbeast. There is a feeling of magik. Your sanity is shaken. 
+What now? CAST ESP NW
+Your astral self floats into another room. . 
+You are in the tomb of Myglar. An exit leads southeast to a moon room. You can see Myglar. 
+What now? CAST DED AT MYGLAR
+There is a loud thunderclap as Myglar's magik is neutralised. He crumples as Time regains its power, no longer held at bay by his spells. Finally, nothing remains of the proud wizard but ancient dust. 
+ 
+Well done, you have won the right to take Myglar's place as guardian of the Red Moon crystal! There are two alternate views of your future. Do you want the good version? YES
+You live in a luxurious castle as an all-powerful magician, tended hand and foot by loyal servants. Everyone lives in awe of your wise magik and every millenium is more enjoyable than the last. You have beaten the Price of Magik! The adventure is over.
+Please type RESTORE or RESTART: #quit
