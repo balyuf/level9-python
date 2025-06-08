@@ -1,9 +1,7 @@
 Welcome to Red Moon, copyright (C) 1985 from Level 9 Computing.
 You are on a wide, flat grassy plain, baked by the yellow sun. Exits are north to a steep rock slide, east to a pothole, south to a grassy mound and west to a grassy mound. 
 What now? #title: Red Moon test script
-Invalid command
 #comment: C-64 version
-Invalid command
 #SEED 42
 Seed set to 42
 DIG

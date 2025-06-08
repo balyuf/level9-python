@@ -494,4 +494,4 @@ DROP CAT;
 DROP BELL;
 OPEN DOOR;
 W [empty handed you walk through the door and find your family. The game is now solved with a score of 1000/1000 !!];
-
+N;

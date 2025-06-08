@@ -646,4 +646,4 @@ W [grassy mound];
 GET POTION;
 DRINK POTION [your "hit points" are restored to their original value of 50];
 S [into the ruined stone house];
-
+YES;

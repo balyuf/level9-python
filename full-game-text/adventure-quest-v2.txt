@@ -2,9 +2,7 @@ Welcome to Adventure Quest from Level 9 Computing. Enter English phrases (withou
 You are at the end of a road from the north, outside a small brick building. A river flows south through a narrow valley and there is dense woodland all around.
 What next?
 #title: Adventure Quest test script
-Invalid command
 #comment: CPC version
-Invalid command
 #SEED 42
 Seed set to 42
 IN
