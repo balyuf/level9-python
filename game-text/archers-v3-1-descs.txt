@@ -1,0 +1,696 @@
+0x0001  /  0x0b7c (0x0001)  :  
+0x0002  /  0x0b7e (0x0004)  : ;
+
+0x0003  /  0x0b83 (0x0003)  : ,
+
+0x0004  /  0x0b87 (0x0003)  : .
+
+0x0005  /  0x0b8b (0x0002)  : 
+
+0x0006  /  0x0b8e (0x0003)  :  and 
+0x0007  /  0x0b92 (0x0003)  : .
+
+0x0008  /  0x0b96 (0x0002)  : ) 
+0x0009  /  0x0b99 (0x0002)  : I 
+0x000a  /  0x0b9c (0x0002)  : ? 
+0x000b  /  0x0b9f (0x0005)  : 
+ 
+
+0x000c  /  0x0ba5 (0x0003)  : : 
+0x000d  /  0x0ba9 (0x0002)  : . 
+0x000e  /  0x0bac (0x0002)  : , 
+0x001c  /  0x0bb0 (0x0008)  : yes y on enable
+0x001d  /  0x0bb9 (0x0008)  : no n off disable
+0x001e  /  0x0bc2 (0x0006)  : zero nought 0
+0x001f  /  0x0bc9 (0x000a)  : 1)  [aka] one 1
+0x0020  /  0x0bd4 (0x000a)  : 2)  [aka] two 2
+0x0021  /  0x0bdf (0x000a)  : 3)  [aka] three 3
+0x0022  /  0x0bea (0x0018)  : type a command or HELP for details. Then press ENTER or RETURN. [aka] four 4
+0x0023  /  0x0c03 (0x0006)  : E five 5
+0x0024  /  0x0c0a (0x0006)  : F six 6
+0x0025  /  0x0c11 (0x0006)  : G seven 7
+0x0026  /  0x0c18 (0x0006)  : H eight 8
+0x0027  /  0x0c1f (0x0006)  : I nine 9
+0x0028  /  0x0c26 (0x000c)  : select one of these alternatives:
+
+0x0029  /  0x0c33 (0x000b)  : choose one of the following:
+
+0x002a  /  0x0c3f (0x0008)  : pick one of:
+
+0x002b  /  0x0c48 (0x0004)  : help info
+0x002c  /  0x0c4d (0x0002)  : save
+0x002d  /  0x0c50 (0x0004)  : load restore
+0x002e  /  0x0c55 (0x0004)  : pictures graphics
+0x002f  /  0x0c5a (0x0004)  : printer list
+0x0030  /  0x0c5f (0x0002)  : demo
+0x0031  /  0x0c62 (0x0002)  : restart
+0x0032  /  0x0c65 (0x0091)  : the commands are: 
+SAVE position on tape; 
+LOAD previously saved position; 
+PICTURES ON or PICTURES OFF; 
+PRINTER ON or PRINTER OFF; 
+DEMO to demonstrate the game; 
+RESTART to start again; 
+SCORE for an audience survey. 
+For more information, type HELP followed by the name of a command and press ENTER or RETURN. To return to the game, just press ENTER or RETURN by itself. [aka] score
+0x0033  /  0x0cf9 (0x0069)  : SAVE stores your position (the state of play) on cassette. Start a blank tape on RECORD, type SAVE and press ENTER or RETURN. If you're asked for a file name, type a short word (e.G. ANYNAME). Press ENTER or RETURN twice. When you're told the saving has finished, stop the tape. 
+0x0034  /  0x0d64 (0x006a)  : LOAD reads a previously saved position from cassette. Type LOAD and press ENTER or RETURN. (If you are asked for a file name, type the same name as when you SAVEd it.) Press ENTER or RETURN. Rewind the tape on which the position was saved and start it on PLAY. (If the tape doesn't move, press ENTER or RETURN again.) 
+0x0035  /  0x0dd0 (0x005a)  : PICTURES turns the graphics off or back on. (The main reason for turning the pictures off is that more text fits on the screen). 
+ 
+Type PICTURES OFF and press ENTER or RETURN to stop pictures being displayed when you play the game. Type PICTURES ON and press ENTER or RETURN to display them again. 
+0x0036  /  0x0e2c (0x0063)  : PRINTER allows you to make a typed listing of the story as it unfolds. (Only try this if you know what you are doing; connecting a printer to a computer can be tricky!) 
+ 
+Type PRINTER ON and press ENTER or RETURN to list the story as you play. Type PRINTER OFF and press ENTER or RETURN to stop this. 
+0x0037  /  0x0e91 (0x003d)  : DEMO provides a continuous demonstration of the game, with the computer making random decisions.
+ 
+Type DEMO and press ENTER or RETURN for automatic play. Press just about any key to stop the demonstration. 
+0x0038  /  0x0ecf (0x0025)  : RESTART starts the game again at the beginning of the current part. 
+ 
+Type RESTART and press ENTER or RETURN to start again. 
+0x0039  /  0x0ef5 (0x0055)  : SCORE reports how well, or badly, you are doing under various categories. Your main aim is to attract as many listeners as possible, but be careful not to do too badly in any category because you'll be fired. E.G if standards drop too far. 
+0x003a  /  0x0f4c (0x001f)  : 
+ 
+that's the end of this part of the game. Would you like to continue with the next part? 
+0x003b  /  0x0f6c (0x003f)  : 
+check the program tape/disk is in the drive and press ENTER or RETURN. If using tape, check the recorder is set to PLAY (if the tape isn't moving, press ENTER or RETURN again). 
+0x003c  /  0x0fad (0x0045)  : 
+welcome to part one of the "The Archers" from Level 9 and Mosaic. If you are loading from tape, and it is still running, STOP THE TAPE IMMEDIATELY. Then press any key to start the game. 
+0x003d  /  0x0ff4 (0x0008)  : 
+SAVE completed. 
+0x003e  /  0x0ffd (0x0008)  : 
+LOAD completed. 
+0x003f  /  0x1006 (0x0027)  : 
+ 
+DEMO stopped. Press SHIFT when the game pauses and 1-4 to make decisions in future.
+ 
+
+0x0040  /  0x102e (0x0040)  : 
+ 
+well done! You've reached the end of the Archer's game and proved your worth as a trainee scriptwriter!
+ 
+Would you like to play the final part again and try for an even better score? 
+0x0041  /  0x1070 (0x003c)  : this program would normally be loaded after you have finished playing through the part of the game leading up to it. This seems not to have happened. No problem, except that the score starts with default values. 
+0x0042  /  0x10ad (0x0035)  : the position you just LOADed doesn't look as if it was saved from this part of the Archers game. No problem, except that you'll have to continue from the start of this part of the game. 
+0x0043  /  0x10e3 (0x001e)  : and, because the position was SAVEd from a later part of the game, the score has been reset. 
+0x0044  /  0x1102 (0x000e)  : sorry, I don't understand that command. 
+0x0045  /  0x1111 (0x0038)  : 
+ 
+MEMO FROM CR4: unfortunately you've not gained the 1 million extra listeners needed for you to proceed to the next part. Better try again...
+ 
+
+0x0046  /  0x114a (0x000c)  : DEMO started. Please wait. 
+0x005a  /  0x1158 (0x0027)  : in this section, you control the story-line for Jack Woolley, self-made businessman and owner of the Grey Gables country house and estate. 
+0x0064  /  0x1181 (0x000b)  : I'm getting complaints about realism. 
+0x0065  /  0x118d (0x000f)  : some of the Archers are behaving most oddly. 
+0x0066  /  0x119d (0x000e)  : the lack of realism has gone too far. 
+0x0067  /  0x11ac (0x0011)  : better make the Archers behave more sensibly. Pronto! 
+0x0068  /  0x11be (0x000b)  : there's been little of interest lately. 
+0x0069  /  0x11ca (0x000c)  : can't you pep it up a bit? 
+0x006a  /  0x11d7 (0x000e)  : you've not kept the plots interesting enough. 
+0x006b  /  0x11e6 (0x0009)  : better add more variety. 
+0x006c  /  0x11f0 (0x000e)  : the moral majority are baying for your blood. 
+0x006d  /  0x11ff (0x000c)  : they claim your scripts lower standards. 
+0x006e  /  0x120c (0x000d)  : you've let standards slip too far. 
+0x006f  /  0x121a (0x000e)  : better not offend good taste for a while. 
+0x0070  /  0x1229 (0x000c)  : you're not making my life easy. 
+0x0071  /  0x1236 (0x000e)  : try to remember you're working at the BBC! 
+0x0072  /  0x1245 (0x0023)  : you've caused the BBC establishment too many problems. I can't spend all day explaining your mistakes to the DG! 
+0x0073  /  0x1269 (0x0009)  : stop rocking the boat! 
+0x0082  /  0x1274 (0x0002)  : I 
+0x0083  /  0x1277 (0x0003)  : it is 
+0x0084  /  0x127b (0x0004)  : I think 
+0x0085  /  0x1280 (0x0004)  : the policemen 
+0x0097  /  0x1286 (0x0012)  : MEMO FROM CR4, BROADCASTING HOUSE, LONDON. 
+0x0098  /  0x1299 (0x000c)  : audience research shows the Archers reaching 
+0x0099  /  0x12a6 (0x0001)  : ,
+0x009a  /  0x12a8 (0x0009)  : 00,000 listeners. 
+0x009f  /  0x12b3 (0x000a)  : you're fired!
+ 
+
+0x00a0  /  0x12be (0x0019)  : 
+ 
+but as this is just a simulation, you get to try again... 
+0x00a1  /  0x12d8 (0x0005)  : watch it. 
+0x00a2  /  0x12de (0x0008)  : pull your socks up. 
+0x00a4  /  0x12e8 (0x0006)  : best wishes. 
+0x00a5  /  0x12ef (0x0006)  : well done. 
+0x00a6  /  0x12f6 (0x0004)  : congratulations! 
+0x00a7  /  0x12fb (0x000b)  : you're doing a superb job! 
+0x00a8  /  0x1307 (0x000c)  : you must be in line for an OBE. 
+0x00a9  /  0x1314 (0x000b)  : remember me when you're the DG. 
+0x00b4  /  0x1321 (0x0013)  : a survey shows the status of the Archers programme to be.. 
+0x00b5  /  0x1335 (0x0002)  : realism
+0x00b6  /  0x1338 (0x0002)  : interest
+0x00b7  /  0x133b (0x0002)  : standards
+0x00b8  /  0x133e (0x0004)  : CR4's opinion
+0x00b9  /  0x1343 (0x0002)  : abysmal
+0x00ba  /  0x1346 (0x0002)  : low
+0x00bb  /  0x1349 (0x0002)  : average
+0x00bc  /  0x134c (0x0002)  : high
+0x00bd  /  0x134f (0x0002)  : excellent
+0x00c9  /  0x1353 (0x006b)  : a letter from Hazel! Hazel is my adopted daughter. She is sensitive and artistic. People do not always understand her. She cares for me but does not often write. The letter says, "Dear Daddy, I was coming down for my birthday but I'm so skint I can't afford the fare. Lots of love anyway." Bless Her! 
+0x00ca  /  0x13c0 (0x0009)  : send a cheque for #500
+0x00cb  /  0x13ca (0x0011)  :  and say, "Come as soon as you can!" 
+0x00cc  /  0x13dc (0x0006)  : send a rail ticket
+0x00cd  /  0x13e3 (0x0002)  : . 
+0x00ce  /  0x13e6 (0x0016)  : send a lavish present then phone and sing "Happy Birthday to You"
+0x00cf  /  0x13fd (0x0039)  : . Hazel says, "Yes, yes, all right. Have you got the receipt for the pearls, only I want to insure them." She promises to come down tomorrow. 
+0x00d0  /  0x1437 (0x0026)  : do you realise just how much we have to pay in royalties every time you let someone sing "Happy Birthday"? 
+0x00dc  /  0x145f (0x003b)  : I tell Caroline the good news. "I'll get her room ready", she says without smiling. Sometimes I think Caroline is sad because of Dr Thorogood. I decide to celebrate Hazel's birthday. 
+0x00dd  /  0x149b (0x0009)  : invite Shula and Caroline to dinner
+0x00de  /  0x14a5 (0x0002)  : . 
+0x00df  /  0x14a8 (0x0040)  : Shula and Caroline are both engaged every night for the next week. This is worrying. Caroline should not throw herself at Dr Thorogood even if she is over 30 and unmarried. Shula ought to steady down. 
+0x00e0  /  0x14ea (0x000f)  : organise a disco in the hall for the young folk
+0x00e1  /  0x14fa (0x0002)  : . 
+0x00e2  /  0x14fd (0x003f)  : somehow the invitations to the disco have got muddled. I meet Mrs Perkins outside the shop and she says, "Very kind, I'm sure. Mr Gabriel and I are both looking forward to it." 
+0x00e3  /  0x153e (0x000f)  : arrange to take her for a night out at Redgate Manor
+0x00e4  /  0x154e (0x0015)  : . I can check up on the opposition's cuisine at the same time. 
+0x00e5  /  0x1564 (0x0011)  : I send Higgs in the Bentley to collect Hazel at the station. 
+0x00f0  /  0x1577 (0x003c)  : I find Mrs Potter and Mrs Bagshawe feeding the ducks. "Our dancing days are over," they say, "but we'll come for the food." I hope Hazel will be kind to them. 
+0x00f1  /  0x15b4 (0x005a)  : there is nobody on the train! I phone Hazel's flat. A recorded voice says, "Whoever you are I've gone to the US of A on a big film job." I am very upset. Then Caroline explains that creative talents like Hazel have to rush round the world at a moment's notice. 
+0x00f2  /  0x1610 (0x0007)  : the phone goes! 
+0x00fa  /  0x1619 (0x0006)  : it's Mrs Perkins
+0x00fb  /  0x1620 (0x0028)  :  asking when the disco will start. She says the old folks are all wearing paper hats and Pru Forrest has baked Hazel a cake. 
+0x00fc  /  0x1649 (0x000a)  : it is Hazel phoning from New York
+0x00fd  /  0x1654 (0x0031)  : . I tell her about the party. She says, "Thank God I'm out of that. Listen, I need a credit-line at Barclays, Park Avenue." 
+0x00fe  /  0x1686 (0x000a)  : it is Hazel phoning from Hollerton Junction
+0x00ff  /  0x1691 (0x000b)  : ! I send Higgs in the Bentley. 
+0x0118  /  0x169e (0x0006)  : tell them it's cancelled
+0x0119  /  0x16a5 (0x0021)  : . Mrs Perkins says, "Mrs Bagshawe and Mr Gabriel have already started eating the bridge rolls." 
+0x011a  /  0x16c7 (0x0008)  : tell them to carry on regardless
+0x011b  /  0x16d0 (0x001a)  : . Mrs Perkins says they will toast "absent friends" in cider cup. 
+0x011c  /  0x16eb (0x000c)  : say I'll be down to join in the fun
+0x011d  /  0x16f8 (0x0027)  : . When I get there we toast Hazel. Captain howls when he hears her name. He is more upset than any of us. 
+0x012c  /  0x1721 (0x0009)  : Peggy tells me I over-indulge Hazel. 
+0x012d  /  0x172b (0x000d)  : give Hazel credit at Barclays, Park Avenue
+0x012e  /  0x1739 (0x0026)  : . This is my little girl's big chance. In two weeks Hazel has spent #2000! Peggy says she told me so! 
+0x012f  /  0x1760 (0x000c)  : tell her to stand on her own two feet
+0x0130  /  0x176d (0x001e)  : . She says, "Let me starve in the gutter. I knew it would come to this." 
+0x0131  /  0x178c (0x0009)  : send Hazel an air ticket home
+0x0132  /  0x1796 (0x0002)  : . 
+0x0140  /  0x179a (0x0048)  : Hazel arrives. She is in a terrible mood. She says Rick has stolen all her money and run off to the Big Apple. She drinks several brandies and goes to bed. I hear Captain howl and yelp as she accidentally trips over him. 
+0x0141  /  0x17e4 (0x0007)  : Hazel is not happy. 
+0x0142  /  0x17ec (0x0006)  : tell her about the party
+0x0143  /  0x17f3 (0x002a)  : . She will meet the chums from childhood's happy days. She says, "Tell them to get lost." I ring Mrs Perkins. 
+0x0144  /  0x181e (0x000d)  : hope the country air will lift her spirits
+0x0145  /  0x182c (0x0056)  : . She tries to put vodka into the fish tank but Caroline stops her. She pours beer over Eddie Grundy and Clarrie pulls her hair. She accidentally trips over Captain again and he snaps at her ankle. She bursts into tears. "Why does everybody hate me, Daddy?" 
+0x0146  /  0x1884 (0x0006)  : speak to her severely
+0x0147  /  0x188b (0x0031)  :  about politeness and consideration and dumb animals. She says, "Tell you what, give me #200 and I'll go to Eastbourne." What can this mean? 
+0x0154  /  0x18be (0x0007)  : she is a reformed character
+0x0155  /  0x18c6 (0x0048)  : . She tells me there are many decrepit people in Eastbourne. She tells me she will breathe the sea air and Help the Aged. Peggy says, "If you'll believe that, you'll believe anything." Why are people so cynical? 
+0x0156  /  0x1910 (0x0009)  : she knows a man in Eastbourne
+0x0157  /  0x191a (0x0047)  : . He is a film director who can help her career. I knew something was worrying her! She is desperate to get on in life and not be a burden. I give her the #200 and she says, "Bless you, Daddy." 
+0x0158  /  0x1963 (0x000b)  : she is really going to New York
+0x0159  /  0x196f (0x0032)  : . I have not known Hazel all these years without realising the little faults in her character. I give her the #200 anyway. She is a good girl at heart. 
+0x0168  /  0x19a3 (0x003e)  : Captain is my bull terrier. He is affectionate and brave. At night he sleeps in my bedroom and snores. In the day he sleeps in my study and snores. Peggy says he sleeps and snores too much. 
+0x0169  /  0x19e2 (0x0004)  : take no notice
+0x016a  /  0x19e7 (0x0014)  : . I like to hear Captain snore. It is very soothing. 
+0x016b  /  0x19fc (0x0009)  : ask Marjorie Antrobus for advice
+0x016c  /  0x1a06 (0x0027)  : . She says Captain is lazy and I should have bought an Afghan. How did such a stupid woman ever get into the village? 
+0x016d  /  0x1a2e (0x0007)  : try to keep Captain awake
+0x016e  /  0x1a36 (0x0024)  :  by confiscating his dog basket. He sits and shivers and looks reproachful. Then he goes to sleep on the rug. 
+0x017c  /  0x1a5c (0x0007)  : poke him with a stick
+0x017d  /  0x1a64 (0x0042)  :  whenever he snores. He becomes fretful and whimpers. I leave my study. When I come back he is lying on his back with his paws in the air snoring his head off. I can't stand any more of this! 
+0x017e  /  0x1aa8 (0x0011)  : the switchboard has been jammed with complaints about cruelty to Captain! 
+0x017f  /  0x1aba (0x0008)  : make Tom take him for little walks
+0x0180  /  0x1ac3 (0x000a)  : . Tom is not happy. 
+0x0181  /  0x1ace (0x0043)  : coming round the coach house I hear Tom shouting at Captain, "Get up you idle beggar!" I reprove Tom. He says, "How can I take him for walks when he keeps sitting down and going to sleep?" 
+0x0182  /  0x1b13 (0x0009)  : ask Marjorie Antrobus for advice
+0x0183  /  0x1b1d (0x0014)  : . She says, "Put the wretched dog on a diet!" 
+0x0190  /  0x1b33 (0x0009)  : put him on a strict diet
+0x0191  /  0x1b3d (0x002c)  : . A small slice of wholemeal bread for breakfast. Half a tin of cereal-free Pedigree Chum for lunch. Two vitamin tablets for tea. 
+0x0192  /  0x1b6a (0x0032)  : after two days of dieting, Captain sneaks into the restaurant and steals a veal cutlet. Then Trudy Porter catches him on the kitchen table gorging on cherry batter pudding. 
+0x0193  /  0x1b9d (0x0007)  : carry on with the walks
+0x0194  /  0x1ba5 (0x0002)  : . 
+0x0195  /  0x1ba8 (0x0004)  : call a vet
+0x0196  /  0x1bad (0x005f)  : . Martin Lambert snaps, "Why on earth didn't you bring him to the surgery? I'm a busy man!" I tell him Captain needs a course of vitamins. He says, "Nonsense, take him for a good run." I say he won't run. Lambert says, "kick him and he will." 
+0x0197  /  0x1c0e (0x0018)  : the British Vetinary Association are demanding an apology for Martin Lambert's unprofessional behaviour. 
+0x019a  /  0x1c28 (0x002d)  : this must be the answer! If I cut his food he gets lots of exercise hunting for things to eat and hasn't time to sleep! Brilliant! 
+0x019b  /  0x1c56 (0x002d)  : I tell Higgs to exercise Captain. I say, "Make sure he doesn't sit down and sleep." Higgs says, "Don't you worry about that." 
+0x019c  /  0x1c84 (0x0019)  : a terrible thing! Higgs has dragged Captain behind his bicycle for 10 miles! 
+0x019d  /  0x1c9e (0x001d)  : the phones have been jammed by animal lovers, protesting about Higgs' appalling treatment of Captain! 
+0x01a4  /  0x1cbd (0x000e)  : no vet has ever spoken like this before! 
+0x01a5  /  0x1ccc (0x0006)  : sack Martin Lambert
+0x01a6  /  0x1cd3 (0x0015)  :  who is coarse, unfeeling, and a disgrace to his profession. 
+0x01a7  /  0x1ce9 (0x000a)  : respect a man who speaks plainly
+0x01a8  /  0x1cf4 (0x001a)  : . All Captain needs is exercise and discipline. A British answer for a British dog. 
+0x01a9  /  0x1d0f (0x0007)  : pretend I didn't hear
+0x01aa  /  0x1d17 (0x001a)  : . Lambert has been ill tempered ever since Shula Archer refused to marry him. 
+0x01b8  /  0x1d33 (0x0034)  : I call in Mr Ruff from Hollerton Pet Parlour. He says bull terriers are sensitive, emotional, and easily disturbed. Captain sleeps to avoid the sadness of life. 
+0x01b9  /  0x1d68 (0x0005)  : let Captain sleep
+0x01ba  /  0x1d6e (0x0002)  : . 
+0x01bb  /  0x1d71 (0x0008)  : buy Captain a new jacket
+0x01bc  /  0x1d7a (0x0036)  : . It is Royal Stuart tartan. He wags his tail when I put it on him. He scampers round the study wagging his tail some more. Then he goes to sleep. 
+0x01bd  /  0x1db1 (0x000c)  : ask Mr Ruff for a course of vitamins
+0x01be  /  0x1dbe (0x0043)  : . He says, "Good idea," and charges #50. Captain refuses to eat them, but gobbles up everything else in sight. While he is eating he is not sleeping. It is a good sign. 
+0x01cc  /  0x1e04 (0x002f)  : Captain gets fatter and fatter. He bursts the ribbons of his new Royal Stuart dog coat. He tries to jump on my duvet and rolls over backwards. 
+0x01cd  /  0x1e34 (0x0006)  : take him to dog training
+0x01ce  /  0x1e3b (0x0056)  :  sessions in Borchester. A big woman says, "An obedient dog is a happy dog! A fit dog is a happy dog! A slim dog is a healthy dog!" Captain whines piteously. The big woman says, "We'll soon cure you of that, Roly Poly!" 
+0x01cf  /  0x1e93 (0x0004)  : call the vet
+0x01d0  /  0x1e98 (0x0049)  : . Mr Ruff from Hollerton Pet Parlour recommends a high-fibre, low calorie diet of honeybran, boiled chicken and asparagus. I show it to Peggy who says, "That Ruff is a rip-off, and you are going ga-ga over Captain." 
+0x01d1  /  0x1ee3 (0x0007)  : put him on a diet
+0x01d2  /  0x1eeb (0x0037)  : . One bowl of honeybran and sultanas for breakfast, only one choc-chip biscuit for break, boiled chicken and greens for lunch, and a tin of cereal-free Pedigree Chum for supper. 
+0x01d3  /  0x1f23 (0x0015)  : Captain gets fatter than ever. There is only one course left! 
+0x01e0  /  0x1f3a (0x0036)  : Captain is outraged. I can see it in his eyes. Staffordshire bull terriers do not like being called Roly Poly by Big Women. Even a strict diet would be better! 
+0x01e1  /  0x1f71 (0x0006)  : heed Peggy's words
+0x01e2  /  0x1f78 (0x001b)  : . I know that Ruff is a villain and Captain is overfed. I must behave sensibly. 
+0x01e3  /  0x1f94 (0x0007)  : join Captain on the diet
+0x01e4  /  0x1f9c (0x0039)  : . Each morning we eat our honeybran. Each lunchtime we have our boiled chicken. Each afternoon we go for a walk to the village and secretly eat crisps. We are happy. 
+0x01e5  /  0x1fd6 (0x0003)  : ignore Peggy
+0x01e6  /  0x1fda (0x0042)  : for the rest of the week. She says, "I was only telling you for your own good." Captain enjoys his chicken and Mr Ruff says he is recovering his spirits. I wish we had discovered Mr Ruff years ago. 
+0x01f4  /  0x201f (0x003c)  : the village shop is losing money! My accountant says Martha is slow and expensive. I say, "Just like British Rail!" And have a good laugh. My accountant says it is not a laughing matter. 
+0x01f5  /  0x205c (0x0007)  : change it into a supermarket
+0x01f6  /  0x2064 (0x0027)  :  and advertise a "grand opening." Eddie Grundy offers to make a personal appearance and sing his greatest hit records. 
+0x01f7  /  0x208c (0x0006)  : threaten to sack Martha
+0x01f8  /  0x2093 (0x0052)  :  unless she makes a profit. She cries and sobs, "Oh that it should come to this!" I tell her of the chill winds gusting through British Industry. She must either pull up her socks or get on her bike. She might even have to do both! 
+0x01f9  /  0x20e7 (0x0007)  : decide to sell the shop
+0x01fa  /  0x20ef (0x004c)  : . I put an advert in Exchange and Mart. Martha cries and sobs and says, "O what will happen to me?" I say, "Why, the workhouse, Martha, the workhouse!" And laugh. Martha bursts into tears. 
+0x0208  /  0x213e (0x0004)  : apologise to Martha
+0x0209  /  0x2143 (0x002a)  : . I did not mean to be unfeeling. She breaks down and sobs with gratitude. I say I will keep the shop if she works harder. 
+0x020a  /  0x216e (0x000a)  : insist the new owner employs her
+0x020b  /  0x2179 (0x002b)  : . Several people look at Martha, and go away again. One man makes her do an adding-up test. She scores 7 out of 20. 
+0x020c  /  0x21a5 (0x0007)  : explain the Capitalist ethos
+0x020d  /  0x21ad (0x001a)  :  to Martha. Soon she realises she is fired. She sobs and runs away. 
+0x020e  /  0x21c8 (0x001d)  : thousands of listeners have signed a "bring back Martha" petition to protest against her dismissal! 
+0x021c  /  0x21e7 (0x0004)  : stand firm
+0x021d  /  0x21ec (0x0009)  :  and do not re-employ Martha. 
+0x021e  /  0x21f6 (0x003a)  : the vicar accuses me of giving Martha palpitations. Colonel Danby says, "Not on, old boy. Got to look after the ladies." Pat Archer calls for a boycott of the shop! 
+0x021f  /  0x2231 (0x000a)  : offer Martha a job as a chambermaid
+0x0220  /  0x223c (0x003d)  : at Grey Gables. She is quite excited. She says, "Will I wear a little black frock and frilly apron?" I say, "Not on duty, but your free time's your own." 
+0x0221  /  0x227a (0x0013)  : the phones are jammed with complaints about your dubious treatment of Martha. 
+0x0222  /  0x228e (0x0008)  : decide not to sell the shop
+0x0223  /  0x2297 (0x001e)  : . It is a useful tax loss. I have my seat on the parish council to think of. 
+0x0224  /  0x22b6 (0x001d)  : I liked the story about selling the shop. You could perhaps have kept it going for longer. 
+0x0230  /  0x22d5 (0x002e)  : I offer Eddie Grundy #5 personal appearance fee. He says, "Get lost. Who do you think I am, Wayne Tucson?" 
+0x0231  /  0x2304 (0x0008)  : offer Eddie #6
+0x0232  /  0x230d (0x0007)  : . He agrees. 
+0x0233  /  0x2315 (0x0061)  : nobody turns up for the grand opening except for Eddie's family, Clarrie, Joe, Little William and Little Edward. Between them they eat two jam swiss rolls and drink several glasses of orange squash. Eddie insists on singing even though there's nobody there. I tell Martha I will have to sell the shop. 
+0x0234  /  0x2378 (0x000a)  : offer Wayne Tucson #5
+0x0235  /  0x2383 (0x0010)  : . He and Jolene are on a pilgrimage to Nashville. 
+0x0236  /  0x2394 (0x0007)  : try to get Katie Boyle
+0x0237  /  0x239c (0x000e)  : . Jennifer phones her agent in London. 
+0x0238  /  0x23ab (0x0041)  : Jennifer says Katie was flattered but isn't free until June. I say, "There's fifty quid in notes waiting if she can make it this Saturday." Jennifer says I'm out of touch with the glittering celebrity world. 
+0x0244  /  0x23ef (0x003c)  : Martha agrees to open at 8am and stay open till 6pm. She offers to chop kindling every weekend and sell it at 50p a bundle. I say, "That's the spirit, Martha!" 
+0x0245  /  0x242c (0x0022)  : Chief Petty Officer Curlew phones from Portsmouth. He wants to buy the shop! I invite him to lunch. 
+0x0246  /  0x244f (0x0061)  : Chief Petty Officer Curlew has come to buy the shop. I offer him a pink gin and say, "Splice the Mainbrace!" I introduce him to Captain and he jumps to attention and says, "All aboard my hearties!" On the way to the shop he offers to organise housey-housey sessions in the Village Hall in winter. 
+0x0247  /  0x24b2 (0x002d)  : Martha changes her mind about working at Grey Gables. She says all her customers in the village would miss her. She pleads with me to let her stay at the shop. 
+0x0258  /  0x24e1 (0x000d)  : Peggy tells me the entire village is in revolt. 
+0x0259  /  0x24ef (0x0002)  : reconsider
+0x025a  /  0x24f2 (0x0002)  : . 
+0x025b  /  0x24f5 (0x000a)  : give Martha an extra pound a week
+0x025c  /  0x2500 (0x0011)  : . She is very grateful. The revolt collapses. 
+0x025d  /  0x2512 (0x0008)  : try to sell the shop quickly
+0x025e  /  0x251b (0x0015)  : . Chief Petty Officer Curlew of Portsmouth comes to look at it. 
+0x025f  /  0x2531 (0x004e)  : Pat Archer is outside the shop with a banner saying PEOPLE COUNT. I tell her if Martha could count we wouldn't be in this mess. Chief Petty Officer Curlew is upset. He says he wants a peaceful life. He goes to look at a shop in Rhyll. 
+0x026c  /  0x2582 (0x007f)  : I come from a humble home in Stirchley. When I was thirteen I sold newspapers at New Street Station. It was very cold at the University of Life and sometimes I was hungry. But I worked hard and made my way in the world. Now I am the owner of Grey Gables and the Borchester Echo. I give generously to Conservative Party Funds. Why is it that I have never featured in the New Year's Honours List? 
+0x026d  /  0x2604 (0x0008)  : they think I am a peasant
+0x026e  /  0x260d (0x0022)  : , fit only to be president of the Rotary Club. Peggy tells me to cultivate the Constituency chairman, Admiral Banks. 
+0x026f  /  0x2630 (0x000d)  : the Tories cannot be wooed with vulgar money
+0x0270  /  0x263e (0x001b)  : . I decide to invite Constituency chairman Admiral Banks to lunch and impress him with my personality. 
+0x0271  /  0x265a (0x000a)  : I have not paid anything like enough
+0x0272  /  0x2665 (0x004b)  : . I tell Constituency chairman Admiral Banks that the PM can expect a substantial donation to the fighting fund. Admiral Banks looks startled. "If you're feeling flush," he says, "how about a new billiard table for the Churchill Club?" 
+0x0273  /  0x26b2 (0x0028)  : I'm getting complaints from Conservative Central office. They say your story about paying for honours is another example of BBC left-wing bias. 
+0x0280  /  0x26dc (0x00a5)  : Admiral Banks comes to lunch. He says, "Large G and T, Woolley, quick as you like." Caroline says he is treating me like one of the Establishment. I wonder if I am being treated like a waiter. I fetch the gin and tonic. The Admiral calls Margaret Thatcher "Our Leader." Over hot lobster, Admiral Banks asks for a Tombola prize for the Association dinner dance. I grab a litre of Glenfiddich from the bar. The Admiral says, "Good chap, Woolley." Caroline says he will swig it himself. 
+0x0281  /  0x2784 (0x0010)  : I have nobody to take to the Conservative Association dance. 
+0x0282  /  0x2795 (0x0003)  : invite Caroline
+0x0283  /  0x2799 (0x0011)  : . She is already going with sexy Doctor Thorogood. 
+0x0284  /  0x27ab (0x0003)  : invite Peggy
+0x0285  /  0x27af (0x001d)  : . She says, "You won't wear that spangly white jacket thing, will you?" 
+0x0286  /  0x27cd (0x0003)  : invite Hazel
+0x0287  /  0x27d1 (0x0032)  : . Her voice is slurred when she answers the phone. She says, "Tory Dinner Dance? Are you joking?" I think she must have a bad cold. 
+0x0294  /  0x2805 (0x0060)  : I ask Caroline for clothes advice. She is a Bohun, descended from Humphrey de Bohun, Earl of Hereford. She is related by marriage to the Duke of Westminster. She says my white tuxedo with silver braid is very smart. I tell Peggy. She says the aristocracy speak in coded language, like the Chinese. 
+0x0295  /  0x2867 (0x000d)  : wear my white tuxedo with my lilac shirt
+0x0296  /  0x2875 (0x000a)  :  and midnight blue cummerbund. 
+0x0297  /  0x2880 (0x000c)  : give my white jacket to Higgs for a scarecrow
+0x0298  /  0x288d (0x001a)  : . He says he will put it on the sugar peas after he has potted on the chrysanths. 
+0x0299  /  0x28a8 (0x0006)  : subtly ask Admiral Banks
+0x029a  /  0x28af (0x002f)  :  what he thinks about the jacket. He says, "Can't afford it, old boy," and looks at me oddly. I decide to wear it. 
+0x029b  /  0x28df (0x0025)  : the dance is not a success. The admiral's wife says I remind her of Bob Monkhouse. Peggy pretends she is not with me. 
+0x02a8  /  0x2906 (0x0043)  : Peggy rushes in, looking upset. "Was it wise, Jack? At your age?" She says the village is alive with rumours that I took Dolly Treadgold to the Forrester's Supper at Hollerton Free Trade Hall. 
+0x02a9  /  0x294b (0x0004)  : Peggy is drunk
+0x02aa  /  0x2950 (0x001c)  :  and sniff her breath for traces of alcohol. She thinks I am trying to kiss her! 
+0x02ab  /  0x296d (0x0007)  : Peggy is playing a prank
+0x02ac  /  0x2975 (0x0025)  :  and say, "Ho ho, that's a good one." Women do funny things when they get to Peggy's age. 
+0x02ad  /  0x299b (0x0006)  : somebody is slandering me
+0x02ae  /  0x29a2 (0x0034)  : . Peggy says, "Don't be ridiculous. Fourteen people, including Tom Forrest and Martha, saw you doing the Birdie Dance at 1am in Hollerton Market Square." 
+0x02bc  /  0x29d8 (0x0007)  : the entire village is mad
+0x02bd  /  0x29e0 (0x000d)  : . It comes from centuries of inbreeding. 
+0x02be  /  0x29ee (0x0007)  : it is a practical joke
+0x02bf  /  0x29f6 (0x0021)  : . Peggy, Tom, and Martha are having a jape. They are slightly mad through centuries of inbreeding. 
+0x02c0  /  0x2a18 (0x0006)  : Higgs wore my tuxedo
+0x02c1  /  0x2a1f (0x0016)  :  to escort Dolly Treadgold to the Forrester's Ball! I challenge him! 
+0x02d0  /  0x2a37 (0x0007)  : Higgs breaks down and confesses
+0x02d1  /  0x2a3f (0x0017)  :  that he wore my white tuxedo. I compliment him on his good taste. 
+0x02d2  /  0x2a57 (0x0004)  : Higgs denies it
+0x02d3  /  0x2a5c (0x0042)  : . He claims the wine stain on the right lapel is bird droppings. He says chaffinches eat blackberries and their droppings are red coloured. Caroline says, "Where did they get blackberries at this time of year?" 
+0x02d4  /  0x2aa0 (0x0006)  : Higgs accuses Tom Forrest
+0x02d5  /  0x2aa7 (0x0034)  :  of stealing my white tuxedo from the scarecrow and escorting Dolly Treadgold to the Forrester's Dance. I give him a fiver. It's the best laugh I've had in weeks. 
+0x02e4  /  0x2add (0x0020)  : I wear my black dinner jacket to the Dinner dance. There is no bottle of Glenfiddich on the Tombola. 
+0x02e5  /  0x2afe (0x0004)  : accuse Admiral Banks
+0x02e6  /  0x2b03 (0x0035)  :  of drinking it. He says, "Is this some sort of joke? My daughter won the Glenfiddich an hour ago." My hopes of an OBE are dashed. 
+0x02e7  /  0x2b39 (0x0007)  : pretend I haven't noticed
+0x02e8  /  0x2b41 (0x001b)  :  that Admiral Banks has drunk my scotch. Peggy says I am wise not to rock the boat. 
+0x02e9  /  0x2b5d (0x000d)  : hint to Admiral Banks that I can keep his secret
+0x02ea  /  0x2b6b (0x003c)  :  and don't mind him drinking my scotch. He says, "Is this some sort of joke? My daughter won the Glenfiddich an hour ago." My hopes of an OBE are dashed. 
+0x02f8  /  0x2ba9 (0x0006)  : Peggy slaps my face
+0x02f9  /  0x2bb0 (0x000c)  : , though in a playful manner. 
+0x02fa  /  0x2bbd (0x0004)  : Peggy kisses me
+0x02fb  /  0x2bc2 (0x000e)  :  passionately! It is an amazing moment! 
+0x02fc  /  0x2bd1 (0x001f)  : amazing is hardly the word I would use to describe Peggy's behaviour. Unbelievable is nearer the mark. 
+0x02fd  /  0x2bf1 (0x000b)  : Peggy tells me not to be a silly boy
+0x02fe  /  0x2bfd (0x0029)  : . She giggles in a girlish way and taps me playfully on the nose. "You could have asked me to the Forrester's dance!" 
+0x030c  /  0x2c28 (0x000d)  : who can revive my chances of an OBE? 
+0x030d  /  0x2c36 (0x0001)  : Caroline
+0x030e  /  0x2c38 (0x0043)  :  revives my hopes of an OBE! She tells me that Admiral Banks and the Churchill club mafiosi are a load of vulgar middle-class Thatcherite upstarts! Lord Netherbourne will introduce me to the real Tory Party at the Badminton Horse Trials. 
+0x030f  /  0x2c7d (0x0002)  : Admiral Banks
+0x0310  /  0x2c80 (0x0036)  :  revives my hopes of an OBE! I send him a case of Glenfiddich and a couple of days later he says, in a fuzzy voice, "Good chap, Wally." 
+0x0311  /  0x2cb7 (0x0001)  : Higgs
+0x0312  /  0x2cb9 (0x005e)  :  revives my hopes of an OBE! He stole my white tuxedo for the Forrester's ball and now I've been asked to join the Conservative Assn Committee. "You've got the common touch," said Admiral Banks, "Not everybody would spend an evening in fancy dress with those ghastly plebs in Hollerton." 
+0x0320  /  0x2d1a (0x003d)  : Peggy says I must slow down. I have had one heart attack. I have been stunned by burglars. I have fallen off the roof of Grey Gables onto my head. Dr Poole says stress is the killer. 
+0x0321  /  0x2d58 (0x0007)  : take Captain for long walks
+0x0322  /  0x2d60 (0x000f)  : . He limps home with a poorly paw. 
+0x0323  /  0x2d70 (0x001c)  : Captain sits down in Leader's wood and refuses to move. I carry him to Home Farm. 
+0x0324  /  0x2d8d (0x0017)  : the long walks are only causing more stress and palpitations. I give them up. 
+0x0325  /  0x2da5 (0x0006)  : go to yoga classes
+0x0326  /  0x2dac (0x0059)  : . They are in Borchester Drill Hall. The tutor is called Jasmine. She says we must eat very slowly, thinking of soil, sun, and trace elements. Then she shows us how to make carrot juice without a blender. The ladies on the course are a jovial crowd. 
+0x0327  /  0x2e07 (0x0007)  : carry on working regardless
+0x0328  /  0x2e0f (0x0002)  : . 
+0x0329  /  0x2e12 (0x004b)  : in Cheltenham Gold Cup week Grey Gables is full of drunk Irishmen. Then we have the Welsh dentists' conference. They are worse than the Irish. Their hands shake every morning. I will never go to a Welsh dentist before lunch. 
+0x032a  /  0x2e5f (0x0010)  : I'm getting hundreds of protest letters from Wales. 
+0x0334  /  0x2e71 (0x0029)  : I have a heart attack! I fall down in Reception! Captain licks my face and whines piteously! I am rushed to hospital. 
+0x0335  /  0x2e9b (0x0024)  : after my heart attack, I spend a week in intensive care. Dr Poole says it is nature's last warning. 
+0x0336  /  0x2ec0 (0x0006)  : try to sell Grey Gables
+0x0337  /  0x2ec7 (0x0002)  : . 
+0x0338  /  0x2eca (0x0026)  : Mr Silvester Stokes comes down from Berkeley Square to look over Grey Gables. He says the prestigious Innkeeper International Hotels are very interested. 
+0x0339  /  0x2ef1 (0x000a)  : go to Guernsey for a long holiday
+0x033a  /  0x2efc (0x000f)  : . My voice is not heard in Ambridge again. 
+0x033b  /  0x2f0c (0x0023)  : Archers characters only go to the Channel Islands when they are written out of the script. You've got rid of Jack! 
+0x033c  /  0x2f30 (0x0008)  : resolve to take things easy
+0x033d  /  0x2f39 (0x0034)  : . I go to yoga classes. The tutor is called Jasmine. She tells me how to make carrot juice without an extractor. I no longer worry about Welsh dentists. 
+0x0348  /  0x2f6f (0x0023)  : Caroline says Innkeeper International is a Turkish fast-food chain. Its chairman, Emir Hamil, is an aging playboy. 
+0x0349  /  0x2f93 (0x0017)  : Mr Stokes phones to say he is bringing Mr Hamil down tomorrow to look at Grey Gables. 
+0x034a  /  0x2fab (0x0007)  : look for a counter bid
+0x034b  /  0x2fb3 (0x0028)  : . Mr Stokes says the Turkish playboy will pay half a million more than anyone else. I agree to talk to Mr Hamil. 
+0x034c  /  0x2fdc (0x0005)  : call the deal off
+0x034d  /  0x2fe2 (0x0019)  : . I have not built Grey Gables from nothing to be the plaything of a Turkish playboy. 
+0x034e  /  0x2ffc (0x0004)  : continue negotiations
+0x034f  /  0x3001 (0x0002)  : . 
+0x035c  /  0x3005 (0x006a)  : Mr Emir Hamil is dark and small like a Welsh dentist. He says Captain is a sturdy fellow. Peggy says, "Never trust the wily Levantine," but I say Turks are decent chaps.
+ 
+Mr Hamil says, "What do you think of two million pounds?" I say in jest, "For that you can have the village shop thrown in!"
+0x035d  /  0x3071 (0x0030)  : Mr Hamil goes for a walk round the village. He comes back to tea and says all right, providing Martha agrees to go on a fast food course in Istambul. 
+0x035e  /  0x30a2 (0x0007)  : refuse to sell the shop
+0x035f  /  0x30aa (0x0019)  : . Martha is too old to learn the ways of a Turkish fast food chain. 
+0x0360  /  0x30c4 (0x0005)  : send Martha to Istambul
+0x0361  /  0x30ca (0x0024)  : . She whimpers a lot but I am firm. She is booked into the Sultan's Delight guest house for three weeks. 
+0x0362  /  0x30ef (0x0007)  : hold out for more money
+0x0363  /  0x30f7 (0x0002)  : . 
+0x0370  /  0x30fb (0x003a)  : Mr Hamil shouts and spits. Clearly Martha has caught his fancy! He says he has booked her unto the Sultan's Delight guest house for 3 weeks. Either she goes or the deal is off! 
+0x0371  /  0x3136 (0x0004)  : stand firm
+0x0372  /  0x313b (0x003a)  : . Mr Hamil says the entire staff of grey Gables must go to Istambul on a fast food course! I say Grey Gables must stay English. Mr Hamil says that in that case he will buy Gleneagles. 
+0x0373  /  0x3176 (0x000c)  : demand an extra #100,000
+0x0374  /  0x3183 (0x002b)  : . Mr Hamil says Martha is only worth half that. Caroline finds us arguing and asks Mr Hamil to leave. I am not really sorry. 
+0x0375  /  0x31af (0x0005)  : suggest sending Peggy
+0x0376  /  0x31b5 (0x001d)  : . Mr Hamil looks her over, laughs nastily, and decides to buy Gleneagles instead. 
+0x037a  /  0x31d4 (0x0016)  : a postcard from Martha! She has been for a boat ride on the Bosporus! 
+0x0384  /  0x31ec (0x001f)  : I show Jean Paul how to make carrot juice using a sheet of gauze and a soup plate. 
+0x0385  /  0x320c (0x002a)  : I meditate in the garden and recite a poem to the trees. Peggy pops out from behind the azaleas. She tells me I am going potty. 
+0x0386  /  0x3237 (0x0004)  : give up yoga
+0x0387  /  0x323c (0x0010)  : . After a week I begin to feel stressed. 
+0x0388  /  0x324d (0x0005)  : continue with yoga
+0x0389  /  0x3253 (0x0027)  :  regardless. Jasmine says I am a natural mystic. She says I exude waves of peace when I lie on my back and hum. 
+0x038a  /  0x327b (0x0006)  : ask Peggy to lunch
+0x038b  /  0x3282 (0x0048)  :  on the terrace. Bees hum and I hum with them. I order 50g of milled nuts, Chinese leaves, and sunflower seeds with dried bananas. I explain my new serenity. She says I am pottier than she thought. 
+0x0398  /  0x32cd (0x0008)  : ask Peggy to yoga classes
+0x0399  /  0x32d6 (0x001b)  : . She tells me not to be ridiculous. I tell her I will be as ridiculous as I wish. 
+0x039a  /  0x32f2 (0x000c)  : carry on with the yoga classes by myself
+0x039b  /  0x32ff (0x0002)  : . 
+0x039c  /  0x3302 (0x000b)  : order roast beef and apple pie
+0x039d  /  0x330e (0x0012)  : . Peggy has brought me to my senses, as usual. 
+0x03ac  /  0x3322 (0x0030)  : Mr Hamil is a fraud! He does not own a Turkish fast food chain! I have been deceived and Martha is in the Sultan's Delight Guest House in Istambul. 
+0x03ad  /  0x3353 (0x0005)  : she comes home
+0x03ae  /  0x3359 (0x0025)  : with 3 lb of chocolate-covered turkish delight and a strangely contented smile on her face. The truth will never be known. 
+0x03af  /  0x337f (0x000a)  : she is carried off into Asia Minor
+0x03b0  /  0x338a (0x001d)  : on the back of a camel! She is dragged into a Bedouin tent and all her clothes are... 
+0x03b1  /  0x33a8 (0x0055)  : it may have escaped your notice, chummy, but you're not writing for Sunday Sport. However many listeners you may have gained, you should know that on Radio 4 we restrict sex scenes to book adaptations which go out when nobody's listening. Don't ever do it again! 
+0x03b2  /  0x33ff (0x0004)  : she is rescued
+0x03b3  /  0x3404 (0x002a)  :  by the British Consul and sent home. For some reason she is very peevish about interfering officials who can't leave a girl alone. 
+0x03b6  /  0x3430 (0x002f)  : Jasmine says I am her star pupil. She says I would be even more her star pupil if I wore a track suit instead of my thornproof trousers and braces. 
+0x03b7  /  0x3460 (0x0017)  : I go down to the Sports Centre shop but they have sold out of track suits. 
+0x03b8  /  0x3478 (0x0007)  : carry on wearing braces
+0x03b9  /  0x3480 (0x001d)  : . I am an elderly man. If I cannot learn yoga in braces I will give it up. 
+0x03ba  /  0x349e (0x0007)  : look for a tracksuit elsewhere
+0x03bb  /  0x34a6 (0x0034)  : . I buy a pink tracksuit with blue piping and go for a run with Captain. Mrs P. Faints as we jog past her cottage, but we don't care. 
+0x03bc  /  0x34db (0x0008)  : buy a pair of shorts
+0x03bd  /  0x34e4 (0x0025)  :  and wear them at yoga classes. Jasmine says, "Very good, now try wearing them without the braces." 
+0x03d4  /  0x350b (0x0036)  : something is wrong with the restaurant! Nobody is eating our Nouvelle English Cuisine. Peggy says that pigeon breasts with gooseberry sauce remind her of the last days of the Roman Empire. 
+0x03d5  /  0x3542 (0x0002)  : tell Caroline
+0x03d6  /  0x3545 (0x003d)  :  what Peggy said. Caroline says, "How would she know? She was only a child at the time." It takes me some moments to work this out. Caroline implores me to have faith. 
+0x03d7  /  0x3583 (0x0008)  : abandon Nouvelle English Cuisine
+0x03d8  /  0x358c (0x000a)  :  while Caroline is on holiday. 
+0x03d9  /  0x3597 (0x0004)  : advertise the restaurant
+0x03da  /  0x359c (0x001c)  :  in Borset Admag's Good Nosher guide (only ten pounds for four insertions!). 
+0x03db  /  0x35b9 (0x0034)  : there is still no response to my restaurant advert! I cannot understand it. Peggy is not surprised. She points out they got the address, telephone number and prices wrong. 
+0x03dc  /  0x35ee (0x0007)  : advertise in Country Life
+0x03dd  /  0x35f6 (0x0009)  : . It does no good. 
+0x03de  /  0x3600 (0x0005)  : lower the prices
+0x03df  /  0x3606 (0x0025)  : . We lose even more money. Caroline says it's a quiet time of year. She decides to take a holiday. 
+0x03e0  /  0x362c (0x0006)  : take a bigger ad
+0x03e1  /  0x3633 (0x0034)  : . The Good Nosher feature is dirt cheap and reaches 50,000 hungry homes. Besides, it is my duty to bring gracious living to the Borsetshire yeomanry. 
+0x03e8  /  0x3669 (0x0009)  : the restaurant still has problems. 
+0x03e9  /  0x3673 (0x0009)  : open an Olde English carvery
+0x03ea  /  0x367d (0x0022)  : . Admiral Banks says, "Getting a bit vulgar, aren't we? I'm off to Redgate Manor." 
+0x03eb  /  0x36a0 (0x0007)  : change to French cuisine
+0x03ec  /  0x36a8 (0x0002)  : . 
+0x03ed  /  0x36ab (0x0027)  : Borsetshire Life has attacked our French cuisine! "Boring and unimaginative, despite the tartlets of the great Jean Paul". 
+0x03ee  /  0x36d3 (0x0008)  : ask Jean Paul's advice
+0x03ef  /  0x36dc (0x0016)  : . He says, "Moi, j'aime la cuisine Chinoise." 
+0x03fc  /  0x36f4 (0x0027)  : there is a party booking for the restaurant! Thirty pensioners from Perivale Under Edge! I knew intelligent advertising would do the job. 
+0x03fd  /  0x371c (0x002c)  : I refuse to turn Grey Gables into a Chinese Restaurant. Jean Paul bursts into tears. Higgs says creme de menthe has turned his mind. 
+0x03fe  /  0x3749 (0x0006)  : get a new chef
+0x03ff  /  0x3750 (0x0002)  : . 
+0x0400  /  0x3753 (0x0010)  : the new chef is drunker than Jean Paul! 
+0x0401  /  0x3764 (0x0009)  : hide the creme de menthe
+0x0402  /  0x376e (0x0013)  : . Jean Paul smashes up the kitchen and runs away. 
+0x0403  /  0x3782 (0x0009)  : restore the Nouvelle English Cuisine
+0x0404  /  0x378c (0x0008)  :  before Caroline returns. 
+0x0410  /  0x3796 (0x0048)  : disaster! The Perivale Pensioners all have five-pounds-off Happy Nosher vouchers! Caroline says I must accept them. It was part of the cheapo advertising deal. The Happy Noshers spit out their pigeon breasts and splat baked carrot pudding on the walls. 
+0x0411  /  0x37e0 (0x0007)  : let Caroline sort them out
+0x0412  /  0x37e8 (0x0031)  : . She is descended from Humphrey de Bohun, Earl of Hereford. She speaks kindly to the Perivale Pensioners and they shuffle out and squeeze into their ancient minibus. 
+0x0413  /  0x381a (0x0007)  : give them steak and chips
+0x0414  /  0x3822 (0x0020)  : . They suck the chips and take ages cutting up the steak. Borset Admag was not a good idea. 
+0x0415  /  0x3843 (0x0006)  : tell Higgs to eject them
+0x0416  /  0x384a (0x002a)  : . He shouts and they shout back. He prods them with a pitchfork. They nearly kill him before he can lock himself in the kitchen. 
+0x0424  /  0x3876 (0x0008)  : everything is in chaos. 
+0x0425  /  0x387f (0x0006)  : call Caroline back from holiday
+0x0426  /  0x3886 (0x0002)  : . 
+0x0427  /  0x3889 (0x0027)  : Caroline finds Jean Paul camping by the river with a bottle of creme de menthe. She persuades him to return to his kitchen. 
+0x0428  /  0x38b1 (0x0007)  : bring Jean Paul back
+0x0429  /  0x38b9 (0x004e)  : . He is camping by the river with a bottle of creme de menthe. We sit on the bank and watch mayflies. Jean Paul says his Chinese Restaurant idea was a joke. He got upset because I didn't laugh. I do not understand foreigners. 
+0x042a  /  0x3909 (0x0006)  : ask Peggy for help
+0x042b  /  0x3910 (0x0019)  : . She says, "The ladies of the WI will rally round tonight." 
+0x042c  /  0x392a (0x001f)  : dinner is awful. Admiral Banks asks for a pepper steak and the WI give him a cream tea. 
+0x0438  /  0x394b (0x0019)  : the restaurant is still doing badly, but Jean Paul's food bill is huge. 
+0x0439  /  0x3965 (0x0007)  : start an economy drive
+0x043a  /  0x396d (0x0029)  : in the kitchen. No second helpings of pudding for Tom. No rich fruit cake for the chambermaids. No extra bacon butties for Higgs. 
+0x043b  /  0x3997 (0x0009)  : introduce smaller portions in the restaurant
+0x043c  /  0x39a1 (0x0024)  : . This is what Nouvelle Cuisine is all about. Admiral Banks looks at his pepper steak and asks for a magnifying glass. 
+0x043d  /  0x39c6 (0x000a)  : cut down on staff by sacking Higgs
+0x043e  /  0x39d1 (0x000e)  : . I have wanted to do this for years! 
+0x043f  /  0x39e0 (0x0010)  : six chambermaids plead for Higgs with tears in their eyes. 
+0x0440  /  0x39f1 (0x0006)  : give him his job back
+0x0441  /  0x39f8 (0x0012)  : . I cannot bear the thought of six unhappy chambermaids. 
+0x0442  /  0x3a0b (0x0004)  : stand firm
+0x0443  /  0x3a10 (0x0015)  : . A handyman who dallies with six chambermaids is too handy by half. 
+0x0444  /  0x3a26 (0x000d)  : keep him on if he promises to eat less
+0x0445  /  0x3a34 (0x0002)  : . 
+0x0446  /  0x3a37 (0x0021)  : I catch Higgs gorging on a strawberry pie. I threaten to sack the next person found pilfering tuck. 
+0x0456  /  0x3a5a (0x0032)  : the Grey Gables economy drive does not work. The staff gobble chicken legs when I am not looking. I threaten to sack the next person found pilfering tuck. 
+0x0457  /  0x3a8d (0x0046)  : the restaurant is empty except for a bearded man with a ghastly glare. I tell Caroline, kindly, that I do not blame her. She is young and must make mistakes. She says it was all my fault! I think Caroline will have to go. 
+0x0458  /  0x3ad5 (0x0015)  : Tom Forrest is caught pilfering a Victoria sponge! I sack him. 
+0x0459  /  0x3aeb (0x0018)  : Peggy pleads on Tom's behalf. She says he is heartbroken and full of shame. 
+0x045a  /  0x3b04 (0x0003)  : forgive Tom
+0x045b  /  0x3b08 (0x0019)  : . He is a loyal old chap. I must not begrudge him a Victoria sponge. 
+0x045c  /  0x3b22 (0x0008)  : make Tom pay for the cake
+0x045d  /  0x3b2b (0x000a)  :  but give him his job back. 
+0x045e  /  0x3b36 (0x0005)  : leave Tom sacked
+0x045f  /  0x3b3c (0x000a)  :  as an example to others. 
+0x0460  /  0x3b47 (0x003b)  : wonderful news! The bearded man with the ghastly glare was Anon Ronay! He has given us a rosette for our Nouvelle English Cuisine! The restaurant is packed! I give Caroline a bonus. 
+0x0474  /  0x3b84 (0x0026)  : Det. Inspector Barry says a gang of ferocious poachers are operating around Ambridge. They have already raided Netherbourne Park. 
+0x0475  /  0x3bab (0x000b)  : make Tom patrol the woods every night
+0x0476  /  0x3bb7 (0x000d)  : . He mutters but I stand firm. 
+0x0477  /  0x3bc5 (0x0031)  : Tom is fretful. He whimpers that he is an old age pensioner and should not have to watch for poachers every night. Then he falls asleep in his rice pudding. 
+0x0478  /  0x3bf7 (0x0007)  : patrol the woods with Captain
+0x0479  /  0x3bff (0x000e)  : . Silently we pad through the nights. 
+0x047a  /  0x3c0e (0x0009)  : offer sympathy to Lord Netherbourne
+0x047b  /  0x3c18 (0x0031)  : . I say, "It's up to us landowners to stick together!" He looks puzzled and says, "Yes, yes, but who are you?" 
+0x0488  /  0x3c4b (0x000a)  : Peggy says Tom is old and worn. 
+0x0489  /  0x3c56 (0x0004)  : chivvy him up
+0x048a  /  0x3c5b (0x0038)  : . I say, "Try to grow old without growing idle, Tom," and scold him for falling asleep into his rice pudding. "Making the chambermaids laugh isn't everything." 
+0x048b  /  0x3c94 (0x0007)  : take Tom off night patrols
+0x048c  /  0x3c9c (0x0021)  : . Old men should not fall asleep into their rice pudding, even if it does make the chambermaids laugh. 
+0x048d  /  0x3cbe (0x0008)  : buy him an alarm clock
+0x048e  /  0x3cc7 (0x002a)  : . He says, "Thank you kindly, sir," but does not look grateful. It is clear that kindness is not the answer. 
+0x049c  /  0x3cf3 (0x0011)  : suddenly there is a fearsome cry! What can it be? 
+0x049d  /  0x3d05 (0x0003)  : a vixen
+0x049e  /  0x3d09 (0x0017)  :  calling for her mate. Captain whimpers inside his thermal dog coat. 
+0x049f  /  0x3d21 (0x0005)  : a brown owl
+0x04a0  /  0x3d27 (0x0023)  :  hunting through the drear woods, her eyes seeking the tiny movements of vole and shrew and field mouse. 
+0x04a1  /  0x3d4b (0x0005)  : a ferocious poacher
+0x04a2  /  0x3d51 (0x001e)  : ! He has fallen and hurt himself! Captain whimpers and tries to hide between my legs. 
+0x04a3  /  0x3d70 (0x0007)  : help the ferocious poacher
+0x04a4  /  0x3d78 (0x0002)  : . 
+0x04a5  /  0x3d7b (0x0004)  : call the police
+0x04a6  /  0x3d80 (0x001d)  :  from a phone box. They take 20 minutes to arrive. We go back to the woods. 
+0x04a7  /  0x3d9e (0x0005)  : run and call Tom
+0x04a8  /  0x3da4 (0x0029)  : . I say there is a ferocious poacher injured in the woods. He says he would come and help if only he didn't have a bad cold. 
+0x04b0  /  0x3dcf (0x0010)  : listeners in their thousands are protesting about Tom's treatment! 
+0x04b1  /  0x3de0 (0x001e)  : Tom has complained to Pat Archer and she has reported me to Age Concern! They say I am inhuman! 
+0x04b2  /  0x3dff (0x0010)  : a reporter from the Sun arrives to talk about Tom! 
+0x04b3  /  0x3e10 (0x0004)  : deny everything
+0x04b4  /  0x3e15 (0x0030)  : . I say Tom was doing voluntary patrols. I have only just heard about them myself. I am as shocked as the reporter is. He asks to see Tom. 
+0x04b5  /  0x3e46 (0x0007)  : take Tom off night patrols
+0x04b6  /  0x3e4e (0x0008)  :  and deny everything. 
+0x04b7  /  0x3e57 (0x0007)  : refuse to see anybody
+0x04b8  /  0x3e5f (0x0002)  : . 
+0x04c4  /  0x3e63 (0x001d)  : brown owls do not make fearsome cries. They have a deep, haunting, dark-chocolate call. 
+0x04c5  /  0x3e81 (0x0031)  : the ferocious poacher claims to be a sociology lecturer from Warwick University ring-tagging pigeons. It is true! He has a copy of New Society in his mac pocket. 
+0x04d8  /  0x3eb4 (0x001b)  : the reporter interviews Tom at Keeper's Cottage. Tom says I have treated him like a donkey! 
+0x04d9  /  0x3ed0 (0x0006)  : make a joke of it
+0x04da  /  0x3ed7 (0x002f)  : , give the reporter a litre of Glenfiddich, and Tom a #2 bonus. Everyone is happy. I am glad I am a man of the world. 
+0x04db  /  0x3f07 (0x001c)  : bribe the reporter with a litre of Glenfiddich and a Winter Weekend break for him and his lady wife
+0x04dc  /  0x3f24 (0x0014)  : . He says, "that's very kind, guv'nor." 
+0x04dd  /  0x3f39 (0x0024)  : the story about Tom has appeared in the Sun. I am called a brutal slave-driver! Is there no justice in the world? 
+0x04de  /  0x3f5e (0x0005)  : threaten to sue
+0x04df  /  0x3f64 (0x0017)  : . They print the story anyway. I am called a brutal slave-driver! 
+0x04ec  /  0x3f7d (0x0028)  : I am shattered. Poachers are bad enough. Sociologists from Warwick University are an appalling prospect. What is the world coming to? 
+0x04ed  /  0x3fa6 (0x0014)  : we continue through the woods. There is another fearsome cry. 
+0x0500  /  0x3fbc (0x001c)  : my handyman, Higgs, rolls into Grey Gables drunk at midnight and breaks one of my windows. 
+0x0501  /  0x3fd9 (0x0005)  : warn him severely
+0x0502  /  0x3fdf (0x0029)  :  about persistent misconduct. He stares at me with a peculiar, wolfish grin. When he goes there is leaf mould on the carpet. 
+0x0503  /  0x4009 (0x0003)  : sack him
+0x0504  /  0x400d (0x0048)  : . He sneers, "Oh yes? Wor about the Chrysanth and Dahlia Show?" I say I can look after my own Chrysanths. He says, "Pod off then you gert lump." I am glad I am finally rid of him. 
+0x0505  /  0x4057 (0x0018)  : the Discerning Viewers and Listeners Committee are complaining about the word "Pod". 
+0x0506  /  0x4070 (0x0005)  : dock his wages
+0x0507  /  0x4076 (0x0014)  :  for the window. He must learn to pay for his misdeeds. 
+0x0514  /  0x408c (0x0030)  : Higgs has a fight with Tom Forrest! I cry out, "Was it over a chambermaid?" Caroline says, "No, over a cherry batter pudding." 
+0x0515  /  0x40bd (0x001a)  : Higgs staggers down the drive, carrying his belongings in two Fine Fare carrier bags. 
+0x0516  /  0x40d8 (0x0003)  : forgive him
+0x0517  /  0x40dc (0x001b)  : . He is an old servant, and besides it is only a week to the Chrysanthemum Show. 
+0x0518  /  0x40f8 (0x0008)  : make Tom drive him to the village
+0x0519  /  0x4101 (0x0013)  : . He calls Tom evil names and totters into the Bull. 
+0x051a  /  0x4115 (0x0009)  : let him stagger down the drive
+0x051b  /  0x411f (0x0017)  : . Nobody tells me to "Pod off" and gets away with it. 
+0x0528  /  0x4138 (0x0029)  : Higgs finds his wages docked and goes berserk. He calls me a tightfisted Woolleybags and swears I'll never win a Chrysanthemum award again! 
+0x0529  /  0x4162 (0x0007)  : give him a pay rise
+0x052a  /  0x416a (0x0013)  : . I dare not risk anything before the Chrysanthemum show. 
+0x052b  /  0x417e (0x0009)  : speak to him man to man
+0x052c  /  0x4188 (0x002e)  : . Broken windows must be paid for. He must take his punishment on the chin. He says he'll plant something on my chin if I don't pod off. 
+0x052d  /  0x41b7 (0x0007)  : ignore his uncouth ways
+0x052e  /  0x41bf (0x001d)  : . Higgs cannot help being a peasant and it is only four days to the Chrysanthemum Show. 
+0x052f  /  0x41dd (0x0005)  : try to understand him
+0x0530  /  0x41e3 (0x004d)  : . Higgs cannot help being a peasant. I say, "You can't help being a peasant." He breaks down! He says he didn't break the window at all! He says he's been blamed for things ever since he was a little boy! 
+0x053c  /  0x4233 (0x0009)  : he is lying through his teeth
+0x053d  /  0x423d (0x0024)  : . Three kitchenmaids saw him throw the rock through my study window shouting "Up yours, Woolleybags!" 
+0x053e  /  0x4262 (0x0007)  : he is telling the truth
+0x053f  /  0x426a (0x0026)  : ! The Admiral buttonholes me after cocktails at the Conservative Club and says, "Sorry about that window, do send me the bill." 
+0x0540  /  0x4291 (0x000c)  : he was too drunk to remember what he did
+0x0541  /  0x429e (0x0025)  : . I decide to let bygones be bygones. He says, "Never mind bygones, what about my good name?" 
+0x0550  /  0x42c5 (0x001b)  : Higgs' peculiar grin is more wolfish than ever. His eyes roll malevolently. 
+0x0551  /  0x42e1 (0x0006)  : it is dumb insolence
+0x0552  /  0x42e8 (0x002f)  : . He knows I cannot sack him just before the Chrysanthemum show! I give him one more chance. When he goes there is leaf mould on the carpet. 
+0x0553  /  0x4318 (0x0006)  : it is mental derangement
+0x0554  /  0x431f (0x000d)  : . Peggy says he should be locked up. 
+0x0555  /  0x432d (0x0008)  : it is a Higgs family trait
+0x0556  /  0x4336 (0x0018)  : . The family has been inbreeding in Perivale Under Edge for a thousand years. 
+0x0564  /  0x4350 (0x0024)  : Trudy asks if she and Juliana, our Spanish chambermaid, can move into his coachhouse flat now Higgs is gone. 
+0x0565  /  0x4375 (0x0051)  : Higgs returns at midnight, roaring drunk, to his flat at Grey Gables! Trudy and Juliana, our Spanish chambermaid, run screaming across the lawn! Higgs chases them into the swimming pool and jumps in after them! All the guests are peering out of their windows! 
+0x0566  /  0x43c8 (0x0014)  : I'm deluged with complaints about standards after that absurd party scene! 
+0x0567  /  0x43dd (0x0004)  : call the police
+0x0568  /  0x43e2 (0x001b)  : . By the time they arrive Higgs has crawled out of the pool and run off into the bushes. 
+0x0569  /  0x43fe (0x0007)  : pretend it's a party
+0x056a  /  0x4406 (0x003f)  : . It is the only way to avoid a scandal in front of the guests. I shout to them to come and join in the fun! They look at me strangely. I give a merry laugh and jump in the pool. 
+0x056b  /  0x4447 (0x0004)  : haul them out
+0x056c  /  0x444c (0x002f)  : . The girls are wearing little scanty nighties that are dripping wet. They give excited little screams and run round the lawn. All the guests are watching! 
+0x0578  /  0x447d (0x002d)  : Higgs is drunk again! Guests find him stretched out by the swimming pool after breakfast! There is a little trail of leaf mould zig-zagging across the lawn. 
+0x0579  /  0x44ab (0x0007)  : give him one last chance
+0x057a  /  0x44b3 (0x0015)  : . After all, he works miracles with my Woolley's Wonder chrysanths. 
+0x057b  /  0x44c9 (0x0003)  : sack him
+0x057c  /  0x44cd (0x0012)  : . There is no place for the likes of Higgs at Grey Gables. 
+0x057d  /  0x44e0 (0x0007)  : send him to Dr Poole
+0x057e  /  0x44e8 (0x0029)  : who gives him a blood test. Higgs leaves little piles of leaf mould in the surgery. Dr Poole says that this is odd. 
+0x058c  /  0x4513 (0x003b)  : I tell the police we were having a party that got out of hand. The Sergeant says, "Oi, oi, midnight bathing parties with chambermaids. You want to watch your step." 
+0x058d  /  0x454f (0x0005)  : reveal the truth
+0x058e  /  0x4555 (0x0021)  :  about the sacked and sex crazed Higgs. He says, "Right sir, leave it to us." 
+0x058f  /  0x4577 (0x0009)  : slip him a bottle of Glenfiddich
+0x0590  /  0x4581 (0x0023)  : . He says, "I'm not averse to a bit of fun myself. Mum's the word, Squire." 
+0x0591  /  0x45a5 (0x0006)  : accuse him of impertinence
+0x0592  /  0x45ac (0x0022)  : . He says, "Fancy a trip to the station, do you?" I give him a litre of Glenfiddich. 
+0x05a0  /  0x45d0 (0x0020)  : I am in bed with flu. Peggy says I am too old to cavort in the pool at midnight with the chambermaids and Higgs. 
+0x05a1  /  0x45f1 (0x000c)  : Tom says my Woolley's Wonder is wilting! 
+0x05a2  /  0x45fe (0x0007)  : hire a new gardener
+0x05a3  /  0x4606 (0x0002)  : . 
+0x05a4  /  0x4609 (0x0024)  : the new gardener is drunker than Higgs. My Woolley's Wonder dies. I will win nothing in the Chrysanthemum Show. 
+0x05a5  /  0x462e (0x0006)  : tend to it myself
+0x05a6  /  0x4635 (0x000c)  : . It wilts more than ever. 
+0x05a7  /  0x4642 (0x0004)  : search for Higgs
+0x05a8  /  0x4647 (0x0021)  :  and find him hiding in the Horobins' loft. He agrees to return if I increase his salary. 
+0x05b4  /  0x466a (0x001d)  : the police search for Higgs with tracker dogs! Trudy and Juliana plead tearfully on his behalf! 
+0x05b5  /  0x4688 (0x0009)  : tell the police it was a mistake
+0x05b6  /  0x4692 (0x001d)  : . They call off their dragnet and Det. Inspector Barry warns me about wasting police time. 
+0x05b7  /  0x46b0 (0x0004)  : stand firm
+0x05b8  /  0x46b5 (0x003b)  : . Higgs is an idle, drunken, sex-crazed fiend. The girls go to the police themselves! They say Higgs is innocent (What a laugh!) The police call off their dragnet. 
+0x05b9  /  0x46f1 (0x0008)  : smuggle Higgs out of the country
+0x05ba  /  0x46fa (0x0002)  : . 
+0x05bb  /  0x46fd (0x0031)  : how would Jack smuggle Higgs out of the country? What about the Chrysanthemum show? What will we do without Higgs? What do you think you are writing for, Dallas? 
+0x05c8  /  0x4730 (0x0041)  : Higgs's blood test shows 90% proof. Dr Poole warns him severely against drink. I warn him severely against drink. He grins wolfishly and leaves a pile of leaf mould on the carpet. 
+0x05c9  /  0x4773 (0x0007)  : ignore his drink problem
+0x05ca  /  0x477b (0x0019)  : . After all, it's Tom Forrest who gets thumped and the chambermaids who get chased. 
+0x05cb  /  0x4795 (0x0008)  : send him to a rehabilitation clinic
+0x05cc  /  0x479e (0x0002)  : . 
+0x05cd  /  0x47a1 (0x0006)  : speak to him gently
+0x05ce  /  0x47a8 (0x002c)  : . He tells me he is in love! He wants to marry Juliana (our Spanish chambermaid) and make a little home for her over the coachhouse. 
+0x05cf  /  0x47d5 (0x000a)  : throw a party for them by the pool
+0x05d0  /  0x47e0 (0x0030)  : . Everybody gets excited and falls in. The police arrive and the sergeant says, "At it again, eh, Squire? What a life!" 
+0x05d1  /  0x4811 (0x0004)  : warn Juliana
+0x05d2  /  0x4816 (0x0053)  :  against marrying a drunk who deposits leaf mould everywhere. She laughs! She tells me that every night they swig Spanish sherry in the potting shed where the leaf mould is kept. This is appalling. I knew we should not have allowed Spain into the Common Market. 
+0x05d3  /  0x486b (0x0006)  : ask Caroline's advice
+0x05d4  /  0x4872 (0x0013)  : . She says marriage will calm Higgs down. I doubt it. 
+0x05dc  /  0x4887 (0x0018)  : 16 policemen turn up in their bathing trunks and demand a party with the chambermaids. 
+0x05dd  /  0x48a0 (0x000f)  : this party story is getting beyond a joke! 
+0x05de  /  0x48b0 (0x0003)  : send Trudy
+0x05df  /  0x48b4 (0x001a)  :  and the chambermaids out to play with the policemen. They cavort round the pool and scream. 
+0x05e0  /  0x48cf (0x0002)  : send Peggy
+0x05e1  /  0x48d2 (0x000b)  :  out to play with the policemen. 
+0x05e2  /  0x48de (0x000b)  : threaten to speak to the Chief Constable
+0x05e3  /  0x48ea (0x000a)  : . What do the policemen do? 
+0x05e4  /  0x48f5 (0x0009)  : claim the party was a joke
+0x05e5  /  0x48ff (0x0021)  : . They sit in the bar drinking halves of bitter and looking sad. After a bit they go home. 
+0x05e6  /  0x4921 (0x0004)  : turn nasty
+0x05e7  /  0x4926 (0x0023)  : . They chant "Knickers! Knickers!" And "Chambermaids! Chambermaids!" And jump in the pool. 
+0x05e8  /  0x494a (0x000c)  : tell me the Chief Constable is on his way
+0x05e9  /  0x4957 (0x0002)  : . 
+0x05f0  /  0x495b (0x001b)  : Trudy and the girls play football with a policeman's helmet! The policemen roar happily! 
+0x05f1  /  0x4977 (0x0008)  : Higgs appears out of the bushes
+0x05f2  /  0x4980 (0x0024)  : ! He tries to join in the fun and falls in the pool. He is drunk. The chambermaids put him to bed. 
+0x05f3  /  0x49a5 (0x0017)  : I decide to forgive Higgs. It is only two days to the Chrysanthemum show. 
+0x05f4  /  0x49bd (0x0007)  : the Chief Constable appears
+0x05f5  /  0x49c5 (0x0022)  : ! He has two large G and Ts, borrows my Union Jack swimming trunks and joins in the fun. 
+0x05f6  /  0x49e8 (0x0008)  : Peggy and Mrs Perkins appear
+0x05f7  /  0x49f1 (0x0022)  :  in swimming costumes. They try to join in the fun and frolics. Soon, the policemen go home. 
+0x0604  /  0x4a15 (0x0024)  : Higgs returns! He escapes from trembling Towers and hides in Leader's Wood! People hear him howling to the moon! 
+0x0605  /  0x4a3a (0x0008)  : Higgs is turning into a wolf
+0x0606  /  0x4a43 (0x0022)  : ! I noticed the wolfish grin weeks ago! The little piles of leaf mould have something to do with it! 
+0x0607  /  0x4a66 (0x000a)  : this werewolf nonsense is absurd! 
+0x0608  /  0x4a71 (0x0007)  : Higgs is a nut case
+0x0609  /  0x4a79 (0x0023)  : . It has been coming on for some time. We entice him out of the wood and send him to the Funny Farm. 
+0x060a  /  0x4a9d (0x0005)  : Higgs is in love
+0x060b  /  0x4aa3 (0x001d)  : ! I find him in a flowery woodland bower writing odes to Juliana our Spanish chambermaid! 
+0x0618  /  0x4ac2 (0x0025)  : Peggy wears an elasticated emerald green swimming costume and a bathing cap with large daisies on it. What do the policemen do? 
+0x0619  /  0x4ae8 (0x0005)  : frolic in the pool
+0x061a  /  0x4aee (0x002e)  :  and make little whooping noises, but their hearts are not in it. Soon, they go home. Peggy shouts, "Come again, boys!" 
+0x061b  /  0x4b1d (0x0006)  : run to the bar
+0x061c  /  0x4b24 (0x0014)  :  and order large whiskies which they tell me are on the house. 
+0x061d  /  0x4b39 (0x0004)  : turn nasty
+0x061e  /  0x4b3e (0x002b)  : . They say that if Peggy's a chambermaid then I'm an elephant. I am saved by Caroline, who subdues them with her crisp, aristocratic demeanour. 
+<EOM>

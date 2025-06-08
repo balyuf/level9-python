@@ -1,5 +1,5 @@
 #title: The Saga of Erik the Viking test script;
-#comment: Spectrum version [v2]. Based on a solution by Jacob Gunness;
+#comment: MSX version [v2]. Based on a solution by Jacob Gunness;
 
 #SEED 42;
 D [You begin on a Mountain Path];
@@ -494,4 +494,4 @@ DROP CAT;
 DROP BELL;
 OPEN DOOR;
 W [empty handed you walk through the door and find your family. The game is now solved with a score of 1000/1000 !!];
-
+N;

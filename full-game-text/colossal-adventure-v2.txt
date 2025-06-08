@@ -2,9 +2,7 @@ Welcome to Colossal Adventure, the original classic mainframe adventure, from Le
 You are standing beside a small brick building at the end of a road from the north. A river flows south. To the north is open country and all around is dense forest
 What now?
 #title: Colossal Adventure test script
-Invalid command
-#comment: CPC version
-Invalid command
+#comment: MSX version
 #SEED 42
 Seed set to 42
 E

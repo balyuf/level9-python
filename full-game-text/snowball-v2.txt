@@ -4,9 +4,7 @@ Enter English phrases (without punctuation) to play, save the Snowball to win. G
 It is dark, you cannot see
 What now?
 #title: Snowball test script
-Invalid command
 #comment: MSX version
-Invalid command
 #SEED 42
 Seed set to 42
 QUIT

@@ -1,0 +1,786 @@
+0x0001  /  0x0dc6 (0x0001)  :  
+0x0002  /  0x0dc8 (0x0003)  : ;
+
+0x0003  /  0x0dcc (0x0003)  : ,
+
+0x0004  /  0x0dd0 (0x0003)  : .
+
+0x0005  /  0x0dd4 (0x0002)  : 
+
+0x0006  /  0x0dd7 (0x0003)  :  and 
+0x0007  /  0x0ddb (0x0003)  : .
+
+0x0008  /  0x0ddf (0x0002)  : ) 
+0x0009  /  0x0de2 (0x0002)  : I 
+0x000a  /  0x0de5 (0x0002)  : ? 
+0x000b  /  0x0de8 (0x0005)  : 
+ 
+
+0x000c  /  0x0dee (0x0002)  : : 
+0x000d  /  0x0df1 (0x0002)  : . 
+0x000e  /  0x0df4 (0x0002)  : , 
+0x001c  /  0x0df8 (0x0008)  : yes y on enable
+0x001d  /  0x0e01 (0x0008)  : no n off disable
+0x001e  /  0x0e0a (0x0006)  : zero nought 0
+0x001f  /  0x0e11 (0x000a)  : 1)  [aka] one 1
+0x0020  /  0x0e1c (0x000a)  : 2)  [aka] two 2
+0x0021  /  0x0e27 (0x000a)  : 3)  [aka] three 3
+0x0022  /  0x0e32 (0x0018)  : type a command or HELP for details. Then press ENTER or RETURN. [aka] four 4
+0x0023  /  0x0e4b (0x0006)  : E five 5
+0x0024  /  0x0e52 (0x0006)  : F six 6
+0x0025  /  0x0e59 (0x0006)  : G seven 7
+0x0026  /  0x0e60 (0x0006)  : H eight 8
+0x0027  /  0x0e67 (0x0006)  : I nine 9
+0x0028  /  0x0e6e (0x000b)  : select one of these alternatives:
+
+0x0029  /  0x0e7a (0x000a)  : choose one of the following:
+
+0x002a  /  0x0e85 (0x0007)  : pick one of:
+
+0x002b  /  0x0e8d (0x0004)  : help info
+0x002c  /  0x0e92 (0x0002)  : save
+0x002d  /  0x0e95 (0x0004)  : load restore
+0x002e  /  0x0e9a (0x0004)  : pictures graphics
+0x002f  /  0x0e9f (0x0004)  : printer list
+0x0030  /  0x0ea4 (0x0002)  : demo
+0x0031  /  0x0ea7 (0x0002)  : restart
+0x0032  /  0x0eaa (0x0089)  : the commands are: 
+SAVE position on tape; 
+LOAD previously saved position; 
+PICTURES ON or PICTURES OFF; 
+PRINTER ON or PRINTER OFF; 
+DEMO to demonstrate the game; 
+RESTART to start again; 
+SCORE for an audience survey. 
+For more information, type HELP followed by the name of a command and press ENTER or RETURN. To return to the game, just press ENTER or RETURN by itself. [aka] score
+0x0033  /  0x0f36 (0x006b)  : SAVE stores your position (the state of play) on cassette. Start a blank tape on RECORD, type SAVE and press ENTER or RETURN. If you're asked for a file name, type a short word (e.G. ANYNAME). Press ENTER or RETURN twice. When you're told the saving has finished, stop the tape. 
+0x0034  /  0x0fa3 (0x006b)  : LOAD reads a previously saved position from cassette. Type LOAD and press ENTER or RETURN. (If you are asked for a file name, type the same name as when you SAVEd it.) Press ENTER or RETURN. Rewind the tape on which the position was saved and start it on PLAY. (If the tape doesn't move, press ENTER or RETURN again.) 
+0x0035  /  0x1010 (0x005b)  : PICTURES turns the graphics off or back on. (The main reason for turning the pictures off is that more text fits on the screen). 
+ 
+Type PICTURES OFF and press ENTER or RETURN to stop pictures being displayed when you play the game. Type PICTURES ON and press ENTER or RETURN to display them again. 
+0x0036  /  0x106d (0x0063)  : PRINTER allows you to make a typed listing of the story as it unfolds. (Only try this if you know what you are doing; connecting a printer to a computer can be tricky!) 
+ 
+Type PRINTER ON and press ENTER or RETURN to list the story as you play. Type PRINTER OFF and press ENTER or RETURN to stop this. 
+0x0037  /  0x10d2 (0x003d)  : DEMO provides a continuous demonstration of the game, with the computer making random decisions.
+ 
+Type DEMO and press ENTER or RETURN for automatic play. Press just about any key to stop the demonstration. 
+0x0038  /  0x1110 (0x0025)  : RESTART starts the game again at the beginning of the current part. 
+ 
+Type RESTART and press ENTER or RETURN to start again. 
+0x0039  /  0x1136 (0x0055)  : SCORE reports how well, or badly, you are doing under various categories. Your main aim is to attract as many listeners as possible, but be careful not to do too badly in any category because you'll be fired. E.G if standards drop too far. 
+0x003a  /  0x118d (0x0022)  : 
+ 
+that's the end of this part of the game. Would you like to continue with the next part? 
+0x003b  /  0x11b0 (0x0040)  : 
+check the program tape/disk is in the drive and press ENTER or RETURN. If using tape, check the recorder is set to PLAY (if the tape isn't moving, press ENTER or RETURN again). 
+0x003c  /  0x11f2 (0x0046)  : 
+welcome to part two of the "The Archers" from Level 9 and Mosaic. If you are loading from tape, and it is still running, STOP THE TAPE IMMEDIATELY. Then press any key to start the game. 
+0x003d  /  0x123a (0x0008)  : 
+SAVE completed. 
+0x003e  /  0x1243 (0x0008)  : 
+LOAD completed. 
+0x003f  /  0x124c (0x0027)  : 
+ 
+DEMO stopped. Press SHIFT when the game pauses and 1-4 to make decisions in future.
+ 
+
+0x0040  /  0x1274 (0x0043)  : 
+ 
+well done! You've reached the end of the Archer's game and proved your worth as a trainee scriptwriter!
+ 
+Would you like to play the final part again and try for an even better score? 
+0x0041  /  0x12b9 (0x0040)  : this program would normally be loaded after you have finished playing through the part of the game leading up to it. This seems not to have happened. No problem, except that the score starts with default values. 
+0x0042  /  0x12fb (0x0037)  : the position you just LOADed doesn't look as if it was saved from this part of the Archers game. No problem, except that you'll have to continue from the start of this part of the game. 
+0x0043  /  0x1333 (0x001f)  : and, because the position was SAVEd from a later part of the game, the score has been reset. 
+0x0044  /  0x1353 (0x000d)  : sorry, I don't understand that command. 
+0x0045  /  0x1361 (0x0038)  : 
+ 
+MEMO FROM CR4: unfortunately you've not gained the 1 million extra listeners needed for you to proceed to the next part. Better try again...
+ 
+
+0x0046  /  0x139a (0x000c)  : DEMO started. Please wait. 
+0x005a  /  0x13a8 (0x001f)  : in this section, you control the story-line for Elizabeth Archer, 19 year old femme fatale. 
+0x0064  /  0x13c9 (0x000a)  : I'm getting complaints about realism. 
+0x0065  /  0x13d4 (0x000e)  : some of the Archers are behaving most oddly. 
+0x0066  /  0x13e3 (0x000e)  : the lack of realism has gone too far. 
+0x0067  /  0x13f2 (0x0011)  : better make the Archers behave more sensibly. Pronto! 
+0x0068  /  0x1404 (0x000d)  : there's been little of interest lately. 
+0x0069  /  0x1412 (0x000b)  : can't you pep it up a bit? 
+0x006a  /  0x141e (0x000e)  : you've not kept the plots interesting enough. 
+0x006b  /  0x142d (0x0009)  : better add more variety. 
+0x006c  /  0x1437 (0x000f)  : the moral majority are baying for your blood. 
+0x006d  /  0x1447 (0x000d)  : they claim your scripts lower standards. 
+0x006e  /  0x1455 (0x000d)  : you've let standards slip too far. 
+0x006f  /  0x1463 (0x000f)  : better not offend good taste for a while. 
+0x0070  /  0x1473 (0x000c)  : you're not making my life easy. 
+0x0071  /  0x1480 (0x000e)  : try to remember you're working at the BBC! 
+0x0072  /  0x148f (0x000c)  : you've caused me too many problems. 
+0x0073  /  0x149c (0x0009)  : stop rocking the boat! 
+0x0082  /  0x14a7 (0x0002)  : I 
+0x0083  /  0x14aa (0x0003)  : it is 
+0x0084  /  0x14ae (0x0004)  : Nigel suggests 
+0x0085  /  0x14b3 (0x0005)  : I say, "
+0x0086  /  0x14b9 (0x0005)  : I get him to 
+0x0087  /  0x14bf (0x0005)  : I offer to 
+0x0088  /  0x14c5 (0x0005)  : I take them to 
+0x0089  /  0x14cb (0x0004)  : martha says 
+0x008a  /  0x14d0 (0x0004)  : I go to 
+0x008b  /  0x14d5 (0x0004)  : we go to 
+0x008c  /  0x14da (0x0002)  : we 
+0x008d  /  0x14dd (0x0004)  : I join 
+0x008e  /  0x14e2 (0x0006)  : I get lifts from 
+0x008f  /  0x14e9 (0x0004)  : we find it 
+0x0097  /  0x14ef (0x0012)  : MEMO FROM CR4, BROADCASTING HOUSE, LONDON. 
+0x0098  /  0x1502 (0x000c)  : audience research shows the Archers reaching 
+0x0099  /  0x150f (0x0001)  : ,
+0x009a  /  0x1511 (0x0009)  : 00,000 listeners. 
+0x009f  /  0x151c (0x000a)  : you're fired!
+ 
+
+0x00a0  /  0x1527 (0x0019)  : 
+ 
+but as this is just a simulation, you get to try again... 
+0x00a1  /  0x1541 (0x0005)  : watch it. 
+0x00a2  /  0x1547 (0x0009)  : pull your socks up. 
+0x00a4  /  0x1552 (0x0006)  : best wishes. 
+0x00a5  /  0x1559 (0x0006)  : well done. 
+0x00a6  /  0x1560 (0x0004)  : congratulations! 
+0x00a7  /  0x1565 (0x000a)  : you're doing a superb job! 
+0x00a8  /  0x1570 (0x000d)  : you must be in line for an OBE. 
+0x00a9  /  0x157e (0x000b)  : remember me when you're the DG. 
+0x00b4  /  0x158b (0x0014)  : a survey shows the status of the Archers programme to be... 
+0x00b5  /  0x15a0 (0x0002)  : realism
+0x00b6  /  0x15a3 (0x0002)  : interest
+0x00b7  /  0x15a6 (0x0002)  : standards
+0x00b8  /  0x15a9 (0x0004)  : CR4's opinion
+0x00b9  /  0x15ae (0x0002)  : abysmal
+0x00ba  /  0x15b1 (0x0002)  : low
+0x00bb  /  0x15b4 (0x0002)  : average
+0x00bc  /  0x15b7 (0x0002)  : high
+0x00bd  /  0x15ba (0x0002)  : excellent
+0x00c8  /  0x15be (0x002f)  : Nigel Pargetter is desperate to go out with me, but I think he's a wimp and and rather boring. He keeps asking me to La Bonne Peche for dinner. 
+0x00c9  /  0x15ee (0x0009)  : go along for a free meal
+0x00ca  /  0x15f8 (0x002a)  : . The food is scrumptious and Nigel buys lots of champagne. I spy Brian Aldridge and Caroline at a cosy table across the room. 
+0x00cb  /  0x1623 (0x0004)  : call them over
+0x00cc  /  0x1628 (0x0015)  : . They don't hear me, but leave the restaurant soon after. 
+0x00cd  /  0x163e (0x0008)  : pretend I haven't seen them
+0x00ce  /  0x1647 (0x001c)  : . Then Nigel notices them and gets terribly embarrassed. He insists on taking me somewhere else. 
+0x00cf  /  0x1664 (0x0001)  : Nelson's
+0x00d0  /  0x1666 (0x0002)  : . 
+0x00dc  /  0x166a (0x001b)  : Nigel is so boring I can't stand it. I tell him I never want to see him again. 
+0x00dd  /  0x1686 (0x000a)  : the new "Friday's" nightclub
+0x00de  /  0x1691 (0x0002)  : . 
+0x00df  /  0x1694 (0x0004)  : Grey Gables
+0x00e0  /  0x1699 (0x0002)  : . 
+0x00e1  /  0x169c (0x0002)  : wave
+0x00e2  /  0x169f (0x000c)  : . They don't appear to see me. 
+0x00f0  /  0x16ad (0x000f)  : after our meal, Nigel takes me home. 
+0x00f1  /  0x16bd (0x000d)  : Nigel asks me when he can see me again. 
+0x00f2  /  0x16cb (0x0002)  : never
+0x00f3  /  0x16ce (0x0021)  : ." Nigel breaks down and says how much he's always loved me. I push him away from the door. 
+0x00f4  /  0x16f0 (0x001e)  : Nigel asks me to go to a point-to-point. I go. Nigel wins #15 on his horse. 
+0x00f5  /  0x170f (0x0005)  : buy some more champagne
+0x00f6  /  0x1715 (0x001f)  : . We arrive back at Brookfield terribly drunk. Dad gets all huffy and bans Nigel from the house. 
+0x00f7  /  0x1735 (0x0005)  : give it to me
+0x00f8  /  0x173b (0x0019)  : . I put it on the horse that Tim Beecham is riding. It comes in last. 
+0x00f9  /  0x1755 (0x0003)  : keep it
+0x00fa  /  0x1759 (0x000d)  :  and not lose it by further gambling. 
+0x00fb  /  0x1767 (0x0011)  : Nigel admits he's saving up for an engagement ring for me! 
+0x0104  /  0x177a (0x0012)  : Nigel proposes marriage. He goes down on both knees. 
+0x0105  /  0x178d (0x0002)  : accept
+0x0106  /  0x1790 (0x002b)  : . I tell everyone about my engagement and show off my ring. I tell Tim Beecham that Nigel and I are going to Bali for our honeymoon to make him jealous. 
+0x0108  /  0x17bd (0x0003)  : say no
+0x0109  /  0x17c1 (0x001c)  :  with a laugh. Nigel is very upset. He decides to go on safari to forget. 
+0x010a  /  0x17de (0x0007)  : say I'll think about it
+0x010b  /  0x17e6 (0x0002)  : . 
+0x010c  /  0x17e9 (0x0020)  : I fantasise about weddings and having a house of my own. But then I remember that Nigel hasn't got a job. 
+0x010d  /  0x180a (0x0006)  : tell Nigel to get a job
+0x010e  /  0x1811 (0x001c)  : . He says he's tired of selling ice cream and fertilisers; he wants something different. 
+0x010f  /  0x182e (0x0020)  : Nigel gets a job - on a millionaire's yacht heading for Turkey. He says it might be a long engagement. 
+0x0110  /  0x184f (0x001d)  : fans are writing in from Nigel Pargetter clubs all over the country, demanding he stays in Ambridge. 
+0x0118  /  0x186e (0x0007)  : tell Nigel I can't marry him
+0x0119  /  0x1876 (0x002c)  :  if he hasn't got a job. He comes back saying the Forestry Commission have given him a job planting out little trees. I tell him he's a fool. 
+0x011a  /  0x18a3 (0x000e)  : remind myself that Nigel will inherit the Pargetter millions
+0x011b  /  0x18b2 (0x0013)  : . I look through Country Life for the house I want. 
+0x011c  /  0x18c6 (0x0017)  : Nigel tells me that his father has disinherited him. I break off the engagement. 
+0x012c  /  0x18df (0x000a)  : Tim Beecham is not at all impressed. 
+0x012d  /  0x18ea (0x0009)  : carry on with the wedding plans
+0x012e  /  0x18f4 (0x000e)  : . I tell Dad I'm getting married to Nigel. 
+0x012f  /  0x1903 (0x0003)  : he explodes
+0x0130  /  0x1907 (0x001e)  :  and says that he is having nothing to do with it. He says that he will buy me a flat instead. 
+0x0131  /  0x1926 (0x0011)  : I tell Nigel that he is far too good to marry me. 
+0x0132  /  0x1938 (0x0008)  : he takes it in his stride
+0x0133  /  0x1941 (0x0014)  : . He then says he is going to convert my room into a study. 
+0x0135  /  0x1957 (0x0005)  : go into a decline
+0x0136  /  0x195d (0x001a)  : . Dad hints that if I decide not to get married he might buy me a new car. 
+0x0137  /  0x1978 (0x0005)  : cancel the engagement
+0x0138  /  0x197e (0x0012)  : . I am far too young to get married after all. 
+0x0139  /  0x1991 (0x0004)  : he looks pleased
+0x013a  /  0x1996 (0x0002)  : . 
+0x0140  /  0x199a (0x0006)  : turn down the invitation
+0x0141  /  0x19a1 (0x000c)  : . I can't stand being bored. 
+0x0142  /  0x19ae (0x000d)  : No one has rung me up for days. 
+0x0143  /  0x19bc (0x0005)  : ring up Tim Beecham
+0x0144  /  0x19c2 (0x0010)  : . We arrange to meet at the Blue Boar. 
+0x0145  /  0x19d3 (0x000b)  : Tim stood me up last night. 
+0x0146  /  0x19df (0x000b)  : tell Nigel I will go out with him for dinner
+0x0147  /  0x19eb (0x0002)  : . 
+0x0148  /  0x19ee (0x0007)  : decide to do some work
+0x0149  /  0x19f6 (0x0031)  : , but a gregarious girl like me cannot be imprisoned for long. I phone Nigel up and say he's got to take me somewhere exciting. We go to the new Friday's nightclub. 
+0x0154  /  0x1a29 (0x0030)  : Friday's is excellent. It's all fast food and hunky American waiters on roller skates. I flirt outrageously with one of them and he asks me to go out with him. 
+0x0155  /  0x1a5a (0x0003)  : abandon Nigel
+0x0156  /  0x1a5e (0x000a)  :  and go off with the waiter. 
+0x0158  /  0x1a6a (0x0022)  : the waiter is called Brad Schwarz and he's from California. He's taking me weight training and I am madly in love. 
+0x0159  /  0x1a8d (0x000c)  : he invites me to go over to America with him
+0x015a  /  0x1a9a (0x000d)  : . I will start saving up like mad. 
+0x015b  /  0x1aa8 (0x000c)  : he tells me he's got a girlfriend in America
+0x015c  /  0x1ab5 (0x0010)  : . I tell him I will never go out with him again. 
+0x015d  /  0x1ac6 (0x0007)  : he continues to ask me out
+0x015e  /  0x1ace (0x0002)  : . 
+0x015f  /  0x1ad1 (0x001b)  : Nigel keeps pestering me all the time. I don't think I will ever get rid of him. 
+0x0168  /  0x1aee (0x0006)  : let Nigel take me home
+0x0169  /  0x1af5 (0x0002)  : . 
+0x016a  /  0x1af8 (0x000a)  : arrange to meet the waiter later
+0x016b  /  0x1b03 (0x0008)  :  on in the week. 
+0x016c  /  0x1b0c (0x000e)  : go along and take my A level books with me
+0x016d  /  0x1b1b (0x0018)  :  and pretend to revise while I am eating. Nigel gets quite upset. 
+0x017c  /  0x1b35 (0x0004)  : next month
+0x017d  /  0x1b3a (0x000d)  :  some time." Nigel looks upset. 
+0x017e  /  0x1b48 (0x0002)  : tomorrow
+0x017f  /  0x1b4b (0x0018)  : ." Nigel looks suspicious. I tell him I want to go to Friday's nightclub. 
+0x0190  /  0x1b65 (0x0024)  : Sid Perks needs extra help in the Bull. It's money for old rope standing behind a bar chatting to people. 
+0x0191  /  0x1b8a (0x0003)  : start immediately
+0x0192  /  0x1b8e (0x0034)  : . Sid puts me in the Snug where it is quiet. I watch Uncles Walter and Tom playing dominoes, serve them two pints each and am bored rigid. 
+0x0193  /  0x1bc3 (0x0005)  : give up the job
+0x0194  /  0x1bc9 (0x0002)  : . 
+0x0195  /  0x1bcc (0x0012)  : I realise how poor I am and ask Sid to take me back. 
+0x0196  /  0x1bdf (0x0008)  : he says, "Yes"
+0x0197  /  0x1be8 (0x000d)  : , but I must do what I'm told. 
+0x0198  /  0x1bf6 (0x0008)  : Sid says, "No"
+0x0199  /  0x1bff (0x0017)  : . He claims I'm not really cut out for the job. What a cheek! 
+0x019a  /  0x1c17 (0x000a)  : Sid says he's got a special job for me
+0x019b  /  0x1c22 (0x000b)  : . It sounds most mysterious. 
+0x01a4  /  0x1c2f (0x0002)  : tell Dad
+0x01a5  /  0x1c32 (0x0047)  : . He says he doesn't want his daughter working in the local pub. I remind him Sophie used to work in the college bar (we used to bet on whether she'd give the right change!) and he lets me go. 
+0x01b8  /  0x1c7c (0x0020)  : I am put in the Public. I wear my leather minidress like Yoyo's and make my hair really wild. 
+0x01b9  /  0x1c9d (0x000e)  : Sid says I've got to wear something less revealing
+0x01ba  /  0x1cac (0x000d)  : . I sulk. What a dump! 
+0x01bb  /  0x1cba (0x000b)  : Uncle Walter asks if I'm going swimming
+0x01bc  /  0x1cc6 (0x0012)  : . I try to explain about fashions but he doesn't understand. 
+0x01cc  /  0x1cda (0x0028)  : Sophie and David walk in. She is wearing a huge black sack thing. She asks for a white wine and mineral water. 
+0x01cd  /  0x1d03 (0x0006)  : lace it with gin
+0x01ce  /  0x1d0a (0x0029)  : . Her speech becomes slower than ever and her eyes start rolling around. Then she starts chatting like fury to Jethro about darts. 
+0x01cf  /  0x1d34 (0x0007)  : David drinks a lot too
+0x01d0  /  0x1d3c (0x001d)  : , then tells Sophie that he's going home. Sophie bursts into tears and I have to console her. 
+0x01d1  /  0x1d5a (0x0006)  : David takes Sophie home
+0x01d2  /  0x1d61 (0x000a)  : . It is all very funny. 
+0x01d3  /  0x1d6c (0x0005)  : David shouts at me
+0x01d4  /  0x1d72 (0x0014)  : . It's not fair. I can't be blamed for Sophie's drunkenness. 
+0x01e0  /  0x1d88 (0x0006)  : ask for higher wages
+0x01e1  /  0x1d8f (0x002b)  : . Sid says he can't afford it, but he'll give me as much work as I can take. That isn't quite what I had in mind. 
+0x01e2  /  0x1dbb (0x000a)  : demand to be put in the Ploughmans
+0x01e3  /  0x1dc6 (0x002c)  : . There's a beautiful Indian bloke in there who looks ever so rich. Unfortunately I tip the ashtray over his suit when I wipe his table. 
+0x01e4  /  0x1df3 (0x000a)  : put a chaser in their drinks
+0x01e5  /  0x1dfe (0x0023)  : . They sing "Daisy, Daisy" and then Uncle Walter comes over all funny and has one of his turns. 
+0x01e6  /  0x1e22 (0x0018)  : the BBC cannot condone the dangerous act of secretly adding spirits to drinks. 
+0x01f4  /  0x1e3c (0x0016)  : Dad tells me off and comes down to the Bull to keep an eye on me. 
+0x01f5  /  0x1e53 (0x0005)  : Tim Beecham walks in
+0x01f6  /  0x1e59 (0x003f)  : . He calls me "Darling" and asks for a free drink. I refuse. Tim sings, "I'm a Lizard with a Zee" and I empty crisps down his neck. Sid is furious. 
+0x01f7  /  0x1e9a (0x0005)  : Sid kicks Tim out
+0x01f8  /  0x1ea0 (0x001d)  : . He is banned for a month so there's not much point in working in the pub anymore. 
+0x01f9  /  0x1ebe (0x0004)  : Sid sacks me
+0x01fa  /  0x1ec3 (0x0009)  : . It is so unfair. 
+0x01fb  /  0x1ecd (0x000d)  : Sid tells us to stop making a fuss
+0x01fc  /  0x1edb (0x0020)  : . Tim promises to stop calling me names. Instead he pulls faces at me across the bar. 
+0x0208  /  0x1efd (0x0011)  : Sid asks me to call last orders at the Bull. 
+0x0209  /  0x1f0f (0x0006)  : the customers go peacefully
+0x020a  /  0x1f16 (0x002a)  : . Then I have to clean all the surfaces and stack the shelves. All I have to look forward to in life is work. It's not fair! 
+0x020b  /  0x1f41 (0x0004)  : everyone ignores me
+0x020c  /  0x1f46 (0x002e)  : . Uncle Walter pretends he hasn't heard, Uncle Tom is droning on about his rhubarb and Tim Beechamis laughing in a corner with a lot of girls. 
+0x020d  /  0x1f75 (0x0012)  : Nigel comes haring through the door, asking for a drink. 
+0x020e  /  0x1f88 (0x000d)  : say he must get rid of the customers first
+0x020f  /  0x1f96 (0x0024)  : . Nigel puts on an authoritative voice and frightens them all off with a soda syphon. Perhaps he is not so bad. 
+0x0210  /  0x1fbb (0x0005)  : make him take me out
+0x0211  /  0x1fc1 (0x0009)  :  to a night club. 
+0x0212  /  0x1fcb (0x0023)  : Sid is furious. He came back at 12 o'clock last night to find the whole of Ambridge drunk in his pub. 
+0x0213  /  0x1fef (0x0007)  : send him into the kitchen
+0x0214  /  0x1ff7 (0x0015)  : . The dishwasher has broken down so I make Nigel do the day's dishes. 
+0x0226  /  0x200e (0x0009)  : Eddie Grundy demands another drink
+0x0227  /  0x2018 (0x0015)  : . When he keeps insisting I pour tomato juice on his head. 
+0x0230  /  0x202f (0x000d)  : give her all wine and little mineral water
+0x0231  /  0x203d (0x0007)  : . She complains. 
+0x0232  /  0x2045 (0x0007)  : tell her she's a wimp
+0x0233  /  0x204d (0x001f)  : . Sophie thinks it's the same as a Yuppie and goes round telling everyone. David is furious. 
+0x0244  /  0x206e (0x000e)  : Sid makes me sort out the bottles in the cellar
+0x0245  /  0x207d (0x0045)  : . I sing the rude version of 9 green bottles, which Tim taught me, but the cellar is a filthy pit and I soon get dirty and fed-up. I tell Sid my back is playing up, to escape from that ale-hole. 
+0x0258  /  0x20c5 (0x0034)  : I am on garden duty at the Bull, but people won't let me sun-bathe in peace. I have to run about a lot and wait hand and paw on Gyp and Captain. 
+0x0259  /  0x20fa (0x0007)  : tread on Captain's tail
+0x025a  /  0x2102 (0x0038)  : , then have to bandage the stupid animal. He slobbers all over my leather mini-dress, but Jack Woolley offers me a job dog walking for two weeks, which sounds a doddle! 
+0x025b  /  0x213b (0x0008)  : drop a tray of empties
+0x025c  /  0x2144 (0x0023)  :  into Auntie Peggy's lap. I decide it's time to have a drink, so I pretend to have fainted from over-work. 
+0x025d  /  0x2168 (0x0006)  : find a Dutch hitch-hiker
+0x025e  /  0x216f (0x0037)  :  called Freek Labots sitting in the garden. He got lost on his way to Stratford. Freek is very good-looking and interesting. He persuades me to go hitch-hiking round Europe with him! 
+0x026c  /  0x21a8 (0x0036)  : I go for a job at Nelson's wine bar. He says that Shane is going away for two weeks, but I've got to be able to match Shane's juggling tricks with cocktails and ice-buckets. 
+0x026d  /  0x21df (0x0005)  : fail the test
+0x026e  /  0x21e5 (0x0013)  : , have a drink or three to drown my sorrows and go home. 
+0x026f  /  0x21f9 (0x0005)  : make Shane jealous
+0x0270  /  0x21ff (0x0025)  :  because I am so good at juggling. Is there no end to my talents? I also suggest extending Happy Hour. 
+0x0271  /  0x2225 (0x000b)  : Nelson's trade seems to be improving. 
+0x0272  /  0x2231 (0x000a)  : offer to wear very short dresses
+0x0273  /  0x223c (0x002f)  : instead. Nelson tries to look disapproving, but I recognise the gleam in his eye. He eventually agrees because "they are practical for running about in". 
+0x0274  /  0x226c (0x002a)  : Nelson has to admit that we are doing more business and getting a more male customers, though of a different type, in the wine bar. 
+0x0280  /  0x2298 (0x0024)  : I am very unhappy because I feel so unpopular. Tim's always calling me names and telling me I'm not invited to parties. 
+0x0281  /  0x22bd (0x0005)  : join a club
+0x0282  /  0x22c3 (0x0010)  : . Rachel Adamson and I go to her sports club. 
+0x0283  /  0x22d4 (0x001a)  : Rachel Adamson is a brilliant squash player and I am hopeless. Admirers cluster round her. 
+0x0284  /  0x22ef (0x0005)  : take squash lessons
+0x0285  /  0x22f5 (0x0024)  :  from a very tanned instructor. I ask if he wants a drink afterwards. He says he doesn't mix business with pleasure. 
+0x0294  /  0x231b (0x0035)  : after a few squash lessons, I'm becoming quite good. I even win a match against Rachel Adamson. She claims I cheat when claiming lets and won't speak to me. 
+0x0295  /  0x2351 (0x0005)  : give up squash
+0x0296  /  0x2357 (0x0002)  : . 
+0x0297  /  0x235a (0x000a)  : flatter Rachel and ask her to coach me
+0x0298  /  0x2365 (0x0019)  : . She thinks she's so marvellous I can't stand her, but I don't let on. 
+0x02a8  /  0x2380 (0x000a)  : resolve to be kinder to my family
+0x02a9  /  0x238b (0x0002)  : . 
+0x02bc  /  0x238f (0x000b)  : promise David I'll be nice to Sophie
+0x02bd  /  0x239b (0x001c)  : . I don't get annoyed when we play Scrabble, and I don't call her "Simple." 
+0x02be  /  0x23b8 (0x0011)  : Sophie gets upset because she thinks I'm not speaking to her. 
+0x02bf  /  0x23ca (0x000b)  : She tells me not to be so horrid
+0x02c0  /  0x23d6 (0x0023)  : . I say "Don't be silly" and she bursts into tears. I don't know how David can stand her. 
+0x02c1  /  0x23fa (0x000a)  : She offers to make me some shorts
+0x02c2  /  0x2405 (0x001e)  :  to placate me. I tell her to make them really tight and not all floppy like she normally does. 
+0x02c3  /  0x2424 (0x002e)  : Sophie has finished my shorts. I point out they are baggy enough to fit Robert Maxwell. Sophie takes offence because I won't explain who he is. 
+0x02c4  /  0x2453 (0x0006)  : Sophie cries buckets
+0x02c5  /  0x245a (0x0011)  : . David tells me off for being nasty to her. 
+0x02c6  /  0x246c (0x0008)  : offer to help on the farm
+0x02c7  /  0x2475 (0x0026)  : . I pick some apples in the orchard but I fall asleep because it's so hot. Dad finds me and says I am lazy. 
+0x02c8  /  0x249c (0x0005)  : continue to sleep
+0x02c9  /  0x24a2 (0x0018)  : . No-one has any sympathy when I feel ill and claim to have sunstroke. 
+0x02ca  /  0x24bb (0x001d)  : I have flu and am ill for two weeks. I get a get-well card from Nigel and Magnus. 
+0x02cb  /  0x24d9 (0x0007)  : carry on apple picking
+0x02cc  /  0x24e1 (0x001d)  : . I collect lots and Dad is pleased until he realises I was throwing them down into the boxes. 
+0x02cd  /  0x24ff (0x0006)  : stomp off in tears
+0x02ce  /  0x2506 (0x0012)  : . Why do I have to live on this boring farm? 
+0x02d0  /  0x251a (0x0020)  : I collect some flowers for Mum. She is furious because I picked her prize roses for the flower show. 
+0x02d1  /  0x253b (0x0005)  : tidy my room
+0x02d2  /  0x2541 (0x0032)  : . There is so much rubbish I have to pile it on the landing, but Mum can't understand and tells me off for making a mess, as if I were a child. 
+0x02d3  /  0x2574 (0x0008)  : decide to be nicer to Nigel
+0x02d4  /  0x257d (0x000f)  : . I even invite the wimp to supper. 
+0x02d5  /  0x258d (0x0006)  : Nigel doesn't turn up
+0x02d6  /  0x2594 (0x000c)  : . Why does everyone hate me? 
+0x02e4  /  0x25a2 (0x0030)  : Nigel doesn't hate me! He didn't come because of an accident on his horse. He is concussed in hospital. I feel so happy that I take him some flowers. 
+0x02e6  /  0x25d4 (0x0025)  : I volunteer to help at the Borchester General Hospital. I am put on the childrens' ward, cooking and cleaning. 
+0x02e7  /  0x25fa (0x0023)  : N.O.P.E are complaining about volunteer labour taking paid jobs in the hospital where I'm helping.
+0x02e8  /  0x261e (0x0008)  : spill disinfectant over a bed
+0x02e9  /  0x2627 (0x0020)  : . Sister sends me off to the basement to pack things in boxes. Then I have a brilliant idea. 
+0x02ea  /  0x2648 (0x0007)  : run the hospital radio
+0x02eb  /  0x2650 (0x0040)  :  programme. Martin Brown is a bit miffed, but the kids love my "Childrens' Question Time." I am very popular with them, and it might lead to a job on kiddies' tv.
+0x02ec  /  0x2692 (0x0009)  : offer to read to the patients
+0x02ed  /  0x269c (0x0020)  :  in bed. But Matron catches me reading the Cosmopolitan agony column to the kiddies and I am fired. 
+0x02ee  /  0x26bd (0x0003)  : go to Nelson's
+0x02ef  /  0x26c1 (0x002e)  :  for a drink and bring a bottle back for Nigel. He is very grateful. Plus I make a profit on the deal. I hope the nurses don't find out. 
+0x02f8  /  0x26f1 (0x000a)  : fall in love with a dishy doctor
+0x02f9  /  0x26fc (0x0021)  : . He says he likes riding so I take him out on Auntie Chris' horses. I am very happy. 
+0x02fa  /  0x271e (0x0008)  : perform all my duties brilliantly
+0x02fb  /  0x2727 (0x0013)  : , and Matron suggests I should go on a nursing course. 
+0x02fc  /  0x273b (0x0027)  : I tell Tim Beecham about the nursing course. Tim says he's always liked nurses in black stockings. He takes me out to dinner! 
+0x030c  /  0x2764 (0x0028)  : I help out at the Over 60s club. Auntie Peggy says I can take them on their outing this year. Where shall we go? 
+0x030d  /  0x278d (0x0002)  : Weston-super-Mare
+0x030e  /  0x2790 (0x005c)  : , jewel of the Somerset Riviera. The Wrinklies won't let me play music on the coach, they spend hours looking at gift shops and then shuffle along the pier at a snail's pace. Also the Gauntlet game has a dodgy fire button for Merlin. There must be easier ways of becoming popular. 
+0x030f  /  0x27ee (0x0002)  : London
+0x0310  /  0x27f1 (0x0039)  : . Uncle Walter gets lost and we find him in Soho. The Wrinklies have a whale of a time in Hyde Park. I've decided the solution to all my problems is to move to London. 
+0x0311  /  0x282b (0x0006)  : Windsor Safari Park
+0x0312  /  0x2832 (0x0029)  : . Mrs Potter gets claustrophobic in the lion park and wants to get out of the coach. At the end of the day I am exhausted. 
+0x0320  /  0x285d (0x001d)  : I buy a new dress to cheer myself up. Shula says that all I think about is my appearance. 
+0x0321  /  0x287b (0x0038)  : I ask Pat if I can join her womens' group. They are very odd and all wear baggy cord trousers and duffle coats. I stand in Borchester market collecting for CND. 
+0x0322  /  0x28b4 (0x0006)  : Uncle Tom comes up
+0x0323  /  0x28bb (0x000c)  :  and asks what CND stands for. 
+0x0324  /  0x28c8 (0x0006)  : Brian Aldridge comes up
+0x0325  /  0x28cf (0x0054)  : and claims nuclear disarmament would only benefit the Kremlin. I say, "In that case, why do you sell your surplus grain into intervention, so the EEC can sell it cheap and subsidise the Russian economy?" I continue until he gives me 50p to escape. 
+0x0326  /  0x2925 (0x0013)  : I think you should try and keep away from controversial politics. 
+0x0334  /  0x293a (0x001a)  : after half an hour it starts raining and I go to Nelson's Wine Bar for a drink. 
+0x0335  /  0x2955 (0x0005)  : Tim Beecham drives by
+0x0336  /  0x295b (0x0016)  :  and pinches my tin. I find it on the Ambridge war memorial. 
+0x0337  /  0x2972 (0x0035)  : the womens' group vote that I should be excluded from meetings on the grounds that I am not totally committed. Unlike some of the others who were committed years ago. 
+0x0338  /  0x29a8 (0x001f)  : I really couldn't care less if I am not popular. Who cares what the great unwashed think! 
+0x0348  /  0x29c9 (0x0006)  : Dad won't speak to him
+0x0349  /  0x29d0 (0x000f)  : . Nigel blames the awful evening on me. 
+0x034a  /  0x29e0 (0x0005)  : he behaves impeccably
+0x034b  /  0x29e6 (0x000c)  : . Dad invites him round again! 
+0x035c  /  0x29f4 (0x0023)  : Dad says I've got to earn my keep over the summer by helping on the farm. I can't think of anything worse. 
+0x035d  /  0x2a18 (0x0005)  : feed the chickens
+0x035e  /  0x2a1e (0x001b)  : . Then I sit down and sunbathe. Dad finds me and sends me off to Hollowtree. 
+0x035f  /  0x2a3a (0x0004)  : help at Hollowtree
+0x0360  /  0x2a3f (0x0006)  :  pig unit. 
+0x0370  /  0x2a47 (0x0027)  : There is a crisis: Neil is ill and the pigs need feeding. I sort out the chart and Jethro doles it out. 
+0x0371  /  0x2a6f (0x0008)  : I fall over in the slurry
+0x0372  /  0x2a78 (0x0040)  : . Jethro says, "My eye!" And dabs at me with a cloth. It takes me hours to get clean. I tell Dad I've had an emotional crisis and need to rest for a few days. 
+0x0373  /  0x2aba (0x0018)  : I bump into Tim in Nelson's Wine Bar. He sniffs and wrinkles his nose. 
+0x0374  /  0x2ad3 (0x0024)  : Dad makes me go out and count sheep as they are being dipped. Sheep are very boring and I soon fall asleep. 
+0x0375  /  0x2af8 (0x0007)  : Dad is very cross. 
+0x0384  /  0x2b01 (0x0009)  : he puts me on plum-picking duty
+0x0385  /  0x2b0b (0x000f)  :  on piece rate. I pick masses! 
+0x0386  /  0x2b1b (0x0020)  : Dad complains that I didn't remove the leaves from the plums I picked. I spend all day doing that. 
+0x0398  /  0x2b3d (0x001d)  : I'm so tired doing all this farm work that I don't feel like going out. Life is miserable. 
+0x0399  /  0x2b5b (0x000b)  : A pig gets out and Jethro is terrified
+0x039a  /  0x2b67 (0x000a)  : . We cannot catch it. 
+0x039b  /  0x2b72 (0x0013)  : Don't be silly. Jethro wouldn't be scared of a pig. 
+0x03ac  /  0x2b87 (0x0007)  : chase it into the village
+0x03ad  /  0x2b8f (0x000b)  :  and eventually corner the porker. 
+0x03ae  /  0x2b9b (0x0007)  : on Dave Barry's lawn
+0x03af  /  0x2ba3 (0x002c)  : . He'd left his Barbour jacket to fade in the sun and our pig sat on it. I tell Dave to arrest the pig for illegal parking. 
+0x03b0  /  0x2bd0 (0x0009)  : Dave asks me out for a drink
+0x03b1  /  0x2bda (0x0023)  : . He may be a creep but at least he's got some cash. I tell Dad I can do without his paltry allowance. 
+0x03b2  /  0x2bfe (0x0009)  : he hits the pig with his truncheon
+0x03b3  /  0x2c08 (0x0026)  :  and knocks it out. I have to take the pig to Martin Lambert, the vet. I am sick to death of pigs. 
+0x03b4  /  0x2c2f (0x0013)  : we have received hundreds of letters complaining about cruelty to pigs! 
+0x03c0  /  0x2c44 (0x0005)  : help with the sheep
+0x03c1  /  0x2c4a (0x002f)  : . David and Jethro are dipping them for scab. I have to help grab the sheep as they come out. I get soaked and my silk blouse is ruined. 
+0x03c2  /  0x2c7a (0x0009)  : demand the money for a new one
+0x03c3  /  0x2c84 (0x0014)  : . Dad says I should have been wearing something more suitable. 
+0x03c4  /  0x2c99 (0x0005)  : carry on dipping
+0x03c5  /  0x2c9f (0x001e)  : . One of the sheep gets stuck in the water. It looks like it has had a heart attack. 
+0x03c6  /  0x2cbe (0x0006)  : let David rescue it
+0x03c7  /  0x2cc5 (0x001e)  : . He says if I'd been watching properly it would never have happened. I am sent off. 
+0x03c8  /  0x2ce4 (0x0006)  : run for the vet
+0x03c9  /  0x2ceb (0x0015)  : . Martin Lambert comes and revives the sheep from a heart attack. 
+0x03ca  /  0x2d01 (0x0011)  : It's unlikely that the vet would get there in time. 
+0x03d4  /  0x2d14 (0x0024)  : David and Dad say that I did a wonderful job with the sheep. The snag is they want me to help with the dipping tomorrow. 
+0x03d5  /  0x2d39 (0x0005)  : try to get it out
+0x03d6  /  0x2d3f (0x001d)  : . The sheep is very heavy and the sheep dip stinks, but I manage to save it. 
+0x03d7  /  0x2d5d (0x0008)  : ask if I can do another job
+0x03d8  /  0x2d66 (0x0002)  : . 
+0x03e8  /  0x2d6a (0x0008)  : A pig bites my ankle
+0x03e9  /  0x2d73 (0x0038)  : ! I am rushed to hospital for a tetanus check. I expect I will get a horrible scar which won't look very good with my ankle bracelet, but Dad says that I'm not getting off work. 
+0x03ea  /  0x2dac (0x0007)  : hope it will come back
+0x03eb  /  0x2db4 (0x0008)  : , but it doesn't. 
+0x03ec  /  0x2dbd (0x001c)  : Dad makes me search round the village for the pig. I ask Martha if she has seen it. 
+0x03ed  /  0x2dda (0x0010)  : she saw Eddie Grundy with a pig on the village green
+0x03ee  /  0x2deb (0x005e)  : . I head off to Grange Farm and find them putting a pig into their sty. Eddie laughs, "Finders keepers, darling", and challenges me to prove it's our pig. By the time I return with Neil, to identify the pig, Piggy Atkins has been and Clarrie is loading their freezer. 
+0x03ef  /  0x2e4b (0x000f)  : she saw Mrs Antrobus walking a pig on a lead
+0x03f0  /  0x2e5b (0x001f)  : . It turns out she was mistaken, the creature was an Afghan which had just been shorn. 
+0x03fc  /  0x2e7c (0x0017)  : Dad says I will have to work twice as long to pay for the lost pig. 
+0x03fd  /  0x2e94 (0x000a)  : she saw a pig going into the Bull
+0x03fe  /  0x2e9f (0x0004)  : 1022. 
+0x03ff  /  0x2ea4 (0x0004)  : in the Bull
+0x0400  /  0x2ea9 (0x0002)  : . 
+0x0401  /  0x2eac (0x000d)  : Uncle Walter is teaching the pig tricks. 
+0x0402  /  0x2eba (0x002f)  : I have to walk the pig home, which is even more humiliating when Tim Beecham drives past with his friends and shouts "Piggy Lizzy" out of the window. 
+0x0403  /  0x2eea (0x0008)  : call out a search party
+0x0404  /  0x2ef3 (0x001d)  : : Nigel. We can't find the pig and end up in Nelson's. Nigel is quite rude about it. 
+0x0405  /  0x2f11 (0x0006)  : on the village green
+0x0406  /  0x2f18 (0x0017)  : rooting in the muddy pond and grunting to the ducks. I take it home. 
+0x0410  /  0x2f31 (0x000a)  : he refuses to give me my allowance
+0x0411  /  0x2f3c (0x000e)  : . I complain bitterly until Dad relents. 
+0x0412  /  0x2f4b (0x000d)  : he makes me work in the evenings as well
+0x0413  /  0x2f59 (0x0028)  : . I am getting very overtired. I must be working nearly as much as David, and he's going to get the farm for his efforts. 
+0x0414  /  0x2f82 (0x0027)  : David says that the sheepshearers are coming tomorrow. I cheer up because there's one shearer I really fancy. He looks like Brian Brown. 
+0x0415  /  0x2faa (0x0006)  : I smell a rat
+0x0416  /  0x2fb1 (0x0014)  : : the sheep look as though they've got crew cuts already. 
+0x0417  /  0x2fc6 (0x0024)  : David admits the business about the shearers was a wind-up. I am fed up. I never meet any nice men. 
+0x0418  /  0x2feb (0x0006)  : the shearers don't come
+0x0419  /  0x2ff2 (0x000b)  : . Where is Brian Brown? 
+0x041a  /  0x2ffe (0x0005)  : I get the flu
+0x041b  /  0x3004 (0x002d)  : . I miss the shearers but I manage to make my illness last two whole weeks, so I also miss working and I get lots of presents. 
+0x0424  /  0x3033 (0x0013)  : Dad says I am irresponsible and a liability. It is not fair! 
+0x0425  /  0x3047 (0x0005)  : he runs away
+0x0426  /  0x304d (0x0014)  : , suffering from shock, and fails his Inspector's exams again. 
+0x0427  /  0x3062 (0x0019)  : this is absurd! Whoever heard of a police inspector who was afraid of pigs?
+0x0438  /  0x307d (0x005b)  : My Metro needs new brake pads, exhaust pipe, alternator, coil and battery and keeps having to be retuned. Clearly I need a new car. Nelson thinks he can get #500 for it if I promise never to tell anyone how many things I hit, or what the mileage was. 
+0x0439  /  0x30da (0x000a)  : add #200 from my savings
+0x043a  /  0x30e5 (0x000d)  :  and go out to look for a proper car. 
+0x043b  /  0x30f3 (0x002f)  : The only car I can find for #700 is a beat-up Renault 4. They may be all right for social workers and lecturers but they're not my style. 
+0x043c  /  0x3123 (0x000e)  : I desperately need some money for my new car. 
+0x043d  /  0x3132 (0x0006)  : ask Dad for a loan
+0x043e  /  0x3139 (0x0015)  :  of #1000. Dad says I couldn't afford the interest. 
+0x043f  /  0x314f (0x0004)  : ask Nigel Pargetter
+0x0440  /  0x3154 (0x0024)  :  for a loan of #1000. He looks pathetic and says "Yes," but only if I go out with him. 
+0x0441  /  0x3179 (0x0004)  : go out with Nigel
+0x0442  /  0x317e (0x0002)  : . 
+0x0443  /  0x3181 (0x0024)  : Nigel is very upset. Once I'd got the money off him, I refused to go out with him again. What a wimp! 
+0x0444  /  0x31a6 (0x0008)  : tell him to keep his money
+0x0445  /  0x31af (0x000c)  : . I cannot be bought like that! 
+0x0446  /  0x31bc (0x002f)  : Nigel turns up on the doorstep and lends me the money for a new car anyway. He may be a wimp, but he's quite a nice, rich wimp. 
+0x0447  /  0x31ec (0x0005)  : try someone else
+0x0448  /  0x31f2 (0x0002)  : . 
+0x044a  /  0x31f6 (0x0020)  : I ask Jethro for a loan. He says, "My eye!" And offers me #10. 
+0x044b  /  0x3217 (0x000a)  : look for a car costing #500
+0x044c  /  0x3222 (0x001a)  : . I can't find anything at all until Eddie Grundy offers to sell me his van. 
+0x044d  /  0x323d (0x0002)  : buy it
+0x044e  /  0x3240 (0x002c)  : . I get Sophie to paint it up and write "Rolling Stone" on the side. She also paints some revolting Mick Jagger lips. 
+0x044f  /  0x326d (0x0026)  : I come out of Nelson's one evening and someone has scrawled on my van, "Lizard Lips." It has to be Tim Beecham. 
+0x0450  /  0x3294 (0x0005)  : burst into tears
+0x0451  /  0x329a (0x0011)  : . Tim is always trying to make me look foolish. 
+0x0452  /  0x32ac (0x0015)  : I decide to sell my van. Lots of people are interested. 
+0x0453  /  0x32c2 (0x0002)  : Sophie
+0x0454  /  0x32c5 (0x0018)  :  offers to buy it. She says it'll be so practical for transporting her designs. 
+0x0455  /  0x32de (0x0004)  : Eddie Grundy
+0x0456  /  0x32e3 (0x0015)  :  offers to buy it for #200. I tell him he's cuckoo. 
+0x0457  /  0x32f9 (0x0004)  : Mrs Antrobus
+0x0458  /  0x32fe (0x0024)  :  offers to buy it, so she can take her "girls" out on trips. I sell it for #700! 
+0x0460  /  0x3324 (0x0003)  : find Tim Beecham
+0x0461  /  0x3328 (0x001d)  : . He won't let me into his flat and shouts "Lizard Lips" through the letterbox. 
+0x0462  /  0x3346 (0x0004)  : remain calm
+0x0463  /  0x334b (0x002f)  : , because Andrew Macduff, who does Art and is very good looking and rich, says he loves my van. He thinks it is charmingly unpretentious. 
+0x0474  /  0x337c (0x000d)  : tell Eddie I'd never buy that old heap
+0x0475  /  0x338a (0x001d)  : . He says if I really want to get something flash, I should go to Hollerton Motors. 
+0x0476  /  0x33a8 (0x002b)  : Jake at Hollerton Motors shows me an old but adorable MGB with only 20,000 miles on the clock. But it is #1500. 
+0x0477  /  0x33d4 (0x0006)  : put down a deposit
+0x0478  /  0x33db (0x0012)  : . But I still have to raise a lot of money. 
+0x0479  /  0x33ee (0x000b)  : give him a cheque for #1500
+0x047a  /  0x33fa (0x0029)  :  and write a letter to the bank promising to put in lots of money later in the month. The bank won't accept my cheque! 
+0x047b  /  0x3424 (0x0024)  : I decide to buy a motorbike. I'll be the only girl at the Tech with one and I'm going to get some white leathers. 
+0x047c  /  0x3449 (0x000b)  : try to bargain him down to #300
+0x047d  /  0x3455 (0x000b)  : . He won't have any of it. 
+0x047e  /  0x3461 (0x0003)  : find a job
+0x047f  /  0x3465 (0x0021)  : . I help Auntie Chris with her horses, but it's dirty and tiring, and I don't get much money. 
+0x0480  /  0x3487 (0x0006)  : tell Dad it's not enough
+0x0481  /  0x348e (0x000e)  : . He gives me another #400. 
+0x0488  /  0x349e (0x0012)  : I buy a mini. On the first day out what happens?
+0x048b  /  0x34b2 (0x0007)  : I skid in the rain
+0x048c  /  0x34ba (0x001a)  :  and go into the back of my bank manager's car. He insists that it was my fault! 
+0x048d  /  0x34d5 (0x001e)  : After paying the excess on my car insurance for the repairs, I cannot afford to go out anywhere. 
+0x048e  /  0x34f4 (0x0005)  : I get a bicycle
+0x0490  /  0x34fb (0x001c)  :  to ride into Borchester. Tim Beecham wolf-whistles at me whenever I ride past his flat. 
+0x049c  /  0x3519 (0x000b)  : I get lifts into town instead. 
+0x049d  /  0x3525 (0x0004)  : Uncle Tom
+0x049e  /  0x352a (0x001a)  : , but he won't go faster than 30 and keeps lecturing me on how to drive. 
+0x049f  /  0x3545 (0x0004)  : Pat Archer
+0x04a0  /  0x354a (0x002a)  : , but she gets on my nerves with her feminist rubbish. She throws me out when I make a joke about Roger, her lover at the Tech. 
+0x04a1  /  0x3575 (0x0002)  : Mum
+0x04a2  /  0x3578 (0x0002)  : . 
+0x04a3  /  0x357b (0x0027)  : Mum is fed up with transporting me about. She says she feels sorry for me and hands over #50 to help get my car going again. 
+0x04b0  /  0x35a4 (0x0009)  : sell my car for #1000
+0x04b1  /  0x35ae (0x0002)  : . 
+0x04c4  /  0x35b2 (0x0005)  : take drastic measures
+0x04c5  /  0x35b8 (0x0002)  : . 
+0x04c6  /  0x35bb (0x0006)  : I burst a tyre
+0x04c7  /  0x35c2 (0x002b)  : . I don't know how to change it and have to call out the AA. I decide I've gone off my mini and want something better. 
+0x04c8  /  0x35ee (0x0004)  : Nothing happens
+0x04c9  /  0x35f3 (0x003d)  : , but the following day I drive through a hedge and land upside down. Everybody rams the message home about how lucky it was that I had my seat-belt on. Dad says I've got to calm down. 
+0x04d8  /  0x3632 (0x0004)  : take up yoga
+0x04d9  /  0x3637 (0x0022)  :  and meditation classes with Pat. They help me not to worry about the fact that I haven't got a car any more. 
+0x04da  /  0x365a (0x0004)  : take up jogging
+0x04db  /  0x365f (0x0019)  : and lose so much weight that Tim Beecham is bound to fall madly in love with me. 
+0x04dc  /  0x3679 (0x0005)  : take no notice
+0x04dd  /  0x367f (0x0002)  : . 
+0x04ec  /  0x3683 (0x0005)  : try someone else
+0x04ed  /  0x3689 (0x0002)  : . 
+0x0500  /  0x368d (0x001b)  : I buy the lovely little MGB from Hollerton Motors and am the envy of everyone at the Tech. 
+0x0514  /  0x36aa (0x0003)  : stay in
+0x0515  /  0x36ae (0x0012)  : . I am very bored and cross and tired of my car. 
+0x0528  /  0x36c2 (0x0018)  : I am madly in love with Tim Beecham, but whatever I do, he ignores me. 
+0x0529  /  0x36db (0x0008)  : ask him to the Hunt Ball
+0x052a  /  0x36e4 (0x001f)  : . He says he can't go because he's got to go to his Great Aunty's tea party. A likely story. 
+0x052b  /  0x3704 (0x0021)  : I get Magnus to take me to the Hunt Ball, and when I get there who do I see but Tim with Rachel Adamson! 
+0x052c  /  0x3726 (0x0009)  : pour champagne over Tim's head
+0x052d  /  0x3730 (0x0014)  : . He laughs and dances off with Rachel Adamson. I am mortified. 
+0x052e  /  0x3745 (0x000c)  : tell Rachel Adamson she's a cunning little vixen
+0x052f  /  0x3752 (0x001f)  : . Rachel looks baffled and says "Sorry?" I make Tim dance with me but afterwards he escapes. 
+0x0530  /  0x3772 (0x0005)  : take no notice
+0x0531  /  0x3778 (0x0015)  :  until I see Tim kissing Rachel. I make Magnus take me home. 
+0x053c  /  0x378f (0x0005)  : hope Tim rings
+0x053d  /  0x3795 (0x001c)  :  me up. But every time the phone goes it's either boring old Nigel or Magnus. 
+0x053e  /  0x37b2 (0x0068)  : I send Tim a poem, which Nelson recited to me, in the hope it might revive his memories of me:
+Here's to the roses and flowers that bloom,
+To me in your arms and to you in my room;
+A door that is locked and a key that is lost,
+And a night that's a thousand years long. 
+0x053f  /  0x381c (0x000e)  : I have still received no reply from Tim. 
+0x0540  /  0x382b (0x0008)  : arrange to meet Tim in Nelson's
+0x0541  /  0x3834 (0x0029)  : . He does not turn up. I spend the evening drinking cocktails with Nelson. By 11 o'clock I am too drunk to drive. 
+0x0542  /  0x385e (0x0006)  : go to Shula's flat
+0x0543  /  0x3865 (0x0036)  : in Borchester. She is not pleased but lets me stay. Half an hour later we are all tucked up in bed and the doorbell goes. I recognise the sobs of Nigel Pargetter. 
+0x0544  /  0x389c (0x000d)  : tell him I've got enough troubles of my own
+0x0545  /  0x38aa (0x000a)  :  and he must push off. 
+0x0546  /  0x38b5 (0x000a)  : let him in for a few minutes
+0x0547  /  0x38c0 (0x001f)  : . He says that he was meant to be meeting Rachel Adamson for a drink in the Feathers but she didn't turn up. 
+0x0548  /  0x38e0 (0x000b)  : talk to him through the letter box
+0x0549  /  0x38ec (0x0015)  : . He says his father has thrown him out and he has nowhere to go. 
+0x0550  /  0x3903 (0x0035)  : I accidentally on purpose trip Rachel Adamson up on the stairs. She goes flying down and rips her dress. Rachel has to go home so I dance with Tim for the rest of the evening. 
+0x0551  /  0x3939 (0x0010)  : I am very depressed. My family worry about me. 
+0x0564  /  0x394b (0x0011)  : I ask Nigel out for a drink. He says he is busy. 
+0x0565  /  0x395d (0x000f)  : This Rachel Adamson seems to be far too popular. 
+0x0566  /  0x396d (0x0009)  : spread a nasty rumour about her
+0x0567  /  0x3977 (0x0023)  : , that she's got a cold sores on her lips. Everyone peers at Rachel's face and Tim stops going out with her. 
+0x0568  /  0x399b (0x000a)  : Tim still won't go out with me. 
+0x0569  /  0x39a6 (0x0005)  : ask her for a drink
+0x056a  /  0x39ac (0x0015)  :  and tell her that Tim is a no-good and has attacked me in the past. 
+0x056b  /  0x39c2 (0x0009)  : She still goes out with Tim
+0x056c  /  0x39cc (0x0024)  : . What he sees in her I don't know, but he doesn't know what he's missing with me, that's all I can say. 
+0x056d  /  0x39f1 (0x000d)  : She doesn't want to go out with Tim anyway
+0x056e  /  0x39ff (0x0014)  : . That makes Tim chase her even more. I can't win. 
+0x056f  /  0x3a14 (0x000b)  : She runs off and tells her mother
+0x0570  /  0x3a20 (0x0002)  : . 
+0x0578  /  0x3a24 (0x0005)  : get a taxi home
+0x0579  /  0x3a2a (0x0002)  : . 
+0x057a  /  0x3a2d (0x0009)  : get a taxi to Tim's flat
+0x057b  /  0x3a37 (0x003b)  : . I tell Tim that I am madly in love with him and that he won't find a more loyal girlfriend. Tim tells me that I am a slimy lizard, and that if I don't go away he'll call the police. 
+0x057c  /  0x3a73 (0x0004)  : stay put
+0x057d  /  0x3a78 (0x0014)  : . He packs his bags and goes to stay with the Adamsons. 
+0x057e  /  0x3a8d (0x0002)  : go home
+0x057f  /  0x3a90 (0x0002)  : . 
+0x0580  /  0x3a93 (0x000a)  : draw lizards on his front door
+0x0581  /  0x3a9e (0x0015)  : . Tim calls the police and I am charged with criminal damage. 
+0x0582  /  0x3ab4 (0x0033)  : I am fined #150 for criminal damage to Tim's door and bound over to keep the peace. Dad is not pleased, partly because he has to pay the fine. 
+0x058c  /  0x3ae9 (0x0010)  : I send Tim a Shakespearian sonnet in a love letter. 
+0x058d  /  0x3afa (0x0006)  : The sonnet comes back
+0x058e  /  0x3b01 (0x001c)  : , with bits about lizards scribbled in. I am never going to speak to that creep again! 
+0x058f  /  0x3b1e (0x0011)  : The love letter is pinned up on the Tech notice board
+0x0590  /  0x3b30 (0x0019)  :  with "the lizard" added after my name. The shame of it! 
+0x05a0  /  0x3b4b (0x000b)  : Nobody wants to go out with me. 
+0x05a1  /  0x3b57 (0x0005)  : take up a hobby
+0x05a2  /  0x3b5d (0x0013)  : : sewing. But I get bored in half an hour. 
+0x05a3  /  0x3b71 (0x0006)  : take my revenge on Rachel
+0x05a4  /  0x3b78 (0x000c)  :  Adamson for taking Tim away from me. 
+0x05a5  /  0x3b85 (0x000a)  : send her a nasty anonymous letter
+0x05a6  /  0x3b90 (0x000d)  : , saying that Tim does not love her. 
+0x05a7  /  0x3b9e (0x000a)  : Nigel Pargetter comes round with the sonnet
+0x05a8  /  0x3ba9 (0x003c)  : . Tim must have sent it off to him, as if it came straight from me. It is signed "Elizabeth Archer." As I have no-one else to go out with, I go out with Nigel. 
+0x05a9  /  0x3be6 (0x0003)  : go to Nelson's
+0x05aa  /  0x3bea (0x001c)  : , who says that I should cheer up because I've got my whole life to look forward to. 
+0x05b4  /  0x3c08 (0x0015)  : I am convinced that Tim Beecham would love me if I became even fitter. 
+0x05b5  /  0x3c1e (0x0007)  : join a fitness club
+0x05b6  /  0x3c26 (0x000b)  : . But which one to choose? 
+0x05b7  /  0x3c32 (0x0004)  : Bruce Bruno's
+0x05b8  /  0x3c37 (0x0021)  : . He puts me on weight training. Everything is going well until I drop my dumb-bells on his foot. 
+0x05b9  /  0x3c59 (0x0005)  : he perseveres with me
+0x05ba  /  0x3c5f (0x0011)  : . I enjoy weight training because it's crammed full of 
+0x05bb  /  0x3c71 (0x0015)  :  hunky men. I ask one of them to help me with my dumb-bells. 
+0x05bc  /  0x3c87 (0x0005)  : he stares at me
+0x05bd  /  0x3c8d (0x001e)  :  without answering. I carry on and then go up to the bar to see what I can pick up. 
+0x05be  /  0x3cac (0x0009)  : he asks me out for a meal
+0x05bf  /  0x3cb6 (0x0024)  :  but, as he is a fitness fanatic and can't talk about anything else, the whole idea seems rather boring. 
+0x05c0  /  0x3cdb (0x002a)  : I am invited to a party to which Tim will be going. I think that talking and dancing at parties is probably the best way to fitness. 
+0x05c1  /  0x3d06 (0x0006)  : he says he'd love to
+0x05c2  /  0x3d0d (0x0028)  : , ducky, but his back's playing him up something dreadful. I am not convinced that I am going to find a good man here. 
+0x05c3  /  0x3d36 (0x0006)  : he bursts into tears
+0x05c4  /  0x3d3d (0x0002)  : . 
+0x05c5  /  0x3d40 (0x000c)  : he suggests I move to the exercise class
+0x05c6  /  0x3d4d (0x0011)  : . I do aerobics and am soon desperate for a drink. 
+0x05c7  /  0x3d5f (0x0019)  : I discover that Bruce Bruno's has no bar. This is not the place for me. 
+0x05c8  /  0x3d79 (0x0006)  : Sally Anne's Sylphs
+0x05c9  /  0x3d80 (0x0011)  : . All the girls look perfect and have amazing tans. 
+0x05ca  /  0x3d92 (0x0007)  : join the ballet class
+0x05cb  /  0x3d9a (0x0026)  :  and jump around enthusiastically. Sally Anne says I'm not very graceful and perhaps I'd be better on aerobics. The cheek! 
+0x05cc  /  0x3dc1 (0x0007)  : get cracking on the sun-beds
+0x05cd  /  0x3dc9 (0x000b)  :  and start working on my tan. 
+0x05ce  /  0x3dd5 (0x0027)  : My sessions at Sally Anne's have laid down a great sun-tan. Then I meet pallid Tim Beecham who says that tans are vulgar! 
+0x05cf  /  0x3dfd (0x0007)  : buy a new aerobics outfit
+0x05d0  /  0x3e05 (0x0020)  : . It's a very skimpy leotard with pink tights and lurex legwarmers. I practice in the farm yard. 
+0x05d1  /  0x3e26 (0x0005)  : Jethro sees me
+0x05d2  /  0x3e2c (0x0010)  :  and backs his tractor into Dad's Land Rover. 
+0x05d3  /  0x3e3d (0x0006)  : Tim Beecham drives past
+0x05d4  /  0x3e44 (0x0026)  :  and shouts, "You look busy, Lizzie!". He laughs so much that he nearly drives into the hedge. 
+0x05d5  /  0x3e6b (0x0006)  : Brian Aldridge arrives
+0x05d6  /  0x3e72 (0x0011)  :  and leers lecherously at me. He's getting worse! 
+0x05dc  /  0x3e85 (0x0031)  : I go into the modern-dance class. The teacher, Bella, makes me do weird, jerky steps and flying leaps to the sound of African tribal music. 
+0x05dd  /  0x3eb7 (0x0033)  : I decide that yoga is probably better for me. I practice in front of the television and drive David mad. He gives me some money to go out and get a drink at Nelson's. 
+0x05f0  /  0x3eec (0x0005)  : the Dorsington Grange
+0x05f1  /  0x3ef2 (0x001a)  :  at Loxley Barratt. It's full of rich men with Range Rovers and Porsches. 
+0x05f2  /  0x3f0d (0x0005)  : take squash lessons
+0x05f3  /  0x3f13 (0x0011)  : . The instructor is divine, but unfortunately married. 
+0x05f4  /  0x3f25 (0x0003)  : go swimming
+0x05f5  /  0x3f29 (0x0053)  : . I am the centre of attraction for a little while, until I realise what water does to my new white one-piece. I put on a beach robe and retire to the bar, where a very nice man buys me drinks. I don't think I am getting very fit. 
+0x0604  /  0x3f7f (0x000a)  : cycle to the Tech every day
+0x0605  /  0x3f8a (0x0002)  : . 
+0x0606  /  0x3f8d (0x0011)  : Some rat has let down the tyres on my bike! 
+0x0607  /  0x3f9f (0x0003)  : blame Tim
+0x0608  /  0x3fa3 (0x0012)  : . He says my bottom's too big for a bicycle anyway. 
+0x0609  /  0x3fb6 (0x0004)  : stop cycling
+0x060a  /  0x3fbb (0x0009)  :  but am deeply hurt. 
+0x060b  /  0x3fc5 (0x0007)  : let his car tyres down
+0x060c  /  0x3fcd (0x003c)  : . Tim makes me give him a lift to a party. He looks very funny, balancing on the luggage rack behind my bike! When we get there, a group of Sloanes answer the door. 
+0x060d  /  0x400a (0x0008)  : Tim says Lizards aren't invited
+0x060e  /  0x4013 (0x0015)  :  and goes in without me. I have never been so angry. 
+0x060f  /  0x4029 (0x0006)  : he says he is sorry
+0x0610  /  0x4030 (0x001b)  :  for being so nasty and would like to go out with me again! I am over the moon. 
+0x0611  /  0x404c (0x0003)  : he disappears
+0x0612  /  0x4050 (0x001c)  :  shortly after we join the party and reappears half an hour later with Diana Williams. 
+0x0618  /  0x406e (0x0006)  : pump up the tyres
+0x0619  /  0x4075 (0x001a)  : . The exercise will help strengthen my wrists for when I wring the neck of the culprit! 
+0x061a  /  0x4090 (0x0006)  : track down the culprit
+0x061b  /  0x4097 (0x0042)  : . It was goody-two-shoes Rachel Adamson! She only did it to impress Tim Beecham and is now mortified with shame at being found out. When I hint at telling her father, Rachel promises to have nothing to do with Tim in future. 
+0x062c  /  0x40dc (0x0009)  : volunteer Tim for the Borchester Fun-run
+0x062d  /  0x40e6 (0x0002)  : . 
+0x062e  /  0x40e9 (0x0033)  : The Borchester fun-run is no fun for Tim. He jogs about 500 yards and is sick. Meanwhile, I run the full 6 miles and am much admired. 
+0x0640  /  0x411e (0x0008)  : join as a social member
+0x0641  /  0x4127 (0x0002)  : . 
+0x0642  /  0x412a (0x002c)  : the social whirl at the Dorsington Grange is great fun, but by the end of the month I need a rest. I try something more gentle. 
+0x0654  /  0x4158 (0x001a)  : It's the end of term at the Tech and the Summer hols lie ahead of me. 
+0x0655  /  0x4173 (0x0004)  : have a barbecue
+0x0656  /  0x4178 (0x002b)  : . Nigel wears a chef's hat and takes charge of the food. All is going well till Tim throws a damp sock on the grill. 
+0x0657  /  0x41a4 (0x0002)  : laugh
+0x0658  /  0x41a7 (0x001f)  :  and pretend to be amused at Tim's joke. He looks very funny, wearing only one sock. 
+0x0659  /  0x41c7 (0x0003)  : tell Tim off
+0x065a  /  0x41cb (0x001b)  : . He throws Nigel's chef's hat on the grill. Suddenly there are billowing flames! 
+0x065b  /  0x41e7 (0x0008)  : throw a bucket of water
+0x065c  /  0x41f0 (0x001b)  :  over Nigel and the barbecue. Soon everyone is throwing buckets of water over each other. 
+0x065d  /  0x420c (0x0003)  : Dad comes home
+0x065e  /  0x4210 (0x000c)  :  and puts a stop to the party.
+0x065f  /  0x421d (0x000d)  : I am forbidden to have any more parties. 
+0x0660  /  0x422b (0x0006)  : Mrs Antrobus comes by
+0x0661  /  0x4232 (0x0031)  : . She says, "What the Dickens..." And is drenched by a bucket of water. She says "How exhilarating!" And eats a sausage. 
+0x0662  /  0x4264 (0x0007)  : Joe and Eddie arrive
+0x0663  /  0x426c (0x001d)  : . They claim it is to complain about the fire, but they stay and eat all the food. 
+0x0664  /  0x428a (0x0007)  : call the fire brigade
+0x0665  /  0x4292 (0x000f)  : . Everyone disappears and the party is a flop. 
+0x0666  /  0x42a2 (0x0002)  : scream
+0x0667  /  0x42a5 (0x0026)  : , and pretend to be terrified. Nigel bravely puts out the fire and he and Tim both fuss over me. What fun! 
+0x0668  /  0x42cc (0x004c)  : Nigel invites me to go for a day in Oxford, where they punt from the wrong end of the boat. I soon get bored with lolling in a damp punt, listening to old 78s, and wobble to my feet to take a turn with the pole. 
+0x0669  /  0x431a (0x0002)  : overbalance
+0x066a  /  0x431d (0x0021)  :  and fall in the river. All the tourists cheer as I splutter to the surface. Some holiday this is! 
+0x066b  /  0x433f (0x0007)  : head towards the weir
+0x066c  /  0x4347 (0x001d)  : . I am punting very well but sense there is something wrong as we near the booming waterfall. 
+0x066e  /  0x4366 (0x0004)  : manage beautifully
+0x066f  /  0x436b (0x0037)  : . I get admiring glances from all sides. Then I hand control of the boat back to Tim and lie back, sipping Champagne. Tim heads off downstream and I start to get worried. 
+0x0670  /  0x43a3 (0x0018)  : What is this nonsense? Surely there aren't any dangerous weirs in Oxford? 
+0x0671  /  0x43bc (0x0011)  : There is a weir coming towards us very fast! 
+0x0672  /  0x43ce (0x0003)  : jump off
+0x0673  /  0x43d2 (0x0025)  :  and manage to swim to the shore with the mooring rope. Everyone thinks I'm very brave and Tim wants to go out with me! 
+0x0674  /  0x43f8 (0x0007)  : stay in the boat.
+0x0675  /  0x4400 (0x0014)  :  We get stuck in some reeds at the top of the weir. 
+0x0676  /  0x4415 (0x0002)  : pray
+0x0677  /  0x4418 (0x0038)  : . Suddenly a strong arm pulls me back and I find myself aboard a huge cabin cruiser with a beautiful Italian called Paolo. He offers to take me cruising for a couple of months! 
+0x067c  /  0x4452 (0x0004)  : pay Tim back
+0x067d  /  0x4457 (0x003b)  :  by waiting a while and then serving him his sock in a sesame bun. He bites into it like a hamburger and is left with the charred footwear hanging from his mouth. Everyone thinks it is hilarious. 
+0x0690  /  0x4494 (0x0006)  : go away on holiday
+0x0691  /  0x449b (0x0009)  :  for a few days. 
+0x0692  /  0x44a5 (0x0007)  : Cornwall with Cyril Thornley
+0x0693  /  0x44ad (0x0031)  : . His parents have a cottage there and they come too. They make me walk for miles along the coast and what's more they are teetotallers. I am relieved to get home. 
+0x06a4  /  0x44e0 (0x000e)  : I get another invitation to go away with Nigel. 
+0x06a5  /  0x44ef (0x0004)  : Stratford with Nigel
+0x06a6  /  0x44f4 (0x000f)  : . He knows lots of arty people there. 
+0x06a7  /  0x4504 (0x0007)  : the Royal Shakespeare Theatre
+0x06a8  /  0x450c (0x000f)  : , to see "Romeo and Juliet." 
+0x06a9  /  0x451c (0x001e)  : Nigel gets carried away by the balcony scene of "Romeo and Juliet" and clutches my hand. 
+0x06aa  /  0x453b (0x0008)  : recoil and feel all hot
+0x06ab  /  0x4544 (0x0002)  : . 
+0x06ac  /  0x4547 (0x000f)  : say "remove thy bloody and invisible hand"
+0x06ad  /  0x4557 (0x0028)  :  (a quote from my Eng Lit course) and demand to go to a pub. I feel a sudden pang of hunger. 
+0x06ae  /  0x4580 (0x0005)  : squeeze his hand
+0x06af  /  0x4586 (0x000e)  : . It's nice to be out with a romantic. 
+0x06b8  /  0x4596 (0x0007)  : dinner at Ettington Park
+0x06b9  /  0x459e (0x0028)  : . The food is scrumptious and I meet lots of very rich county people. Perhaps going out with Nigel isn't so bad after all. 
+0x06ba  /  0x45c7 (0x0005)  : a boat party
+0x06bb  /  0x45cd (0x0041)  :  on the river. In the midst of all the young Sloanes whopping champagne, I spy a mysterious, quiet-looking man with a Bowie haircut. He looks longingly into my eyes and says he would like to see me again. 
+0x06bc  /  0x4610 (0x0007)  : have a fit of shyness
+0x06bd  /  0x4618 (0x0017)  : . I stutter and say that I am with someone. He walks off sadly. 
+0x06be  /  0x4630 (0x002c)  : A few days later I receive a letter from him saying that he is married and living with another woman but that he would like to see me again. 
+0x06bf  /  0x465d (0x0003)  : forget him
+0x06c0  /  0x4661 (0x001e)  : . I decide to put my mind to planning out my future. I apply to Australia house. 
+0x06c1  /  0x4680 (0x000c)  : write back saying lots of witty things
+0x06c2  /  0x468d (0x0037)  : . He invites me to London and I discover he is manager of his own company, owns a soft-top XJS and has two houses. Looks as though I've struck lucky at last! 
+0x06c3  /  0x46c5 (0x001c)  : questions are being asked in Parliament about Elizabeth's affair with a married man. Cut it! 
+0x06c4  /  0x46e2 (0x000d)  : ring and ask him if I can come to London
+0x06c5  /  0x46f0 (0x0016)  : . He says "No, sorry". Some romantic he is! 
+0x06c6  /  0x4707 (0x0006)  : tell him to contact me
+0x06c7  /  0x470e (0x0008)  : . Nothing happens! 
+0x06c8  /  0x4717 (0x000c)  : go for a walk with him along the river
+0x06c9  /  0x4724 (0x0026)  : . He holds my hand and talks about wanting a wife to share his lonely flat with him in Knightsbridge! I am in love! 
+0x06cc  /  0x474c (0x0005)  : London with Mum
+0x06cd  /  0x4752 (0x003e)  :  and drag her round all the shops. I bump into Hazel Woolley who looks me up and down and offers me a job in her boyfriend's video company. Maybe she isn't such an awful person as everyone thinks. 
+0x06e0  /  0x4792 (0x0006)  : buy some summer clothes
+0x06e1  /  0x4799 (0x0014)  :  but I have nowhere to wear them. Ambridge is so boring. 
+0x06f4  /  0x47af (0x0025)  : I am terribly popular because everyone says I have exciting parties. I've got lots of invites to parties throughout the whole summer! 
+<EOM>

@@ -4,9 +4,7 @@ There is a piece of driftwood here
 A huge packing case, open at one end, rests on the ground
 What next?
 #title: Dungeon Adventure test script
-Invalid command
-#comment: CPC version
-Invalid command
+#comment: MSX version
 #SEED 42
 Seed set to 42
 U

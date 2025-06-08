@@ -1,8 +1,7 @@
 #title: Red Moon test script;
-#comment: Amiga version [v4]. Based on a solution by Dorothy Millard;
+#comment: MSX version [v4]. Based on a solution by Dorothy Millard;
 
 #SEED 42;
-2;
 DIG [Start on a wide flat grassy plain. You find a crown];
 EXAMINE CROWN [bejewelled];
 N;
@@ -400,8 +399,7 @@ N;
 W;
 WEAR CLOAK;
 NW [to where the cloaked statue is];
-E [temple to Litter Murdox;
-who is the god of light and darkness];
+E [temple to Litter Murdox; who is the god of light and darkness];
 GET BALL [black];
 W;
 W [rubber room];
@@ -618,8 +616,7 @@ GIVE MEAT TO DOG [it eats it and seconds later dies];
 OPEN DOOR;
 N;
 E;
-S [red room - as you enter a demonic voice hisses "Be warned human;
-I must kill anyone who crosses the line on the floor"];
+S [red room - as you enter a demonic voice hisses "Be warned human; I must kill anyone who crosses the line on the floor"];
 
 ERASE LINE [that way you don't have to cross it];
 S;
@@ -646,4 +643,5 @@ W [grassy mound];
 GET POTION;
 DRINK POTION [your "hit points" are restored to their original value of 50];
 S [into the ruined stone house];
-
+NO;
+#quit

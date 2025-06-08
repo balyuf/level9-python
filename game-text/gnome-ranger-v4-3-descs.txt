@@ -1,0 +1,1044 @@
+0x0001  /  0x0449 (0x0001)  :  
+0x0002  /  0x044b (0x0002)  : :
+0x0003  /  0x044e (0x0001)  : , 
+0x0004  /  0x0450 (0x0001)  : .
+0x0005  /  0x0452 (0x0002)  : 
+
+0x0006  /  0x0455 (0x0002)  : and 
+0x0007  /  0x0458 (0x0003)  : .
+
+0x0008  /  0x045c (0x0003)  : ?
+
+0x0009  /  0x0460 (0x0001)  : . 
+0x000a  /  0x0462 (0x0005)  : exits led 
+0x000b  /  0x0468 (0x0006)  : an exit led 
+0x000c  /  0x046f (0x0005)  :  through a door
+0x000d  /  0x0475 (0x0007)  :  through an open door
+0x000e  /  0x047d (0x0003)  :  and 
+0x000f  /  0x0481 (0x000d)  : That's enough "What gnow" prompts. 
+0x0010  /  0x048f (0x0004)  : 
+> 
+0x0011  /  0x0494 (0x0007)  : 
+What gnow? 
+0x0012  /  0x049c (0x0001)  : : 
+0x0013  /  0x049e (0x0001)  : "
+0x0014  /  0x04a0 (0x0002)  : a 
+0x0015  /  0x04a3 (0x0002)  : the 
+0x0016  /  0x04a6 (0x0002)  : an 
+0x0017  /  0x04a9 (0x0002)  : some 
+0x0018  /  0x04ac (0x0003)  : ." 
+0x0019  /  0x04b0 (0x0004)  : 
+ 
+
+0x001a  /  0x04b5 (0x0002)  : worn
+0x001b  /  0x04b8 (0x0002)  : taken
+0x0033  /  0x04bc (0x000e)  : gnorth [aka] g north n gn northwards
+0x0034  /  0x04cb (0x000a)  : gnortheast [aka] ge northeast ne
+0x0035  /  0x04d6 (0x0008)  : east [aka] e eastwards
+0x0036  /  0x04df (0x0008)  : south [aka] s southwards
+0x0037  /  0x04e8 (0x0006)  : southeast [aka] se
+0x0038  /  0x04ef (0x0006)  : southwest [aka] sw
+0x0039  /  0x04f6 (0x0008)  : west [aka] w westwards
+0x003a  /  0x04ff (0x000a)  : gnorthwest [aka] gw northwest nw
+0x003b  /  0x050a (0x0008)  : upwards [aka] u up
+0x003c  /  0x0513 (0x0008)  : downwards [aka] d down
+0x003d  /  0x051c (0x000c)  : inside [aka] in inwards into enter
+0x003e  /  0x0529 (0x0008)  : outside [aka] out leave
+0x003f  /  0x0532 (0x0008)  : cross [aka] across over
+0x0040  /  0x053b (0x000c)  : with the climb [aka] scramble ascend mount
+0x0046  /  0x0549 (0x0002)  : i
+0x0047  /  0x054c (0x0006)  : again [aka] a
+0x0048  /  0x0553 (0x000c)  : look [aka] l display redisplay refresh
+0x0049  /  0x0560 (0x000c)  : inventory [aka] inv possessions possess list
+0x004a  /  0x056d (0x0004)  : quit restart
+0x004b  /  0x0572 (0x0004)  : restore load
+0x004c  /  0x0577 (0x0002)  : save
+0x004d  /  0x057a (0x0004)  : ramsave ram
+0x004e  /  0x057f (0x0002)  : ramload
+0x004f  /  0x0582 (0x0006)  : score rating status
+0x0050  /  0x0589 (0x0002)  : verbose
+0x0051  /  0x058c (0x0002)  : brief
+0x0052  /  0x058f (0x000a)  : wait [aka] wa pause z
+0x0053  /  0x059a (0x0006)  : ring [aka] play
+0x0054  /  0x05a1 (0x0002)  : on
+0x0055  /  0x05a4 (0x0006)  : off [aka] jump
+0x0056  /  0x05ab (0x0004)  : pictures graphics
+0x0057  /  0x05b0 (0x0004)  : words text
+0x0059  /  0x05b6 (0x0006)  : undo oops whoops
+0x005a  /  0x05bd (0x0010)  : attacked [aka] attack hit break kick punch smash
+0x005c  /  0x05cf (0x0008)  : searched [aka] search explore
+0x005d  /  0x05d8 (0x0002)  : dig
+0x005e  /  0x05db (0x0008)  : sniffed [aka] sniff smell
+0x005f  /  0x05e4 (0x0006)  : knocked [aka] knock
+0x0060  /  0x05eb (0x0006)  : stood [aka] stand
+0x0061  /  0x05f2 (0x0006)  : lay [aka] lie
+0x0062  /  0x05f9 (0x0006)  : sat [aka] sit
+0x0064  /  0x0601 (0x000a)  : said [aka] say whisper call
+0x0065  /  0x060c (0x0006)  : teleported [aka] teleport
+0x0066  /  0x0613 (0x0002)  : getme
+0x0068  /  0x0617 (0x0006)  : ran [aka] run
+0x006c  /  0x061f (0x000c)  : went [aka] go goto find walk
+0x006d  /  0x062c (0x0008)  : stopped [aka] stop abort
+0x006e  /  0x0635 (0x0006)  : drank [aka] drink
+0x0070  /  0x063d (0x0004)  : exits exit
+0x0082  /  0x0643 (0x0006)  : had [aka] have
+0x0083  /  0x064a (0x0006)  : had [aka] has
+0x0084  /  0x0651 (0x0006)  : was [aka] am
+0x0085  /  0x0658 (0x0006)  : were [aka] are
+0x0086  /  0x065f (0x0006)  : was [aka] is
+0x0087  /  0x0666 (0x0001)  : are
+0x0088  /  0x0668 (0x0001)  : is
+0x008f  /  0x066b (0x0008)  : fought [aka] fight kill
+0x0091  /  0x0675 (0x0006)  : dodged [aka] dodge
+0x0092  /  0x067c (0x0002)  : gdgo
+0x0093  /  0x067f (0x0002)  : gdrun
+0x0094  /  0x0682 (0x0002)  : stuff
+0x0096  /  0x0686 (0x0008)  : examined [aka] examine read
+0x0097  /  0x068f (0x0006)  : cut [aka] chop
+0x0098  /  0x0696 (0x0008)  : woke [aka] wake rouse
+0x009a  /  0x06a0 (0x0006)  : got [aka] get
+0x009b  /  0x06a7 (0x0018)  : took [aka] take carry acquire steal picked pick pluck catch lift pull
+0x009c  /  0x06c0 (0x0006)  : wore [aka] wear
+0x009d  /  0x06c7 (0x0008)  : dropped [aka] drop discard
+0x009e  /  0x06d0 (0x0008)  : put [aka] hide conceal
+0x009f  /  0x06d9 (0x000a)  : removed [aka] remove free release
+0x00a0  /  0x06e4 (0x000c)  : threw [aka] throw chuck toss hurl
+0x00a1  /  0x06f1 (0x000c)  : gave [aka] give offer offered sell
+0x00a2  /  0x06fe (0x0008)  : asked [aka] ask question
+0x00a3  /  0x0707 (0x0008)  : followed [aka] follow chase
+0x00a4  /  0x0710 (0x0008)  : opened [aka] open unlock
+0x00a8  /  0x071a (0x000e)  : pushed [aka] tug push launch shovel paddle
+0x00a9  /  0x0729 (0x000a)  : fastened [aka] fasten tie attach
+0x00aa  /  0x0734 (0x0008)  : unfastened [aka] unfasten untie
+0x00b0  /  0x073e (0x0006)  : inserted [aka] insert
+0x00ba  /  0x0746 (0x0004)  : return object
+0x00bd  /  0x074c (0x0002)  : gdfind
+0x00be  /  0x074f (0x0008)  : closed [aka] close shut
+0x00c0  /  0x0759 (0x0006)  : told [aka] tell
+0x00c2  /  0x0761 (0x0002)  : struggled
+0x00c5  /  0x0765 (0x0002)  : killed
+0x00d2  /  0x0769 (0x0002)  : reached
+0x00d3  /  0x076c (0x0002)  : dragged
+0x00d4  /  0x076f (0x0002)  : passed
+0x00d5  /  0x0772 (0x0002)  : flew
+0x00d6  /  0x0775 (0x0002)  : walked
+0x00d7  /  0x0778 (0x0002)  : caught
+0x00d8  /  0x077b (0x0002)  : entered
+0x00fa  /  0x077f (0x000e)  : oK, if you say gnot [aka] gno no
+0x00fb  /  0x078e (0x000a)  : right, so be it [aka] yes
+0x00fc  /  0x0799 (0x001d)  : whee! That was fun. Gnow let's get back to business [aka] leap hop skip dance celebrate
+0x00fd  /  0x07b7 (0x0071)  : and as that word was released upon the wind, time stood still, the world was plunged into blackness and all sound ceased. Then, from afar, Ingrid heard a voice say, "What the heck was that?" And another replied, "I haven't a clue, but it wasn't for us". Then everything went back to gnormal [aka] plugh xyzzy sesame plover humakaat satarh ollabin obis
+0x00fe  /  0x082a (0x001e)  : the weather was magnificent. But that was on the Costa Gnoma. Where Ingrid was, it was gnothing much to write about
+0x00ff  /  0x0849 (0x0030)  : if you want to talk to someone, follow their gname with what you want to say to them. For example GATE, HELLO [aka] hello welcome hi greetings day afternoon
+0x0100  /  0x087a (0x0012)  : Ingrid heard gnothing that she didn't already know about [aka] listen hear
+0x0101  /  0x088d (0x0012)  : send the coupon to Level 9 for a hint [aka] help
+0x0103  /  0x08a1 (0x0010)  : send your cheques to Level 9 [aka] treasure money
+0x0104  /  0x08b2 (0x000b)  : the only escape is to finish the game
+0x0105  /  0x08be (0x0020)  : fancy that? What I want is some fish to go with my chips, but we can't always get what we want.
+0x0106  /  0x08df (0x0010)  : Ingrid will have to find that out for herself [aka] what
+0x0107  /  0x08f0 (0x0009)  : Why gnot [aka] y why
+0x0108  /  0x08fa (0x0014)  : funny you should ask that, I was just wondering where it was myself
+0x0109  /  0x090f (0x001a)  : I'm afraid even I don't know how things work around here. I'm just grateful when they do
+0x010a  /  0x092a (0x002a)  : sorry, I can't help with such matters. 
+Actually, I'm gnot in the least bit sorry. I like to see people struggling [aka] whether who
+0x010b  /  0x0955 (0x0060)  : that kind of language does not impress me one little bit [aka] sod motherfucker crap gnipples cock bloody scott adams frigging wanker turd piss shit twat cunt prick bollocks jesus christ dick god devil tits asshole arsehole cretin conservatives spastic coon wog fucking screw fucker bastard bugger damn fart sex hell
+0x010c  /  0x09b7 (0x0015)  : the real question is whether there is intelligent life on Earth [aka] intelligence
+0x010d  /  0x09cd (0x001a)  : if you are in search of the meaning of life, the universe and everything - look elsewhere
+0x010e  /  0x09e8 (0x0012)  : so what is there to shout about? I don't know [aka] yell
+0x010f  /  0x09fb (0x000f)  : royalties are gnever enough and are always late arriving
+0x0110  /  0x0a0b (0x0012)  : forget these funereal fulminations and get on with life [aka] death
+0x0111  /  0x0a1e (0x0023)  : what? Going so soon? Try CONTROL C, but don't forget to save your position first [aka] goodbye bye
+0x0112  /  0x0a42 (0x0011)  : you're forgiven, and bless you for your consideration [aka] sorry
+0x0113  /  0x0a54 (0x000f)  : EEEK! (Will that do?) [aka] scream
+0x0114  /  0x0a64 (0x0008)  : what a scorcher [aka] phew
+0x0115  /  0x0a6d (0x002a)  : 
+directory of disk A:\ 
+ 
+Gno files. 
+Space free = Gno Megabytes [aka] dir catalog cat
+0x0117  /  0x0a99 (0x0039)  : Ingrid closed her eyes and tried to sleep, but couldn't. She tried counting sheep, but they kept disappearing into snowdrifts and she had to wake up to get them out. So she gave up and stayed awake instead
+0x0118  /  0x0ad3 (0x0021)  : the killer whales made swimming too dangerous around there. Besides, the water was freezing and Ingrid didn't have a wetsuit [aka] swim
+0x0119  /  0x0af5 (0x0013)  : what do you mean, think? Thinking's your department, gnot mine
+0x011a  /  0x0b09 (0x000d)  : Ingrid's attempts at musicianship were gnot well received
+0x011b  /  0x0b17 (0x0002)  : hit
+0x011d  /  0x0b1b (0x0002)  : bleuch
+0x011e  /  0x0b1e (0x0019)  : Ingrid thought about shaking it, but decided it might gnot be a good idea [aka] shake
+0x011f  /  0x0b38 (0x0018)  : Ingrid's attempt at musicianship are rarely well received, are they? This was gno exception
+0x0120  /  0x0b51 (0x000e)  : you are here to use objects, gnot to bury them
+0x0121  /  0x0b60 (0x0010)  : yeuch [aka] eat bite taste nibble gnibble lick
+0x0122  /  0x0b71 (0x0020)  : Ingrid polished it until it gleamed like Arback Garden's bald head in the gnoonday sun [aka] rub clean polish
+0x0123  /  0x0b92 (0x0018)  : you fill a container by, e.G, "PUT THING IN CONTAINER"
+0x0124  /  0x0bab (0x0010)  : please empty a container by removing its contents in turn
+0x0126  /  0x0bbd (0x0012)  : Ingrid had gno way to light anything.She was a gnon-smoker, you see
+0x0127  /  0x0bd0 (0x0011)  : extinguish it? How can I? It's gnot on fire
+0x0129  /  0x0be3 (0x001a)  : XXX. If you don't mind, I'll just pay lip service to that command [aka] kiss
+0x012a  /  0x0bfe (0x0023)  : the only thing worth waving around here is a magic wand, and I don't know if we've got one of those [aka] wave
+0x012b  /  0x0c22 (0x001e)  : gnothing happened. Ingrid tried again, and that time gnothing happened again [aka] press select depress poke prod touch
+0x012d  /  0x0c42 (0x0008)  : Ingrid [aka] player me
+0x012e  /  0x0c4b (0x0008)  : insipid icechild [aka] child
+0x012f  /  0x0c54 (0x0009)  : the indefatigable icewarrior [aka] warrior
+0x0130  /  0x0c5e (0x0009)  : the inane icejester [aka] jester
+0x0131  /  0x0c68 (0x0009)  : the imperious icequeen [aka] queen
+0x0132  /  0x0c72 (0x0004)  : innumerable icepeople
+0x0133  /  0x0c77 (0x0009)  : the fearsome firefighter [aka] fighter
+0x0134  /  0x0c81 (0x0009)  : the fidgety fireguard [aka] guard
+0x0135  /  0x0c8b (0x0009)  : the flamboyant fireking [aka] king
+0x0136  /  0x0c95 (0x0004)  : feckless firepeople
+0x0137  /  0x0c9a (0x0004)  : bronze gate
+0x0138  /  0x0c9f (0x000d)  : the gnarled gnome [aka] Gnut Myjob gatekeeper
+0x0139  /  0x0cad (0x0005)  : the motherly penguin
+0x013a  /  0x0cb3 (0x0002)  : penguins
+0x013b  /  0x0cb6 (0x0005)  : the hairy yeti
+0x017c  /  0x0cbd (0x000c)  : sparkling diamond [aka] stone rock gem
+0x017d  /  0x0cca (0x000c)  : enormous emerald [aka] stone rock gem
+0x017e  /  0x0cd7 (0x000c)  : massive ruby [aka] stone rock gem
+0x017f  /  0x0ce4 (0x000c)  : glittering sapphire [aka] stone rock gem
+0x0180  /  0x0cf1 (0x000a)  : lumpy boulder [aka] rock stone
+0x0181  /  0x0cfc (0x000d)  : smooth, round cobblestone [aka] rock stone
+0x0182  /  0x0d0a (0x000c)  : flint gnodule [aka] rock stone nodule
+0x0183  /  0x0d17 (0x0008)  : fossil [aka] rock stone
+0x0184  /  0x0d20 (0x000c)  : crumbly gravel heap [aka] rock stone
+0x0185  /  0x0d2d (0x0009)  : small pebble [aka] rock stone
+0x0186  /  0x0d37 (0x000a)  : grey slate [aka] rock stone
+0x018b  /  0x0d43 (0x0004)  : wispy cloudstuff
+0x018c  /  0x0d48 (0x000a)  : large egg [aka] Egbert Eggbert
+0x018d  /  0x0d53 (0x0006)  : long key log
+0x018e  /  0x0d5a (0x0004)  : canvas sack
+0x018f  /  0x0d5f (0x0008)  : wicker-work snowshoes [aka] shoes
+0x01ae  /  0x0d69 (0x0008)  : temporary icedam [aka] dam
+0x01af  /  0x0d72 (0x0004)  : sodden debris
+0x01b1  /  0x0d78 (0x0008)  : icefall [aka] snow ice
+0x01b2  /  0x0d81 (0x0008)  : wobbly icefloe [aka] floe
+0x01b3  /  0x0d8a (0x0007)  : small signpost [aka] sign
+0x01b4  /  0x0d92 (0x000a)  : long treetrunk [aka] tree trunk
+0x01b5  /  0x0d9d (0x0004)  : huge footprints
+0x01c3  /  0x0da3 (0x0006)  : river [aka] water
+0x01c4  /  0x0daa (0x0006)  : river [aka] water
+0x01c5  /  0x0db1 (0x0006)  : river [aka] water
+0x01c6  /  0x0db8 (0x0006)  : river [aka] water
+0x01c7  /  0x0dbf (0x0006)  : river [aka] water
+0x01c8  /  0x0dc6 (0x0006)  : lake [aka] water
+0x01c9  /  0x0dcd (0x0006)  : lake [aka] water
+0x01ca  /  0x0dd4 (0x0006)  : lake [aka] water
+0x01cb  /  0x0ddb (0x0006)  : lake [aka] water
+0x01cc  /  0x0de2 (0x0006)  : lake [aka] water
+0x01cd  /  0x0de9 (0x0002)  : falchion
+0x01ce  /  0x0dec (0x0002)  : tag
+0x01cf  /  0x0def (0x0006)  : throne [aka] firethrone
+0x01d0  /  0x0df6 (0x0002)  : iceberg
+0x01d1  /  0x0df9 (0x0005)  : cairn of stones
+0x01d2  /  0x0dff (0x0004)  : yeti's feet
+0x01e0  /  0x0e05 (0x0006)  : mountain [aka] caves
+0x01e1  /  0x0e0c (0x0004)  : mountain base
+0x01e2  /  0x0e11 (0x0004)  : garden entrance
+0x01e3  /  0x0e16 (0x0006)  : icebridge [aka] bridge
+0x0212  /  0x0e1e (0x0002)  : rainbird
+0x0213  /  0x0e21 (0x0006)  : breadcrumbs [aka] sausagemeat
+0x0216  /  0x0e29 (0x0006)  : everything all every
+0x0217  /  0x0e30 (0x0002)  : ingredients
+0x0218  /  0x0e33 (0x0002)  : weapons
+0x0219  /  0x0e36 (0x0008)  : people [aka] everyone everybody
+0x021a  /  0x0e3f (0x0006)  : clothes [aka] armour
+0x021b  /  0x0e46 (0x0002)  : door
+0x021d  /  0x0e4a (0x0006)  : water [aka] river
+0x021e  /  0x0e51 (0x0002)  : be
+0x021f  /  0x0e54 (0x0008)  : room [aka] ground floor
+0x0220  /  0x0e5d (0x0006)  : wall [aka] walls
+0x0221  /  0x0e64 (0x0008)  : sky [aka] sun moon
+0x0223  /  0x0e6e (0x0004)  : except but
+0x0224  /  0x0e73 (0x0010)  : it [aka] that them those none him her
+0x0225  /  0x0e84 (0x0004)  : minute minutes
+0x0226  /  0x0e89 (0x0002)  : breath
+0x0227  /  0x0e8c (0x0004)  : then gnext
+0x0228  /  0x0e91 (0x0004)  : therefore so
+0x0229  /  0x0e96 (0x0006)  : Ingrid [aka] you
+0x0230  /  0x0e9e (0x0001)  : it
+0x0231  /  0x0ea0 (0x0001)  : it
+0x0232  /  0x0ea2 (0x0001)  : some
+0x0233  /  0x0ea4 (0x0001)  : he
+0x0234  /  0x0ea6 (0x0001)  : she
+0x0235  /  0x0ea8 (0x0001)  : they
+0x0236  /  0x0eaa (0x0001)  : Ingrid
+0x023a  /  0x0ead (0x0001)  : it
+0x023b  /  0x0eaf (0x0001)  : it
+0x023c  /  0x0eb1 (0x0001)  : them
+0x023d  /  0x0eb3 (0x0002)  : him
+0x023e  /  0x0eb6 (0x0001)  : her
+0x023f  /  0x0eb8 (0x0001)  : them
+0x0240  /  0x0eba (0x0001)  : Ingrid
+0x0243  /  0x0ebd (0x0002)  : ~
+0x0244  /  0x0ec0 (0x0002)  : s
+0x0245  /  0x0ec3 (0x0002)  : es
+0x0246  /  0x0ec6 (0x0001)  : is
+0x0249  /  0x0ec9 (0x0004)  : from the south
+0x024a  /  0x0ece (0x0004)  : from the southwest
+0x024b  /  0x0ed3 (0x0004)  : from the west
+0x024c  /  0x0ed8 (0x0004)  : from the gnorth
+0x024d  /  0x0edd (0x0004)  : from the gnorthwest
+0x024e  /  0x0ee2 (0x0004)  : from the gnortheast
+0x024f  /  0x0ee7 (0x0004)  : from the east
+0x0250  /  0x0eec (0x0004)  : from the southeast
+0x0251  /  0x0ef1 (0x0003)  : from below
+0x0252  /  0x0ef5 (0x0003)  : from above
+0x0253  /  0x0ef9 (0x0003)  : from outside
+0x0254  /  0x0efd (0x0003)  : from inside
+0x0255  /  0x0f01 (0x0005)  : from across the way
+0x0256  /  0x0f07 (0x0003)  : by climbing
+0x0257  /  0x0f0b (0x0004)  : with a jump
+0x0259  /  0x0f11 (0x0088)  : a small and rather attractive young gnome maid, but there was something about the way she would look you in the eye or stamp on your foot if you got in her way, that told you this was gno wilting violet. She may have been a trifle small, but Ingrid was gnot a girl to be trifled with. Though most other folks could look over her head, she was gnot a person to be overlooked. She was also travel-worn and in definite gneed of a bath which was another good reason for gnot tangling with her
+0x025a  /  0x0f9c (0x0039)  : an inoffensive innocent, kidnapped by the fire people in retaliation when their caves were flooded by water from the ice people's river. In appearance it was small, pale and spotty and had a drip on the end of its gnose
+0x025b  /  0x0fd6 (0x0039)  : an indefatigable instrument of the icy imperium. His intemperance intimidated the infantry, but inspired the intrepid irregulars. To look at, he was built like a brick icehouse, every bit as cold and twice as thick
+0x025c  /  0x1010 (0x006a)  : an inebriated imbecile, impiously inclined to interject irritatingly inappropriate idiocies. Ingrid thought he was a pain in the gneck, but his icepeople audiences loved him - which says something about the icepeople. However, he wore the proper gear for the job - harlequin costume, curled up shoes and a bobble hat - and carried an icicle with a bell on the end.
+0x025d  /  0x107c (0x001f)  : an imperious individual, of impeccable integrity, though of idiosyncratic ilk, implacable when irate but intransigent against iniquity
+0x025e  /  0x109c (0x0054)  : the indigenous inhabitants of that inhospitable icekingdom, intensely inane and inherently inept, they were inevitably ineffective in their industrial initiatives. From a distance they looked rather like a pile of half-melted snow and icicles that had fallen off a house roof in the spring thaw. Closer to, the resemblance was even more marked
+0x025f  /  0x10f2 (0x0041)  : a formidable fellow with a fine figure and a ferocious frown. Forswearing fancy, fashionable fabrics, he favoured fustian fatigues and a field-grey forage cap. (Ingrid thought he was actually quite dashing in a rough sort of way)
+0x0260  /  0x1135 (0x0040)  : a flabby, flatulent flunkey, with a fat, florid face and a fetish for fricasseed frankfurters; he was forever fondling his falchion. Ingrid fancied that he was, felicitously, gnot fleet of foot and could be fairly easily foxed
+0x0261  /  0x1177 (0x0051)  : a fearsome foe and a fractious friend, with a feeling for foppish fashions. He wore a fancy frock-coat with a flourish of ferrous filigree and a feathery frill. His clothes were all a bit singed round the edges and Ingrid got quite hot just by being in the same room with him
+0x0262  /  0x11ca (0x004e)  : a fiery folk, forever fuming and fulminating on fortune, fair or foul, but with a fondness for flans and fondues and fried fish fingers. But they didn't like parties - mainly because of the danger of spontaneous combustion whenever too many of them packed into the same room
+0x0263  /  0x121a (0x004c)  : a massive structure of solid bronze. It was ages old, darkened and weather-worn, the bas-relief mouldings only visible when the light caught them in the right way. Even then, it was difficult to make out what they were supposed to represent. There were four strange sockets on the gate
+0x0264  /  0x1268 (0x0097)  : slightly taller than Ingrid and definitely heavier - although he didn't have Mr. Bottomlow's weight problem. He stood splay-legged and with his head tucked down into hunched shoulders. This was probably intended to make himself look menacing, but as far as Ingrid was concerned, it simply meant that she was able to look him straight in the eye. (And that made a gnice change seeing as how everybody else towered over her.) his gname was Gnut Myjob and he was a gatekeeper. Ingrid knew this instinctively from the little tag on his tunic
+0x0265  /  0x1302 (0x006c)  : motherly, and getting bored with mothering. In terms of excitement, incubating an egg can only be compared to waiting for concrete to set; and talk of "fulfilling one's destiny" and "continuity of the species" doesn't cut a lot of ice when a body has been standing on ice for weeks on end. She was cold, ratty and hungry enough to eat a whale
+0x0266  /  0x1370 (0x0058)  : a jolly crowd, flapping around and chattering to each other and ignoring the rest of the world, like the waiters in a restaurant when you want to get to coffee and the bill quickly because your dinner companion is obviously in the mood but you've both got to get back to your respective spouses by midnight and time's running out
+0x0267  /  0x13ca (0x006b)  : enormous! He was covered in long, white hair and so huge that he looked like a flour-covered haystack. (Ingrid had seen one of those when Uncle Dusty had the accident with the mill.) but when the wind blew, which it did rather a lot around there, she could see that there wasn't very much yeti beneath the hair. And he had a kind, if troubled, face
+0x02a8  /  0x1438 (0x004a)  : a magnificent crystal, as big as Ingrid's fist and radiant as with an inner light. Like a star it shone, sending forth twinkling shafts of pure whiteness. It was the sort of stone that men yearned for, dwarves killed for and gnomes used as doorstoppers
+0x02a9  /  0x1484 (0x0034)  : a superbly crafted stone, cut to perfect symmetry and with each facet polished to absolute smoothness. To look into that emerald was to look into the deep green pool of life itself
+0x02aa  /  0x14b9 (0x0035)  : a massive gem, the size and weight of a small boulder. It must have been worth a king's ransom. Ingrid made a mental gnote to keep an eye open for any kidnapped kings
+0x02ab  /  0x14ef (0x0048)  : as blue as the sea at a summer's gnoon, or as a bucket of Uncle Dusty's gnome-made blueberry wine. It had hundreds of tiny facets, all glittering like a dragonfly's eyes - though Ingrid hoped that she would gnever meet a dragonfly with eyes that big
+0x02ac  /  0x1539 (0x0030)  : a common or garden boulder - the sort that you might well stub your toe on while walking on the common, or wreck the lawnmower on if it turned up unexpectantly
+0x02ad  /  0x156a (0x005c)  : a small, round, grey stone, ideal for flicking from a sling, though with other, more peaceful, uses. Ingrid thought it would be gnice to paint a pattern on it, write "paperweight" on the bottom and give it to a grateful relative. Then she remembered that gnone of her relatives ever used paper for anything at all
+0x02ae  /  0x15c8 (0x004a)  : a bit broken off a larger gnodule. It was a bit flaky round the edges and distinctly sharp in places. Ingrid, who had studied these kind of things at the Institute, recognized it as being either an early Stone Age hand axe, or an accident
+0x02af  /  0x1614 (0x0033)  : set in a small chunk of limestone. It had a pretty, curly pattern like squashed snail shell, and was just the job for adding a distinctive touch to an otherwise boring rockery
+0x02b0  /  0x1648 (0x0055)  : about half as high as Ingrid, though much wider at the base. There was enough to use for drainage in a dozen or so plant pots, but you wouldn't get far trying to make a gravel path out of it. A small trickle of stones ran down the side when Ingrid tapped the heap with her foot
+0x02b1  /  0x169f (0x002e)  : about the size of a marble - the big allies, gnot those little glass ones - and almost as round. Its most remarkable feature was its staggering ordinariness
+0x02b2  /  0x16ce (0x0028)  : thick, flat on the front and rough around the edges. It reminded her of the Institute. Quite a few of the other students had been like that
+0x02b7  /  0x16f8 (0x004b)  : the consistency of Mother's semolina pudding - mainly thin and watery, with some lumps of solid stuff. But at least it was gnice and white, as clouds ought to be, gnot that gnasty gloomy grey stuff that means it's going to rain rats and hamsters
+0x02b8  /  0x1745 (0x0045)  : gnice and warm. Ingrid listened to it carefully to try and hear the chick inside, but it must have been asleep. There were a few tufts of fluffy feathers stuck onto it. Ingrid couldn't tell what they were stuck on with, though she could guess
+0x02b9  /  0x178c (0x0078)  : just a small, ordinary log. It was only its position, and the way that the other logs, stones and assorted debris were jammed against it, that gave it its key status. Ingrid had watched the guinea-pigs all trying to get out of the sty door at the same time, so she understood the principles of jams and realized that when this log was removed, the gnext rush of water would wash the other debris out of the way and cure the flooding
+0x02ba  /  0x1806 (0x0031)  : made of a thin, but tough, white canvas. It had a soft rope drawstring that made a convenient carrying handle, or could be used to sling the sack over her shoulder
+0x02bb  /  0x1838 (0x005b)  : very large and flat, though with a bit of a curl up at the front, and much too loose for the dainty feet of the snowman. Made of wood and wickerwork, the shoes were rather like Ingrid's old tennis racket. That was also curled up at the end - it had warped after she used it for straining the cabbage
+0x02da  /  0x1896 (0x0040)  : a big pile of snow that completely blocked the river. Although the dam was was only made of snow, it held fast as the water was too cold to melt it. The river level was rising steadily behind the dam and falling downstream of it
+0x02db  /  0x18d8 (0x0040)  : a mixed assortment of junk, principally logs and branches, but with a scattering of empty bottles and barrels, chunks of weed-bound mud, stones, a broken wheelbarrow and a gnumber of things that Ingrid didn't like to examine too closely
+0x02dd  /  0x191b (0x0052)  : a tumble of loose ice and snow that might have been brought down by a sudden thaw or by someone trying to climb up the icy slopes above. There were gno feet sticking out of it, so Ingrid favoured the thaw theory. It looked as though a little judicious pushing would shove some of it into the river below
+0x02de  /  0x196f (0x0036)  : a flat-topped slab of ice about as big as Ingrid's bedroom floor - and probably gnot much colder. Ingrid made a gnote to remind Father to have single glazing put in before gnext winter
+0x02df  /  0x19a6 (0x0072)  : a wooden pole with planks gnailed on. They pointed gnorth to "Gnomebridge", south to "The Rock Gardegn", southwest to the "Halls of the Mountaign Kigngs" and southeast to "Lake (Gno Fishigng)". The odd thing was that the signs were about head high for Ingrid, which meant that they were either intended for gnomes and other gnormal-sized beings, or that the ground was boggy
+0x02e0  /  0x1a1a (0x0035)  : that of an old, tired pine. It had fallen over of its own accord, having snapped off at the roots. The branches were broken, ragged stumps, and some were hollow with rot
+0x02e1  /  0x1a50 (0x003a)  : incredibly large, broad and round at one end and tapering down to a point at the other. Ingrid had done tracking in the Gnome Guides, so she could instantly tell that they were made by an enormous two-legged monster
+0x02ef  /  0x1a8c (0x001a)  : fairly gnarrow and fast flowing. The water was bitterly cold and had chunks of ice floating in it
+0x02f0  /  0x1aa7 (0x0022)  : flowing quickly between snow-covered banks. Eddies in the current were gnibbling at the banks, carrying away crumbles of snow and ice
+0x02f1  /  0x1aca (0x0014)  : beginning to flow more slowly gnow as it broadened out in the flatter land
+0x02f2  /  0x1adf (0x0020)  : slow-running and sprawling across its broad bed, as if exhausted by all the rushing about it did, back up the valley
+0x02f3  /  0x1b00 (0x0036)  : the mouth of a river where it emptied lazily into the lake. Chunks of ice and snow that had been carried down from the higher reaches were collecting in untidy piles at the sides where the current ran slowest
+0x02f4  /  0x1b37 (0x003c)  : so wide that the far shore was out of sight. It may have been beyond the horizon, but where was the horizon? In that seascape of white mist, white cloud and white-capped water, it was impossible to say
+0x02f5  /  0x1b74 (0x0029)  : broad and flat, with sheets of ice growing out from the shore in the sheltered bays, where the frosts collected and the current moved most slowly
+0x02f6  /  0x1b9e (0x0039)  : bleak and bitterly cold. An icy wind set the glassy surface shimmering, small waves broke against the scatter of drifting ice floes, sending up fine sprays that froze and fell like sparkling diamonds
+0x02f7  /  0x1bd8 (0x0007)  : cold, wet and miserable
+0x02f8  /  0x1be0 (0x000f)  : so far from the shore that gnothing but water could be seen
+0x02f9  /  0x1bf0 (0x0016)  : a broad curved sword. Shame on you if you thought it was anything else
+0x02fa  /  0x1c07 (0x0015)  : a small wooden badge with "Gnut Myjob, Gatekeeper" written on it
+0x02fb  /  0x1c1d (0x0019)  : shaped so that, seen through the film of red flames, it looked like a chariot of fire
+0x02fc  /  0x1c37 (0x003d)  : the size of a small island, with sharp peaks forming a half-circle around a flatter place where penguins had gathered. The shoreline in front of this had been worn smooth by the birds as they had clambered in and out of the lake
+0x02fd  /  0x1c75 (0x0021)  : almost up to Ingrid's waist. The topmost stone had written on it, "Erected by the 9th Gnomebridge Guide Troop"
+0x02fe  /  0x1c97 (0x0013)  : sore and blistered from sliding and rubbing around inside his massive shoes
+0x030c  /  0x1cac (0x0057)  : high and barren, the bleak rocky slopes broken by broad sweeps of snow. A gnarrow, but clearly-defined track led to a tall crevice which seemed to open out into cave, or perhaps a series of caves, within the mountain. From the outside it was difficult to tell just what lay beyond that opening
+0x030d  /  0x1d05 (0x0023)  : sloping gently upwards, getting steadily steeper all the time. Deep snowfields lay all around, with outcrops of wind-eroded black rock
+0x030e  /  0x1d29 (0x0045)  : opening in the high wall that enclosed the garden. A signboard on the wall to the left read "Gnorse Gnook Rock Gardegn. Egntragnce Ognly Ogne Rock". There may have been more, but the bottom of the board was hidden by ivy
+0x030f  /  0x1d70 (0x003c)  : a gnatural arch of ice and frozen snow, spanning the broad river precariously. It was wide enough to walk over, but looked a little fragile in places. Ingrid wondered what fantastic combination of wind and weather had created it
+0x0347  /  0x1dae (0x0027)  : carved from a single slab of pumice, and a bit battered along the edge where it had banged back against the wall on its well-greased hinges
+0x03ea  /  0x1dd8 (0x0004)  : on a cloud
+0x03eb  /  0x1ddd (0x0004)  : on a cloud
+0x03ec  /  0x1de2 (0x0004)  : on a cloud
+0x03ed  /  0x1de7 (0x0004)  : on a cloud
+0x03f1  /  0x1ded (0x0005)  : on cloud 9
+0x03f2  /  0x1df3 (0x0004)  : in a tunnel
+0x03f3  /  0x1df8 (0x0006)  : in a fire hall
+0x03f4  /  0x1dff (0x0006)  : in a steamy junction
+0x03f5  /  0x1e06 (0x0004)  : in a prison
+0x03f6  /  0x1e0b (0x0006)  : in a barricaded corridor
+0x03f7  /  0x1e12 (0x0005)  : in flooded firecaves
+0x03f8  /  0x1e18 (0x0006)  : in a guarded corridor
+0x03f9  /  0x1e1f (0x0003)  : in whitehall
+0x03fa  /  0x1e23 (0x0006)  : in a river canyon
+0x03fb  /  0x1e2a (0x0005)  : in labyrinthine icecaves
+0x03fc  /  0x1e30 (0x0006)  : in an outlet canyon
+0x03fd  /  0x1e37 (0x0006)  : in a river canyon
+0x03fe  /  0x1e3e (0x0004)  : in a tunnel
+0x03ff  /  0x1e43 (0x0006)  : in a rock garden
+0x0400  /  0x1e4a (0x0008)  : at the peak of the mountain
+0x0401  /  0x1e53 (0x0006)  : halfway up the mountain
+0x0402  /  0x1e5a (0x0009)  : on the lower slopes of the mountain
+0x045d  /  0x1e65 (0x0005)  :  beside the lake
+0x0471  /  0x1e6c (0x000f)  : where the road from the gnorth turns and heads eastwards
+0x0472  /  0x1e7c (0x0006)  : on an east-west road
+0x0473  /  0x1e83 (0x0006)  : on an east-west road
+0x0474  /  0x1e8a (0x000a)  : at the end of an east-west road
+0x0478  /  0x1e96 (0x0006)  : on a gnorth-south road
+0x047e  /  0x1e9e (0x000d)  : , beside the sheer south face of the mountain
+0x047f  /  0x1eac (0x0006)  : on a gnorth-south road
+0x0486  /  0x1eb4 (0x0006)  : on a gnorth-south road
+0x0487  /  0x1ebb (0x0009)  : , south of a high cliff
+0x0488  /  0x1ec5 (0x0009)  : , south of a vertical cliff
+0x0489  /  0x1ecf (0x000d)  : , at the extreme gnortheast corner of the valley
+0x04b0  /  0x1ede (0x006f)  : south of a high, bleak mountain. There was a glacier running down one slope. Well, gnot exactly running. In fact it didn't even appear to be crawling, but Ingrid, who had studied Geology at the Institute, knew that it was moving very, very slowly. Then Ingrid gnoticed that steam was drifting from a gnarrow rocky entrance at the edge of the ice, freezing as it emerged and landing 
+0x04b1  /  0x1f4f (0x0044)  : at the base of a mountain that rose high into the clouds. The way up was hard and stony, but an indomitable spirit could forge a path across the jagged rocks and treacherous snow that lay on its slopes. Ingrid considered the challenge as she rested
+0x04b2  /  0x1f95 (0x0036)  : at the gnorthern entrance of a garden. A high wall surrounded the garden and as far as Ingrid could tell the only way in lay through the open archway that stood before her. The garden stood
+0x04b3  /  0x1fcc (0x0030)  : beside a large icebridge which jutted out southwards over the river. Festooned with long icicles, the bridge formed an elegant link between the snowy shores. Ingrid admired it from
+0x0516  /  0x1ffe (0x002b)  : , close to the mountain peak. The flocculent cloudstuff was firm but springy,underfoot and would have made gnice mattress stuffing if it hadn't been so cold and damp
+0x0517  /  0x202a (0x002f)  : , surrounded by other clouds. She was in a vast expanse of lumpy whiteness. It was much the same sort of view that a tick would have on the back of a sheep
+0x0518  /  0x205a (0x003b)  : . It was rather ungnerving to be perched on such a fluffy nothingness, especially as it was almost impossible to tell where the cloud actually started. Her feet sank in at every step, but only up to the knees
+0x0519  /  0x2096 (0x002f)  : . This one was different from the rest. It was greyer, colder and wetter, and obviously a Gnomechester special - the rain was always greyer, colder and wetter there
+0x051d  /  0x20c7 (0x0019)  : . Ingrid knew this was so because of the large sign which read "cloud 9"
+0x051e  /  0x20e1 (0x0044)  : , deeper in the mountain. Here the rocky floor was so hot underfoot that Ingrid started to worry about getting chilblains, for it wasn't long since her feet had been almost frozen. But at least the hot dry air had cleared up her runny gnose
+0x051f  /  0x2127 (0x00aa)  : . Tongues of flame licked up from a broad fiery pool in the centre of the black-glazed floor, casting an angry red light on smoke-darkened walls and on the dias beyond, where the fireking sat on his throne. Oftimes a bright jet of liquid fire would spurt up from the depths of the pool, a spear of white heat thrusting towards the distant ceiling, then quivering and fragmenting and falling in an incandescent shower back into the pit of its birth. Each time this happened, the firepeople gathered around the firepool would draw away quickly, then return when the sparks subsided to get on with toasting their marshmallows
+0x0520  /  0x21d4 (0x0056)  : , the hall of the fireking behind her and the corridors of the ice people ahead. Steam poured out of another opening to the side and gathered and swirled around the junction. In fact, it was almost as bad as the farmhouse kitchen on Mudday, when Mother was trying to dry the washing in front of the fire
+0x0521  /  0x222c (0x0068)  : , in the hot darkness of the bowels of the fire kingdom. A dull glow from a distant corridor wall cast a dim, eerie red light, and by this Ingrid could see the rough pumice walls and low roof of the dismal cell. There was the smell of fear in that place and a touch of moisture in the air, as if something was melting slowly but painfully
+0x0522  /  0x2296 (0x0050)  : . The way was partially barred by thin jets of fire that rose up at Ingrid's feet. Here, the air was still heavy with steam, but cooler gnow and thinning steadily along the length of the corridor. It condensed against the walls and trickled down to form sooty pools on the floor
+0x0523  /  0x22e8 (0x0052)  : , a succession of high-domed caverns that must once have been full of life and laughter, but were gnow empty save for a great depth of water, and quiet, save for the hissing of steam where small waves lapped on the hot rock of the slope where Ingrid stood. The flood was still rising
+0x0524  /  0x233c (0x0042)  : at the edge of the ice kingdom. Icicles hung from the ceiling and grew down the walls in great knotted strands. The floor was as smooth and slippery as glass, and its coldness bit into Ingrid's feet through the travel-worn soles of her shoes
+0x0525  /  0x2380 (0x001e)  : , the glittering palace of the icequeen; a tall white throne, surrounded by a fantasy of sparkling ice
+0x0526  /  0x239f (0x0042)  : . A chill wind blew down over the rocky slopes, picking up little flurries of powdery snow from the higher reaches, tossing them round in the air, then, bored with the game, letting them fall to a watery grave in the river
+0x0527  /  0x23e3 (0x0049)  : . Tall, fluted pillars of clear ice stretched gracefully down from ceiling to floor, beside the river. The water was quite warm and the mist rising from its surface was etching rough patterns on those elegant pillars and on the snowy ornamentation that decorated the walls
+0x0528  /  0x242e (0x0081)  : that ended abruptly in a sheer rock face. The entrance to a tunnel was just visible below the waterline. From the eddies on the surface, Ingrid could tell that the river was gnot flowing through there, but was backing up and finding another exit elsewhere. It was impossible to tell what was blocking the tunnel without getting into it, and the water was too deep and cold for that. Ingrid had once spent a summer holiday at Cleethorpes, where she had learnt a healthy respect for cold water
+0x0529  /  0x24b2 (0x0060)  :  within the bounds of the mountain. Here the walls were high and steep, worn smooth by countless years of rushing water. A gnarrow path had been cut into the side gnot far above the waterline - gnot far enough in some places, for here and there it dipped into the river. But it was passable, for those who didn't mind wet feet
+0x052a  /  0x2514 (0x0054)  : , just inside the mountain. It was warm in here and the heat of the floor melted the snow off Ingrid shoes, forming little puddles that dried up as she watched. But it wasn't cosy. The low, soot-blackened roof, lit by distant flickers of red flames, gave an oppressive feel to the tunnel
+0x052b  /  0x256a (0x0058)  : . Looking round, she thought that Gnut Myjob had taken the term "rock garden" too literally. There was gnot a single plant in sight, just a frightful jumble of minerals. There may once have been some basic plan to it, but the garden was gnow little more that a pile of the stones brought by visitors
+0x052c  /  0x25c4 (0x0048)  : , high amongst the clouds. Barely visible below, the mountain fell away on one side in a steep, rocky slope. On the other side was an icefield that fed a long, wide glacier and a small cairn of stones had been built on the very peak
+0x052d  /  0x260e (0x002b)  : , amongst the jagged rocks. The icy wind had swept the exposed slopes clear of snow and piled it up in great drifts against the larger stones
+0x052e  /  0x263a (0x002b)  : . It was a bleak landscape of bare stone and broad swathes of packed ice and snow, broken only by scattered upthrusts of rock that had resisted the wind's erosion
+0x0586  /  0x2667 (0x0017)  : in a large pine forest with many old and rotten trees along the shoreline
+0x0590  /  0x2680 (0x0007)  : west of a large lake
+0x0597  /  0x2689 (0x0015)  : . In the distance to the east, a large iceberg was visible across the water
+0x0598  /  0x269f (0x0007)  : gnorth of a large lake
+0x0599  /  0x26a7 (0x0007)  : gnorth of a large lake
+0x0640  /  0x26b1 (0x0002)  : could see
+0x0641  /  0x26b4 (0x0006)  : on [aka] onto
+0x0642  /  0x26bb (0x0008)  : underneath [aka] below under
+0x0643  /  0x26c4 (0x0002)  : behind
+0x0646  /  0x26c8 (0x0005)  : in [aka] at
+0x0647  /  0x26ce (0x0008)  : in [aka] into inside
+0x0648  /  0x26d7 (0x0003)  : hanging from
+0x0649  /  0x26db (0x0004)  : growing from 
+0x064a  /  0x26e0 (0x0002)  : between
+0x064c  /  0x26e4 (0x0003)  : lying on
+0x064d  /  0x26e8 (0x0003)  : sitting on
+0x064e  /  0x26ec (0x0003)  : fastened to
+0x0650  /  0x26f1 (0x0006)  : with [aka] using
+0x0651  /  0x26f8 (0x0002)  : from
+0x0669  /  0x26fc (0x0001)  : was
+0x066a  /  0x26fe (0x0001)  : was
+0x066b  /  0x2700 (0x0001)  : was
+0x066c  /  0x2702 (0x0003)  : was carrying
+0x066d  /  0x2706 (0x0003)  : was wearing
+0x066e  /  0x270a (0x0004)  : was blocked by
+0x066f  /  0x270f (0x0001)  : was
+0x0670  /  0x2711 (0x0001)  : was
+0x0671  /  0x2713 (0x0001)  : was
+0x0672  /  0x2715 (0x0003)  : was tied
+0x0676  /  0x271a (0x0001)  : was
+0x06b3  /  0x271d (0x0003)  : tied to
+0x06cd  /  0x2722 (0x0002)  : was on
+0x06d0  /  0x2726 (0x0002)  : owned
+0x06d1  /  0x2729 (0x0003)  : was wearing
+0x06d2  /  0x272d (0x0003)  : was riding
+0x06d3  /  0x2731 (0x0002)  : was in
+0x06d8  /  0x2735 (0x0004)  : was lying on
+0x06d9  /  0x273a (0x0004)  : was sitting on
+0x06da  /  0x273f (0x0004)  : was fastened to
+0x06db  /  0x2744 (0x0001)  : was
+0x0708  /  0x2747 (0x0002)  : off
+0x0709  /  0x274a (0x0002)  : up
+0x070a  /  0x274d (0x0002)  : down
+0x070b  /  0x2750 (0x0002)  : to
+0x070c  /  0x2753 (0x0002)  : out
+0x070d  /  0x2756 (0x0004)  : from the 
+0x070e  /  0x275b (0x0002)  : for
+0x070f  /  0x275e (0x0002)  : until
+0x0710  /  0x2761 (0x0002)  : debug
+0x0711  /  0x2764 (0x0002)  : through
+0x0712  /  0x2767 (0x0002)  : about
+0x07d0  /  0x276c (0x0008)  : you don't gneed to use "
+0x07d1  /  0x2775 (0x0008)  : " to finish the game
+0x07d3  /  0x277f (0x0008)  : I don't understand the word "
+0x07d4  /  0x2788 (0x0007)  : " when used like that
+0x07d6  /  0x2791 (0x0003)  : Ingrid was 
+0x07d7  /  0x2795 (0x0003)  : in a 
+0x07d8  /  0x2799 (0x0003)  : in an 
+0x07d9  /  0x279d (0x0008)  : exits led in all directions
+0x07da  /  0x27a6 (0x0008)  : I don't understand what you mean
+0x07db  /  0x27af (0x0003)  : Ingrid couldn't see
+0x07dc  /  0x27b3 (0x0003)  : Ingrid didn't have
+0x07dd  /  0x27b7 (0x0004)  : Ingrid already had
+0x07de  /  0x27bc (0x0022)  : (Perhaps I'm just being particularly thick today, but I really haven't a clue as to what you are blathering on about)
+0x07df  /  0x27df (0x0006)  : it's too far away
+0x07e0  /  0x27e6 (0x000b)  : I can't find a verb in that sentence
+0x07e1  /  0x27f2 (0x0004)  : it's gnot there
+0x07e2  /  0x27f7 (0x000c)  : there were too many gnouns in that sentence.
+0x07f4  /  0x2805 (0x000d)  : sorry, I don't fully understand that verb.
+0x07f5  /  0x2813 (0x000c)  : there doesn't seem to be anything suitable. 
+0x07f7  /  0x2821 (0x0006)  : what a mouthful! 
+0x07fc  /  0x2829 (0x0003)  : couldn't have 
+0x07fe  /  0x282e (0x0001)  : that
+0x07ff  /  0x2830 (0x0001)  : here
+0x0800  /  0x2832 (0x0005)  : Ingrid couldn't find 
+0x0805  /  0x2839 (0x0008)  : it's gnot clear to what 
+0x0806  /  0x2842 (0x0004)  :  is referring
+0x0807  /  0x2847 (0x0003)  : (removing
+0x0808  /  0x284b (0x0002)  : from the
+0x0809  /  0x284e (0x0004)  : first).
+0x080c  /  0x2854 (0x0009)  : are you talking to yourself again?
+0x080d  /  0x285e (0x000b)  : Ingrid couldn't talk to several people at once
+0x0811  /  0x286b (0x0001)  : for
+0x0812  /  0x286d (0x0004)  : but can't find
+0x081a  /  0x2873 (0x0004)  : won't let
+0x081b  /  0x2878 (0x0003)  : take it
+0x0834  /  0x287d (0x001e)  : Welcome to part 3 of Gnome Ranger, copyright (C) 1987 Level 9 Computing. 
+0x0835  /  0x289c (0x0003)  : Ingrid couldn't see
+0x0836  /  0x28a0 (0x0003)  : Ingrid didn't have
+0x0837  /  0x28a4 (0x0004)  : Ingrid already had
+0x0838  /  0x28a9 (0x0005)  : Ingrid couldn't see that here
+0x083a  /  0x28b0 (0x0007)  : Ingrid owned gnothing at all. 
+0x083c  /  0x28b9 (0x0009)  : it was dark, ingrid could gnot see
+0x0840  /  0x28c4 (0x000a)  : it looked exactly as Ingrid had expected. 
+0x0841  /  0x28cf (0x0002)  :  gnothing
+0x0842  /  0x28d2 (0x0005)  : Ingrid couldn't go that way
+0x0843  /  0x28d8 (0x0004)  : through the door
+0x0844  /  0x28dd (0x001e)  : Ingrid banged her gnose, knees and knuckles on the door. Perhaps she should have opened it first? 
+0x0845  /  0x28fc (0x0006)  : it's already open
+0x0847  /  0x2904 (0x0003)  : Ingrid found
+0x084b  /  0x2909 (0x0005)  : Ingrid couldn't put 
+0x084c  /  0x290f (0x0001)  : there
+0x084d  /  0x2911 (0x0006)  : Ingrid couldn't go there! 
+0x084e  /  0x2918 (0x0009)  : Ingrid would have to drop it first
+0x084f  /  0x2922 (0x0005)  : Ingrid couldn't climb that
+0x0850  /  0x2928 (0x002f)  : 
+Did you know that you can go quickly to a far off place? E.G "RUN TO WHITEHALL" or "GOTO PENGUIN."
+
+0x0852  /  0x2959 (0x0009)  : I can't find a reference to "
+0x0853  /  0x2963 (0x0006)  : Ingrid was on it! 
+0x0854  /  0x296a (0x0003)  : what? 
+0x0855  /  0x296e (0x0003)  : where? 
+0x0856  /  0x2972 (0x0005)  : Ingrid was wearing 
+0x0857  /  0x2978 (0x000c)  : Please try again, saying what with? 
+0x0858  /  0x2985 (0x0004)  : which one?
+0x0859  /  0x298a (0x0003)  : at what?
+0x085b  /  0x298f (0x0003)  : was full
+0x085c  /  0x2993 (0x0003)  : " here
+0x085e  /  0x2998 (0x0005)  : Ingrid couldn't wear 
+0x085f  /  0x299e (0x0007)  : Ingrid couldn't reach it from here
+0x0863  /  0x29a7 (0x0007)  : Ingrid was already wearing that
+0x0864  /  0x29af (0x000a)  : Ingrid found she didn't gneed to do that
+0x0868  /  0x29bb (0x0002)  : worn
+0x0869  /  0x29be (0x0002)  : OK
+0x086b  /  0x29c2 (0x0004)  : time passed. 
+0x086c  /  0x29c7 (0x0001)  : said
+0x086e  /  0x29ca (0x000c)  : Ingrid found she would have to untie it first
+0x0870  /  0x29d8 (0x000a)  : YES or GNO please.
+
+0x0871  /  0x29e3 (0x000b)  : 2177;Ingrid heard strange gnoises
+0x0882  /  0x29f0 (0x0008)  : Ingrid heard a strange gnoise
+0x0883  /  0x29f9 (0x000d)  : Ingrid heard some strange gnoises coming from gnearby
+0x0884  /  0x2a07 (0x0017)  : Ingrid heard an odd gnoise and, though she listened carefully, she could gnot identify it
+0x0885  /  0x2a1f (0x002c)  : Ingrid heard a strange gnoise. It sounded a bit like Grandma Gnutson trying to eat mother's bread when she had left her teeth in the glass by her bed
+0x088e  /  0x2a4d (0x0001)  : (
+0x088f  /  0x2a4f (0x0001)  : )
+0x0898  /  0x2a52 (0x0006)  : really restart? 
+0x089a  /  0x2a5a (0x0006)  : really restore? 
+0x089b  /  0x2a61 (0x000b)  : 
+please answer YES or GNO
+0x089f  /  0x2a6e (0x0008)  : do you want to continue? 
+0x08a1  /  0x2a78 (0x001e)  : 
+ 
+the adventure is over. 
+Please type RESTART, OOPS, RESTORE or RAM RESTORE: 
+0x08a2  /  0x2a97 (0x0008)  : the room was badly damaged
+0x08a3  /  0x2aa0 (0x0020)  : Ingrid looked around and decided it wasn't worth the effort. She had made a good job of devastating the place last time
+0x08a4  /  0x2ac1 (0x001d)  : really! You're so destructive! Why don't you go and punch up a paper bag instead? 
+0x08a5  /  0x2adf (0x000e)  : it looks as though the Gnorsemen have been at work here
+0x08a6  /  0x2aee (0x000d)  : 
+ 
+Do you want to continue? 
+0x08a7  /  0x2afc (0x0007)  : that's too long to wait
+0x08a8  /  0x2b04 (0x004a)  : you can wait for someone (e.G. WAIT FOR PENGUIN), for a certain length of time (e.G. WAIT FOR 25 MINUTES), or until a time (e.G. WAIT UNTIL 14:25)
+0x08a9  /  0x2b50 (0x0004)  : the time was 
+0x08b6  /  0x2b56 (0x0004)  : the body of
+0x08b7  /  0x2b5b (0x0002)  : , but
+0x08c0  /  0x2b5f (0x0006)  : 
+Ingrid scored 
+0x08c1  /  0x2b66 (0x0011)  : 
+ 
+you seem to have got Ingrid killed.
+
+0x08c2  /  0x2b78 (0x0009)  :  out of 1000 and was a 
+0x08ca  /  0x2b83 (0x0002)  : tenderfoot
+0x08cb  /  0x2b86 (0x0002)  : gnovice
+0x08cc  /  0x2b89 (0x0002)  : rookie
+0x08cd  /  0x2b8c (0x0002)  : pioneer
+0x08ce  /  0x2b8f (0x0002)  : journeygnome
+0x08cf  /  0x2b92 (0x0002)  : pathfinder
+0x08d0  /  0x2b95 (0x0002)  : woodsgnome
+0x08d1  /  0x2b98 (0x0002)  : forester
+0x08d2  /  0x2b9b (0x0002)  : leader
+0x08d3  /  0x2b9e (0x0004)  : big cheese
+0x08d4  /  0x2ba3 (0x0003)  : gnome ranger
+0x08fc  /  0x2ba8 (0x0013)  : Oops and ram save/restore don't work in this version. 
+0x08fd  /  0x2bbc (0x0013)  : 
+please insert save disk and press a key. 
+
+0x08fe  /  0x2bd0 (0x000d)  : 
+please insert game disk.
+
+0x0904  /  0x2bdf (0x000f)  : I can't use OOPS to go back further than this. 
+0x0905  /  0x2bef (0x002f)  : 
+(This version allows you to use RAM SAVE and RAM RESTORE to save a position in memory, and OOPS to take back bad moves).
+
+0x0906  /  0x2c1f (0x0026)  : can't return to that saved position in memory. Perhaps you've turned off the computer, or reloaded the game, since it was saved. 
+0x0907  /  0x2c46 (0x0025)  : 
+ 
+Ingrid is about to start another part of the game. Do you want to save her position first, just in case? 
+0x0908  /  0x2c6c (0x000e)  : that data was not saved from Gnome Ranger. 
+0x0909  /  0x2c7b (0x000d)  : play the game tape to load part 
+0x090f  /  0x2c8a (0x001b)  : you've started in the middle of the game. Please restore a position saved from this part. 
+0x0961  /  0x2ca7 (0x000c)  : that might end up with Ingrid getting hurt
+0x0964  /  0x2cb5 (0x0008)  : Ingrid could smell gnothing of interest
+0x0965  /  0x2cbe (0x000a)  : Ingrid found gnothing much to write about
+0x0966  /  0x2cc9 (0x0026)  : Ingrid gnormally smelled like a gnasturtium at gnoon, but at that stage of her journey, being so long from a bath and all, she just smelled
+0x0967  /  0x2cf0 (0x0004)  : Ingrid said hello
+0x0970  /  0x2cf6 (0x000d)  : to be, or gnot to be, that is the question
+0x09c3  /  0x2d05 (0x0051)  : the icejester told the icepeople a particularly funny joke about three gnomes, a leprechaun and a cocker spaniel. They all shook with laughter, even though they had heard it before, and when he got to the punch line they all shouted together, "Thanks, but I'd rather have the bacon"
+0x09c4  /  0x2d58 (0x0099)  : 
+ 
+Ingrid finally managed to get away from the old alchemist - he was a terrible gossip when he got going - and strode purposefully off to the gnorth. 
+ 
+The road wound on, through a land that became steadily more rugged and barren, until at last she arrived at the entrance to a short steep-sided valley. Ingrid knew she must be only a short distance from home. Yes! There, at the end of the valley, where the way had gnarrowed to a cleft, was the gate that led to Dribble Vale and Gnettlefield farm
+0x09c5  /  0x2df4 (0x017a)  : a sulky voice muttered "Push off!". Ingrid looked around in surprise. There was gno-one in sight, and the words had been too clear to have come from the other side of the gate. Then she spotted an ill-defined face amongst the weather-worn mouldings of the gate. A metal mouth moved and said, "Go on, push off. Flamin' tourists. I'm gnot opening and there's gnaff all to gnick gnow. So you may as well 'op it." 
+ 
+"I am gnot a tourist, and I am gnot a thief," Ingrid told the gate indignantly. "I am just trying to get home to my family, and I would be obliged if you would let me past." 
+ 
+"Shan't," said the gate. "It was some of you tourists what gnicked me gems and I made meself a promise. I'm gnot opening again until I get 'em back. So there!" 
+ 
+"Really!" Exclaimed Ingrid. "There's gno gneed to make such a fuss. I'll find them for you, then perhaps I can get on my way." 
+ 
+The gate was a bit taken aback. "Oh,.. Well.. Ta very much..." It murmured. "This might be 'andy for carryin' 'em." A bronze arm appeared briefly and offered her a sack.
+0x09c6  /  0x2f75 (0x0038)  : the gate beamed and said, "Ta very much! It's a proper treat to see that again." A bronze arm stretched out to put the gem in place, then folded back into the mouldings
+0x09c7  /  0x2fae (0x0002)  : had 
+0x09c8  /  0x2fb1 (0x0003)  :  gem
+0x09c9  /  0x2fb5 (0x0003)  :  gems
+0x09ca  /  0x2fb9 (0x0055)  : Ingrid walked through the gate and into a tunnel. Then through the tunnel and into the sunlight. And there before her, gnestling in a dip in the rolling Downs, lay Gnomebridge. Gnomebridge! Gnettlefield was only two hills away; she could be home in time for supper! Wouldn't they all be pleased to see her back
+0x09cb  /  0x3010 (0x0004)  : the gate stopped
+0x09cc  /  0x3015 (0x0022)  : the gate said, "'Ang about. Where's the rest of me gems? I got gaps 'ere you know"
+0x09cd  /  0x3038 (0x0056)  : the gate puffed out its mouldings in pride and pleasure. "Ta, miss!" It said. "I'm right obliged to you for gettin' all me little sparklers back. Gnow, please be my guest." It swung itself open effortlessly and the bronze arm reached out to invite her to pass through
+0x09ce  /  0x3090 (0x0008)  : there was a little moaning gnoise
+0x09cf  /  0x3099 (0x000b)  : the moaning became louder and more threatening
+0x09d0  /  0x30a5 (0x0030)  : the moaning was very close and very threatening, as of some giant creature in torment, seeking to wreak its frenzied blood-lust on any hapless victim that crossed its path
+0x09d1  /  0x30d6 (0x0007)  : did Ingrid continue? 
+0x09d2  /  0x30de (0x0171)  : 
+ 
+the yeti rose up in front of Ingrid, towering over her, "Ooooo!" He moaned, "My poor tootsies! Ooooo...Oh, hello, what's this? A little gnome! Well, fancy that. I haven't seen one of those for ages. 'Course, I haven't seen anybody for ages." He bent down to take a closer look at Ingrid and she could see that, beneath all that hair, the yeti was really quite a slender creature. 
+ 
+"Doo you know," he confided, sitting down and waving a foot in the air, "I've been trying for I don't know how long to get these awful snow shoes fixed - I mean, look at them!" He waggled his foot and the shoe flapped uncontrollably. 
+ 
+"But whenever I go down to the valley, all the people there are running around and screaming and carrying on something dreadful - don't ask me why, I expect that's just the way people are - but it means that the silly sports shop is always shut! I don't know how those shopkeepers can stay in business, behaving like that, and meanwhile these sloppy shoes are absolutely killing my poor little feet..." The yeti's complaints tailed off into a wordless moan, as he sat massaging his feet
+0x09d3  /  0x3255 (0x0034)  : the yeti jumped back with an ungainly, splay-footed waddled, saying "Oh gno, gnot that way. That cloud won't even support my weight. You would sink like a dumpling in cold stew"
+0x09d4  /  0x328a (0x005b)  : the yeti shook his head, the long hair flaying out and scattering snow and dandruff over Ingrid. He said ruefully, "Oh I am sorry, miss, but as they won't fit me, they would be even worse for your dainty little tooties. It would be absolute agony, believe me. I couldn't allow you to suffer such torment"
+0x09d5  /  0x32e7 (0x0035)  : the yeti gasped and raised his skinny arms in horror. "What! Me go into that madhouse? Gnot on you gnellie, ducky. I'm gnever going to leave my mountain ever again"
+0x09d6  /  0x331d (0x0087)  : she was careful to pack in the soft padding so as to give a snug, comfortable fit. The yeti tried them on and took a few tentative steps. His face lit up with pleasure. "Coo! That's lovely! Oh, joy!!" He stomped around a bit more to make sure, waggling his feet happily, then scampered off with a cheery wave, his cries of "Gosh! Super! This is great!" Gradually fading away into the distance
+0x09d7  /  0x33a7 (0x0017)  : fell through the patch of soft cloud, like a dumpling through cold stew...
+0x09d8  /  0x33bf (0x0017)  : the penguin looked longingly out over the waters of the lake towards the iceberg, and sighed heavily
+0x09d9  /  0x33d7 (0x002a)  : the penguin grumbled, "That's gnice isn't it. Here I am, all alone, while everybody else has cleared off to the iceberg over in the lake"
+0x09da  /  0x3402 (0x0040)  : the penguin complained loudly, "Here I am, left holding the baby as usual. What chance do I have to go and join my friends and enjoy a bit of company? Somebody has got to keep this egg warm"
+0x09db  /  0x3444 (0x001e)  : the penguin said "Well, I can't do anything, can I, until someone takes this egg off my feet"
+0x09dc  /  0x3463 (0x001a)  : the penguin agreed grumpily, "Well, all right. But remember I can't leave the beach"
+0x09dd  /  0x347e (0x0016)  : the yeti started to giggle, as if it was party to some secret little joke
+0x09de  /  0x3495 (0x001c)  : Ingrid leapt happily back onto dry land, relieved to have something solid under her feet at last
+0x09df  /  0x34b2 (0x0060)  : the penguin gnoticed Ingrid glancing at the egg and said, "Yes, you can see I've been lumbered with the kid. I can't swim across to the iceberg because my egg would freeze in that water, even if I could keep hold of it. And I'm so stiff with standing around, I don't expect I could do that. Perhaps you've got a bright idea"
+0x09e0  /  0x3514 (0x000c)  : came into view, carried by the current
+0x09e1  /  0x3521 (0x0007)  : drifted off out of sight
+0x09e2  /  0x3529 (0x001d)  : the penguin said stolidly, "I'm gnot leaving the lake. I want to keep gnear my friends on the iceberg"
+0x09e3  /  0x3547 (0x0048)  : the penguin happily gave the egg to Ingrid, saying, "Gnow, mind you keep little Egbert warm!" She wiggled her feet to get the circulation going, looked at the icy cold water and added, "Can you help me to get across to the iceberg?"
+0x09e4  /  0x3591 (0x0055)  : the bridge gave a long, deep, creaking moan - just like Father getting out of bed in the morning - then shuddered and collapsed into a thousand icy fragments. By great good fortune, Ingrid had been standing on one of the larger chunks and managed to cling onto it as it fell into the water
+0x09e5  /  0x35e8 (0x0015)  : Ingrid tried to paddle, but could make gno headway against the strong current
+0x09e6  /  0x35fe (0x0050)  : Ingrid took a deep breath and jumped into the freezing water! The bitter cold clutched at her chest and dug into her muscles so that she could scarcely move. She felt herself slipping under the surface and had to fight to summon up her last reserves of strength to clamber back on board
+0x09e7  /  0x3650 (0x0021)  : drifted out to sea, out where the icy wind blew between the drifting icebergs, out beyond all hope of salvation
+0x09e8  /  0x3672 (0x0055)  : the penguin saw Ingrid floating past and would have quite liked to help, but could gnot leave her egg. She waved a rueful flipper at Ingrid as the gnome maid floated helplessly past, then, resigned to her own fate, shuffled into a more comfortable position and settled down to wait for the egg to hatch
+0x09e9  /  0x36c9 (0x0009)  : was swept along by the current
+0x09ea  /  0x36d3 (0x002a)  : the penguin saw Ingrid passing close by and, with a flippery waddle and a leap, managed to jump the gap from the shore and scrambled up beside her
+0x09eb  /  0x36fe (0x001c)  : the penguin pushed Ingrid along happily for a while, enjoying the freedom of the water after her long egg-squat
+0x09ec  /  0x371b (0x0099)  : the penguin saw what Ingrid was trying to do and paddled furiously towards the iceberg. As they approached, the other penguins swam out to help, and soon the floe was aquaplaning at high speed towards the iceberg. 
+ 
+"Right, slow down!" Shouted Ingrid, then "Reverse engines! Drop Anchor!" But the penguins were making far too much splashing to hear. "Stop!!" Ingrid shouted at them, "Stop pushing you idiots!" But the floe sped on and smashed into the iceberg, throwing Ingrid onto the ice
+0x09ed  /  0x37b7 (0x0047)  : the penguins helped push Ingrid back to shore. This time they didn't push so hard, and they let the floe slow down so that it stopped with gno more than a gentle bump. Then they all gnose-dived, waved goodbye with their feet and swam off back to the iceberg
+0x09ee  /  0x3800 (0x0069)  : 
+ 
+the penguin rushed over to grab her egg and gave it a fond stroke, pleased to have it back again gnow that she had had her break. She settled it on her feet and fluffed her feathers over it. "Thank you for looking after little Egbert," she said. "Gnext time I want a baby-sitter, I'll be sure to get in touch. I hope you take Visa"
+0x09ef  /  0x386b (0x0023)  : the penguin said "Gno, I don't think I'd like that. But I'll stick my feet over the side and paddle if that would do"
+0x09f0  /  0x388f (0x0003)  : couldn't swim
+0x09f1  /  0x3893 (0x000a)  : pulled the treetrunk onto the bank
+0x09f3  /  0x389f (0x0024)  : "Thagnk you, but I still cagn't let you past. This is a ROCK gardegn so the egntragnce fee must be a rock"
+0x09f4  /  0x38c4 (0x0006)  : said "Thagnk you"
+0x09f5  /  0x38cb (0x0094)  : unfortunately for Ingrid, Gnut Myjob was a master of that ancient oriental martial art, Tai Ka Wai and would have made bread and butter pudding (or chop suey if he had really tried) of any gnormal gnome maid. But Ingrid had been brought up with elder brothers and was a match for any gnome, martial artist or gnot. After a long and tiring bout, they decided to call it a draw. Ingrid vowed that she would gnever make such an unprovoked attack again - without checking for a black belt first
+0x09f6  /  0x3962 (0x002b)  : the gnome blocked the way, saying "Hagng ogn! The egntragnce fee to this wognderful gardegn is ogne rock, agnd you havegn't givegn me agny"
+0x09f7  /  0x398e (0x002e)  : the gnome looked at the rock and sniffed disdainfully but said, "Well, I suppose you cagn go ign gnow." With a quick lunge, he hurled her into the garden
+0x09f8  /  0x39bd (0x0028)  : the gnome stopped Ingrid, saying "What's goigng ogn! Who do you thignk you are! You cagn't take agnythigng out of my gardegn"
+0x09f9  /  0x39e6 (0x0018)  : pushed as hard as possible, and just managed to ease the treetrunk out into the current
+0x09fb  /  0x3a00 (0x000c)  : gnut Myjob grunted gnoisily, but said gnothing
+0x09fc  /  0x3a0d (0x0025)  : the treetrunk started to wobble. Ingrid struggled to keep her balance, but this only made things worse. The treetrunk wobbled even more violently
+0x09fd  /  0x3a33 (0x002d)  :  and tipped Ingrid into the water! She thrashed around and swam back to it. After several false starts and sudden dunkings, she managed to climb back on board
+0x09fe  /  0x3a61 (0x000f)  : a rotten old treetrunk fell gnearby with a crash
+0x09ff  /  0x3a71 (0x0015)  : an old gnome appeared through the gate. He stood bandy-legged and looked balefully at Ingrid
+0x0a00  /  0x3a87 (0x00aa)  : 
+ 
+the fire king spoke, "Greetings, traveller. Welcome to our city. You are free to go where you will, but do gnot stray south of the guarded corridor. Beyond this lies the city of the ice people: They are a deceitful, evil race, with whom we once lived in peace, until they traitorously attacked by channelling their river through our caves. Many flames were extinguished on that day, but we managed to capture the child of their queen - this hostage is all that keeps the ice fiends from attacking again. Avoid their cold warriors if you value your life"
+0x0a01  /  0x3b34 (0x002b)  : Ingrid walked past the fire guards and out of their city, but the ice guards jabbed at her with lances of ice and would gnot allow her to pass into theirs
+0x0a02  /  0x3b60 (0x0045)  : saw that Ingrid had the ice child and cried out, in a voice that brooked gno argument, "High Treason! Off with her head!" Ingrid was taken off by the guards and executed before she had time to do anything to try to save herself
+0x0a03  /  0x3ba7 (0x004a)  : caught Ingrid. The fireking was in a burning rage. "You cold-hearted villain," he cried, "For trying to steal that child, you shall die!" The guards took Ingrid off and burnt her at the stake, even though she hotly proclaimed her innocence
+0x0a04  /  0x3bf3 (0x000c)  : the door was bolted, but from this side
+0x0a05  /  0x3c00 (0x0007)  : the door was gnow unlocked
+0x0a06  /  0x3c08 (0x0007)  : the door was gnow locked
+0x0a07  /  0x3c10 (0x0057)  : 
+ 
+the ice warrior saw that Ingrid had rescued the icechild and let out a chill shout of delight. Regaining his composure, he said coldly, "Please walk this way." And strode off with a stiff-legged gait. Ingrid tried it, found it was very uncomfortable, and walked gnormally after him
+0x0a08  /  0x3c69 (0x0102)  : 
+ 
+the ice queen spoke. "Greetinks, traveller. As the saviour of our child, you are most welcome to our city. You are free to go vhere you vill, but must not return north of the guarded corridor, for there lies the city of the fire people. 
+ 
+"The fire folk are a cruel, evil group who pretended to be peaceful and waited until we were off-guard. Then, while ve vere struggling to stem a sudden flood that threatened our caves, the hot ones launched a vicious attack; even kidnapping my own dear child. 
+ 
+"Now we live in constant conflict. Sometimes it is a Hot Var, but now the snowstorms of var blow frostily." She spread her hands and added, "This is not our doink. Ve have enough trouble trying to disperse the flood. Ve just vant to be alone"
+0x0a09  /  0x3d70 (0x004c)  : 
+ 
+the ice queen took her child into her arms and hugged it coldly. "Ah! My little snowball," she cried, "Gnome, for vhat you haff done for us, ve vill do anythink that you vant. You haff only to ask"
+0x0a0a  /  0x3dbe (0x0009)  : The fire guards would gnot allow
+0x0a0b  /  0x3dc8 (0x0013)  : into the fire caves "Get back to your own kind, iceball"
+0x0a0c  /  0x3ddc (0x0025)  : the fireguard checked Ingrid over as she walked out. He thought she looked a bit odd, but then, all gnomes looked a bit odd to him
+0x0a0d  /  0x3e02 (0x0019)  : the ice queen said frigidly, "One shall be graciously pleased to do what one can"
+0x0a0e  /  0x3e1c (0x002a)  : a great cheer echoed round the ice caves as the people realized that the blockage had been cleared and that the river would once more run in its gnormal course
+0x0a12  /  0x3e48 (0x0044)  : the water was gnow so high that the depth of water built up an enormous pressure against the dam's foundations. Long before there was any threat of overflow, the dam suddenly gave way at its base and released a solid wave of water into the tunnel
+0x0a13  /  0x3e8e (0x000c)  : the river was gnow flowing at a low level
+0x0a14  /  0x3e9b (0x0028)  : a whole load of snow fell into the river, making a small but efficient dam. With the inflowing water held back, the flood started to ebb
+0x0a15  /  0x3ec4 (0x0006)  : the dam was strengthened
+0x0a16  /  0x3ecb (0x0015)  : the dam crumbled and gave way, letting water flood back into the tunnel again
+0x0a17  /  0x3ee1 (0x0019)  : a tidal wave of water flooded through the tunnel, sweeping Ingrid off her feet and carrying her away
+0x0a18  /  0x3efb (0x001b)  : the tunnel was completely blocked by deep, rushing water. There was gno way through until the water subsided
+0x0a19  /  0x3f17 (0x0008)  : the gem was so heavy that
+0x0a1a  /  0x3f20 (0x0010)  : had to drop everything else to be able to carry it
+0x0a1b  /  0x3f31 (0x0007)  : couldn't carry anything else
+0x0a1c  /  0x3f39 (0x0014)  : the blockage looked as if the first hint of water would wash it clean away
+0x0a1d  /  0x3f4e (0x0072)  : 
+ 
+Ingrid found the ice queen and fire king together, shaking hands in a brief and uncomfortable display of friendship. Then the queen clasped her hand under her arm to cool it down, the king blew on his hand to warm it up, and they continued their conversation. 
+ 
+Gnow that the flood had subsided and the ice child was returned, Ingrid had stopped the war between the two races
+0x0a1e  /  0x3fc2 (0x0026)  : the guard had obviously been well trained in fighting and with the advantage of size and strength, was able to fend off her blows easily
+0x0a1f  /  0x3fe9 (0x004f)  : this was High Treason! Gno such assault on the royal personage could be allowed to go unpunished. Ingrid was immediately overwhelmed by the palace guard and taken away to public execution. 
+ 
+(Perhaps gnext time you will make Ingrid a little more circumspect in her dealings with royalty)
+0x0a20  /  0x403a (0x0042)  : Ingrid laid into the people. They fell back before her furious onslaught, then began to panic and ran, screaming and shouting, in all directions. Ingrid found herself suddenly surrounded and overcome, and was accidentally trampled to death by the crowd
+0x0a21  /  0x407e (0x0005)  : the water was gnow 
+0x0a22  /  0x4084 (0x000a)  :  feet from the top of the dam
+0x0a23  /  0x408f (0x000b)  :  foot from the top of the dam
+0x0a24  /  0x409b (0x0013)  : Ingrid thought it would be gnice to put the ruby down for a while
+0x0a25  /  0x40af (0x0010)  : Ingrid was getting fed up with carrying the heavy ruby around
+0x0a26  /  0x40c0 (0x0018)  : Ingrid muttered rebelliously about people who make other people carry bloody great heavy rubies around
+0x0a27  /  0x40d9 (0x0028)  : Ingrid was worn out by the weight of the massive ruby. "Some players have gno consideration!" She said, dumping the gem on the ground
+0x0a28  /  0x4102 (0x0003)  : on the river
+0x0a29  /  0x4106 (0x0003)  : on the river
+0x0a2a  /  0x410a (0x0003)  : on the river
+0x0a2b  /  0x410e (0x0003)  : on the river
+0x0a2c  /  0x4112 (0x0003)  : on the river
+0x0a2d  /  0x4116 (0x0008)  : on the river where it opened out
+0x0a2e  /  0x411f (0x0009)  : on the west side of the lake
+0x0a2f  /  0x4129 (0x000b)  : floating at the gnorthwest corner of the lake
+0x0a30  /  0x4135 (0x000a)  : gnear the gnorthern shore of the lake
+0x0a31  /  0x4140 (0x000a)  : gnear the gnorth-eastern corner of the lake
+0x0a32  /  0x414b (0x0003)  : on the lake
+0x0a8c  /  0x4150 (0x001a)  : stomped around, its snow shoes flapping against its feet and sending little flurries of snow into the air
+0x0a8d  /  0x416b (0x0010)  : moaned loudly, "Ooooh, my poor little tootsies"
+0x0a8e  /  0x417c (0x0016)  : groaned sadly, "Ooooh! I hate these rotten loose shoes"
+0x0a8f  /  0x4193 (0x0014)  : stared glumly at his feet as he wiggled them around in his massive snow shoes
+0x0a90  /  0x41a8 (0x0024)  : kicked crossly at the ground, then watched miserably as his snow shoe arced through the air. He sighed and hopped off after it
+0x0aa0  /  0x41ce (0x0023)  : grumbled, "Bleedin' souvenir 'unters! Even the gnorsegnomes left me gems alone when they was 'ere"
+0x0aa1  /  0x41f2 (0x000c)  : muttered, "There are thieves everywhere"
+0x0aa2  /  0x41ff (0x0015)  : sniffled and shed a single, slightly rusty tear for its lost treasure
+0x0aa3  /  0x4215 (0x0026)  : sulked. "You can't trust gnobody these days. I mean, it wasn't as if I ever did anybody any 'arm"
+0x0aa4  /  0x423c (0x0035)  : said glumly, "I suppose I should be glad we don't get many scrap dealers round 'ere. I 'spect fifteen tons of bronze would be worth a few bob"
+0x0aaa  /  0x4273 (0x0004)  : grimaced fiercely
+0x0aab  /  0x4278 (0x0005)  : ground his teeth
+0x0aac  /  0x427e (0x0004)  : spat angrily
+0x0aad  /  0x4283 (0x0009)  : tossed a rock up and down menacingly
+0x0aae  /  0x428d (0x0007)  : scratched his armpit thoughtfully
+0x0ab4  /  0x4296 (0x0005)  : waddled about awkwardly
+0x0ab5  /  0x429c (0x0007)  : preened her feathers dolefully
+0x0ab6  /  0x42a4 (0x000a)  : murmured wistfully to herself about fish
+0x0ab7  /  0x42af (0x000c)  : stared over the water to where the iceberg must be
+0x0ab8  /  0x42bc (0x000e)  : dipped a toe in the icy water and looked doubtful
+0x0abe  /  0x42cc (0x0006)  : flipped and flapped around
+0x0abf  /  0x42d3 (0x0007)  : called loudly in unison
+0x0ac0  /  0x42db (0x000c)  : huddled together and settled down for a gnap
+0x0ac1  /  0x42e8 (0x0015)  : told long stories to each other about huge fish that they had almost caught
+0x0ac2  /  0x42fe (0x000a)  : stamped their feet to warm them up
+0x0ac8  /  0x430a (0x0004)  : whimpered quietly
+0x0ac9  /  0x430f (0x0004)  : cried pitifully
+0x0aca  /  0x4314 (0x0004)  : snivelled miserably
+0x0acb  /  0x4319 (0x0005)  : looked very sad
+0x0acc  /  0x431f (0x000a)  : whined, "I want an icelolly"
+0x0ad2  /  0x432b (0x0007)  : struck a gallant posture
+0x0ad3  /  0x4333 (0x000d)  : flexed his icy muscles and rattled his armour
+0x0ad4  /  0x4341 (0x0007)  : strove to look invulnerable
+0x0ad5  /  0x4349 (0x000d)  : curled his icy moustaches with a braggardly leer
+0x0ad6  /  0x4357 (0x000e)  : tossed his head to one side and laughed fearlessly
+0x0adc  /  0x4367 (0x000e)  : told a joke. It got a frosty reception
+0x0add  /  0x4376 (0x0004)  : giggled ineffectually
+0x0ade  /  0x437b (0x000a)  : laughed loudly at his own wit
+0x0adf  /  0x4386 (0x0007)  : juggled with his snow balls
+0x0ae0  /  0x438e (0x000d)  : shook his cap to make its icicles jingle
+0x0ae6  /  0x439d (0x0005)  : looked regally aloof
+0x0ae7  /  0x43a3 (0x0008)  : waved graciously to her subjects
+0x0ae8  /  0x43ac (0x0006)  : stared frostily at Ingrid
+0x0ae9  /  0x43b3 (0x0009)  : stroked her mace of ice thoughtfully
+0x0aea  /  0x43bd (0x0007)  : regarded her surroundings wearily
+0x0af0  /  0x43c6 (0x0004)  : on a glacier
+0x0af2  /  0x43cc (0x0003)  : on a river
+0x0af3  /  0x43d0 (0x0003)  : on a lake
+0x0af4  /  0x43d4 (0x0005)  : on the river bank
+0x0af5  /  0x43da (0x0006)  : on a barren patch
+0x0af6  /  0x43e1 (0x0003)  : on an iceberg
+0x0af7  /  0x43e5 (0x0005)  : on a lake bank
+0x0b04  /  0x43ec (0x0007)  : skated about looking bored
+0x0b05  /  0x43f4 (0x000f)  : applauded some private story, ignoring the jester's efforts
+0x0b06  /  0x4404 (0x000c)  : clapped at one of the icejester's better jokes
+0x0b07  /  0x4411 (0x0008)  : pelted each other with snowballs
+0x0b08  /  0x441a (0x000e)  : milled about, their icy clothes tinkling tunefully
+0x0b0e  /  0x442a (0x0007)  : clutched his sword hotly
+0x0b0f  /  0x4432 (0x0007)  : looked daggers of fire at Ingrid
+0x0b10  /  0x443a (0x000b)  : swept his fiery cloak over his shoulder
+0x0b11  /  0x4446 (0x000b)  : surveyed the scene with a keen eye
+0x0b12  /  0x4452 (0x0007)  : stood stiffly to attention
+0x0b18  /  0x445b (0x000b)  : wiped his greasy fingers on his cloak
+0x0b19  /  0x4467 (0x000a)  : patted his belly and burped loudly
+0x0b1a  /  0x4472 (0x0007)  : smoked a fag furtively
+0x0b1b  /  0x447a (0x000f)  : shuffled his feet, leaving smoky smudges on the floor
+0x0b1c  /  0x448a (0x0005)  : adjusted his armour
+0x0b22  /  0x4491 (0x000c)  : outlined his defence plans with broad gestures
+0x0b23  /  0x449e (0x0007)  : regally surveyed the room
+0x0b24  /  0x44a6 (0x000d)  : murmured a few words to a close advisor
+0x0b25  /  0x44b4 (0x0007)  : looked down his gnose at Ingrid
+0x0b26  /  0x44bc (0x0007)  : gave a sweeping wave
+0x0b2c  /  0x44c5 (0x0004)  : swapped recipes
+0x0b2d  /  0x44ca (0x000d)  : stood too close together and started to glow
+0x0b2e  /  0x44d8 (0x000a)  : discussed ideas for a fondu party
+0x0b2f  /  0x44e3 (0x000e)  : mopped up small pools of lava with pumice stones
+0x0b30  /  0x44f2 (0x0004)  : debated hotly
+0x0c1c  /  0x44f9 (0x000a)  : don't be silly. That's my job
+0x0c1d  /  0x4504 (0x000a)  : well, that's a gnovel concept
+0x0c1e  /  0x450f (0x000d)  : you must be mad if you really mean that
+0x0c1f  /  0x451d (0x000c)  : gnow there's a peculiar thing to want to do
+0x0c20  /  0x452a (0x0006)  : daft I call it
+0x0c26  /  0x4532 (0x0008)  : gnice try, my friend
+0x0c27  /  0x453b (0x0013)  : a truly valiant attempt at a solution. Shame it won't work
+0x0c28  /  0x454f (0x0003)  : gno chance
+0x0c29  /  0x4553 (0x0013)  : that really does deserve some credit, though it doesn't actually work
+0x0c2a  /  0x4567 (0x000f)  : with ideas like that, you'll go far - eventually
+0x0c30  /  0x4578 (0x000b)  : you might as well leave it alone
+0x0c31  /  0x4584 (0x0009)  : I suggest that you forget about it
+0x0c32  /  0x458e (0x0009)  : that's gnot important to the game
+0x0c33  /  0x4598 (0x0009)  : forget it. It's only scenery
+0x0c34  /  0x45a2 (0x0010)  : that was just put there to confuse you. I see it has
+0x0c3a  /  0x45b4 (0x000d)  : gnow what was the object of that? Try again
+0x0c3b  /  0x45c2 (0x000c)  : sorry, I couldn't find an object in that
+0x0c3c  /  0x45cf (0x0006)  : please be more specific
+0x0c3d  /  0x45d6 (0x0011)  : I don't like to object, but there was gno object in that command
+0x0c3e  /  0x45e8 (0x000a)  : do it to what? You didn't say
+0x0c44  /  0x45f4 (0x0011)  : I don't know what that was suppose to achieve, but gnothing happened
+0x0c45  /  0x4606 (0x0007)  : that didn't seem to work
+0x0c46  /  0x460e (0x0008)  : there had gno effect on anything
+0x0c47  /  0x4617 (0x0006)  : that was outstandingly ineffective
+0x0c48  /  0x461e (0x000b)  : that did gnothing at all, I'm afraid
+0x0c4e  /  0x462b (0x0004)  : wouldn't move
+0x0c4f  /  0x4630 (0x0003)  : didn't budge
+0x0c50  /  0x4634 (0x0006)  : refused to be moved
+0x0c51  /  0x463b (0x0007)  : seemed fixed in place
+0x0c52  /  0x4643 (0x0003)  : was unmoved
+0x0c58  /  0x4648 (0x0008)  : don't bother, it would do gnothing
+0x0c59  /  0x4651 (0x0008)  : that would be a waste of time
+0x0c5a  /  0x465a (0x0005)  : that would be pointless
+0x0c5b  /  0x4660 (0x0007)  : that won't get you anywhere
+0x0c5c  /  0x4668 (0x0009)  : don't expect any results from that
+0x0c62  /  0x4673 (0x000b)  : said, "Hello, Mistress Gnome"
+0x0c63  /  0x467f (0x0006)  : said, "Greetings"
+0x0c64  /  0x4686 (0x000c)  : said, "Hello, what brings you here"
+0x0c65  /  0x4693 (0x0009)  : greeted her with an inscrutable smile
+0x0c66  /  0x469d (0x000d)  : said, "How do you do?" Politely
+0x0c8a  /  0x46ac (0x000f)  : said, "Find someone else, I'm tired"
+0x0c8b  /  0x46bc (0x0012)  : said, "Don't try to order me around, young miss"
+0x0c8c  /  0x46cf (0x000c)  : said, "Gno I won't, little gnome"
+0x0c8d  /  0x46dc (0x0013)  : refused, saying "That is gnot the sort of thing I do"
+0x0c8e  /  0x46f0 (0x0010)  : exclaimed, "Why should I? Do it yourself"
+0x0c9e  /  0x4702 (0x000f)  : said, "Very well. It would be a pleasure"
+0x0c9f  /  0x4712 (0x000f)  : said, "Of course, I'll be right there"
+0x0ca0  /  0x4722 (0x0009)  : said, "Yes, certainly"
+0x0ca1  /  0x472c (0x000c)  : agreed, saying "Anything to oblige"
+0x0ca2  /  0x4739 (0x000f)  : gnodded and said, "Right away, Mistress Gnome"
+0x0cb2  /  0x474a (0x0011)  : said, "You'll have to find that out for yourself, gnome"
+0x0cb3  /  0x475c (0x0014)  : said, "You won't get any help from me, young miss"
+0x0cb4  /  0x4771 (0x0008)  : pretended to ignore her question
+0x0cb5  /  0x477a (0x0011)  : demurred, saying "Sorry, but I really can't say"
+0x0cb6  /  0x478c (0x0016)  : spread sorrowful hands and said, "Ah, if only I could help.."
+0x0cc6  /  0x47a4 (0x000d)  : said, "You'll have to fight me for that"
+0x0cc7  /  0x47b2 (0x0010)  : said, "I'd rather die than part with that"
+0x0cc8  /  0x47c3 (0x000e)  : said, "I'm gnot about to give anything away"
+0x0cc9  /  0x47d2 (0x0012)  : clutched at it, saying "It's mine! Clear off"
+0x0cca  /  0x47e5 (0x0008)  : stared back in silent refusal
+0x0cda  /  0x47ef (0x000d)  : said, "Sorry miss, I don't understand"
+0x0cdb  /  0x47fd (0x0017)  : said, "It must be me, little gnome, I can't understand what you're saying"
+0x0cdc  /  0x4815 (0x000d)  : said, "Pardon? Could you rephrase that"
+0x0cdd  /  0x4823 (0x000d)  : looked blank and said, "Eh?.."
+0x0cde  /  0x4831 (0x001d)  : said, "Can we try that again? My grasp of Gnomic isn't quite what it should be"
+0x0d16  /  0x4850 (0x000b)  : said, "I can't find it anywhere"
+0x0d17  /  0x485c (0x0008)  : said, "I'm lost"
+0x0d18  /  0x4865 (0x0011)  : said, "Where can it be? I can't find it"
+0x0d19  /  0x4877 (0x0011)  : looked around with a lost expression and said, "Gnow what?"
+0x0d1a  /  0x4889 (0x000f)  : said frantically, "Which way? Which way?"
+0x0dca  /  0x489b (0x0009)  : the previous command was gnot repeatable
+0x0dcb  /  0x48a5 (0x0005)  : you can't do that again
+0x0dcc  /  0x48ab (0x000a)  : it wouldn't help to try that again
+0x0dcd  /  0x48b6 (0x000e)  : that was a once-only command. It doesn't do seconds
+0x0dce  /  0x48c5 (0x0010)  : oh, gnot again! I've been through that once already
+0x0dd4  /  0x48d7 (0x0007)  : stopped, looking confused
+0x0dd5  /  0x48df (0x0003)  : looked puzzled
+0x0dd6  /  0x48e3 (0x000a)  : seemed uncertain of what to do gnext
+0x0dd7  /  0x48ee (0x0008)  : ground to a confused halt
+0x0dd8  /  0x48f7 (0x000f)  : stood stock still and said, "Gnow what?"
+0x0dde  /  0x4908 (0x0005)  : wouldn't let Ingrid
+0x0ddf  /  0x490e (0x0006)  : slapped her hand away
+0x0de0  /  0x4915 (0x0007)  : stopped her from taking it
+0x0de1  /  0x491d (0x0014)  : held onto it and said, "This is mine. You can't have it"
+0x0de2  /  0x4932 (0x0008)  : refused to give it to Ingrid
+0x0e10  /  0x493c (0x000b)  : a voice in the distance shouted, "
+0x0e11  /  0x4948 (0x0003)  : ." 
+0x0e12  /  0x494c (0x0009)  : wow! A stack overflow
+0x0e13  /  0x4956 (0x0010)  : don't panic! Gnormal service will be resumed shortly
+0x0e14  /  0x4967 (0x000a)  : sorry, I can't get Ingrid there from here
+0x0e15  /  0x4972 (0x0010)  : sorry, Ingrid will have to find her own way from here
+0x0e1a  /  0x4984 (0x0009)  : I am perfect in every way
+0x0e1b  /  0x498e (0x0004)  : you are a gnome
+0x0e1c  /  0x4993 (0x000a)  : cleared its throat and said.. "
+0x0e1e  /  0x499f (0x0011)  : Ingrid yelled "ARRRGGGGGHHHHH". She felt much better afterwards
+0x0e24  /  0x49b2 (0x0005)  : swore back at Ingrid
+0x0e25  /  0x49b8 (0x0004)  : swore loudly
+0x0e26  /  0x49bd (0x0006)  : seemed very offended
+0x0e27  /  0x49c4 (0x001b)  : said, "@@*!#\*&@!!, to you to"
+0x0e28  /  0x49e0 (0x0009)  : gave Ingrid a mouthful in reply
+0x0e38  /  0x49eb (0x000e)  : said, "Help yourself, my dear girl"
+0x0e39  /  0x49fa (0x0015)  : said, "I'd love to, but I wouldn't be any use to you"
+0x0e3a  /  0x4a10 (0x0010)  : said, "You'll get gno help from me, little missy"
+0x0e3b  /  0x4a21 (0x0011)  : said, "I would if I could, but I can't so I shan't"
+0x0e3c  /  0x4a33 (0x0019)  : said, "Stand on your own two feet.. Oh, you are standing, sorry"
+0x0e4c  /  0x4a4e (0x000b)  : said, "You must be gnuts"
+0x0e4d  /  0x4a5a (0x0013)  : said, "Sorry old girl, but I think you've cracked"
+0x0e4e  /  0x4a6e (0x0016)  : said, "That isn't possible. And if it is, it shouldn't be allowed"
+0x0e4f  /  0x4a85 (0x0013)  : laughed, "Oh! You are a hoot, Mistress Gnome"
+0x0e50  /  0x4a99 (0x0005)  : looked askance at Ingrid
+0x0fa0  /  0x4aa2 (0x0026)  : the this these that some and also before wade jog plod rush dash march amble good of cute there
+0x0fa1  /  0x4ac9 (0x0018)  : therefore am my your try carefully slowly warily quickly rapidly following around
+0x0fa2  /  0x4ae2 (0x0002)  : please
+0x1068  /  0x4ae7 (0x0025)  : 
+A funny little rock appeared from under a plant and stopped Ingrid by waving waved a copy of a rather tattered book. 
+0x1069  /  0x4b0d (0x0003)  : page 
+0x106a  /  0x4b11 (0x0004)  : , line 
+0x106b  /  0x4b16 (0x0004)  : , word 
+0x106c  /  0x4b1b (0x0004)  : ?"
+
+0x106d  /  0x4b20 (0x0010)  : The rock vibrated nastily and Ingrid knew she was wrong. 
+0x106e  /  0x4b31 (0x000e)  : The rock crawled back under its plant.
+
+0x106f  /  0x4b40 (0x0012)  : Ingrid thought that the rock probably wanted to know the word at 
+0x1070  /  0x4b53 (0x0016)  : Wrong again! The rock picked up a convenient troll and stunned Ingrid with it. 
+0x10cd  /  0x4b6b (0x0002)  : half
+0x10d0  /  0x4b6f (0x0002)  : about
+0x10d1  /  0x4b72 (0x0002)  : grandma
+0x10d2  /  0x4b75 (0x0002)  : the
+0x10d3  /  0x4b78 (0x0002)  : a
+0x10d4  /  0x4b7b (0x0002)  : the
+0x10d5  /  0x4b7e (0x0002)  : whipped
+0x10d6  /  0x4b81 (0x0002)  : on
+0x10d7  /  0x4b84 (0x0002)  : hay
+0x10d8  /  0x4b87 (0x0002)  : my
+0x10d9  /  0x4b8a (0x0002)  : to
+0x10da  /  0x4b8d (0x0002)  : it
+0x10db  /  0x4b90 (0x0002)  : and
+0x10dc  /  0x4b93 (0x0002)  : treesday
+0x10dd  /  0x4b96 (0x0002)  : so
+0x10de  /  0x4b99 (0x0002)  : with
+0x10df  /  0x4b9c (0x0002)  : toothmarks
+0x10e1  /  0x4ba0 (0x0002)  : grandma
+0x10e2  /  0x4ba3 (0x0002)  : have
+0x10e3  /  0x4ba6 (0x0002)  : hole
+0x10e4  /  0x4ba9 (0x0002)  : weekend
+0x10e5  /  0x4bac (0x0002)  : whipped
+0x10e6  /  0x4baf (0x0002)  : the
+0x10e7  /  0x4bb2 (0x0002)  : the
+0x10e8  /  0x4bb5 (0x0002)  : on
+0x10e9  /  0x4bb8 (0x0004)  : gift gift-wrapped
+0x10ea  /  0x4bbd (0x0002)  : the
+0x10eb  /  0x4bc0 (0x0002)  : a
+0x10ec  /  0x4bc3 (0x0002)  : everyone
+0x10ed  /  0x4bc6 (0x0002)  : and
+0x10ee  /  0x4bc9 (0x0002)  : made
+0x10f0  /  0x4bcd (0x0002)  : this
+0x10f1  /  0x4bd0 (0x0002)  : last
+0x10f2  /  0x4bd3 (0x0002)  : Bottomlow
+0x10f3  /  0x4bd6 (0x0002)  : Sosmall
+0x10f4  /  0x4bd9 (0x0002)  : sandwiches
+0x10f5  /  0x4bdc (0x0002)  : even
+0x10f6  /  0x4bdf (0x0002)  : this
+0x10f7  /  0x4be2 (0x0002)  : her
+0x10f8  /  0x4be5 (0x0002)  : mother
+0x10f9  /  0x4be8 (0x0004)  : gift gift-wrapped
+0x10fa  /  0x4bed (0x0002)  : know
+0x10fb  /  0x4bf0 (0x0002)  : the
+0x10fc  /  0x4bf3 (0x0002)  : in
+0x10fd  /  0x4bf6 (0x0002)  : morning
+0x10fe  /  0x4bf9 (0x0002)  : flour
+0x10ff  /  0x4bfc (0x0002)  : coach
+0x1100  /  0x4bff (0x0002)  : the
+0x1101  /  0x4c02 (0x0002)  : something
+0x1102  /  0x4c05 (0x0004)  : good odd
+0x1103  /  0x4c0a (0x0002)  : he
+0x1104  /  0x4c0d (0x0002)  : them
+0x1105  /  0x4c10 (0x0006)  : 20th th 20
+0x1106  /  0x4c17 (0x0002)  : tipped
+0x1107  /  0x4c1a (0x0002)  : tipped
+0x1108  /  0x4c1d (0x0002)  : at
+0x1109  /  0x4c20 (0x0002)  : provide
+0x110a  /  0x4c23 (0x0002)  : gnose
+0x110b  /  0x4c26 (0x0002)  : better
+0x110c  /  0x4c29 (0x0002)  : oh
+0x110d  /  0x4c2c (0x0002)  : morning
+0x110e  /  0x4c2f (0x0002)  : the
+0x110f  /  0x4c32 (0x0002)  : were
+0x1111  /  0x4c36 (0x0002)  : floated
+0x1112  /  0x4c39 (0x0002)  : my
+0x1113  /  0x4c3c (0x0002)  : he
+0x1114  /  0x4c3f (0x0002)  : weekend
+0x1115  /  0x4c42 (0x0002)  : is
+0x1117  /  0x4c46 (0x0002)  : in
+0x1119  /  0x4c4a (0x0002)  : provide
+0x111a  /  0x4c4d (0x0002)  : count
+0x111b  /  0x4c50 (0x0002)  : while
+0x111c  /  0x4c53 (0x0002)  : well
+0x111d  /  0x4c56 (0x0002)  : the
+0x111f  /  0x4c5a (0x0002)  : him
+0x1120  /  0x4c5d (0x0002)  : bed
+0x1121  /  0x4c60 (0x0002)  : to
+0x1122  /  0x4c63 (0x0002)  : the
+0x1123  /  0x4c66 (0x0002)  : it
+0x1124  /  0x4c69 (0x0002)  : remember
+0x1125  /  0x4c6c (0x0002)  : should
+0x1126  /  0x4c6f (0x0002)  : on
+0x1127  /  0x4c72 (0x0002)  : she
+0x112a  /  0x4c76 (0x0002)  : had
+0x112b  /  0x4c79 (0x0002)  : fish
+0x112c  /  0x4c7c (0x0002)  : father
+0x112d  /  0x4c7f (0x0002)  : the
+0x112e  /  0x4c82 (0x0002)  : so
+0x1130  /  0x4c86 (0x0002)  : the
+<EOM>

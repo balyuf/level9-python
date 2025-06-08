@@ -1,3 +1,4 @@
+#!/bin/env python3
 from ast import Pass
 from fileinput import filename
 import os
@@ -86,9 +87,7 @@ def _getAddrForFragment(data, fragmentNumber):
         while fragmentNumber:
             messageLength = data[address]
             address= address + messageLength
-            #print(hex(fragmentNumber),hex(data[address]), hex(address))
             fragmentNumber = fragmentNumber - 1
-        #print(hex(fragmentNumber),hex(data[address]), hex(address))
 
     return address
 
@@ -113,7 +112,6 @@ def _getAddrForMessageN(data, messageNumber):
         # based indexed in the game file
         messageNumber = messageNumber - 1
         while messageNumber:
-            #print(hex(messagesAddress), hex(data[messagesAddress]))
             messageLength = data[messagesAddress]
             while not data[messagesAddress]:
                 messagesAddress = messagesAddress + 1
@@ -126,8 +124,29 @@ def _getAddrForMessageN(data, messageNumber):
             messagesAddress = messagesAddress + messageLength
 
             messageNumber = messageNumber - 1
-        #print(hex(messagesAddress), hex(data[messagesAddress]))
-        #print("with eoo", hex(messagesAddress + 0xe00))
+    elif messageVersion >= 3:
+        msgNumber = 0
+        address = messagesAddress
+        messagesAddress = 0
+        byte = data[address]
+        while address < messagesStartAddr + messagesLen:
+            if byte & 0x80:
+                msgNumber += byte - 0x80 + 1
+                address += 1
+            else:
+                if msgNumber == messageNumber:
+                    messagesAddress = address
+                    break
+                length = 0
+                while True:
+                    partLen = (data[address] - 1) & 0x3f
+                    length += partLen
+                    address += 1
+                    if partLen != 0x3f:
+                        break
+                address += length
+                msgNumber += 1
+            byte = data[address]
         
     return messagesAddress 
 
@@ -152,7 +171,6 @@ def _getMessage(data, msgAddress):
                 break
             else:
                 message = message + str(chr(byte+0x1D))
-                #_getCharacter(byte)
 
             msgAddress = msgAddress + 1
             byte = data[msgAddress]
@@ -187,8 +205,37 @@ def _getMessage(data, msgAddress):
 
             msgAddress = msgAddress + 1
             msgLength = msgLength - 1
-    elif messageVersion >= 3:
-        message = '<Not Implemented>\\n'
+    elif messageVersion >= 3 and msgAddress:
+        address = msgAddress
+        length = data[address]
+        if length > 0x40:
+            length -= 0x40
+        elif length == 0x40:
+            count = 0
+            while data[address] == 0x40:
+                count += 1
+                address += 1
+            length = data[address] + (count - 1) * 0x3f - 1
+        elif length == 0:
+            count = 0
+            while data[address] == 0:
+                count += 1
+                address += 1
+            length = data[address] + count * 0x3f
+        address += 1
+        count = 1
+        while count < length:
+            code = data[address]
+            if code >= 0x80:
+                code = data[address] * 256 + data[address + 1]
+                address += 2
+                count += 2
+            else:
+                code = data[wordTableAddr + code * 2] * 256 + data[wordTableAddr + code * 2 + 1]
+                address += 1
+                count += 1
+            word = _get_word(data, code)
+            message = _build_message(message, word)
 
     return message
 
@@ -198,38 +245,110 @@ def _printMessage(data, msgAddress):
     message=message.replace("_"," ")
     messageLength = len(message)
 
+    if messageVersion >= 3:
+        nl = '\n'
+    else:
+        nl = '%'
+
     words=message.split()
     for word in words:
 
-        if(word.find('%') >= 0):
+        if(word.find(nl) >= 0):
             if(messageLength>-1):
-                word = word.replace('%','\\n')
+                word = word.replace(nl,'\\n')
             else:
-                word = word.replace('%','')
+                word = word.replace(nl,'')
             pass
         
         print(word,end='')
         if(word[-2:]!='\\n'):
             print(' ',end='')
 
+def _build_message(message, word):
+    if message and word:
+        prevChars = [' ', '\n', '\'', '"', '(', ',', '.', '?', '!']
+        nextChars = [' ', ':',  '\'', '"', ')', ',', '.', '?', '!']
+        if word[0] not in nextChars and message[-1] not in prevChars:
+            word = ' ' + word
+        if re.search("[.?!][ '\"\n]*$", message):
+            word = word[0].upper() + word[1:]
 
-# STIL NEEDED?
-def _getCharacter(byte,byteCount):
-    char = chr(byte+0x1D)
-    if(char == "%"):
-        print("\n",end='')
-    elif(char == "_"):
-        print(" ",end='')
-    else:
-        print(char,end='')   
+    return message + word
+
+def _get_word(data, code):
+    word = ''
+    flags = code >> 12
+    code &= 0xfff
+    if code < 0x0f80:
+        for word, id in vm_dictionary.items():
+            if id == code:
+                if chr(0) in word:
+                    word = word[0:-1]
+                break
+    elif code > 0x0f80:
+        code &= 0x7f
+        if flags & 0x2:
+            word += ' '
+        if code == 0x0d:
+            word += '\n'
+        else:
+            word += chr(code)
+        if flags & 0x1:
+            word += ' '
+
+    return word
+
+def _load_dict_bank(data, offset, startWord):
+    codes = iter(int(dict_bits[b : b + 5], 2) for b in range((offset - dictionaryAddr) * 8, dictionaryLen * 8, 5))
+    pattern = [0]*3
+    letter = 0
+    word = ''
+    while True:
+        code = next(codes)
+        if code >= 0x1b:
+            if word:
+                if word in vm_dictionary.keys():
+                    word += chr(0)
+                vm_dictionary[word] = startWord - 1
+                word = ''
+            if code == 0x1b:
+                break
+            startWord += 1
+            letter = code - 0x1c
+            word += ''.join(pattern[0 : letter])
+        elif code <= 0x1a:
+            if code == 0x1a:
+                c = chr(next(codes) * 0x20 + next(codes))
+            else:
+                c = chr(code + 0x61)
+            if letter < 3:
+                pattern[letter] = c
+            letter += 1
+            word += c
+
+    return startWord
 
 def vm_fn_load_dictionary(data):
+    if engineVersion >= 3:
+        oldBankPtr = 0
+        bankPtr = dictionaryAddr
+        highBankLen = 0
+        oldBankLen = 0
+        bankLen = 0
+        for bank in range(dictionaryDataLen + 1):
+            # Skip repeated banks
+            if bankPtr != oldBankPtr or bankLen != oldBankLen:
+                highBankLen = _load_dict_bank(data, bankPtr, bankLen)
+            oldBankPtr = bankPtr
+            bankPtr = data[dictionaryDataAddr + bank*4] + data[dictionaryDataAddr + bank*4 + 1] *256
+            oldBankLen = bankLen
+            bankLen = data[dictionaryDataAddr + bank*4 + 2] + data[dictionaryDataAddr + bank*4 + 3] *256
+
+        return
+
     codeNext = False
 
     word=""
-
-    if engineVersion >= 3:
-        return
 
     address=dictionaryAddr
 
@@ -482,7 +601,10 @@ def vm_fn_function(data,opCode,pc):
     operand1 = data[pc]
 
     if(operand1 == 1):
-        msg = f"Function - Quit ({operand1:#0{4}x})"
+        if engineVersion < 3:
+            msg = f"Function - Quit ({operand1:#0{4}x})"
+        else:
+            msg = f"Function - Driver Call ({operand1:#0{4}x})"
     elif(operand1 == 2):
         pc=pc+1
         operand2=data[pc]
@@ -503,7 +625,7 @@ def vm_fn_function(data,opCode,pc):
             pc=pc+1
         msg = f"Function - Print String ({operand1:#0{4}x}) \"{operand2}\""
     else:
-        msg = f"Function - Invalid fn code "+hex(operand1)
+        msg = f"Function - Illegal fn code "+hex(operand1)
 
     _print_code(opCode,cmdAddress,msg)
 
@@ -712,7 +834,7 @@ def vm_fn_get_next_object(data, opCode, pc):
     # search depth
     variable6 = data[pc]
 
-    msg=f"Get Next Object var[{variable1:#0{4}x}] var[{variable2:#0{4}x}] var[{variable3:#0{4}x}] var[{variable4:#0{4}x}] var[{variable5:#0{4}x}] var[{variable6:#0{4}x}]"
+    msg=f"Get Next Object - maxObject: var[{variable1:#0{4}x}], highSearchPos: var[{variable2:#0{4}x}], searchPos: var[{variable3:#0{4}x}], object: var[{variable4:#0{4}x}], numObject: var[{variable5:#0{4}x}], searchDepth: var[{variable6:#0{4}x}]"
     _print_code(opCode, cmdAddress, msg)
 
     return pc
@@ -930,31 +1052,40 @@ def _autodetect_game(data, engineVersion):
 #
 #
 # Parameters:
-# none
+# data and version
 #
 # Returns:
 #   game indicator
 ###############################################################################
-def _identify_game(engineVersion):
-    for msg in [0x01, 0xa0, 0xe6, 0xff]:
+def _identify_game(data, engineVersion):
+    game = "unknown"
+    msgs = [0x01, 0xa0, 0xe6, 0xff]
+    if engineVersion >= 3:
+        msgs += [0x3c, 0x424, 0x44c, 0x4f6, 0x80c, 0x834, 0x908]
+
+    for msg in msgs:
         address = _getAddrForMessageN(data, msg)
-        desc=_getMessage(data, address)
-        if "Welcome to" in desc:
+        desc = _getMessage(data, address)
+        if "elcome to" in desc or "saved from" in desc:
             for gameKey in v1Configuration:
                 if v1Configuration[gameKey]['version'] == engineVersion:
                     name = v1Configuration[gameKey]['name']
                     if name in desc:
+                        name = name.replace('"', '')
+                        name = re.sub('^to ', '', name)
+                        name = re.sub('^from ', '', name)
+                        name = name.replace(', copyright', '')
+                        name = name.replace('and it is still running', 'Secret Diary')
                         game = gameKey
-                        print('[Identified v'+str(engineVersion)+' game: "'+name+'" --game '+game+']')
                         break
-
-    # Remove this placeholder when v3-4 messages are implemented
-    if engineVersion >= 3:
-        game = 'unknownv3-4'
-        print('[Could not identify v'+str(engineVersion)+' game: n/i!]')
+            else:
+                continue
+            break
 
     if game == 'unknown':
         print("[Could not identify v"+str(engineVersion)+" game!]")
+    else:
+        print('[Identified v'+str(engineVersion)+' game: "'+name+'" --game '+game+']')
 
     return game
 
@@ -968,12 +1099,15 @@ def printJumpTable(data,pc):
     print('**************************************************************************')
 
     while(True):
-        if engineVersion >= 3:
-            dictionaryWord = "n/i"
-        elif counter == 0:
+        if counter == 0:
             dictionaryWord = "n/a"
         else:
-            dictionaryWord = {i for i in vm_dictionary if vm_dictionary[i]==counter}
+            if messageVersion >= 3:
+                address = _getAddrForMessageN(data, exitsStartMsgId + counter)
+                desc = _getMessage(data, address).upper()
+                dictionaryWord = list(filter(None, desc.split(' ')))
+            else:
+                dictionaryWord = [i for i in vm_dictionary if vm_dictionary[i]==counter]
 
         if pc+1 >= len(data):
             break
@@ -1011,11 +1145,11 @@ args = parser.parse_args()
 if(args.game):
     game     = args.game
     filename = v1Configuration[game]['filename']
-    engineVersion = v1Configuration[game]['version']
+    engineVersion  = v1Configuration[game]['version']
 else:
     game     = None
     filename = args.file
-    engineVersion = -1
+    engineVersion  = -1
 
 with open(filename,'rb') as dataFile:
     data = bytearray(dataFile.read())
@@ -1055,10 +1189,28 @@ elif(engineVersion >= 3):
     wordTableAddr        = data[0x0e] + data [0x0f] *256
     unknownAddr          = data[0x10] + data [0x11] *256
     exitsAddr            = data[0x12] + data [0x13] *256
+    dict_bits = ''.join(format(byte, '08b') for byte in data[dictionaryAddr : dictionaryAddr + dictionaryLen])
+
+# Must be done first for v3-4 message db functionality to work
+vm_fn_load_dictionary(data)
 
 # Identify autodetected v2-3-4 game
 if engineVersion > 1 and game == 'unknown':
-    game = _identify_game(engineVersion)
+    game = _identify_game(data, engineVersion)
+
+# Retrieve locationsStartMsgId
+if game in v1Configuration and 'locationsStartMsgId' in v1Configuration[game]:
+    locationsStartMsgId = v1Configuration[game]['locationsStartMsgId']
+else:
+    # Set a reasonable default
+    locationsStartMsgId = 0x190
+
+# Retrieve exitsStartMsgId
+if game in v1Configuration and 'exitsStartMsgId' in v1Configuration[game]:
+    exitsStartMsgId = v1Configuration[game]['exitsStartMsgId']
+else:
+    # Set a reasonable default
+    exitsStartMsgId = 0x64
 
 # If it couldn't be identified then quit
 if(aCodeStartAddr < 0 or game == 'unknown'):
@@ -1076,8 +1228,6 @@ with open(filename,'rb') as fr:
     length=len(data)
     # Pad data to avoid instructions going out of boundary in mid-action
     data=data+b'????????????????'
-
-    vm_fn_load_dictionary(data)
 
     jump = False
 
@@ -1166,6 +1316,6 @@ with open(filename,'rb') as fr:
         elif(opCodeClean == 28):
             pc = vm_fn_print_input(data,opCode,pc)
         else:
-            _print_code(opCodeClean, pc, 'Invalid opCode')
+            _print_code(opCodeClean, pc, 'Illegal opCode')
     
         pc=pc+1

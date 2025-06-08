@@ -1,0 +1,1282 @@
+0x0001  /  0x08a5 (0x0001)  :  
+0x0002  /  0x08a7 (0x0001)  : :
+0x0003  /  0x08a9 (0x0001)  : , 
+0x0004  /  0x08ab (0x0001)  : .
+0x0005  /  0x08ad (0x0002)  : 
+
+0x0006  /  0x08b0 (0x0003)  : and 
+0x0007  /  0x08b4 (0x0003)  : .
+
+0x0008  /  0x08b8 (0x0003)  : ?
+
+0x0009  /  0x08bc (0x0001)  : . 
+0x000a  /  0x08be (0x0005)  : exits lead 
+0x000b  /  0x08c4 (0x0006)  : an exit leads 
+0x000c  /  0x08cb (0x0005)  :  through a door
+0x000d  /  0x08d1 (0x0006)  :  through an open door
+0x000e  /  0x08d8 (0x0003)  :  and 
+0x000f  /  0x08dc (0x0013)  : 
+We won't bother with "What now" from now on. 
+0x0010  /  0x08f0 (0x0004)  : 
+> 
+0x0011  /  0x08f5 (0x0007)  : 
+What now? 
+0x0012  /  0x08fd (0x0001)  : : 
+0x0013  /  0x08ff (0x0001)  : "
+0x0014  /  0x0901 (0x0002)  : a 
+0x0015  /  0x0904 (0x0002)  : the 
+0x0016  /  0x0907 (0x0002)  : an 
+0x0017  /  0x090a (0x0002)  : some 
+0x0018  /  0x090d (0x0003)  : ." 
+0x0065  /  0x0912 (0x0008)  : north [aka] n northwards
+0x0066  /  0x091b (0x0006)  : northeast [aka] ne
+0x0067  /  0x0922 (0x0008)  : east [aka] e eastwards
+0x0068  /  0x092b (0x0008)  : south [aka] s southwards
+0x0069  /  0x0934 (0x0006)  : southeast [aka] se
+0x006a  /  0x093b (0x0006)  : southwest [aka] sw
+0x006b  /  0x0942 (0x0008)  : west [aka] w westwards
+0x006c  /  0x094b (0x0006)  : northwest [aka] nw
+0x006d  /  0x0952 (0x0008)  : upwards [aka] u up
+0x006e  /  0x095b (0x0008)  : downwards [aka] d down
+0x006f  /  0x0964 (0x000c)  : inside [aka] in inwards into enter
+0x0070  /  0x0971 (0x000a)  : outside [aka] o out leave
+0x0071  /  0x097c (0x0008)  : across [aka] cross over
+0x0072  /  0x0985 (0x000c)  : with the climb [aka] scramble ascend mount
+0x0073  /  0x0992 (0x000e)  : jump [aka] leap hop skip dance celebrate
+0x0074  /  0x09a1 (0x0010)  : plugh xyzzy sesame plover humakaat satarh ollabin obis
+0x0078  /  0x09b3 (0x0002)  : i
+0x0079  /  0x09b6 (0x0004)  : again a
+0x007a  /  0x09bb (0x000c)  : look [aka] l display redisplay refresh
+0x007b  /  0x09c8 (0x000a)  : inventory inv possessions possess list
+0x007c  /  0x09d3 (0x0004)  : quit restart
+0x007d  /  0x09d8 (0x0004)  : restore load
+0x007e  /  0x09dd (0x0002)  : save
+0x007f  /  0x09e0 (0x0004)  : ramsave ram
+0x0080  /  0x09e5 (0x0002)  : ramload
+0x0081  /  0x09e8 (0x0006)  : score rating status
+0x0082  /  0x09ef (0x0002)  : verbose
+0x0083  /  0x09f2 (0x0002)  : brief
+0x0084  /  0x09f5 (0x000a)  : wait [aka] wa pause z
+0x0086  /  0x0a01 (0x0002)  : on
+0x0087  /  0x0a04 (0x0002)  : off
+0x0088  /  0x0a07 (0x0004)  : pictures graphics
+0x0089  /  0x0a0c (0x0004)  : words text
+0x008a  /  0x0a11 (0x000c)  : hello welcome hi greetings day afternoon
+0x008b  /  0x0a1e (0x0004)  : oops undo
+0x008c  /  0x0a23 (0x0012)  : attack [aka] hit break kick punch smash assault beat
+0x008d  /  0x0a36 (0x0004)  : listen hear
+0x008e  /  0x0a3b (0x0004)  : search explore
+0x008f  /  0x0a40 (0x0004)  : help hint
+0x0090  /  0x0a45 (0x0004)  : sniff smell
+0x0091  /  0x0a4a (0x0002)  : knock
+0x0092  /  0x0a4d (0x0002)  : stand
+0x0093  /  0x0a50 (0x0002)  : lie
+0x0094  /  0x0a53 (0x0002)  : sit
+0x0095  /  0x0a56 (0x0002)  : dig
+0x0096  /  0x0a59 (0x000a)  : say [aka] shriek whisper call
+0x0097  /  0x0a64 (0x0002)  : teleport
+0x0098  /  0x0a67 (0x0002)  : getme
+0x0099  /  0x0a6a (0x0002)  : think
+0x009a  /  0x0a6d (0x0002)  : run
+0x009b  /  0x0a70 (0x0016)  : yes yay yah affirmative ok agree consent sure certainly okay OK
+0x009c  /  0x0a87 (0x0006)  : no n negative
+0x009d  /  0x0a8e (0x0002)  : board
+0x009e  /  0x0a91 (0x000a)  : go [aka] goto find walk
+0x009f  /  0x0a9c (0x0004)  : stop abort
+0x00a0  /  0x0aa1 (0x0002)  : weather
+0x00a1  /  0x0aa4 (0x0004)  : treasure money
+0x00a2  /  0x0aa9 (0x0004)  : exits exit
+0x00a3  /  0x0aae (0x0002)  : escape
+0x00a4  /  0x0ab1 (0x0002)  : want
+0x00a5  /  0x0ab4 (0x0002)  : what
+0x00a6  /  0x0ab7 (0x0004)  : why y
+0x00a7  /  0x0abc (0x0002)  : where
+0x00a8  /  0x0abf (0x0002)  : how
+0x00a9  /  0x0ac2 (0x0002)  : whether
+0x00aa  /  0x0ac5 (0x0040)  : bloody hobbit magnetic scott adams melbourne activision sod frigging wanker turd shit twat cunt prick bollocks jesus christ god tits asshole arsehole cretin spastic coon wog fucking screw fucker bastard bugger damn
+0x00ab  /  0x0b07 (0x0002)  : intelligence
+0x00ac  /  0x0b0a (0x0002)  : life
+0x00ad  /  0x0b0d (0x0006)  : shout [aka] yell
+0x00ae  /  0x0b14 (0x0002)  : royalties
+0x00af  /  0x0b17 (0x0002)  : to
+0x00b0  /  0x0b1a (0x0002)  : death
+0x00b1  /  0x0b1d (0x0004)  : goodbye bye
+0x00b2  /  0x0b22 (0x0002)  : sorry
+0x00b3  /  0x0b25 (0x0002)  : scream
+0x00b4  /  0x0b28 (0x0003)  : have 
+0x00b5  /  0x0b2c (0x0003)  : has 
+0x00b6  /  0x0b30 (0x0003)  : am 
+0x00b7  /  0x0b34 (0x0003)  : are 
+0x00b8  /  0x0b38 (0x0003)  : is 
+0x00b9  /  0x0b3c (0x0002)  : phew
+0x00ba  /  0x0b3f (0x0008)  : dir directory catalog cat
+0x00c1  /  0x0b49 (0x0004)  : fight kill
+0x00c2  /  0x0b4e (0x0002)  : time
+0x00c3  /  0x0b51 (0x0002)  : dodge
+0x00c4  /  0x0b54 (0x0002)  : gdgo
+0x00c5  /  0x0b57 (0x0002)  : gdrun
+0x00c6  /  0x0b5a (0x0002)  : obscure
+0x00c7  /  0x0b5d (0x0006)  : buy [aka] purchase
+0x00c8  /  0x0b64 (0x0006)  : examine [aka] read
+0x00c9  /  0x0b6b (0x0006)  : cut [aka] chop
+0x00cc  /  0x0b73 (0x0002)  : get
+0x00cd  /  0x0b76 (0x000a)  : take [aka] carry acquire steal
+0x00ce  /  0x0b81 (0x0002)  : wear
+0x00cf  /  0x0b84 (0x0006)  : drop [aka] discard
+0x00d0  /  0x0b8b (0x0008)  : put [aka] hide conceal
+0x00d1  /  0x0b94 (0x0008)  : remove [aka] free release
+0x00d2  /  0x0b9d (0x000a)  : throw [aka] chuck toss hurl
+0x00d3  /  0x0ba8 (0x000a)  : give [aka] offer offered sell
+0x00d4  /  0x0bb3 (0x0006)  : ask [aka] question
+0x00d5  /  0x0bba (0x0006)  : follow [aka] chase
+0x00d6  /  0x0bc1 (0x0006)  : open [aka] unlock
+0x00d7  /  0x0bc8 (0x0006)  : light [aka] burn
+0x00d8  /  0x0bcf (0x0002)  : extinguish
+0x00d9  /  0x0bd2 (0x0010)  : push [aka] press select depress poke prod touch
+0x00da  /  0x0be3 (0x0006)  : pull [aka] tug
+0x00db  /  0x0bea (0x0008)  : fasten [aka] tie attach
+0x00dc  /  0x0bf3 (0x0006)  : unfasten [aka] untie
+0x00df  /  0x0bfb (0x000c)  : eat [aka] bite taste nibble lick
+0x00e0  /  0x0c08 (0x0006)  : rub [aka] wave
+0x00e1  /  0x0c0f (0x0002)  : bury
+0x00e2  /  0x0c12 (0x0002)  : insert
+0x00e3  /  0x0c15 (0x0006)  : pick [aka] pluck
+0x00e6  /  0x0c1d (0x0002)  : drink
+0x00eb  /  0x0c21 (0x0006)  : mount [aka] ride
+0x00ec  /  0x0c28 (0x0004)  : return object
+0x00ed  /  0x0c2d (0x0006)  : take gold to pub
+0x00ef  /  0x0c35 (0x0002)  : gdfind
+0x00f0  /  0x0c38 (0x0006)  : close [aka] shut
+0x00f2  /  0x0c40 (0x0002)  : tell
+0x00f4  /  0x0c44 (0x0002)  : struggle
+0x010e  /  0x0c48 (0x0002)  : scratch
+0x010f  /  0x0c4b (0x0002)  : pink
+0x0110  /  0x0c4e (0x0002)  : jab
+0x0111  /  0x0c51 (0x0002)  : stab
+0x0112  /  0x0c54 (0x0002)  : hack
+0x0113  /  0x0c57 (0x0002)  : batter
+0x0114  /  0x0c5a (0x0002)  : smite
+0x0115  /  0x0c5d (0x0002)  : cleave
+0x0116  /  0x0c60 (0x0002)  : pulverise
+0x0117  /  0x0c63 (0x0002)  : devastate
+0x0118  /  0x0c66 (0x0002)  : slap
+0x0119  /  0x0c69 (0x0002)  : claw
+0x011a  /  0x0c6c (0x0002)  : bite
+0x011b  /  0x0c6f (0x0002)  : hit
+0x011c  /  0x0c72 (0x0002)  : thump
+0x011d  /  0x0c75 (0x0002)  : belabour
+0x011e  /  0x0c78 (0x0002)  : crush
+0x011f  /  0x0c7b (0x0002)  : mangle
+0x0120  /  0x0c7e (0x0002)  : pulverise
+0x0121  /  0x0c81 (0x0002)  : demolish
+0x012d  /  0x0c85 (0x000b)  : you [aka] player me myself orc
+0x012e  /  0x0c91 (0x0003)  : the hunter
+0x012f  /  0x0c95 (0x0008)  : the knight in white satin
+0x0130  /  0x0c9e (0x0005)  : Synonym the wizard
+0x0131  /  0x0ca4 (0x0005)  : Kris the ant-warrior
+0x0132  /  0x0caa (0x0002)  : Odin
+0x0133  /  0x0cad (0x0003)  : the prophet
+0x0134  /  0x0cb1 (0x0003)  : the gripper
+0x0135  /  0x0cb5 (0x0009)  : the innkeeper [aka] bartender barkeeper
+0x0136  /  0x0cbf (0x0005)  : Fungus the boggit-man
+0x0137  /  0x0cc5 (0x0002)  : Rapunzel
+0x0138  /  0x0cc8 (0x0003)  : the hermit
+0x0139  /  0x0ccc (0x0005)  : the green knight
+0x013a  /  0x0cd2 (0x0008)  : a knight in shining armour
+0x013b  /  0x0cdb (0x0003)  : the valkyrie
+0x013c  /  0x0cdf (0x0004)  : Little John
+0x013d  /  0x0ce4 (0x0002)  : Denzyl
+0x013e  /  0x0ce7 (0x0007)  : the Phantom of the Opera
+0x013f  /  0x0cef (0x0007)  : the Uruk [aka] Uruk-hai
+0x0140  /  0x0cf7 (0x0004)  : Mighty Flynn
+0x0141  /  0x0cfc (0x0002)  : Genghis
+0x0142  /  0x0cff (0x0002)  : Attila
+0x0143  /  0x0d02 (0x0002)  : Muscleman
+0x0144  /  0x0d05 (0x0003)  : the Annihilator
+0x0145  /  0x0d09 (0x0004)  : Pope Joan
+0x0146  /  0x0d0e (0x0002)  : Boadicea
+0x0147  /  0x0d11 (0x0004)  : Jeanie II
+0x0148  /  0x0d16 (0x0004)  : Mrs Wallop
+0x0149  /  0x0d1b (0x0002)  : Susan
+0x014a  /  0x0d1e (0x0002)  : goat
+0x014b  /  0x0d21 (0x0004)  : barrow wight
+0x014c  /  0x0d26 (0x0002)  : wolf
+0x014d  /  0x0d29 (0x0004)  : swift horse
+0x014e  /  0x0d2e (0x0004)  : green horse
+0x014f  /  0x0d33 (0x0002)  : horse
+0x0150  /  0x0d36 (0x000f)  : the huge knight [aka] Sir Cecil de Breeze
+0x0154  /  0x0d47 (0x0002)  : rapier
+0x0155  /  0x0d4a (0x0002)  : dagger
+0x0156  /  0x0d4d (0x0002)  : poignard
+0x0157  /  0x0d50 (0x0004)  : putty knife
+0x0158  /  0x0d55 (0x0004)  : war axe
+0x0159  /  0x0d5a (0x0002)  : lance
+0x015a  /  0x0d5d (0x0002)  : spear
+0x015e  /  0x0d61 (0x0003)  : gold crest
+0x015f  /  0x0d65 (0x0003)  : gold finch
+0x0160  /  0x0d69 (0x0003)  : gold finger
+0x0161  /  0x0d6d (0x0003)  : gold heart
+0x0162  /  0x0d71 (0x0003)  : gold nugget
+0x0163  /  0x0d75 (0x0003)  : gold plate
+0x0164  /  0x0d79 (0x0003)  : gold shoulder
+0x0165  /  0x0d7d (0x0004)  : golden ball
+0x0166  /  0x0d82 (0x0004)  : golden fleece
+0x0167  /  0x0d87 (0x0004)  : golden disk
+0x0168  /  0x0d8c (0x0004)  : golden rod
+0x0169  /  0x0d91 (0x0004)  : golden ruler
+0x016d  /  0x0d97 (0x0003)  : gold brick
+0x016e  /  0x0d9b (0x0003)  : gold comb
+0x016f  /  0x0d9f (0x0003)  : gold ghost
+0x0170  /  0x0da3 (0x0003)  : gold leaf
+0x0171  /  0x0da7 (0x0003)  : gold standard
+0x0172  /  0x0dab (0x0003)  : gold sovereign
+0x0173  /  0x0daf (0x0004)  : golden apple
+0x017a  /  0x0db5 (0x0002)  : rope
+0x017b  /  0x0db8 (0x0005)  : coil of rope
+0x017c  /  0x0dbe (0x000b)  : piece of plaitted hair [aka] rope
+0x017d  /  0x0dca (0x0008)  : hessian hawser [aka] rope
+0x017e  /  0x0dd3 (0x0006)  : lassoo [aka] rope
+0x017f  /  0x0dda (0x0006)  : belt [aka] rope
+0x0180  /  0x0de1 (0x0006)  : reins [aka] rope
+0x0181  /  0x0de8 (0x0006)  : noose [aka] rope
+0x0182  /  0x0def (0x0006)  : halyard [aka] rope
+0x0183  /  0x0df6 (0x0008)  : cord [aka] strap rope
+0x0184  /  0x0dff (0x0008)  : washing line [aka] rope
+0x0185  /  0x0e08 (0x0006)  : tether [aka] rope
+0x0186  /  0x0e0f (0x0004)  : hooded cloak
+0x0187  /  0x0e14 (0x0004)  : saffron robes
+0x0190  /  0x0e1a (0x0002)  : cask
+0x0192  /  0x0e1e (0x000b)  : glass of beer [aka] pint lager
+0x0193  /  0x0e2a (0x0004)  : empty glass
+0x0194  /  0x0e2f (0x0002)  : bucket
+0x0195  /  0x0e32 (0x0004)  : welcome mat
+0x0196  /  0x0e37 (0x0002)  : note
+0x0197  /  0x0e3a (0x0008)  : great chest [aka] lid
+0x0199  /  0x0e44 (0x0002)  : key
+0x019a  /  0x0e47 (0x0002)  : head
+0x01c2  /  0x0e4b (0x0002)  : bar
+0x01c3  /  0x0e4e (0x0002)  : bar
+0x01c4  /  0x0e51 (0x0002)  : drawbridge
+0x01c5  /  0x0e54 (0x0006)  : ominous white doorway
+0x01c6  /  0x0e5b (0x0004)  : hardwood roller
+0x01c7  /  0x0e60 (0x000b)  : pile of garbage [aka] rubbish heap
+0x01c8  /  0x0e6c (0x0004)  : trophy cabinet
+0x01c9  /  0x0e71 (0x0006)  : flagpole [aka] pole
+0x01ca  /  0x0e78 (0x0006)  : signposts [aka] posts
+0x01d6  /  0x0e80 (0x0006)  : eyes [aka] eye
+0x01d7  /  0x0e87 (0x000a)  : Rapunzel's hair hanging down from above
+0x01d8  /  0x0e92 (0x0002)  : ring
+0x01d9  /  0x0e95 (0x0008)  : ivy climbing up the castle
+0x01da  /  0x0e9e (0x0008)  : thorn hedge [aka] thorns
+0x01db  /  0x0ea7 (0x000a)  : garbage heap [aka] rubbish pile
+0x01dc  /  0x0eb2 (0x0002)  : head
+0x01e0  /  0x0eb6 (0x0002)  : gibbet
+0x01e1  /  0x0eb9 (0x0002)  : castle
+0x01e2  /  0x0ebc (0x0002)  : clearing
+0x01e3  /  0x0ebf (0x0002)  : crossroads
+0x01e4  /  0x0ec2 (0x0006)  : fairground [aka] dismal
+0x01e5  /  0x0ec9 (0x0004)  : forest lawn
+0x01e6  /  0x0ece (0x0002)  : cave
+0x01e7  /  0x0ed1 (0x0004)  : royal oak
+0x01e8  /  0x0ed6 (0x0002)  : tower
+0x01e9  /  0x0ed9 (0x0006)  : viaduct [aka] broken
+0x01ea  /  0x0ee0 (0x0008)  : well [aka] quaint little
+0x01eb  /  0x0ee9 (0x000c)  : gate [aka] Paradise shimmering entrance fog
+0x0216  /  0x0ef7 (0x0006)  : everything all every
+0x0217  /  0x0efe (0x0002)  : treasure
+0x0218  /  0x0f01 (0x0002)  : weapons
+0x0219  /  0x0f04 (0x0006)  : people everyone everybody
+0x021a  /  0x0f0b (0x0002)  : clothes
+0x021b  /  0x0f0e (0x0003)  : the door
+0x021c  /  0x0f12 (0x000e)  : vodka whisky campari gin orange lemonade cider
+0x021d  /  0x0f21 (0x0002)  : water
+0x021e  /  0x0f24 (0x0002)  : be
+0x021f  /  0x0f27 (0x0006)  : ground [aka] floor
+0x0220  /  0x0f2e (0x0006)  : wall [aka] walls
+0x0221  /  0x0f35 (0x0008)  : sky [aka] sun moon
+0x0222  /  0x0f3e (0x0002)  : beer
+0x0223  /  0x0f41 (0x0004)  : except but
+0x0224  /  0x0f46 (0x0010)  : it [aka] that them those none him her
+0x0225  /  0x0f57 (0x0004)  : minute minutes
+0x0227  /  0x0f5d (0x0004)  : then next
+0x0228  /  0x0f62 (0x0004)  : therefore so
+0x0229  /  0x0f67 (0x0004)  : you yourself
+0x0230  /  0x0f6d (0x0001)  : it
+0x0231  /  0x0f6f (0x0001)  : it
+0x0232  /  0x0f71 (0x0001)  : some
+0x0233  /  0x0f73 (0x0001)  : he
+0x0234  /  0x0f75 (0x0002)  : she
+0x0235  /  0x0f78 (0x0001)  : they
+0x0236  /  0x0f7a (0x0001)  : you
+0x023a  /  0x0f7d (0x0001)  : it
+0x023b  /  0x0f7f (0x0001)  : it
+0x023c  /  0x0f81 (0x0002)  : them
+0x023d  /  0x0f84 (0x0002)  : him
+0x023e  /  0x0f87 (0x0002)  : her
+0x023f  /  0x0f8a (0x0002)  : them
+0x0240  /  0x0f8d (0x0001)  : you
+0x0243  /  0x0f90 (0x0002)  : ~
+0x0244  /  0x0f93 (0x0002)  : s
+0x0245  /  0x0f96 (0x0002)  : es
+0x0246  /  0x0f99 (0x0001)  : is
+0x0247  /  0x0f9b (0x0002)  : buries
+0x0249  /  0x0f9f (0x0004)  : from the south
+0x024a  /  0x0fa4 (0x0004)  : from the southwest
+0x024b  /  0x0fa9 (0x0004)  : from the west
+0x024c  /  0x0fae (0x0004)  : from the north
+0x024d  /  0x0fb3 (0x0004)  : from the northwest
+0x024e  /  0x0fb8 (0x0004)  : from the northeast
+0x024f  /  0x0fbd (0x0004)  : from the east
+0x0250  /  0x0fc2 (0x0004)  : from the southeast
+0x0251  /  0x0fc7 (0x0003)  : from below
+0x0252  /  0x0fcb (0x0003)  : from above
+0x0253  /  0x0fcf (0x0003)  : from outside
+0x0254  /  0x0fd3 (0x0003)  : from inside
+0x0255  /  0x0fd7 (0x0005)  : from across the way
+0x0256  /  0x0fdd (0x0003)  : by climbing
+0x0257  /  0x0fe1 (0x0004)  : with a jump
+0x0259  /  0x0fe7 (0x004f)  : a fine specimen of orcanity with touselled grey hair, close-set blood-shot eyes beneath joined, bushy eyebrows, a pock-marked nose with flaring nostrils, filed teeth in a wide, thin-lipped mouth and a generous supply of chins. You are clad in clotted furs and spattered punk-skin
+0x025a  /  0x1038 (0x0012)  : a chinless wonder, dressed neatly in hunting pink and jodhpurs
+0x025b  /  0x104b (0x0020)  : dressed in enamelled plate mail and a snowy surcoat. He looks like a frozen elf, left outside in Winter
+0x025c  /  0x106c (0x001a)  : a splendid figure, in black robes trimmed with crimson to match the fires of his eyes
+0x025d  /  0x1087 (0x002b)  : a muscle-bound champion, armoured with plates of giant ant cuticle and wearing a strange ant-head helm. She looks a lot like an ogre-sized fried roach
+0x025e  /  0x10b3 (0x0009)  : a one-eyed being of great power
+0x025f  /  0x10bd (0x0046)  : a sweaty paedophile, quite happy to smarm on about the meek inheriting the Earth, turning the other cheek and the love of you know who... Until you mention liberation theology, disarmament, or anyone other than male humans becoming ministers
+0x0260  /  0x1105 (0x000f)  : a squinty, rat-like youth, with an orcish squint
+0x0261  /  0x1115 (0x000f)  : a blubbery old man, dressed in garish clothes
+0x0262  /  0x1125 (0x0009)  : a lanky, twitchy-fingered, nicotine-addict
+0x0263  /  0x112f (0x0024)  : a young woman with incredibly long, silky hair. If she had a crew-cut and stopped washing, she would be quite pretty
+0x0264  /  0x1154 (0x0018)  : a small bald man, sitting in lotus position on the ground and grinning like a lunatic
+0x0265  /  0x116d (0x00ba)  : "A handsome, parfait knight, great-muscled, fit and slim. 
+Almost a giant in height, and long and straight of limb. 
+Clad all in green is he, and green his skin and hair. 
+His eyebrows are mossy, bright emerald his stare. 
+No shield, helm or plastron, nor bright chain mail has he. 
+Of armour he has none. Just, in one hand, holly. 
+Storm-like and strong, he seems. And swift to strike and stun. 
+Dreadful his blows, one deems. Once dealt, true death has come." 
+ 
+In other words, he is a bully of the worst type
+0x0266  /  0x122a (0x001e)  : a canned fool, trapped inside his polished chrome and silver suit, not knowing what is going on around
+0x0267  /  0x1249 (0x0012)  : a winged Amazon, servant of Paradise, who collects bodies
+0x0268  /  0x125c (0x0011)  : a trollish oaf, in a bright leotard with leather buckling
+0x0269  /  0x126e (0x000a)  : a right gullible and stupid-looking person
+0x026a  /  0x1279 (0x0013)  : too revolting even for orcish tastes. A mobile, pointy-headed greaseball
+0x026b  /  0x128d (0x0060)  : a trollish creature of great pungency, related to the Wol-Hai. (Orcs, who are familiar with the habits of the Uruk-Hai, pronounce this word by gathering a mass of phlegm and gobbing it as far possible. Uruks, in response, say the word "Orc" with the same sound as is made when you grab someone by the throat)
+0x026c  /  0x12ef (0x0010)  : an enormous tree-like man, with rugged, wrinkled skin
+0x026d  /  0x1300 (0x0009)  : a fur-clad warrior of great skill
+0x026e  /  0x130a (0x0009)  : a barbarian warrior from the Northlands
+0x026f  /  0x1314 (0x000b)  : like a Butcher's shop on two legs
+0x0270  /  0x1320 (0x000d)  : a golem-like figure, in black plate mail
+0x0271  /  0x132e (0x000a)  : an impressive woman in rich robes
+0x0272  /  0x1339 (0x0005)  : a killer queen
+0x0273  /  0x133f (0x000d)  : clad in hareem silks and a bright smile
+0x0274  /  0x134d (0x0014)  : the toughest woman you have ever seen, outside of the Orc Lair
+0x0275  /  0x1362 (0x0012)  : a confused-looking girl, who looks as if she is here by mistake
+0x0276  /  0x1375 (0x000a)  : an obnoxious creature with sharp horns
+0x0277  /  0x1380 (0x000e)  : an very handsome creature with a single red eye
+0x0278  /  0x138f (0x000a)  : a shaggy brute with sharp teeth
+0x0279  /  0x139a (0x0005)  : an expensive nag
+0x027a  /  0x13a0 (0x005c)  : "Deep green and huge of grain, a war-horse of great height, 
+With grass-plait tail and mane, their tied bells flashing bright. 
+Alert of eye and brain, hot-blooded, proud in might, 
+and brusque with bit and rein. Great stallion of green knight." 
+ 
+The nag looks unbearably smug
+0x027b  /  0x13fe (0x001f)  : a great, tall creature, like a flatulent barrel. It keeps ducking down to graze and you nearly slide off
+0x027c  /  0x141e (0x0036)  : Sir Cecil de Breeze; a weakling, but quite deadly when encased in half an orc-weight of steel, armed with a needle-sharp lance and mounted upon a ton of trained horse flesh
+0x0280  /  0x1456 (0x000b)  : the sort of weapon that humans get given
+0x0281  /  0x1462 (0x0009)  : a long knife from foreign parts
+0x0282  /  0x146c (0x000b)  : a funny-looking knife. It's quite sharp
+0x0283  /  0x1478 (0x0014)  : rusty and blunt, barely able to carve the slime off a puddle
+0x0284  /  0x148d (0x007c)  : a lethal looking weapon: 
+"The green knight's axe is grim and baneful; 
+A helmet-cleaver, spreading fear. 
+Iron bindings grip its great oak handle; 
+Its axe-head length an ell-rod near. 
+The socket is of iron and green gold, 
+The blade is burnished mirror bright. 
+Honed razor-sharp; a deadly, keen, cold, 
+brutal weapon for the fight"
+0x0285  /  0x150b (0x001c)  : a big stick, like a sharpened fence-post, or a dragon's toothpick. It is very dusty with woodworm
+0x0286  /  0x1528 (0x001b)  : a weapon like a dirty great needle, even down to a place to attach rope at the back end
+0x028a  /  0x1545 (0x000b)  : a smashed bit of something or other
+0x028b  /  0x1551 (0x000b)  : an ugly statue of a delicious-looking bird
+0x028c  /  0x155d (0x000b)  : yet another bit of well-vandalized statue
+0x028d  /  0x1569 (0x0016)  : an inferior piece of work. The artist has left out all its chewy veins
+0x028e  /  0x1580 (0x000d)  : what you get when a gold dragon moves its bowels
+0x028f  /  0x158e (0x0008)  : what pansy humans use for eating
+0x0290  /  0x1597 (0x000a)  : another part of a pillaged statue
+0x0291  /  0x15a2 (0x0008)  : part of some long-destroyed statue
+0x0292  /  0x15ab (0x0010)  : a bit like Hobbits' foot fur, but metal
+0x0293  /  0x15bc (0x000a)  : an unusual sheet of flexible metal
+0x0294  /  0x15c7 (0x000c)  : not unlike a golden pole, or perch
+0x0295  /  0x15d4 (0x000a)  : covered with indecipherable, squiggly markings
+0x0299  /  0x15e0 (0x000a)  : a real treasure: good and heavy
+0x029a  /  0x15eb (0x0016)  : not much good. It can't be sharpened as a weapon, or used for removing nits
+0x029b  /  0x1602 (0x0006)  : a flimsy little thing
+0x029c  /  0x1609 (0x0008)  : probably for making gold compost
+0x029d  /  0x1612 (0x0008)  : a silly little model flag
+0x029e  /  0x161b (0x0006)  : a thick little coin
+0x029f  /  0x1622 (0x001c)  : very dangerous. If someone bit into it by mistake, they would have trouble in getting their teeth free
+0x02a6  /  0x1640 (0x0012)  : strong bonds, looped under the horse and holding you on securely
+0x02a7  /  0x1653 (0x0008)  : tied together from several parts
+0x02a8  /  0x165c (0x000a)  : carefully plaitted into a strong pig-tail
+0x02a9  /  0x1667 (0x0010)  : green-slimed hessian, which was presumably once used as a well rope
+0x02aa  /  0x1678 (0x0007)  : a coil of hemp rope
+0x02ab  /  0x1680 (0x0008)  : a loop of strong cloth
+0x02ac  /  0x1689 (0x0009)  : apparently made from decorated leather
+0x02ad  /  0x1693 (0x0004)  : a hempen rope
+0x02ae  /  0x1698 (0x0007)  : a long, silken cord
+0x02af  /  0x16a0 (0x0005)  : a strong tie-string
+0x02b0  /  0x16a6 (0x0008)  : a length of smooth hemp
+0x02b1  /  0x16af (0x000c)  : tattered and chewed, but seems fairly strong
+0x02b2  /  0x16bc (0x000b)  : long and dark, like a deep-shadowed cape
+0x02b3  /  0x16c8 (0x0005)  : neat and simple
+0x02bc  /  0x16cf (0x002d)  : a small, rusty barrel, presumably containing the Innkeeper's supply of the yellow liquid which some humans call "lager beer". Others have a better name for it
+0x02be  /  0x16fe (0x0025)  : the best beer - not loathsome malt and hops. This delicious fizzy brew is made from potatoes, rice and sea weed
+0x02bf  /  0x1724 (0x0028)  : smooth and dimpled, with a dainty handle that is much too small for your fingers. It is nowhere near as good as a traditional, Hobbit-skull mug
+0x02c0  /  0x174d (0x001b)  : made of perished leather, coming apart at the seams. It's quite attractive, but of little use
+0x02c1  /  0x1769 (0x006a)  : decorated with the following message: 
+"Welcome to the Orc's Head Inn, prop B.Wallop, purveyor of the only beer in all Middle Earth. 
+Rules of the tavern: no credit, no spitting, no smoking, no killing unless provoked, no elves without a health certificate, no hobbits without a lead, no snakes, rabid dogs or orcs allowed"
+0x02c2  /  0x17d5 (0x002f)  : printed with "Knock very carefully" in many languages, including cartoons for Yellow Eye Readers. It also warns that the drawbridge can't be re-opened from inside the castle
+0x02c3  /  0x1805 (0x0016)  : iron-bound and strong, with a one-lever lock that is fully up to chariot-door standards
+0x02c5  /  0x181d (0x0035)  : an old friend, just what you would have expected to find under a welcome mat. Like an old trooper, it is battered, time-worn and rusty, but prepared for yet another guest appearance
+0x02c6  /  0x1853 (0x0060)  : messily severed at the neck: 
+"The green horse head still drips, with gruesome blood and brain. 
+Its tongue flops through its lips; its eyes protrude in pain. 
+Flies circle through the stink; it's not a pretty sight; 
+but best of all, you think, it serves the beggar right!"
+0x02ee  /  0x18b6 (0x0022)  : just the right height to rest your chin on. You avoid doing this, though, in case it gives people ideas
+0x02ef  /  0x18d9 (0x001e)  : horribly clean. Most of the usual scraps and stains have been scoured away and it reeks of greasy polish
+0x02f0  /  0x18f8 (0x0024)  : a moving bridge, nailed together from big tree-trunks, which can be swung down across the castle's moat and allow you to enter
+0x02f1  /  0x191d (0x000f)  : a great, draughty archway leading into the stone keep
+0x02f2  /  0x192d (0x0015)  : a kind of reel for rope, fixed to a frame above the well hole
+0x02f3  /  0x1943 (0x003a)  : a big pile of mixed treasures, thrown away by stupid humans. Fish-heads, brown cabbage, green beef and furry bread are scattered around, not to mention the delicious rodents and snack-worms drawn to the feast
+0x02f4  /  0x197e (0x0009)  : a stupid cupboard with no front
+0x02f5  /  0x1988 (0x0016)  : an ugly white post, a hundred feet tall, stuck in the mud
+0x02f6  /  0x199f (0x0022)  : two signposts, set at opposite corners of the crossroads. They indicate "NOWHERE" to west, north and east
+0x0302  /  0x19c3 (0x000a)  : deep, bloodshot and slightly crossed
+0x0303  /  0x19ce (0x003b)  : smooth, silky and golden. Yeuch. No self-respecting orc would let their hair get into such a disgusting state. Still, despite all the damage done by repeated washing, Rapunzel's hair looks strong enough to climb
+0x0304  /  0x1a0a (0x0021)  : a great iron hoop, far above, fixed through the orc statue's nose which overhangs the gap in the broken viaduct
+0x0305  /  0x1a2c (0x0041)  : hedera helix, growing up the stone wall of the castle and providing a lot of hand-holds for agile attackers. Of course, it's a difficult climb for orcs, who prefer tunnelling, but you might be able to manage the ascent
+0x0306  /  0x1a6f (0x0025)  : a sword's-length wide, and dangerous, like a plant grown mad. Its thorns are long, sharp and inedible, so there is no way through
+0x0307  /  0x1a95 (0x002e)  : a load of lost objects, thrown away by the stupid humans. There is enough garbage here to feed an army of orcs, and enough rusty metal to equip them
+0x0308  /  0x1ac4 (0x002a)  : a huge orc's head carved out of the rock on the far side of the broken viaduct. Its mouth leads to the orc lair, where you want to be
+0x030c  /  0x1af0 (0x0031)  : a homely construction, used for executions. "A good thing too", you think, "If more criminals were hung, there would be less of them after the loot"
+0x030d  /  0x1b22 (0x007e)  : an interesting carbuncular castle, designed by a firm of mad dwarfs who were totally unable to cope when the planners agreed that anything so gross must be Art and gave the go-ahead. They forgot to include a roof over most of the castle, but managed to get the rest of it built. Fortunately, ivy now hides the vile stone walls, where past generations of orcs have failed in noble attempts to capture and smash the place
+0x030e  /  0x1ba3 (0x0010)  : an open area of rabbit-mown grass, between the looming trees
+0x030f  /  0x1bb4 (0x000d)  : the junction of hard east-west and north-south roads
+0x0310  /  0x1bc2 (0x0011)  : a trampled field with fair pavilions. It is almost deserted
+0x0311  /  0x1bd4 (0x000c)  : a horrid field, sometimes used for bowling
+0x0312  /  0x1be1 (0x0041)  : very unlike your lovely underground home. The cave is horribly clean and dry, the air is polluted by the stink of dried flowers and there are no worms to eat. It would take a lot of work to get this place into shape
+0x0313  /  0x1c24 (0x0010)  : a dirty great hollow tree, with an ominously narrow entrance
+0x0314  /  0x1c35 (0x0027)  : a vertical spire of burnt rock, thrusting above the trees. You feel homesick for the bad old days, guarding the Dark Tower
+0x0315  /  0x1c5d (0x0074)  : the bridge back to your base in Orc Mountain. It is a single span, shaped to look like the tongue of the huge orc head, quarried from the cliff opposite. Unfortunately, some overzealous idiot has vandalized the viaduct (It's not as if there aren't enough human buildings to destroy!) and smashed a wide gap in the middle. Below the gap, you can see the gummy waters of the River Sewer
+0x0316  /  0x1cd3 (0x0021)  : an deep hole (not unlike Slough). Something seems to glimmer at the bottom, spoiling the cool darkness there
+0x0317  /  0x1cf5 (0x001a)  : a magnificent glowing portal, just south of you, but it can only be crossed by the Valkyrie
+0x0385  /  0x1d11 (0x0008)  : alder [aka] tree trees
+0x0386  /  0x1d1a (0x0008)  : beech [aka] tree trees
+0x0387  /  0x1d23 (0x0008)  : blackthorn [aka] tree trees
+0x0388  /  0x1d2c (0x0008)  : cedar [aka] tree trees
+0x0389  /  0x1d35 (0x0008)  : elder [aka] tree trees
+0x038a  /  0x1d3e (0x0008)  : elm [aka] tree trees
+0x038b  /  0x1d47 (0x0008)  : hawthorn [aka] tree trees
+0x038c  /  0x1d50 (0x0008)  : hazel [aka] tree trees
+0x038d  /  0x1d59 (0x0008)  : holly [aka] tree trees
+0x038e  /  0x1d62 (0x0008)  : hornbeam [aka] tree trees
+0x038f  /  0x1d6b (0x0008)  : juniper [aka] tree trees
+0x0390  /  0x1d74 (0x0008)  : larch [aka] tree trees
+0x0391  /  0x1d7d (0x0008)  : oak [aka] tree trees
+0x0392  /  0x1d86 (0x0008)  : pine [aka] tree trees
+0x0393  /  0x1d8f (0x0008)  : rowan [aka] tree trees
+0x0394  /  0x1d98 (0x0008)  : whitebeam [aka] tree trees
+0x0398  /  0x1da2 (0x0002)  : clump
+0x0399  /  0x1da5 (0x0002)  : coppice
+0x039a  /  0x1da8 (0x0002)  : deadwood
+0x039b  /  0x1dab (0x0002)  : edgewood
+0x039c  /  0x1dae (0x0002)  : forest
+0x039d  /  0x1db1 (0x0002)  : ghostwood
+0x039e  /  0x1db4 (0x0002)  : glade
+0x039f  /  0x1db7 (0x0002)  : grove
+0x03a0  /  0x1dba (0x0002)  : heartwood
+0x03a1  /  0x1dbd (0x0002)  : scrubland
+0x03a2  /  0x1dc0 (0x0002)  : spinney
+0x03a3  /  0x1dc3 (0x0002)  : tangle
+0x03a4  /  0x1dc6 (0x0002)  : thicket
+0x03a5  /  0x1dc9 (0x0002)  : underbrush
+0x03a6  /  0x1dcc (0x0002)  : wildwood
+0x03a7  /  0x1dcf (0x0002)  : woodland
+0x03ad  /  0x1dd3 (0x00c4)  : Alnus Glutinosa, the common black alder. Growing throughout middle Middle Earth, this bogside tree grows taller than ten orcs, with rearing branches and an ugly spindly form. It has puce buds on weedy stalks and fat leaves as big as half a hand, with rounded tips and a chewed edge. The male catkins are puce in Winter, turning a yellow-tinged blood colour when ripe; the febrile female flowers are smaller, in clumps; seeds form in an inedible woody cone. The scum-brown bark is slightly cracked on dilapidated trees. The wood, dirty white when cut but turning light brown, is used for swamp poles, Elvish Cuckoo Clocks and black-ash for blasting powder
+0x03ae  /  0x1e9b (0x0112)  : Fagus Sylvatica, the common beech. This overrated vegetable from middle Middle Earth has, for no good reason, been called the "Queen of the Wood". It grows much too big, with smooth limbs and a great spread of leaves; but is an impressive sight with great green-scummed grey branches spreading from its furrowed trunk to the dense upper leaves and, on surviving older trees, outwards to form a great circle of cool shade; big enough to seat hundreds of orcs. The sharp-pointed buds are thumb-nail long and the new leaves are quite tasty; when older they resemble elf-ears in shape. The tree is host to great numbers of delicious green caterpillars and, in many Autumns, Beech trees produce small but tasty nuts. In times past, many trees were grotesquely pollarded for firewood, their repeatedly-mutilated stumps rotting into ghost-shapes, but this skill has been lost. Beech wood is a pale skin colour and very hard. It is used for furniture, larger weapons and makes the best bonfires
+0x03af  /  0x1fb2 (0x00a5)  : blackthorn, Prunus Spinosa, a wild plum which lives in middle and eastern lands. It is a very aggressive little tree, armed with evil black thorns, spreading quickly from the roots to form an impenetrable thicket, held together by its crooked branches. Blackthorn is at its ugliest in spring, when its bare black twigs sprout masses of guano-coloured flowers, but these are fortunately soon replaced by toothy, egg-shaped leaves. Its bitter fruit, known as a sloe, is eye-ball sized and used to make alcoholic drinks. Blackthorn wood is very tough and a favourite material for trap-spikes and cudgels
+0x03b0  /  0x205a (0x0050)  : Cedrus Libani, the cedar, a ragged fir-tree from eastern lands which lives a long time, unless something is done about it, and can grow as tall as ten orcs. It has spiky clots of leaves, insignificant flowers and inedible cones which crumble on the tree, leaving unpleasant central cores
+0x03b1  /  0x20ac (0x0087)  : the elder, an ugly weed which lives wherever there is rubbish, growing as high as five orcs. Its unpleasant wood is useless for everything except burning, and even then it lacks the narcotic effects claimed. It has ordinary buds, hand-like leaves, tangles of pale flowers and clusters of berries. Humans have managed to produce wine from its flowers and fruit, and claim it cures warts and protects against witches, but they are good salesmen and make such claims about many useless things
+0x03b2  /  0x2136 (0x0108)  : Ulmus Procera, the elm, a big fuzzy-looking tree as tall as twenty orcs or more, looking a bit like a green rain cloud. Fortunately, it is not deep rooted and elms are often blown over by gales, especially when first weakened by digging. They were probably brought to middle Middle Earth by the early elves and became a major feature of parks and hedge rows, spreading like a weed from the roots, but are fortunately now being controlled by Dwarf Elm Disease. ELm buds are too small for orcish eyes to see; the flowers are also small but in huge numbers, looking like a yukky pale-pink fog. The dark green leaves are double-toothed, very rough on top, have bulging veins, lop-sided at the base and are generally repulsive. The dark pitch-brown bark splits and cracks into irregular scales and the timber is known for its resistance to water. Elm wood is used for fish posts, water boards, pipes and coffins
+0x03b3  /  0x2243 (0x0055)  : Crataegus Monogyna, the hawthorn, a small and spiky tree, used for hedges across the whole northern hemisquare. A flat-topped, wide-spreading small tree, with small, nibbled leaves, florid-brown twigs and pallid Spring flowers. The red berries attract a variety of edible vermin later in the year, but the wood is useless
+0x03b4  /  0x229a (0x0078)  : Corylus Avellana, the Common Hazel from the east hemisquare of Middle Earth. This small tree is widely grown by humans, who use its wood for everything from weapons to "wattle and daub" (a posh alternative to "mud and bramble", for building) and feed its nuts to animals. Hazel is a hairy tree, with brown scaly bark, large leaves, catkins, and nuts which attract everything from mice to tasty squirrels
+0x03b5  /  0x2314 (0x00af)  : holly, Ilex Aquifolium, a spiky evergreen tree from middle Middle Earth. This small tree has insignificant buds, ugly waxy dark-green leaves, warped into spines along their edges, white flowers and ugly red berries. Holly bark is smooth and mud-coloured; the wood is pale and burns well, and stems make good clubs and whips. The main use of this tree is in producing bird lime: boil the bark in water, simmer the soupy fluid until it becomes a sticky mess and use to coat small twigs and branches. When birds land on these, their feathers get horribly stuck and one can wring their necks with ease
+0x03b6  /  0x23c6 (0x00af)  : hornbeam, Carpinus Betulus, a birch-like tree from left-of-centre Middle Earth, which grows between ten and twenty orcs high. Its thin, slightly twisted branches slope upwards to a shaggy crown. The thin buds are sharply pointed; the leaves smooth with protuberant veins and jagged edges, becoming yellow in Autumn, and floppy catkins appear in Spring, followed by useless fruit. The bark is sludge-grey, spattered with brown and divided by furrows; old tree trunks look terminally wrinkled. The dirty white timber burns well and is very hard and tough; well suited for slave-yokes, treadmills and butchers' blocks
+0x03b7  /  0x2478 (0x0079)  : Juniper Communis, the left-wing Juniper, which only grows as tall as three orcs, but is found in beds throughout Middle Earth. This fox-tail shaped tree has stubby, sharp spikes for leaves; uninteresting flowers and vile blue berries, which humans use for flavouring gin. (But then, what won't they use in their search for new alcoholic drinks?) finally, the leaves smell vile when crushed. Fortunately, Junipers burn well when lit
+0x03b8  /  0x24f3 (0x0081)  : Larix Laricina, the West Middle Earth larch, which grows as tall as ten or twenty orcs and clogs up good marsh land all over the place. It grows very quickly, with over green needles, faded twigs, puny flowers and inedible, egg-shaped cones. Older bark is painfully split and the heavy wood beneath is orange and sappy, useful only for crude fence posts and pit-props. If you wait for a dry spell, it burns like a torch
+0x03b9  /  0x2577 (0x0077)  : oak, Quercus robur, an enormous tree, taller than twenty orcs and about as wide, which lives throughout northern Middle Earth. It has massive branches, used by humans for timber-frame houses, leaves with wobbly edges, insignificant flowers and nuts which attract many edible animals. The human need for oak timber far exceeds the supply, and it grows very slowly, but they seem to be making the mistake of not replacing felled trees
+0x03ba  /  0x25f0 (0x0012)  : a marvelously attractive tree, almost as nice as the Leylandii Cyprus
+0x03bb  /  0x2603 (0x008b)  : rowan, Sorbus Aucuparia, a silly little tree, as tall as six orcs, which grows in east and central Middle Earth. It has florid hairy buds, fish bone leaves, pale clods of flowers and tasty red berries which make a smoky jelly. The tough, rusty wood is used for ornaments and wands, and carved pieces are said to ward off magic. But the main thing to remember about rowan is to only park a chariot below one in Autumn if the owner is smaller than you
+0x03bc  /  0x2691 (0x0079)  : whitebeam, Sorbus Aria; a stunted tree, only as tall as five orcs, which infests middle Middle Earth. It is like the rowan, with clots of pallid flowers and barely-edible red berries which make a jelly to accompany rotten meat. Whitebeam has funny oval leaves which are green on one side and white on the other. The tough wood is used for decorations and charms, though it is not much good for this purpose and is better burnt
+0x03c0  /  0x270d (0x0007)  : a tight cluster of trees
+0x03c1  /  0x2715 (0x0009)  : small wood of undergrowth and young trees
+0x03c2  /  0x271f (0x000b)  : sad region of diseased and dying trees
+0x03c3  /  0x272b (0x0009)  : an area of small, swift-growing trees
+0x03c4  /  0x2735 (0x0009)  : large tract of trees and undergrowth
+0x03c5  /  0x273f (0x000c)  : gloomy place, shadowed by dripping overgrowth
+0x03c6  /  0x274c (0x000b)  : clear open space between forest giants
+0x03c7  /  0x2758 (0x0006)  : small tract of woodland
+0x03c8  /  0x275f (0x0012)  : dense maze of close-packed trees, leaning tightly against one another
+0x03c9  /  0x2772 (0x000a)  : ground covered with brushwood and stunted trees
+0x03ca  /  0x277d (0x0003)  : a small wood
+0x03cb  /  0x2781 (0x000a)  : just a confused mass of intertwined trees
+0x03cc  /  0x278c (0x000e)  : lots of shrubs and trees, growing close together
+0x03cd  /  0x279b (0x000c)  : a region of clinging plants beneath the trees
+0x03ce  /  0x27a8 (0x000d)  : a grim and chaotic remnant of primal forest
+0x03cf  /  0x27b6 (0x0009)  : an ordinary place in the forest
+0x03ea  /  0x27c1 (0x0008)  : in a cobbled castle courtyard
+0x03eb  /  0x27ca (0x0013)  : in the single, large entrance hall at the base of the keep
+0x03ec  /  0x27de (0x0013)  : on the dangerously rounded steps of a narrow, sunwise stone staircase
+0x03ed  /  0x27f2 (0x003e)  : on a stone walkway, between the rotting planks of the patched roof and the pitted limestone parapet around the edge of the keep. From this high lookout, there is a dizzying view across the whole forest [aka] ivy
+0x03ee  /  0x2831 (0x0009)  : in the hermit's horrid little cave
+0x03ef  /  0x283b (0x000d)  : inside the rotten trunk of the royal oak
+0x03f0  /  0x2849 (0x0014)  : in the public bar of the Orc's Head Inn [aka] pub head
+0x03f1  /  0x285e (0x0017)  : in the "Headhunters" saloon bar of the Orc's Head Inn [aka] head
+0x03f2  /  0x2876 (0x0006)  : in a damp cellar
+0x03f3  /  0x287d (0x0006)  : in the market field
+0x03f4  /  0x2884 (0x0004)  : on the fairground
+0x03f5  /  0x2889 (0x0006)  : in a dingy stable
+0x03f6  /  0x2890 (0x0006)  : on a jousting field
+0x03f7  /  0x2897 (0x0006)  : on a trampled field
+0x03f8  /  0x289e (0x000a)  : in the grandstand: a long tent
+0x03fa  /  0x28aa (0x0055)  : standing on the viaduct, just north of a huge gap where the southern end of the viaduct has been washed away. To the south, across the chasm, is a huge orc's head, carved from the rock. Its nose seems to have been damaged, but enough remains to hold a large metal ring
+0x03fb  /  0x2901 (0x0008)  : at the bottom of the well
+0x03fc  /  0x290a (0x0006)  : standing on the drawbridge
+0x03fd  /  0x2911 (0x000c)  : at the east end of a forest road
+0x03fe  /  0x291e (0x000c)  : at the northern end of a forest road
+0x03ff  /  0x292b (0x000c)  : at the west end of a forest road
+0x0401  /  0x2939 (0x0008)  : at the base of the tower
+0x0402  /  0x2942 (0x000b)  : in a vast hall of bright cloud
+0x0405  /  0x294f (0x0008)  : in a huge pile of garbage
+0x04b0  /  0x295a (0x0005)  : beside a gibbet
+0x04b1  /  0x2960 (0x0007)  : outside an ugly castle
+0x04b2  /  0x2968 (0x0004)  : in a clearing
+0x04b3  /  0x296d (0x0004)  : at a crossroads
+0x04b4  /  0x2972 (0x0006)  : on a dismal fairground
+0x04b5  /  0x2979 (0x0006)  : on a forest lawn
+0x04b6  /  0x2980 (0x0005)  : outside a cave
+0x04b7  /  0x2986 (0x0007)  : beside the royal oak
+0x04b8  /  0x298e (0x0014)  : a little way south of a tower, separated from it by a thorn hedge
+0x04b9  /  0x29a3 (0x0009)  : just north of a broken viaduct
+0x04ba  /  0x29ad (0x0007)  : beside a quaint little well
+0x04bb  /  0x29b5 (0x001b)  : beside Paradise Gate, a shimmering entrance which seems to lead south through fog and blinding light
+0x0516  /  0x29d2 (0x0070)  : , surrounded by untidy ranks of wooden sheds which sprawl crookedly against the outer stone walls. Your guts rumble in sympathy with the tempting sounds of byre and stable, and the pungent smell of the mews soon gets the saliva flowing.
+ 
+High above this homely chaos rears the stark square masonry of the keep; an ominous white door leading into its grim interior
+0x0517  /  0x2a44 (0x0047)  : . Its soft mudrock floor has been polished smooth by use and the route from the entrance door to the back of the hall has worn into a ditch. The rounded treads of a spiral staircase emerge from the end of this furrow and coil upwards into the wall
+0x0518  /  0x2a8d (0x0011)  : , which winds upwards within the stone wall of the keep
+0x0519  /  0x2a9f (0x0013)  :  though you can't quite make out the orc lair beyond the viaduct
+0x051a  /  0x2ab3 (0x000d)  : , decorated with cartoons and Christmas cracker mottos
+0x051b  /  0x2ac1 (0x002d)  : , in a wide chamber lined with leaves and cobwebs. Just enough light seeps in from outside for you to be able to see the ridged and knotted wood all around
+0x051c  /  0x2aef (0x0049)  : , squashed between serried ranks of shove-halfpenny games and the lacquered bar top with its sticky puddles and rows of imitation kegs. Magic wall-trumpets whine with Hobbit and Westron music and the mood is one of gloom and depression. It all makes you quite homesick
+0x051d  /  0x2b3a (0x0028)  : , wading through the thick carpet. This high-class room is furnished with luxurious orc-skin armchairs and decorated with paintings of famous sportsmen and their trophies
+0x051e  /  0x2b63 (0x000a)  : , reeking pleasantly of stale ale
+0x051f  /  0x2b6e (0x0025)  : . The ground has been churned into a sea of mud, upon which the bright wood and canvas market stalls float like trapped butterflies
+0x0520  /  0x2b94 (0x0010)  : , a shabby collection of damp tents and muddy signboards
+0x0521  /  0x2ba5 (0x0011)  : , a temporary building with canvas walls and lots of straw
+0x0522  /  0x2bb7 (0x003d)  : ; an acre of firm meadow, divided by a fence which guides and separates the contestants. The grass is surrounded by garish pavilions and a tented grandstand, big enough for hundreds of people to watch the fight
+0x0523  /  0x2bf5 (0x000d)  : , pock-marked by the feet of humans and their horses
+0x0524  /  0x2c03 (0x0014)  :  with one side missing, containing raised wooden benches for the spectators
+0x0526  /  0x2c19 (0x000a)  :  over the gap in the viaduct
+0x0527  /  0x2c24 (0x0008)  : , standing ankle-deep in mud
+0x0528  /  0x2c2d (0x0008)  :  which leads into the castle
+0x0529  /  0x2c36 (0x000e)  :  which winds, narrows and fades away into the trees
+0x052a  /  0x2c45 (0x0008)  : , where it ends abruptly
+0x052b  /  0x2c4e (0x0004)  :  to nowhere
+0x052c  /  0x2c53 (0x0007)  :  through the claustrophobic undergrowth
+0x052d  /  0x2c5b (0x0015)  :  where Rapunzel lives. It is a peculiarly spiky building with no way in
+0x052e  /  0x2c71 (0x0027)  : , lit from above by painful beams of white light. Sickly perfume oozes from some hidden vent and tinkly music jars the nerves
+0x052f  /  0x2c99 (0x001d)  :  of pink mist, billowing about like a salamander trapped in a thunderstorm (but without the noise)
+0x0531  /  0x2cb8 (0x000f)  : , with the other rubbish thrown away after the tournament
+0x0640  /  0x2ccb (0x0002)  : can see
+0x0641  /  0x2cce (0x0006)  : on [aka] onto
+0x0642  /  0x2cd5 (0x0008)  : underneath [aka] below under
+0x0643  /  0x2cde (0x0002)  : behind
+0x0646  /  0x2ce2 (0x0004)  :  [aka] at
+0x0647  /  0x2ce7 (0x0008)  : inside [aka] into in
+0x0648  /  0x2cf0 (0x0003)  : hanging from
+0x064a  /  0x2cf5 (0x0002)  : between
+0x064c  /  0x2cf9 (0x0003)  : lying on
+0x064d  /  0x2cfd (0x0003)  : sitting on
+0x064e  /  0x2d01 (0x0003)  : fastened to
+0x064f  /  0x2d05 (0x0002)  : tied to
+0x0650  /  0x2d08 (0x0006)  : with [aka] using
+0x0651  /  0x2d0f (0x0002)  : from
+0x0669  /  0x2d13 (0x0001)  : is
+0x066a  /  0x2d15 (0x0001)  : is
+0x066b  /  0x2d17 (0x0001)  : is
+0x066c  /  0x2d19 (0x0003)  : is carrying
+0x066d  /  0x2d1d (0x0003)  : is wearing
+0x066e  /  0x2d21 (0x0003)  : is riding
+0x066f  /  0x2d25 (0x0001)  : is
+0x0670  /  0x2d27 (0x0001)  : is
+0x0671  /  0x2d29 (0x0004)  : is tied up with
+0x0672  /  0x2d2e (0x0002)  : is tied
+0x0676  /  0x2d32 (0x0001)  : is
+0x0677  /  0x2d34 (0x0008)  : and holding the lid open is
+0x06b3  /  0x2d3e (0x0002)  : tied to
+0x06cd  /  0x2d42 (0x0002)  : are on
+0x06d0  /  0x2d46 (0x0002)  : own
+0x06d1  /  0x2d49 (0x0003)  : are wearing
+0x06d2  /  0x2d4d (0x0003)  : are riding
+0x06d3  /  0x2d51 (0x0002)  : are in
+0x06d8  /  0x2d55 (0x0004)  : are lying on
+0x06d9  /  0x2d5a (0x0004)  : are sitting on
+0x06da  /  0x2d5f (0x0004)  : are tied up with
+0x06db  /  0x2d64 (0x0001)  : is
+0x0708  /  0x2d67 (0x0002)  : off
+0x0709  /  0x2d6a (0x0002)  : up
+0x070a  /  0x2d6d (0x0002)  : down
+0x070b  /  0x2d70 (0x0002)  : to
+0x070c  /  0x2d73 (0x0002)  : out
+0x070d  /  0x2d76 (0x0004)  : from the 
+0x070e  /  0x2d7b (0x0002)  : for
+0x070f  /  0x2d7e (0x0002)  : until
+0x0710  /  0x2d81 (0x0002)  : debug
+0x0711  /  0x2d84 (0x0002)  : through
+0x0712  /  0x2d87 (0x0002)  : about
+0x07d0  /  0x2d8c (0x000a)  : you don't need to use the word "
+0x07d1  /  0x2d97 (0x000d)  : " to finish this part of the game. 
+0x07d3  /  0x2da6 (0x0008)  : I don't understand the word "
+0x07d4  /  0x2daf (0x0007)  : " when used like that. 
+0x07d6  /  0x2db8 (0x0003)  : you are 
+0x07d7  /  0x2dbc (0x0003)  : in a 
+0x07d8  /  0x2dc0 (0x0003)  : in an 
+0x07d9  /  0x2dc4 (0x0008)  : exits lead in all directions
+0x07da  /  0x2dcd (0x0009)  : I don't understand what you mean. 
+0x07db  /  0x2dd7 (0x0003)  : you can't see
+0x07dc  /  0x2ddb (0x0003)  : you don't have
+0x07dd  /  0x2ddf (0x0004)  : you already have
+0x07de  /  0x2de4 (0x001f)  : (The management would like to take this opportunity to tell you to stop blathering and get on with the game). 
+0x07df  /  0x2e04 (0x0006)  : it's too far away. 
+0x07e0  /  0x2e0b (0x000c)  : I can't find a verb in that sentence! 
+0x07e1  /  0x2e18 (0x0004)  : it's not there. 
+0x07e2  /  0x2e1d (0x000e)  : there were too many nouns in that sentence! 
+0x07e3  /  0x2e2c (0x0005)  : that's too heavy
+0x07e4  /  0x2e32 (0x0004)  : don't be silly
+0x07e5  /  0x2e37 (0x0004)  : strange concept
+0x07e6  /  0x2e3c (0x0006)  : what a peculiar idea
+0x07e7  /  0x2e43 (0x0004)  : nice try
+0x07e8  /  0x2e48 (0x0005)  : a valiant attempt
+0x07e9  /  0x2e4e (0x0004)  : nice try
+0x07ee  /  0x2e54 (0x0008)  : that's probably just scenery. 
+0x07ef  /  0x2e5d (0x000a)  : I suggest that you forget about it. 
+0x07f0  /  0x2e68 (0x0008)  : that's probably not important. 
+0x07f1  /  0x2e71 (0x000a)  : I can't find any objects in that. 
+0x07f2  /  0x2e7c (0x000e)  : what? I couldn't find an object in that. 
+0x07f3  /  0x2e8b (0x0007)  : could you elaborate? 
+0x07f4  /  0x2e93 (0x0007)  : absolutely nothing happens. 
+0x07f5  /  0x2e9b (0x000c)  : there doesn't seem to be anything suitable. 
+0x07f7  /  0x2ea9 (0x0006)  : what a mouthful! 
+0x07fc  /  0x2eb1 (0x0003)  : you can't 
+0x07fd  /  0x2eb5 (0x0002)  : that. 
+0x07fe  /  0x2eb8 (0x0001)  : that
+0x07ff  /  0x2eba (0x0001)  : here
+0x0800  /  0x2ebc (0x0004)  : I can't find 
+0x0802  /  0x2ec2 (0x000a)  : the previous command was not repeatable. 
+0x0803  /  0x2ecd (0x0006)  : you can't repeat that. 
+0x0804  /  0x2ed4 (0x000c)  : it wouldn't help to try that again. 
+0x0805  /  0x2ee1 (0x0007)  : it's not clear to what 
+0x0806  /  0x2ee9 (0x0005)  :  is referring. 
+0x0807  /  0x2eef (0x0003)  : (removing
+0x0808  /  0x2ef3 (0x0002)  : from the
+0x0809  /  0x2ef6 (0x0004)  : first). 
+0x080c  /  0x2efc (0x000a)  : are you talking to yourself again?
+0x080d  /  0x2f07 (0x000d)  : you can't talk to several people at once. 
+0x080e  /  0x2f15 (0x0007)  : stops, looking confused
+0x080f  /  0x2f1d (0x0003)  : looks puzzled
+0x0810  /  0x2f21 (0x0008)  : seems uncertain of what to do now
+0x0811  /  0x2f2a (0x0001)  : for
+0x0812  /  0x2f2c (0x0003)  : but can't find
+0x0817  /  0x2f31 (0x0005)  : won't let you
+0x0818  /  0x2f37 (0x0006)  : slaps your paw away
+0x0819  /  0x2f3e (0x0003)  : stops you
+0x081a  /  0x2f42 (0x0004)  : won't let
+0x081b  /  0x2f47 (0x0004)  : take it. 
+0x0834  /  0x2f4d (0x001f)  : 
+Welcome to Knight Orc, copyright (c) 1987 from Level 9 Computing and Rainbird. 
+0x0835  /  0x2f6d (0x0003)  : you can't see
+0x0836  /  0x2f71 (0x0003)  : you don't have
+0x0837  /  0x2f75 (0x0004)  : you already have
+0x0838  /  0x2f7a (0x0006)  : you can't see that here. 
+0x0839  /  0x2f81 (0x0005)  : in the distance is 
+0x083a  /  0x2f87 (0x0009)  : you own nothing at all! 
+0x083c  /  0x2f92 (0x000a)  : it is dark, you cannot see. 
+0x083d  /  0x2f9d (0x0004)  : nothing happens
+0x083e  /  0x2fa2 (0x0008)  : that doesn't seem to work
+0x083f  /  0x2fab (0x0005)  : there is no effect
+0x0840  /  0x2fb1 (0x0009)  : it looks exactly as you would expect
+0x0841  /  0x2fbb (0x0004)  :  nothing. 
+0x0842  /  0x2fc0 (0x0007)  : you can't go that way. 
+0x0843  /  0x2fc8 (0x0004)  : through the door
+0x0845  /  0x2fce (0x0005)  : it's already open. 
+0x0847  /  0x2fd5 (0x0002)  : you find
+0x0848  /  0x2fd8 (0x0004)  : won't move
+0x0849  /  0x2fdd (0x0004)  : doesn't budge
+0x084a  /  0x2fe2 (0x0006)  : refuses to be moved
+0x084b  /  0x2fe9 (0x0005)  : you can't put 
+0x084c  /  0x2fef (0x0002)  : there. 
+0x084d  /  0x2ff2 (0x0007)  : you can't go there! 
+0x084e  /  0x2ffa (0x000a)  : you'll have to drop it first. 
+0x084f  /  0x3005 (0x0006)  : you can't climb that. 
+0x0850  /  0x300c (0x0051)  : 
+Did you know that this game provides a variety of commands for rapid movement? For example, you could try: "GO TO CASTLE", "FIND THE GOLD LEAF" or "FOLLOW THE VALKYRIE". Read the instruction book for more information.
+
+0x0851  /  0x305f (0x0009)  : whee! That was fun. 
+0x0852  /  0x3069 (0x0008)  : I can't find a reference to "
+0x0853  /  0x3072 (0x0006)  : you're on it! 
+0x0854  /  0x3079 (0x0003)  : what? 
+0x0855  /  0x307d (0x000c)  : I don't know where that could be! 
+0x0856  /  0x308a (0x0005)  : you're wearing 
+0x0857  /  0x3090 (0x000e)  : why not try again, saying what with? 
+0x0858  /  0x309f (0x0004)  : which one? 
+0x0859  /  0x30a4 (0x0004)  : at what? 
+0x085b  /  0x30aa (0x0004)  : is full. 
+0x085c  /  0x30af (0x0004)  : " here. 
+0x085e  /  0x30b5 (0x0005)  : you can't wear 
+0x085f  /  0x30bb (0x0008)  : you can't reach it from here. 
+0x0860  /  0x30c4 (0x0003)  : don't bother
+0x0861  /  0x30c8 (0x0008)  : that would be a waste of time
+0x0862  /  0x30d1 (0x0004)  : that's pointless
+0x0863  /  0x30d6 (0x0008)  : you're already wearing that. 
+0x0864  /  0x30df (0x0008)  : you don't need to do that. 
+0x0868  /  0x30e9 (0x0003)  : worn. 
+0x0869  /  0x30ed (0x0003)  : OK. 
+0x086a  /  0x30f1 (0x0004)  : yeuch! 
+0x086b  /  0x30f6 (0x0006)  : time passes. . . 
+0x086c  /  0x30fd (0x0003)  : said. 
+0x086d  /  0x3101 (0x0005)  : most refreshing. 
+0x086e  /  0x3107 (0x0009)  : you'll have to untie it first
+0x0870  /  0x3112 (0x000e)  : YES or NO, if you don't mind.
+
+0x0880  /  0x3122 (0x000e)  : whatever you were hoping would happen, didn't. 
+0x088e  /  0x3132 (0x0001)  : (
+0x088f  /  0x3134 (0x0002)  : ). 
+0x0898  /  0x3138 (0x0006)  : really restart? 
+0x089a  /  0x3140 (0x0006)  : really restore? 
+0x089b  /  0x3147 (0x000b)  : 
+pick one of YES and NO
+0x089c  /  0x3153 (0x0004)  : you score 
+0x089d  /  0x3158 (0x0006)  :  out of 1000. 
+0x089f  /  0x3160 (0x0008)  : do you want to continue? 
+0x08a1  /  0x316a (0x001c)  : 
+ 
+Thy adventure is over. Type RESTART, RESTORE, OOPS or RAM RESTORE. 
+0x08a2  /  0x3187 (0x0019)  : you vandalize the place a bit. It makes no noticeable difference to the general squalor. 
+0x08a3  /  0x31a1 (0x0019)  : don't bother - you made a pretty good job of smashing the place up last time. 
+0x08a4  /  0x31bb (0x0012)  : why don't you go and mangle a paper clip instead? 
+0x08a5  /  0x31ce (0x000c)  : vandals seem to have been at work here. 
+0x08a6  /  0x31db (0x000c)  : 
+ 
+do you want to continue? 
+0x08a7  /  0x31e8 (0x0008)  : that's too long to wait. 
+0x08a8  /  0x31f1 (0x0028)  : you can wait for someone, eg "WAIT FOR VALKYRIE", or for a length of time, eg "WAIT FOR 25 MINUTES". 
+0x08a9  /  0x321a (0x0004)  : the time is 
+0x08aa  /  0x321f (0x0006)  : you can't light it. 
+0x08ab  /  0x3226 (0x0009)  : you have no source of fire. 
+0x08de  /  0x3231 (0x000e)  : please contact Rainbird if you are really stuck. 
+0x08fc  /  0x3241 (0x000f)  : oops and ram saverestore don't work in this version. 
+0x0904  /  0x3252 (0x000f)  : I can't use OOPS to go back further than this. 
+0x0905  /  0x3262 (0x0029)  : (this version allows you to use RAM SAVE and RAM RESTORE to save a position in memory, and OOPS to take back bad moves). 
+0x0906  /  0x328c (0x0025)  : I can't find that saved position in memory. Perhaps you've turned off the computer, or reloaded the game, since it was saved. 
+0x0907  /  0x32b2 (0x0022)  : you're about to move to another part of the game. Do you want to save your position first, just in case? 
+0x0908  /  0x32d5 (0x000f)  : that data was probably not saved from Knight Orc. 
+0x0909  /  0x32e5 (0x000a)  : play the program cassette containing "
+0x090a  /  0x32f0 (0x0006)  : Loosed Orc". 
+0x090b  /  0x32f7 (0x0009)  : A Kind of Magic". 
+0x090c  /  0x3301 (0x000a)  : Hordes of the Mountain King". 
+0x090d  /  0x330c (0x0012)  : are you sure you want to enter "Hitech" mode? 
+0x090e  /  0x331f (0x004c)  : as the visor lifts away from your eyes, the countryside seems to twist and change. What you had previously seen as the "real" world was only an image, projected on the inside of the plastic. Most objects are really here, but how horribly transformed! 
+0x0961  /  0x336e (0x0011)  : don't be silly! Go hit someone smaller than you
+0x0962  /  0x3380 (0x000d)  : Mary Whitehouse leaps out and slaps your legs
+0x0963  /  0x338e (0x000e)  : you hear nothing that you didn't already know about
+0x0964  /  0x339d (0x000e)  : you succeed in smelling even worse than before
+0x0965  /  0x33ac (0x0006)  : you find nothing special
+0x0966  /  0x33b3 (0x000b)  : you think you smell OK. Hehehe
+0x0967  /  0x33bf (0x000a)  : go stuff yourself, orc scum
+0x0968  /  0x33ca (0x0003)  : why not
+0x0969  /  0x33ce (0x000a)  : I'm sure you don't really mean that
+0x096a  /  0x33d9 (0x0007)  : you sound strangely positive
+0x096b  /  0x33e1 (0x0004)  : that was close
+0x096c  /  0x33e6 (0x000a)  : you are very intelligent indeed, considering
+0x096d  /  0x33f1 (0x0011)  : as Grok always says, life is too good for most people
+0x096e  /  0x3403 (0x0006)  : yes yes yes
+0x096f  /  0x340a (0x000a)  : send your cheques to Level 9
+0x0970  /  0x3415 (0x000d)  : to be, or not to be, that is the cliche
+0x0971  /  0x3423 (0x0008)  : very nasty the time of year
+0x0972  /  0x342c (0x0004)  : how greedy
+0x0973  /  0x3431 (0x0010)  : how the heck should I know? Find out yourself
+0x0974  /  0x3442 (0x0006)  : what a nice thought
+0x0975  /  0x3449 (0x0011)  : what, going so soon? Don't forget to SAVE first
+0x0976  /  0x345b (0x0007)  : I should think so too
+0x0977  /  0x3463 (0x0008)  : arrrrrggggghhhhhhh......
+0x0978  /  0x346c (0x0019)  : Hey! You trying to get this game banned or something? Behave yourself immediately
+0x0979  /  0x3486 (0x0023)  :  
+Directory of disk A:\
+
+
+No files. 
+Space free = 123456789 Gigabytes
+0x09c7  /  0x34ab (0x000a)  : the drawbridge slowly starts to close. 
+0x09c8  /  0x34b6 (0x000f)  : the drawbridge clicks shut with an ominously final noise. 
+0x09c9  /  0x34c6 (0x0006)  : the drawbridge is closed. 
+0x09cb  /  0x34ce (0x0007)  : the drawbridge is wide open. 
+0x09cc  /  0x34d6 (0x0006)  : the drawbridge is closing. 
+0x09cd  /  0x34dd (0x0006)  : the drawbridge is closing. 
+0x09ce  /  0x34e4 (0x0006)  : the drawbridge is closing. 
+0x09cf  /  0x34eb (0x0009)  : your weight pushes the drawbridge down. 
+0x09d1  /  0x34f6 (0x0010)  : the chest is locked - you will need a key
+0x09d2  /  0x3507 (0x000a)  : the lock opens with a little click
+0x09d3  /  0x3512 (0x0023)  : the chest swings open. The hinged lid is prevented from falling backwards too far by a cord tied between it and the chest
+0x09d4  /  0x3536 (0x0014)  : the heavy lid falls backwards and strikes the ground with a tremendous crash
+0x09d6  /  0x354c (0x000d)  : didn't you read the note on the drawbridge? 
+0x09d7  /  0x355a (0x0005)  : the drawbridge is half-shut
+0x09d8  /  0x3560 (0x0009)  : you bump into the closed drawbridge. 
+0x09d9  /  0x356a (0x0015)  : you knock on the drawbridge. WHOOMPH. You are crushed as the drawbridge swings open. 
+0x09da  /  0x3580 (0x0019)  : hits the drawbridge, which flies open and hits the ground with a thump, narrowly missing you. 
+0x09db  /  0x359a (0x0005)  : the chest opens
+0x09dd  /  0x35a1 (0x0004)  : it is closed
+0x09de  /  0x35a6 (0x0004)  : it is closed
+0x09df  /  0x35ab (0x0003)  : it is open
+0x09e0  /  0x35af (0x002c)  : the pallid knight leaps up in a rage. "How dare you enter my home", he splutters, "You will pay for this insult!" 
+0x09e1  /  0x35dc (0x0009)  : the hunter is too far away. 
+0x09e2  /  0x35e6 (0x0007)  : the ropes join magically
+0x09e3  /  0x35ee (0x0015)  : a horn blatts in the distance and you hear hooves approaching at a gallop. 
+0x09e4  /  0x3604 (0x004c)  : a mounted hunter bursts through the trees and spurs his nag towards you. Repeated shouts of "Yoiks! Tally ho!", together with his choice of red as camouflage, demonstrate his hunting skill. The fool is waving a lassoo and clinging on for dear life. 
+0x09e5  /  0x3652 (0x002d)  : not surprisingly, the hunter gets hopelessly tangled in his lassoo and misses you completely. Unfortunately, his horse has better luck when it lashes out with one huge hoof. 
+0x09e6  /  0x3680 (0x002e)  : the stupid hunter doesn't see your rope! His horse ducks under it and runs away, but he is caught mid-chest and hurled, stunned, to the ground at your feet. 
+0x09e7  /  0x36af (0x0024)  : the hunter strikes out wildly with his whip. As is traditional when orcs or their allies are attacked by humans, his blow is deadly. 
+0x09e8  /  0x36d4 (0x0070)  : 
+the green knight puffs himself up and stares down scornfully from the back of his overgrown pony, 
+"If thee be brave, not coward base, 
+Then thee must now my challenge face. 
+With this, my axe, strike blow for blow. 
+I'll let thee strike first. Have a go!" 
+He indicates his mighty axe. 
+ 
+
+0x09e9  /  0x3746 (0x005c)  : 
+the green knight sneers and, barely moving his lips, spits out another gem of the poet's art, 
+"Spineless weakling, scared of fate, 
+I know not why you hesitate. 
+If thou wouldst win thyself renown, 
+Take up my axe and strike me down!" 
+ 
+
+0x09ea  /  0x37a4 (0x00d2)  : to your complete amazement, with one mighty swing of the axe, you chop off the giant knight's head! For one glorious moment, his mighty body totters as his head curves through the air. 
+
+Then, suddenly, a green hand reaches out and catches the falling noggin by its leafy tresses. With practiced ease, the knight replaces his green dome back on his neck and smiles horribly. Then he laughs, "Thought you, an orc, a knight to beat? I'll never lose while I can cheat!" He wrests the axe rudely from your grasp and swings it. The last thing you hear is a loud whistling, as the blade slices through the air, and the knight's dreadful laughter, "Ho! Ho! Ho!"
+0x09eb  /  0x387a (0x0039)  : with a surprisingly dextrous stroke you behead the horse. The green knight shouts in surprise but, before he can retaliate, the massive steed has fallen on him! He is trapped, but only for the time being. 
+0x09ec  /  0x38b4 (0x0007)  : the green knight looks dazed. 
+0x09ed  /  0x38bc (0x0009)  : the green knight struggles on the ground. 
+0x09ee  /  0x38c6 (0x0017)  : with a massive effort, the green knight clambers to his feet and dusts himself down. 
+0x09ef  /  0x38de (0x0018)  : the green knight reattaches the head to the horse's body. The horse comes back to life! 
+0x09f1  /  0x38f8 (0x0073)  : 
+the green knight brandishes his great axe, 
+impatiently he tests its edge, 
+The knight in green swings a few trial hacks, 
+decapitating half a hedge. 
+
+His verdant war-horse stepping high slow, 
+The green gallant prepares to hew. 
+Heaves up his axe and, shouting thrice "Ho", 
+Brings down his axe and beheads you. 
+ 
+
+0x09f2  /  0x396d (0x0007)  : you can't ride that! 
+0x09f3  /  0x3975 (0x0009)  : it's already being ridden! 
+0x09f4  /  0x397f (0x001e)  : the hermit turns his back on you and walks over to his trophy cabinet. His shoulders are shaking with mirth. 
+0x09f5  /  0x399e (0x0023)  : the hermit walks back to you and sits down, cross-legged, in the centre of the cave. He is chuckling more than ever. 
+0x09f6  /  0x39c2 (0x0010)  : the hermit wakes up, rubs his bald head and scowls. 
+0x09f7  /  0x39d3 (0x000c)  : the hermit examines it and bursts out laughing. 
+0x09f8  /  0x39e0 (0x000e)  : the hermit sits down again and blows you a kiss
+0x09f9  /  0x39ef (0x0013)  : the hermit roars with laughter as you miss hopelessly and sprawl on the ground
+0x09fa  /  0x3a03 (0x0017)  : the hermit sways about, giggling. He seems to see every blow before you make it
+0x09fb  /  0x3a1b (0x001f)  : while the hermit isn't looking, you clobber the old fool on the back of his head and knock him out cold
+0x09fc  /  0x3a3b (0x001f)  : Rapunzel is looking out of an upper window of the tower, pouting sexily and letting down her incredibly long hair
+0x09fd  /  0x3a5b (0x0007)  : the thorns drive you back
+0x09fe  /  0x3a63 (0x000a)  : that won't protect you from the thorns
+0x09ff  /  0x3a6e (0x000c)  : that wouldn't help you to cross the hedge
+0x0a00  /  0x3a7b (0x0008)  : you clamber over the hedge
+0x0a01  /  0x3a84 (0x0006)  : the hair is in reach
+0x0a02  /  0x3a8b (0x001c)  : you pull the hair. Rapunzel shrieks in angry protest and demonstrates her exceptional grasp of the vernacular
+0x0a03  /  0x3aa8 (0x0006)  : the hair descends again
+0x0a04  /  0x3aaf (0x004a)  : you carefully climb the hair and, just as carefully, Rapunzel produces a large mallet from behind her back... 
+ 
+You are woken some time later, lying painfully on the rocks below the tower, when a potful of dirty water splashes down from above
+0x0a05  /  0x3afb (0x0040)  : you cut off a good length of Rapunzel's hair, by hacking at it with nails and teeth. Rapunzel shouts angrily, hauls in her remaining tresses and disappears into the tower. You hear loud cursing and threats of vengeance against orcs
+0x0a07  /  0x3b3e (0x000b)  : it hangs down into the depths of the well
+0x0a08  /  0x3b4a (0x0008)  : you climb the rope... 
+0x0a09  /  0x3b53 (0x0008)  : you can't climb down without rope
+0x0a0a  /  0x3b5c (0x0009)  : the innkeeper pulls a fresh pint
+0x0a0b  /  0x3b66 (0x0017)  : the innkeeper looks you up and down, "Where have you hidden the empty glass?" 
+0x0a0c  /  0x3b7e (0x0017)  : the innkeeper laughs at you, "Finish your last one first, little man!" 
+0x0a0d  /  0x3b96 (0x0013)  : the innkeeper says, "Don't bother me now - I'm busy." 
+0x0a0e  /  0x3baa (0x001e)  : the innkeeper says, "We don't serve orcs here, boy, except as an entre on special occasions." 
+0x0a0f  /  0x3bc9 (0x0007)  : the innkeeper isn't here! 
+0x0a10  /  0x3bd1 (0x0005)  : you don't have any
+0x0a11  /  0x3bd7 (0x0007)  : she is too far away
+0x0a12  /  0x3bdf (0x0103)  : 
+ 
+Strangely, you still seem to be conscious, although you cannot move. You lie still for a while, unable to even twitch until a winged woman appears. The valkyrie swoops down, picks up your body and flies steadily southwards, eventually swinging low through Paradise Gate. Your eyes are still adjusting to the glare when the Valkyrie drops you amidst the glowing clouds in a vast chamber of swirling mist. 
+ 
+There's a faint click and an awesomely feminine voice breathes huskily at about a hundred decibels, "Good Morning! Welcome to Paradise. Our nymphs are busy right now, but they will attend you in just a few moments; remember that patience is a virtue." She pauses briefly, then chirps, "Putting you on hold" and ends with another click. Somewhere, out of sight, harp music jangles irritatingly into life. 
+ 
+
+0x0a13  /  0x3ce7 (0x0005)  : the innkeeper thanks 
+0x0a14  /  0x3ced (0x0008)  : , pours a pint and 
+0x0a15  /  0x3cf6 (0x0009)  : you have nothing to dig with. 
+0x0a16  /  0x3d00 (0x0004)  : drinks it. 
+0x0a17  /  0x3d05 (0x008b)  : with a fanfare of trumpets, two nymphs float majestically forward. The first turns up its nose in disgust, "Oh Poo, it's that broken down orc again." The second flicks at you with a silk handkerchief, "Stop moaning, Lucy. It does look pretty bad, but then what can you expect? Anyway, I'm bored with lower beings. Let's just kick it back out like last time." 
+ 
+Everything goes black and you awake to find...
+
+0x0a18  /  0x3d93 (0x0015)  : and drinks it in a single draught. The innkeeper retrieves the empty glass. 
+0x0a19  /  0x3da9 (0x0011)  : Rapunzel has gone away and you can't climb up without her hair
+0x0a1a  /  0x3dbb (0x000a)  : two nymphs float in and examine
+0x0a1b  /  0x3dc6 (0x000d)  : . They murmur a few words and then take
+0x0a1c  /  0x3dd4 (0x0002)  : out. 
+0x0a1d  /  0x3dd7 (0x00dd)  : 
+ 
+Grindleguts struggled awake, groaning piteously. The world bucked and swayed, his headache was agony and he ached in every limb. Grindleguts' mouth tasted like a Hobbit's armpit and he seemed to have lost another tooth - he could not quite remember what had happened after they captured the Inn, yesternight, but he was sure it must have been fun! He moaned again and prepared to wallow in his hangover. 
+ 
+A sharp object stabbed at Grindleguts' ribs again, interrupting his enjoyment of his misery. Grindleguts risked ungluing one bloodshot eye and squinted at the world. A shaft of sunlight stabbed back. It was still light. It was very light! Some idiot had woken him in the middle of the day! 
+ 
+
+0x0a1e  /  0x3eb8 (0x0109)  : 
+you, Grindleguts, leap furiously at the jabbing figure beside you - and discover, to your horror, that your legs are fastened to some huge animal! To the shrill sound of human merriment, you slide slowly round the horse to which you have been tied and hang helplessly below it. 
+ 
+Your captors are dressed in a variety of styles, from long white robes to the full armour of a knight, mounting another horse nearby. He catches your glance and curls his upper lip in disdain. "You don't stand a chance, little man", he says, spitting contemptuously, "I can't think why the orcs chose you as their champion". Lowering his visor, he rides out into the full sunlight. 
+ 
+One of the robed figures hauls you back upright, jeering "Go on, Sir Orc, you're next" and gives your horse a prod with his spear, laughing as the frightened beast rears and bolts. 
+ 
+
+0x0a1f  /  0x3fc6 (0x009c)  : 
+you find yourself in a large open arena. The warmth of the sun feels dreadful after the shaded tent, but it helps you to regain your bearings. To the west is the stable tent, to the east is the Orc's Head Inn and to the south is a huge grandstand. All around are crowds of people in mediaeval costume, obviously enjoying themselves. 
+ 
+A chorus of boos started when you emerged from the tent, in contrast to the cheers at the east end of the arena, where the huge knight is consulting with his seconds. 
+ 
+
+0x0a20  /  0x4065 (0x002c)  : 
+the knight turns his horse to face you and levels his lance. As he starts to charge, a great yell rises up from the crowd! 
+ 
+
+0x0a21  /  0x4092 (0x0071)  : 
+the knight takes aim and, WHOOMPH, his lance meets your chest and you fall backwards, breaking your bonds. The crowd roar as you fall, stunned, to the hard ground .... 
+ 
+Some time later, you awake. Bruised and battered, but you must be still alive! At first it seems to be night, but you gradually realise that you are buried. 
+ 
+
+0x0a22  /  0x4105 (0x0008)  : the horse refuses to move. 
+0x0a23  /  0x410e (0x0017)  : looking down, you find that your feet are tied with a rope which passes under the horse. 
+0x0a24  /  0x4126 (0x0008)  : the knots are too tight. 
+0x0a25  /  0x412f (0x001f)  : you charge a group of spectators. They scream and flee in panic. The horse shies up and stops dead. 
+0x0a26  /  0x414f (0x0008)  : you bravely charge the knight. 
+0x0a27  /  0x4158 (0x0003)  : it is 
+0x0a28  /  0x415c (0x0005)  :  feet long. 
+0x0a29  /  0x4162 (0x0007)  : it is very valuable! 
+0x0a2a  /  0x416a (0x0009)  : the valkyrie seems annoyed to find that
+0x0a2b  /  0x4174 (0x0005)  : is alive! 
+0x0a2c  /  0x417a (0x0017)  : if you did that, the spear would fall into the chasm and be lost forever. 
+0x0a2d  /  0x4192 (0x0015)  : the rope is too short - the spear is jerked back and you catch it. 
+0x0a2e  /  0x41a8 (0x015b)  : the spear sails through the air and neatly slips through the ring! An excellent shot! And just in time too, because an ugly crowd of people advance to block your retreat. The green knight stalks forwards, eager for revenge, and you stumble backwards into the chasm. There is no way back now! 
+ 
+Fortunately, the spear has lodged securely in the ring above, and the rope hanging from it proves surprisingly strong, so the effect is that you escape, swinging in a graceful arc through the air, jeering at your pursuers all the while... 
+ 
+And crunch into the far wall of the chasm. After a long while, the darkness fades, the stars clear and the land stops spinning, so you stagger upright and check for signs of damage. Not many bones are broken but, patting at your cranial ridge, you discover with a shock that you are wearing some kind of visor - and presumably have been doing so all along! It seems to have been knocked loose and can be raised at any time from now on. However, I would advise you to leave it in place until you've explored the land south of the chasm. 
+ 
+Do you want to follow my advice and leave the visor alone? 
+0x0a2f  /  0x4309 (0x0008)  : What about some service here?
+0x0a30  /  0x4312 (0x000b)  : Any danger of some service in here?
+0x0a31  /  0x431e (0x000a)  : How about a beer, bartender?
+0x0a34  /  0x432a (0x0010)  : OK, OK, who was dying of thirst here?
+0x0a35  /  0x433b (0x0008)  : Who's dying of thirst?
+0x0a36  /  0x4344 (0x000a)  : Did someone want a beer here?
+0x0a39  /  0x4350 (0x0018)  : the green knight grabs back the reins shouting, "Not so fast, varlet." 
+0x0a3a  /  0x4369 (0x000e)  : ouch! That nearly broke a tooth! 
+0x0a3b  /  0x4378 (0x0006)  : it's out of stock.
+0x0a3c  /  0x437f (0x0004)  : he is unconscious
+0x0a3d  /  0x4384 (0x0011)  : a key falls from under the mat and clatters on the ground
+0x0a3e  /  0x4396 (0x0005)  : the hermit stops 
+0x0a3f  /  0x439c (0x0016)  : and says, "Oi! Keep your thieving hands off my property! 
+0x0a40  /  0x43b3 (0x0020)  : the Green Knight says, "Out of the way, old man" and pushes him roughly to one side. 
+0x0a41  /  0x43d4 (0x0004)  : a vile orc
+0x0a42  /  0x43d9 (0x0004)  : a filthy orc
+0x0a43  /  0x43de (0x0004)  : a treacherous orc
+0x0a46  /  0x43e4 (0x0026)  : Rapunzel flutters her eyelashes and murmurs huskily, "Why, hello little orc. Why dontcha come up and see me..." 
+0x0a47  /  0x440b (0x0019)  : the hermit laughs loudly at your accent and giggles, "Hello to you, little one." 
+0x0a48  /  0x4425 (0x0017)  : suddenly, the gate opens. Two or three nymphs emerge and throw out 
+0x0a49  /  0x443d (0x0014)  : . Then the nymphs go back in and slam the gate behind them. 
+0x0a4a  /  0x4452 (0x0016)  : the rope is now tied tightly between the two posts, making an effective trip-wire
+0x0a4b  /  0x4469 (0x001d)  : you will need to fix something to the rope that you can then throw through the ring on the orc's nose
+0x0a4c  /  0x4487 (0x0009)  : I am perfect in every way
+0x0a4d  /  0x4491 (0x0007)  : I am totally perfect
+0x0a4e  /  0x4499 (0x0007)  : I am without flaw
+0x0a51  /  0x44a2 (0x0009)  : You look like an orc to me
+0x0a52  /  0x44ac (0x000f)  : You evil monster! Get out of my sight
+0x0a53  /  0x44bc (0x0006)  : Something smells around here
+0x0a56  /  0x44c4 (0x0004)  : nothing special
+0x0db4  /  0x44d0 (0x0005)  : the body of 
+0x0db5  /  0x44d6 (0x000e)  : oi! Let the dead rest in peace
+0x0dbd  /  0x44e6 (0x0003)  : , but 
+0x0dc0  /  0x44eb (0x0002)  : enter
+0x0de8  /  0x44ef (0x0002)  : dead
+0x0de9  /  0x44f2 (0x0005)  : at death's door
+0x0dea  /  0x44f8 (0x0003)  : a wreck
+0x0deb  /  0x44fc (0x0004)  : badly injured
+0x0dec  /  0x4501 (0x0002)  : wounded
+0x0ded  /  0x4504 (0x0002)  : injured
+0x0dee  /  0x4507 (0x0002)  : hurt
+0x0def  /  0x450a (0x0004)  : almost uninjured
+0x0df0  /  0x450f (0x0004)  : in good shape
+0x0df1  /  0x4514 (0x0002)  : unhurt
+0x0df2  /  0x4517 (0x0004)  : completely uninjured
+0x0dfc  /  0x451d (0x0009)  : says, "Hello there." 
+0x0dfd  /  0x4527 (0x0008)  : says, "Greetings." 
+0x0dfe  /  0x4530 (0x000a)  : says, "Hello to you." 
+0x0e01  /  0x453c (0x0006)  : nods in acknowledgement. 
+0x0e02  /  0x4543 (0x0006)  : flickers an eyelid. 
+0x0e03  /  0x454a (0x0005)  : snorts softly. 
+0x0e06  /  0x4551 (0x000f)  : says, "I'll take that, thank you." 
+0x0e07  /  0x4561 (0x000b)  : says, "Give that to me." 
+0x0e08  /  0x456d (0x000a)  : says, "That's mine!" 
+0x0e0b  /  0x4579 (0x0005)  : growls angrily. 
+0x0e0c  /  0x457f (0x0003)  : snarls. 
+0x0e0d  /  0x4583 (0x0005)  : stops dead. 
+0x0e10  /  0x458a (0x0009)  : a voice in the distance shouts, "
+0x0e11  /  0x4594 (0x0003)  : ." 
+0x0e12  /  0x4598 (0x0009)  : Wow! A stack overflow
+0x0e13  /  0x45a2 (0x0011)  : Don't panic! Normal service will be resumed shortly
+0x0e14  /  0x45b4 (0x0008)  : I can't go there from here. 
+0x0e15  /  0x45bd (0x000c)  : you'll have to find the way yourself from here. 
+0x0e1a  /  0x45cb (0x000d)  : says, "Get lost, buster!" 
+0x0e1b  /  0x45d9 (0x0012)  : says, "Don't try to order me around, matey." 
+0x0e1c  /  0x45ec (0x0009)  : says, "No way!" 
+0x0e1f  /  0x45f7 (0x0007)  : sneers at your request. 
+0x0e20  /  0x45ff (0x000a)  : curls its upper lip disdainfully. 
+0x0e21  /  0x460a (0x0005)  : laughs hoarsely. 
+0x0e24  /  0x4611 (0x000a)  : says, "Certainly will!" 
+0x0e25  /  0x461c (0x000f)  : says, "I'll get onto it at once." 
+0x0e26  /  0x462c (0x0010)  : says, "No sooner said than done." 
+0x0e29  /  0x463e (0x0005)  : nods slowly. 
+0x0e2a  /  0x4644 (0x0006)  : nods in agreement. 
+0x0e2b  /  0x464b (0x000b)  : agrees with a flicker of the eyelids. 
+0x0e2e  /  0x4658 (0x0010)  : says, "You'll have to find that out for yourself." 
+0x0e2f  /  0x4669 (0x0011)  : says, "You won't get any help from me." 
+0x0e30  /  0x467b (0x0009)  : pretends to ignore your question. 
+0x0e33  /  0x4686 (0x0008)  : makes a rude gesture. 
+0x0e34  /  0x468f (0x0007)  : pretends to ignore you. 
+0x0e35  /  0x4697 (0x0005)  : snarls threateningly. 
+0x0e38  /  0x469e (0x000f)  : says, "You'll have to fight me for that." 
+0x0e39  /  0x46ae (0x000c)  : says, "I'd rather die." 
+0x0e3a  /  0x46bb (0x000f)  : says, "I'm not about to give anything away." 
+0x0e3d  /  0x46cc (0x0008)  : clutches his possessions angrily. 
+0x0e3e  /  0x46d5 (0x0008)  : makes a rude gesture. 
+0x0e3f  /  0x46de (0x0008)  : waves it at you defiantly. 
+0x0e42  /  0x46e8 (0x0013)  : says, "Speak proper, orc, or I won't understand." 
+0x0e43  /  0x46fc (0x0019)  : says, "It must be your accent; I can't understand what you're saying." 
+0x0e44  /  0x4716 (0x0008)  : says, "Pardon?" 
+0x0e47  /  0x4720 (0x0006)  : shrugs in non-comprehension. 
+0x0e48  /  0x4727 (0x0008)  : doesn't seem to understand. 
+0x0e49  /  0x4730 (0x0008)  : makes a questioning noise. 
+0x0e4c  /  0x473a (0x0008)  : screams and turns angrily. 
+0x0e4d  /  0x4743 (0x000e)  : says, "What's your game, buster?" 
+0x0e4e  /  0x4752 (0x0011)  : says, "OK, so that's the way you want it." 
+0x0e51  /  0x4765 (0x0008)  : screams and turns angrily. 
+0x0e52  /  0x476e (0x0005)  : growls viciously. 
+0x0e53  /  0x4774 (0x000a)  : whirls around, ready to fight. 
+0x0e56  /  0x4780 (0x0010)  : shouts, "An orc! Let's kill it!" 
+0x0e57  /  0x4791 (0x000a)  : shouts, "Kill the orc!" 
+0x0e58  /  0x479c (0x0011)  : shouts, "I'm going to kill you, vile orc." 
+0x0e5b  /  0x47af (0x0004)  : growls menacingly
+0x0e5c  /  0x47b4 (0x0009)  : stares at you with obvious distaste
+0x0e5d  /  0x47be (0x0005)  : leaps towards you
+0x0e60  /  0x47c5 (0x000c)  : says, "I can't find it anywhere." 
+0x0e61  /  0x47d2 (0x0009)  : says, "I'm lost." 
+0x0e62  /  0x47dc (0x000b)  : says, "Where can it be?" 
+0x0e65  /  0x47e9 (0x0007)  : seems to lose purpose. 
+0x0e66  /  0x47f1 (0x0006)  : seems to give up. 
+0x0e67  /  0x47f8 (0x000a)  : looks around, then snorts in disgust. 
+0x0e6a  /  0x4804 (0x0009)  : says, "No way!" 
+0x0e6b  /  0x480e (0x000e)  : says, "Nope, I won't do it." 
+0x0e6c  /  0x481d (0x000a)  : says, "No chance." 
+0x0e6f  /  0x4829 (0x0005)  : laughs hoarsely. 
+0x0e70  /  0x482f (0x0006)  : sniggers a bit. 
+0x0e71  /  0x4836 (0x0005)  : sighs heavily. 
+0x0e74  /  0x483d (0x0007)  : peers at you suspiciously. 
+0x0e75  /  0x4845 (0x0006)  : looks at you curiously. 
+0x0e76  /  0x484c (0x0008)  : gives you a long stare. 
+0x0e79  /  0x4856 (0x0007)  : peers at you suspiciously. 
+0x0e7a  /  0x485e (0x0006)  : looks at you curiously. 
+0x0e7b  /  0x4865 (0x0008)  : gives you a long stare. 
+0x0e83  /  0x486f (0x000d)  : Come to the crossroads and say that, orc.
+0x0e84  /  0x487d (0x0015)  : That sounds like an orc! Who wants to help me kill it?
+0x0e85  /  0x4893 (0x0012)  : Shut up, you stinking orc, we don't like your kind here.
+0x0e88  /  0x48a7 (0x0009)  : Hey! Give that back!
+0x0e89  /  0x48b1 (0x0006)  : Stop attacking me!
+0x0e8a  /  0x48b8 (0x000e)  : How do I get a drink out of the Innkeeper?
+0x0e8b  /  0x48c7 (0x000c)  : How do I get through the Paradise Gate?
+0x0e8c  /  0x48d4 (0x000d)  : Does anyone have any treasure to spare?
+0x0e8d  /  0x48e2 (0x000f)  : Can someone tell me how to get down the well?
+0x0e8e  /  0x48f2 (0x0009)  : Goodbye folks, I'm leaving.
+0x0e8f  /  0x48fc (0x0003)  : Help!
+0x0e90  /  0x4900 (0x0008)  : Can anyone hear me?
+0x0e91  /  0x4909 (0x0009)  : Are there any orcs listening?
+0x0e92  /  0x4913 (0x0009)  : Right, you asked for it!
+0x0e93  /  0x491d (0x0005)  : I want some gold.
+0x0e94  /  0x4923 (0x0006)  : Where is the gold?
+0x0e95  /  0x492a (0x0009)  : Who's stolen all the treasure?
+0x0e96  /  0x4934 (0x0010)  : Anyone seen the orc? I want to kill it.
+0x0e97  /  0x4945 (0x000a)  : Someone find me an orc to butcher.
+0x0e98  /  0x4950 (0x0009)  : a voice in the distance shouts, "
+0x0e99  /  0x495a (0x0009)  : a voice in the distance shouts, "
+0x0e9a  /  0x4964 (0x0009)  : a voice in the distance shouts, "
+0x0e9b  /  0x496e (0x000b)  : a male voice in the distance shouts, "
+0x0e9c  /  0x497a (0x000b)  : a female voice in the distance shouts, "
+0x0e9d  /  0x4986 (0x000b)  : a strained voice in the distance shouts, "
+0x0e9e  /  0x4992 (0x000b)  : a familiar voice in the distance shouts, "
+0x0e9f  /  0x499e (0x0008)  : I'm fighting a vile orc!
+0x0ea0  /  0x49a7 (0x0006)  : I'm fighting an orc!
+0x0ea1  /  0x49ae (0x0006)  : I'm killing an orc!
+0x0ea2  /  0x49b5 (0x0009)  : a voice in the dark says 
+0x0ea6  /  0x49c0 (0x0003)  : yawns. 
+0x0ea7  /  0x49c4 (0x0005)  : scratches himself. 
+0x0ea8  /  0x49ca (0x0003)  : looks around. 
+0x0ea9  /  0x49ce (0x0005)  : mumbles quietly. 
+0x0eaa  /  0x49d4 (0x0005)  : scratches himself. 
+0x0eab  /  0x49da (0x0008)  : whistles a happy tune. 
+0x0eac  /  0x49e3 (0x000f)  : looks smugly at his trophy cabinet and laughs at you. 
+0x0ead  /  0x49f3 (0x002d)  : shakes with laughter at your curious appearance, "Would you happen to have any interesting curios to spare?" He chuckles and bursts out laughing again. 
+0x0eae  /  0x4a21 (0x0008)  : falls about laughing at you. 
+0x0eaf  /  0x4a2a (0x0007)  : rearranges her clothing. 
+0x0eb0  /  0x4a32 (0x0009)  : gives you a dirty look. 
+0x0eb1  /  0x4a3c (0x0007)  : hums a little tune. 
+0x0eb2  /  0x4a44 (0x0005)  : paws the ground. 
+0x0eb3  /  0x4a4a (0x0005)  : stares at you. 
+0x0eb4  /  0x4a50 (0x0006)  : paces up and down. 
+0x0f14  /  0x4a58 (0x000e)  : shouts, "An orc - kill it!" 
+0x0f15  /  0x4a67 (0x000c)  : shouts, "Get that wretched orc!" 
+0x0f16  /  0x4a74 (0x000a)  : shouts, "Kill the orc!" 
+0x0f17  /  0x4a7f (0x000a)  : screams and turns on you angrily. 
+0x0f18  /  0x4a8a (0x000e)  : says, "What's your game, buster?" 
+0x0f19  /  0x4a99 (0x0011)  : says, "OK, so that's the way you want it." 
+0x0f1a  /  0x4aab (0x0007)  : peers at you suspiciously. 
+0x0f1b  /  0x4ab3 (0x0009)  : seems to be eyeing you strangely. 
+0x0f1c  /  0x4abd (0x000c)  : comes up close and looks at you intently. 
+0x0f20  /  0x4acb (0x0014)  : says, "Ooo.. Thank you. What's wrong with it?" 
+0x0f21  /  0x4ae0 (0x000a)  : bites it to test its value. 
+0x0f22  /  0x4aeb (0x0006)  : examines it closely. 
+0x0f23  /  0x4af2 (0x0005)  : is very annoyed. 
+0x0f24  /  0x4af8 (0x0005)  : shouts in surprise. 
+0x0f25  /  0x4afe (0x0005)  : snarls menacingly. 
+0x0f28  /  0x4b05 (0x000a)  : I've just stolen some treasure from 
+0x0f29  /  0x4b10 (0x0007)  : I've just ripped off 
+0x0f2a  /  0x4b18 (0x0009)  : I've just stolen something from 
+0x0f2d  /  0x4b23 (0x0009)  : I've just found a valuable 
+0x0f2e  /  0x4b2d (0x000a)  : I've just picked up a valuable 
+0x0f2f  /  0x4b38 (0x0008)  : I've got a valuable 
+0x0f32  /  0x4b42 (0x0007)  : I'm back in the game!
+0x0f33  /  0x4b4a (0x0008)  : I'm now back in the game!
+0x0f34  /  0x4b53 (0x0003)  : I'm back!
+0x0f3c  /  0x4b58 (0x0008)  : the innkeeper polishes the bar. 
+0x0f3d  /  0x4b61 (0x0009)  : the innkeeper hums a little tune. 
+0x0fa0  /  0x4b6c (0x0028)  : the this these that some a and also before wade jog plod rush dash march amble good of cute there
+0x0fa1  /  0x4b95 (0x0022)  : therefore am my your try carefully slowly warily quickly rapidly following around gold golden body little stone
+0x1068  /  0x4bba (0x0059)  : 
+A funny little gnome appears on the horizon and sprints towards you, yelling "Stop! I don't know if you are allowed to do that". He waves a book as he runs, shouting, "To prove that you are, tell me one word from The Sign of the Orc, by Peter McBride. 
+0x1069  /  0x4c15 (0x0003)  : page 
+0x106a  /  0x4c19 (0x0004)  : , line 
+0x106b  /  0x4c1e (0x0004)  : , word 
+0x106c  /  0x4c23 (0x0004)  : ?"
+
+0x106d  /  0x4c28 (0x0018)  : The gnome grins nastily as he gets nearer, "Guess again, orc! 
+0x106e  /  0x4c41 (0x0012)  : The gnome runs past you and vanishes into the distance.
+
+0x106f  /  0x4c54 (0x0008)  : What is the word at 
+0x1070  /  0x4c5d (0x0018)  : "Wrong!" The gnome flattens you with the book. You scored a mere 
+0x10cd  /  0x4c77 (0x0004)  : a wurden
+0x10ce  /  0x4c7c (0x0004)  : till beide
+0x10d0  /  0x4c82 (0x0004)  : against traute
+0x10d1  /  0x4c87 (0x0004)  : used auf
+0x10d2  /  0x4c8c (0x0004)  : muttered kehrt
+0x10d3  /  0x4c91 (0x0004)  : to konnte
+0x10d4  /  0x4c96 (0x0004)  : ravine in
+0x10d5  /  0x4c9b (0x0004)  : on du
+0x10d7  /  0x4ca1 (0x0004)  : in das
+0x10d9  /  0x4ca7 (0x0004)  : off hilfe
+0x10da  /  0x4cac (0x0006)  : Orc's Orcs waren
+0x10dc  /  0x4cb4 (0x0004)  : with rannten
+0x10df  /  0x4cba (0x0004)  : have blieb
+0x10e0  /  0x4cbf (0x0006)  : one steal ansonsten
+0x10e1  /  0x4cc6 (0x0004)  : Sir wohl
+0x10e2  /  0x4ccb (0x0004)  : to leid
+0x10e4  /  0x4cd1 (0x0004)  : had drache
+0x10e9  /  0x4cd7 (0x0004)  : terrible ins
+0x10ea  /  0x4cdc (0x0006)  : tower bist du
+0x10eb  /  0x4ce3 (0x0004)  : occasionally seine
+0x10ec  /  0x4ce8 (0x0004)  : she Grok
+0x10ee  /  0x4cee (0x0006)  : got mit du
+0x10f0  /  0x4cf6 (0x0004)  : do dich
+0x10f2  /  0x4cfc (0x0006)  : Grok Grok-grok Ork
+0x10f3  /  0x4d03 (0x0004)  : butter der
+0x10f4  /  0x4d08 (0x0004)  : something Barney
+0x10f5  /  0x4d0d (0x0004)  : idea rief
+0x10f6  /  0x4d12 (0x0004)  : pachi dort
+0x10f9  /  0x4d18 (0x0004)  : noticed am
+0x10fa  /  0x4d1d (0x0004)  : anybody sich
+0x10fb  /  0x4d22 (0x0006)  : the damit's damits
+0x10fc  /  0x4d29 (0x0004)  : terrible gute
+0x10fd  /  0x4d2e (0x0004)  : paused gewesen
+0x10fe  /  0x4d33 (0x0004)  : he Oink
+0x1100  /  0x4d39 (0x0004)  : bowls die
+0x1101  /  0x4d3e (0x0004)  : weapons da
+0x1102  /  0x4d43 (0x0004)  : understand oder
+0x1104  /  0x4d49 (0x0004)  : just lachte
+0x1105  /  0x4d4e (0x0004)  : had einer
+0x1107  /  0x4d54 (0x0004)  : plucking im
+0x110a  /  0x4d5a (0x0004)  : jaws der
+0x110c  /  0x4d60 (0x0004)  : the krachen
+0x110d  /  0x4d65 (0x0004)  : frowned gold
+0x110e  /  0x4d6a (0x0004)  : slid anderen
+0x110f  /  0x4d6f (0x0004)  : out verstaubten
+0x1110  /  0x4d74 (0x0004)  : gold Brandon
+0x1112  /  0x4d7a (0x0004)  : furniture zu
+0x1113  /  0x4d7f (0x0004)  : it so
+0x1114  /  0x4d84 (0x0004)  : strewth mit
+0x1115  /  0x4d89 (0x0004)  : was erst
+0x1116  /  0x4d8e (0x0004)  : grow gutes
+0x1118  /  0x4d94 (0x0004)  : it seinem
+0x1119  /  0x4d99 (0x0004)  : cider nie
+0x111a  /  0x4d9e (0x0004)  : a dann
+0x111b  /  0x4da3 (0x0004)  : to schier
+0x111c  /  0x4da8 (0x0004)  : Grok glaubt
+0x111d  /  0x4dad (0x0004)  : else woher
+0x1120  /  0x4db3 (0x0004)  : tavern gelassen
+0x1122  /  0x4db9 (0x0004)  : remarkably was
+0x1123  /  0x4dbe (0x0004)  : own Jack
+0x1124  /  0x4dc3 (0x0004)  : right Oh
+0x1125  /  0x4dc8 (0x0004)  : and am
+0x1127  /  0x4dce (0x0004)  : of so
+0x1128  /  0x4dd3 (0x0004)  : toss und
+0x112a  /  0x4dd9 (0x0004)  : about inzwischen
+0x112b  /  0x4dde (0x0004)  : sat er
+0x112d  /  0x4de4 (0x0004)  : Brandon geist
+0x112e  /  0x4de9 (0x0004)  : rather hielt
+0x1130  /  0x4def (0x0004)  : discovered einmal
+<EOM>

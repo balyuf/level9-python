@@ -1,5 +1,5 @@
 #title: Snowball test script;
-#comment: PC version [v3];
+#comment: MSX version [v3];
 
 #SEED 42;
 QUIT;
@@ -512,3 +512,5 @@ PLAY FLUTE [it shatters the bomb and engulfs the female figure in flames];
 PRESS EXTINGUISHER [the Nitrogen kills the fire];
 W;
 PULL LEVER;
+NO;
+#quit;

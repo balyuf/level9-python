@@ -1,0 +1,370 @@
+Worm in Paradise - Location Exit Definitions
+--------------------------------------------
+
+Bit configuration:
+
+Bit 0 - where the direction can be used inversely
+Bit 1 - whether this direction should be hidden
+Bit 2 - if there is a door in this direction
+
+
+                            (Inv.)
+Address From  To  Dir       Bit 0 Bit 1 Bit 2 MsgId Location Text
+------- ---- ---- --------- ----- ----- ----- ----- -------------
+0x002c  0x01 0x03 SOUTH     Yes   No    No    0x191 in the crumbling catacombs
+0x002e  0x01 0x02 NORTH     Yes   No    No    0x191 in the crumbling catacombs
+0x0030  0x01 0x03 EAST      Yes   No    No    0x191 in the crumbling catacombs
+0x0032  0x02 0x01 WEST      No    No    No    0x192 in the crumbling catacombs
+0x0034  0x03 0x02 NORTH     Yes   No    No    0x193 in the crumbling catacombs
+0x0036  0x03 0xaf EAST      Yes   No    No    0x193 in the crumbling catacombs
+0x0038  0x04 0x05 SOUTH     No    Yes   No    0x194 
+0x003a  0x05 0xd1 DOWNWARDS Yes   No    No    0x195 
+0x003c  0x06 0x07 DOWNWARDS Yes   No    No    0x196 on the crumbling plastic dome above Enoch city
+0x003e  0x07 0x0b DOWNWARDS Yes   No    No    0x197 climbing through entangled vines
+0x0040  0x08 0x09 DOWNWARDS Yes   No    No    0x198 on an ancient cliff above the massive dome of Enoch city
+0x0042  0x09 0x0a EAST      Yes   No    No    0x199 in fragrant fields
+0x0044  0x0a 0x0b NORTH     Yes   No    No    0x19a beside a river
+0x0046  0x0b 0x0c NORTH     Yes   No    No    0x19b on a green hill outside the massive city wall
+0x0048  0x0c 0x0f NORTH     Yes   No    No    0x19c in an underground tunnel under the city wall
+0x004a  0x0d 0x28 DOWNWARDS Yes   No    No    0x19d climbing brick steps to the fountain
+0x004c  0x0e 0x0d IN        Yes   No    No    0x19e in the fountain lake above the plaza. Lazlight shimmers to simulate cascading water
+0x004e  0x0f 0xb7 EAST      Yes   No    No    0x19f in a cluttered, stained room with a waterfall cascading down the north wall
+0x0050  0x0f 0x10 NORTH     No    Yes   No    0x19f in a cluttered, stained room with a waterfall cascading down the north wall
+0x0052  0x10 0x0f SOUTH     No    No    No    0x1a0 on a ledge behind the waterfall
+0x0054  0x10 0xac NORTH     Yes   No    No    0x1a0 on a ledge behind the waterfall
+0x0056  0x11 0x1b SOUTH     Yes   No    No    0x1a1 in the hothouse
+0x0058  0x12 0x1a SOUTH     Yes   No    No    0x1a2 on a thousand coloured sand shore
+0x005a  0x13 0x00   -       No    No    No    0x1a3 on Vermillion Sands
+0x005c  0x14 0x15 WEST      Yes   No    No    0x1a4 in the south bank swamp called Earthsea
+0x005e  0x14 0x18 SOUTH     Yes   No    No    0x1a4 in the south bank swamp called Earthsea
+0x0060  0x15 0x17 NORTH     Yes   No    No    0x1a5 at a landing stage on the shore of Death where the fabulous riverboat is moored
+0x0062  0x15 0x21 SOUTH     Yes   No    No    0x1a5 at a landing stage on the shore of Death where the fabulous riverboat is moored
+0x0064  0x16 0x00   -       No    No    No    0x1a6 
+0x0066  0x17 0x4c WEST      Yes   No    No    0x1a7 on the Island of the Mighty where the fabulous riverboat is now moored
+0x0068  0x18 0x21 WEST      Yes   No    No    0x1a8 at the west end of the road
+0x006a  0x18 0x1f SOUTH     Yes   No    No    0x1a8 at the west end of the road
+0x006c  0x19 0x18 WEST      Yes   No    No    0x1a9 on a long and winding east-west road
+0x006e  0x19 0x1e SOUTH     Yes   No    No    0x1a9 on a long and winding east-west road
+0x0070  0x1a 0x19 WEST      Yes   No    No    0x1aa on a yellow brick road leading west
+0x0072  0x1a 0x1d SOUTH     Yes   No    No    0x1aa on a yellow brick road leading west
+0x0074  0x1b 0x1a WEST      Yes   No    No    0x1ab at the gate of Ivril
+0x0076  0x1b 0x1c SOUTH     Yes   No    No    0x1ab at the gate of Ivril
+0x0078  0x1c 0x1d WEST      Yes   No    No    0x1ac beside the fountain of paradise
+0x007a  0x1d 0x1e WEST      Yes   No    No    0x1ad in the fragrant dream park
+0x007c  0x1e 0x1f WEST      Yes   No    No    0x1ae in Duncton Wood
+0x007e  0x1f 0x20 WEST      Yes   No    No    0x1af in Year Wood
+0x0080  0x1f 0x23 SOUTH     Yes   No    No    0x1af in Year Wood
+0x0082  0x20 0x5d SOUTH     Yes   Yes   No    0x1b0 beside a disgusting little house on the prairie
+0x0084  0x20 0x5d IN        Yes   No    No    0x1b0 beside a disgusting little house on the prairie
+0x0086  0x21 0x20 SOUTH     Yes   No    No    0x1b1 on flatlands
+0x0088  0x21 0x22 WEST      Yes   No    No    0x1b1 on flatlands
+0x008a  0x22 0x39 NORTH     No    No    No    0x1b2 on east-west Glory Road
+0x008c  0x23 0x86 DOWNWARDS Yes   No    No    0x1b3 beside the Well of Souls
+0x008e  0x24 0x1b WEST      Yes   No    No    0x1b4 in ancient Lankhmar
+0x0090  0x25 0x26 EAST      Yes   No    No    0x1b5 
+0x0092  0x26 0x00   -       Yes   No    No    0x1b6 
+0x0094  0x27 0x00   -       No    No    No    0x1b7 
+0x0096  0x28 0x32 SOUTH     No    No    No    0x1b8 on a cobbled plaza with an ornate central fountain
+0x0098  0x29 0x3b EAST      No    No    No    0x1b9 on an east-bound pedway
+0x009a  0x2a 0x2f WEST      No    No    No    0x1ba on a west-bound pedway
+0x009c  0x2b 0x3c SOUTH     No    No    No    0x1bb on a south-bound pedway
+0x009e  0x2c 0x33 NORTH     No    No    No    0x1bc on a north-bound pedway
+0x00a0  0x2d 0x3e NORTH     No    No    No    0x1bd on a north-bound pedway
+0x00a2  0x2e 0x37 SOUTH     No    No    No    0x1be on a south-bound pedway
+0x00a4  0x2f 0x30 SOUTHWEST No    No    No    0x1bf east of a roundabout
+0x00a6  0x30 0x31 NORTHWEST No    No    No    0x1c0 south of a roundabout
+0x00a8  0x31 0x28 NORTH     No    No    No    0x1c1 at the roundabout exit to the plaza
+0x00aa  0x31 0x32 NORTHEAST No    No    No    0x1c1 at the roundabout exit to the plaza
+0x00ac  0x32 0x29 EAST      No    No    No    0x1c2 north of a roundabout
+0x00ae  0x32 0x2f SOUTHEAST No    No    No    0x1c2 north of a roundabout
+0x00b0  0x33 0x3f WEST      No    No    No    0x1c3 at the roundabout exit to ET west
+0x00b2  0x33 0x34 NORTHWEST No    No    No    0x1c3 at the roundabout exit to ET west
+0x00b4  0x34 0x3f NORTH     No    No    No    0x1c4 at the roundabout exit to ET north
+0x00b6  0x34 0x35 NORTHEAST No    No    No    0x1c4 at the roundabout exit to ET north
+0x00b8  0x35 0x3f EAST      No    No    No    0x1c5 at the roundabout exit to ET east
+0x00ba  0x35 0x36 SOUTHEAST No    No    No    0x1c5 at the roundabout exit to ET east
+0x00bc  0x36 0x2b SOUTH     No    No    No    0x1c6 east of a roundabout
+0x00be  0x36 0x33 SOUTHWEST No    No    No    0x1c6 east of a roundabout
+0x00c0  0x37 0x4e EAST      No    No    No    0x1c7 at the roundabout exit to the municipal buildings
+0x00c2  0x37 0x38 SOUTHEAST No    No    No    0x1c7 at the roundabout exit to the municipal buildings
+0x00c4  0x38 0x39 SOUTHWEST No    No    No    0x1c8 at the theme park roundabout exit
+0x00c6  0x38 0x22 SOUTH     No    No    No    0x1c8 at the theme park roundabout exit
+0x00c8  0x39 0x68 WEST      No    No    No    0x1c9 at the work place roundabout exit
+0x00ca  0x39 0x3a NORTHWEST No    No    No    0x1c9 at the work place roundabout exit
+0x00cc  0x3a 0x2d NORTH     No    No    No    0x1ca west of a roundabout
+0x00ce  0x3a 0x37 NORTHEAST No    No    No    0x1ca west of a roundabout
+0x00d0  0x3b 0x3c NORTHEAST No    No    No    0x1cb west of a roundabout
+0x00d2  0x3b 0x2c NORTH     No    No    No    0x1cb west of a roundabout
+0x00d4  0x3c 0x52 EAST      No    No    No    0x1cc at the pleasure dome roundabout exit
+0x00d6  0x3c 0x3d SOUTHEAST No    No    No    0x1cc at the pleasure dome roundabout exit
+0x00d8  0x3d 0x2e SOUTH     No    No    No    0x1cd east of a roundabout
+0x00da  0x3d 0x3e SOUTHWEST No    No    No    0x1cd east of a roundabout
+0x00dc  0x3e 0x3b NORTHWEST Yes   No    No    0x1ce south of a roundabout
+0x00de  0x3e 0x2a WEST      No    No    No    0x1ce south of a roundabout
+0x00e0  0x3f 0x35 SOUTH     No    No    No    0x1cf on a walkway around the Eden Transport system, a force grid which looks like a massive dart target. Exits lead north-ish to the 12 ET rings
+0x00e2  0x3f 0x3f EAST      Yes   Yes   No    0x1cf on a walkway around the Eden Transport system, a force grid which looks like a massive dart target. Exits lead north-ish to the 12 ET rings
+0x00e4  0x3f 0x40 NORTHEAST Yes   Yes   No    0x1cf on a walkway around the Eden Transport system, a force grid which looks like a massive dart target. Exits lead north-ish to the 12 ET rings
+0x00e6  0x3f 0x40 NORTHWEST Yes   Yes   No    0x1cf on a walkway around the Eden Transport system, a force grid which looks like a massive dart target. Exits lead north-ish to the 12 ET rings
+0x00e8  0x3f 0x40 NORTH     Yes   Yes   No    0x1cf on a walkway around the Eden Transport system, a force grid which looks like a massive dart target. Exits lead north-ish to the 12 ET rings
+0x00ea  0x40 0x40 EAST      Yes   Yes   No    0x1d0 on an outer ET ring with exits all round
+0x00ec  0x40 0x41 NORTHEAST Yes   Yes   No    0x1d0 on an outer ET ring with exits all round
+0x00ee  0x40 0x41 NORTHWEST Yes   Yes   No    0x1d0 on an outer ET ring with exits all round
+0x00f0  0x40 0x41 NORTH     Yes   Yes   No    0x1d0 on an outer ET ring with exits all round
+0x00f2  0x41 0x41 EAST      Yes   Yes   No    0x1d1 on an outer ET ring with exits all round
+0x00f4  0x41 0x42 NORTHEAST Yes   Yes   No    0x1d1 on an outer ET ring with exits all round
+0x00f6  0x41 0x42 NORTHWEST Yes   Yes   No    0x1d1 on an outer ET ring with exits all round
+0x00f8  0x41 0x42 NORTH     Yes   Yes   No    0x1d1 on an outer ET ring with exits all round
+0x00fa  0x42 0x42 EAST      Yes   Yes   No    0x1d2 on an ET ring
+0x00fc  0x42 0x43 NORTHEAST Yes   Yes   No    0x1d2 on an ET ring
+0x00fe  0x42 0x43 NORTHWEST Yes   Yes   No    0x1d2 on an ET ring
+0x0100  0x42 0x43 NORTH     Yes   Yes   No    0x1d2 on an ET ring
+0x0102  0x43 0x43 EAST      Yes   Yes   No    0x1d3 on an ET ring
+0x0104  0x43 0x44 NORTHEAST Yes   Yes   No    0x1d3 on an ET ring
+0x0106  0x43 0x44 NORTHWEST Yes   Yes   No    0x1d3 on an ET ring
+0x0108  0x43 0x44 NORTH     Yes   Yes   No    0x1d3 on an ET ring
+0x010a  0x44 0x44 EAST      Yes   Yes   No    0x1d4 on a central ET ring
+0x010c  0x44 0x45 NORTHEAST Yes   Yes   No    0x1d4 on a central ET ring
+0x010e  0x44 0x45 NORTHWEST Yes   Yes   No    0x1d4 on a central ET ring
+0x0110  0x44 0x45 NORTH     Yes   Yes   No    0x1d4 on a central ET ring
+0x0112  0x45 0x45 EAST      Yes   Yes   No    0x1d5 on a central ET ring
+0x0114  0x45 0x46 NORTHEAST Yes   Yes   No    0x1d5 on a central ET ring
+0x0116  0x45 0x46 NORTHWEST Yes   Yes   No    0x1d5 on a central ET ring
+0x0118  0x45 0x46 NORTH     Yes   Yes   No    0x1d5 on a central ET ring
+0x011a  0x46 0x46 EAST      Yes   Yes   No    0x1d6 on a central ET ring
+0x011c  0x46 0x47 NORTHEAST Yes   Yes   No    0x1d6 on a central ET ring
+0x011e  0x46 0x47 NORTHWEST Yes   Yes   No    0x1d6 on a central ET ring
+0x0120  0x46 0x47 NORTH     Yes   Yes   No    0x1d6 on a central ET ring
+0x0122  0x47 0x47 EAST      Yes   Yes   No    0x1d7 on an ET ring
+0x0124  0x47 0x48 NORTHEAST Yes   Yes   No    0x1d7 on an ET ring
+0x0126  0x47 0x48 NORTHWEST Yes   Yes   No    0x1d7 on an ET ring
+0x0128  0x47 0x48 NORTH     Yes   Yes   No    0x1d7 on an ET ring
+0x012a  0x48 0x48 EAST      Yes   Yes   No    0x1d8 on an ET ring
+0x012c  0x48 0x49 NORTHEAST Yes   Yes   No    0x1d8 on an ET ring
+0x012e  0x48 0x49 NORTHWEST Yes   Yes   No    0x1d8 on an ET ring
+0x0130  0x48 0x49 NORTH     Yes   Yes   No    0x1d8 on an ET ring
+0x0132  0x49 0x49 EAST      Yes   Yes   No    0x1d9 on an inner ET ring
+0x0134  0x49 0x4a NORTHEAST Yes   Yes   No    0x1d9 on an inner ET ring
+0x0136  0x49 0x4a NORTHWEST Yes   Yes   No    0x1d9 on an inner ET ring
+0x0138  0x49 0x4a NORTH     Yes   Yes   No    0x1d9 on an inner ET ring
+0x013a  0x4a 0x4a EAST      Yes   Yes   No    0x1da on an inner ET ring
+0x013c  0x4a 0x4b NORTHEAST Yes   Yes   No    0x1da on an inner ET ring
+0x013e  0x4a 0x4b NORTHWEST Yes   Yes   No    0x1da on an inner ET ring
+0x0140  0x4a 0x4b NORTH     Yes   Yes   No    0x1da on an inner ET ring
+0x0142  0x4b 0x4b EAST      Yes   Yes   No    0x1db south of the ET hub wall. Exits lead south-ish to the rest of the massive Eden Transport system
+0x0144  0x4b 0x3f NORTHEAST No    Yes   No    0x1db south of the ET hub wall. Exits lead south-ish to the rest of the massive Eden Transport system
+0x0146  0x4b 0x3f NORTHWEST No    Yes   No    0x1db south of the ET hub wall. Exits lead south-ish to the rest of the massive Eden Transport system
+0x0148  0x4b 0x3f NORTH     No    Yes   No    0x1db south of the ET hub wall. Exits lead south-ish to the rest of the massive Eden Transport system
+0x014a  0x4c 0x4d WEST      Yes   No    No    0x1dc in an avenue of trees
+0x014c  0x4d 0x73 NORTH     Yes   No    No    0x1dd beside a gate leading to a massive pyramid
+0x014e  0x4e 0x38 WEST      No    No    No    0x1de on the lefthand drive to the municipal buildings
+0x0150  0x4f 0x4e WEST      Yes   No    No    0x1df in the cobbled city square, surrounded by stained concrete buildings
+0x0152  0x4f 0x50 NORTH     Yes   No    No    0x1df in the cobbled city square, surrounded by stained concrete buildings
+0x0154  0x50 0x64 IN        Yes   No    No    0x1e0 beside the police station
+0x0156  0x50 0x64 NORTH     Yes   Yes   No    0x1e0 beside the police station
+0x0158  0x51 0x65 IN        Yes   No    No    0x1e1 beside the municipal hospital
+0x015a  0x51 0x4f NORTH     Yes   No    No    0x1e1 beside the municipal hospital
+0x015c  0x52 0x3d WEST      No    No    No    0x1e2 at the entrance to the pleasure dome
+0x015e  0x52 0x53 NORTH     Yes   No    No    0x1e2 at the entrance to the pleasure dome
+0x0160  0x53 0x54 NORTH     Yes   No    No    0x1e3 beside a turnstile
+0x0162  0x54 0x55 NORTH     Yes   No    No    0x1e4 in a north-south corridor between a comfortable habihall and a kiosk
+0x0164  0x55 0x56 NORTH     Yes   No    No    0x1e5 in the north-south corridor between the zoo and a pet shop
+0x0166  0x56 0x57 NORTH     Yes   No    No    0x1e6 in the north-south corridor outside the museum
+0x0168  0x57 0x6f NORTH     Yes   No    No    0x1e7 in a north-south corridor between a casino and Reveline's massive dream palace
+0x016a  0x58 0x58 NORTH     Yes   No    No    0x1e8 
+0x016c  0x59 0x62 DOWNWARDS Yes   No    No    0x1e9 
+0x016e  0x5a 0x6f EAST      Yes   No    No    0x1ea at the temple bar and souvenir stall
+0x0170  0x5b 0x55 WEST      Yes   No    No    0x1eb in a pet shop
+0x0172  0x5c 0x54 WEST      Yes   No    No    0x1ec in a refreshment kiosk
+0x0174  0x5d 0x00   -       No    No    No    0x1ed in a little plastic kitchen full of additives
+0x0176  0x5e 0x24 SOUTH     Yes   No    No    0x1ee in an old curiosity shop
+0x0178  0x5f 0x3f NORTH     No    No    No    0x1ef in a fragrant florist shop
+0x017a  0x60 0x3f NORTH     No    No    No    0x1f0 in a hardware discount warehouse
+0x017c  0x61 0x3f NORTH     No    No    No    0x1f1 in a travel agent
+0x017e  0x62 0x63 WEST      Yes   No    No    0x1f2 
+0x0180  0x63 0x00   -       No    No    No    0x1f3 
+0x0182  0x64 0x00   -       No    No    No    0x1f4 beside a reception desk
+0x0184  0x65 0x51 NORTH     Yes   Yes   No    0x1f5 in a hospital foyer outside the body bank
+0x0186  0x66 0x72 EAST      No    No    No    0x1f6 in the body bank where giblets are traded
+0x0188  0x66 0x65 NORTHWEST Yes   No    No    0x1f6 in the body bank where giblets are traded
+0x018a  0x67 0x00   -       No    No    No    0x1f7 standing at a plastic counter
+0x018c  0x68 0x3a EAST      No    No    No    0x1f8 at a fabulous office entrance
+0x018e  0x68 0x8d NORTH     Yes   No    No    0x1f8 at a fabulous office entrance
+0x0190  0x69 0xa8 NORTHEAST Yes   No    No    0x1f9 south of a fabulous foyer
+0x0192  0x69 0xa7 NORTHWEST Yes   No    No    0x1f9 south of a fabulous foyer
+0x0194  0x6a 0x68 SOUTH     Yes   No    No    0x1fa beside an alcove with a reception desk
+0x0196  0x6b 0x3a EAST      No    No    No    0x1fb in one corner of a massive office
+0x0198  0x6c 0x00   -       No    No    No    0x1fc 
+0x019a  0x6d 0x00   -       No    No    No    0x1fd 
+0x019c  0x6e 0x57 EAST      Yes   No    No    0x1fe in a plastic casino
+0x019e  0x6f 0x00   -       No    No    No    0x1ff at the entrance to a fabulous temple
+0x01a0  0x70 0x6f SOUTH     Yes   No    No    0x200 in the inner sanctum of the temple
+0x01a2  0x71 0x00   -       No    No    No    0x201 
+0x01a4  0x72 0x00   -       No    No    No    0x202 in the cutting room
+0x01a6  0x73 0xab EAST      Yes   No    No    0x203 at a guarded gate
+0x01a8  0x74 0x00   -       No    No    No    0x204 
+0x01aa  0x75 0x00   -       No    No    No    0x205 
+0x01ac  0x76 0x75 WEST      Yes   No    No    0x206 
+0x01ae  0x77 0x00   -       No    No    No    0x207 
+0x01b0  0x78 0x7f WEST      Yes   No    No    0x208 between the eight brick arches of a beautiful octagonal room. The west arch is widest
+0x01b2  0x79 0x78 SOUTH     Yes   No    No    0x209 in an alcove decorated like a beautiful garden
+0x01b4  0x7a 0x78 WEST      Yes   No    No    0x20a in an alcove with a mural of a shining pyramid
+0x01b6  0x7b 0x78 SOUTHWEST Yes   No    No    0x20b in an alcove decorated with alien trees
+0x01b8  0x7c 0x78 NORTHWEST Yes   No    No    0x20c in an alcove decorated like a polluted planet
+0x01ba  0x7d 0x78 NORTH     Yes   No    No    0x20d in a desolate alcove decorated as a battlefield
+0x01bc  0x7e 0x78 NORTHEAST Yes   No    No    0x20e in an alcove decorated as a winding underground passage
+0x01be  0x7f 0x57 WEST      Yes   No    No    0x20f in a plastic tunnel, lined with adverts for Reveline's thousands of dream simulations
+0x01c0  0x80 0x78 SOUTHEAST Yes   No    No    0x210 in a room featuring Reveline's fabulous Silicon Dreams
+0x01c2  0x81 0x56 EAST      Yes   No    No    0x211 in a small museum, decorated with fake exhibits from Enoch history
+0x01c4  0x82 0x55 EAST      Yes   No    No    0x212 in a disgusting zoo
+0x01c6  0x83 0x54 EAST      Yes   No    No    0x213 in a comfortable quiet habihall
+0x01c8  0x84 0x00   -       No    No    No    0x214 
+0x01ca  0x85 0x80 EAST      No    No    No    0x215 
+0x01cc  0x86 0x85 IN        Yes   Yes   No    0x216 in the Well of Souls
+0x01ce  0x87 0x88 SOUTH     Yes   No    No    0x217 at an massive floodlit desk, completely surrounded by thick carpet in the direct labour organisation boardroom
+0x01d0  0x88 0x8a SOUTH     Yes   No    No    0x218 surrounded by head-high carpet
+0x01d2  0x89 0x87 WEST      Yes   No    No    0x219 surrounded by head-high carpet
+0x01d4  0x8a 0x8d EAST      Yes   No    No    0x21a surrounded by head-high carpet
+0x01d6  0x8b 0x89 NORTH     Yes   No    No    0x21b surrounded by head-high carpet
+0x01d8  0x8b 0x8e EAST      Yes   No    No    0x21b surrounded by head-high carpet
+0x01da  0x8b 0x8d SOUTH     Yes   No    No    0x21b surrounded by head-high carpet
+0x01dc  0x8b 0x88 WEST      Yes   No    No    0x21b surrounded by head-high carpet
+0x01de  0x8c 0x89 WEST      Yes   No    No    0x21c surrounded by head-high carpet
+0x01e0  0x8d 0x8f EAST      Yes   No    No    0x21d surrounded by head-high carpet
+0x01e2  0x8e 0x8c NORTH     Yes   No    No    0x21e surrounded by head-high carpet
+0x01e4  0x8f 0x8e NORTH     Yes   No    No    0x21f surrounded by head-high carpet
+0x01e6  0x90 0x6b UPWARDS   Yes   No    No    0x220 at a workstation
+0x01e8  0x91 0x00   -       No    No    No    0x221 in a waldroid control cocoon
+0x01ea  0x92 0x3a EAST      No    No    No    0x222 in a disgusting workshop
+0x01ec  0x92 0x91 WEST      Yes   No    No    0x222 in a disgusting workshop
+0x01ee  0x93 0x92 SOUTH     Yes   No    No    0x223 in a packing area
+0x01f0  0x94 0x67 WEST      Yes   No    No    0x224 in an open-plan jobs warehouse
+0x01f2  0x95 0x94 SOUTH     Yes   No    No    0x225 in a plastic porch decorated with posters about the great job the third Kim has done to ensure jobs for all
+0x01f4  0x95 0x3f NORTH     No    No    No    0x225 in a plastic porch decorated with posters about the great job the third Kim has done to ensure jobs for all
+0x01f6  0x96 0x6a WEST      Yes   No    No    0x226 at the west end of a long corridor
+0x01f8  0x97 0x96 WEST      Yes   No    No    0x227 in a long east-west corridor
+0x01fa  0x98 0x97 WEST      Yes   No    No    0x228 at the east end of the long corridor
+0x01fc  0x99 0x96 SOUTH     Yes   No    No    0x229 in a red office
+0x01fe  0x9a 0x97 SOUTH     Yes   No    No    0x22a in an orange office
+0x0200  0x9b 0x98 SOUTH     Yes   No    No    0x22b in a yellow office
+0x0202  0x9c 0x96 NORTH     Yes   No    No    0x22c in a green office
+0x0204  0x9d 0x97 NORTH     Yes   No    No    0x22d in a blue office
+0x0206  0x9e 0x98 NORTH     Yes   No    No    0x22e in a violet office
+0x0208  0x9f 0x98 WEST      Yes   No    No    0x22f in a white office
+0x020a  0xa0 0x6a WEST      No    No    No    0x230 in a short east-west corridor which ends at a mirror
+0x020c  0xa1 0xa0 SOUTH     Yes   No    No    0x231 in a fabulous council chamber
+0x020e  0xa2 0xa0 NORTH     Yes   No    No    0x232 in an attractive boardroom
+0x0210  0xa3 0xa0 WEST      No    No    No    0x233 on secret spiral stairs
+0x0212  0xa3 0xa4 UPWARDS   Yes   No    No    0x233 on secret spiral stairs
+0x0214  0xa4 0xa5 NORTH     Yes   No    No    0x234 at the top of the secret spiral stairs
+0x0216  0xa5 0xa6 NORTH     Yes   No    No    0x235 in the city fathers' centre of power
+0x0218  0xa6 0x00   -       No    No    No    0x236 on the seat of power on a floodlit dais, facing thousands of bugs and vidcams
+0x021a  0xa7 0xa9 IN        No    No    No    0x237 at the northwest of an attractive foyer
+0x021c  0xa7 0xa9 NORTH     No    No    No    0x237 at the northwest of an attractive foyer
+0x021e  0xa8 0xa9 IN        No    No    No    0x238 at the northeast of an attractive foyer
+0x0220  0xa8 0xa9 NORTH     No    No    No    0x238 at the northeast of an attractive foyer
+0x0222  0xa9 0x6a OUT       Yes   No    No    0x239 in an elevator
+0x0224  0xa9 0x6a SOUTH     Yes   No    No    0x239 in an elevator
+0x0226  0xaa 0x6a NORTH     Yes   No    No    0x23a behind a reception desk
+0x0228  0xab 0x69 NORTH     Yes   No    No    0x23b in the quad south of the pyramid of power
+0x022a  0xac 0xad NORTH     Yes   No    No    0x23c completely surrounded by disgusting wiggly white roots. Through the roots to the north, you can see a floodlit cave in which sits an alien flying saucer! Concrete evidence of alien invaders
+0x022c  0xad 0xae NORTH     Yes   No    No    0x23d in a floodlit cave
+0x022e  0xae 0xaf EAST      Yes   No    No    0x23e inside a fake flying saucer made of cardboard
+0x0230  0xaf 0x29 UPWARDS   No    Yes   No    0x23f in an east-west concrete corridor
+0x0232  0xaf 0xb0 EAST      Yes   No    No    0x23f in an east-west concrete corridor
+0x0234  0xb0 0x3e UPWARDS   No    Yes   No    0x240 at a concrete junction
+0x0236  0xb0 0xb2 NORTH     Yes   No    No    0x240 at a concrete junction
+0x0238  0xb1 0x5c UPWARDS   No    Yes   No    0x241 in a passage with the sweet smell of excess
+0x023a  0xb1 0xb0 WEST      Yes   No    No    0x241 in a passage with the sweet smell of excess
+0x023c  0xb2 0x2c UPWARDS   No    Yes   No    0x242 in a north-south concrete corridor
+0x023e  0xb2 0xb3 NORTH     Yes   No    No    0x242 in a north-south concrete corridor
+0x0240  0xb3 0x35 UPWARDS   No    Yes   No    0x243 at a humming junction
+0x0242  0xb3 0xb5 NORTH     Yes   No    No    0x243 at a humming junction
+0x0244  0xb4 0xb3 EAST      Yes   No    No    0x244 surrounded by thousands of concrete pillars
+0x0246  0xb5 0x00   -       No    No    No    0x245 surrounded by thousands of concrete pillars
+0x0248  0xb6 0xb3 WEST      Yes   No    No    0x246 surrounded by thousands of concrete pillars
+0x024a  0xb7 0x39 UPWARDS   No    Yes   No    0x247 at a disgusting junction
+0x024c  0xb7 0xb0 NORTH     Yes   No    No    0x247 at a disgusting junction
+0x024e  0xb8 0xab UPWARDS   No    Yes   No    0x248 between dry pillars festooned with red tape
+0x0250  0xb8 0xb7 WEST      Yes   No    No    0x248 between dry pillars festooned with red tape
+0x0252  0xb9 0x00   -       No    No    No    0x249 in prison
+0x0254  0xba 0x4b OUT       No    No    No    0x24a 
+0x0256  0xbb 0xbc WEST      No    No    No    0x24b 
+0x0258  0xbc 0x4e WEST      No    No    No    0x24c 
+0x025a  0xbd 0x50 OUT       Yes   No    No    0x24d 
+0x025c  0xbe 0x3f NORTH     No    No    No    0x24e in the habihall of your habihome
+0x025e  0xbf 0x00   -       No    No    No    0x24f 
+0x0260  0xc0 0xc1 SOUTH     Yes   No    No    0x250 in your tiled bodymaint cubicle
+0x0262  0xc1 0xbe WEST      Yes   No    No    0x251 in your habihome
+0x0264  0xc2 0xc1 WEST      Yes   No    No    0x252 on a brick balcony with a marvellous view
+0x0266  0xc3 0x00   -       No    No    No    0x253 
+0x0268  0xc4 0x3f NORTH     No    No    No    0x254 in a habihall decorated with disgusting agitprop
+0x026a  0xc5 0x00   -       No    No    No    0x255 
+0x026c  0xc6 0xc7 SOUTH     Yes   No    No    0x256 in a disgusting bodymaint
+0x026e  0xc7 0xc4 WEST      Yes   No    No    0x257 in a scruffy habihome
+0x0270  0xc8 0xc7 WEST      Yes   No    No    0x258 on a stained balcony
+0x0272  0xc9 0x00   -       No    No    No    0x259 
+0x0274  0xca 0xdc OUT       No    No    No    0x25a 
+0x0276  0xcb 0xcc NORTH     Yes   No    No    0x25b 
+0x0278  0xcc 0xde EAST      No    Yes   No    0x25c 
+0x027a  0xcd 0x00   -       No    No    No    0x25d 
+0x027c  0xce 0x00   -       No    No    No    0x25e 
+0x027e  0xcf 0x84 IN        Yes   No    No    0x25f 
+0x0280  0xd0 0x00   -       No    No    No    0x260 
+0x0282  0xd1 0x3f DOWNWARDS No    No    No    0x261 
+0x0284  0xd2 0xd5 NORTH     Yes   No    No    0x262 on a beautiful lawn in the centre of the paradise garden
+0x0286  0xd2 0xd7 EAST      Yes   No    No    0x262 on a beautiful lawn in the centre of the paradise garden
+0x0288  0xd2 0xd9 SOUTH     Yes   No    No    0x262 on a beautiful lawn in the centre of the paradise garden
+0x028a  0xd2 0xd3 WEST      Yes   No    No    0x262 on a beautiful lawn in the centre of the paradise garden
+0x028c  0xd3 0xd4 NORTH     Yes   No    No    0x263 beside the neat beds of flowers, seed packet perfect, which line the west wall
+0x028e  0xd4 0xd5 EAST      Yes   No    No    0x264 in the northwest corner of a garden paradise, protected by a high wall up which flowers climb. Bright butterflies flutter on the balmy breeze and skylarks sing overhead
+0x0290  0xd5 0xd6 EAST      Yes   No    No    0x265 in a tidy alpine garden south of the wall, with narrow brick paths winding between thousands of heather mounds and lichen-covered boulders
+0x0292  0xd6 0xd7 SOUTH     Yes   No    No    0x266 in the northeast corner of the garden, where fragrant herbs cluster against the wall
+0x0294  0xd7 0xd8 SOUTH     Yes   No    No    0x267 at a door in the garden wall. An arch of beautiful roses spells out the word 'EXIT' in flowers, but the door is mysteriously locked
+0x0296  0xd8 0xd9 WEST      Yes   No    No    0x268 beneath greenwood trees in the southeast corner of the garden
+0x0298  0xd9 0xda WEST      Yes   No    No    0x269 on a fragrant forest lawn beside the garden wall
+0x029a  0xda 0xd3 NORTH     Yes   No    No    0x26a on a meandering path following the brick wall round the southwest corner of the garden
+0x029c  0xdb 0xd3 EAST      Yes   No    No    0x26b standing on a scarred hill beyond the shattered wall. Wasteland surrounds the garden
+0x029e  0xdb 0xdc WEST      Yes   No    No    0x26b standing on a scarred hill beyond the shattered wall. Wasteland surrounds the garden
+0x02a0  0xdc 0xe2 NORTH     Yes   No    No    0x26c on worm-blasted gravel
+0x02a2  0xdc 0xdd WEST      Yes   No    No    0x26c on worm-blasted gravel
+0x02a4  0xdd 0xe3 NORTH     Yes   No    No    0x26d in an east-west sand furrow
+0x02a6  0xdd 0xde WEST      Yes   No    No    0x26d in an east-west sand furrow
+0x02a8  0xde 0xe4 NORTH     Yes   No    No    0x26e in a deep east-west sand furrow
+0x02aa  0xde 0xdf WEST      Yes   No    No    0x26e in a deep east-west sand furrow
+0x02ac  0xdf 0xe1 WEST      Yes   No    No    0x26f faced by a narrow, north-south ravine which splits the dry desert. The grass looks greener on the other side
+0x02ae  0xe0 0xe1 EAST      Yes   No    No    0x270 on the grassy west side of the ravine
+0x02b0  0xe0 0xe8 NORTH     Yes   No    No    0x270 on the grassy west side of the ravine
+0x02b2  0xe1 0x00   -       No    No    No    0x271 
+0x02b4  0xe2 0xdc SOUTH     Yes   No    No    0x272 on Doom Dune in the desert
+0x02b6  0xe2 0xe4 EAST      Yes   No    No    0x272 on Doom Dune in the desert
+0x02b8  0xe2 0xe5 NORTH     Yes   No    No    0x272 on Doom Dune in the desert
+0x02ba  0xe3 0xe6 NORTH     Yes   No    No    0x273 on a rock scored with thousands of tiny patterns by the desert winds
+0x02bc  0xe3 0xe2 EAST      Yes   No    No    0x273 on a rock scored with thousands of tiny patterns by the desert winds
+0x02be  0xe4 0xe7 NORTH     Yes   No    No    0x274 walking gingerly across jagged gravel
+0x02c0  0xe4 0xe3 EAST      Yes   No    No    0x274 walking gingerly across jagged gravel
+0x02c2  0xe5 0xdc NORTH     Yes   No    No    0x275 on a plain of bones
+0x02c4  0xe5 0xe7 EAST      Yes   No    No    0x275 on a plain of bones
+0x02c6  0xe6 0xdd NORTH     Yes   No    No    0x276 in a thornbush thicket. There's only just room to squeeze through without being entangled
+0x02c8  0xe6 0xe5 EAST      Yes   No    No    0x276 in a thornbush thicket. There's only just room to squeeze through without being entangled
+0x02ca  0xe7 0xde NORTH     Yes   No    No    0x277 on flat rock bedrock
+0x02cc  0xe7 0xe6 EAST      Yes   No    No    0x277 on flat rock bedrock
+0x02ce  0xe8 0xe9 NORTH     Yes   No    No    0x278 on a battered meadow beside the ravine
+0x02d0  0xe9 0xea NORTH     Yes   No    No    0x279 following the worm tracks
+0x02d2  0xea 0xd7 WEST      No    No    Yes   0x27a south of a glowing gate marked 'EXIT'. A heap of rubble is piled against a high brick wall to the west
+0x02d4  0xea 0x79 NORTH     Yes   No    No    0x27a south of a glowing gate marked 'EXIT'. A heap of rubble is piled against a high brick wall to the west
+0x02d6  0xeb 0xec NORTH     Yes   No    No    0x27b 
+0x02d8  0xec 0xed NORTH     Yes   No    No    0x27c 
+0x02da  0xed 0xee NORTH     Yes   No    No    0x27d 
+0x02dc  0xee 0xef NORTH     Yes   No    No    0x27e 
+0x02de  0xef 0xf0 NORTH     Yes   No    No    0x27f 
+0x02e0  0xf0 0xf1 NORTH     Yes   No    No    0x280 
+0x02e2  0xf1 0xf2 NORTH     Yes   No    No    0x281 
+0x02e4  0xf2 0xf3 NORTH     Yes   No    No    0x282 
+0x02e6  0xf3 0xf4 NORTH     Yes   No    No    0x283 
+0x02e8  0xf4 0xf5 NORTH     Yes   No    No    0x284 
+0x02ea  0xf5 0xf6 NORTH     Yes   No    No    0x285 
+0x02ec  0xf6 0xf7 NORTH     Yes   No    No    0x286 
+0x02ee  0xf7 0xf8 NORTH     Yes   No    No    0x287 
+0x02f0  0xf8 0xf9 NORTH     Yes   No    No    0x288 
+0x02f2  0xf9 0xfa NORTH     Yes   No    No    0x289 
+0x02f4  0xfa 0x01 NORTH     Yes   No    No    0x28a 

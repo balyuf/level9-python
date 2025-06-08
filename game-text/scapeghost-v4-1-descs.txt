@@ -1,0 +1,1337 @@
+0x0001  /  0x0c87 (0x0001)  :  
+0x0002  /  0x0c89 (0x0002)  : :
+0x0003  /  0x0c8c (0x0001)  : , 
+0x0004  /  0x0c8e (0x0001)  : .
+0x0005  /  0x0c90 (0x0002)  : 
+
+0x0006  /  0x0c93 (0x0002)  : and 
+0x0007  /  0x0c96 (0x0003)  : .
+
+0x0008  /  0x0c9a (0x0003)  : ?
+
+0x0009  /  0x0c9e (0x0001)  : . 
+0x000a  /  0x0ca0 (0x0005)  : exits led 
+0x000b  /  0x0ca6 (0x0006)  : an exit led 
+0x000c  /  0x0cad (0x0004)  :  through a door
+0x000d  /  0x0cb2 (0x0006)  :  through an open door
+0x000e  /  0x0cb9 (0x0003)  :  and 
+0x000f  /  0x0cbd (0x0014)  : 
+a haunting breeze carried away the "What now" prompts. 
+0x0010  /  0x0cd2 (0x0004)  : 
+> 
+0x0011  /  0x0cd7 (0x0007)  : 
+What now? 
+0x0012  /  0x0cdf (0x0001)  : : 
+0x0013  /  0x0ce1 (0x0001)  : "
+0x0014  /  0x0ce3 (0x0002)  : a 
+0x0015  /  0x0ce6 (0x0002)  : the 
+0x0016  /  0x0ce9 (0x0002)  : an 
+0x0017  /  0x0cec (0x0002)  : some 
+0x0018  /  0x0cef (0x0003)  : ." 
+0x0019  /  0x0cf3 (0x0004)  : 
+ 
+
+0x001a  /  0x0cf8 (0x0002)  : worn
+0x001b  /  0x0cfb (0x0002)  : taken
+0x0033  /  0x0cff (0x0008)  : north [aka] n northwards
+0x0034  /  0x0d08 (0x0006)  : northeast [aka] ne
+0x0035  /  0x0d0f (0x0008)  : east [aka] e eastwards
+0x0036  /  0x0d18 (0x0008)  : south [aka] s southwards
+0x0037  /  0x0d21 (0x0006)  : southeast [aka] se
+0x0038  /  0x0d28 (0x0006)  : southwest [aka] sw
+0x0039  /  0x0d2f (0x0008)  : west [aka] w westwards
+0x003a  /  0x0d38 (0x0006)  : northwest [aka] nw
+0x003b  /  0x0d3f (0x0008)  : upwards [aka] u up
+0x003c  /  0x0d48 (0x0008)  : downwards [aka] d down
+0x003d  /  0x0d51 (0x000c)  : inside [aka] in inwards into enter
+0x003e  /  0x0d5e (0x0008)  : outside [aka] out leave
+0x003f  /  0x0d67 (0x0006)  : cross [aka] across
+0x0046  /  0x0d6f (0x0002)  : i
+0x0047  /  0x0d72 (0x0006)  : again [aka] a
+0x0048  /  0x0d79 (0x000a)  : look [aka] l display redisplay
+0x0049  /  0x0d84 (0x0008)  : inventory [aka] inv list
+0x004a  /  0x0d8d (0x0004)  : quit restart
+0x004b  /  0x0d92 (0x0004)  : restore load
+0x004c  /  0x0d97 (0x0002)  : save
+0x004d  /  0x0d9a (0x0004)  : ramsave ram
+0x004e  /  0x0d9f (0x0002)  : ramload
+0x004f  /  0x0da2 (0x0006)  : score rating status
+0x0050  /  0x0da9 (0x0002)  : verbose
+0x0051  /  0x0dac (0x0002)  : brief
+0x0052  /  0x0daf (0x000a)  : wait [aka] wa pause z
+0x0053  /  0x0dba (0x0008)  : ring [aka] play sound
+0x0054  /  0x0dc3 (0x0002)  : on
+0x0055  /  0x0dc6 (0x0002)  : off
+0x0059  /  0x0dca (0x0004)  : UNDO OOPS
+0x005a  /  0x0dcf (0x0010)  : hit [aka] attack hit smash kill wake rouse
+0x005c  /  0x0de1 (0x0008)  : searched [aka] search explore
+0x005d  /  0x0dea (0x0006)  : dug [aka] dig
+0x005e  /  0x0df1 (0x0008)  : sniffed [aka] sniff smell
+0x005f  /  0x0dfa (0x0006)  : knocked [aka] knock
+0x0060  /  0x0e01 (0x0009)  : got [aka] stood stand jump
+0x0061  /  0x0e0b (0x0008)  : knelt [aka] kneel bend
+0x0062  /  0x0e14 (0x0008)  : got [aka] sat sit
+0x0063  /  0x0e1d (0x0006)  : hid [aka] hide
+0x0064  /  0x0e24 (0x000c)  : said [aka] say whisper call talk
+0x0065  /  0x0e31 (0x0006)  : teleported [aka] teleport
+0x0066  /  0x0e38 (0x0002)  : getme
+0x0067  /  0x0e3b (0x0006)  : filled [aka] fill
+0x0068  /  0x0e42 (0x0008)  : ran [aka] run fly
+0x0069  /  0x0e4b (0x0006)  : made [aka] make
+0x006b  /  0x0e53 (0x000d)  : ghosts don't eat [aka] taste nibble lick
+0x006c  /  0x0e61 (0x000e)  : went [aka] go goto find walk fly
+0x006d  /  0x0e70 (0x0008)  : stopped [aka] stop abort
+0x006e  /  0x0e79 (0x000c)  : I didn't have the stomach for a drink..
+0x0070  /  0x0e87 (0x0004)  : exits exit
+0x0082  /  0x0e8d (0x0006)  : had [aka] have
+0x0083  /  0x0e94 (0x0006)  : had [aka] has
+0x0084  /  0x0e9b (0x0006)  : was [aka] am
+0x0085  /  0x0ea2 (0x0006)  : were [aka] are
+0x0086  /  0x0ea9 (0x0006)  : was [aka] is
+0x0087  /  0x0eb0 (0x0002)  : are
+0x0088  /  0x0eb3 (0x0001)  : is
+0x0096  /  0x0eb6 (0x000a)  : examined [aka] examine read x
+0x0097  /  0x0ec1 (0x0006)  : cut [aka] chop
+0x009a  /  0x0ec9 (0x0006)  : got [aka] get
+0x009b  /  0x0ed0 (0x0012)  : took [aka] take carry catch lift hold keep grab
+0x009c  /  0x0ee3 (0x0006)  : wore [aka] wear
+0x009d  /  0x0eea (0x0008)  : dropped [aka] drop discard
+0x009e  /  0x0ef3 (0x0006)  : put [aka] conceal
+0x009f  /  0x0efa (0x000a)  : removed [aka] remove free release
+0x00a0  /  0x0f05 (0x0008)  : threw [aka] throw hurl
+0x00a1  /  0x0f0e (0x000e)  : gave [aka] give offer show offer sell
+0x00a2  /  0x0f1d (0x0008)  : asked [aka] ask question
+0x00a3  /  0x0f26 (0x0008)  : followed [aka] follow chase
+0x00a4  /  0x0f2f (0x000a)  : opened [aka] open unlock pick
+0x00a8  /  0x0f3b (0x0016)  : pushed [aka] tug push rock press select depress poke prod touch
+0x00a9  /  0x0f52 (0x000a)  : fastened [aka] fasten tie attach
+0x00aa  /  0x0f5d (0x0008)  : unfastened [aka] unfasten untie
+0x00ab  /  0x0f66 (0x0008)  : pulled [aka] pull yank
+0x00ac  /  0x0f6f (0x000e)  : wrote [aka] write inscribe scribe scribble carve
+0x00ad  /  0x0f7e (0x000c)  : erased [aka] erase rub wipe end
+0x00ae  /  0x0f8b (0x000a)  : stroked [aka] stroke pat calm
+0x00b0  /  0x0f97 (0x0006)  : inserted [aka] insert
+0x00be  /  0x0f9f (0x0008)  : closed [aka] close shut
+0x00c0  /  0x0fa9 (0x0002)  : told
+0x00c2  /  0x0fad (0x0002)  : struggled
+0x00c5  /  0x0fb1 (0x0002)  : killed
+0x00d2  /  0x0fb5 (0x0002)  : reached
+0x00d3  /  0x0fb8 (0x0002)  : dragged
+0x00d4  /  0x0fbb (0x0002)  : passed
+0x00d5  /  0x0fbe (0x0002)  : flew
+0x00d6  /  0x0fc1 (0x0002)  : walked
+0x00d7  /  0x0fc4 (0x0002)  : caught
+0x00d8  /  0x0fc7 (0x0002)  : entered
+0x00fa  /  0x0fcb (0x000c)  : OK, if you say not [aka] no
+0x00fb  /  0x0fd8 (0x000a)  : right, so be it [aka] yes
+0x00fc  /  0x0fe3 (0x0017)  : that's one way to keep your spirits up! [aka] leap hop skip dance celebrate
+0x00fd  /  0x0ffb (0x0018)  : thunder rolled ominously [aka] plugh xyzzy sesame plover humakaat satarh ollabin obis
+0x00ff  /  0x1015 (0x002d)  : to talk to someone, follow their name with what you want to say to them. For example JOE, HELLO [aka] hello welcome hi greetings day afternoon
+0x0100  /  0x1043 (0x0012)  : I heard nothing that I hadn't heard before [aka] listen hear
+0x0101  /  0x1056 (0x0012)  : send the coupon to Level 9 for a hint [aka] help
+0x0107  /  0x106a (0x0009)  : why not [aka] y why
+0x010b  /  0x1075 (0x0058)  : that sort of language is not very clever [aka] sod motherfucker crap nipples bloody frigging wanker turd piss shit twat cunt bollocks jesus christ god devil tits asshole arsehole cretin conservatives spastic coon wog fucking fucker bastard bugger damn sex hell bonk pratt rape shag fuck
+0x0111  /  0x10d0 (0x0011)  : goodbye. Don't forget to save your position first [aka] bye
+0x0112  /  0x10e2 (0x000c)  : and I should think so too [aka] sorry
+0x0117  /  0x10f0 (0x0011)  : I found that closing my eyes made no difference [aka] sleep
+0x0118  /  0x1102 (0x0011)  : as a ghost, I could not cross flowing water [aka] swim
+0x011b  /  0x1115 (0x0002)  : hit
+0x011c  /  0x1118 (0x001a)  : I concentrated hard but found that my powers were too weak to do much yet [aka] concentrate meditate
+0x011d  /  0x1133 (0x0009)  : I wasn't thirsty [aka] drink
+0x011e  /  0x113d (0x000e)  : shaking it would take too much strength [aka] shake
+0x0120  /  0x114d (0x000f)  : there was quite enough buried here already [aka] bury
+0x0122  /  0x115e (0x0015)  : I tried to polish it, but my hand went through [aka] rub clean
+0x0123  /  0x1174 (0x0015)  : you fill a container by, eg, "PUT THING IN CONTAINER"
+0x0124  /  0x118a (0x0010)  : please empty a container by removing its contents in turn
+0x0129  /  0x119c (0x000c)  : my lips passed straight through [aka] kiss
+0x012d  /  0x11aa (0x000e)  : I [aka] player me Alan Chance myself
+0x012e  /  0x11b9 (0x0004)  : Joe Danby
+0x012f  /  0x11be (0x0004)  : Bert Willmot
+0x0130  /  0x11c3 (0x0004)  : Edna Willmot
+0x0131  /  0x11c8 (0x0004)  : David Ridge
+0x0132  /  0x11cd (0x0004)  : Alex Pym
+0x0133  /  0x11d2 (0x0004)  : Edith Dean
+0x0134  /  0x11d7 (0x0004)  : Colonel Rycroft
+0x0135  /  0x11dc (0x0004)  : Violet Conway
+0x0136  /  0x11e1 (0x0008)  : mourners [aka] relatives family
+0x0137  /  0x11ea (0x0002)  : detective
+0x0138  /  0x11ed (0x0005)  : the cemetery supervisor
+0x0139  /  0x11f3 (0x0003)  : the workman
+0x013a  /  0x11f7 (0x000e)  : vandals [aka] gang hooligans yobbos yobs thugs
+0x013b  /  0x1206 (0x0008)  : dog [aka] mutt hound
+0x017c  /  0x1210 (0x0008)  : thistledown [aka] thistle down
+0x017d  /  0x1219 (0x0002)  : petal
+0x017e  /  0x121c (0x0004)  : dry leaf
+0x017f  /  0x1221 (0x0002)  : matchbook
+0x0180  /  0x1224 (0x0006)  : pebble [aka] stone
+0x0181  /  0x122b (0x0004)  : white card
+0x0182  /  0x1230 (0x0004)  : yellow card
+0x0183  /  0x1235 (0x0008)  : fishbone [aka] fish bone
+0x0184  /  0x123e (0x0008)  : twig [aka] stick branch
+0x0185  /  0x1247 (0x0006)  : watch [aka] wristwatch
+0x0186  /  0x124e (0x0002)  : bell
+0x0187  /  0x1251 (0x0002)  : gnomon
+0x018b  /  0x1255 (0x0004)  : carrier bag
+0x018c  /  0x125a (0x0006)  : newspaper [aka] paper
+0x018d  /  0x1261 (0x000b)  : copy of Time magazine [aka] time
+0x018e  /  0x126d (0x0002)  : bottle
+0x018f  /  0x1270 (0x0006)  : shovel [aka] spade
+0x0190  /  0x1277 (0x0004)  : new wreath
+0x0191  /  0x127c (0x0004)  : green wreath
+0x0192  /  0x1281 (0x0004)  : faded wreath
+0x019a  /  0x1287 (0x0002)  : button
+0x019b  /  0x128a (0x0002)  : switch
+0x019c  /  0x128d (0x0008)  : lightbulb [aka] light bulb
+0x019d  /  0x1296 (0x0006)  : lock [aka] latch
+0x019e  /  0x129d (0x0002)  : barrel
+0x019f  /  0x12a0 (0x0004)  : short lever
+0x01a0  /  0x12a5 (0x000a)  : medium sized lever [aka] middle
+0x01a1  /  0x12b0 (0x0004)  : long lever
+0x01a2  /  0x12b5 (0x0004)  : rope handle
+0x01a3  /  0x12ba (0x000a)  : gravel [aka] pebbles stones chippings
+0x01a4  /  0x12c5 (0x0006)  : vase [aka] jug
+0x01a5  /  0x12cc (0x0008)  : dogwood bush [aka] bushes
+0x01a6  /  0x12d5 (0x000d)  : heap of branches [aka] twigs sticks compost
+0x01a7  /  0x12e3 (0x000b)  : mound of earth [aka] soil dirt
+0x01a8  /  0x12ef (0x0002)  : vault
+0x01a9  /  0x12f2 (0x0008)  : spotlight [aka] light bulb
+0x01aa  /  0x12fb (0x0002)  : thermometer
+0x01ab  /  0x12fe (0x0004)  : yew tree
+0x01ac  /  0x1303 (0x0004)  : octagonal seat
+0x01ad  /  0x1308 (0x0004)  : jumbled stonework
+0x01ae  /  0x130d (0x0006)  : carvings [aka] etchings
+0x01af  /  0x1314 (0x0006)  : plinth [aka] stand
+0x01b0  /  0x131b (0x0008)  : statue [aka] Alex Pym
+0x01b1  /  0x1324 (0x0002)  : sundial
+0x01b2  /  0x1327 (0x0004)  : broken sundial
+0x01b3  /  0x132c (0x0002)  : sarcophagus
+0x01b4  /  0x132f (0x0006)  : urn [aka] greek
+0x01b5  /  0x1336 (0x0006)  : message reading time
+0x01b6  /  0x133d (0x0004)  : shed door
+0x01b7  /  0x1342 (0x000a)  : crumbling abbey wall [aka] church
+0x01b8  /  0x134d (0x000a)  : cart [aka] electric carriage vehicle
+0x01c2  /  0x1359 (0x0008)  : headstone [aka] tombstone gravestone
+0x01c3  /  0x1362 (0x0006)  : grave [aka] mound
+0x01c4  /  0x1369 (0x0002)  : gate
+0x01c5  /  0x136c (0x0006)  : main entrance gate
+0x01c6  /  0x1373 (0x0004)  : wooden frame
+0x01c7  /  0x1378 (0x000a)  : burnt church [aka] abbey wall
+0x01c8  /  0x1383 (0x0002)  : thermometer
+0x01c9  /  0x1386 (0x0002)  : thermometer
+0x01cb  /  0x138a (0x0006)  : shed [aka] cabin
+0x01cc  /  0x1391 (0x0006)  : footprints [aka] footsteps
+0x01cd  /  0x1398 (0x0008)  : cenotaph [aka] war memorial
+0x01ce  /  0x13a1 (0x0008)  : marigolds [aka] flowers plants
+0x01cf  /  0x13aa (0x0008)  : copper beech [aka] tree
+0x01d0  /  0x13b3 (0x0008)  : elder bushes [aka] bush
+0x01d1  /  0x13bc (0x000a)  : flowerbed [aka] poppies flowers plants
+0x01d2  /  0x13c7 (0x0002)  : crosses
+0x01d3  /  0x13ca (0x0008)  : carrier bags [aka] plastic
+0x01d5  /  0x13d4 (0x0008)  : abbey wall [aka] church
+0x01d6  /  0x13dd (0x0002)  : window
+0x01d7  /  0x13e0 (0x0002)  : window
+0x01d8  /  0x13e3 (0x000a)  : company [aka] followers friends companions
+0x01db  /  0x13ef (0x000b)  : light coming from the shed [aka] lightbulb
+0x01dc  /  0x13fb (0x0006)  : spotlight [aka] light
+0x01dd  /  0x1402 (0x000c)  : street lights [aka] lamps posts light
+0x01de  /  0x140f (0x0005)  : something in the air
+0x01e0  /  0x1416 (0x0006)  : shed [aka] cabin
+0x01e1  /  0x141d (0x0002)  : path
+0x01e2  /  0x1420 (0x0004)  : toppled sepulchre
+0x0208  /  0x1426 (0x0005)  : the word time
+0x0216  /  0x142d (0x0006)  : everything all every
+0x0217  /  0x1434 (0x0002)  : ingredients
+0x0219  /  0x1438 (0x0008)  : people [aka] everyone everybody
+0x021b  /  0x1442 (0x0002)  : door
+0x021d  /  0x1446 (0x000c)  : plants [aka] weeds flowers grass soil
+0x021e  /  0x1453 (0x0002)  : be
+0x021f  /  0x1456 (0x0008)  : room [aka] ground floor
+0x0220  /  0x145f (0x0006)  : wall [aka] walls
+0x0221  /  0x1466 (0x000c)  : sky [aka] sun moon air stars
+0x0223  /  0x1474 (0x0004)  : except but
+0x0224  /  0x1479 (0x0010)  : it [aka] that them those none him her
+0x0225  /  0x148a (0x0004)  : minute minutes
+0x0227  /  0x1490 (0x0004)  : then next
+0x0228  /  0x1495 (0x0004)  : therefore so
+0x0229  /  0x149a (0x0006)  : I [aka] you
+0x0230  /  0x14a2 (0x0001)  : it
+0x0231  /  0x14a4 (0x0001)  : it
+0x0232  /  0x14a6 (0x0001)  : some
+0x0233  /  0x14a8 (0x0001)  : he
+0x0234  /  0x14aa (0x0001)  : she
+0x0235  /  0x14ac (0x0001)  : they
+0x0236  /  0x14ae (0x0001)  : I
+0x0237  /  0x14b0 (0x0001)  : he
+0x0238  /  0x14b2 (0x0001)  : she
+0x023a  /  0x14b5 (0x0001)  : it
+0x023b  /  0x14b7 (0x0001)  : it
+0x023c  /  0x14b9 (0x0001)  : them
+0x023d  /  0x14bb (0x0002)  : him
+0x023e  /  0x14be (0x0001)  : her
+0x023f  /  0x14c0 (0x0001)  : them
+0x0240  /  0x14c2 (0x0001)  : me
+0x0241  /  0x14c4 (0x0002)  : him
+0x0242  /  0x14c7 (0x0001)  : her
+0x0243  /  0x14c9 (0x0002)  : ~
+0x0244  /  0x14cc (0x0002)  : s
+0x0245  /  0x14cf (0x0002)  : es
+0x0246  /  0x14d2 (0x0001)  : is
+0x0249  /  0x14d5 (0x0004)  : from the south
+0x024a  /  0x14da (0x0004)  : from the southwest
+0x024b  /  0x14df (0x0004)  : from the west
+0x024c  /  0x14e4 (0x0004)  : from the north
+0x024d  /  0x14e9 (0x0004)  : from the northwest
+0x024e  /  0x14ee (0x0004)  : from the northeast
+0x024f  /  0x14f3 (0x0004)  : from the east
+0x0250  /  0x14f8 (0x0004)  : from the southeast
+0x0251  /  0x14fd (0x0003)  : from below
+0x0252  /  0x1501 (0x0003)  : from above
+0x0253  /  0x1505 (0x0003)  : from outside
+0x0254  /  0x1509 (0x0003)  : from inside
+0x0255  /  0x150d (0x0005)  : from across the way
+0x0256  /  0x1513 (0x0003)  : by climbing
+0x0257  /  0x1517 (0x0004)  : with a jump
+0x0259  /  0x151d (0x0012)  : the same as I had always been, as far as I could tell
+0x025a  /  0x1530 (0x002a)  : the ghost of the landlord of one of the local pubs. He was a good sort, always ready to help out [aka] publican landlord bartender ghostly figure
+0x025b  /  0x155b (0x0007)  : a thin, pale ghost
+0x025c  /  0x1563 (0x0009)  : the ghost of Bert's loving wife
+0x025d  /  0x156d (0x000f)  : an impeccably dressed ghost, with an irritatingly smug expression
+0x025e  /  0x157d (0x0020)  : a strange ghost who spent much of his time posing as a statue. Some reckoned he was just bone idle [aka] statue
+0x025f  /  0x159e (0x0030)  : a self-pitying spirit. She was of the quiet whimpering variety, that by the end of a night's haunting is a lot more wearing than those who shout and make a fuss
+0x0260  /  0x15cf (0x0015)  : the stubborn old ghost of a stubborn old soldier, who was living in the past
+0x0261  /  0x15e5 (0x0019)  : the ghost of a frail old lady who had gone blind in the last years before her death
+0x0262  /  0x15ff (0x008e)  : a solemn crowd, most of them fighting back tears or sobbing openly into their handkerchiefs. But there were others in police uniforms, whose stony expressions showed that their attendance was just a matter of duty. 
+ 
+I looked at each, wondering who they were. My mind felt like quicksand as I stared at all the unknown, familiar faces, trying to get some response that would help me to remember. But if they looked my way at all, they looked straight through me as if I wasn't there [aka] police colleagues policeman policemen
+0x0263  /  0x1690 (0x0026)  : difficult to place at first, but then it clicked. He was Severian, a new recruit to the drugs squad [aka] crook criminal villain policeman
+0x0264  /  0x16b7 (0x000f)  : a grey old man with a stern, lined face
+0x0265  /  0x16c7 (0x0015)  : a weather-beaten old cove, who squinted at the ground through thick bottle-glass spectacles
+0x0266  /  0x16dd (0x0013)  : staggering drunkenly through the cemetery, passing a bottle of vodka between them
+0x0267  /  0x16f1 (0x0015)  : a flea-ridden stray, with no home but the cemetery [aka] throat neck mouth
+0x02a8  /  0x1708 (0x0008)  : the merest wisp of gossamer
+0x02a9  /  0x1711 (0x0018)  : a last fragment of a dying flower, so pale and thin it was almost translucent
+0x02aa  /  0x172a (0x0013)  : a dry crisp of russet brown, the plaything of Autumn winds
+0x02ab  /  0x173e (0x0021)  : an cardboard flap. The cover advertised a car hire company in South America [aka] match book matchbox matches
+0x02ac  /  0x1760 (0x0008)  : a small, well-rounded flint
+0x02ad  /  0x1769 (0x0034)  : printed with, "For Alan Chance, a much loved man and long-serving police officer, murdered in the line of duty. His family and friends shall all miss him dearly"
+0x02ae  /  0x179e (0x0021)  : imprinted in faded writing with, "In memory of Edna Willmot, who now shares eternity with her much loved husband"
+0x02af  /  0x17c0 (0x000d)  : a long curved bone, with jagged ends
+0x02b0  /  0x17ce (0x0009)  : a scrap of wood and bark
+0x02b1  /  0x17d8 (0x0014)  : a slim model, with a flat plastic case and a thin strap
+0x02b2  /  0x17ed (0x0017)  : a small brass dome, with a leather thong for it to hang in the twilight
+0x02b3  /  0x1805 (0x000f)  : the thin iron pointer which had broken off the sundial
+0x02b7  /  0x1816 (0x0005)  : full of biscuits
+0x02b8  /  0x181c (0x006e)  : the Daily Mail, dated the first of November 1989. Presumably today. Something niggled at the back of my mind, and I remembered that the gangsters had set up a meet for the second. Tomorrow they would be collecting their hard drugs, turning them into into hard cash and escaping. Which meant they would no longer need a hostage. Sarah would die unless I could immobilise the drugs hoard tonight
+0x02b9  /  0x188c (0x0006)  : a slug-chewed old copy
+0x02ba  /  0x1893 (0x0024)  : half full of vodka - a clean spirit with a heck of a kick, just like I aimed to be [aka] booze alcohol
+0x02bb  /  0x18b8 (0x000f)  : a sturdy old tool, the blade shiny with wear
+0x02bc  /  0x18c8 (0x0008)  : glistening with life and vitality
+0x02bd  /  0x18d1 (0x0008)  : of laurel and hardy evergreens
+0x02be  /  0x18da (0x0011)  : faded and tatty; its flowers wilted and leaves shrivelled
+0x02c6  /  0x18ed (0x0007)  : a red plastic push-button
+0x02c7  /  0x18f5 (0x0008)  : an old bakelite light switch
+0x02c8  /  0x18fe (0x0016)  : a 40 watt clear bulb, and far too bright for my ghostly gaze
+0x02c9  /  0x1915 (0x000f)  : a galvanised iron lock for the shed door [aka] levers
+0x02ca  /  0x1925 (0x003e)  : a small steel cylinder, which had to be turned to unlock the door. The three levers rested against it, preventing the barrel from turning unless they all pushed simultaneously into place. What I needed was the key to doing this
+0x02cb  /  0x1964 (0x0008)  : part of the lock mechanism
+0x02cc  /  0x196d (0x0008)  : part of the lock mechanism
+0x02cd  /  0x1976 (0x0008)  : part of the lock mechanism
+0x02ce  /  0x197f (0x0012)  : a thick twist of plaitted rope, fastened firmly to the door
+0x02cf  /  0x1992 (0x000a)  : a thick layer of loose pebbles
+0x02d0  /  0x199d (0x000d)  : a squat glass vessel, green with algae
+0x02d1  /  0x19ab (0x0011)  : about waist high; its ornamental branches bare of leaves
+0x02d2  /  0x19bd (0x000d)  : an untidy heap of prunings and wind-broken wood
+0x02d3  /  0x19cb (0x0004)  : beside my grave
+0x02d4  /  0x19d0 (0x004e)  : a hefty stone job; its lid much too heavy for a ghost to move. A flash of white caught my attention, so I peered through a small crack under the rim. A faint streak of moonlight filtered through the crack to reveal a pile of white plastic bags
+0x02d5  /  0x1a20 (0x0013)  : a high-powered light to illuminate the repair fund thermometer [aka] bulb
+0x02d6  /  0x1a34 (0x002f)  : a large, wooden model that showed the progress of the church repair fund. It looked like a severe case of hypothermia. The thermometer was bolted to the crumbling abbey wall
+0x02d7  /  0x1a64 (0x0010)  : a dusty old tree, its branches splayed with age
+0x02d8  /  0x1a75 (0x0009)  : supported on short stone pillars
+0x02d9  /  0x1a7f (0x0022)  : , at first glance, a mass of jumbled stones. Looking closer, I could see a plinth and some carvings [aka] stone
+0x02da  /  0x1aa2 (0x0012)  : weathered engravings; a fading memorial to whoever was buried here
+0x02db  /  0x1ab5 (0x0017)  : a decorated square stone base, that may once have been topped by a cross
+0x02dc  /  0x1acd (0x0030)  : a very lifelike figure, despite being cracked and blackened with age. It was of a young man, possibly in a deep sleep since his eyes were shut tightly
+0x02dd  /  0x1afe (0x0020)  : a top-heavy stone ornament, with a fluted pillar and a round top on which its gnomon cast a faint shadow
+0x02de  /  0x1b1f (0x000b)  : smashed into a scatter of jagged pieces
+0x02df  /  0x1b2b (0x0010)  : a marble coffin, decorated like a miniature Greek temple
+0x02e0  /  0x1b3c (0x0006)  : definitely a Greek one
+0x02e1  /  0x1b43 (0x000f)  : intended for me to erase, thus ending "time"
+0x02e2  /  0x1b53 (0x0007)  : built of thick planks
+0x02e3  /  0x1b5b (0x0015)  : sagging above the path. The thermometer was clamped to it with rusting bolts
+0x02e4  /  0x1b71 (0x0018)  : a small electric buggy, like a road-going trolly with a bench seat [aka] pram
+0x02ee  /  0x1b8b (0x0005)  : of inscribed marble
+0x02ef  /  0x1b91 (0x0007)  : marked in the usual way
+0x02f0  /  0x1b99 (0x0011)  : an old iron gate leading east to the car park
+0x02f1  /  0x1bab (0x0017)  : the entrance to the graveyard. I was certainly not going to use it as an exit
+0x02f2  /  0x1bc3 (0x000b)  : a wooden construction which supported the spotlight
+0x02f3  /  0x1bcf (0x0025)  : the blackened shell of a burnt and ruined church. I seemed to recall that we never did establish if it was arson or an accident
+0x02f4  /  0x1bf5 (0x001a)  : a "church repair fund" indicator, set against the wall in front of the spotlight
+0x02f5  /  0x1c10 (0x0016)  : a "church repair fund" indicator, bolted to the wall beside the path
+0x02f7  /  0x1c28 (0x0011)  : where the workmen kept their tools and had their tea breaks
+0x02f8  /  0x1c3a (0x000f)  : deeply trodden into the gravel in front of the shed door
+0x02f9  /  0x1c4a (0x002a)  : a granite memorial from the first world war. Typically, it named only those who died quickly; spurning the deeds and sacrifices of the survivors
+0x02fa  /  0x1c75 (0x0017)  : a last flurry of yellow flowers among the browning heads of the dying Autumn
+0x02fb  /  0x1c8d (0x0016)  : a big old copper beech, its broad branches reaching up to the heavens
+0x02fc  /  0x1ca4 (0x000a)  : a coarse growth of thick-stemmed elders
+0x02fd  /  0x1caf (0x000b)  : still bearing their cheerful red flowers
+0x02fe  /  0x1cbb (0x0008)  : a collection of anonymous markers
+0x02ff  /  0x1cc4 (0x0039)  : from high street shops, apparently just another pile of litter. But I could sense the narcotics within, wrapped against the damp in layers of plastic [aka] pile heroin cocaine LSD hashish drugs
+0x0301  /  0x1cff (0x0017)  : the south end of the crumbling abbey wall. It teetered dangerously above the vault
+0x0302  /  0x1d17 (0x0025)  : thick with dust and cobwebs. A small hole had been wiped clear, so that the workmen could keep watch for their boss coming
+0x0303  /  0x1d3d (0x000e)  : streaked with grime, but solid and firmly shut
+0x0304  /  0x1d4c (0x000a)  : a motley host of other ghosts
+0x0307  /  0x1d58 (0x0005)  : the light in the shed
+0x0308  /  0x1d5e (0x0004)  : amazingly bright
+0x0309  /  0x1d63 (0x0005)  : a horrid yellow
+0x030a  /  0x1d69 (0x0005)  : illuminated by the light
+0x030c  /  0x1d70 (0x0006)  : the workmen's tool shed
+0x030d  /  0x1d77 (0x0004)  : a well-worn path
+0x030e  /  0x1d7c (0x0010)  : a large tomb that had collapsed under its own weight
+0x0323  /  0x1d8e (0x0008)  : on a wide gravel path
+0x0324  /  0x1d97 (0x0006)  : on a muddy lawn
+0x0325  /  0x1d9e (0x0006)  : on a gravel path
+0x0326  /  0x1da5 (0x0008)  : at a junction in the path
+0x0327  /  0x1dae (0x0007)  : beside a rusty gate
+0x0328  /  0x1db6 (0x0006)  : by the main gate
+0x0329  /  0x1dbd (0x0006)  : by the south wall
+0x032a  /  0x1dc4 (0x0006)  : on a grassy lawn
+0x032b  /  0x1dcb (0x0007)  : by Edith Dean's headstone
+0x032f  /  0x1dd4 (0x0005)  : inside the shed
+0x0334  /  0x1ddb (0x003d)  : by the tall oak door of the burnt church. Though charred by the fire, the door was still solid and was too thick for ghosts to pass through. As there was nothing to do there, I turned and drifted back to the path
+0x033e  /  0x1e1a (0x004a)  : on a north-south path leading towards the car park. As I floated away from my grave, I felt the cemetery pulling at me, sapping my strength. Before long I had faded so much that I couldn't go on. I turned, and as I returned my strength built up once more
+0x033f  /  0x1e66 (0x004d)  : beginning to fade as I neared the boundary of the cemetery. I could see the road ahead, but was too drained to move even another inch towards it. What strength I had seemed to come from the cemetery, and to leave me if I strayed too far from my grave. I had to turn back
+0x0340  /  0x1eb5 (0x002a)  : weakening rapidly as I got further from my grave. It soon became obvious that I wouldn't have the strength to reach the road ahead, and I turned back
+0x0341  /  0x1ee0 (0x002e)  : fading as I drew towards the limits of the cemetery. The road was close ahead, but I hadn't the strength to carry on. I turned and let myself be drawn back
+0x0348  /  0x1f10 (0x0006)  : by a toppled sepulchre
+0x0349  /  0x1f17 (0x0006)  : west of the shed
+0x034a  /  0x1f1e (0x0008)  : at the end of the path
+0x034b  /  0x1f27 (0x000a)  : at a corner in the gravel path
+0x034c  /  0x1f32 (0x0009)  : standing beside my own grave
+0x034d  /  0x1f3c (0x0008)  : by the headstone of Violet Conway
+0x034e  /  0x1f45 (0x000c)  : among an untidy group of old tombstones
+0x034f  /  0x1f52 (0x0009)  : in a patch of swishy grass
+0x0350  /  0x1f5c (0x0006)  : in a circular clearing
+0x0351  /  0x1f63 (0x0005)  : by Joe Danby's grave
+0x0352  /  0x1f69 (0x0008)  : by a grave covered in marigolds
+0x0353  /  0x1f72 (0x0006)  : by a granite cenotaph
+0x0354  /  0x1f79 (0x0009)  : by the tomb of David Ridge
+0x0355  /  0x1f83 (0x0007)  : beneath a copper beech
+0x0356  /  0x1f8b (0x0006)  : among the new graves
+0x0357  /  0x1f92 (0x0009)  : in a patch of elder bushes
+0x0358  /  0x1f9c (0x0007)  : by Colonel Rycroft's tombstone
+0x0359  /  0x1fa4 (0x0008)  : on a neatly mowed lawn
+0x035a  /  0x1fad (0x0006)  : by some new graves
+0x035b  /  0x1fb4 (0x0006)  : by the Willmot graves
+0x044f  /  0x1fbd (0x0009)  :  leading south from the graves
+0x0450  /  0x1fc7 (0x0018)  :  to the southeast of the graveyard. A tall wooden frame supported a large spotlight
+0x0451  /  0x1fe0 (0x0026)  :  which ran east towards the graveyard and south towards the main entrance to the cemetery. Just to the north were the ruins of an old church
+0x0452  /  0x2007 (0x0011)  :  where a large stone vault stood, squat and solid
+0x0453  /  0x2019 (0x001f)  :  which was jammed open, its hinges caked with rust. A path led east towards the cemetery car park
+0x0454  /  0x2039 (0x0010)  :  which led south out of the cemetery and away towards the town
+0x0455  /  0x204a (0x0016)  :  of the cemetery. The path here was covered with the fallen leaves of nearby trees
+0x0456  /  0x2061 (0x001d)  :  at the southeast corner of the cemetery. There was nothing but long grass between here and the south wall
+0x0457  /  0x207f (0x000d)  :  in a remote and lonely corner of the cemetery
+0x045b  /  0x208e (0x000b)  :  where the workmen kept their tools
+0x0474  /  0x209b (0x0009)  : , overgrown with weeds and grass
+0x0475  /  0x20a5 (0x0010)  :  where a pile of twigs and branches lay rotting
+0x0476  /  0x20b6 (0x000a)  :  outside an old weather-beaten shed
+0x0477  /  0x20c1 (0x0011)  :  which wound west to a shed and south beside the church
+0x0479  /  0x20d4 (0x0006)  : , beside the hedge
+0x047a  /  0x20db (0x0017)  : , leaning sleepily together. Others were obscured behind a veil of uncut grass
+0x047b  /  0x20f3 (0x0006)  : , heavy with dew
+0x047c  /  0x20fa (0x0006)  :  between the graves
+0x047d  /  0x2101 (0x001b)  : . It was a well-tended spot, for this was a man who had been loved by many in the village
+0x047e  /  0x211d (0x000e)  : , their gold evoking the memory of summers past
+0x047f  /  0x212c (0x0015)  : . A small flowerbed of poppies had been grown around the base of the monument
+0x0480  /  0x2142 (0x0007)  : , with its imposing headstone
+0x0481  /  0x214a (0x000d)  : . Golden leaves rustled gently in the breeze
+0x0482  /  0x2158 (0x0013)  : , a neatly aligned set of black and white headstones and crosses
+0x0483  /  0x216c (0x000a)  :  in the northwest corner of the cemetery
+0x0484  /  0x2177 (0x000f)  : , in the shadow of the war memorial to the south
+0x0485  /  0x2187 (0x0011)  :  where a collection of marble crosses stood white and proud
+0x0486  /  0x2199 (0x0013)  : , with trim low walls of stone enclosing white stone chippings
+0x0487  /  0x21ad (0x0016)  :  where a tombstone bore a double inscription under the word "reunited"
+0x054a  /  0x21c6 (0x0010)  : it stood gaunt and tall in the gloom of the evening. 
+0x054b  /  0x21d7 (0x0023)  : the church was blackened by fire; its ancient stone walls streaked with soot and its roof a jumble of cracked slates. 
+0x054c  /  0x21fb (0x001d)  : the abbey wall to the west bulged ominously towards the vault, as if it might topple any minute. 
+0x054d  /  0x2219 (0x001e)  : the cortege that had brought me had gone now, leaving me behind. They don't do return tickets for hearses. 
+0x054e  /  0x2238 (0x0013)  : the streets had been my patch, but I'd got a new beat now. 
+0x054f  /  0x224c (0x001a)  : 
+ 
+oddly enough, the leaves made no rustling sounds as I walked over them. 
+0x0551  /  0x2268 (0x0011)  : this tidy place seemed scarcely touched by the passage of time. 
+0x0555  /  0x227b (0x001a)  : the floor was caked with mud, and the corners and roof were draped with old cobwebs. 
+0x056e  /  0x2297 (0x000d)  : broken stones glistened with the evening dew. 
+0x056f  /  0x22a5 (0x002b)  : a hedgehog snuffled its way over - or through - my feet. "That makes a change", I thought, "being run over by a hedgehog". 
+0x0571  /  0x22d2 (0x000d)  : I felt a strange pull towards the east. 
+0x0572  /  0x22e0 (0x002f)  : 
+ 
+as the mourners prepared to file away, ignoring me, I was still rooted to the spot. This was going to take a bit of getting used to. 
+0x0573  /  0x2310 (0x0012)  : the thin branches of the bush swayed slightly in the breeze. 
+0x0574  /  0x2323 (0x001c)  : this peaceful part of the cemetery seemed so old that even its ghosts had faded and only Nature remained. 
+0x0575  /  0x2340 (0x000f)  : the webs of a thousand spiders glistened like frost. 
+0x0576  /  0x2350 (0x0018)  : the moon had risen, casting a faint shadow across the top of the sundial. 
+0x0577  /  0x2369 (0x0021)  : the inscription on the stone read, "The great Landlord has called 'Time' on our Joe". 
+0x0578  /  0x238b (0x001b)  : the marigolds must have been beautiful in the Summer, and even now there were still some in flower. 
+0x057a  /  0x23a8 (0x000e)  : here lay someone who didn't want to be forgotten. 
+0x057b  /  0x23b7 (0x001b)  : 
+ 
+The tree cast a long shadow across the leaves that carpeted the ground. 
+0x057c  /  0x23d3 (0x0031)  : they were all the same height, all the same width. Nice and tidy, but soulless compared with the rambling variety of the older memorials in the west part of the cemetery. 
+0x057d  /  0x2405 (0x0012)  : a flock of starlings flew past, on their way to roost. 
+0x057e  /  0x2418 (0x000e)  : it was a fitting resting place for an old soldier. 
+0x057f  /  0x2427 (0x001f)  : a low mist hovered above the grass; a rising tide of grey threatening to drown the crosses. 
+0x0580  /  0x2447 (0x000c)  : a stray cat fled as I approached. 
+0x0581  /  0x2454 (0x0023)  : the tombstone reminded me that I intended to get "reunited" with my killers, and it was about time that I got moving on that. 
+0x0586  /  0x2479 (0x0015)  : the spotlight illuminated the "church repair fund" thermometer to the west. 
+0x0587  /  0x248f (0x0013)  : the shattered roof line stood out starkly against the night sky. 
+0x0588  /  0x24a3 (0x0028)  : there was something menacing about the vault, as if it were full of evil. I shook off the notion. What has a ghost to be scared of? 
+0x0589  /  0x24cc (0x0020)  : it was still and deserted now - there was more going on in the cemetery, for those that had eyes to see it. 
+0x058a  /  0x24ed (0x0018)  : distant street lamps cast a pale orange glow on the low clouds overhead. 
+0x058d  /  0x2507 (0x000a)  : Edith seemed to be sniffling quietly. 
+0x05aa  /  0x2513 (0x0015)  : it must have been an impressive construction once, but nothing stands forever. 
+0x05ac  /  0x252a (0x001b)  : I knew that there must be things in that shed that would help me, if only I could get to them. 
+0x05ae  /  0x2547 (0x0023)  : 
+ 
+my eyes wandered absently and I found myself looking to the north, where a neat row of new headstones stood. 
+0x05af  /  0x256b (0x0016)  : a spider span a broad web between its branches and the neighbouring headstone. 
+0x05b1  /  0x2583 (0x0023)  : the dew was painful to my feet and I thought wryly that I should have died with my boots on - preferably wellies. 
+0x05b3  /  0x25a8 (0x002c)  : 
+ 
+on Sundays, there would always be a fresh wreath or bunch of flowers on Joe's grave, and someone came regularly to cut the grass around it. 
+0x05b5  /  0x25d6 (0x0036)  : there was a barking cough over in the distance and a fox trotted into view, its tail startling white in the light of the moon. It saw me and, hackles raised, loped swiftly away. 
+0x05b6  /  0x260d (0x001d)  : there was something challenging about this grave. Something which seemed to say, "Prove that you're worthy to be here". 
+0x05b7  /  0x262b (0x0009)  : something moved within the stonework. 
+0x05b8  /  0x2635 (0x000d)  : the neat rows stretched off into the distance. 
+0x05ba  /  0x2644 (0x0017)  : the tall tombstone still stood stiffly to attention, unbowed by the passing years. 
+0x05bb  /  0x265c (0x0015)  : the long shadows of the crosses cast a checkerboard on the trimmed grass. 
+0x05bd  /  0x2673 (0x0020)  : a pair of squirrels chattered and squabbled over an acorn at the foot of the grave, before chasing one another west. 
+0x0640  /  0x2696 (0x0003)  : I could see
+0x0641  /  0x269a (0x0006)  : on [aka] onto
+0x0642  /  0x26a1 (0x0008)  : underneath [aka] below under
+0x0643  /  0x26aa (0x0002)  : behind
+0x0647  /  0x26ae (0x0008)  : in [aka] into inside
+0x064e  /  0x26b8 (0x0003)  : fastened to
+0x064f  /  0x26bc (0x0007)  : lodged in the throat of
+0x0650  /  0x26c4 (0x0006)  : with [aka] using
+0x0651  /  0x26cb (0x0002)  : from
+0x0669  /  0x26cf (0x0001)  : was
+0x066a  /  0x26d1 (0x0001)  : was
+0x066b  /  0x26d3 (0x0001)  : was
+0x066c  /  0x26d5 (0x0003)  : was carrying
+0x066d  /  0x26d9 (0x0003)  : was wearing
+0x066f  /  0x26de (0x0001)  : was
+0x0676  /  0x26e1 (0x0001)  : was
+0x0677  /  0x26e3 (0x0001)  : was
+0x0687  /  0x26e6 (0x0001)  : were
+0x0688  /  0x26e8 (0x0001)  : were
+0x0689  /  0x26ea (0x0001)  : were
+0x068a  /  0x26ec (0x0003)  : was carrying
+0x068b  /  0x26f0 (0x0003)  : was wearing
+0x068d  /  0x26f5 (0x0001)  : were
+0x0694  /  0x26f8 (0x0001)  : were
+0x0695  /  0x26fa (0x0001)  : were
+0x06cd  /  0x26fd (0x0002)  : was on
+0x06d0  /  0x2701 (0x0002)  : owned
+0x06d1  /  0x2704 (0x0003)  : was wearing
+0x06d3  /  0x2709 (0x0002)  : was in
+0x06da  /  0x270d (0x0004)  : was fastened to
+0x06eb  /  0x2713 (0x0002)  : were on
+0x06ee  /  0x2717 (0x0002)  : owned
+0x06ef  /  0x271a (0x0003)  : were wearing
+0x06f1  /  0x271f (0x0002)  : were in
+0x06f8  /  0x2723 (0x0004)  : were fastened to
+0x0708  /  0x2729 (0x0002)  : off
+0x0709  /  0x272c (0x0002)  : up
+0x070a  /  0x272f (0x0002)  : down
+0x070b  /  0x2732 (0x0002)  : to
+0x070c  /  0x2735 (0x0002)  : out
+0x070d  /  0x2738 (0x0004)  : from the 
+0x070e  /  0x273d (0x0002)  : for
+0x070f  /  0x2740 (0x0002)  : until
+0x0710  /  0x2743 (0x0002)  : debug
+0x0711  /  0x2746 (0x0002)  : through
+0x0712  /  0x2749 (0x0002)  : about
+0x07d0  /  0x274e (0x0008)  : you don't need to use "
+0x07d1  /  0x2757 (0x0008)  : " to finish the game
+0x07d3  /  0x2761 (0x0008)  : I don't understand the word "
+0x07d4  /  0x276a (0x0008)  : " when used like that
+0x07d6  /  0x2774 (0x0003)  : I was 
+0x07d7  /  0x2778 (0x0003)  : in a 
+0x07d8  /  0x277c (0x0003)  : in an 
+0x07d9  /  0x2780 (0x0008)  : exits led in all directions
+0x07da  /  0x2789 (0x0008)  : I don't understand what you mean
+0x07db  /  0x2792 (0x0003)  : I couldn't see
+0x07dc  /  0x2796 (0x0003)  : I didn't have
+0x07dd  /  0x279a (0x0004)  : I already had
+0x07de  /  0x279f (0x0023)  : (Perhaps I'm having an off night, but I really haven't the ghost of a notion as to what you are on about)
+0x07df  /  0x27c3 (0x0005)  : it's too far away
+0x07e0  /  0x27c9 (0x000c)  : I can't find a verb in that sentence
+0x07e1  /  0x27d6 (0x0003)  : it's not there
+0x07e2  /  0x27da (0x000b)  : there were too many nouns in that sentence
+0x07e3  /  0x27e6 (0x0005)  : I couldn't see that here
+0x07e4  /  0x27ec (0x0008)  : I owned nothing at all. 
+0x07e5  /  0x27f5 (0x0005)  : it was dark. 
+0x07e6  /  0x27fb (0x0007)  : I couldn't reach that from here
+0x07f4  /  0x2804 (0x000c)  : sorry, I don't fully understand that verb
+0x07f5  /  0x2811 (0x000b)  : there didn't seem to be anything suitable. 
+0x07f6  /  0x281d (0x000b)  : said "That was a rhetorical question"
+0x07f7  /  0x2829 (0x0006)  : what a mouthful! 
+0x07fc  /  0x2831 (0x0003)  : couldn't have 
+0x07fe  /  0x2836 (0x0001)  : that
+0x07ff  /  0x2838 (0x0001)  : here
+0x0800  /  0x283a (0x0005)  : I couldn't find 
+0x0805  /  0x2841 (0x0007)  : it's not clear to what 
+0x0806  /  0x2849 (0x0004)  :  is referring
+0x080c  /  0x284f (0x000b)  : are you talking to yourself again? 
+0x080d  /  0x285b (0x000c)  : I couldn't talk to several people at once
+0x0834  /  0x2869 (0x001a)  : Welcome to "Scapeghost", copyright (C) 1989 from Level 9 Computing. 
+0x0836  /  0x2885 (0x00a8)  : My head cleared, I looked around, and found myself standing among a crowd of dark suits at a funeral. How had I got there? What was going on? 
+ 
+The last thing I remembered was driving in the motor with Sarah, on our way to meet with the drugs gang. Our long patient months of undercover work were about to pay off. But what had happened then? 
+ 
+I stared around at the others, as a priest mouthed platitudes over a nearby grave, and wondered who had copped it this time. Then I read the name on a nearby wreath...
+ 
+
+0x0840  /  0x2931 (0x000a)  : it looked exactly as I had expected. 
+0x0842  /  0x293d (0x0006)  : I couldn't go that way
+0x0843  /  0x2944 (0x0003)  : through the door
+0x0845  /  0x2949 (0x0005)  : it's already open
+0x084b  /  0x2950 (0x0005)  : I couldn't put 
+0x084c  /  0x2956 (0x0001)  : there
+0x084e  /  0x2959 (0x0008)  : I would have to drop it first
+0x084f  /  0x2962 (0x0009)  : I would have to pick it up first
+0x0850  /  0x296c (0x002a)  : 
+Did you know that you can go quickly to a far off place? Eg "RUN TO VAULT" or "GOTO VIOLET"
+
+0x0852  /  0x2998 (0x000a)  : I can't find a reference to "
+0x0853  /  0x29a3 (0x0006)  : I was on it! 
+0x0854  /  0x29aa (0x0003)  : what? 
+0x0855  /  0x29ae (0x0004)  : where? 
+0x0856  /  0x29b3 (0x0005)  : I was wearing 
+0x0857  /  0x29b9 (0x000b)  : please try again, saying what with. 
+0x0858  /  0x29c5 (0x0004)  : which one? 
+0x0859  /  0x29ca (0x0004)  : at what? 
+0x085b  /  0x29d0 (0x0003)  : was full
+0x085c  /  0x29d4 (0x0003)  : " here
+0x085e  /  0x29d9 (0x0005)  : I couldn't wear 
+0x0863  /  0x29e0 (0x0007)  : I was already wearing that
+0x0864  /  0x29e8 (0x000a)  : I found that I didn't need to do that
+0x0868  /  0x29f4 (0x0002)  : worn
+0x0869  /  0x29f7 (0x0002)  : OK
+0x086b  /  0x29fb (0x0004)  : time passed. 
+0x086c  /  0x2a00 (0x0001)  : said
+0x086e  /  0x2a03 (0x000b)  : I found that I would have to untie it first
+0x0870  /  0x2a10 (0x000a)  : YES or NO please.
+
+0x087c  /  0x2a1c (0x0005)  : nobody wants it
+0x0898  /  0x2a23 (0x0006)  : really restart? 
+0x089a  /  0x2a2b (0x0006)  : really restore? 
+0x089b  /  0x2a32 (0x000b)  : 
+ 
+did I continue? 
+0x08a1  /  0x2a3f (0x0022)  : 
+ 
+the adventure had come to an end. 
+Please type RESTART, UNDO, RESTORE or RAM RESTORE: 
+0x08a2  /  0x2a62 (0x0008)  : the room was badly damaged
+0x08a3  /  0x2a6b (0x0007)  : the place was already smashed
+0x08a4  /  0x2a73 (0x000b)  : really! You're so destructive! 
+0x08a5  /  0x2a7f (0x000f)  : it looks as though the vandals have been at work here
+0x08a7  /  0x2a90 (0x0007)  : that's too long to wait
+0x08a8  /  0x2a98 (0x000e)  : try eg Wait for Joe, or Wait 5
+0x08c0  /  0x2aa8 (0x0007)  : 
+I had scored 
+0x08c1  /  0x2ab0 (0x0010)  : 
+ 
+the adventure had come to an end.
+
+0x08c2  /  0x2ac1 (0x0008)  :  out of 300 and was 
+0x08c3  /  0x2aca (0x0002)  : -
+0x08c9  /  0x2ace (0x0005)  : a faded vision
+0x08ca  /  0x2ad4 (0x0005)  : a vain spirit
+0x08cb  /  0x2ada (0x0004)  : an incompetent ghost
+0x08cc  /  0x2adf (0x0005)  : a harmless apparition
+0x08cd  /  0x2ae5 (0x0004)  : an ordinary ghost
+0x08ce  /  0x2aea (0x0005)  : a competent spirit
+0x08cf  /  0x2af0 (0x0008)  : progressing in the spirit world
+0x08d0  /  0x2af9 (0x0005)  : a strong presence
+0x08d1  /  0x2aff (0x0005)  : a powerful phantasm
+0x08d2  /  0x2b05 (0x0005)  : a vivid phantom
+0x08d3  /  0x2b0b (0x0007)  : a dominant supernatural force
+0x08d4  /  0x2b13 (0x0003)  : a poltergeist
+0x0904  /  0x2b18 (0x000b)  : I couldn't go back further than this. 
+0x0905  /  0x2b24 (0x002e)  : (this version allows you to use RAM SAVE and RAM RESTORE to save a position in memory, and UNDO to take back bad moves).
+
+0x0906  /  0x2b53 (0x0018)  : I can't find that saved position in memory. Perhaps you've restarted the game. 
+0x0907  /  0x2b6c (0x0026)  : 
+ 
+I am about to start another part of the game. Do you want to save my position first, just in case? 
+0x0908  /  0x2b93 (0x000b)  : that data was not saved from Scapeghost. 
+0x0909  /  0x2b9f (0x000d)  : play the game tape to load part 
+0x090a  /  0x2bad (0x001f)  : 
+ 
+I am about to start another part of the game. Do you want to go ahead? 
+0x0964  /  0x2bce (0x0007)  : I could not smell anything
+0x0965  /  0x2bd6 (0x0009)  : I found nothing much to write about
+0x0966  /  0x2be0 (0x000c)  : I didn't smell of anything, being a ghost
+0x0967  /  0x2bed (0x0004)  : I said hello
+0x0970  /  0x2bf3 (0x000d)  : to be, or not to be, that is the question
+0x0971  /  0x2c01 (0x0008)  : knocked with a firm fist
+0x0974  /  0x2c0b (0x000a)  : I couldn't find what I was looking for
+0x097e  /  0x2c17 (0x0002)  : itself
+0x097f  /  0x2c1a (0x0002)  : itself
+0x0980  /  0x2c1d (0x0002)  : themselves
+0x0981  /  0x2c20 (0x0002)  : himself
+0x0982  /  0x2c23 (0x0002)  : herself
+0x0983  /  0x2c26 (0x0002)  : themselves
+0x0984  /  0x2c29 (0x0001)  : myself
+0x0985  /  0x2c2b (0x0002)  : himself
+0x0986  /  0x2c2e (0x0002)  : herself
+0x09a6  /  0x2c32 (0x0007)  : got out of the cart 
+0x09a7  /  0x2c3a (0x0008)  : drove the cart to the 
+0x09a8  /  0x2c43 (0x0006)  : drove the cart 
+0x09b0  /  0x2c4b (0x0002)  : trotted
+0x09b1  /  0x2c4e (0x0002)  : ran
+0x09b2  /  0x2c51 (0x0002)  : darted
+0x09b3  /  0x2c54 (0x0002)  : wandered
+0x09b4  /  0x2c57 (0x0002)  : went
+0x09ba  /  0x2c5b (0x0002)  : walked
+0x09bb  /  0x2c5e (0x0002)  : trudged
+0x09bc  /  0x2c61 (0x0002)  : stomped
+0x09bd  /  0x2c64 (0x0002)  : wandered
+0x09be  /  0x2c67 (0x0002)  : went
+0x09c4  /  0x2c6b (0x0002)  : floated
+0x09c5  /  0x2c6e (0x0002)  : drifted
+0x09c6  /  0x2c71 (0x0002)  : hovered
+0x09c7  /  0x2c74 (0x0002)  : glided
+0x09c8  /  0x2c77 (0x0002)  : went
+0x09cd  /  0x2c7b (0x0006)  : the company arrived 
+0x09ce  /  0x2c82 (0x0007)  : I felt slightly stronger
+0x09cf  /  0x2c8a (0x0008)  : my strength seemed to be increasing
+0x09d0  /  0x2c93 (0x000a)  : I felt a little more solid
+0x09d1  /  0x2c9e (0x000b)  : my control over material objects was improving
+0x09d2  /  0x2caa (0x0009)  : I felt much stronger and confident
+0x09d3  /  0x2cb4 (0x0009)  : my strength was improving all the time
+0x09d4  /  0x2cbe (0x000c)  : I began to feel a much more experienced ghost
+0x09d5  /  0x2ccb (0x000c)  : I suddenly became less transparent than before
+0x09d6  /  0x2cd8 (0x000d)  : I congratulated myself with my power over heavier objects
+0x09d7  /  0x2ce6 (0x000e)  : I felt very confident and much stronger than before
+0x09d8  /  0x2cf5 (0x000a)  : I prided myself on my improved strength
+0x09d9  /  0x2d00 (0x0011)  : my strength had reached its peak for my first night as a ghost
+0x09dc  /  0x2d13 (0x0012)  : the dog, anxious to be helpful, picked it up again for me
+0x09dd  /  0x2d26 (0x000c)  : wasn't strong enough to carry that yet
+0x09df  /  0x2d34 (0x000c)  : my hands became weak and I dropped 
+0x09e0  /  0x2d41 (0x000c)  : would never be strong enough to carry that
+0x09e1  /  0x2d4e (0x000a)  : I was now strong enough, and 
+0x09e2  /  0x2d59 (0x000c)  : my strength seemed drained by the presence of 
+0x09e3  /  0x2d66 (0x000b)  : I began to fade when I saw 
+0x09e4  /  0x2d72 (0x000e)  : my powers seemed to drain while I was near 
+0x09e5  /  0x2d81 (0x0014)  : a sudden feeling of weakness was brought upon me by the presence of 
+0x09e6  /  0x2d96 (0x0011)  : I sensed a feeling of distress when I was approached by 
+0x09f6  /  0x2da9 (0x0007)  : the shed light went off. 
+0x09f7  /  0x2db1 (0x0007)  : the shed light came on. 
+0x09f8  /  0x2db9 (0x0030)  : 
+ 
+the sudden shock of the light stabbed through me. I felt myself fade and everything returned to darkness. I opened my eyes and found myself back upon my own grave
+0x09fa  /  0x2deb (0x0005)  : the shed light was on
+0x09fb  /  0x2df1 (0x0003)  : it was off
+0x09fc  /  0x2df5 (0x0003)  : it was on
+0x09fe  /  0x2dfa (0x0013)  : slowly materialised before me and complained about the sudden effects of bright light
+0x0a00  /  0x2e0f (0x0007)  : the spotlight went off. 
+0x0a01  /  0x2e17 (0x0007)  : the spotlight came on. 
+0x0a04  /  0x2e20 (0x0011)  : the spotlight illuminated the whole of the southern part of the cemetery
+0x0a05  /  0x2e32 (0x0029)  : the button clicked to its "off" position. Looking through the shed window, I noticed that the southern part of the cemetery had become much darker. 
+0x0a06  /  0x2e5c (0x0039)  : the button clicked to its "on" position. I looked through the shed window and saw that the southern part of the cemetery was now brightly lit. Luckily,the light had little effect on me from that distance. 
+0x0a07  /  0x2e96 (0x000f)  : more pressure seemed to be needed to push it properly
+0x0a08  /  0x2ea6 (0x001f)  : 
+ 
+just then, I heard a young lout bellow, "Now even the bulb's dead!" 
+0x0a0a  /  0x2ec7 (0x005b)  : 
+ 
+twilight gave way to darkness and the street lights came on to the south of the cemetery. I felt myself begin to disperse into the night air, and when I came to I was back beside my own grave. 
+ 
+A ghostly figure entered from the north and made its way towards me...
+ 
+
+0x0a0e  /  0x2f25 (0x0011)  : the street lights lit the road to the south of the cemetery
+0x0a14  /  0x2f38 (0x0021)  : the door was too solid for any of the graveyard ghosts to float through. I would have to work out how to open it
+0x0a15  /  0x2f5a (0x0004)  : it was closed
+0x0a16  /  0x2f5f (0x0004)  : it was open
+0x0a1e  /  0x2f65 (0x0007)  : I felt uneasy about 
+0x0a1f  /  0x2f6d (0x000b)  : I began to feel weak because of 
+0x0a20  /  0x2f79 (0x000a)  : my powers seemed to be absorbed by 
+0x0a21  /  0x2f84 (0x000d)  : I found that I couldn't stand being close to 
+0x0a22  /  0x2f92 (0x0010)  : a sudden feeling of distress was brought upon me by 
+0x0a28  /  0x2fa4 (0x000e)  : refused to do anything until somebody turned off 
+0x0a29  /  0x2fb3 (0x000b)  : did nothing but complain bitterly about 
+0x0a2a  /  0x2fbf (0x0014)  : didn't seem to be able to do anything, except point weakly at 
+0x0a2b  /  0x2fd4 (0x0010)  : floated about helplessly, refusing to do anything because of 
+0x0a2c  /  0x2fe5 (0x0015)  : hovered aimlessly around, set on doing nothing until somebody switched off 
+0x0a32  /  0x2ffc (0x0009)  : there were no bright lights here. 
+0x0a3b  /  0x3007 (0x0027)  : 
+ 
+"That nasty thing's not my wreath", said Edna, as she saw the faded wreath. "Mine was all nice and fresh"
+0x0a3c  /  0x302f (0x001e)  : 
+ 
+"That's not my wreath. It don't have my card on it", said Edna, pointing at the new wreath
+0x0a3d  /  0x304e (0x005c)  : 
+ 
+"Ah, you've found Bert's wreath, though it seems that someone has mixed up the cards and put mine on it", said Edna in a satisfied tone. 
+"Well, thank goodness that squabble's over with", said Bert with a sigh. "Now we might get a bit of peace and quiet around here"
+0x0a3e  /  0x30ac (0x0046)  : 
+ 
+"Oh look", said Edna as she inspected the wreath. "Someone else's card has been put in here as well. We can't have that, can we?" 
+She plucked out the white card and threw it onto the ground
+0x0a3f  /  0x30f4 (0x000c)  : please try again, this time saying which one
+0x0a46  /  0x3102 (0x0011)  : slowly, it began to take the shape of a ghostly figure
+0x0a50  /  0x3115 (0x0008)  : and it began to rock heavily
+0x0a51  /  0x311e (0x0022)  : and it teetered and keeled over. The heavy sundial crashed down the steps, breaking into pieces as it fell to the ground
+0x0a5a  /  0x3142 (0x004f)  : 
+ 
+"At last! The end of time!", cried Edith. "My curse has been lifted and I am free!" 
+Beaming with joy, she got up from her grave and danced around her headstone. 
+"How can I thank you?", she asked
+0x0a5b  /  0x3193 (0x003a)  : 
+ 
+Edith saw the gnomon and smiled with relief. "Oh, I'm so happy!", she announced. "I'm free from my curse now that you've brought about the end of time..."
+0x0a5c  /  0x31ce (0x0009)  : there seemed to be something in the bushes
+0x0a5d  /  0x31d8 (0x0005)  : I found a magazine
+0x0a5e  /  0x31de (0x0049)  : Edith snatched the magazine and said, "Of course! This will free me from my curse!" 
+She held it in the air and set fire to it. "I never thought I'd see the end of time", she mused as the magazine burned away
+0x0a5f  /  0x3229 (0x000e)  : it fell to the bottom and then smashed to pieces
+0x0a60  /  0x3238 (0x0051)  : 
+Edith sighed with relief. "Wonderful!", she began, "that's the end of time. I'm a free spirit at last!" 
+She stretched her arms out and danced happily around her grave. She smiled gratefully at me and said, "What ever can I do to repay you?"
+0x0a64  /  0x328c (0x0017)  : said, "Do it yourself if you want to show how good you are"
+0x0a65  /  0x32a4 (0x000d)  : I wasn't strong enough to rock the urn
+0x0a66  /  0x32b2 (0x0042)  : I pushed the urn and it rocked slightly. 
+ 
+"Hmm, not bad for a beginner", began David, who was obviously impressed, though trying not to show it. "I might consider helping you now", he added
+0x0a6b  /  0x32f7 (0x0015)  : pushed the short lever briefly into place so that it wasn't obstructing the barrel
+0x0a6c  /  0x330d (0x000e)  : pushed the medium sized lever briefly into position
+0x0a6d  /  0x331c (0x000b)  : pushed the long lever briefly into place
+0x0a6e  /  0x3328 (0x0015)  : found that the barrel wouldn't turn. Maybe it had something to do with the levers
+0x0a6f  /  0x333e (0x000a)  : turned the barrel and unlocked the door
+0x0a70  /  0x3349 (0x000c)  : wasn't strong enough to pull the rope
+0x0a71  /  0x3356 (0x0010)  :  but nothing, since the door was already wide open
+0x0a72  /  0x3367 (0x000a)  :  but the shed door seemed to be locked
+0x0a73  /  0x3372 (0x0038)  : , the shed door swung open and the dog darted inside. It soon reappeared with the workman's lunch box, clinking with bottles and bulging with biscuits. It struggled out of the cemetery to eat its reward
+0x0a74  /  0x33ab (0x000f)  : turned the barrel, but the lock was jammed open
+0x0a75  /  0x33bb (0x0022)  : 
+ 
+I suddenly felt very uneasy watching the dog leave the cemetery. It was as if something had been left undone
+0x0a76  /  0x33de (0x000c)  : . A small bell jingled inside the shed
+0x0a77  /  0x33eb (0x000a)  : a bell rang inside the shed. 
+0x0a78  /  0x33f6 (0x0016)  : the dog wagged its tail a little, but still seemed to be frightened of me
+0x0a79  /  0x340d (0x0010)  : the dog lost some of its fears and sniffed me nervously
+0x0a7a  /  0x341e (0x001b)  : the dog must have realised that I wasn't going to hurt it, and it became quite friendly
+0x0a82  /  0x343b (0x000e)  : the dog snarled at me, with its fur bristling
+0x0a83  /  0x344a (0x0017)  : the dog backed away, growling. Not surprisingly, it seemed to be afraid of ghosts
+0x0a84  /  0x3462 (0x000e)  : the dog darted out of the way, as if confused
+0x0a8c  /  0x3472 (0x001e)  : 
+ 
+The dog yelped in panic and ran away from me, its tail tucked between its legs
+0x0a8d  /  0x3491 (0x0008)  : reached through the dog's throat
+0x0a96  /  0x349b (0x00a1)  : 
+ 
+suddenly, I heard a young vandal shout, "Quick! Somebody's in the shed!" 
+Then another replied, "Come on, let's leg it over this wall!" 
+ 
+Soon after, I heard footsteps running alongside the burnt church and the sound of them scrambling jumping over the wall. "Stone me!", yelled one of them, "I nearly knocked the wall over". 
+"Be quiet!", bellowed another at the top of his voice. 
+ 
+Soon, their footsteps faded into the distance as they ran from the cemetery. 
+0x0aa0  /  0x3540 (0x0062)  : "Oh, what a clever idea, young man", said Violet with a little smile. "I can hear the bell nicely when the wind blows". 
+ 
+She got up from her grave and walked steadily towards me, "Now I can get about the place without becoming lost", she said with delight, "How ever can I thank you?"
+0x0aa1  /  0x35a4 (0x0027)  : said, "I wouldn't dream of doing a thing like that. Why, Violet would never find her way back if I were to remove the bell"
+0x0aa2  /  0x35cc (0x0011)  : the bell jingled clearly as the bush quivered in the breeze
+0x0aaa  /  0x35df (0x0048)  : 
+ 
+"it's beyond me why they bother collecting money", commented Joe whilst pointing at the thermometer. "This place is past repair; the first storm of winter will have the whole wall down. Look at those cracks deep in the stone"
+0x0ab4  /  0x362a (0x000d)  : a light breeze seemed to blow against the thermometer
+0x0ab5  /  0x3638 (0x000b)  : the thermometer groaned quietly in the breeze
+0x0ab6  /  0x3644 (0x0010)  : I could feel a strong breeze blowing against the thermometer
+0x0ab7  /  0x3655 (0x0011)  : the breeze turned to a wind and spread itself over the wall
+0x0ab8  /  0x3667 (0x0011)  : dust and loose chippings blew into the air along the wall
+0x0ab9  /  0x3679 (0x000e)  : the thermometer leaned heavily and the wall began to crumble
+0x0aba  /  0x3688 (0x0010)  : a strong gale blew the wall until it leaned heavily
+0x0abb  /  0x3699 (0x0014)  : the increasing blast set the wall a-quiver, almost bringing it to collapse
+0x0abc  /  0x36ae (0x00fb)  : 
+ 
+finally, the wall could resist the wind's torment no longer, and it began to topple over. Like a tidal wave crashing along a shore, the collapse spread further and further south along the course of the wall, until at last the southernmost section smashed heavily onto the vault. 
+ 
+We all cheered as the vault was buried beneath an avalanche of rubble, trapping the drugs hoard within it. Now the gangsters would be delayed for a day or two, until enough of the debris was cleared for them to be able to sneak back and recover their loot. It would give me time to track down their hideout, and perhaps tomorrow I would be be strong enough in spirit to leave the churchyard and do it. 
+ 
+I could do nothing more today, for the night was now coming to an end, and it was time for us ghosts to make our way back to our graves
+0x0abe  /  0x37ae (0x0007)  : Bert blocked my hand
+0x0ac8  /  0x37b7 (0x0005)  : rang the bell
+0x0ac9  /  0x37bd (0x0042)  : 
+"Oooh, that's nice!", cried Violet, "I can hear that a treat! But I'm sure you've got better things to do than stand by my grave, ringing the bell all night so I can find my way back"
+0x0aca  /  0x3801 (0x0021)  : it rocked a little, but then settled back to its state of rest. Maybe it wasn't ready to wake up yet
+0x0acb  /  0x3823 (0x0082)  : 
+ 
+Gradually, the sun began to rise above the hills towards the east, casting long drawn-out shadows across the cemetery. And with the distant crow of a cockerel I realised that morning had arrived, bringing with it an end to my existence as a ghost. 
+ 
+I knew that the crooks would collect their drugs and escape today, so there was no chance to bring them to justice and clear my name. I sadly faded away with a feeling of incompleteness..
+0x0b22  /  0x38a9 (0x002c)  : smiled and said, "Well done, mate. Keep at it and you'll be on your way to lifting bigger things. Perhaps even pushing up some daisies"
+0x0b23  /  0x38d6 (0x0020)  : patted me through the back and said, "That's the spirit! It won't be long before you can lift something worthwhile"
+0x0b24  /  0x38f7 (0x0011)  : grinned, "I guess you're one spirit that's not weak"
+0x0b2a  /  0x390a (0x000d)  : added, "And I wish it was off"
+0x0b2b  /  0x3918 (0x0009)  : tried to slink out of the door
+0x0b2d  /  0x3923 (0x0019)  : said, "Unless you've a built-in spirit duplicator, you're going to need some help"
+0x0b2e  /  0x393d (0x0012)  : muttered to me, "Fussy old crow, isn't she?!"
+0x0b2f  /  0x3950 (0x000e)  : said, "I wonder where her card is?"
+0x0b30  /  0x395f (0x0014)  : sniggered and muttered, "Hah! Some chance of that, Bert"
+0x0b31  /  0x3974 (0x0014)  : grinned. "A familiar spirit, I see. Hello again, Alex"
+0x0b32  /  0x3989 (0x0013)  : tutted and sighed, "You're worse than the vandals around here"
+0x0b33  /  0x399d (0x000c)  : clutched his stomach and groaned at the pun
+0x0b34  /  0x39aa (0x000d)  : said, "Is that corny, or what?"
+0x0b35  /  0x39b8 (0x000d)  : said, "Ooh, what's that in there?"
+0x0b36  /  0x39c6 (0x0023)  : shook his head. "Flamin' litter louts! They leave their stuff lyin' around all over", he sighed
+0x0b37  /  0x39ea (0x0023)  : laughed. "Edith will have forgotten all about breaking the curse by tomorrow, but at least she's in high spirits tonight"
+0x0b38  /  0x3a0e (0x0019)  : groaned at the pun. Passing footsteps on the road outside broke into a panic-stricken run
+0x0b39  /  0x3a28 (0x0012)  : said, "Try building up your strength by lifting light objects"
+0x0b3a  /  0x3a3b (0x0022)  : grinned and said in a whisper, "Well done, lad. You kicked that Greek style bucket good and proper"
+0x0b3b  /  0x3a5e (0x0020)  : rubbed his hands, saying, "Only you would have been good enough to unlock the door and let us in"
+0x0b3d  /  0x3a80 (0x0007)  : tapped his head and laughed
+0x0b3e  /  0x3a88 (0x0023)  : said, "A really powerful ghost could just walk through this door, you know. But you will just have to tackle the lock"
+0x0b3f  /  0x3aac (0x000b)  : laughed, "Sly little mutt!"
+0x0b40  /  0x3ab8 (0x0015)  : said, "I'd leave it unlocked to confuse the workmen next morning"
+0x0b41  /  0x3ace (0x0011)  : said, "Well, well. We've made a new friend"
+0x0b42  /  0x3ae0 (0x0027)  : knelt by sinking slightly into the ground and said, "Nice doggy. We're not going to hurt you". The dog backed away further
+0x0b43  /  0x3b08 (0x000e)  : said, "Don't worry, it'll come back"
+0x0b56  /  0x3b18 (0x001b)  : said, "Just wait a while, I'll help you after we've finished our ghost walk"
+0x0b57  /  0x3b34 (0x000a)  : seemed too busy guarding his wreath from Edna
+0x0b58  /  0x3b3f (0x0017)  : said, "You won't get any help from me unless you can get me my wreath back"
+0x0b59  /  0x3b57 (0x0014)  : sneered and said, "Why should I help a puny ghost like you?"
+0x0b5b  /  0x3b6d (0x001f)  : wept softly and said, "I'd like to help you, but I'm cursed to remain here until the end of time"
+0x0b5c  /  0x3b8d (0x0020)  : dismissed my request and said, "Sorry. Duty calls. Got to stand guard against those young hooligans"
+0x0b5d  /  0x3bae (0x001d)  : said, "I'd love to help, but I fear that I may get lost if I stray from my grave"
+0x0b5e  /  0x3bcc (0x0009)  : ignored me as if I wasn't there
+0x0b5f  /  0x3bd6 (0x0005)  : looked straight through me
+0x0b60  /  0x3bdc (0x0006)  : walked straight through me
+0x0b61  /  0x3be3 (0x0010)  : stopped and listened, but had clearly not heard what I said
+0x0b62  /  0x3bf4 (0x0011)  : paid no attention to me and carried on telling filthy jokes
+0x0b63  /  0x3c06 (0x0009)  : didn't seem to hear my request
+0x0c1c  /  0x3c12 (0x0004)  : don't be silly
+0x0c1d  /  0x3c17 (0x0004)  : well, that's new
+0x0c1e  /  0x3c1c (0x0006)  : sorry, no can do
+0x0c1f  /  0x3c23 (0x000b)  : that's a funny thing to want to do
+0x0c20  /  0x3c2f (0x0009)  : that's a bit daft isn't it
+0x0c30  /  0x3c3a (0x000a)  : you might as well leave it alone
+0x0c31  /  0x3c45 (0x0009)  : I suggest that you forget about it
+0x0c32  /  0x3c4f (0x0008)  : that's not important to the game
+0x0c33  /  0x3c58 (0x0009)  : forget it. It's only scenery
+0x0c34  /  0x3c62 (0x0006)  : pay it no heed
+0x0c3a  /  0x3c6a (0x000d)  : now what was the object of that? Try again
+0x0c3b  /  0x3c78 (0x000c)  : sorry, I couldn't find an object in that
+0x0c3c  /  0x3c85 (0x0007)  : please be more specific
+0x0c3d  /  0x3c8d (0x0009)  : there was no object in that command
+0x0c3e  /  0x3c97 (0x000a)  : do it to what? You didn't say
+0x0c44  /  0x3ca3 (0x0004)  : nothing happened
+0x0c45  /  0x3ca8 (0x0007)  : that didn't seem to work
+0x0c46  /  0x3cb0 (0x0008)  : there was no effect on anything
+0x0c47  /  0x3cb9 (0x0006)  : that was remarkably useless
+0x0c48  /  0x3cc0 (0x000c)  : that did nothing at all, I'm afraid
+0x0c4e  /  0x3cce (0x0004)  : wouldn't move
+0x0c4f  /  0x3cd3 (0x0003)  : didn't budge
+0x0c50  /  0x3cd7 (0x0006)  : refused to be moved
+0x0c51  /  0x3cde (0x0005)  : seemed fixed in place
+0x0c52  /  0x3ce4 (0x0003)  : was unmoved
+0x0c58  /  0x3ce9 (0x0009)  : don't bother, it would do nothing
+0x0c59  /  0x3cf3 (0x0008)  : that would be a waste of time
+0x0c5a  /  0x3cfc (0x0005)  : I found that I couldn't
+0x0c5b  /  0x3d02 (0x0007)  : that will get you nowhere
+0x0c5c  /  0x3d0a (0x0009)  : don't expect any results from that
+0x0c62  /  0x3d15 (0x0007)  : gave a friendly nod
+0x0c63  /  0x3d1d (0x0004)  : grinned warmly
+0x0c64  /  0x3d22 (0x0009)  : returned my greeting with a smile
+0x0c65  /  0x3d2c (0x0009)  : greeted me with a suspicious smile
+0x0c66  /  0x3d36 (0x0004)  : nodded slightly
+0x0c6c  /  0x3d3c (0x0003)  : seemed puzzled
+0x0c6d  /  0x3d40 (0x0007)  : shook a puzzled head
+0x0c6e  /  0x3d48 (0x0005)  : looked distinctly confused
+0x0c6f  /  0x3d4e (0x000a)  : didn't seem to understand what was wanted
+0x0c70  /  0x3d59 (0x0009)  : looked at me with a blank expression
+0x0c76  /  0x3d64 (0x0006)  : had had problems with 
+0x0c77  /  0x3d6b (0x0005)  : looked troubled about 
+0x0c78  /  0x3d71 (0x0006)  : mentioned trouble with 
+0x0c79  /  0x3d78 (0x0008)  : obviously hadn't understood about 
+0x0c7a  /  0x3d81 (0x0006)  : had been mystified about 
+0x0c9e  /  0x3d89 (0x0005)  : nodded in acknowledgement
+0x0c9f  /  0x3d8f (0x0004)  : nodded slowly
+0x0ca0  /  0x3d94 (0x0004)  : nodded obediently
+0x0ca1  /  0x3d99 (0x0002)  : agreed
+0x0ca2  /  0x3d9c (0x0004)  : nodded enthusiastically
+0x0cb2  /  0x3da2 (0x0006)  : refused to answer that
+0x0cb3  /  0x3da9 (0x0007)  : remained silent as the grave
+0x0cb4  /  0x3db1 (0x0008)  : pretended to ignore the question
+0x0cb5  /  0x3dba (0x000a)  : refused to give any help whatsoever
+0x0cb6  /  0x3dc5 (0x0004)  : looked back stubbornly
+0x0cc6  /  0x3dcb (0x0008)  : refused to part with anything
+0x0cc7  /  0x3dd4 (0x0007)  : refused to give it away
+0x0cc8  /  0x3ddc (0x0009)  : didn't want to give anything away
+0x0cc9  /  0x3de6 (0x0005)  : clutched it tightly
+0x0cca  /  0x3dec (0x0008)  : stared back in silent refusal
+0x0cda  /  0x3df6 (0x0003)  : looked puzzled
+0x0cdb  /  0x3dfa (0x0005)  : did not understand
+0x0cdc  /  0x3e00 (0x0005)  : shrugged in non-comprehension
+0x0cdd  /  0x3e06 (0x0007)  : made a questioning noise
+0x0cde  /  0x3e0e (0x0006)  : didn't seem to understand
+0x0ce4  /  0x3e16 (0x0004)  : hummed quietly
+0x0ce5  /  0x3e1b (0x0008)  : stared blankly into the night
+0x0ce6  /  0x3e24 (0x0009)  : gazed up at the starry sky
+0x0ce7  /  0x3e2e (0x0005)  : watched me curiously
+0x0ce8  /  0x3e34 (0x0004)  : smiled pleasantly
+0x0cee  /  0x3e3a (0x0004)  : muttered rebelliously
+0x0cef  /  0x3e3f (0x0007)  : moaned loudly and annoyingly
+0x0cf0  /  0x3e47 (0x0008)  : stared pointedly into the distance
+0x0cf1  /  0x3e50 (0x0008)  : gave me a grumpy look
+0x0cf2  /  0x3e59 (0x000b)  : tried to enlist my help in their squabble
+0x0cf8  /  0x3e66 (0x0003)  : laughed pretentiously
+0x0cf9  /  0x3e6a (0x000b)  : stood pompously with his hands on his hips
+0x0cfa  /  0x3e76 (0x0006)  : sniggered at me quietly
+0x0cfb  /  0x3e7d (0x0007)  : looked down his nose at me
+0x0cfc  /  0x3e85 (0x0009)  : looked at me, shaking his head
+0x0d02  /  0x3e90 (0x0004)  : yawned loudly
+0x0d03  /  0x3e95 (0x0009)  : shut his eyes for a moment
+0x0d04  /  0x3e9f (0x0007)  : stretched his arms tiredly
+0x0d05  /  0x3ea7 (0x0006)  : gazed at me blankly
+0x0d06  /  0x3eae (0x0006)  : made snoring noises
+0x0d0c  /  0x3eb6 (0x0009)  : muttered about the youth of today
+0x0d0d  /  0x3ec0 (0x0009)  : complained about the state of the cemetery
+0x0d0e  /  0x3eca (0x0005)  : saluted me smartly
+0x0d0f  /  0x3ed0 (0x0004)  : frowned distastefully
+0x0d10  /  0x3ed5 (0x0004)  : nodded thoughtfully
+0x0d16  /  0x3edb (0x0008)  : talked quietly amongst themselves
+0x0d17  /  0x3ee4 (0x0007)  : stood, looking at the cemetery
+0x0d18  /  0x3eec (0x0007)  : murmured to each other
+0x0d19  /  0x3ef4 (0x000a)  : shook their heads and frowned sorrowfully
+0x0d1a  /  0x3eff (0x0009)  : nodded to each other solemnly
+0x0d20  /  0x3f0a (0x0004)  : grinned deviously
+0x0d21  /  0x3f0f (0x0004)  : smiled broadly
+0x0d22  /  0x3f14 (0x0007)  : stroked his chin thoughtfully
+0x0d23  /  0x3f1c (0x0007)  : sniggered quietly to himself
+0x0d24  /  0x3f24 (0x000a)  : clasped his hands together and grinned
+0x0d2a  /  0x3f30 (0x0004)  : yawned tiredly
+0x0d2b  /  0x3f35 (0x0004)  : coughed noisily
+0x0d2c  /  0x3f3a (0x0007)  : scratched his head thoughtfully
+0x0d2d  /  0x3f42 (0x0009)  : blew his nose into a handkerchief
+0x0d2e  /  0x3f4c (0x0007)  : rubbed his tired eyes
+0x0d34  /  0x3f55 (0x0004)  : joked noisily
+0x0d35  /  0x3f5a (0x000f)  : sang a filthy song at the tops of their voices
+0x0d36  /  0x3f6a (0x0005)  : staggered around drunkenly
+0x0d37  /  0x3f70 (0x000b)  : passed a bottle of vodka between them
+0x0d38  /  0x3f7c (0x0009)  : laughed loudly at some crude joke
+0x0d3e  /  0x3f87 (0x0007)  : wagged its tail timidly
+0x0d3f  /  0x3f8f (0x0007)  : sniffed the ground inquisitively
+0x0d40  /  0x3f97 (0x0009)  : cocked its head to one side
+0x0d41  /  0x3fa1 (0x0004)  : yapped noisily
+0x0d42  /  0x3fa6 (0x0005)  : sniffed me nervously
+0x0dca  /  0x3fae (0x0008)  : the previous command was unrepeatable
+0x0dcb  /  0x3fb7 (0x0006)  : you can't do that again
+0x0dcc  /  0x3fbe (0x0009)  : it wouldn't help to try that again
+0x0dcd  /  0x3fc8 (0x0007)  : that was a once-only command
+0x0dce  /  0x3fd0 (0x0005)  : oh, not again
+0x0de8  /  0x3fd7 (0x0002)  : not around
+0x0e10  /  0x3fdb (0x000b)  : a ghost moaned about a stack overflow. 
+0x0e15  /  0x3fe8 (0x000c)  : sorry, I can't find the way from here
+0x0e1e  /  0x3ff6 (0x0008)  : only a whisper came out
+0x0e24  /  0x4000 (0x0001)  : laughed
+0x0e25  /  0x4002 (0x0006)  : paid me no heed
+0x0e26  /  0x4009 (0x0004)  : had not heard
+0x0e27  /  0x400e (0x0005)  : took no notice
+0x0e28  /  0x4014 (0x0003)  : ignored me
+0x0e38  /  0x4019 (0x0006)  : needed specific orders
+0x0e39  /  0x4020 (0x0005)  : waited for instructions
+0x0e3a  /  0x4026 (0x0005)  : looked me up and down
+0x0e3b  /  0x402c (0x0008)  : asked, "Why?"
+0x0e3c  /  0x4035 (0x0008)  : did not know what to do
+0x0e4c  /  0x403f (0x0005)  : raised an eyebrow
+0x0e4d  /  0x4045 (0x0007)  : gave a spirited response
+0x0e4e  /  0x404d (0x0003)  : looked offended
+0x0e4f  /  0x4051 (0x000e)  : laughed, "Oh! You are a hoot"
+0x0e50  /  0x4060 (0x0005)  : looked askance at me
+0x0fa0  /  0x4069 (0x0024)  : the this these that some and also before wade jog plod rush dash march amble good of there
+0x0fa1  /  0x408e (0x0016)  : therefore am your try carefully slowly warily quickly rapidly following around
+0x0fa2  /  0x40a5 (0x000c)  : please road Mister Mr Mrs Miss
+0x1388  /  0x40ba (0x0086)  : prepared to leave the grave; the police among them talking quietly. 
+"I'm glad that's over with", muttered one of the policemen, "I hate this part of the job. Especially going to funerals for stupid bastards who get themselves killed and their partner captured". 
+"Too right", agreed another. "And it it's only because Mr Severian stumbled upon them dumping Alan's body that the crooks needed a hostage. Otherwise the girl would be dead"
+0x138a  /  0x4144 (0x0030)  : continued walking along the path. 
+"Chance has blown the whole operation", continued the first policeman. "And now the gang's lit out with Sarah as hostage"
+0x138b  /  0x4175 (0x0020)  : walked alongside the crumbling wall of the burnt church, with the police still talking about me as if I wasn't there at all
+0x138c  /  0x4196 (0x001c)  : walked quietly past the vault. One of them patted it casually and cracked an old joke about vampires
+0x138d  /  0x41b3 (0x0035)  : stood looking at the burnt church. "The wall on the east side looks dodgy", commented one of them. "I don't know why they bother to collect money. It's way beyond repair"
+0x138e  /  0x41e9 (0x0045)  : made their way slowly out of the main gate. 
+"Right then, tea time for me", said one policeman as he left, shaking off the gloom of the churchyard and slapping his belly. "Anyone else for a pie and a pint?"
+0x1392  /  0x4231 (0x000e)  : waited until the rest of the mourners had gone
+0x1393  /  0x4240 (0x0012)  : paused to light a cigarette, then tossed an empty matchbook aside
+0x1396  /  0x4254 (0x008c)  : strolled casually along the path, kicking up the gravel. 
+"Well, that's one nosey snoop taken care of", he chuckled. It wasn't a nice sound. "And none of those other dozey cops have even looked twice in my direction. Fools! The lot of them". 
+ 
+"No wonder he's not looking sorry", I thought to myself. "He's one of the crooks - probably set me up. And nobody suspects because I'm dead and a convenient scapegoat"
+0x1397  /  0x42e3 (0x0062)  : walked past the vault, running his hand along its edge. "Who'd think of looking in here?", he laughed to himself. 
+ 
+"For what?" I murmured to myself, but even before I had finished the words I knew. This was where the gang had stashed their drugs. If only I had some way to foil their plans..
+0x1398  /  0x4347 (0x0009)  : strolled away into the twilight mists
+0x139c  /  0x4352 (0x0032)  : stretched his back and sighed, "Ah, well. Back to work. What a bleedin' job; diggin' holes, watchin' holes and fillin' holes again
+0x139d  /  0x4385 (0x0032)  : read the headstone and laughed, "I reckon this was the miserable bleeder that arrested me for being drunk. Well, I'm safe now. I don't reckon I'll be seeing him again"
+0x139e  /  0x43b8 (0x0013)  : pushed his shovel into the mound of earth and began to fill the grave
+0x139f  /  0x43cc (0x006e)  : suddenly leapt back, staring at me. I had a sudden queezy feeling and felt myself fade away under his gaze. 
+A minute passed; then the workman shook his head. "No, it wasn't him. It's just be the whisky", he muttered. Then picked up the shovel from where he had dropped it and continued to fill my grave. As he turned away, I began to firm up again
+0x13a0  /  0x443c (0x0024)  : stood up and rubbed his back. "Tirin' work, is this", he sighed and rested on his shovel for a few minutes
+0x13a1  /  0x4461 (0x0018)  : finished shovelling the earth into the grave and then patted it flat with the back of the blade
+0x13a6  /  0x447b (0x002b)  : muttered to himself, "Company vehicle, they said. There I was expecting a Sierra, and what do I get? A bleedin' battery operated pram"
+0x13aa  /  0x44a8 (0x004b)  : dismounted briefly to collect some litter. 
+He twisted around with a start and I began to fade away in his gaze. "Funny, I could 'ave sworn someone was watching me", he muttered. 
+He looked away and I slowly began to recover my ghostly shape
+0x13ab  /  0x44f5 (0x002b)  : saw the faded wreath and said, "Phew! I could smell this thing rotting as I came through the gates. It'll have to go on the heap"
+0x13ac  /  0x4521 (0x0022)  : tapped his fingers on the steering wheel of the cart and said, "Where the heck is that dozey four-eyed digger?"
+0x13ad  /  0x4544 (0x004a)  : saw the workman and said, "You took your time! Did you see a ghost, or fall into the grave or something?" 
+ 
+"I wish you'd fall into a grave", muttered the workman, "I'd fill it in before you could climb back out again"
+0x13ae  /  0x4590 (0x001c)  : rubbed his frost-bitten hands together. "Well, that's another day over with", he said to the workman
+0x13af  /  0x45ad (0x0033)  : 
+ 
+The workman propped his tools up in a corner. "I'll say one thing for this lark", he joked for the hundredth time, "the customers never complain"
+0x13b0  /  0x45e1 (0x003a)  : clasped his hands together and announced, "I could murder a pint of best." 
+ 
+"I'm with you there", replied the workman, "Let's make it the Pig and Whistle tonight"
+0x13b1  /  0x461c (0x0010)  : drove off through the car park and headed for the pub
+0x13ba  /  0x462e (0x00a9)  : 
+ 
+The figure greeted me with a warm smile and introduced himself. "I'm Joe Danby, that used to run the Pig and Whistle", he said. "Turned my toes up nearly five years ago, I did, and couldn't return to haunt my pub because they don't serve spirits. I've got to know this place quite well in that time". 
+ 
+Joe spread his arm in a wide arc, prompting me to take a look at the cemetery. "Come on", he added, "follow me and I'll show you around the place and introduce you to some of my kindred spirits"
+0x13bb  /  0x46da (0x0058)  : gave me a broad grin and announced, "Here's my grave. Right next to yours. I can see us being good neighbours". 
+ 
+I returned a smile and admired the well-mown grass. "It gets cut every Sunday, through the Summer", he explained. "I had some good friends"
+0x13bc  /  0x4734 (0x0037)  : beckoned me to come closer. "These are the Willmot graves", he said in a low whisper. "And if you thought the dead rest in peace, you should listen to this couple"
+0x13bd  /  0x476c (0x0049)  : 
+ 
+"What was that, Mr Danby?", shouted Bert. 
+"Oh", replied Joe. "I was just telling the new fellow what a lovely couple you and Edna make". He grinned to me, "I think it's time to pass on"
+0x13be  /  0x47b7 (0x0031)  : whispered, "Always has to prove something, does our David. He may have gone to meet his maker, like, but still he claims to be a self-made man"
+0x13bf  /  0x47e9 (0x0031)  : greeted David with a tight smile. "Still practising with your psychic powers, I see", he said, as David lifted up a moth and spun it high into the air
+0x13c0  /  0x481b (0x0053)  : continued with his guided tour. "And this is Colonel Rycroft's grave", he said. "An extinct ex-soldier is the Colonel. Bit stiff. Served his country well in the old days, but he's rather stuck in his ways. Can't stand the young louts we sometimes get here of a night"
+0x13c1  /  0x4870 (0x0060)  : 
+ 
+"Evening, Joe", barked the Colonel. "I see you've brought along the new chap". 
+ 
+He held out his hand, but it went straight through me when I tried to shake it. The Colonel laughed and said, "Not too solid yet, eh? You'll have firmed up some before the night is out"
+0x13c2  /  0x48d2 (0x0045)  : said, "Violet Conway's our oldest resident. Cracked as well as croaked. She went blind in life and now won't leave her grave in case she can't find her way back. It's nonsense of course; we ghosts don't need eyes to see"
+0x13c3  /  0x4919 (0x002d)  : 
+ 
+"I'm certainly all ears", replied Violet. "And you must be Alan, the new arrival". She gave me a warm, friendly smile
+0x13c4  /  0x4947 (0x002f)  : 
+"You must forgive me if I don't follow you", she continued, "but if I wandered too far from my grave, I might never find my way back again"
+0x13c5  /  0x4977 (0x001d)  : sighed and said, "And by no means least, this is the last resting place of Edith Dean"
+0x13c6  /  0x4995 (0x0048)  : lowered his voice. "If 'resting' is the word. Edith used to be a real hypochondriac; scared to death of catching germs off things; the rumour is that she OD'd on carrots. So nowadays she reckons she's cursed or something"
+0x13c7  /  0x49df (0x0084)  : concluded his guided tour, saying, "Well, that's most of your new neighbours introduced. I hope you haven't been bored to death". 
+ 
+He laughed warmly and I had to smile. "I guess that's more of your graveyard humour", I replied. Joe laughed again and continued, "I can see we're going to get along all right. Do you mind If I walk with you? We don't want you getting lost on your first night, do we?"
+0x13ce  /  0x4a67 (0x0022)  : 
+ 
+Edna tried to snatch Bert's wreath but he wouldn't let go of it. They glared at one another in silence
+0x13cf  /  0x4a8a (0x003b)  : stood guarding his wreath, while Edna paced around him, trying to it. "Let me have my wreath back", she insisted. 
+ 
+"It's mine!", he replied, "And you're not having it"
+0x13d0  /  0x4ac6 (0x003c)  : clutched tightly at his wreath, guarding it from Edna. Sometimes, he would stop and suck his teeth, which made Edna even angrier. I wondered why they bothered. There must be better things to do with your death
+0x13d1  /  0x4b03 (0x004c)  : said to Edna, "This wreath is mine! Yours was all faded. I bet it's on the compost heap". 
+ 
+"Don't talk such drivel", snapped Edna, "Now, give me that wreath back". 
+ 
+"Shan't!", sulked Bert
+0x13d2  /  0x4b51 (0x0021)  : 
+ 
+Edna jabbed Bert with a sharp elbow, but he still managed to keep a tight hold on his wreath
+0x13d3  /  0x4b73 (0x0059)  : 
+ 
+Edna sat on the headstone and folded her arms in a huff. "If you don't give my wreath back", she nagged at Bert, "I won't speak to you until the end of eternity". 
+ 
+"Suits me fine", muttered Bert as he sat down on the grave, facing away from his wife
+0x13d6  /  0x4bcf (0x001c)  : said, "Do you want any help, Alan? It's getting boring hanging about here all night
+0x13d8  /  0x4bed (0x0016)  : put his fingers in his ears so that he didn't have to listen to Edna's nagging
+0x13d9  /  0x4c04 (0x0010)  : cringed while Edna went on about his "filthy habits"
+0x13da  /  0x4c15 (0x0026)  : yelled at Edna, "Oh, shut up, woman! You nagged me into an early grave. Now let me have some peace in it"
+0x13db  /  0x4c3c (0x001d)  : put up with Edna's nagging for as long as he could, then snapped and started mimicking and mouthing at her
+0x13dc  /  0x4c5a (0x0014)  : paid no attention to Edna's nagging, and just looked in the opposite direction
+0x13e2  /  0x4c70 (0x0028)  : complained that Bert never listened to her and never did a thing she said and that her mother had warned her against marrying him in the first place
+0x13e3  /  0x4c99 (0x0010)  : nagged on at Bert, while he pretended not to hear
+0x13e4  /  0x4caa (0x001c)  : droned on and on about the awful lousy weather they'd been having and how it was all Bert's fault
+0x13e5  /  0x4cc7 (0x0011)  : wittered on about the state Bert had let their headstone get into
+0x13e6  /  0x4cd9 (0x0010)  : found Bert wasn't paying attention and became noisily silent
+0x13ec  /  0x4ceb (0x0044)  : I watched as the figure stood up, yawned, and then brushed a few pigeon droppings off its arms. 
+ 
+"Greetings, my friend", it announced in an elderly voice. "I am Alex Pym. Pleased to meet you"
+0x13ed  /  0x4d31 (0x006a)  : the grey figure stretched its arms in the air and yawned loudly. 
+ 
+"What's all the to-do about?", complained the figure, "and I was having such a nice dream". He paused to brush himself down then said, "Well, now that you've woken me, I may as well make myself useful. Pym's the name, by the way. Alex Pym"
+0x13ee  /  0x4d9d (0x003d)  : I watched as the figure got up and rubbed its eyes. 
+ 
+"Oh, excuse me", he said sleepily, "I must have nodded off. I'm Alex Pym. Is there anything I can do for you?"
+0x13ef  /  0x4ddb (0x007d)  : I watched attentively as the pale figure stretched and made its way towards me, yawning. 
+ 
+"What a strange dream I was having", it said in a fragile voice, "Something about nine overthrowing the church. Blowed if I can make head nor tail of it". 
+The figure shook the dust from its arms and said, "How do you do. My name's Alex Pym, if you don't already know. Pleasure to meet you"
+0x13f0  /  0x4e5a (0x0074)  : the figure stood up and peered around, with a puzzled frown. "I must have fallen asleep", it concluded, scratching its head of ruffled grey hair. 
+ 
+"Well, thank you for waking me", continued the figure. "Goodness knows how long I would have slept if it weren't for you. By the way, my name's Alex Pym. You look a little troubled. Can I help at all?"
+0x13f6  /  0x4ed1 (0x0004)  : yawned widely
+0x13f7  /  0x4ed6 (0x0016)  : muttered something about nine overthrowing the church. It sounded like gibberish to me at the time
+0x13f8  /  0x4eed (0x0016)  : nodded off and then woke with a start, mumbling about men in white coats
+0x13f9  /  0x4f04 (0x0023)  : said, "I was always statuesque. Nobody really appreciated my handsome features while I was alive, but they all look now"
+0x13fa  /  0x4f28 (0x001d)  : posed and said, "I think I should have gone in for modelling rather than becoming an accountant"
+0x13fb  /  0x4f46 (0x0021)  : yawned loudly and said, "I feel ever so tired. I think I'll go and take a little nap"
+0x1400  /  0x4f69 (0x000f)  : struck a pose and slowly changed back into a statue
+0x140a  /  0x4f7a (0x002d)  : moaned sorrowfully, "Cursed, I am. Cursed to remain beside my grave until the end of time. What kind of an afterlife is this, I ask you?"
+0x140b  /  0x4fa8 (0x0046)  : 
+ 
+Joe spoke quietly into my ear, "Aye up, she's off again! Complained all her life and now this nonsense". 
+He raised his voice. "She's no more cursed than I am; just likes silly games"
+0x140c  /  0x4ff0 (0x0022)  : wept on her grave. "Have you any idea how lonely it is, stuck in this corner until the end of time?"
+0x140d  /  0x5013 (0x002c)  : complained bitterly, "I had to wait to be buried during the strikes of the Winter of Discontent, but this is worse. Nobody comes to visit me here"
+0x140e  /  0x5040 (0x004d)  : 
+ 
+"Pull yourself together, Edith", said Joe, "I'm sure that we can free you from your curse again". 
+ 
+Joe turned to me and winked, "There must be some way of demonstrating the end of time. Can you think of anything?"
+0x140f  /  0x508f (0x0039)  : continued her moaning. "It's no use", she wailed, "Nobody will help me. I'll just have to stay here until the end of time". 
+ 
+She sat down by her grave and sobbed theatrically
+0x1414  /  0x50ca (0x0023)  : smiled delightfully and said, "I think I'll take a nice walk around the cemetery, now that I'm free of my curse"
+0x1415  /  0x50ee (0x002b)  : skipped gracefully around the sepulchre. "It feels so good to be free again", she simpered, "I feel so full of, er, life!"
+0x1416  /  0x511a (0x0035)  : 
+ 
+"Nice to see spirits go free", mused Joe as he watched Edith dancing around, "though I didn't used to think that when I ran the Pig and Whistle"
+0x1417  /  0x5150 (0x001f)  : 
+ 
+Edith gossiped with Violet, and told her how good she felt now that the curse had been lifted
+0x1418  /  0x5170 (0x0020)  : 
+ 
+Edith was deep in conversation with Violet. "It was young Alan who helped me", she said gratefully
+0x1419  /  0x5191 (0x000f)  : talked to the Colonel about the "good old days"
+0x141a  /  0x51a1 (0x0023)  : walked among the new graves. "I don't think much of their headstones", she commented, "They're all so much the same"
+0x141b  /  0x51c5 (0x0030)  : continued, "they knew how to mark a grave properly in the old days. Look at my lovely headstone", she waved a hand towards her own grave and smiled proudly
+0x141c  /  0x51f6 (0x0029)  : sat down on the steps and looked around the cemetery. "My, my", she sighed, "This place has changed since the curse fell on me"
+0x141d  /  0x5220 (0x003f)  : looked at new graves around close by. "If I remember rightly", she began, "all this used to be lawn. I suppose a lot of people have passed on since then". 
+I wasn't listening, but nodded anyway
+0x141e  /  0x5261 (0x0034)  : wandered around the tombstones, humming softly to herself. "It feels so good to be free", she said to me, "There must be something I can do to help you in return." 
+0x1428  /  0x5297 (0x002c)  : smirked arrogantly. "So you're the new one. Weedy little chap, aren't you? I bet you don't even know how to move objects yet"
+0x1429  /  0x52c4 (0x0013)  : showed off by levitating a mouse and letting it drop to the ground
+0x142a  /  0x52d8 (0x0030)  : 
+ 
+Joe frowned at David's display and said to me, "Go on, Alan, show him what you can do. Maybe he'll help you if you can impress him"
+0x142b  /  0x5309 (0x0022)  : waved his hands about and worked up a strong breeze which blew fallen leaves into my face. He stood back and laughed pretentiously
+0x142c  /  0x532c (0x0023)  : looked down his nose at me. "I bet you wish you had my powers", he boasted, leaning pompously against his sarcophagus
+0x142d  /  0x5350 (0x0026)  : spread his hands and said, "Well, it's your turn to show me what you can do. I might even help you if I'm impressed"
+0x1430  /  0x5378 (0x001a)  : said, "I'm busy practicing my powers, but I might help you if you ask nicely"
+0x1432  /  0x5394 (0x0006)  : conjuring up a breeze
+0x1433  /  0x539b (0x000d)  : posed majestically and began flexing his physic muscles
+0x1434  /  0x53a9 (0x0011)  : levitated a few feet above the ground and looked down at me
+0x1435  /  0x53bb (0x0016)  : laughed condescendingly and said, "You'll never be as good a ghost as I am"
+0x1436  /  0x53d2 (0x0005)  : folded his arms
+0x1437  /  0x53d8 (0x000a)  : swirled a whirlwind of dust around me
+0x1438  /  0x53e3 (0x0017)  : concentrated his powers on me and I helplessly floated a few feet above the ground
+0x1439  /  0x53fb (0x003c)  : held his hand out and prompted me to shake it. But as soon as I touched him, I was thrown back as if I'd had an electric shock. "You really are pathetic, aren't you?", he sneered
+0x143a  /  0x5438 (0x0037)  : picked a fir cone off the ground and threw it into the air, where it exploded into a shimmering cascade of stars. "Now that's what I call impressive", sighed David, preening himself
+0x143b  /  0x5470 (0x000c)  : used his powers to plague me with moths
+0x143c  /  0x547d (0x0037)  : frowned at a distant noise. "Do you hear that?", he barked in a stage-whisper, "Those young scoundrels are at it again. I'd best be off to keep an eye on things"
+0x1441  /  0x54b6 (0x0020)  : greeted me with a salute and said, "Good show, old chap. That light soon scared those blighters away"
+0x1442  /  0x54d7 (0x002b)  : said, "Let me know if you need me for anything. I'll be about the place in case any more of those young ne'er-do-wells show their faces"
+0x1443  /  0x5503 (0x0025)  : peered behind a headstone. "Hmmph, no vandals hiding in here", he concluded, "Now, where else they could be"
+0x1444  /  0x5529 (0x0021)  : 
+ 
+David nodded towards the Colonel, then cast his eyes upwards. "Silly old fool", he muttered
+0x1445  /  0x554b (0x0014)  : rummaged through a pile of leaves to see if any vandals were hiding there
+0x1446  /  0x5560 (0x002a)  : 
+ 
+Joe watched the Colonel and smiled at me. "You don't have to be mad to live here", he said, "but it helps pass the time
+0x1447  /  0x558b (0x001c)  : poked a stick vigorously into the branches, to flush out any hooligans that might be hiding in there
+0x1448  /  0x55a8 (0x0026)  : 
+ 
+Joe shook his head ruefully at the Colonel's antics. "He was just about as bad when he was alive", he mused
+0x1449  /  0x55cf (0x000d)  : squinted behind a sarcophagus, looking for vandals
+0x144a  /  0x55dd (0x0024)  : 
+ 
+Edith gave the Colonel a peculiar look. "And people used to say that I was touched", she commented
+0x144b  /  0x5602 (0x0031)  : complained about the state of today's youth. "I wish that I could have brought my shotgun to the afterlife with me", he grumbled, "I'd pepper their backsides for them!"
+0x1450  /  0x5635 (0x0057)  : sat around the cenotaph, sharing a bottle of vodka and telling jokes. One of them climbed up the stonework and then began to act like a monkey. 
+ 
+He grew suddenly serious and stared down to where I stood. I found myself fading away beneath his gaze. He blinked drunkenly and went back to his cavorting
+0x1451  /  0x568e (0x003c)  : 
+ 
+"Look at those young louts!", said the Colonel in disgust, "I knew many a good man who gave his live for this country and this is the thanks they get from today's youth"
+0x1452  /  0x56cb (0x0029)  : sat on the sepulchre and started smoking. One began to choke over his fag, and his friend laughed, "Oi you! Give over coffin!"
+0x1453  /  0x56f5 (0x001c)  : 
+ 
+David was angered by the vandals, and he began to rock the urn to scare them away
+0x1454  /  0x5712 (0x00be)  : stomped through the leaves, swigging their vodka. One climbed up the tree and shouted, "Hey! The view's dead good from up here!" 
+"Yeh", agreed his mate, "I always wanted a tomb with a view." 
+"Aww", groaned a third, "Where do you keep digging them up." 
+"Look!", cried the first one, "A ghost!". He stared hard at me and I began to fade, until I became totally invisible. 
+"'Ere, how much have you had?", sneered his friend. "I can't see no ghosts". 
+They both looked away and I slowly began to recover
+0x1455  /  0x57d4 (0x003f)  : 
+ 
+the Colonel fumed with anger and concentrated on making himself visible to scare the vandals away. He managed a full apparition, but could only hold it for a few seconds and the vandals were too drunk to notice
+0x1456  /  0x5815 (0x0013)  : stubbed their cigarettes out on Violet's grave and relieved themselves on the bushes
+0x1457  /  0x5829 (0x0033)  : 
+ 
+Violet began to shiver in the presence of the vandals. "Oh, I do wish they'd go away", she quavered. "Young tearaways like that scare me to death"
+0x1458  /  0x585d (0x0022)  : kicked the tombstones, knocking some clean over. One of the louts brought out a spray can and signed several of the stones
+0x1459  /  0x5880 (0x0038)  : 
+ 
+the Colonel scrubbed the tombstones furiously with his hand, trying to remove the paint, but it was a waste of time. "We should have a night watchman in this cemetery", he seethed
+0x145a  /  0x58b9 (0x0024)  : seemed to notice me and began to shiver a little. It opened its mouth to bark, but only managed a dry choking noise
+0x145b  /  0x58de (0x000a)  : ran in circles, choking harshly
+0x145c  /  0x58e9 (0x001d)  : 
+ 
+"Come here, doggy", said Joe in a soft voice. But the dog just growled
+0x145d  /  0x5907 (0x000d)  : coughed hoarsely, trying to clear its throat
+0x145e  /  0x5915 (0x000f)  : chewed some grass, then pawed its mouth in frustration
+0x145f  /  0x5925 (0x0010)  : opened its mouth wide and made dry gagging noises
+0x1460  /  0x5936 (0x0014)  : wandered around with its tail between its legs, looking sorry for itself
+0x1461  /  0x594b (0x000c)  : sat down outside shed door, coughing hoarsely
+0x1462  /  0x5958 (0x0015)  : rubbed its neck in the gravel as if trying to dislodge something in its throat
+0x1463  /  0x596e (0x0025)  : 
+ 
+"If I'm not mistaken", said Joe, looking thoughtfully at the dog, "it's got something stuck in its throat"
+0x1464  /  0x5994 (0x000b)  : greeted me with a wag of its tail
+0x1465  /  0x59a0 (0x0005)  : panted in excitement
+0x1466  /  0x59a6 (0x000f)  : sniffed my leg curiously and made a puzzled noise
+0x1467  /  0x59b6 (0x000e)  : shook itself noisily and gave a happy yap
+0x1468  /  0x59c5 (0x000f)  : sat down on the floor and wagged its tail happily
+0x146e  /  0x59d6 (0x0033)  : leaned against her headstone, sorrowfully. "Oh, I wish I'd been healthier before my death", she sighed, "It's terrible having to spend my afterlife without eyes"
+0x146f  /  0x5a0a (0x0028)  : 
+ 
+"But Violet, you know that you can see perfectly well. And anyway, surely you could find your way by sound", suggested Joe
+0x1470  /  0x5a33 (0x0044)  : said thoughtfully, "I suppose my hearing could get me about a bit, but I'm so afraid that I might not find my way back to my grave before dawn". 
+"I could do with something noisy beside it so that I don't get lost", she added
+0x1471  /  0x5a79 (0x0025)  : 
+ 
+"I wish we could help you, Violet" said Joe, "If only we had some kind of siren or something"
+0x1472  /  0x5a9f (0x0029)  : said, "That bush beside my grave makes some noise in the breeze, but it's so quiet that I can't hear it from a few yards away"
+0x1473  /  0x5ac9 (0x002b)  : pleaded, "Oh, I wish you could help me. It would be so nice to wander through the cemetery by myself rather than having to stay here all night"
+0x1478  /  0x5af6 (0x002f)  : listened attentively to the sound of the bell ringing. "That's so reassuring", she said, "I feel safe enough to wander though the cemetery by myself, at last"
+0x1479  /  0x5b26 (0x001e)  : drifted happily through the marigolds. "What pretty flowers", she murmured. "This is a rare treat"
+0x147a  /  0x5b45 (0x0026)  : 
+ 
+Joe picked one of the flowers and gave it to Violet. "How delightful", she smiled, "I do love marigolds"
+0x147b  /  0x5b6c (0x001f)  : talked for a while with the Colonel, telling him how nice it was to be able to get around by herself
+0x147c  /  0x5b8c (0x0024)  : floated through the fallen leaves, listening to them rustling in the breeze. "Oh, how I love Autumn", she sighed
+0x147d  /  0x5bb1 (0x0040)  : 
+ 
+"You'll not have been to my grave yet", said Joe to Violet. "It's one of the new ones over there". He took her hand and pointed it towards his grave. "Why not have a walk over", he suggested to her
+0x147e  /  0x5bf3 (0x0012)  : ran her fingers slowly over Joe's headstone, reading the inscription
+0x147f  /  0x5c06 (0x0021)  : finished reading Joe's headstone and said, "How sweet. You must have had many friends before your death, Joe"
+0x1480  /  0x5c28 (0x0020)  : thanked me for my help, saying, "This bell really works. It was no trouble finding my way back here"
+0x1481  /  0x5c49 (0x001c)  : ran her fingers slowly over the inscription on the cenotaph, gradually forming each word with her lips
+0x1482  /  0x5c66 (0x003f)  : 
+ 
+Joe helped Violet by placing her hand carefully on each word of the inscription. 
+"Everyone's being so kind to me tonight", said Violet, "It's been much nicer than staying by my grave all the time"
+<EOM>

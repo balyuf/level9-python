@@ -2,9 +2,7 @@ Welcome to Adventure Quest from Level 9 Computing. Enter English phrases (withou
 You are at the end of a road from the north, outside a small brick building. A river flows south through a narrow valley and there is dense woodland all around.
 What next?
 #title: Adventure Quest test script
-Invalid command
-#comment: CPC version
-Invalid command
+#comment: MSX version
 #SEED 42
 Seed set to 42
 IN
@@ -1785,7 +1783,8 @@ N
 You are standing by the Bane-fire. But you can't get near enough to use the Amulet because of the evil radiance from the flames!.
 The Demon Lord freezes you with a look: "You will still fail!", he snarls, "No amulet can work so close to the centre of my power." 
 But the PHOENIX dives at the fire, destroying it completely! The Demon Lord screams and implodes to nothing: your mission is successful!!
- You scored 6187 out of about 6000.
+ 
+You scored 6187 out of about 6000.
 All Middle-Earth hails thee: "Grandmaster Adventurer!". Congratulations, you are one of the elite who have cracked this game.
 Do you want to try again?
 N

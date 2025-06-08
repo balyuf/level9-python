@@ -1,0 +1,745 @@
+0x0001  /  0x0cc0 (0x0001)  :  
+0x0002  /  0x0cc2 (0x0004)  : ;
+
+0x0003  /  0x0cc7 (0x0003)  : ,
+
+0x0004  /  0x0ccb (0x0003)  : .
+
+0x0005  /  0x0ccf (0x0002)  : 
+
+0x0006  /  0x0cd2 (0x0003)  :  and 
+0x0007  /  0x0cd6 (0x0003)  : .
+
+0x0008  /  0x0cda (0x0003)  : ) 
+0x0009  /  0x0cde (0x0002)  : I 
+0x000a  /  0x0ce1 (0x0002)  : ? 
+0x000b  /  0x0ce4 (0x0005)  : 
+ 
+
+0x000c  /  0x0cea (0x0003)  : : 
+0x000d  /  0x0cee (0x0002)  : . 
+0x000e  /  0x0cf1 (0x0002)  : , 
+0x001c  /  0x0cf5 (0x0008)  : yes y on enable
+0x001d  /  0x0cfe (0x0008)  : no n off disable
+0x001e  /  0x0d07 (0x0006)  : zero nought 0
+0x001f  /  0x0d0e (0x000b)  : 1)  [aka] one 1
+0x0020  /  0x0d1a (0x000b)  : 2)  [aka] two 2
+0x0021  /  0x0d26 (0x000b)  : 3)  [aka] three 3
+0x0022  /  0x0d32 (0x0019)  : type a command or HELP for details. Then press ENTER or RETURN. [aka] four 4
+0x0023  /  0x0d4c (0x0006)  : E five 5
+0x0024  /  0x0d53 (0x0006)  : F six 6
+0x0025  /  0x0d5a (0x0006)  : G seven 7
+0x0026  /  0x0d61 (0x0006)  : H eight 8
+0x0027  /  0x0d68 (0x0006)  : I nine 9
+0x0028  /  0x0d6f (0x000c)  : select one of these alternatives:
+
+0x0029  /  0x0d7c (0x000b)  : choose one of the following:
+
+0x002a  /  0x0d88 (0x0008)  : pick one of:
+
+0x002b  /  0x0d91 (0x0004)  : help info
+0x002c  /  0x0d96 (0x0002)  : save
+0x002d  /  0x0d99 (0x0004)  : load restore
+0x002e  /  0x0d9e (0x0004)  : pictures graphics
+0x002f  /  0x0da3 (0x0004)  : printer list
+0x0030  /  0x0da8 (0x0002)  : demo
+0x0031  /  0x0dab (0x0002)  : restart
+0x0032  /  0x0dae (0x0091)  : the commands are: 
+SAVE position on tape; 
+LOAD previously saved position; 
+PICTURES ON or PICTURES OFF; 
+PRINTER ON or PRINTER OFF; 
+DEMO to demonstrate the game; 
+RESTART to start again; 
+SCORE for an audience survey. 
+For more information, type HELP followed by the name of a command and press ENTER or RETURN. To return to the game, just press ENTER or RETURN by itself. [aka] score
+0x0033  /  0x0e42 (0x0070)  : SAVE stores your position (the state of play) on cassette. Start a blank tape on RECORD, type SAVE and press ENTER or RETURN. If you're asked for a file name, type a short word (e.G. ANYNAME). Press ENTER or RETURN twice. When you're told the saving has finished, stop the tape. 
+0x0034  /  0x0eb4 (0x006f)  : LOAD reads a previously saved position from cassette. Type LOAD and press ENTER or RETURN. (If you are asked for a file name, type the same name as when you SAVEd it.) Press ENTER or RETURN. Rewind the tape on which the position was saved and start it on PLAY. (If the tape doesn't move, press ENTER or RETURN again.) 
+0x0035  /  0x0f25 (0x005f)  : PICTURES turns the graphics off or back on. (The main reason for turning the pictures off is that more text fits on the screen). 
+ 
+Type PICTURES OFF and press ENTER or RETURN to stop pictures being displayed when you play the game. Type PICTURES ON and press ENTER or RETURN to display them again. 
+0x0036  /  0x0f86 (0x0069)  : PRINTER allows you to make a typed listing of the story as it unfolds. (Only try this if you know what you are doing; connecting a printer to a computer can be tricky!) 
+ 
+Type PRINTER ON and press ENTER or RETURN to list the story as you play. Type PRINTER OFF and press ENTER or RETURN to stop this. 
+0x0037  /  0x0ff1 (0x003c)  : DEMO provides a continuous demonstration of the game, with the computer making random decisions.
+ 
+Type DEMO and press ENTER or RETURN for automatic play. Press just about any key to stop the demonstration. 
+0x0038  /  0x102e (0x0027)  : RESTART starts the game again at the beginning of the current part. 
+ 
+Type RESTART and press ENTER or RETURN to start again. 
+0x0039  /  0x1056 (0x0056)  : SCORE reports how well, or badly, you are doing under various categories. Your main aim is to attract as many listeners as possible, but be careful not to do too badly in any category because you'll be fired. E.G if standards drop too far. 
+0x003a  /  0x10ae (0x0022)  : 
+ 
+that's the end of this part of the game. Would you like to continue with the next part? 
+0x003b  /  0x10d1 (0x0041)  : 
+check the program tape/disk is in the drive and press ENTER or RETURN. If using tape, check the recorder is set to PLAY (if the tape isn't moving, press ENTER or RETURN again). 
+0x003c  /  0x1114 (0x0046)  : 
+welcome to part three of the "The Archers" from Level 9 and Mosaic. If you are loading from tape, and it is still running, STOP THE TAPE IMMEDIATELY. Then press any key to start the game. 
+0x003d  /  0x115c (0x0008)  : 
+SAVE completed. 
+0x003e  /  0x1165 (0x0008)  : 
+LOAD completed. 
+0x003f  /  0x116e (0x0027)  : 
+ 
+DEMO stopped. Press SHIFT when the game pauses and 1-4 to make decisions in future.
+ 
+
+0x0040  /  0x1196 (0x0044)  : 
+ 
+well done! You've reached the end of the Archer's game and proved your worth as a trainee scriptwriter!
+ 
+Would you like to play the final part again and try for an even better score? 
+0x0041  /  0x11dc (0x003f)  : this program would normally be loaded after you have finished playing through the part of the game leading up to it. This seems not to have happened. No problem, except that the score starts with default values. 
+0x0042  /  0x121d (0x0035)  : the position you just LOADed doesn't look as if it was saved from this part of the Archers game. No problem, except that you'll have to continue from the start of this part of the game. 
+0x0043  /  0x1253 (0x001e)  : and, because the position was SAVEd from a later part of the game, the score has been reset. 
+0x0044  /  0x1272 (0x000e)  : sorry, I don't understand that command. 
+0x0045  /  0x1281 (0x003a)  : 
+ 
+MEMO FROM CR4: unfortunately you've not gained the 1 million extra listeners needed for you to proceed to the next part. Better try again...
+ 
+
+0x0046  /  0x12bc (0x000c)  : DEMO started. Please wait. 
+0x005a  /  0x12ca (0x0013)  : in this section, you control the story-line for Eddie Grundy. 
+0x0064  /  0x12df (0x000c)  : I'm getting complaining letters about realism. 
+0x0065  /  0x12ec (0x0010)  : some events have been a bit peculiar, recently. 
+0x0066  /  0x12fd (0x000f)  : the lack of realism has gone too far. 
+0x0067  /  0x130d (0x0010)  : you'd better get events back on the right track! 
+0x0068  /  0x131e (0x000d)  : there's not been quite enough variety lately. 
+0x0069  /  0x132c (0x000b)  : can't you jazz it up a bit? 
+0x006a  /  0x1338 (0x000f)  : you've failed to keep your audience interested. 
+0x006b  /  0x1348 (0x000a)  : better try for more variety. 
+0x006c  /  0x1353 (0x000e)  : the censorship brigade are after your head. 
+0x006d  /  0x1362 (0x0010)  : they say your scripts pander to base instincts. 
+0x006e  /  0x1373 (0x000e)  : you've let standards slip too far. 
+0x006f  /  0x1382 (0x000f)  : better stick with good taste for a while. 
+0x0070  /  0x1392 (0x000a)  : you're causing me some concern. 
+0x0071  /  0x139d (0x000f)  : try to remember you're working for an institution. 
+0x0072  /  0x13ad (0x0014)  : you've caused too many problems for the rest of the team! 
+0x0073  /  0x13c2 (0x0010)  : perhaps your talents will fit in better elsewhere. 
+0x0082  /  0x13d4 (0x0002)  : I 
+0x0083  /  0x13d7 (0x0003)  : it is 
+0x0084  /  0x13db (0x0007)  : I want to go to 
+0x0085  /  0x13e3 (0x0003)  : he says 
+0x0086  /  0x13e7 (0x000a)  : I wait and eventually Jethro says 
+0x0087  /  0x13f2 (0x0004)  : we find 
+0x0088  /  0x13f7 (0x0005)  : I choose a 
+0x0089  /  0x13fd (0x0004)  : she says that 
+0x008a  /  0x1402 (0x0002)  : it's 
+0x008b  /  0x1405 (0x0004)  : I say that 
+0x0097  /  0x140b (0x0012)  : MEMO FROM CR4, BROADCASTING HOUSE, LONDON. 
+0x0098  /  0x141e (0x000c)  : audience research shows the Archers reaching 
+0x0099  /  0x142b (0x0001)  : ,
+0x009a  /  0x142d (0x0009)  : 00,000 listeners. 
+0x009f  /  0x1438 (0x000a)  : you're fired!
+ 
+
+0x00a0  /  0x1443 (0x0017)  : 
+ 
+but as this is a game, you get to try again... 
+0x00a1  /  0x145b (0x0005)  : watch it. 
+0x00a2  /  0x1461 (0x0009)  : pull your socks up. 
+0x00a4  /  0x146c (0x0006)  : best wishes. 
+0x00a5  /  0x1473 (0x0006)  : well done. 
+0x00a6  /  0x147a (0x0004)  : congratulations! 
+0x00a7  /  0x147f (0x000b)  : you're doing a superb job! 
+0x00a8  /  0x148b (0x000d)  : you must be in line for an OBE. 
+0x00a9  /  0x1499 (0x000b)  : remember me when you're the DG. 
+0x00b4  /  0x14a6 (0x0013)  : a survey shows the status of the Archers programme to be.. 
+0x00b5  /  0x14ba (0x0002)  : realism
+0x00b6  /  0x14bd (0x0002)  : interest
+0x00b7  /  0x14c0 (0x0002)  : standards
+0x00b8  /  0x14c3 (0x0004)  : CR4's opinion
+0x00b9  /  0x14c8 (0x0002)  : abysmal
+0x00ba  /  0x14cb (0x0002)  : low
+0x00bb  /  0x14ce (0x0002)  : average
+0x00bc  /  0x14d1 (0x0002)  : high
+0x00bd  /  0x14d4 (0x0002)  : excellent
+0x00c9  /  0x14d8 (0x001b)  : Clarrie says it's time we went on holiday. She wants to get away from it all to somewhere exotic. 
+0x00ca  /  0x14f4 (0x0013)  : we can't go 'cos there's too much work on the farm
+0x00cb  /  0x1508 (0x0012)  : . Clarrie says she's going on strike and won't cook my dinner. 
+0x00cc  /  0x151b (0x0015)  : after a week of protest from Clarrie, I really need a holiday. 
+0x00cd  /  0x1531 (0x0004)  : a holiday camp
+0x00ce  /  0x1536 (0x0034)  : . They have beauty contests and parties every night. But Clarrie won't go. She wouldn't feel right staying in Butlin's posh new chalets, like she saw on tv. 
+0x00cf  /  0x156b (0x0005)  : the Greek Islands
+0x00d0  /  0x1571 (0x0035)  : . The food may be oily, but there are topless girls on every beach and the booze is dirt cheap. Clarrie wants to go to Crete and it's probably just the same there. 
+0x00d1  /  0x15a7 (0x0008)  : get two tickets to Crete
+0x00d2  /  0x15b0 (0x003b)  : . Snatch Foster's girl works for a travel agent and gets them dead cheap. I wouldn't trust Dad to look after William and Edward, so I'm leaving them and my ferrets with the Tuckers. 
+0x00d3  /  0x15ec (0x0043)  : Dad is moaning on about his farmers' lung. He complains he's an old man, who could die while we were gallivanting abroad and no one would know. I have heard it all before, but Clarrie is worried. 
+0x00dc  /  0x1632 (0x0008)  : take the old misery with us
+0x00dd  /  0x163b (0x0002)  : . 
+0x00de  /  0x163e (0x0004)  : cancel the holiday
+0x00df  /  0x1643 (0x000a)  :  and Dad suddenly gets better. 
+0x00e0  /  0x164e (0x0008)  : threaten to put him in hospital
+0x00e1  /  0x1657 (0x003d)  : . He claims I'd like that, him in a home, but he's lived all his life in Ambridge and I won't get rid of him that easily. He coughs theatrically, but recovers by the time the pubs open. 
+0x00e2  /  0x1695 (0x000d)  : We're getting protests from older listeners. 
+0x00e3  /  0x16a3 (0x001b)  : unfortunately, Clarrie insists that Dad needs a holiday and we must take him with us to Crete. 
+0x00f0  /  0x16c0 (0x000b)  : tell Clarrie to wait for the cheap season
+0x00f1  /  0x16cc (0x0012)  : . She says she needs a small holiday first, then. 
+0x00f2  /  0x16df (0x0006)  : examine our finances
+0x00f3  /  0x16e6 (0x001b)  : . There is only #50 under the mattress. I tell Clarrie we can't afford a holiday. 
+0x00f4  /  0x1702 (0x000f)  : Texas, the birthplace of Country and Western music
+0x00f5  /  0x1712 (0x0014)  : . The trouble is, the fare's 500 pounds a ticket. 
+0x0104  /  0x1728 (0x0011)  : I suggest that she goes to stay with Rosie in Great Yarmouth
+0x0105  /  0x173a (0x0034)  : . Clarrie looks all upset but decides to go. No sooner have I waved her off when Dolly Treadgold comes up the lane. She offers to cook my meals and do the washing. 
+0x0106  /  0x176f (0x0006)  : tell her to push off
+0x0107  /  0x1776 (0x0028)  : . Clarrie would be sure to find out if Dolly stayed here. Anyway, I'll see her later at the Cat and Fiddle. 
+0x0108  /  0x179f (0x0039)  : with Clarrie away, I haven't had a decent meal for days and we're running out of clean plates. I ask Dad-in-law Jethro to come round and cook for us. What does he say? 
+0x0118  /  0x17da (0x0006)  : "My eye"
+0x0119  /  0x17e1 (0x0010)  :  and and looks at me as if I were barmy. 
+0x011a  /  0x17f2 (0x0004)  : "Nope"
+0x011b  /  0x17f7 (0x0012)  :  and says I can always go to the Bull for my meals. 
+0x011c  /  0x180a (0x001c)  : I'm fed up with eating microwaved pizza every night. I can't wait for Clarrie to get back. 
+0x011d  /  0x1827 (0x0004)  : "Yes"
+0x011e  /  0x182c (0x0072)  : , "If that's what you want". He brings his bags round to Grange Farm, puts on a pinny and starts making a kind of Dutch Shepherd's pie. By ten in the evening we are all getting very hungry waiting for Jethro to finish cooking, but everything seems to be going OK until Dad criticises his apple turnover and Jethro walks out. Come back, Clarrie! 
+0x012c  /  0x18a1 (0x0006)  : get her inside quick
+0x012d  /  0x18a8 (0x0015)  : . I don't want any busybodies to see her and jump to conclusions. 
+0x012e  /  0x18be (0x000c)  : Dolly Treadgold cooks like a dream! 
+0x0140  /  0x18cc (0x0029)  : Clarrie returns from holiday, bronzed and happy, and immediately gets suspicious. She thinks that Dolly Treadgold has been staying up at the farm. 
+0x0141  /  0x18f6 (0x0004)  : deny everything
+0x0142  /  0x18fb (0x0003)  : admit it
+0x0143  /  0x18ff (0x002b)  :  is true, but that Dolly was only doing the washing and cooking. Clarrie did not enjoy her holiday at Rosie's and wants to go somewhere else. 
+0x0144  /  0x192b (0x000b)  : tell Clarrie not to listen to tittle tattle
+0x0145  /  0x1937 (0x0023)  : . She wails, "Oh Eddie, How could you!" And slaps me with something. It is a 
+0x0146  /  0x195b (0x0031)  : pair of Dolly's knickers that she found in the washing machine! I try to say that Dolly only did the cooking and cleaning, but Clarrie will never trust me again. 
+0x0147  /  0x198d (0x000f)  : to please Clarrie, I offer her another holiday. 
+0x0154  /  0x199e (0x0023)  : is true that she came here, but say that I sent her packing. Clarrie does not believe a word of it. 
+0x0155  /  0x19c2 (0x004d)  : Clarrie bursts in and throws her arms round my neck. She is sorry she ever doubted me. That nosy old beggar, Jethro, saw me turn Dolly Treadgold away. Clarrie offers to put her savings from working at the Bull towards a second honeymoon. 
+0x0156  /  0x1a11 (0x0033)  : WI membership card that she found beside the front door. I say that Dolly must have dropped it when I sent her packing but I can tell that Clarrie doesn't really believe me. 
+0x0168  /  0x1a46 (0x000c)  : I tell her to look in the newspaper for ideas
+0x0169  /  0x1a53 (0x0021)  : . She wants to visit Disneyland, but settles for Torremolinos because Andy and Fergie went to somewhere near there. 
+0x017c  /  0x1a76 (0x0022)  : when we get to the airport we find they've only got two seats for us on the plane, instead of three. 
+0x017d  /  0x1a99 (0x0005)  : make Dad go home
+0x017e  /  0x1a9f (0x000f)  : . Clarrie asks how I can be so mean. 
+0x017f  /  0x1aaf (0x0005)  : make a fuss
+0x0180  /  0x1ab5 (0x0028)  :  and we get another seat on the plane.
+ 
+Dad has a lot to drink and is sick on the woman next to him. 
+0x0190  /  0x1adf (0x001c)  : we get to our villa in Malia, and Dad is ill from the heat and wants to go home. 
+0x0191  /  0x1afc (0x0003)  : throttle him
+0x0192  /  0x1b00 (0x0021)  :  until he shuts up. Then we all go onto the beach and have a cocktail. Suddenly Dad has disappeared. 
+0x0194  /  0x1b23 (0x000b)  : he has been kidnapped by the Cretan Mafia
+0x0195  /  0x1b2f (0x0032)  :  who think Dad is a celebrity called Solomon. They ask for #3000 ransom money. Huh - some hope! Clarrie and I have a good holiday after all. 
+0x0196  /  0x1b62 (0x0023)  : it is disgraceful that Eddie and Clarrie should enjoy their holiday while poor Joe is at the mercy of a criminal organisation! 
+0x0197  /  0x1b86 (0x0006)  : he has gone swimming
+0x0198  /  0x1b8d (0x0031)  :  in his stripy bathing costume. I spend all day looking for him, and then he turns up outside a bar drinking "boozo" and eating sardines. 
+0x0199  /  0x1bbf (0x0019)  : the next day, he is very ill so the insurance pays for him to go home. 
+0x019a  /  0x1bd9 (0x000a)  : he has locked himself in the toilet
+0x019b  /  0x1be4 (0x000c)  : . I am fed up with this! 
+0x01a4  /  0x1bf2 (0x0007)  : get a flight back for him
+0x01a5  /  0x1bfa (0x0025)  : . This holiday has cost me a fortune but it's worth it to get away from the old misery. Clarrie and I have a lovely holiday. 
+0x01a6  /  0x1c20 (0x0013)  : How are poor farmers like the Grundies affording all this expense? 
+0x01a7  /  0x1c34 (0x0009)  : tell him to stay in the shade
+0x01a8  /  0x1c3e (0x000b)  :  and not to eat any fruit. 
+0x01a9  /  0x1c4a (0x002d)  : Dad had got bad sun-burn. He has to stay in his room and watch old videos of Crossroads, which serves him right and suits me just fine. 
+0x01cc  /  0x1c79 (0x0008)  : let Clarrie go on holiday with Dad
+0x01cd  /  0x1c82 (0x0018)  : and go home. Luckily, Dolly Treadgold comes round and takes care of me. 
+0x01ce  /  0x1c9b (0x0009)  : show her straight to the scullery
+0x01cf  /  0x1ca5 (0x001a)  :  and tell her to get on with the washing. She goes home every day after tea. 
+0x01e0  /  0x1cc1 (0x0030)  : me and Clarrie are off to sunny Spain for our second honeymoon. We get onto the plane singing Viva Espana. We get to our hotel and find... 
+0x01e1  /  0x1cf2 (0x000b)  : our hotel hasn't been built yet
+0x01e2  /  0x1cfe (0x000e)  : . Clarrie is fed up and wants to go home. 
+0x01e3  /  0x1d0d (0x0021)  : we get home. A miracle has happened - we've won the pools - so we can go to Crete with Dad. 
+0x01e4  /  0x1d2f (0x001c)  : the plot idea of the Grundys winning the pools is Deus ex Machina worthy of Dynasty! 
+0x01e5  /  0x1d4c (0x000b)  : they haven't booked us a bedroom
+0x01e6  /  0x1d58 (0x001c)  : , but I have an argument with the manager and we get a lovely room overlooking the car park. 
+0x01e7  /  0x1d75 (0x000e)  : the hotel is packed with Club 18-25ers
+0x01e8  /  0x1d84 (0x0022)  : . I have never seen so many girls under one roof! This is going to be a holiday to remember... 
+0x01f4  /  0x1da8 (0x000e)  : two weeks later we are back in Ambridge. 
+0x0207  /  0x1db8 (0x0027)  : I'm fed up with my old van. It won't start in the mornings, and the doors keep dropping off. What shall I do? 
+0x0208  /  0x1de0 (0x0004)  : put up with it
+0x0209  /  0x1de5 (0x000a)  :  because at least it's cheap. 
+0x020a  /  0x1df0 (0x0027)  : Clarrie and I take the kids out to the seaside in my van, park on the beach to save money, and get stuck in the sand. 
+0x020b  /  0x1e18 (0x0008)  : go to town for a tow
+0x020c  /  0x1e21 (0x001b)  : . It costs me a fortune and they insist on cash rather then my post-dated cheque. 
+0x020d  /  0x1e3d (0x0005)  : make Clarrie push
+0x020e  /  0x1e43 (0x0014)  : . In just a few minutes she has the van out of the sand. 
+0x020f  /  0x1e58 (0x0004)  : dump the van
+0x0210  /  0x1e5d (0x0025)  : . I've put up with that scrap heap for too long anyway. Clarrie gets Jenny Aldridge to give us a lift home. 
+0x0211  /  0x1e83 (0x0022)  : it's not fair! The insurance company are refusing to cough up for my van. Dad says it's because we're not Archers. 
+0x021c  /  0x1ea7 (0x0007)  : have the van fully renovated
+0x021d  /  0x1eaf (0x0018)  :  by Hollerton Motors: fully serviced, resprayed and with new doors. 
+0x021e  /  0x1ec8 (0x0014)  : How can Eddie afford to get his van renovated, just like that? 
+0x021f  /  0x1edd (0x0030)  : I'm driving along to market with a van load of poultry when the doors fly open. I haven't seen so many waddling turkeys since Scots Adam retired! 
+0x0220  /  0x1f0e (0x000c)  : phone Hollerton Motors and refuse to pay
+0x0221  /  0x1f1b (0x002b)  :  their bill because the van doors still don't work. They say they'll give me a good part exchange deal for one of their cars. 
+0x0222  /  0x1f47 (0x0006)  : collect up the turkeys
+0x0223  /  0x1f4e (0x0019)  : . It takes me all day. Sometimes I feel that everything is against me! 
+0x0224  /  0x1f68 (0x0004)  : go for help
+0x0225  /  0x1f6d (0x001e)  : . There are turkeys everywhere. Dad moans like mad, but agrees to come out with the truck. 
+0x0230  /  0x1f8d (0x0029)  : it must be a good omen - the van has triumphed again! Clarrie is not convinced - she says she's not going anywhere in that rubbish heap. 
+0x0231  /  0x1fb7 (0x0003)  : ignore Clarrie
+0x0232  /  0x1fbb (0x0039)  :  when she moans that she never gets to go out, because the van's always in bits - and mainly on her kitchen table. I tell her she can always go and visit Rosie in Great Yarmouth. 
+0x0233  /  0x1ff5 (0x0005)  : think of the future
+0x0234  /  0x1ffb (0x001f)  : Dad may have brought up me and Alf in squalor, but my family deserves more than this rusty old van. 
+0x0235  /  0x201b (0x000f)  : tell Clarrie that cars must be treated with kid gloves
+0x0236  /  0x202b (0x0027)  : . She says that, the way my van jumps about, kangaroo skin would make more sense. This gives me an idea. 
+0x0244  /  0x2054 (0x000b)  : paint kangaroos on the side of the van
+0x0245  /  0x2060 (0x0034)  : . Dad says they look like mouldy bananas and Elizabeth Archer starts calling me Rolf. Jethro says I must be suffering from stress. Clarrie flatly refuses to go in the van. 
+0x0246  /  0x2095 (0x000d)  : paint aborigine pictures on the side of the van
+0x0247  /  0x20a3 (0x0002)  : . 
+0x0248  /  0x20a6 (0x002b)  : Little William saw me painting the van and threw his paints over it. Dad says it looks as though a dog has been sick in the night. 
+0x0249  /  0x20d2 (0x0028)  : Sophie Barlow says my van is great work of art. I always knew she was daft as a brush. She has a suggestion.. 
+0x0258  /  0x20fc (0x0008)  : she wants to buy it herself
+0x0259  /  0x2105 (0x002a)  : . Would #600 be enough? I manage not to laugh until I have the money in my hand. There's one born every minute! 
+0x025a  /  0x2130 (0x000b)  : I should get an Arts Council grant
+0x025b  /  0x213c (0x0010)  : . She's right. All the other layabouts do! 
+0x025c  /  0x214d (0x003c)  : a woofter type comes to Grange Farm to take my van away for a show about naive art at the NEC. He says my van is "simply divine," but I haven't seen any money for it yet! 
+0x025d  /  0x218a (0x000c)  : she suggests putting it in the Borchester playground
+0x025e  /  0x2197 (0x0017)  :  for the little kiddies to clamber over it. What a stupid idea! 
+0x0280  /  0x21b0 (0x0009)  : sell the van to Butch Baxter
+0x0281  /  0x21ba (0x0018)  : , the Aussie painter and decorator. He says it reminds him of the Bush. 
+0x0294  /  0x21d4 (0x0006)  : look for a new car
+0x0295  /  0x21db (0x0008)  :  at Hollerton Motors. 
+0x0296  /  0x21e4 (0x0004)  : Ford Transit
+0x0297  /  0x21e9 (0x0022)  :  minibus. There's plenty of room for the family, but Clarrie says she wants a proper car so I have to look again. 
+0x0298  /  0x220c (0x0004)  : Mini Metro
+0x0299  /  0x2211 (0x001c)  :  - well Clarrie does really. I think they're boring and what's more I can't afford it. 
+0x02a8  /  0x222f (0x000b)  : tell Clarrie she'll have to buy it herself
+0x02a9  /  0x223b (0x0002)  : . 
+0x02aa  /  0x223e (0x0005)  : I'm a mean pig
+0x02ab  /  0x2244 (0x0021)  : . I say that if she only waits until Dad dies, we'll inherit enough money to buy everything she wants. 
+0x02ac  /  0x2266 (0x0011)  : Clarrie thinks I'm heartless and is still not speaking to me! 
+0x02ad  /  0x2278 (0x0008)  : she'll start saving tomorrow
+0x02ae  /  0x2281 (0x002c)  :  and that I'll soon get used to a few economies around the house: I'll still be able to go to the pub once a month. 
+0x02af  /  0x22ae (0x000e)  : it just so happens that her Auntie Beryl has died
+0x02b0  /  0x22bd (0x0028)  : , leaving her #3000, and she's going to spend it all on her Metro. She still needs driving lessons, though. 
+0x02b1  /  0x22e6 (0x0015)  : it's not very plausible that Clarrie would inherit money just like that, is it? 
+0x02bc  /  0x22fd (0x0008)  : Clarrie asks me to teach her
+0x02bd  /  0x2306 (0x0006)  :  to drive. 
+0x02be  /  0x230d (0x0044)  : while I'm teaching Clarrie to drive, Elizabeth Archer pulls out of the drive at Brookfield. I shout at Clarrie to press on because we've got the right of way and there's a crash. Clarrie is so frightened that she can't stand another lesson. 
+0x02bf  /  0x2353 (0x0006)  : she gets proper lessons
+0x02c0  /  0x235a (0x0002)  :  . 
+0x02c1  /  0x235d (0x0029)  : Clarrie turns out to be a good driver. The trouble is she won't let me or Dad in her Metro, and I'm still stuck with my van! 
+0x02c2  /  0x2387 (0x000a)  : she gets Susan Horobin to teach her
+0x02c3  /  0x2392 (0x0020)  : . They're so busy chatting about Playgroup that they crash into Peggy Archer's garden and squash her dahlias. 
+0x02d0  /  0x23b4 (0x0007)  : ask for a bank loan
+0x02d1  /  0x23bc (0x0032)  : . The bank manager is glad I called, he'd been meaning to have a chat about reducing my overdraft. The miser refuses me a further loan for the car. 
+0x02d2  /  0x23ef (0x0006)  : look for another car
+0x02d3  /  0x23f6 (0x0002)  : . 
+0x02e4  /  0x23fa (0x000a)  : Triumph Stag, L reg
+0x02e5  /  0x2405 (0x000c)  : . It's beautiful and Clarrie loves it. 
+0x02e6  /  0x2412 (0x0010)  : the Triumph's brakes are very sluggish and pull badly. 
+0x02e7  /  0x2423 (0x0008)  : try and sell the car
+0x02e8  /  0x242c (0x0002)  : . 
+0x02e9  /  0x242f (0x0047)  : a big fat man with a cigar comes round to look at my Triumph and I take him for a test drive. On the Hollerton Turnpike, he asks me to get out and adjust the driver's wing mirror. That's the last I see of the car. 
+0x02ea  /  0x2478 (0x0006)  : get the brakes fixed
+0x02eb  /  0x247f (0x000a)  : and it runs like a dream. 
+0x02ec  /  0x248a (0x0032)  : I left my Triumph Stag outside the Cat and Fiddle and someone must have nicked it. Oh well, it wasn't much use for taking pigs to market. 
+0x02f8  /  0x24be (0x0003)  : do nothing
+0x02f9  /  0x24c2 (0x002e)  : . Eventually someone will want to borrow it and I can blame the problem on them and get the brakes fixed for free. Dad would be proud of me! 
+0x030c  /  0x24f2 (0x002c)  : I have a lovely little hob ferret called Fred. He's got a great personality and he's a wonderful rabbiter. But Clarrie doesn't like me keeping him in the bathroom. 
+0x030d  /  0x251f (0x0007)  : move Fred into the kitchen
+0x030e  /  0x2527 (0x001b)  : . Little William pokes his fingers into the cage and Fred bites them and won't let go. 
+0x030f  /  0x2543 (0x0007)  : bang Fred on the head
+0x0310  /  0x254b (0x0019)  : . Little William's finger is sore and red, but Fred is not moving at all! 
+0x0320  /  0x2566 (0x0006)  : take Fred to the vet
+0x0321  /  0x256d (0x0033)  : . There is a long queue in the waiting room, but as soon as I come in the room clears. Martin Lambert says my ferret smells too much to be in his surgery. 
+0x0322  /  0x25a1 (0x0019)  : The British Vetinary Association are demanding an apology for Martin Lambert's unprofessional behaviour. 
+0x0323  /  0x25bb (0x0005)  : call the vet
+0x0324  /  0x25c1 (0x0049)  :  and Martin Lambert comes and see Fred. He tells me I'm wasting his valuable time on a mangy old ferret. I tell him he is bitter and twisted because he can't get any decent women. He punches me on the nose and I have to go and see Dr Poole. 
+0x0325  /  0x260c (0x000a)  : drip whisky onto Fred's lips
+0x0326  /  0x2617 (0x0015)  : . His eyes flutter for a moment but he sinks back into oblivion. 
+0x0327  /  0x262d (0x0008)  : bang William on the head
+0x0328  /  0x2636 (0x002d)  : . He starts crying and runs off to complain to his mummy. Clarrie says I should be ashamed and hits me over the head with a frying pan. 
+0x0329  /  0x2664 (0x0005)  : lure Fred away
+0x032a  /  0x266a (0x003d)  :  with a piece of Clarrie's chicken a la king. Fred seems to like it, so I give him some more. Clarrie wonders where our dinner is. Fred licks his lips and is banished outside. 
+0x0334  /  0x26a9 (0x0007)  : move Fred into the parlour
+0x0335  /  0x26b1 (0x000d)  :  and put his cage behind the curtains. 
+0x0336  /  0x26bf (0x002e)  : Marjorie Antrobus comes round to tea with one of her Afghans. She sniffs out Fred from behind the curtain and he bites her nose. Mrs Antrobus is horrified. 
+0x0337  /  0x26ee (0x0007)  : she threatens to sue me
+0x0338  /  0x26f6 (0x0029)  :  for harming her Portia. Fred doesn't look too well, either, after being sniffed by that great brute of a dog. 
+0x0339  /  0x2720 (0x0004)  : she forgives me
+0x033a  /  0x2725 (0x0049)  : . She must want something. Sure enough, she wants a donation for the NSPCC. I tell her that if anyone needs a donation it's the folk at Grange Farm. She says that as a ferret-fancier I really ought to be kinder to all animals. 
+0x0348  /  0x2771 (0x0004)  : give her some money
+0x0349  /  0x2776 (0x0025)  :  to shut her up, but she notices it's all foreign coins with a few of the blanks Alf gave me for cigarette machines. 
+0x034a  /  0x279c (0x0033)  : Mrs Antrobus has told Peggy Archer there's a mad ferret at Grange Farm. Peggy Archer says she'll tell Lillian to evict us, unless I have my ferret put down. 
+0x034b  /  0x27d0 (0x000a)  : decide to be even kinder to Fred
+0x034c  /  0x27db (0x0018)  :  and steal little delicacies from the kitchen to feed him. Clarrie is not pleased. 
+0x034d  /  0x27f4 (0x0009)  : pat her Afghan on the nose
+0x034e  /  0x27fe (0x0077)  :  and the brute bites me. Perhaps its nose was sore after being bitten by Fred. Mrs Antrobus is terribly embarrassed when Clarrie puts on a massive bandage and I ask if I need a rabies injection. She claims Portia has never attacked anyone before. Every cloud has a silver lining: I bet it will be ages before that dog woman dares set foot in Grange Farm! 
+0x034f  /  0x2877 (0x000a)  : she marches off with the ferret's cage
+0x0350  /  0x2882 (0x0008)  :  under her arm. 
+0x0351  /  0x288b (0x002b)  : I go round to Nightingale Farm to look for Fred and find my ferret hanging from the wall, baring its teeth. Mrs Antrobus has shot it. 
+0x035c  /  0x28b8 (0x0005)  : move Fred outside
+0x035d  /  0x28be (0x0026)  : , into the combine shed. Fred seems to like the fresh air - his eyes are twinkling and his nose is twitching! 
+0x035e  /  0x28e5 (0x0012)  : Fred's cage door is open! My ferret has escaped! 
+0x035f  /  0x28f8 (0x0006)  : Fred's in the shed
+0x0360  /  0x28ff (0x0021)  :  behind some sacks of feed - he has nibbled his way through some of them. Dad has a fit. 
+0x0361  /  0x2921 (0x0008)  : he is in the turkey pen
+0x0362  /  0x292a (0x0031)  : , running amok. Six turkeys are dead. Dad is furious and Clarrie is very upset. I tell her she can now do lots of turkeys a la king. 
+0x0363  /  0x295c (0x0008)  : Fred is nowhere to be seen
+0x0364  /  0x2965 (0x0048)  : . I look in his favourite haunts - by the river where the ducks lay their eggs and down Phil Archer's rabbit holes. I sit up at night gazing thoughtfully across the fields - remembering my great friend, Fred the ferret. 
+0x0370  /  0x29b0 (0x0034)  : It is a dark, gloomy day and Fred the ferret is buried under an apple tree in the orchard. Farewell faithful ferret - we'll meet again in a better place! 
+0x0371  /  0x29e5 (0x0019)  : Fred is in the dog-house. He's getting strict rations and no treats for a month. 
+0x0372  /  0x29ff (0x002c)  : Fred is sickening for something. He won't eat any food, he won't bare his teeth, and he doesn't seem to want to escape from his cage. 
+0x0373  /  0x2a2c (0x003c)  : I write a little poem:
+ Little Fred, little Fred, ferretting away,
+ Little Fred, little Fred, brightens up my day.
+ But still Fred does not come back. 
+0x0384  /  0x2a6a (0x0005)  : buy a new ferret
+0x0385  /  0x2a70 (0x0026)  :  and call it Fergie. Dad says you can still get transported to Australia for doing that sort of thing. I hope so. 
+0x0386  /  0x2a97 (0x0005)  : write more poetry
+0x0387  /  0x2a9d (0x003c)  : . Mrs Antrobus is so desperate to get stuff into her parish magazine that she asks me to contribute ferret poems. Fame at last! Next week I'll send some to John Tydeman at the BBC. 
+0x0388  /  0x2ada (0x0004)  : forget about Fred
+0x0389  /  0x2adf (0x000e)  :  - eventually. But it's hard sometimes. 
+0x0398  /  0x2aef (0x0030)  : I'm taking Fred home, thinking that he is as dead as a doornail, and then suddenly he opens his little eyes and jumps out of his cage. He runs off. 
+0x0399  /  0x2b20 (0x0027)  : Doctor Poole says there is nothing wrong with me apart from a ferret obsession. He says the problem could be bigger than I realise. 
+0x039a  /  0x2b48 (0x0006)  : I am going barmy
+0x039b  /  0x2b4f (0x0037)  : . But I can't see what's wrong with being obsessed by fascinating animals like ferrets - it's healthy to have a hobby, isn't it? The problem is - Fred seems to have disappeared. 
+0x039c  /  0x2b87 (0x0008)  : Doctor Poole is going barmy
+0x039d  /  0x2b90 (0x0042)  : . He has caught the dreaded yoga habit from Jack Woolley. He lends me a book on yoga and relaxation and says that if I practice every day I may no longer be quite so obsessed with ferrets. Some chance! 
+0x03ac  /  0x2bd5 (0x0015)  : Dad says that if I don't get rid of the ferret he's going to shoot it. 
+0x03ad  /  0x2beb (0x002f)  : I take Fred out for some rabbitting over at Ambridge Farm. He brings up some beauties. How could I possible get rid of Fred, the Fantastic Ferret! 
+0x03ae  /  0x2c1b (0x0009)  : the whole world is going barmy
+0x03af  /  0x2c25 (0x0016)  : . I sit and wonder why the world is not kinder to ferrets. 
+0x03b0  /  0x2c3c (0x003f)  : I write a lament for my ferret: 
+Dear ferret you were strong; 
+Dear ferret you were true. 
+But now you've gone to heaven, 
+To do what ferrets do. 
+0x03e8  /  0x2c7e (0x0053)  : bad news, folks! My big, bad brother, Alf, is being let out of Gloucester prison. He's got no job and no money, and he says he wants to be with his kin. Well, I don't want him at Grange Farm and neither does Clarrie. 
+0x03e9  /  0x2cd3 (0x0009)  : write back and say we've moved
+0x03ea  /  0x2cdd (0x0034)  :  from Grange Farm and we're now living in a poky council house. Alf writes again and says he doesn't believe me because there was a whiff of cow muck on my letter. 
+0x03eb  /  0x2d12 (0x000c)  : tell him he can come for a couple of weeks
+0x03ec  /  0x2d1f (0x003a)  :  if he behaves himself. He writes back and says that of course he'll behave himself - he's a reformed character - and by the way, can I lend him a tenner for the train journey? 
+0x03ed  /  0x2d5a (0x0006)  : visit him in Gloucester
+0x03ee  /  0x2d61 (0x002a)  : , with Clarrie, dressed in our Sunday best. I tell Alf that he can't come and stay at Grange Farm 'cos there's no room. 
+0x03fc  /  0x2d8d (0x0008)  : Alf grabs me by the throat
+0x03fd  /  0x2d96 (0x0027)  :  and threatens me with my miserable life. I scream for a warden. Alf gets his sentence extended by another six months. 
+0x03fe  /  0x2dbe (0x0007)  : Alf says he's coming anyway
+0x03ff  /  0x2dc6 (0x002f)  : . I ignore him and go home. The next thing we know, we're sitting there, having our tea, when there's a knock on the door. 
+0x0400  /  0x2df6 (0x0006)  : Alf bursts into tears
+0x0401  /  0x2dfd (0x002c)  :  and blubbers about nobody wanting him. I say, "Yeah, that's true," but Clarrie feels sorry for him and says he can come home. 
+0x0410  /  0x2e2b (0x0019)  : Alf says he'll be on the 3.30 from Gloucester to Hollerton Junction on Thursday! 
+0x0411  /  0x2e45 (0x000c)  : Alf is coming out of prison today. 
+0x0412  /  0x2e52 (0x000a)  : ask Clarrie to prepare a special tea
+0x0413  /  0x2e5d (0x0042)  : . She makes some lovely flapjacks and cream horns, and some of Dad's favourite cherry tarts. We're all sitting down in the parlour, scrubbed and shining and waiting for Alf, when there's a knock on the door. 
+0x0414  /  0x2ea1 (0x0001)  : Alf
+0x0415  /  0x2ea3 (0x002c)  :  - as large as life and twice as ugly. He's brought a bird. Her name is Dolores, and she's big, blonde and beautiful. 
+0x0416  /  0x2ed0 (0x0004)  : Dave Barry
+0x0417  /  0x2ed5 (0x0042)  : . He says that Borchester nick have arrested a man suspected of stealing a lady's handbag at Hollerton Junction. The man is called Alfred Grundy! Clarrie puts away the special tea and I go along to Borchester nick. 
+0x0424  /  0x2f1a (0x0008)  : I find Alf behind bars
+0x0425  /  0x2f23 (0x0024)  : . He says it wasn't his fault - he just offered to carry the old lady's handbag for her and she called the police. 
+0x0426  /  0x2f48 (0x000b)  : I find Snatch Foster behind bars
+0x0427  /  0x2f54 (0x0042)  : . He says that when the copper nicked him, he had to use a false name, so he said he was called Alfred Grundy. I say a few robust words and return home. Clarrie says that we have a visitor. 
+0x0428  /  0x2f98 (0x0004)  : no one is there
+0x0429  /  0x2f9d (0x0029)  : . D.S Barry was having me on. I'll get him for this! When I get back home, I find we have a visitor. 
+0x0438  /  0x2fc8 (0x0004)  : Jethro Larkin
+0x0439  /  0x2fcd (0x0055)  : . He says, why wasn't he invited to the special tea? He's on his third cup of tea and his fourth cream horn when there's another knock on the door. Jethro takes one look and says, "My eye." He decides that he ought to be getting off home. 
+0x044c  /  0x3025 (0x0029)  : I ask Dolores to come and look at my ferrets. Clarrie gets very jealous and says she doesn't think there'll be room for Dolores to stay here at Grange Farm. 
+0x044d  /  0x304f (0x0007)  : there's plenty of room for Dolores
+0x044e  /  0x3057 (0x0021)  :  and she's very welcome. Clarrie makes Dad and Alf sleep in Dad's bedroom. Dolores goes in the spare room. 
+0x0460  /  0x307a (0x0042)  : in the middle of the night there is a blood-curdling scream. Clarrie must have forgotten to remove the old mouse nest from the spare room mattress, because Dolores has just found it. She is terrified in case there are more of them there. 
+0x0461  /  0x30be (0x0009)  : help Dolores to look for a mouse
+0x0462  /  0x30c8 (0x0030)  :  in her room. She stands on a chair to look on a shelf and suddenly overbalances. I catch her, ruffling her black neglige, just as Clarrie comes in. 
+0x0463  /  0x30f9 (0x0018)  : The Concerned Ratepayers against Permissiveness are bombarding me with letters about Eddie and Dolores. 
+0x0464  /  0x3112 (0x0008)  : say that Dolores can have Dad's room
+0x0465  /  0x311b (0x0033)  :  and Dad will have to sleep in the spare room. Dolores pulls a face and says, "Not likely," and goes off to the village to look for bed and breakfast. 
+0x0466  /  0x314f (0x0009)  : tell Dolores to sleep in the parlour
+0x0467  /  0x3159 (0x0002)  : . 
+0x0474  /  0x315d (0x000b)  : Dolores should go and get bed and breakfast
+0x0475  /  0x3169 (0x001b)  :  in the village. I suggest there may be a spare room at Snatch Fosters'. 
+0x0488  /  0x3186 (0x000c)  : arrange a party at the Cat and Fiddle
+0x0489  /  0x3193 (0x0016)  : . Dick Pearson says the beer's half price and Peaches is free. 
+0x048a  /  0x31aa (0x0007)  : bring Clarrie to the party
+0x048b  /  0x31b2 (0x003f)  : ; she complains about people being sick on the tables - and that's BEFORE Alf has arrived. Then in walks Alf with Delectable Dolores, his Swedish-looking girlfriend. The Cat and Fiddle goes wild and Clarrie goes home. 
+0x048c  /  0x31f3 (0x0008)  : don't tell Clarrie about the party
+0x048d  /  0x31fc (0x002f)  : . I just say that I'm going for a quick half at the Cat and Fiddle, forgetting to tell her that Alf is bringing Delectable Dolores, his girlfriend, with him. 
+0x048e  /  0x322c (0x0008)  : ask Clarrie to collect me afterwards
+0x048f  /  0x3235 (0x0005)  : in the van. 
+0x0490  /  0x323b (0x0030)  : when the Cat and Fiddle closes, Dad, Alf's bird Dolores, and I all pile into the van. Clarrie is cross because she's been waiting outside for an hour. 
+0x049c  /  0x326d (0x0041)  : we get back to Grange Farm a bit the worse for wear. Alf slams the doors and gets the lager out. Dolores puts on Dad's old gramophone and dances round the parlour. Clarrie suddenly bursts through the door. 
+0x049d  /  0x32b0 (0x001e)  : Clarrie was not pleased. She says if their behaviour does not improve, Alf and Dolores will have to go. 
+0x049e  /  0x32cf (0x001f)  : some money is missing from Clarrie's purse so she calls the police. Suddenly, Alf and Dolores have disappeared. 
+0x049f  /  0x32ef (0x0008)  : Dolores can stay in Alf's room
+0x04a0  /  0x32f8 (0x0050)  : . Clarrie says she's not having any funny business under her roof - not till they've decided to get married anyway. Alf goes white at the mention of marriage. Within seconds he is out of the door and gone. Dolores looks shocked and in need of comforting. 
+0x04a1  /  0x334a (0x000a)  : take Dolores to the Slinky Fish nightclub
+0x04a2  /  0x3355 (0x0040)  :  and console her with a cocktail, then another and another. I have to carry her back home. Alf is there! He says he had nowhere to run to. So we all have a bit of a shindig to celebrate. 
+0x04b0  /  0x3398 (0x0039)  : Clarrie says if Alf and Dolores don't go she's leaving home with the kids and going to Jethro's. Alf and Dolores refuse to budge, and Clarrie packs her bags. I've got no-one to cook my dinner. 
+0x04b1  /  0x33d2 (0x0005)  : ask Clarrie to come back
+0x04b2  /  0x33d8 (0x0028)  : . She says, "Not on your life! I'm having a holiday - see you in a couple of weeks' time." 
+0x04b3  /  0x3401 (0x0006)  : beg Clarrie to come back
+0x04b4  /  0x3408 (0x0047)  : , saying that I've kicked Alf and Dolores out. She says she'll only come if I buy her a new dress and a pair of shoes. I give in. I send Alf and Dolores off to the village to get bed and breakfast - at Jethro Larkin's! 
+0x04b5  /  0x3451 (0x0003)  : do nothing
+0x04b6  /  0x3455 (0x0002)  : . 
+0x04b7  /  0x3458 (0x0031)  : Alf and Dolores have heavy drinking bouts every night. I can't stand the pace. The washing up is piling up and I haven't had a decent meal in days. 
+0x04c4  /  0x348b (0x0036)  : Dorothy Adamson comes round. Dolores walks into the kitchen demanding a can of lager and Dorothy says she's taking Alf and Dolores to Alcoholics Anonymous. Both disappear and haven't been seen since. 
+0x04c5  /  0x34c2 (0x000b)  : tell her to go and stay somewhere else
+0x04c6  /  0x34ce (0x0002)  : . 
+0x04c7  /  0x34d1 (0x0020)  : Dolores goes to stay with Walter Gabriel who thinks she's a lovely girl and treats her like his long-lost daughter. 
+0x04c8  /  0x34f2 (0x0005)  : get some cans in
+0x04c9  /  0x34f8 (0x001e)  :  and carry on as normal. Half an hour later, Dad and I have drunk them all. 
+0x04d8  /  0x3518 (0x004d)  : Alf is taken away. We get a letter from Gloucester prison saying, "I am the victim of wrongful arrest and imprisonment - am in here for another year. Will you plead my innocence to them what put me in here?" Some hope! 
+0x04d9  /  0x3567 (0x0008)  : tell her to run after Alf
+0x04da  /  0x3570 (0x0019)  :  'cos he's worth it. She asks me who I'm trying to kid. 
+0x04ec  /  0x358b (0x0053)  : howdy folks! At last me and the band have hit the big time! Snatch Foster has fixed us a gig at the Hollerton Free Trade Hall, and he only wants a five percent cut! But we ain't got the money for new gear - fancy cowboy boots and that. 
+0x04ed  /  0x35e0 (0x0009)  : tout round the village for work
+0x04ee  /  0x35ea (0x0033)  : . Phil Archer says he'll give me #2.50 an hour for helping with their harvesting. Everything is going well until I back the combine through a shed. 
+0x04ef  /  0x361e (0x0007)  : make a run for it
+0x04f0  /  0x3626 (0x0027)  : , but Phil Archer catches up with me and demands I pay for part of the damage. I am worse off than ever. 
+0x04f1  /  0x364e (0x0009)  : offer to pay for the damage
+0x04f2  /  0x3658 (0x0030)  : . Phil Archer reels from the shock, and then decides to let me off. He gives me #15, but says that he doesn't need any more help. 
+0x04f3  /  0x3689 (0x0008)  : blame the damage on Jethro
+0x04f4  /  0x3692 (0x001a)  :  Larkin. Phil Archer doesn't believe me, but there's nothing he can do about it. 
+0x0500  /  0x36ae (0x0026)  : I ask Brian Aldridge for work. He says he'll pay me #2.00 an hour for painting Jennifer's holiday cottages. 
+0x0501  /  0x36d5 (0x0019)  : I'm whitewashing a fence at the cottages, when Bugsy comes by with his biker girls. 
+0x0502  /  0x36ef (0x0005)  : invite them in
+0x0503  /  0x36f5 (0x0050)  : . Noreen plays tracks from "Snakebite" on her ghetto-blaster; Janice dances about and shows her potential. We're having a great time drinking and smoking, and I've really got my hands full with Big Bertha, when someone crashes through the door. 
+0x0504  /  0x3747 (0x0004)  : Snatch Foster
+0x0505  /  0x374c (0x002b)  :  bursts in. He punches Bugsy in the eye for having taken Noreen away from him. Noreen says she is torn between two lovers. 
+0x0506  /  0x3778 (0x000e)  : D S Barry and the Borchester crime squad
+0x0507  /  0x3787 (0x003a)  : . Janice sprints to flush the toilet while Bertha shouts that she knows nothing about the Yibberton Post Office raid. Soon me and Dave Suss Barry are the only ones left in the room. 
+0x0508  /  0x37c2 (0x0034)  : I end up in Borchester nick, charged with criminal damage to the cottages. But Jennifer Aldridge does not want to go ahead so the police drop most of the charges. 
+0x0509  /  0x37f7 (0x0036)  : me and the band are there for our gig at the Hollerton Free Trade Hall, but I have to wear me old wellies. The proceeds from the gig help to pay for my fines. 
+0x0514  /  0x382f (0x0007)  : Tom Forrest waddles in
+0x0515  /  0x3837 (0x002c)  :  to find what's going on. I call him a nosy old Fatman and Bertha hurls a can of beer at the wall and knocks Fatman clean out. 
+0x0516  /  0x3864 (0x0013)  : The phones are jammed by people worried about Tom Forrest. 
+0x0517  /  0x3878 (0x0009)  : ask Bugsy to lend me some money
+0x0518  /  0x3882 (0x0026)  : . He says he can't 'cos he's just bought a new Yamaha 750. He suggests that I raid Martha's Post Office. 
+0x0519  /  0x38a9 (0x0007)  : tell them to push off
+0x051a  /  0x38b1 (0x003a)  : . But painting is very thirsty work so I get Clive Horobin to finish off the job for 50p while I go to the pub. I stagger back at half past three to look at Clive's work. 
+0x0528  /  0x38ed (0x0009)  : the fence is white all over
+0x0529  /  0x38f7 (0x0039)  :  and so is the grass, path and rustic arch. It looks like a seagull colony. Clive Horobin has disappeared and Brian Aldridge is coming down the lane, so I scarper. 
+0x052b  /  0x3932 (0x0008)  : the fence hasn't been finished
+0x052c  /  0x393b (0x003a)  : . Brian Aldridge appears, says I'm working too slowly and cuts my wages down to #5 for the whole fence. I shout about "slave wages" and stalk off home. 
+0x052d  /  0x3976 (0x0007)  : the fence looks beautiful
+0x052e  /  0x397e (0x0017)  : . Brian Aldridge is so pleased that he gives me other painting jobs. 
+0x052f  /  0x3996 (0x001d)  : with the 80 pounds earned painting, I buy myself cowboy boots and a buckskin vest. 
+0x053c  /  0x39b5 (0x003a)  : the gig at the Hollerton Free Trade Hall is a big success. Jolene Rogers, the lily of Leyton Cross, says I look really macho, and we make #200 profit! 
+0x053d  /  0x39f0 (0x000d)  : decide to raid Martha Woodford's Post Office
+0x053e  /  0x39fe (0x0015)  : . I dash in and shout, "This is a stick-up!" 
+0x053f  /  0x3a14 (0x0021)  : You cannot let Eddie turn to crime in this way, especially with thousands of impressionable kids out there! 
+0x0540  /  0x3a36 (0x000b)  : Martha shrieks and holds her hands up
+0x0541  /  0x3a42 (0x0027)  : . I look in the till and there's only #3.50 in there. I decide crime isn't worth the effort and go home. 
+0x0542  /  0x3a6a (0x0033)  : I wake to the sound of splintering doors. D S Barry throws me to the floor and handcuffs my hands. Clarrie cries as I am led away to prison. 
+0x0543  /  0x3a9e (0x0014)  :  Fool! You've written your character out of the script! 
+0x0544  /  0x3ab3 (0x0006)  : she takes no notice
+0x0545  /  0x3aba (0x0027)  :  and asks me if I want my usual ounce of tobacco and papers. I'm sure Marlon Brando never had this trouble. 
+0x0546  /  0x3ae2 (0x0007)  : Martha says nothing at all
+0x0547  /  0x3aea (0x0015)  : because she isn't there. What's more, there's nothing in the till! 
+0x0550  /  0x3b01 (0x002e)  : I'm sitting outside Martha's contemplating my finances when along comes Mrs Antrobus, says "What a shame!" And puts #5 into my hat! 
+0x0551  /  0x3b30 (0x000b)  : take my guitar down to Borchester market
+0x0552  /  0x3b3c (0x001d)  :  place. I sing and play and end up with #10 but it's not really enough. 
+0x0553  /  0x3b5a (0x000e)  : stay outside Martha's for the rest of the day
+0x0554  /  0x3b69 (0x0024)  : . Nobody else puts any money into my hat, and Martha tells me to clear off at the end of the day. 
+0x0555  /  0x3b8e (0x000b)  : tell Mrs Antrobus I'm not accepting charity
+0x0556  /  0x3b9a (0x0027)  : . She gets me brushing her "girls." I do not enjoy this job. There must be easier ways of earning money. 
+0x0564  /  0x3bc3 (0x0008)  : raid Dad's sock drawer
+0x0565  /  0x3bcc (0x0044)  : . I find #40 in his best Sunday pair and also a letter addressed to Vera, the Methodist. It says, "My heart is yours for the asking. Please say you will be mine - Joe." 
+0x0566  /  0x3c12 (0x0003)  : take the money
+0x0567  /  0x3c16 (0x0019)  :  and stuff the letter back. I now have enough money for my cowboy boots. 
+0x0568  /  0x3c30 (0x000d)  : write a letter to Dad pretending to be Vera
+0x0569  /  0x3c3e (0x0014)  : . I arrange a rendezvous on Lakey Hill the next day. 
+0x056a  /  0x3c53 (0x0031)  : Dad comes heaving and panting up the hill, and is furious when he finds me there instead of Vera. It is all very funny, but doesn't help me earn more money. 
+0x056b  /  0x3c85 (0x0006)  : feel sorry for Dad
+0x056c  /  0x3c8c (0x003e)  : . I am ashamed of myself for thinking of stealing an old man's money. I decide to blackmail him with the letter instead. Unless he ups my wages I'm going to pin it up in the Cat and Fiddle. 
+0x0578  /  0x3ccc (0x0006)  : he increases my wages
+0x0579  /  0x3cd3 (0x0018)  : , but only by two quid! I wish I'd stolen his miserable money. 
+0x057a  /  0x3cec (0x0006)  : he takes no notice
+0x057b  /  0x3cf3 (0x0030)  :  but I wouldn't feel right, pinning up the letter, so the old miser gets away with it. I hide the letter in the attic for later use. 
+0x057c  /  0x3d24 (0x000a)  : Dad has an attack of farmer's lung
+0x057d  /  0x3d2f (0x0049)  :  and moans about me turning on my own father. He asks me to get his medicine out of the sock drawer, so I am faced with temptation a second time. I leave the letter, but nick his #40 for my cowboy boots. 
+0x058c  /  0x3d7b (0x0050)  : I take Clarrie, Dad and the kids to Borchester Market and Joe swaps a rusty spanner he borrowed off Phil Archer in 1964 for a wrinkly old sow. He decides to call it Jumbo, and says I must look after it. But how can we get Jumbo back from the market? 
+0x058d  /  0x3dcd (0x0008)  : get her in the back of the van
+0x058e  /  0x3dd6 (0x0031)  :  with Clarrie and the kids. The sow scares William by licking at his leg. Then it makes a mess in the corner and Clarrie refuses to put up with it any more. 
+0x058f  /  0x3e08 (0x0006)  : tell Clarrie to shut up
+0x0590  /  0x3e0f (0x0034)  : . She shouts, "It's either that pig or me, Eddie Grundy! Which matter most - that pig or your marriage?" I have to think for a bit. 
+0x0591  /  0x3e44 (0x0008)  : take the sow out of the van
+0x0592  /  0x3e4d (0x001b)  :  and tie her to a tree. I take Clarrie and the kids home and come back for the pig. 
+0x0593  /  0x3e69 (0x000c)  : sing to the sow to keep it quiet
+0x0594  /  0x3e76 (0x004f)  : . She seems quite happy through my version of "June is busting out all over", but when I sing my hit record, "Poor Pig", she gets all restless, puts her weight onto the back of the van and flies out onto the road. 
+0x05a0  /  0x3ec8 (0x000e)  : Jumbo lands on the bonnet of Jack Woolley's Bentley
+0x05a1  /  0x3ed7 (0x0013)  : . Him and Captain are in the back, Higgs is chauffeuring. 
+0x05a2  /  0x3eeb (0x000c)  : Jack Woolley tells me to move my pig
+0x05a3  /  0x3ef8 (0x0043)  : . Jumbo won't budge. They have to go back to Grey Gables with a pig on their bonnet. I go round to ask for my pig back, but Jean Paul, Wally's froggy cook, has cut Jumbo up into little cutlets. 
+0x05a4  /  0x3f3d (0x000f)  : we're getting mass protest about Jumbo's fate. 
+0x05a5  /  0x3f4d (0x000a)  : Jack Woolley sets Captain on Jumbo
+0x05a6  /  0x3f58 (0x0034)  :  and tells him to bite her. Jumbo turns on Captain and chases him round and round the Memorial Cross. I've never seen such a fat dog run so fast! 
+0x05a7  /  0x3f8d (0x0009)  : Higgs punches me on the nose
+0x05a8  /  0x3f97 (0x0063)  : . He is drunk and thought that it was me who'd jumped on the bonnet. Wally says he'll forget the whole incident if I give him half of Jumbo when she's slaughtered. I say he should pay me for damage to the pig, because Higgs was drunken driving, and ask what defective sergeant Barry would say. We all laugh as Wally. 
+0x05a9  /  0x3ffc (0x0016)  : the reaction of Higgs and Jack Woolley to Eddie's pig was simply ridiculous! 
+0x05b4  /  0x4014 (0x0006)  : Jumbo trots off happily
+0x05b5  /  0x401b (0x001d)  :  down Borchester High Street. We all run after her but she gets lost in the market. 
+0x05b6  /  0x4039 (0x000a)  : she's gone into Nelson's wine bar
+0x05b7  /  0x4044 (0x003a)  : . Nelson cannot budge her and his customers leave the place. He finds out that I was in charge of Jumbo and makes me clean his place up. I'm having nothing more to do with pigs. 
+0x05b8  /  0x407f (0x0006)  : Jumbo has disappeared forever
+0x05b9  /  0x4086 (0x000e)  :  but I go and look for her in any case. 
+0x05ba  /  0x4095 (0x000a)  : she has headed back to the pig stand
+0x05bb  /  0x40a0 (0x0009)  :  to join her mates. 
+0x05c8  /  0x40ab (0x0009)  : Jumbo lands on the zebra crossing
+0x05c9  /  0x40b5 (0x0035)  :  - just as Mrs Perkins is coming the other way. Mrs Perkins pokes Jumbo with her umbrella. She snorts and makes a run for it. I can't find her anywhere. 
+0x05ca  /  0x40eb (0x0006)  : come back for her later
+0x05cb  /  0x40f2 (0x002a)  : . It's my big Country and Western night at the Goat and Nightgown, so I'll just have time to pick Jumbo up and get off to my gig. 
+0x05cc  /  0x411d (0x0009)  : tie Jumbo to the back of the van
+0x05cd  /  0x4127 (0x0024)  :  and drive slowly. All is going well until my foot slips on the clutch going uphill and the van jerks backwards. 
+0x05ce  /  0x414c (0x001b)  : hundreds of viewers, led by the RSPCA, are protesting about Eddie's cruelty to Jumbo. 
+0x05cf  /  0x4168 (0x0004)  : Jumbo is dead
+0x05d0  /  0x416d (0x0034)  : . William, Edward and Clarrie cry. Dad licks his lips and mutters on about black pudding. We put Jumbo in the combine shed and wait for Piggy Atkins to come. 
+0x05dc  /  0x41a3 (0x0008)  : Piggy Atkins doesn't turn up
+0x05dd  /  0x41ac (0x003e)  : . Dad has to carve Jumbo up himself. He reads Jumbo a little prayer and then sets to. Jumbo gives us some lovely pork chops and ham joints even if she only cost the price of a spanner. 
+0x05de  /  0x41eb (0x0004)  : the pig disappears
+0x05df  /  0x41f0 (0x0016)  : . Either someone has stolen it or it wasn't really dead at all. 
+0x05e0  /  0x4207 (0x0008)  : Dad backs the combine into Jumbo
+0x05e1  /  0x4210 (0x003c)  : . The combine is broken and I can't make it go at all, especially now we don't have Phil Archer's spanner any more. It's going to cost us #80 to repair it - thanks to Jumbo. 
+0x05f0  /  0x424e (0x0004)  : Jumbo is unconscious
+0x05f1  /  0x4253 (0x0032)  : . Clarrie tries to revive her with the smell of aniseed essence. Jumbo flickers her eyelids and then sinks forever. We take her home and put her in the combine shed. 
+0x05f2  /  0x4286 (0x0005)  : she is all right
+0x05f3  /  0x428c (0x0010)  :  but a bit squashed. She looks frail. 
+0x0604  /  0x429e (0x001d)  : I try to shove Dad out and tell him to walk home with the sow. But the old misery won't! 
+0x0605  /  0x42bc (0x000f)  : Jumbo's gone! Someone's nicked our pig. 
+0x0606  /  0x42cc (0x0009)  : go and tell D S Barry
+0x0607  /  0x42d6 (0x003b)  : . He laughs and tells me not to waste valuable police time. I tell him I didn't know there was such a thing. D S Barry looks at me nastily and whistles through his teeth. 
+0x0608  /  0x4312 (0x0011)  : call out "Here, Piggy, Piggy!"
+0x0609  /  0x4324 (0x000c)  :  and go sniffing round the woods. 
+0x060a  /  0x4331 (0x0036)  : I walk past Tom Forrest's cottage and what do I see but my pig - eating Fatman Forrest's snapdragons! Fatman comes waddling out of his house, his chins wobbling with rage! 
+0x060b  /  0x4368 (0x000d)  : go home and tell Dad he can look for his own pig
+0x060c  /  0x4376 (0x0026)  : . When I get there, Dad's looking all smug and says Neil Carter saw the pig on the Hollerton Turnpike and brought it home. 
+0x0618  /  0x439e (0x002a)  : D S Barry examines my van. I'm fined #45 for having two bald tyres and for my tax being out of date. 
+0x0619  /  0x43c9 (0x002b)  : Fatman splutters, "Those are Pru's prize snapdragons for the Flower and Produce show." Jumbo doesn't understand. She just sits on them. 
+0x061a  /  0x43f5 (0x0007)  : leave Jumbo where she is
+0x061b  /  0x43fd (0x003f)  : . Fatman Forrest gets even redder. Jumbo goes on a rampage round his garden and ruins Pru Forrest's produce for the Flower and Produce show. She demands #90 compensation! I refuse to pay. 
+0x061c  /  0x443e (0x000f)  : use the van to pull Jumbo off Mrs Forrest's snapdragons
+0x061d  /  0x444e (0x002a)  : . Jumbo makes a leap for the passenger seat, and I drive home with her sitting next to me. It makes a change from Dad. 
+0x061e  /  0x4479 (0x000b)  : tell Fatman his snapdragons are now squashedragons
+0x061f  /  0x4485 (0x0022)  : . He tries to tempt Jumbo off the snapdragons with a bit of cake. She eats the cake but won't budge. 
+0x0620  /  0x44a8 (0x0063)  : D S Barry says if I refuse to pay my fines, I'll have to spend a few nights in Borchester nick. I make a rude gesture. He says, "Right, Grundy, you're nicked!" I'm taken away in the Barry mobile. Dad won't bail me out so I'm stuck in here for a while. 
+0x062c  /  0x450e (0x000b)  : Clarrie says she has a surprise for me. 
+0x062d  /  0x451a (0x0007)  : she's bought me another ferret
+0x062e  /  0x4522 (0x000d)  :  to replace Fred. How thoughtful. 
+0x062f  /  0x4530 (0x0008)  : it's Chicken Kiev for dinner
+0x0630  /  0x4539 (0x0010)  : . Dad ruins the occasion by complaining about garlic. 
+0x0631  /  0x454a (0x0009)  : Clarrie is going to have another baby
+0x0632  /  0x4554 (0x0020)  : . We've got two already, and I don't know if we'll have the room or the money for another one. 
+0x0640  /  0x4576 (0x0009)  : plan to have an extension built
+0x0641  /  0x4580 (0x0046)  :  onto the house. I go to Jake D Hogg, the only cowboy builder with his own stetson, for an estimate. He says he can do me a very nice number for #3000! I have #200 in the kitty. 
+0x0643  /  0x45c9 (0x0005)  : give up the extension
+0x0644  /  0x45cf (0x001d)  : . I tell Dad he'll have to sleep in the attic in order to make way for the little one. 
+0x0654  /  0x45ee (0x000d)  : that's as good as putting him in his grave
+0x0655  /  0x45fc (0x0022)  : . He says he won't last another winter if he goes up there. I tell him to shut up and climb the stairs. 
+0x0656  /  0x461f (0x0009)  : he'll help build an extension
+0x0657  /  0x4629 (0x004d)  :  with me. He draws up a plan and lets Little William colour it in with his crayons. Dad says we can use bits of wood from the outhouses and that we can pinch some bricks and stuff from Brian Aldridge's cottages. I go off the idea of an extension. 
+0x0658  /  0x4678 (0x000b)  : he doesn't mind moving up to the attic
+0x0659  /  0x4684 (0x001c)  :  at all. He is not normally so obliging, so he must have something up his sleeve. 
+0x065a  /  0x46a1 (0x000a)  : decide to build an extension myself
+0x065b  /  0x46ac (0x001e)  : . I get a book on DIY and start digging foundations. Suddenly I hit something solid. 
+0x0668  /  0x46cc (0x0005)  : call a plumber
+0x0669  /  0x46d2 (0x0015)  : . He says I can't build an extension there because of the septic tank. 
+0x066a  /  0x46e8 (0x0006)  : put my boot on it
+0x066b  /  0x46ef (0x0034)  : . With an almighty crash I fall into the hole I've dug and into the septic tank. I nearly drown, but Dad thinks it's the funniest thing he's ever seen. 
+0x066c  /  0x4724 (0x0006)  : leave well alone
+0x066d  /  0x472b (0x0038)  : . Dad suddenly remembers that the septic tank is on that side of the house and starts going on about bubonic plague. He calls a plumber to look into it and knocks the fee off my wages. 
+0x066e  /  0x4764 (0x000b)  : try and borrow some money from the bank
+0x066f  /  0x4770 (0x002f)  : . But when the bank manager hears that I want to borrow #3000 he laughs so much that he cannot stop. Suddenly he goes red and collapses. 
+0x067c  /  0x47a1 (0x0006)  : ring for an ambulance
+0x067d  /  0x47a8 (0x0009)  :  and he goes into hospital. 
+0x067e  /  0x47b2 (0x0041)  : I go and visit him the Bank Manager in hospital. He thanks me for saving his life, but is still "not empowered to increase the bank's exposure in the farm sector at this time". This means no loan. 
+0x067f  /  0x47f5 (0x0008)  : give him the kiss of life
+0x0680  /  0x47fe (0x0021)  : . He wakes up just as I'm doing it and splutters "What the blazes are you doing, Grundy?" 
+0x0681  /  0x4820 (0x0021)  : I get my picture in the Borchester Echo for saving the bank manager's life, but I've still got no money. 
+0x0682  /  0x4842 (0x0008)  : take him to hospital in my van
+0x0683  /  0x484b (0x002f)  : . When he comes to, the nurse says it would have been better to give him first aid where he was, but she congratulates me on saving the manager's life. 
+0x0690  /  0x487c (0x0002)  : economise
+0x0691  /  0x487f (0x0031)  : . I'll give up fags again and only have a couple of pints on Fridays and Saturdays. Well, that's the plan but it's only Monday and I'm dying of thirst. 
+0x0692  /  0x48b1 (0x0008)  : give in and go to the pub
+0x0693  /  0x48ba (0x003e)  :  - to wet the baby's head, so to speak. It's really a long time yet before I have to economise, and anyway we'll save some money because Clarrie won't be able to smoke or drink for months! 
+0x0694  /  0x48f9 (0x0009)  : keep off the booze and fags
+0x0695  /  0x4903 (0x0045)  : . Within two days I'm a nervous wreck. My hands are shaking and I feel very flushed all the time. Nobody will talk to me 'cos I'm so bad tempered. Clarrie threatens to go back home to stay with Jethro. 
+0x0696  /  0x494a (0x000a)  : decide to make my own beer
+0x0697  /  0x4955 (0x0037)  :  and roll my own fags. Dr. Poole comes round to see Clarrie and tells me that I ought to give up smoking and drinking anyway. I try to think of a good substitute. 
+0x0698  /  0x498d (0x0008)  : ask Dad for a pay increase
+0x0699  /  0x4996 (0x0037)  : . He laughs and says where do I imagine that will come from - the fairies at the bottom of the garden? He says I can only have a little bit extra if we do well with the turkeys. 
+0x06a4  /  0x49cf (0x000d)  : go round the village getting orders for the turkeys
+0x06a5  /  0x49dd (0x004d)  : . I get a good order from Grey Gables and Caroline Bone gives me an advance of #20. On the way back, I meet Snatch Foster who drags me into the Cat and Fiddle for a pint. Suddenly my #20 has all gone. 
+0x06a6  /  0x4a2c (0x0005)  : sell my guitar
+0x06a7  /  0x4a32 (0x002d)  :  for #400. So I've got quite a bit of money for the "new baby" account, but no guitar to sing her to sleep. 
+0x06a8  /  0x4a60 (0x0007)  : put it down to experience
+0x06a9  /  0x4a68 (0x000f)  : . When Dad finds out he docks my wages. 
+0x06aa  /  0x4a78 (0x0007)  : borrow some money off Snatch
+0x06ab  /  0x4a80 (0x001f)  : . This comes in handy for buying a new buckskin shirt. I'll worry about the baby when it comes. 
+0x06b8  /  0x4aa1 (0x000f)  : pinch some of Clarrie's cakes to feed up the turkeys
+0x06b9  /  0x4ab1 (0x0029)  : . But they were reject cakes, with vim instead of flour. The turkey poults die. Drastic measures are needed. 
+0x06ba  /  0x4adb (0x0010)  : how could anyone make a cake with vim? 
+0x06bb  /  0x4aec (0x0006)  : threaten cutbacks all round
+0x06bc  /  0x4af3 (0x0043)  : . Dad puts one of Clarrie's raspberry tarts into his mouth and says if having babies means we've all got to starve he'd rather Clarrie didn't have any more. He says the new baby can have his room and he'll move up to the attic. 
+0x06bd  /  0x4b38 (0x002b)  : Clarrie says that she is not pregnant after all, which is sad because I'd already decided to call my new daughter Samantha after my second-favourite woman. 
+0x06cc  /  0x4b65 (0x0020)  : the bank give me a reward of three thousand pounds for saving the manager's life. I am rich! 
+0x06cd  /  0x4b86 (0x0018)  : Jake Hogg and his gang start building the extension onto the parlour wall. 
+0x06ce  /  0x4b9f (0x003c)  : Clarrie is rushed off her feet, brewing tea for dozens of scruffy builders. She says she's changed her mind and doesn't want an extension. It's all going to be a bit of a squash at Grange Farm. 
+0x06e0  /  0x4bdd (0x0026)  : I decide to build a new baby cot. When I've finished Clarrie says it reminds her of a cage and will frighten the children. 
+0x06e1  /  0x4c04 (0x0006)  : tell Clarrie to shut up
+0x06e2  /  0x4c0b (0x002d)  : . She has a turn and says I shouldn't be nasty to her when she's in her condition. I have to buy her a new maternity tent-dress to calm her down. 
+0x06e3  /  0x4c39 (0x0006)  : build another cot
+0x06e4  /  0x4c40 (0x0020)  : . Clarrie says that this one looks like the Loch Ness monster. I go off to the pub in a temper. 
+0x06e5  /  0x4c61 (0x000b)  : tell Clarrie the kids will get used to it
+0x06e6  /  0x4c6d (0x000e)  :  but she banishes the cot to the cowshed. 
+0x06e7  /  0x4c7c (0x001c)  : William finds the cage-cot and loves playing on it, so Clarrie allows it back into the house. 
+0x06f4  /  0x4c9a (0x0010)  : the hospital phone and say Clarrie is having her baby. 
+0x06f5  /  0x4cab (0x0035)  : Yippee! Clarrie's had a lovely baby girl, just like I said she would. She's got blond hair, like her mum, and we're going to call her Samantha! 
+0x06f6  /  0x4ce1 (0x0038)  : Clarrie packs her bags and takes the children over to Jethro's for a rest. But she ends up having to do all his washing and ironing and has to listen to his stories, so she returns. 
+0x0708  /  0x4d1b (0x003d)  : I sit down and think about my fatherly duties. I tell Clarrie that I shall be more responsible than ever and that I shall try and teach young Samantha (the new baby) all that I know. 
+0x0709  /  0x4d59 (0x0005)  : she laughs hysterically
+0x070a  /  0x4d5f (0x0018)  :  - so much that she goes into labour. I take her to hospital in the van. 
+0x070b  /  0x4d78 (0x000b)  : she tells me that it's a good idea
+0x070c  /  0x4d84 (0x0043)  :  - on one condition - that I don't teach the baby how to sing. I go and sulk in my cellar and play some Slim Whitman, and decide that little Samantha will probably be a Country and Western star some day. 
+0x070d  /  0x4dc9 (0x001a)  : she says, "All Right, you can start by seeing to those turkeys." 
+0x070f  /  0x4de5 (0x002e)  : I think for at least a minute and can't think of anything to replace beer and fags. This causes me severe distress and I have to think of an immediate remedy. 
+0x071c  /  0x4e15 (0x0038)  : my Dad refuses to do any work on the farm. I have to do all the milking, and the combining, and put up with his moaning. What's more, he costs a lot to feed! 
+0x071d  /  0x4e4e (0x0008)  : threaten to put him in a home
+0x071e  /  0x4e57 (0x0023)  : . His eyes start swivelling round and he has a horrible coughing fit. He says he won't be long for this world. 
+0x071f  /  0x4e7b (0x001f)  : your threat to banish Joe to a home has disturbed very many older listeners who fear this possibility. 
+0x0720  /  0x4e9b (0x0008)  : get Dr. Poole round
+0x0721  /  0x4ea4 (0x0023)  : . He examines Dad and says that he's suffering from stress and needs plenty of rest. Dad smirks under the sheets. 
+0x0722  /  0x4ec8 (0x0006)  : tell Dad he's a liar
+0x0723  /  0x4ecf (0x002c)  : . Dad says I've got no respect for an old soldier who's done his service to God and King. He goes all maudlin and creeps up to his room. 
+0x0724  /  0x4efc (0x0005)  : go to the pub
+0x0725  /  0x4f02 (0x002b)  : . Peaches cheers me up with one of her jokes about vicars and tarts. Then Dad sidles into the Cat and Fiddle and demands a drink off me. 
+0x0730  /  0x4f2f (0x0008)  : tell him to buy one himself
+0x0731  /  0x4f38 (0x000f)  : . He looks dejected and hangs his head. 
+0x0732  /  0x4f48 (0x0006)  : buy him a half
+0x0733  /  0x4f4f (0x002b)  : . He says he needs a whisky for his lungs. Peaches takes pity on him, buys him several and Dad collapses in a drunken stupor. 
+0x0734  /  0x4f7b (0x0003)  : ignore him
+0x0735  /  0x4f7f (0x001d)  :  and he goes home. When I get back he's stuck into some combining. Wonders will never cease. 
+0x0744  /  0x4f9e (0x000d)  : suggest that he moves into Martha Woodford's cottage
+0x0745  /  0x4fac (0x0018)  : . He thinks for a minute and then goes round there to ask her out to the pictures. 
+0x0746  /  0x4fc5 (0x0008)  : she wants to see South Pacific
+0x0747  /  0x4fce (0x0017)  : . My Dad chuckles with joy. He loves "Happy Talk." 
+0x0748  /  0x4fe6 (0x0006)  : she wants to see Zulu
+0x0749  /  0x4fed (0x0038)  : . Dad says he likes Zulu but he gets all frightened when all those foreigners come over the hill making that terrible pounding noise. But Martha insists on going to see it at the Borchester Odeon. 
+0x074a  /  0x5026 (0x0009)  : she wants to see Jesus of Nazareth
+0x074b  /  0x5030 (0x004e)  : . My Dad says he doesn't think it's a very cheerful story and that he'd rather have a good musical any day. Martha is shocked. She says that Dad is always claiming to be a Methodist and a very religious man. She sends him packing, saying he's a fraud. 
+0x074c  /  0x5080 (0x0005)  : let him rest
+0x074d  /  0x5086 (0x0025)  : . At least he doesn't get in the way if he's up in his room. But suddenly he goes all hoity-toity and demands special treatment. 
+0x0758  /  0x50ad (0x0029)  : Dad bangs on the floor of his room with a stick whenever he wants something. Clarrie is getting fed up with running up and downstairs all the time. 
+0x0759  /  0x50d7 (0x000c)  : she says he'll have to sleep in the parlour
+0x075a  /  0x50e4 (0x0048)  : . She puts the camp bed up for him. He says he can't sleep on it 'cos he's an ailing, tired old man. He goes up to his room and gets out his will. He says he's going to cut me out of the farm when he goes. 
+0x075b  /  0x512e (0x000a)  : ask Lilian Bellamy if he can do this
+0x075c  /  0x5139 (0x001f)  : . I have to 'phone her in Guernsey, but she pretends she doesn't know who I am. 
+0x075d  /  0x5159 (0x0008)  : start being nicer to Dad
+0x075e  /  0x5162 (0x0028)  : . It doesn't have any effect. I hide his will before he has time to change it, but he's still as bone idle as ever. 
+0x075f  /  0x518b (0x000d)  : tell him that he shouldn't have such wicked thoughts
+0x0760  /  0x5199 (0x0023)  : . What would Vera, the Methodist woman from Edgeley, think of him, and what about his little grandchildren? 
+0x076c  /  0x51be (0x000d)  : she tells him to stop acting like a baby
+0x076d  /  0x51cc (0x0002)  : . 
+0x076e  /  0x51cf (0x0008)  : she indulges his every whim
+0x076f  /  0x51d8 (0x003f)  : . He demands a video and all his favourite films. We hear South Pacific, The King and I, and The Sound of Music nearly every day. I think I'll have to move out myself. 
+0x0780  /  0x521a (0x0032)  : Dad goes to see Vera, the Methodist woman, for comfort and kind words. She sits him down and reads him passages from the Bible against drinking and idleness. 
+0x0781  /  0x524d (0x000b)  : he decides to repent and work harder
+0x0782  /  0x5259 (0x002e)  : . He keeps going round the farm, quoting bits from the Bible and telling me to repent my sins. I think I preferred him when he was just idle. 
+0x0783  /  0x5288 (0x000e)  : he tells Vera she's talking a load of nonsense
+0x0784  /  0x5297 (0x003b)  : . She tells him never to darken her doors again. He stops at the Cat and Fiddle on the way home, gets very drunk and falls down in the street. He has to be put to bed. 
+0x0785  /  0x52d3 (0x000b)  : he sees a shaft of brilliant light
+0x0786  /  0x52df (0x0059)  :  streaming through the window and realises he's been saved. His new work is to pray and try to convert the sinners in the Cat and Fiddle, so he doesn't think he should do any farm work at all. He goes round to visit Vera every day because he says Vera's front room is like a holy shrine. 
+0x0794  /  0x533b (0x0023)  : Dad's up in his room for days and only comes down for something to eat. Clarrie is worried that he's sickening for something. 
+0x0795  /  0x535f (0x0030)  : Dad has been writing his memoirs up in his room He shows us the first chapter - which is all about how he was cheated out of Weston Farm by the Archers. 
+0x0796  /  0x5390 (0x0015)  : the atmosphere at the Borchester Odeon is romantic and Dad proposes to Martha. 
+0x0797  /  0x53a6 (0x0003)  : she accepts
+0x0798  /  0x53aa (0x0002)  : ! 
+0x0799  /  0x53ad (0x0062)  : Martha says she wants a nice, big wedding reception at Redgate Manor with caviar and champagne. Dad panics and disappears up to his room. He sends Martha a note saying that he cannot be so selfish as to burden a young woman like Martha with the problem of his farmer's lung, and he regrets he must call the wedding off. 
+0x079a  /  0x5411 (0x0007)  : she refuses on any terms
+0x079b  /  0x5419 (0x003b)  : . Dad calls her an ungrateful old witch and she chases him away. He comes home with his tail between his legs, and declares that he doesn't feel like being tied down to a marriage just yet. 
+0x079c  /  0x5455 (0x0007)  : she says she'll think about it
+0x079d  /  0x545d (0x0002)  : . 
+0x079e  /  0x5460 (0x0035)  : Dad keeps popping up from behind bushes to remind Martha of his proposal. Finally she says "No" because the memory of her Joby is still too fresh in her mind. 
+0x079f  /  0x5496 (0x0026)  : during the showing of Zulu, Dad gets scared and grabs Martha's arm. She hits him over the head with her umbrella. 
+0x07a0  /  0x54bd (0x0016)  : ever since Martha rejected him, Dad had been acting very peculiarly. 
+<EOM>

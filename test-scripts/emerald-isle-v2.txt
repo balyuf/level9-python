@@ -1,5 +1,5 @@
-#title: Emerals Isle test script;
-#comment: BBC version [v2]. Based on a solution by Jacob Gunness;
+#title: Emerald Isle test script;
+#comment: MSX version [v2]. Based on a solution by Jacob Gunness;
 
 #SEED 42;
 RELEASE PARACHUTE [Mission 1: Find necessary items in town and get on the train. You begin hanging from a tree...];
@@ -858,3 +858,4 @@ DROP BAG;
 PULL CORD [a guard asks you for the password];
 SAY WEALTH [the 6 letters in right order];
 W [You've won the game and are now GRANDMASTER ADVENTURER with a score of 1000/1000!!];
+N;

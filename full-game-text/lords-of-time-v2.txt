@@ -1,9 +1,7 @@
 Welcome to "Lords of Time" from Level 9 Computing. You are sitting in the comfort of your own home, debugging your latest program before submitting it for us to market. Suddenly there is a blinding flash...
 What now?
 #title: Lords of Time test script
-Invalid command
-#comment: CPC version
-Invalid command
+#comment: MSX version
 #SEED 42
 Seed set to 42
 LOOK

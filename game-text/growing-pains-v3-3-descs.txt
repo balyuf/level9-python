@@ -1,0 +1,807 @@
+0x0001  /  0x084a (0x0001)  :  
+0x0002  /  0x084c (0x0004)  : ;
+
+0x0003  /  0x0851 (0x0003)  : ,
+
+0x0004  /  0x0855 (0x0003)  : .
+
+0x0005  /  0x0859 (0x0002)  : 
+
+0x0006  /  0x085c (0x0003)  :  and 
+0x0007  /  0x0860 (0x0003)  : .
+
+0x0008  /  0x0864 (0x0002)  : ) 
+0x0009  /  0x0867 (0x0002)  : I 
+0x000a  /  0x086a (0x0002)  : ? 
+0x000b  /  0x086d (0x0005)  : 
+ 
+
+0x0015  /  0x0874 (0x0003)  : Monday 
+0x0016  /  0x0878 (0x0003)  : Tuesday 
+0x0017  /  0x087c (0x0003)  : Wednesday 
+0x0018  /  0x0880 (0x0003)  : Thursday 
+0x0019  /  0x0884 (0x0003)  : Friday 
+0x001a  /  0x0888 (0x0003)  : Saturday 
+0x001b  /  0x088c (0x0003)  : Sunday 
+0x001c  /  0x0890 (0x0006)  : yes y on
+0x001d  /  0x0897 (0x0006)  : no n off
+0x001e  /  0x089e (0x0006)  : zero nought 0
+0x001f  /  0x08a5 (0x000a)  : 1)  [aka] one 1
+0x0020  /  0x08b0 (0x000a)  : 2)  [aka] two 2
+0x0021  /  0x08bb (0x000a)  : 3)  [aka] three 3
+0x0022  /  0x08c6 (0x002d)  : type a command, HELP for a list of commands, or leave the line blank to return to the game. Then press ENTER or RETURN. [aka] four 4
+0x0023  /  0x08f4 (0x0004)  : five 5
+0x0024  /  0x08f9 (0x0004)  : six 6
+0x0025  /  0x08fe (0x0004)  : seven 7
+0x0026  /  0x0903 (0x0004)  : eight 8
+0x0027  /  0x0908 (0x0004)  : nine 9
+0x0028  /  0x090d (0x0008)  : what shall I do?
+
+0x0029  /  0x0916 (0x000c)  : choose one of the following for me:
+
+0x002a  /  0x0923 (0x000c)  : which of the following shall I do?
+
+0x002b  /  0x0930 (0x0004)  : help info
+0x002c  /  0x0935 (0x0002)  : save
+0x002d  /  0x0938 (0x0004)  : load restore
+0x002e  /  0x093d (0x0004)  : pictures graphics
+0x002f  /  0x0942 (0x0004)  : printer list
+0x0030  /  0x0947 (0x0002)  : demo
+0x0031  /  0x094a (0x0008)  : new restart quit stop
+0x0032  /  0x0953 (0x011a)  : Adrian Mole. Myself. 
+Address: 2 Laurel Close, Leicester, Leicestershire, England. 
+Birthday: 2nd April. 
+Eyes: Blue/Grey (Green in strong sunlight). 
+Height: Small for my age (15). 
+School: Neil Armstrong Comprehensive. 
+Hobbies: Reading, Studying Norwegian Leather Industry, Model Aeroplane Making, Writing Poetry. 
+Ambitions: To be a famous intellectual. 
+Sport: None. 
+Favourite Group: Red Wedge. Male Singer: Bruce Springsteen. 
+Favourite Foods: Vesta Prawn Curry, Chocolate Instant Whip. 
+Likes: Mars bars, Racing Bikes, Pandora. 
+Dislikes: All Sport, Showers, Dentists, Maths, Exams, Barry Kent. 
+Pets: the Dog [aka] me
+0x0033  /  0x0a72 (0x0025)  : George Alfred Mole (42). My scruffy father. He is living with the Stick Insect at my grandma's [aka] Dad
+0x0034  /  0x0a98 (0x002c)  : Pauline Monica Mole (38). My mother. A Guardian Woman. Thin, talkative and bossy with red hair [aka] Paulie Mum
+0x0035  /  0x0ac5 (0x0028)  : Rosie Germaine Mole (0). My new sister, who looks like Winston Churchill and rules our house from her cot [aka] baby
+0x0036  /  0x0aee (0x002b)  : May Mole (77). My grandma. Kind but strict. Lives at 19 Ploughmans Dell, Beeby on the Wold [aka] grandmother
+0x0037  /  0x0b1a (0x0027)  : Grandma and Grandad Sugden. My mother's parents. Decent, god-fearing and dead boring. They live in a Norfolk potato field
+0x0038  /  0x0b42 (0x0028)  : Auntie Susan Mole. Prison warder in Holloway. Hairy fingers. Smokes Panama cigars. Has a sexy friend called Gloria
+0x0039  /  0x0b6b (0x0049)  : The Dog (12). A shaggy black mongrel with hair over its eyes. It pretends to forget what you tell it, does stupid things and costs a fortune. I think it is a father, although it is younger than me
+0x003a  /  0x0bb6 (0x0011)  : Mr Derek Ratfink Lucas. My mother's ex-lover in Sheffield
+0x003b  /  0x0bc8 (0x004c)  : Stick Insect (Doreen Slater). My father's ex-lover and single parent mother of Maxwell House and Brett, by Trevor Roper and my father respectively. Stick Insect has just given my father the boot (good!) and is living with Trevor Roper again
+0x003c  /  0x0c16 (0x001a)  : Brett Insect (Brett Slater, really). My father's new unmarried child
+0x003d  /  0x0c31 (0x0018)  : Maxwell House. Stick Insect's grubby little toddler who is definitely not my brother
+0x003e  /  0x0c4a (0x0022)  : Trevor Roper. Father of Stick Insect's first kid, who has just returned from Arab lands to live with her again
+0x003f  /  0x0c6d (0x0064)  : Bert Baxter (90). 14 stone. The awful OAP I got lumbered with by the Good Samaritans. He likes beetroot sandwiches, Woodbines and Brown Ale and smells funny. He is a Communist and reads the "Morning Star", but served for king and country in the first War. He is married to Queenie
+0x0040  /  0x0cd3 (0x0033)  : Queenie Baxter. Bert's wife. They married early this year after meeting at the Alderman Cooper Sunshine Home. She is dead old. In fact, they both are
+0x0041  /  0x0d07 (0x0075)  : Pandora Braithwaite (15). My future lover. Beautiful, with treacle-coloured hair and eyes the colour of our dog's. Sporty. Plays the viola. Goes on protest marches and gets up petitions. She has a ginger cat called Marley and smokes Benson & Hedges. Pandora lives in a posh house at 69 Elm Tree Avenue. Her parents are Ivan and Tanya Braithwaite
+0x0042  /  0x0d7e (0x005c)  : Ivan Braithwaite. Pandora's father. A senior milkman who belonged to the Labour Party in pre-witch-hunt days. He reads the Guardian and must be a bit rich and stupid because he drives a Volvo.
+ 
+Tanya Braithwaite. Pandora's mother. She is a Marriage Guidance Counsellor who fills the house with plants
+0x0043  /  0x0ddc (0x005a)  : Barry Kent (15). School Bully. He is stupid but has massive muscles and a studded jacket. He chain-smokes Benson & Hedges and lives in a Council slum at 13 Corporation Row. His unlucky parents are Frederick and Ida Kent. His brother Clive is in the army [aka] Baz
+0x0044  /  0x0e38 (0x0016)  : Elizabeth Sally Broadway. A nice-enough schoolgirl who seems to like me a bit
+0x0045  /  0x0e4f (0x0012)  : Claire Neilson. Schoolgirl. Her father is a Conservative greengrocer
+0x0046  /  0x0e62 (0x0016)  : Sharon Bott. A schoolgirl ex-friend of Nigel's. Dead pretty and athletic
+0x0047  /  0x0e79 (0x0033)  : Nigel. My best ex-friend. The fashion leader of the school. Always has new things but they are wasted on him. Founder of the Neil Armstrong Comprehensive Gay Club
+0x0048  /  0x0ead (0x000c)  : Brainbox Henderson. Disgustingly talented schoolboy
+0x0049  /  0x0eba (0x0020)  : Headmaster Scruton (58). He is a complete nutter, with eyes that pop when he gets angry
+0x004a  /  0x0edb (0x0012)  : Miss Sproxton. English Teacher. Interfering old bat
+0x004b  /  0x0eee (0x000b)  : Mr Hill. Decrepit Science Teacher
+0x004c  /  0x0efa (0x0007)  : Mr Lambert. Teacher
+0x004d  /  0x0f02 (0x000e)  : Mrs Leech. Kind Kitchen Supervisor at school
+0x004e  /  0x0f11 (0x000d)  : Mrs Bull. Our domestic science teacher
+0x004f  /  0x0f1f (0x0017)  : Courtney Elliot. Our Postman. He says he is a retired Doctor of Philosophy
+0x0050  /  0x0f37 (0x0013)  : Ms Fossington-Gore (32). Art Teacher [aka] Gore
+0x0051  /  0x0f4b (0x001d)  : Mr and Mrs Caitlin O'Leary. Neighbours opposite. He is noisy and she is nosy [aka] Leary
+0x0052  /  0x0f69 (0x0027)  : Mr Ujjal and Mrs Sita Singh and the little Singhs. Our next-door neighbours, who live in Ratfink Lucas' old house
+0x0053  /  0x0f91 (0x0010)  : Mr Cherry. Runs the newsagent's shop on the corner
+0x0054  /  0x0fa2 (0x002d)  : Dr Gray. My Doctor (48). He must save the NHS lots of money because he never treats my spots or anything [aka] Doctor
+0x0055  /  0x0fd0 (0x002d)  : Rick Lemon. Hippy who runs the "Off The Streets Youth Club". Lives in a squat with girlfriend Titia and baby daughter Herod
+0x0056  /  0x0ffe (0x002c)  : Titia. Hippy girlfriend of Rick Lemon. Stringy hair and beads. Lives in a squat with him and their baby daughter Herod [aka] Tit
+0x0057  /  0x102b (0x000e)  : Herod. Baby daughter of Rick and Titia
+0x0058  /  0x103a (0x0021)  : Level 9 Computing: Mike, Nick and Pete Austin who live in the Mendips and write adventure games
+0x0059  /  0x105c (0x007b)  : Credits: "The Growing Pains of Adrian Mole" was based on the book of the same name by Sue Townsend, with additional text from Peter McBride and Pete Austin. Pictures were by Joan Lamb. The game was programmed by Pete Austin and James Stanley, and brought to your micro by Andrew Deeley, Nick Austin and others. It is copyright (C) 1986 Level 9 Computing
+0x0065  /  0x10da (0x0003)  : September 1st
+0x0066  /  0x10de (0x0003)  : September 2nd
+0x0067  /  0x10e2 (0x0007)  : September 3rd FULL MOON
+0x0068  /  0x10ea (0x0003)  : September 4th
+0x0069  /  0x10ee (0x0003)  : September 5th
+0x006a  /  0x10f2 (0x0010)  : September 6th LABOUR DAY (USA AND CANADA)
+0x006b  /  0x1103 (0x0003)  : September 7th
+0x006c  /  0x1107 (0x0003)  : September 8th
+0x006d  /  0x110b (0x0003)  : September 9th
+0x006e  /  0x110f (0x0009)  : September 10th MOON'S LAST QUARTER
+0x006f  /  0x1119 (0x0003)  : September 11th
+0x0070  /  0x111d (0x0009)  : September 12th FOURTEENTH AFTER TRINITY
+0x0071  /  0x1127 (0x0003)  : September 13th
+0x0072  /  0x112b (0x0003)  : September 14th
+0x0073  /  0x112f (0x0003)  : September 15th
+0x0074  /  0x1133 (0x0003)  : September 16th
+0x0075  /  0x1137 (0x0007)  : September 17th NEW MOON
+0x0076  /  0x113f (0x0003)  : September 18th
+0x0077  /  0x1143 (0x0009)  : September 19th FIFTEENTH AFTER TRINITY
+0x0078  /  0x114d (0x0003)  : September 20th
+0x0079  /  0x1151 (0x0003)  : September 21st
+0x007a  /  0x1155 (0x0003)  : September 22nd
+0x007b  /  0x1159 (0x0007)  : September 23rd AUTUMNAL EQUINOX
+0x007c  /  0x1161 (0x0003)  : September 24th
+0x007d  /  0x1165 (0x0009)  : September 25th MOON'S FIRST QUARTER
+0x007e  /  0x116f (0x0009)  : September 26th SIXTEENTH AFTER TRINITY
+0x007f  /  0x1179 (0x0003)  : September 27th
+0x0080  /  0x117d (0x0003)  : September 28th
+0x0081  /  0x1181 (0x000e)  : September 29th MICHAELMAS DAY (QUARTER DAY)
+0x0082  /  0x1190 (0x0003)  : September 30th
+0x0083  /  0x1194 (0x0003)  : October 1st
+0x0084  /  0x1198 (0x0003)  : October 2nd
+0x0085  /  0x119c (0x000f)  : October 3rd SEVENTEENTH AFTER TRINITY. FULL MOON
+0x0086  /  0x11ac (0x0003)  : October 4th
+0x0087  /  0x11b0 (0x0003)  : October 5th
+0x0088  /  0x11b4 (0x0003)  : October 6th
+0x0089  /  0x11b8 (0x0003)  : October 7th
+0x008a  /  0x11bc (0x0003)  : October 8th
+0x008b  /  0x11c0 (0x0009)  : October 9th MOON'S LAST QUARTER
+0x008c  /  0x11ca (0x0009)  : October 10th EIGHTEENTH AFTER TRINITY
+0x008d  /  0x11d4 (0x0017)  : October 11th COLUMBUS DAY (USA). THANKSGIVING DAY (CANADA)
+0x008e  /  0x11ec (0x0003)  : October 12th
+0x008f  /  0x11f0 (0x0003)  : October 13th
+0x0090  /  0x11f4 (0x0003)  : October 14th
+0x0091  /  0x11f8 (0x0003)  : October 15th
+0x0092  /  0x11fc (0x0003)  : October 16th
+0x0093  /  0x1200 (0x0003)  : October 17th
+0x0094  /  0x1204 (0x0003)  : October 18th
+0x0095  /  0x1208 (0x0003)  : October 19th
+0x0096  /  0x120c (0x0003)  : October 20th
+0x0097  /  0x1210 (0x0003)  : October 21st
+0x0098  /  0x1214 (0x0003)  : October 22nd
+0x0099  /  0x1218 (0x0003)  : October 23rd
+0x009a  /  0x121c (0x0013)  : October 24th TWENTIETH AFTER TRINITY. BRITISH SUMMER TIME ENDS
+0x009b  /  0x1230 (0x0016)  : October 25th HOLIDAY (REPUBLIC OF IRELAND). MOON'S FIRST QUARTER
+0x009c  /  0x1247 (0x0003)  : October 26th
+0x009d  /  0x124b (0x0003)  : October 27th
+0x009e  /  0x124f (0x0003)  : October 28th
+0x009f  /  0x1253 (0x0003)  : October 29th
+0x00a0  /  0x1257 (0x0003)  : October 30th
+0x00a1  /  0x125b (0x0020)  : October 31st TWENTY-FIRST AFTER TRINITY. HALLOWE'EN. DAYLIGHT SAVING TIME ENDS (USA AND CANADA)
+0x00a2  /  0x127c (0x0007)  : November 1st FULL MOON
+0x00a3  /  0x1284 (0x0003)  : November 2nd
+0x00a4  /  0x1288 (0x0003)  : November 3rd
+0x00a5  /  0x128c (0x0003)  : November 4th
+0x00a6  /  0x1290 (0x0007)  : November 5th BONFIRE NIGHT
+0x00a7  /  0x1298 (0x0003)  : November 6th
+0x00a8  /  0x129c (0x0003)  : November 7th
+0x00a9  /  0x12a0 (0x0003)  : November 8th
+0x00aa  /  0x12a4 (0x0003)  : November 9th
+0x00ab  /  0x12a8 (0x0003)  : November 10th
+0x00ac  /  0x12ac (0x0007)  : November 11th ARMISTICE DAY
+0x00ad  /  0x12b4 (0x0003)  : November 12th
+0x00ae  /  0x12b8 (0x0003)  : November 13th
+0x00af  /  0x12bc (0x0007)  : November 14th REMEMBRANCE SUNDAY
+0x00b0  /  0x12c4 (0x0003)  : November 15th
+0x00b1  /  0x12c8 (0x0003)  : November 16th
+0x00b2  /  0x12cc (0x0003)  : November 17th
+0x00b3  /  0x12d0 (0x0003)  : November 18th
+0x00b4  /  0x12d4 (0x0003)  : November 19th
+0x00b5  /  0x12d8 (0x0003)  : November 20th
+0x00b6  /  0x12dc (0x0003)  : November 21st
+0x00b7  /  0x12e0 (0x0003)  : November 22nd
+0x00b8  /  0x12e4 (0x0003)  : November 23rd
+0x00b9  /  0x12e8 (0x0003)  : November 24th
+0x00ba  /  0x12ec (0x0003)  : November 25th
+0x00bb  /  0x12f0 (0x0003)  : November 26th
+0x00bc  /  0x12f4 (0x0003)  : November 27th
+0x00bd  /  0x12f8 (0x0003)  : November 28th
+0x00be  /  0x12fc (0x0003)  : November 29th
+0x00bf  /  0x1300 (0x0009)  : November 30th ST ANDREW'S DAY
+0x00c0  /  0x130a (0x0003)  : December 1st
+0x00c1  /  0x130e (0x0003)  : December 2nd
+0x00c2  /  0x1312 (0x0003)  : December 3rd
+0x00c3  /  0x1316 (0x0003)  : December 4th
+0x00c4  /  0x131a (0x0003)  : December 5th
+0x00c5  /  0x131e (0x0003)  : December 6th
+0x00c6  /  0x1322 (0x0003)  : December 7th
+0x00c7  /  0x1326 (0x0003)  : December 8th
+0x00c8  /  0x132a (0x0003)  : December 9th
+0x00c9  /  0x132e (0x0003)  : December 10th
+0x00ca  /  0x1332 (0x0003)  : December 11th
+0x00cb  /  0x1336 (0x0003)  : December 12th
+0x00cc  /  0x133a (0x0003)  : December 13th
+0x00cd  /  0x133e (0x0003)  : December 14th
+0x00ce  /  0x1342 (0x0003)  : December 15th
+0x00cf  /  0x1346 (0x0003)  : December 16th
+0x00d0  /  0x134a (0x0003)  : December 17th
+0x00d1  /  0x134e (0x0003)  : December 18th
+0x00d2  /  0x1352 (0x0003)  : December 19th
+0x00d3  /  0x1356 (0x0003)  : December 20th
+0x00d4  /  0x135a (0x0003)  : December 21st
+0x00d5  /  0x135e (0x0003)  : December 22nd
+0x00d6  /  0x1362 (0x0003)  : December 23rd
+0x00d7  /  0x1366 (0x0007)  : December 24th CHRISTMAS EVE
+0x00d8  /  0x136e (0x0007)  : December 25th CHRISTMAS DAY
+0x00d9  /  0x1376 (0x0009)  : December 26th FIRST AFTER CHRISTMAS
+0x00da  /  0x1380 (0x0035)  : December 27th BOXING DAY, HOLIDAY (UK EXCEPT SCOTLAND). HOLIDAY (CANADA). BANK HOLIDAY (SCOTLAND). HOLIDAY (REP OF IRELAND)
+0x00db  /  0x13b6 (0x0003)  : December 28th
+0x00dc  /  0x13ba (0x0003)  : December 29th
+0x00dd  /  0x13be (0x0007)  : December 30th FULL MOON
+0x00de  /  0x13c6 (0x0003)  : December 31st
+0x0104  /  0x13cb (0x0028)  : my father has gone to see Brett and Stick Insect. My mother made him go. So once again I am living in a broken home. 
+0x0109  /  0x13f5 (0x007b)  : at eleven o'clock my father rang up to wish us a Happy New Year. My mother's face went a bit blotchy and soft, and she invited him round for a drink. At midnight we all stood round Bert's chair, holding hands and singing "Auld Lang Syne". Then we talked about Queenie and Stick Insect and said things like, "Well, I wonder what next year will bring us?"
+0x0118  /  0x1473 (0x0027)  : Pandora is taking canoing lessons in preparation for her River Wye holiday. She has her first lesson today and invited me to watch. 
+0x0119  /  0x149b (0x0005)  : ask to join in
+0x011a  /  0x14a1 (0x0002)  : . 
+0x011b  /  0x14a4 (0x0066)  : I paddled my own canoe a few feet from the bank, looked over my shoulder to give Pandora a confident smile and capsized.
+ 
+Fortunately I didn't drown, but I had to refuse Pandora's exhortation to try again. I watched the others from the bank, thinking my intellectual thoughts and holding the towels and the thermos flask. 
+0x011c  /  0x150c (0x0002)  : decline
+0x011d  /  0x150f (0x001c)  : . I have a morbid dread of capsizing and would be certain to panic if anything went wrong. 
+0x011e  /  0x152c (0x0002)  : accept
+0x011f  /  0x152f (0x001f)  : . I will be on hand to save her with the kiss of life if she falls out and nearly drowns. 
+0x0120  /  0x154f (0x0056)  : Pandora looked dead erotic in her black wetsuit and crash helmet. And for the first time in yonks I felt my thing moving on its own. I can't remember any more about the canoe lesson, so I was unable to join in Pandora's enthusiastic conversation on the way home in her dad's car. 
+0x012c  /  0x15a8 (0x0013)  : Pandora and her parents are leaving for the River Wye on Saturday. 
+0x012d  /  0x15bc (0x0008)  : plead to go along too
+0x012e  /  0x15c5 (0x002c)  : . Pandora listens and replies, a little sharply in my opinion, "But Adrian, you don't know how to handle a canoe." 
+0x012f  /  0x15f2 (0x0008)  : try not to look rejected
+0x0130  /  0x15fb (0x001b)  :  while Pandora burbles happily about whirlpools and rapids. I may never see her again. 
+0x0131  /  0x1617 (0x0008)  : offer to look after their house
+0x0132  /  0x1620 (0x0002)  : . 
+0x0133  /  0x1623 (0x0006)  : ask Pandora if I can help
+0x0134  /  0x162a (0x0018)  :  and she suggests I offer to feed Marley, their big ginger cat. 
+0x0135  /  0x1643 (0x001f)  : Pandora's parents have accepted my kind offer and entrusted me with their keys. It is a massive responsibility. 
+0x0140  /  0x1664 (0x00d3)  : waved goodbye to my love today. She blew kisses from the rear windows of the Volvo Estate then vanished round the corner.
+ 
+I let myself into their house to watch the big colour telly and couldn't help noticing a letter on Mr Braithwaite's desk:
+ 
+Dear Chairperson, 
+Arthur, it is with the deepest regret that I offer my resignation as vice-chairperson of the Elm Ward Labour Party. The Committee has moved so far to the right recently that I find my own moderate views and opposition to witch-hunts labelled as extremist...
+ 
+The letter was signed Ivan Braithwaite. There was a stamped addressed envelope lying next to it. Obviously he had been too busy to post it. 
+0x0141  /  0x173b (0x0003)  : post it
+0x0142  /  0x173f (0x0007)  :  on my way home. 
+0x0143  /  0x1747 (0x0004)  : leave it alone
+0x0144  /  0x174c (0x0029)  : . The Labour Party is hardly likely to return to Socialism in the next week, so he can post it himself when he gets back. 
+0x0145  /  0x1776 (0x0004)  : tear it up
+0x0146  /  0x177b (0x0021)  : . I can blame this on Marley, their cat, and the Labour Party needs left-wingers like Pandora's father. 
+0x0147  /  0x179d (0x001e)  : spent all day watering the Braithwaite's plants. It can't be healthy living amongst so much vegetation. 
+0x0148  /  0x17bc (0x000d)  : everybody returned home today except my father. 
+0x0154  /  0x17cb (0x0079)  : went back to Pandora's and watched the Labour Party Conference vote for unilateral disarmament. Mr Braithwaite explained that this meant the the Labour Party would chuck all Britain's nuclear weapons away. Mrs Braithwaite said, "Yes and leave us at the mercy of the Soviet threat." The argument got a bit nasty and Mr Braithwaite went on to accuse his wife of posting a letter of resignation to the Elm Ward Labour Party. 
+0x0155  /  0x1846 (0x0004)  : keep quiet
+0x0156  /  0x184b (0x0002)  : . 
+0x0157  /  0x184e (0x0008)  : admit that it is my fault
+0x0158  /  0x1857 (0x0024)  : . Mr. Braithwaite controlled his temper and said that he had wished I hadn't interfered, but thanked me for my honesty. 
+0x0159  /  0x187c (0x0004)  : tell Pandora later
+0x015a  /  0x1881 (0x0023)  : . She thinks it best to say nothing, especially as it has freed her father to follow his political instincts elsewhere. 
+0x0168  /  0x18a6 (0x0025)  : everybody has gone bonfire mad! They are all discussing firework parties and displays. Even Barry Kent seems interested. 
+0x0169  /  0x18cc (0x0010)  : help Barry Kent collect "pennies for the guy"
+0x016a  /  0x18dd (0x0013)  :  with menaces. After all, we are in Thatcher's Britain. 
+0x017c  /  0x18f2 (0x0010)  : Barry Kent has persuaded me to provide the guy. 
+0x017d  /  0x1903 (0x000b)  : wrap the dog in a blanket and balaclava
+0x017e  /  0x190f (0x0014)  :  and push it about in Pandora's old dolls' pram. 
+0x017f  /  0x1924 (0x0031)  : the dog was a disaster as a guy. It kept jumping up, barking and licking people. So Barry Kent forced me to squeeze into the pram instead. 
+0x0180  /  0x1956 (0x0007)  : make a real guy
+0x0181  /  0x195e (0x001f)  :  by stuffing Cosmopolitans into my poor mother's leotards. They are much too small for her now. 
+0x0182  /  0x197e (0x0003)  : dress up
+0x0183  /  0x1982 (0x0032)  :  in my absent father's gardening pullover and cavalry twill trousers, and stick rice krispies to my face. It is dead scarecrow-like: artists get grants for less! 
+0x0190  /  0x19b6 (0x0044)  : Barry Kent was dead good at collecting money. His gang stood about looking fierce outside the bus-station. We got 39 pounds before the police came. I was the only one who could add up, so I was trusted with the money. 
+0x0191  /  0x19fc (0x0006)  : divide the money fairly
+0x0192  /  0x1a03 (0x000b)  :  when we meet back at Baz's. 
+0x0193  /  0x1a0f (0x0008)  : decide to keep 15 pounds
+0x0194  /  0x1a18 (0x0016)  :  and share the rest. Kent's gang won't know the difference. 
+0x0195  /  0x1a2f (0x000a)  : tell Barry Kent I lost the money
+0x0196  /  0x1a3a (0x0016)  :  while running away from the police. He does not look happy. 
+0x0197  /  0x1a51 (0x0043)  : have to find ten pounds quickly. Barry Kent's gang threatened me with violence unless I refunded the Guy Fawkes money. I handed over the 39 pounds, but Kent refused to believe that was all. It is just my luck. 
+0x0198  /  0x1a96 (0x0008)  : arrange my own fireworks party
+0x0199  /  0x1a9f (0x001b)  :  and barbecue, with appropriate food like bangers, pop corn and fizzy drinks. 
+0x019a  /  0x1abb (0x0037)  : my mean mother has refused to help with my bonfire party. She claims there is no money left from her Social Security giro. I have called the party off and written to the DHSS in protest. 
+0x019b  /  0x1af3 (0x000e)  : offer to help with the Marriage Guidance Council Bonfire
+0x019c  /  0x1b02 (0x0002)  : . 
+0x01a4  /  0x1b06 (0x0034)  : locked the dog in the coal shed, as advised by the media. Then went to the Marriage Guidance Council Bonfire party. It was crowded with couples bickering over the fireworks. 
+0x01a5  /  0x1b3b (0x0006)  : try to pacify them
+0x01a6  /  0x1b42 (0x000a)  :  but everyone turns on me. 
+0x01a7  /  0x1b4d (0x000c)  : go to where the rockets are being lit
+0x01a8  /  0x1b5a (0x0022)  :  and find Bert Baxter looking for matches. Normally he can't even light the oven without singeing his eyebrows. 
+0x01a9  /  0x1b7d (0x0007)  : help him find some matches
+0x01aa  /  0x1b85 (0x000a)  :  and stand well clear. 
+0x01ab  /  0x1b90 (0x0004)  : wheel him away
+0x01ac  /  0x1b95 (0x000d)  :  and distract him by asking after Queenie. 
+0x01ad  /  0x1ba3 (0x0006)  : fetch Pandora's parents
+0x01ae  /  0x1baa (0x0010)  :  and leave them arguing about who should be in charge. 
+0x01af  /  0x1bbb (0x0005)  : slip away with Pandora
+0x01b0  /  0x1bc1 (0x0039)  :  and a packet of sparklers. I wrote "PANDORA" in the air with my sparkler. Pandora wrote "ADRAIN". She ought to know how to spell my name by now. 
+0x01b8  /  0x1bfc (0x003e)  : went back to the community bonfire and found our dog watching the firework display and chewing a hot-dog. I lost count of the times nosy adults said, "That dog should be locked up out of harm's way". 
+0x01b9  /  0x1c3b (0x0009)  : explain that our dog is an individualist
+0x01ba  /  0x1c45 (0x003c)  :  and can't be treated like other dogs, but with the crowd going, "Oooh!" And, "Aaaah!" Every time a pathetic rocket is launched, it is a bit difficult. 
+0x01bb  /  0x1c82 (0x0007)  : take the stupid dog home
+0x01bc  /  0x1c8a (0x0015)  : , thus missing the "Best Dressed Guy" competition. 
+0x01bd  /  0x1ca0 (0x000a)  : tell them to mind their own business
+0x01be  /  0x1cab (0x0008)  : . It's my dog. 
+0x01bf  /  0x1cb4 (0x0028)  : a man from the RSPCA called. Someone has complained about our dog being ill-treated. Yet it gets better treatment than me!! 
+0x01c0  /  0x1cdd (0x002a)  : Nigel managed to get some photos of me, dressed up as Guy Fawkes. He is showing them round school. I may have to emigrate. 
+0x01cc  /  0x1d09 (0x004a)  : at four o'clock, I was asked by my so-called best friend Nigel to go to his Hallowe'en party. He said, "Forgot to send you an invite, zit face, but come anyway. Dress as a warlock or you won't get in." 
+0x01cd  /  0x1d55 (0x0008)  : ask if Pandora can come too
+0x01ce  /  0x1d5e (0x000f)  : . Nigel says that girls make him sick. 
+0x01cf  /  0x1d6e (0x0007)  : turn down the invite
+0x01d0  /  0x1d76 (0x0011)  : , saying I wouldn't be seen dead at his place. 
+0x01d1  /  0x1d88 (0x0002)  : accept
+0x01d2  /  0x1d8b (0x0002)  : . 
+0x01d3  /  0x1d8e (0x0009)  : accept on behalf of me and Pandora
+0x01d4  /  0x1d98 (0x002e)  : . Strangely, neither Pandora nor Nigel seem keen. Pandora says she doesn't want to come. Yet last year they were going out together! 
+0x01e1  /  0x1dc8 (0x0009)  : go to hire a warlock costume
+0x01e2  /  0x1dd2 (0x001f)  : . Unfortunately the joke shop is closed as it is Sunday, so I have to dress as a fiend instead
+0x01e3  /  0x1df2 (0x0006)  : dress as a fiend
+0x01e4  /  0x1df9 (0x0046)  : . My mother helps me to assemble a costume. We use my father's old flippers, a pair of my mother's long-legged black leotards and an orange fright wig she bought years ago for my father's fishing club dinner and dance. 
+0x01e5  /  0x1e41 (0x0006)  : dress as a gnome
+0x01e6  /  0x1e48 (0x0078)  : , wearing my father's jogging suit (only used once), a plastic cow-bell tied to a bobble hat, yellow wellies and a cotton-wool beard. To complete the effect, I carry a rubber fish tied to a stick.
+ 
+The walk to Nigel's house is an ordeal. A gang of little kids in pointed hats run up to me screaming, "Trick or Treat!" 
+0x01e7  /  0x1ec2 (0x0003)  : run away
+0x01e8  /  0x1ec6 (0x0023)  : , followed by the kids. All imitating the bow-legged waddle I have to do to keep the wellingtons from falling off. 
+0x01e9  /  0x1eea (0x0007)  : tell them to bugger off
+0x01ea  /  0x1ef2 (0x0018)  :  but they follow me all the way to Nigel's, trying to pull my beard. 
+0x01eb  /  0x1f0b (0x0006)  : give them the fish
+0x01ec  /  0x1f12 (0x0011)  : . Its dim expression is getting on my nerves. 
+0x01ed  /  0x1f24 (0x002c)  : it is a good party but there are no girls, which is a bit strange. The warlocks and me dance in pumpkin light to Duran Duran records. 
+0x01f4  /  0x1f52 (0x0017)  : about eight o'clock, the doorbell rang. I expect it is Trick-or-Treaters. 
+0x01f5  /  0x1f6a (0x0005)  : answer the door
+0x01f6  /  0x1f70 (0x001e)  :  and am delighted to find the Pandora has turned up after all. Nigel rudely refuses to let her in. 
+0x01f7  /  0x1f8f (0x0005)  : argue with Nigel
+0x01f8  /  0x1f95 (0x000c)  :  but he says it's a no-girls party. 
+0x01f9  /  0x1fa2 (0x0003)  : leave with Pandora
+0x01fa  /  0x1fa6 (0x0011)  : . She is stronger than me so I have no choice. 
+0x01fb  /  0x1fb8 (0x0008)  : say, "Sorry Pandora"
+0x01fc  /  0x1fc1 (0x0009)  :  and return to the party. 
+0x01fd  /  0x1fcb (0x0006)  : push Nigel aside
+0x01fe  /  0x1fd2 (0x002f)  :  and he punches me on the nose. Pandora has to drag us apart. She is dead ungrateful for my support. Nigel goes back inside and I go home. 
+0x01ff  /  0x2002 (0x0007)  : let Nigel answer it
+0x0200  /  0x200a (0x0009)  :  and get rid of them. 
+0x0201  /  0x2014 (0x0008)  : make sure nobody answers
+0x0202  /  0x201d (0x0010)  :  the door, and eventually the kids go away. 
+0x0203  /  0x202e (0x000f)  : Pandora hasn't spoken to me since last weekend. 
+0x0208  /  0x203f (0x005b)  : Courtney brought a dead exciting postcard from Boston, USA. It said:
+ 
+Dear Adrian Mole, Your work interests me enormously. If you would like to see it published, please write to me and I will furnish you with details. 
+Sincerely yours, L.S.Caton 
+0x0209  /  0x209c (0x0008)  : staple the letter in my diary
+0x020a  /  0x20a5 (0x002b)  :  but don't bother to reply. I have heard about vanity publishers and when I am rich and famous I will look back on this offer and smile. 
+0x020b  /  0x20d1 (0x0006)  : reply to Mr Caton
+0x020c  /  0x20d8 (0x0012)  :  with a short but dignified letter asking for further details. 
+0x020d  /  0x20eb (0x000c)  : send Mr Caton a five pound note
+0x020e  /  0x20f8 (0x0018)  :  to cover his postage and a polite but earnest letter asking for further details. 
+0x021c  /  0x2112 (0x0016)  : no reply from Mr Caton, the man who recognizes my writing talent. 
+0x021d  /  0x2129 (0x0007)  : write to Hamish Mancini
+0x021e  /  0x2131 (0x0035)  : , the American I met on holiday last year, asking him to find out about L.S.Caton. Hamish lives in New York which is dead close to Boston. 
+0x021f  /  0x2167 (0x0069)  : got an airmail letter from Hamish Mancini, mostly about how he must visit my olde British cottage in the Fall, wherever that is. He also wrote:
+ 
+Caton business. Pitsville situation. Mom's number four investigated. No office, credit, contacts. Rip-off publishing-wise. Have a good day, huh? 
+0x0220  /  0x21d2 (0x000b)  : send my poem, "Despair"
+0x0221  /  0x21de (0x0015)  : , about the Hamster with the incurable disease. It is dead moving. 
+0x0222  /  0x21f4 (0x000e)  : send page one of "Longing for Wolverhampton"
+0x0223  /  0x2203 (0x0024)  : , my unfinished romantic novel, with a promise to add lots of cars and violence to suit the American market. 
+0x0230  /  0x2229 (0x005c)  : got a letter from L.S.Caton. The postmark said "New York". He liked the first page of my novel, Longing for Wolverhampton, and said it was "such a promising piece of work". He has offered to promote my book for a small consideration ($100). 
+0x0231  /  0x2287 (0x0006)  : ask my mother for the money
+0x0232  /  0x228e (0x0020)  : , but she refused after reading the first page. She was laughing too hard to give her reasons. 
+0x0233  /  0x22af (0x000c)  : draw the money from my Building Society account
+0x0234  /  0x22bc (0x0018)  : . Pandora thinks I am barmy, but she does not yet understand intellectuals. 
+0x0235  /  0x22d5 (0x0007)  : write back, refusing
+0x0236  /  0x22dd (0x0008)  :  his kind offer. 
+0x0244  /  0x22e7 (0x0029)  : Courtney Elliot, the postman, didn't bring my mother's Social Security giro this morning. It should have been here yesterday. 
+0x0245  /  0x2311 (0x0005)  : go to school worrying
+0x0246  /  0x2317 (0x0011)  :  and hoping that it will come in the second post. 
+0x0247  /  0x2329 (0x0007)  : tell my mother to ring up
+0x0248  /  0x2331 (0x0011)  :  the DHSS, but their line is permanently engaged. 
+0x0249  /  0x2343 (0x0003)  : do nothing
+0x024a  /  0x2347 (0x0009)  : . It will turn up. 
+0x0258  /  0x2352 (0x0016)  : no giro. My mother is going to go to the Social Security Office. 
+0x0259  /  0x2369 (0x0006)  : hope she gets it
+0x025a  /  0x2370 (0x0018)  : . We have run out of money and I haven't had a Mars bar all week. 
+0x025b  /  0x2389 (0x0009)  : skive off school and go with her
+0x025c  /  0x2393 (0x0012)  :  because it is no place for a pregnant woman alone. 
+0x025d  /  0x23a6 (0x000a)  : say, "Good luck!"
+0x025e  /  0x23b1 (0x000d)  : . She will need it at that place. 
+0x026c  /  0x23c0 (0x0034)  : the man at the Social Security Office told my mother that the giro would be in the post tonight. He wouldn't even lend her anything, though my mother did ask nicely. 
+0x026d  /  0x23f5 (0x000a)  : refuse to leave until they do something
+0x026e  /  0x2400 (0x0027)  :  to help. They did do something. They sent a big man round to our side of the counter and he helped me to leave. 
+0x026f  /  0x2428 (0x0005)  : take my mother home
+0x0270  /  0x242e (0x0010)  : . There seemed to be nothing that we could do. 
+0x0271  /  0x243f (0x0014)  : sob, "Mummy, Mummy, when will we eat again"
+0x0272  /  0x2454 (0x0065)  : . It was very undignified, but it did the trick. My wailing started such a commotion in the waiting room that the man arranged an Emergency Needs payment to get rid of us. We had fish and chips on the way home to celebrate.
+ 
+I think I might become an famous actor as well as a famous writer. 
+0x0273  /  0x24bb (0x003a)  : 5 pm. My mother had no luck at the Social Security Office. They just don't care if people haven't got anything to eat. I think it should be called the Antisocial Insecurity Office. 
+0x0274  /  0x24f6 (0x0012)  : no giro. Courtney Elliot lent my mother five pounds. 
+0x0280  /  0x250a (0x0026)  : no giro. But a cheque arrived from my father. My mother is thinking about ripping it up, like she did the last one. 
+0x0281  /  0x2531 (0x0009)  : say, "Throw it away"
+0x0282  /  0x253b (0x0010)  : , even if it does mean going hungry. 
+0x0283  /  0x254c (0x000b)  : take it to Mr Cherry's to cash it
+0x0284  /  0x2558 (0x003f)  : . Mr Cherry refused. He said, rather bitterly, "I've met your father's cheques before." I must have looked dead sad, because he let me have a Mars bar on credit. 
+0x0285  /  0x2599 (0x000a)  : say, "Take the money!"
+0x0286  /  0x25a4 (0x0054)  :  I'd rather have food than my pride.
+ 
+4.30 pm. My mother took the cheque to the bank but they wouldn't cash it because it needed four days to clear. My mother grovelled to the manager for a temporary overdraft and he let her have 25 pounds. 
+0x0287  /  0x25fa (0x003f)  : no giro! And my father's cheque bounced. I was sent round to Grandma's on the way home to break the news. Grandma said, "Another bouncing cheque? Your father ought to take up trampolining." 
+0x0294  /  0x263c (0x0005)  : no giro! 
+0x0295  /  0x2642 (0x0008)  : suggest we try our MP
+0x0296  /  0x264b (0x0039)  : . My mother got his number from the Citizens' Advice Bureau and rang him up. He wasn't there. His wife said bitterly that he had gone on a fact-finding mission to the Canary Isles. 
+0x0297  /  0x2685 (0x0012)  : say, "Why not ask Grandma Sugden for a loan?"
+0x0298  /  0x2698 (0x0016)  :  My mother says she already has, but doesn't expect to get anything. 
+0x0299  /  0x26af (0x0043)  : Courtney brought a letter from the Fens. The stingy Sugdens said that our troubles were only to be expected and the result of my parents' heathen ways, like smoking and drinking. They sent me a postal order for 50p. 
+0x02a8  /  0x26f5 (0x0040)  : my mother replied to the Sugdens, her letter started: 
+Dear Mam and Dad 
+Sorry about the delay in replying to your wonderfully comforting letter, but I have only just emerged from a drunken stupor... 
+0x02a9  /  0x2737 (0x0009)  : add my own ironic note
+0x02aa  /  0x2741 (0x000e)  :  thanking them for the generous postal order. 
+0x02ab  /  0x2750 (0x0003)  : do nothing
+0x02ac  /  0x2754 (0x0009)  :  as they are her parents. 
+0x02ad  /  0x275e (0x0008)  : beg her not to send it
+0x02ae  /  0x2767 (0x0017)  : . She said she would think about it and put it behind the bread bin. 
+0x02af  /  0x277f (0x000b)  : face another Mars-less day with courage
+0x02b0  /  0x278b (0x0002)  : . 
+0x02bc  /  0x278f (0x0047)  : no giro! My mother cracked today. She phoned the local radio station and told them she was going to abandon her child at the Social Security Office unless she was given her giro. They have got until noon today to contact her. 
+0x02bd  /  0x27d8 (0x0006)  : look forward to this
+0x02be  /  0x27df (0x000b)  : . It should be dead exciting. 
+0x02bf  /  0x27eb (0x000a)  : beg her to keep me out of it
+0x02c0  /  0x27f6 (0x001f)  : . It would be so humiliating to be abandoned at my age (15), but my mother is adamant. 
+0x02c1  /  0x2816 (0x0008)  : sit and wait for noon
+0x02c2  /  0x281f (0x0002)  : . 
+0x02c3  /  0x2822 (0x004a)  : it worked! The presence of reporters caused a mini-riot at the Social Security office when my mother turned up to abandon me. Police were called and Mr Gudgeon gave my mother an Emergency Needs Payment of 25 pounds. We'll get the rest next week. 
+0x02d0  /  0x286f (0x0029)  : the school play this Christmas is The Importance of Being Earnest by Oscar Wilde. Mr Golightly, the Drama teacher is asking for volunteers. 
+0x02d1  /  0x2899 (0x0006)  : offer to adapt it
+0x02d2  /  0x28a0 (0x0017)  :  to bring it up to date. Mr Golightly refuses my kind offer. 
+0x02d3  /  0x28b8 (0x0005)  : audition for a part
+0x02d4  /  0x28be (0x000d)  : . I hope to get to play Ernest. 
+0x02d5  /  0x28cc (0x0046)  : Mr Golightly gave me a speech about Victoria Station to read, listened, then said: "Yes, you'll do." I have decided to be an actor when I grow up. I will write my novels during breaks in rehearsal. 
+0x02d6  /  0x2914 (0x0007)  : ask to be Assistant Director
+0x02d7  /  0x291c (0x0040)  : . Mr Golightly thought for a moment then said, "Why not? You can start now". It appears that the Assistant Director's role is to fetch cups of tea and to put away the chairs at the end. 
+0x02d8  /  0x295e (0x0024)  : I have been drafted into the cast as they are short of actors. Mr Golightly said he would manage without an assistant. 
+0x02d9  /  0x2983 (0x0008)  : keep well clear of it
+0x02da  /  0x298c (0x000d)  : . Our school plays are always disasters. 
+0x02db  /  0x299a (0x0028)  : when I said, "Hello" to Pandora in Geography my voice wobbled out of control. I kept quiet for the rest of the lesson. 
+0x02e4  /  0x29c4 (0x001b)  : my mother asked why I was so quiet. She said, "Is anything wrong." 
+0x02e5  /  0x29e0 (0x0009)  : tell her my voice had gone wobbly
+0x02e6  /  0x29ea (0x0024)  : . She said, "Don't worry, love. It's just your age. It will settle down again." 
+0x02e7  /  0x2a0f (0x0007)  : say, "No"
+0x02e8  /  0x2a17 (0x000d)  :  in a shrill voice and leave the room. 
+0x02e9  /  0x2a25 (0x000a)  : whisper, "Sore throat"
+0x02ea  /  0x2a30 (0x0002)  : . 
+0x02eb  /  0x2a33 (0x0039)  : my voice can't be trusted. One minute it's booming like Ian Paisley, and the next it's shrill and shrieking like Margaret Thatcher's used to be before she had voice lessons from an advertising agency. 
+0x02ec  /  0x2a6d (0x0008)  : take a vow of silence
+0x02ed  /  0x2a76 (0x0036)  :  until it has sorted itself out.
+ 
+7 p.M. It is very difficult to get people to pass the ketchup if you have taken a vow of silence. 
+0x02ee  /  0x2aad (0x0004)  : suffer patiently
+0x02ef  /  0x2ab2 (0x000a)  : . It can't last forever. 
+0x02f0  /  0x2abd (0x0008)  : go to see Dr Gray
+0x02f1  /  0x2ac6 (0x003b)  : . He has most unsympathetic and said it was just my voice breaking. When I asked how long it would last, he said, "Who knows? I'm not a bloody prophet, am I?" 
+0x02f2  /  0x2b02 (0x0005)  : complain to my mother
+0x02f3  /  0x2b08 (0x0035)  :  about Dr Gray. My mother says, "Well, what do you expect, wasting his time like that." Wasting his time! I could be dying from laryngitis. 
+0x02f4  /  0x2b3e (0x000b)  : apologize to Dr Gray for bothering him
+0x02f5  /  0x2b4a (0x001b)  : . He is a busy man, and shouldn't have to spend time on defective voice-boxes. 
+0x02f6  /  0x2b66 (0x0007)  : decide to join BUPA
+0x02f7  /  0x2b6e (0x000c)  :  as soon as I have left school. 
+0x02f8  /  0x2b7b (0x007d)  : am to be Ernest in the school play. Mr Golightly gave me a copy to bring home today.
+ 
+6 pm. I have been right through the play and can't find any speeches marked Ernest!
+ 
+8 pm. My mother has told me that Ernest is actually called John, and we have found lots of speeches, all marked Jack. It is most confusing. Rehearsals start in earnest tomorrow. 
+0x02f9  /  0x2bfa (0x0008)  : begin to learn my lines
+0x02fa  /  0x2c03 (0x000d)  : . There are an awful lot of them. 
+0x02fb  /  0x2c11 (0x0007)  : resign because of my voice
+0x02fc  /  0x2c19 (0x000a)  : . It is too unreliable. 
+0x02fd  /  0x2c24 (0x0006)  : ask for a smaller part
+0x02fe  /  0x2c2b (0x002b)  : . I don't think I can control my voice for more than a few words at a time. Mr Golightly agrees and gives me Dr Chasuble. 
+0x02ff  /  0x2c57 (0x0048)  : I resign, saying my voice is getting worse. The real problem is that Dr Chasuble has to be in love with Miss Prism, and Elizabeth Sally Broadway is playing that part. I couldn't cope with the trouble that might cause with Pandora. 
+0x030c  /  0x2ca2 (0x004e)  : Pandora came to watch rehearsals and saw the part where I embrace Simone Bates (Gwendoline). Really it was more Simone embracing me. She puts a lot of enthusiasm into her acting.
+ 
+Pandora asked me about Simone as we were walking home afterwards. 
+0x030d  /  0x2cf2 (0x0008)  : assure her it is only acting
+0x030e  /  0x2cfb (0x0016)  :  and show her the difference between a stage embrace and a real one. 
+0x030f  /  0x2d12 (0x000a)  : say I could never love another
+0x0310  /  0x2d1d (0x001f)  : , especially one with "Rocky" tattooed on her biceps. Pandora promised never to get tattooed. 
+0x0311  /  0x2d3d (0x0008)  : jokingly ask if she is jealous
+0x0312  /  0x2d46 (0x0025)  : . Pandora goes thin-lipped and says nothing. I think I had better resign from the play. I can always blame my voice. 
+0x0313  /  0x2d6c (0x002a)  : tonight's the night! And it is going to be a disaster, unless a miracle occurs. I wish I had never got involved in this! 
+0x0314  /  0x2d97 (0x0006)  : pray for a miracle
+0x0315  /  0x2d9e (0x0002)  : . 
+0x0316  /  0x2da1 (0x0007)  : develop a severe migraine
+0x0317  /  0x2da9 (0x0035)  :  and ask my mother to send my apologies. My mother says, "Migraine? Ha! Stage-fright more like." She pushes me out of the door, ignoring my protests. 
+0x0318  /  0x2ddf (0x000b)  : go determined to make a success of it
+0x0319  /  0x2deb (0x0002)  : . 
+0x031a  /  0x2dee (0x0043)  : 10.30 pm As predicted, the school play was a fiasco and my voice wobbled so that people laughed at the wrong times. The best thing about the evening was the interval when Pandora played her viola beside the tea urn. 
+0x0320  /  0x2e34 (0x001f)  : when I got home from school my mother's little suitcase was missing from the hall. She is nowhere in the house. 
+0x0321  /  0x2e54 (0x0005)  : phone the police
+0x0322  /  0x2e5a (0x001b)  : . A bored sergeant asked if I'd looked for a message from her. I said no. 
+0x0323  /  0x2e76 (0x0006)  : visit Mrs O'Leary
+0x0324  /  0x2e7d (0x001c)  : , our nosy neighbour opposite. She saw an ambulance take my poor pregnant mother away. 
+0x0325  /  0x2e9a (0x0006)  : rush around the house
+0x0326  /  0x2ea1 (0x0009)  : , looking for evidence. 
+0x0327  /  0x2eab (0x004e)  : my mother left a note on the biscuit tin. It said: 
+I am in the labour ward of the Royal Infirmary. Call a taxi. 5 pound note at the bottom of the spaghetti jar. Don't worry. 
+Love, Mum. 
+0x0328  /  0x2efb (0x0007)  : call my father at Grandma's
+0x0329  /  0x2f03 (0x000e)  : . No-one is there to answer the phone. 
+0x032a  /  0x2f12 (0x0006)  : tip out the note
+0x032b  /  0x2f19 (0x0009)  :  and call a taxi. 
+0x032c  /  0x2f23 (0x000a)  : call a taxi and grab the money
+0x032d  /  0x2f2e (0x0047)  : . The taxi ride was a nightmare. I was struggling to get my hand free of the spaghetti jar all the way. The taxi driver kept saying, "You should have tipped the jar upside down, you stupid bleeder." 
+0x032e  /  0x2f77 (0x0009)  : go next door to the Singh's
+0x032f  /  0x2f81 (0x0061)  : . Mrs Singh says, "A woman should not be alone at a time like this. You stay here and help Narmil to look after the little ones. I will go to her."
+ 
+7 pm. Mrs Singh has just got back and tells me that my mother had a baby girl. I wonder what she is like. 
+0x0334  /  0x2fe5 (0x004f)  : at the hospital I ran in and found the lift and pressed the button marked "Labour Ward". I emerged into another world. It was like the space control centre at Houston. A technician asked me whether I had permission to visit the labour ward. 
+0x0335  /  0x3036 (0x0008)  : ask whose permission I need
+0x0336  /  0x303f (0x002b)  : . He questioned me further, and when he realized I was a prospective brother, not a father, he made me sit in the waiting room. 
+0x0337  /  0x306b (0x0007)  : say, "No"
+0x0338  /  0x3073 (0x000f)  : , and he directs me to the waiting room. 
+0x0339  /  0x3083 (0x0007)  : say, "Yes"
+0x033a  /  0x308b (0x0014)  :  without thinking. The technician directs me to Room 13. 
+0x0348  /  0x30a1 (0x0036)  : the room was full of worried-looking men, smoking and talking about cars. I looked for something to read, but all I could see were tatty copies of Autocar and Motoring. 
+0x0349  /  0x30d8 (0x0007)  : try to wait patiently
+0x034a  /  0x30e0 (0x0006)  : , but can't. 
+0x034b  /  0x30e7 (0x0007)  : dig among the magazines
+0x034c  /  0x30ef (0x0020)  :  and find an old Reader's Digest. Now I can increase my word-power while my mother increases our family. 
+0x034d  /  0x3110 (0x0007)  : pace around the room
+0x034e  /  0x3118 (0x0029)  :  looking at the posters and the dusty plants until one of the twitching fathers-to-be says, "Give the carpet a rest, lad." 
+0x034f  /  0x3142 (0x000a)  : keep asking the staff for news
+0x0350  /  0x314d (0x001c)  :  of my mother. They are all a bit rushed, and no-one seems to know anything. 
+0x0351  /  0x316a (0x0023)  : after about 2 hours, a nurse comes to find me. She tells me that my mother and sister are both well. 
+0x035c  /  0x318f (0x00bb)  : I found my mother lying in a high bed. I was telling her about the taxi-ride when she screwed her face up and started singing. She said this helped her through the pain.
+ 
+After about half an hour she was singing more and talking less. A nurse came in and to my relief told me to go out. But my mother wouldn't let go of my hand. Soon a lot of people ran in and started telling her to push. I sat at the head end of my mother and tried not to look at the other end where doctors and nurses were clanging about with metal things. My mother was going a bit barmy by then. 
+0x035d  /  0x324d (0x0007)  : hold her hand tightly
+0x035e  /  0x3255 (0x000a)  :  and try to reassure her. 
+0x035f  /  0x3260 (0x0005)  : try to escape
+0x0360  /  0x3266 (0x001c)  :  but my mother says, "I want Adrian" and refuses to let go of my hand. 
+0x0361  /  0x3283 (0x0008)  : go to wait in the corridor
+0x0362  /  0x328c (0x0002)  : . 
+0x0363  /  0x328f (0x002f)  : the bustle and shouting got worse for a few minutes then it was suddenly much quieter and I heard a baby cry. I slipped back into the room again. 
+0x0364  /  0x32bf (0x0076)  : I stared at the beauty spot on my mother's cheek for the next three minutes, and didn't look up, until I heard a nurse say, "Pant for the head." At 5.19 pm. My mother had a barmy moment; then the doctors and nurses gave a sort of loud sigh, and I looked up and saw a skinny purple thing hanging upside down. 
+0x0370  /  0x3338 (0x002f)  : the baby started crying in a crabby way and she was put on my mother's flatter belly. My mother looked at her as if she was a precious piece of jewellery. 
+0x0371  /  0x3368 (0x0003)  : say nothing
+0x0372  /  0x336c (0x0043)  : . I am speechless with emotion. The doctor says to me, "You've got a beautiful daughter, Mr Mole." When I tell him that I'm her brother, not her father, he looks startled and orders me out immediately. 
+0x0373  /  0x33b1 (0x000f)  : look at them both and smile, then slip away
+0x0374  /  0x33c1 (0x0002)  : . 
+0x0375  /  0x33c4 (0x0004)  : congratulate my mother
+0x0376  /  0x33c9 (0x002b)  :  and she says, "Say hello to your sister." When the doctor realized I wasn't the father, he told me to leave immediately. 
+0x0384  /  0x33f6 (0x005b)  : 7.30 pm. Home. For some reason I was dead tired. I put all my smashable possessions on the top shelf and went to bed.
+ 
+8.15 pm. The phone wakes me up. It is my father gibbering about having a daughter. He wants to know all about her. 
+0x0385  /  0x3453 (0x0008)  : tell him everything I can remember
+0x0386  /  0x345c (0x000e)  : . He is dead excited and keeps interrupting. 
+0x0387  /  0x346b (0x0006)  : say she takes after him
+0x0388  /  0x3472 (0x000b)  : . Half bald and angry-looking. 
+0x0389  /  0x347e (0x000a)  : ask him to ring again in the morning
+0x038a  /  0x3489 (0x000f)  : . I am too tired to talk now. 
+0x0398  /  0x349a (0x005f)  : my father brought my mother and sister home this morning. My mother went up to bed and my father hung about for a bit then went home to Grandma's. The midwife came in the afternoon. She said that my mother was suffering from after-baby blues and asked me who was looking after my mother. I said I was. She said that my mother needs more support. 
+0x0399  /  0x34fb (0x000c)  : give my mother the pillows off my bed
+0x039a  /  0x3508 (0x0010)  : . This act of kindness makes my mother cry. 
+0x039b  /  0x3519 (0x000e)  : arrange for Mrs Singh and Mrs O'Leary to help
+0x039c  /  0x3528 (0x0002)  : . 
+0x039d  /  0x352b (0x0004)  : phone Grandma
+0x039e  /  0x3530 (0x002a)  : . She says she has already got too much on her plate with my father, Stick Insect and Brett, but she will come round if she can. 
+0x03ac  /  0x355c (0x0046)  : my mother and I have been trying to decide what to call the baby. My mother has made out this list of names: Charity, Christobel, Zoe, Jade, Frankie, India, Rosie, Caitlin and Ruth. 
+0x03ad  /  0x35a4 (0x0009)  : suggest "Pandora" instead
+0x03ae  /  0x35ae (0x0028)  : . My mother says, "Pandora is a pretentious name!" I think it is the most evocative girl's name in the history of the world. 
+0x03af  /  0x35d7 (0x0007)  : say we should ask my father
+0x03b0  /  0x35df (0x000d)  :  for his opinion. My mother refuses. 
+0x03b1  /  0x35ed (0x000f)  : say I like "Rosie" and "Ruth"
+0x03b2  /  0x35fd (0x0002)  : . 
+0x03b3  /  0x3600 (0x0023)  : my sister's name is Rosie Germaine Mole. Everybody likes "Rosie" but only my mother likes "Germaine". 
+0x03c0  /  0x3625 (0x002a)  : my mother has gone out with her women's group and Mrs Singh and Mrs O'Leary to have a picnic on Greenham Common. The house is dead peaceful. 
+0x03c1  /  0x3650 (0x0004)  : invite Pandora round
+0x03c2  /  0x3655 (0x0082)  : . She is going to come for lunch and I am going to cook it. I shall wine her and dine her, and then see what happens while we watch the Sunday afternoon movie.
+ 
+7 pm. My "Spam Surprise" stuck to the bottom of the pan and had burnt black before I noticed, so we went round to Pandora's for lunch. I stayed to watch the afternoon movie on their big colour telly. 
+0x03c3  /  0x36da (0x0008)  : take the dog for a walk
+0x03c4  /  0x36e3 (0x002c)  :  to cheer it up. It is sulking because my mother has gone out for the day. It doesn't understand that she is miles away safeguarding our future. 
+0x03c5  /  0x3710 (0x000b)  : play my Toyah records at full volume
+0x03c6  /  0x371c (0x000e)  :  and have a bath with the door open. 
+0x03d4  /  0x372c (0x003b)  : 10.02 pm. I have just seen the Greenham women on the telly! The newscaster said that 30,000 women were there. My mother's women's group got back safely and came to our house. 
+0x03d5  /  0x3768 (0x0008)  : make them coffee and sandwiches
+0x03d6  /  0x3771 (0x000d)  :  while they talk about female solidarity. 
+0x03d7  /  0x377f (0x0009)  : try to join in the conversation
+0x03d8  /  0x3789 (0x000e)  :  but they ignore me so I go to bed. 
+0x03d9  /  0x3798 (0x0006)  : hide in my room
+0x03da  /  0x379f (0x0009)  :  until they have gone. 
+0x03e8  /  0x37aa (0x0053)  : 2.00 am. Just woken up by Mr Singh and Mr O'Leary banging on our door demanding entrance. Mr O'Leary said, "Tell Caitlin to hurry up; I can't find my pyjamas." Mr Singh said, "Ask Sita how to work our electric kettle." 
+0x03e9  /  0x37ff (0x0005)  : go with Mr Singh
+0x03ea  /  0x3805 (0x0021)  :  and show him how to use the kettle, then trot across to Mr O'Leary's to help him find his pyjamas. 
+0x03eb  /  0x3827 (0x000c)  : advise them to go home for their own safety
+0x03ec  /  0x3834 (0x0002)  : . 
+0x03ed  /  0x3837 (0x000b)  : tell their wives that their husbands need them
+0x03ee  /  0x3843 (0x0068)  : . Mrs O'Leary said, "Tell him to sleep with his clothes on. He does it often enough when he's drunk." Mrs Singh gave me a message in Hindi for her husband. She made me repeat it until I got it right. I don't know what it meant, but Mr Singh reeled away, shaking his head and muttering. 
+0x03fc  /  0x38ae (0x0058)  : Queenie Baxter died at 3 o'clock this morning. She had a stroke in her sleep. Bert said it was a good way to go, and I am inclined to agree with him. Bert doesn't know what to do about death certificates and funeral arrangements, etc. So Pandora's father came round to help. 
+0x03fd  /  0x3908 (0x002a)  : Mr Braithwaite is very worried about Queenie's funeral. The cheapest he can arrange will cost 350 pounds, but her funeral insurance is only thirty. 
+0x03fe  /  0x3933 (0x0005)  : suggest a loan
+0x03ff  /  0x3939 (0x0019)  : . The finance company has refused to give Bert one as he is nearly ninety. 
+0x0400  /  0x3953 (0x000f)  : say, "Ask the Social Security to do it"
+0x0401  /  0x3963 (0x0015)  : . Bert is dead upset by this as he wants a proper funeral. 
+0x0402  /  0x3979 (0x0003)  : raise money
+0x0403  /  0x397d (0x0022)  :  by phoning round everyone who knew Queenie, asking for donations. I was called a saint several times. 
+0x0404  /  0x39a0 (0x0029)  : Queenie's funeral today. It was dead sad. Now Bert is on his own again, and will need more looking after than ever! 
+0x0410  /  0x39cb (0x003f)  : went to Cherry's and bought a tasteful card for Pandora and a pack of cheap cards for other people. We can send each other cards through the school's Elf postal service, run by the first years. 
+0x0411  /  0x3a0c (0x0009)  : write greetings to all my friends
+0x0412  /  0x3a16 (0x000d)  :  and put them in the Elf post. 
+0x0413  /  0x3a24 (0x000d)  : sort out which cards to send to which people
+0x0414  /  0x3a32 (0x0017)  :  but they are all so tacky I put the box away without deciding anything. 
+0x0415  /  0x3a4a (0x000a)  : wait to see who sends me one
+0x0416  /  0x3a55 (0x000a)  :  before I write any. 
+0x0424  /  0x3a61 (0x0030)  : the school's post service is as bad as the GPO's. I posted Pandora a card before assembly but she still hadn't had it by the end of the last lesson. 
+0x0425  /  0x3a92 (0x0005)  : describe it to her
+0x0426  /  0x3a98 (0x0015)  :  in case it never arrives. Pandora thinks it sounds lovely. 
+0x0427  /  0x3aae (0x000b)  : find out which first-years are on Elf duty
+0x0428  /  0x3aba (0x0009)  :  and severly rebuke them. 
+0x0429  /  0x3ac4 (0x0007)  : do nothing for a day
+0x042a  /  0x3acc (0x0012)  :  but if it hasn't arrived by tomorrow I shall complain. 
+0x042b  /  0x3adf (0x003d)  : had cards back from six of the people that I sent cards to, (which means that four have been wasted) plus three from other kids (which means I shall have to buy some more). 
+0x0438  /  0x3b1e (0x004b)  : the school has gone a bit wild. The girls are doing no work at all, they just sit around the classrooms counting how many Christmas cards they've received from each other, and writing out hundreds more. Nobody has sent me one yet. 
+0x0439  /  0x3b6b (0x0007)  : write out some cards
+0x043a  /  0x3b73 (0x000d)  :  and give them to a passing Elf. 
+0x043b  /  0x3b81 (0x0022)  : at last! Some cards for me, including one from Elizabeth Sally Broadway. I hadn't sent her one. 
+0x043c  /  0x3ba4 (0x0006)  : send her one anonymously
+0x043d  /  0x3bab (0x0009)  :  to avoid annoying Pandora. 
+0x043e  /  0x3bb5 (0x000b)  : write her a cheery but restrained greeting
+0x043f  /  0x3bc1 (0x0011)  :  on a cheap card and pop it in the post. 
+0x0440  /  0x3bd3 (0x0003)  : do nothing
+0x0441  /  0x3bd7 (0x0002)  : . 
+0x0442  /  0x3bda (0x0008)  : wait for the next post
+0x0443  /  0x3be3 (0x0002)  : . 
+0x0444  /  0x3be6 (0x000a)  : complain to the Elf postal service
+0x0445  /  0x3bf1 (0x0046)  : . Mr Lambert, who is in charge, asks if I am expecting many replies. When I explain that I am waiting to see who sends me one before writing my own, he says, "Well, keep waiting then." 
+0x0446  /  0x3c39 (0x0045)  : thank God! I got seven Christmas cards. Three tasteful. Four in putrid taste and printed on flimsy rubbish paper that won't stand up. I quickly wrote out seven cards and gave them to a passing elf. 
+0x044c  /  0x3c81 (0x005b)  : made a list and went to the market, as they have got a good selection of festive gifts. Amongst other things, I got platinum earrings for Pandora for only 2 pounds. Then I went to the "Off the Streets" Youth Club party with Pandora. At the end all the couples danced romantically together. 
+0x044d  /  0x3cde (0x000b)  : wish Pandora, "Merry Christmas"
+0x044e  /  0x3cea (0x001b)  : . She sighs and says, "I wonder how many more we will enjoy together." 
+0x044f  /  0x3d06 (0x000a)  : tell Pandora how much I adore her
+0x0450  /  0x3d11 (0x001d)  :  and she says, "Aidy, my pet, how long will our happiness last?" 
+0x0451  /  0x3d2f (0x0009)  : say nothing and hold her close
+0x0452  /  0x3d39 (0x000e)  : . I feel happier than for ages. 
+0x0453  /  0x3d48 (0x0010)  : trust Pandora to put a damp cloth on everything. 
+0x0460  /  0x3d5a (0x0064)  : my mother is being kept prisoner by Rosie; so I have had to do all the Christmas preparations. I spent most of the day queuing in shops or lugging great heavy bags home. At 4.20 I got to the decorations counter only to find empty shelves and other desperate people swapping rumours of sightings of fairy-lights in different shops. 
+0x0461  /  0x3dc0 (0x0008)  : chase round the other shops
+0x0462  /  0x3dc9 (0x000c)  :  but can't find any decorations anywhere. 
+0x0463  /  0x3dd6 (0x000a)  : decide we can manage without decorations
+0x0464  /  0x3de1 (0x0006)  :  this Christmas. 
+0x0465  /  0x3de8 (0x000b)  : call in at Mr Cherry's on the way home
+0x0466  /  0x3df4 (0x000a)  : . He has some left. 
+0x0474  /  0x3e00 (0x0025)  : 10.30 pm. Bert is settled in front of the telly with a beetroot sandwich and a bottle of brown ale. 
+0x0475  /  0x3e26 (0x0007)  : go to the Midnight Service
+0x0476  /  0x3e2e (0x002c)  : . It was very moving (even for an atheist), though I think it was a mistake to bring a live donkey into the church. 
+0x0477  /  0x3e5b (0x000d)  : watch the Midnight Mass on telly with my mother
+0x0478  /  0x3e69 (0x003d)  : . It wasn't as good as the real thing in a church, and after ten minutes we switched over to an old movie on the other side. That was even worse, so I went to bed. 
+0x0479  /  0x3ea7 (0x0006)  : go to bed exhausted
+0x047a  /  0x3eae (0x0002)  : . 
+0x0488  /  0x3eb2 (0x0064)  : at 11 o'clock Auntie Susan and her friend Gloria turned up. Gloria is dead glamorous and sexy with lacy tights and high heels. Bert made chauvinist remarks while the turkey was being carved. He leered at Gloria's cleavage and said, "Give me a nice piece of breast." My mother asked me what I would like. 
+0x0489  /  0x3f18 (0x000c)  : say, "Breast and leg please"
+0x048a  /  0x3f25 (0x0009)  :  and go beetroot red. 
+0x048b  /  0x3f2f (0x000c)  : say, "A wing please!"
+0x048c  /  0x3f3c (0x000f)  :  as it was the only part without sexual connotations. 
+0x048d  /  0x3f4c (0x0006)  : point to a leg
+0x048e  /  0x3f53 (0x0032)  :  but can't say the word without thinking about Gloria's. My mother misunderstood and gave me a wing. Are all turkey wings tough, or is it the way she cooks them? 
+0x049c  /  0x3f87 (0x006c)  : Pandora and I exchanged presents in a candlelit ceremony in my bedroom. I gave her the earrings and she put a 30% silk, 70% nylon tie round my neck.
+ 
+Pandora went barmy about the platinum earrings. She said, "Thank you darling, but how can you afford platinum? They must have cost at least a hundred pounds." 
+0x049d  /  0x3ff5 (0x0012)  : say, "Well, I think they're solid platinum"
+0x049e  /  0x4008 (0x0002)  : . 
+0x049f  /  0x400b (0x0008)  : confess they cost 2 pounds
+0x04a0  /  0x4014 (0x0025)  :  from the market. Pandora says, "It's the thought that counts, my pet. And they are very pretty." 
+0x04a1  /  0x403a (0x0006)  : smile and say nothing
+0x04a2  /  0x4041 (0x0002)  : . 
+0x04a3  /  0x4044 (0x0039)  : just had a note handed to me from a kid riding a new BMX: 
+Dear heart, 
+I'm awfully sorry but the plastic broke when I tried to wear your earrings. 
+0x04b0  /  0x407f (0x0032)  : Mum, Rosie, Auntie Susan and Gloria are going to Bridgegate Park for a walk. Bert is staying at home with the dogs and the leftover Christmas food. 
+0x04b1  /  0x40b2 (0x0009)  : go for a walk with my womenfolk
+0x04b2  /  0x40bc (0x0013)  :  and keep behind Gloria so that I can watch her legs. 
+0x04b3  /  0x40d0 (0x0005)  : stay with Bert
+0x04b4  /  0x40d6 (0x001e)  : . I shall be glad when he has gone back to his bungalow. He watches ITV all day. 
+0x04b5  /  0x40f5 (0x0009)  : take the dogs for a walk
+0x04b6  /  0x40ff (0x0019)  : . Sabre is unmanageable if he doesn't get his four mile walk each day. 
+0x04c4  /  0x411a (0x0031)  : Bert is staying for another day as he can't face seeing the New Year in with only a Voluntary Social Worker's company. Pandora has invited me to a party at her house. 
+0x04c5  /  0x414c (0x0004)  : go to Pandora's
+0x04c6  /  0x4151 (0x0051)  : . It was a great party. I was given a glass of wine and felt dead sensual. I talked brilliantly and with consummate wit for an hour, to anyone who would listen. Got home to a silent house at 1.30 pm. I wonder what 1983 will bring? 
+0x04c7  /  0x41a4 (0x0004)  : stay at home
+0x04c8  /  0x41a9 (0x000b)  :  to help with Rosie and Bert. 
+0x04c9  /  0x41b5 (0x000a)  : invite her to join us instead
+0x04ca  /  0x41c0 (0x0037)  :  as it would be sad to leave my mother alone with Rosie and Bert. But Pandora can't get away from her relatives either. We will be together in our thoughts as the New Year is rung in. 
+0x07d0  /  0x41ff (0x0023)  : Pandora and I went for a walk in the woods, only to find that building firms were dividing them up as gardens of executive houses
+0x07d1  /  0x4223 (0x0039)  : there is a new channel on television. It is called Channel Four and it is for minorities, like intellectuals and people who belong to jigsaw clubs. At last I have found my spiritual viewing home
+0x07d2  /  0x425d (0x002e)  : Bert was whining on about the EEC selling cheap butter to Libya and not him. Gaddafi is welcome to the butter in my opinion. It is packed with cholesterol
+0x07d3  /  0x428c (0x0015)  : the dog is now legal and decent. I spent 37p on a license
+0x07d4  /  0x42a2 (0x0042)  : I may become an alternative comedy scriptwriter. There is a lot of money in it and the job is dead easy - you just recycle Terry and June scripts, replacing every adjective by a rude word and making the actors shout
+0x07d5  /  0x42e6 (0x0015)  : I long for the day when I buy my first studio flat in Hampstead
+0x07d6  /  0x42fc (0x001a)  : the dog went berserk and ripped the paper up. It had no explanation for its bizarre behaviour
+0x07d7  /  0x4317 (0x002b)  : took the dog into the garden for a session of obedience training but it was a waste of time as usual. Our dog would have Barbara Woodhouse in tears
+0x07d8  /  0x4343 (0x0012)  : our lawn looks like a jungle now my father isn't cutting it
+0x07d9  /  0x4356 (0x0029)  : Mr Cherry has been threatened because he stays open on Sunday. Yet this hurts nobody and is a big help if you run out of anything
+0x07e4  /  0x4381 (0x0058)  : I was examining my spots in the living-room mirror tonight, when Mr O'Leary shouted from the street, "There's a fine pimple on the back of your neck, don't miss that one out, boy". It's taken me fifteen years to appreciate the part that curtains have played in civilized English life
+0x07e5  /  0x43db (0x002e)  : it was on Radio Four that the government is spending a billion pounds on war equipment. Yet one of our science laboratories at school is closing down for lack of money
+0x07e6  /  0x440a (0x0037)  : listened to Prime Minister's Question Time on Radio Four. I think some questions were about football hooligans, but it was difficult to hear anything above the rude shouts and animal noises
+0x07e7  /  0x4442 (0x0033)  : Nigel has proved we live in a police state. Britain has three times as many police per head as South Africa. And I bet we have fewer black policemen
+0x07e8  /  0x4476 (0x001d)  : a Tydeman letter! Alas, yet another rejection. The gods are not yet smiling on me
+0x07e9  /  0x4494 (0x001c)  : had mock geography exam. Just my luck - there were no questions about the Norwegian Leather Industry
+0x07ea  /  0x44b1 (0x0026)  : the school are making me read Lord of the Flies. I am sharing a book with three dumbos, so it is a frustrating experience
+0x07eb  /  0x44d8 (0x0033)  : my new job as a prefect is to make sure the first years wear reflective jackets after dark. I have to tell them, "It's better to be red than dead"
+0x07ec  /  0x450c (0x0018)  : I wish vandals would carve their names on flowering cherries and leave decent trees alone
+0x07ed  /  0x4525 (0x000e)  : Ratfink Lucas phoned but I pretended my mother was out
+0x0802  /  0x4535 (0x009b)  : the commands are: 
+SAVE position on tape/disk; 
+LOAD previously saved position; 
+PICTURES ON or PICTURES OFF; 
+PRINTER ON or PRINTER OFF; 
+DEMO to demonstrate the game; 
+RESTART to start again. 
+For more information, type HELP followed by the name of a command and press ENTER or RETURN. And, on larger computers, you should be able to type HELP, followed by the name of one of Adrian's acquaintances, to find out more about them
+0x0803  /  0x45d3 (0x009e)  : to save your position on tape, start a blank tape on RECORD, type SAVE and press ENTER or RETURN. If you're asked for a file name, type a short word (eg ANYNAME). Now press ENTER or RETURN twice. When the program asks for your next command, stop the tape.
+ 
+To save on disk (Commodore 64 only), do the same thing except that you should use a new, formatted disk and type ,8 after the file name (eg ANYNAME,8 )
+0x0804  /  0x4674 (0x009f)  : to load a previously saved position from tape, type LOAD and press ENTER or RETURN. If you are asked for a file name, type the one you used when SAVEing and press ENTER or RETURN again. Rewind the cassette on which the position was saved and start it on PLAY. (If the tape doesn't move, press ENTER or RETURN again.
+ 
+To load from disk (Commodore 64 only), do the same thing, using the disk on which the position was saved and typing ,8 after the file name (eg ANYNAME,8 )
+0x0805  /  0x4716 (0x0028)  : type PICTURES OFF and press ENTER or RETURN to stop pictures being displayed while you play. Type PICTURES ON and press ENTER or RETURN to display them again
+0x0806  /  0x473f (0x0048)  : on some computers, the PRINTER command allows you to make a typed listing of the story as it unfolds.
+ 
+Type PRINTER ON and press ENTER or RETURN to list the story as you play. Type PRINTER OFF and press ENTER or RETURN to stop this
+0x0807  /  0x4789 (0x001b)  : type DEMO and press ENTER or RETURN for automatic play. Press just about any key to stop the demonstration
+0x0808  /  0x47a5 (0x0014)  : type RESTART and press ENTER or RETURN to start the current part of the game again
+0x080a  /  0x47bb (0x0020)  : 
+ 
+That's the end of this part of the game. Would you like to continue with the next part? 
+0x080b  /  0x47dc (0x0044)  : 
+Check the program tape/disk is in the drive and press ENTER or RETURN. If using tape, check the recorder is set to PLAY (and, if the tape isn't moving, press ENTER or RETURN again).
+ 
+0x080c  /  0x4822 (0x003e)  : 
+Welcome to part 3 of the Growing Pains of Adrian Mole, from Level 9 and Virgin Games. If you are loading from tape, and it is still running, STOP THE TAPE IMMEDIATELY.
+
+0x080d  /  0x4861 (0x0009)  : 
+SAVE completed.
+
+0x080e  /  0x486b (0x0009)  : 
+LOAD completed.
+
+0x080f  /  0x4875 (0x0027)  :  
+DEMO stopped. Press SHIFT when the game pauses and 1-4 to make decisions in future.
+ 
+
+0x0810  /  0x489d (0x0020)  : 
+ 
+The game is over, unless you'd like to play the final part again. Would you? 
+0x0811  /  0x48be (0x0042)  : 
+This program would normally be loaded after you have finished playing through the part of Adrian's life leading up to it. This seems not to have happened. No problem, except that the score starts at 40 percent.
+
+0x0812  /  0x4902 (0x003b)  : 
+The position you just LOADed doesn't look as if it was saved from this part of the Adrian Mole game. No problem, except that you'll have to continue from the start of this part of the game. 
+0x0813  /  0x493e (0x0022)  :  And, because the position was SAVEd from a later part of the game, the score has been reset. 
+0x0814  /  0x4961 (0x000d)  : 
+I, Adrian Mole, score 
+0x0815  /  0x496f (0x000a)  :  percent, which makes me 
+0x0816  /  0x497a (0x0005)  : dreg of society
+0x0817  /  0x4980 (0x0004)  : bully boy
+0x0818  /  0x4985 (0x0002)  : creep
+0x0819  /  0x4988 (0x0002)  : thicko
+0x081a  /  0x498b (0x0002)  : schoolboy
+0x081b  /  0x498e (0x0002)  : youth
+0x081c  /  0x4991 (0x0002)  : poet
+0x081d  /  0x4994 (0x0002)  : prodigy
+0x081e  /  0x4997 (0x0005)  : paragon of virtue
+0x081f  /  0x499d (0x0002)  : intellectual
+0x0820  /  0x49a0 (0x0003)  : an idiot
+0x0821  /  0x49a4 (0x0003)  : a useless
+0x0822  /  0x49a8 (0x0003)  : a second-rate
+0x0823  /  0x49ac (0x0003)  : an unrespectable
+0x0824  /  0x49b0 (0x0003)  : a lowly
+0x0825  /  0x49b4 (0x0003)  : a namby-pamby
+0x0826  /  0x49b8 (0x0003)  : an unimportant
+0x0827  /  0x49bc (0x0003)  : a mediocre
+0x0828  /  0x49c0 (0x0003)  : a spotty
+0x0829  /  0x49c4 (0x0003)  : a suburban
+0x082a  /  0x49c8 (0x0003)  : an ordinary
+0x082b  /  0x49cc (0x0003)  : a middling
+0x082c  /  0x49d0 (0x0003)  : an average
+0x082d  /  0x49d4 (0x0003)  : a worthy
+0x082e  /  0x49d8 (0x0006)  : a superior kind of
+0x082f  /  0x49df (0x0003)  : a talented
+0x0830  /  0x49e3 (0x0003)  : a brilliant
+0x0831  /  0x49e7 (0x0003)  : a star
+0x0832  /  0x49eb (0x0003)  : a knockout
+0x0833  /  0x49ef (0x0003)  : an awesome
+<EOM>

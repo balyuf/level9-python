@@ -1,5 +1,5 @@
 #title: Adventure Quest test script;
-#comment: BBC version [v1]. Based on a solution script by Jacob Gunness;
+#comment: MSX version [v1]. Based on a solution script by Jacob Gunness;
 
 #SEED 42;
 IN [you start by a brick building];

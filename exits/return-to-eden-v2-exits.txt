@@ -1,5 +1,5 @@
-Return to Eden - Location Exit Definition
----------------------------------------------
+Return to Eden - Location Exit Definitions
+------------------------------------------
 
 Bit configuration:
 
@@ -77,7 +77,7 @@ Address From  To  Dir       Bit 0 Bit 1 Bit 2 MsgId Location Text
 0x009e  0x1a 0x1a EAST      No    Yes   No    0x1aa in a maze of maize
 0x00a0  0x1a 0x41 SOUTH     No    Yes   No    0x1aa in a maze of maize
 0x00a2  0x1a 0x19 WEST      No    Yes   No    0x1aa in a maze of maize
-0x00a4  0x1b 0xff <Missing> No    No    No    0x1ab 
+0x00a4  0x1b 0xff 0x0e      No    No    No    0x1ab 
 0x00a6  0x1c 0x3b OUTSIDE   Yes   No    No    0x1ac inside the houseplant
 0x00a8  0x1d 0x39 OUTSIDE   No    No    No    0x1ad in a human-bean husk
 0x00aa  0x1e 0x1f EAST      Yes   No    No    0x1ae on a trunk road

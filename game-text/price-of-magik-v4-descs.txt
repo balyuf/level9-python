@@ -1,0 +1,1382 @@
+0x0001  /  0x0421 (0x0001)  :  
+0x0002  /  0x0423 (0x0001)  : :
+0x0003  /  0x0425 (0x0002)  : , 
+0x0004  /  0x0428 (0x0002)  : . 
+0x0005  /  0x042b (0x0002)  : 
+
+0x0006  /  0x042e (0x0002)  : and 
+0x0007  /  0x0431 (0x0003)  : .
+
+0x0008  /  0x0435 (0x0003)  : ?
+
+0x0009  /  0x0439 (0x0001)  : . 
+0x000a  /  0x043b (0x0004)  : exits are 
+0x000b  /  0x0440 (0x0006)  : an exit leads 
+0x000c  /  0x0447 (0x0004)  :  through a door
+0x000d  /  0x044c (0x0006)  :  through an open door
+0x000e  /  0x0453 (0x0003)  :  and 
+0x000f  /  0x0457 (0x0006)  : you are standing on 
+0x0011  /  0x045f (0x0008)  : 
+What now? 
+0x0012  /  0x0468 (0x0001)  : : 
+0x0013  /  0x046a (0x0001)  : "
+0x0014  /  0x046c (0x0002)  : a 
+0x0015  /  0x046f (0x0002)  : the 
+0x0016  /  0x0472 (0x0002)  : an 
+0x0017  /  0x0475 (0x0002)  : some 
+0x0018  /  0x0478 (0x0003)  : you can see
+0x0019  /  0x047c (0x0006)  : on [aka] onto
+0x001a  /  0x0483 (0x0006)  : underneath [aka] below
+0x001b  /  0x048a (0x0002)  : behind
+0x001e  /  0x048e (0x000a)  : hanging above [aka] at through
+0x001f  /  0x0499 (0x0006)  : in [aka] into
+0x0020  /  0x04a0 (0x0004)  : hanging from
+0x0021  /  0x04a5 (0x0005)  : in [aka] with
+0x0022  /  0x04ab (0x0003)  : jammed in
+0x0023  /  0x04af (0x0001)  : around
+0x0024  /  0x04b1 (0x0003)  : lying on
+0x0025  /  0x04b5 (0x0003)  : sitting on
+0x0026  /  0x04b9 (0x0003)  : clinging to
+0x0027  /  0x04bd (0x0003)  : fastened to
+0x0029  /  0x04c2 (0x0001)  : is
+0x002a  /  0x04c4 (0x0001)  : is
+0x002b  /  0x04c6 (0x0001)  : is
+0x002c  /  0x04c8 (0x0003)  : is carrying
+0x002d  /  0x04cc (0x0003)  : is wearing
+0x002e  /  0x04d0 (0x0001)  : is
+0x002f  /  0x04d2 (0x0001)  : is
+0x0030  /  0x04d4 (0x0001)  : is
+0x0031  /  0x04d6 (0x0001)  : are
+0x0032  /  0x04d8 (0x0001)  : is
+0x0033  /  0x04da (0x0001)  : is
+0x0036  /  0x04dd (0x0001)  : is
+0x0037  /  0x04df (0x0001)  : is
+0x004d  /  0x04e2 (0x0004)  : are standing on
+0x0050  /  0x04e8 (0x0002)  : own
+0x0051  /  0x04eb (0x0003)  : are wearing
+0x0053  /  0x04f0 (0x0002)  : are in
+0x0058  /  0x04f4 (0x0004)  : are lying on
+0x0059  /  0x04f9 (0x0004)  : are sitting on
+0x005a  /  0x04fe (0x0002)  : off
+0x005b  /  0x0501 (0x0002)  : up
+0x005c  /  0x0504 (0x0002)  : down
+0x005d  /  0x0507 (0x0002)  : to
+0x005e  /  0x050a (0x0002)  : out
+0x0065  /  0x050e (0x0008)  : north [aka] n northwards
+0x0066  /  0x0517 (0x0006)  : northeast [aka] ne
+0x0067  /  0x051e (0x0008)  : east [aka] e eastwards
+0x0068  /  0x0527 (0x0008)  : south [aka] s southwards
+0x0069  /  0x0530 (0x0006)  : southeast [aka] se
+0x006a  /  0x0537 (0x0006)  : southwest [aka] sw
+0x006b  /  0x053e (0x0008)  : west [aka] w westwards
+0x006c  /  0x0547 (0x0006)  : northwest [aka] nw
+0x006d  /  0x054e (0x0008)  : upwards [aka] u up
+0x006e  /  0x0557 (0x0008)  : downwards [aka] d down
+0x006f  /  0x0560 (0x000a)  : in [aka] inside enter into
+0x0070  /  0x056b (0x0008)  : outside [aka] out leave
+0x0071  /  0x0574 (0x0008)  : cross [aka] across over
+0x0072  /  0x057d (0x000a)  : climb [aka] scramble ascend mount
+0x0073  /  0x0588 (0x001e)  : jump [aka] leap hop skip dance celebrate plugh xyzzy sesame plover humakaat satarh ollabin obis
+0x0077  /  0x05a8 (0x0006)  : fear terror panic
+0x0079  /  0x05b0 (0x0006)  : again [aka] a
+0x007a  /  0x05b7 (0x000c)  : inventory [aka] inv possessions possess I
+0x007c  /  0x05c5 (0x0006)  : quit [aka] restart
+0x007d  /  0x05cc (0x0006)  : restore [aka] load
+0x007e  /  0x05d3 (0x0002)  : save
+0x007f  /  0x05d6 (0x0008)  : score [aka] rating status
+0x0080  /  0x05df (0x0002)  : verbose
+0x0081  /  0x05e2 (0x0002)  : brief
+0x0082  /  0x05e5 (0x0006)  : wait [aka] wa
+0x0083  /  0x05ec (0x0004)  : exits exit
+0x0084  /  0x05f1 (0x0002)  : on
+0x0085  /  0x05f4 (0x0002)  : off
+0x0086  /  0x05f7 (0x0006)  : pictures [aka] graphics
+0x0087  /  0x05fe (0x0006)  : words [aka] text
+0x0088  /  0x0605 (0x0006)  : hello welcome hi
+0x0089  /  0x060c (0x0006)  : ramsave [aka] ram
+0x008a  /  0x0613 (0x0002)  : ramload
+0x008b  /  0x0616 (0x0008)  : oops [aka] whoops UNDO
+0x008d  /  0x0620 (0x0016)  : attack [aka] fight kill hit break kick punch smash assault beat
+0x008e  /  0x0637 (0x000a)  : look [aka] redisplay refresh l
+0x008f  /  0x0642 (0x0006)  : listen [aka] hear
+0x0091  /  0x064a (0x000e)  : examine [aka] read watch inspect investigate search
+0x0092  /  0x0659 (0x0002)  : cut
+0x0093  /  0x065c (0x0006)  : help [aka] hint
+0x0094  /  0x0663 (0x000a)  : wake [aka] arouse rouse alert
+0x0095  /  0x066e (0x0006)  : smell [aka] sniff
+0x0096  /  0x0675 (0x0002)  : knock
+0x0097  /  0x0678 (0x0002)  : cast
+0x00a1  /  0x067c (0x0012)  : take [aka] get carry buy purchase steal collect acquire
+0x00a2  /  0x068f (0x0002)  : wear
+0x00a3  /  0x0692 (0x0006)  : drop [aka] discard
+0x00a4  /  0x0699 (0x0008)  : put [aka] hide conceal
+0x00a5  /  0x06a2 (0x0006)  : remove free release
+0x00a6  /  0x06a9 (0x000a)  : throw [aka] chuck toss hurl
+0x00a7  /  0x06b4 (0x000a)  : give [aka] offer offered sell
+0x00a8  /  0x06bf (0x0002)  : stand
+0x00a9  /  0x06c2 (0x0002)  : lie
+0x00aa  /  0x06c5 (0x0002)  : sit
+0x00ab  /  0x06c8 (0x0006)  : ask [aka] question
+0x00ad  /  0x06d0 (0x0006)  : open [aka] unlock
+0x00af  /  0x06d8 (0x0006)  : light [aka] burn
+0x00b0  /  0x06df (0x0002)  : extinguish
+0x00b1  /  0x06e2 (0x0010)  : press [aka] push select depress poke prod touch
+0x00b2  /  0x06f3 (0x0006)  : pull [aka] tug
+0x00b3  /  0x06fa (0x0008)  : fasten [aka] tie attach
+0x00b4  /  0x0703 (0x0006)  : unfasten [aka] untie
+0x00b5  /  0x070a (0x0002)  : ring
+0x00b6  /  0x070d (0x0002)  : fill
+0x00b7  /  0x0710 (0x000c)  : eat [aka] bite taste nibble licks
+0x00b8  /  0x071d (0x0002)  : dig
+0x00b9  /  0x0720 (0x0006)  : rub [aka] wave
+0x00ba  /  0x0727 (0x0002)  : bury
+0x00bb  /  0x072a (0x0002)  : insert
+0x00bc  /  0x072d (0x0010)  : say [aka] shout yell shriek whisper call tell
+0x00bd  /  0x073e (0x0006)  : pick [aka] pluck
+0x00be  /  0x0745 (0x0008)  : squeeze [aka] squash crush
+0x00bf  /  0x074e (0x0002)  : dress
+0x00c0  /  0x0751 (0x0002)  : goto
+0x00c1  /  0x0754 (0x0002)  : getme
+0x00c2  /  0x0757 (0x0002)  : think
+0x00c3  /  0x075a (0x0002)  : drink
+0x00c4  /  0x075d (0x0006)  : play [aka] blow
+0x00c5  /  0x0764 (0x0006)  : y [aka] why
+0x00c6  /  0x076b (0x0008)  : yes [aka] OK sure
+0x00c7  /  0x0774 (0x0002)  : no
+0x00c8  /  0x0777 (0x0002)  : board
+0x00c9  /  0x077a (0x0002)  : baste
+0x012d  /  0x077e (0x0002)  : grimoire
+0x012e  /  0x0781 (0x0002)  : pendulum
+0x012f  /  0x0784 (0x0004)  : feldspar lens
+0x0130  /  0x0789 (0x0004)  : silver mail
+0x0131  /  0x078e (0x0004)  : valerian plant
+0x0133  /  0x0794 (0x0002)  : trumpet
+0x0134  /  0x0797 (0x0002)  : prism
+0x0135  /  0x079a (0x0004)  : elder cross
+0x0136  /  0x079f (0x0002)  : candle
+0x0137  /  0x07a2 (0x0004)  : small mirror
+0x0138  /  0x07a7 (0x0004)  : crystal ball
+0x0139  /  0x07ac (0x0002)  : broom
+0x013a  /  0x07af (0x0002)  : ashes
+0x013b  /  0x07b2 (0x0002)  : wheel
+0x013c  /  0x07b5 (0x0002)  : claw
+0x013d  /  0x07b8 (0x0004)  : blue box
+0x013e  /  0x07bd (0x0002)  : staff
+0x0140  /  0x07c1 (0x0002)  : bag
+0x0141  /  0x07c4 (0x0002)  : bandages
+0x0142  /  0x07c7 (0x0002)  : bones
+0x0143  /  0x07ca (0x0002)  : books
+0x0144  /  0x07cd (0x0002)  : cage
+0x0145  /  0x07d0 (0x0002)  : crowbar
+0x0146  /  0x07d3 (0x0002)  : gold
+0x0147  /  0x07d6 (0x0002)  : knucklebone
+0x0148  /  0x07d9 (0x0006)  : postcard [aka] card
+0x0149  /  0x07e0 (0x0002)  : parchment
+0x014a  /  0x07e3 (0x0004)  : plate armour
+0x014c  /  0x07e9 (0x0006)  : ring [aka] diamond
+0x014d  /  0x07f0 (0x0002)  : robes
+0x014e  /  0x07f3 (0x0005)  : pile of salt
+0x014f  /  0x07f9 (0x0002)  : scroll
+0x0150  /  0x07fc (0x0002)  : shield
+0x0151  /  0x07ff (0x0002)  : skull
+0x0152  /  0x0802 (0x0002)  : talisman
+0x015e  /  0x0806 (0x0002)  : knife
+0x015f  /  0x0809 (0x0002)  : axe
+0x0160  /  0x080c (0x0002)  : sword
+0x0161  /  0x080f (0x0002)  : claymore
+0x0162  /  0x0812 (0x0002)  : poniard
+0x0165  /  0x0816 (0x0006)  : chubby stone cherub
+0x0166  /  0x081d (0x0004)  : stone idol
+0x0167  /  0x0822 (0x0002)  : gargoyle
+0x0168  /  0x0825 (0x0004)  : marble statue
+0x0169  /  0x082a (0x0004)  : colossal bloodworm
+0x016a  /  0x082f (0x0002)  : ferryman
+0x016b  /  0x0832 (0x0002)  : monkey
+0x016c  /  0x0835 (0x0002)  : moonbeast
+0x016d  /  0x0838 (0x0002)  : Myglar
+0x016e  /  0x083b (0x0004)  : giant spider
+0x016f  /  0x0840 (0x0004)  : giant slug
+0x0170  /  0x0845 (0x0004)  : blood-sucking bat
+0x0171  /  0x084a (0x0002)  : werewolf
+0x0172  /  0x084d (0x0006)  : giant army ants
+0x0173  /  0x0854 (0x0004)  : dark spawn
+0x0174  /  0x0859 (0x0002)  : ghoul
+0x0175  /  0x085c (0x0004)  : metallic golem
+0x0176  /  0x0861 (0x0002)  : mummy
+0x0177  /  0x0864 (0x0002)  : ghost
+0x0178  /  0x0867 (0x0004)  : walking skeleton
+0x017a  /  0x086d (0x0002)  : wight
+0x017b  /  0x0870 (0x0002)  : wraith
+0x017c  /  0x0873 (0x0002)  : zombi
+0x0181  /  0x0877 (0x0002)  : mandrake
+0x0182  /  0x087a (0x0004)  : eyebright flowers
+0x0183  /  0x087f (0x0009)  : sprig of wolfsbane [aka] wolvesbane
+0x0184  /  0x0889 (0x0004)  : black ball
+0x0185  /  0x088e (0x0006)  : shovel [aka] spade
+0x0186  /  0x0895 (0x0004)  : stone fish
+0x018a  /  0x089b (0x0002)  : hole
+0x018b  /  0x089e (0x0002)  : altar
+0x018c  /  0x08a1 (0x0002)  : altar
+0x018d  /  0x08a4 (0x0002)  : boat
+0x018e  /  0x08a7 (0x0002)  : bell
+0x018f  /  0x08aa (0x0006)  : chests [aka] chest
+0x0190  /  0x08b1 (0x0004)  : grandmother clock
+0x0191  /  0x08b6 (0x0002)  : curtain
+0x0192  /  0x08b9 (0x0002)  : desk
+0x0193  /  0x08bc (0x0006)  : inscription on the ceiling
+0x0194  /  0x08c3 (0x0004)  : magik lake
+0x0195  /  0x08c8 (0x0002)  : lever
+0x0199  /  0x08cc (0x0002)  : plaque
+0x019a  /  0x08cf (0x0004)  : full-length mirror
+0x019b  /  0x08d4 (0x0002)  : riddle
+0x019c  /  0x08d7 (0x0002)  : rope
+0x019d  /  0x08da (0x0004)  : red moon
+0x019e  /  0x08df (0x0002)  : sarcophagus
+0x019f  /  0x08e2 (0x0004)  : sword point
+0x01a0  /  0x08e7 (0x0002)  : table
+0x01a1  /  0x08ea (0x0002)  : wardrobe
+0x01a2  /  0x08ed (0x0002)  : web
+0x01a3  /  0x08f0 (0x0004)  : something nasty
+0x01a4  /  0x08f5 (0x0008)  : woodpile [aka] wood pile
+0x01a5  /  0x08fe (0x0004)  : sword hilt
+0x01a6  /  0x0903 (0x0008)  : vine [aka] creepers vines
+0x01a7  /  0x090c (0x0002)  : wargame
+0x01a8  /  0x090f (0x0002)  : tapestry
+0x01a9  /  0x0912 (0x0002)  : snow
+0x01aa  /  0x0915 (0x0002)  : weight
+0x01ad  /  0x0919 (0x0005)  : picture of Stonehenge
+0x01ae  /  0x091f (0x0007)  : picture of dark spawn
+0x01af  /  0x0927 (0x0007)  : picture by moon light
+0x01b0  /  0x092f (0x0006)  : picture of a ghoul
+0x01b1  /  0x0936 (0x0005)  : picture of werewolves
+0x01b2  /  0x093c (0x0008)  : warped portrait [aka] picture
+0x01b4  /  0x0946 (0x0008)  : you [aka] player me
+0x01b5  /  0x094f (0x0008)  : fish [aka] me you
+0x01b6  /  0x0958 (0x0008)  : front door [aka] knocker
+0x01b7  /  0x0961 (0x0006)  : eyes [aka] eye
+0x01b8  /  0x0968 (0x0006)  : panel [aka] panels
+0x01b9  /  0x096f (0x0002)  : door
+0x01e0  /  0x0973 (0x000a)  : everything all everyone everybody every
+0x01e1  /  0x097e (0x0004)  : except but
+0x01e2  /  0x0983 (0x000c)  : it [aka] that them those none
+0x01e3  /  0x0990 (0x0001)  : they
+0x01e4  /  0x0992 (0x0001)  : them
+0x01e5  /  0x0994 (0x0004)  : then next
+0x01e6  /  0x0999 (0x0004)  : therefore so
+0x01ea  /  0x099f (0x0006)  : black [aka] chest
+0x01eb  /  0x09a6 (0x0006)  : brown [aka] chest
+0x01ec  /  0x09ad (0x0006)  : red [aka] chest
+0x01ed  /  0x09b4 (0x0006)  : orange [aka] chest
+0x01ee  /  0x09bb (0x0006)  : yellow [aka] chest
+0x01ef  /  0x09c2 (0x0006)  : green [aka] chest
+0x01f0  /  0x09c9 (0x0006)  : blue [aka] chest
+0x01f1  /  0x09d0 (0x0006)  : violet [aka] chest
+0x01f2  /  0x09d7 (0x0006)  : grey [aka] chest
+0x01f3  /  0x09de (0x0006)  : white [aka] chest
+0x0209  /  0x09e6 (0x0002)  : MAD
+0x020a  /  0x09e9 (0x0002)  : DOW
+0x020b  /  0x09ec (0x0002)  : SEE
+0x020c  /  0x09ef (0x0002)  : FIN
+0x020d  /  0x09f2 (0x0002)  : FIX
+0x020e  /  0x09f5 (0x0002)  : KIL
+0x020f  /  0x09f8 (0x0002)  : BOM
+0x0210  /  0x09fb (0x0002)  : XAM
+0x0211  /  0x09fe (0x0002)  : DET
+0x0212  /  0x0a01 (0x0002)  : SPY
+0x0213  /  0x0a04 (0x0002)  : ZEN
+0x0214  /  0x0a07 (0x0002)  : ESP
+0x0215  /  0x0a0a (0x0002)  : FLY
+0x0216  /  0x0a0d (0x0002)  : ZAP
+0x0217  /  0x0a10 (0x0002)  : DED
+0x0218  /  0x0a13 (0x0002)  : SAN
+0x0219  /  0x0a16 (0x0002)  : IBM
+0x021a  /  0x0a19 (0x0002)  : HYP
+0x0226  /  0x0a1d (0x0002)  : water
+0x0227  /  0x0a20 (0x0006)  : voice [aka] Myglar
+0x0228  /  0x0a27 (0x0006)  : ground [aka] floor
+0x0229  /  0x0a2e (0x0006)  : wall [aka] walls
+0x022a  /  0x0a35 (0x0008)  : sky [aka] sun moon
+0x0230  /  0x0a3f (0x0002)  : rainbird
+0x0231  /  0x0a42 (0x0002)  : gravy
+0x0259  /  0x0a46 (0x001b)  : a hefty, leather-bound tome which explains, very nicely, that you must be mad to use magik
+0x025a  /  0x0a62 (0x0017)  : about eighteen inches long, with the word "DOW" etched into its beaten surface
+0x025b  /  0x0a7a (0x004c)  : a see-through mineral with a specific gravity of 2.55 to 2.76, eminent cleavage, hardness 6 to 6.5, conchoidal to uneven fracture planes, very weak dispersion (0.012) and which comes in lots of pretty colours
+0x025c  /  0x0ac8 (0x001c)  : a suit of delicate metal, made from overlapping silver scales. The breastplate is inscribed "FIN"
+0x025d  /  0x0ae5 (0x000c)  : a magik herb with long-lasting, purplish flowers
+0x025f  /  0x0af3 (0x0017)  : noisy-looking, with lots of curling brass tubes, valves, buttons and so forth
+0x0260  /  0x0b0b (0x0028)  : shaped like a pyramid and bends light at a sharp angle, refracting it into rainbow colours. The word "XAM" is cut into its base
+0x0261  /  0x0b34 (0x0019)  : a weird wooden cross, round and hollow, its crossbar lashed on with dried grass
+0x0262  /  0x0b4e (0x0004)  : made of tallow
+0x0263  /  0x0b53 (0x0023)  : a small, circular mirror with a slightly uneven edge. It reflects the features of a wild-eyed fanatic; haggard and unrecognisable
+0x0264  /  0x0b77 (0x0018)  : not really crystal, more a bluish type of glass, but it is certainly spherical
+0x0265  /  0x0b90 (0x0017)  : used for sweeping floors or, in the hands of council workmen, for leaning on
+0x0266  /  0x0ba8 (0x0007)  : the remains of the woodpile
+0x0267  /  0x0bb0 (0x0012)  : made of some dark alloy, this wheel is reinforced by powerful enchantments
+0x0268  /  0x0bc3 (0x0008)  : curved, sharp and wickedly-pointed
+0x0269  /  0x0bcc (0x000c)  : stamped "IBM", in large letters
+0x026a  /  0x0bd9 (0x0021)  : a crude section of vine, with rough-cut ends. Just goes to prove you can't get a good staff nowadays
+0x026c  /  0x0bfc (0x0009)  : made of tough, close-woven canvas
+0x026d  /  0x0c06 (0x0017)  : made of some strong, flexible cloth; of a kind you have not seen before
+0x026e  /  0x0c1e (0x0006)  : from a human-sized creature
+0x026f  /  0x0c25 (0x0015)  : mostly about different ways to cook hobbits - and quite right too
+0x0270  /  0x0c3b (0x0024)  : a bird cage, made from gilded wire in an attractive domed shape. A few fat blue feathers moulder on its bottom
+0x0271  /  0x0c60 (0x000d)  : made of strong metal, with a curved end
+0x0272  /  0x0c6e (0x000b)  : worth a large fortune and then some
+0x0273  /  0x0c7a (0x0017)  : obviously intended for strange rituals, because symbols have been burned into each side
+0x0274  /  0x0c92 (0x0040)  : from the sorting office and reads: "Following the mysterious disappearances of three postmen working in this area, we have suspended deliveries locally. Post may be collected from the sorting office. We apologise for any inconvenience"
+0x0275  /  0x0cd4 (0x000c)  : about ZEN and the art of rapid progress
+0x0276  /  0x0ce1 (0x0021)  : it is made from some kind of metal, possibly steel, though it looks very impure and may just be beaten iron
+0x0278  /  0x0d04 (0x000b)  : set with a beautiful, solitaire diamond
+0x0279  /  0x0d10 (0x001b)  : made of fine, heavy cloth, in a rich shade of red, with golden buttons and clasps
+0x027a  /  0x0d2c (0x001d)  : sodium chloride. Not to be confused with sodium hydroxide, or sodium carbonate, or sodium amytal..
+0x027b  /  0x0d4a (0x005c)  : part of an ancient magik training manual. It is old and faded, but you can just make out: '...To use a spell, hold the... ..Nd "CAST spell", "CAST spell AT target" or "CAST spell ---- direction)", then ta...'
+0x027c  /  0x0da8 (0x0008)  : battered, but still serviceable
+0x027d  /  0x0db1 (0x000c)  : decorated across the forehead with black stars
+0x027e  /  0x0dbe (0x0024)  : a weird kind of ornament, with all sorts of crawly things wriggling around on its surface - done in bas-relief, of course
+0x028a  /  0x0de4 (0x0007)  : sharp and made of bronze
+0x028b  /  0x0dec (0x0016)  : hefty, with a sharp blade whose side is inscribed: "Bat's Bane"
+0x028c  /  0x0e03 (0x001f)  : its blade is slightly chipped and inscribed: "rubilacxe", the letters being traced in faded gold leaf
+0x028d  /  0x0e23 (0x0015)  : a huge sword, one-handed and two-edged, the longsword of old, the claidheamh
+0x028e  /  0x0e39 (0x0010)  : a narrow, sharply pointed knife, favoured by assassins
+0x0291  /  0x0e4b (0x0029)  : a chubby little statuette with ripples of blubber and slobbery cheeks, cavorting like a baby elephant among a veritable jungle of vine leaves and grapes
+0x0292  /  0x0e75 (0x0043)  : 658;a huge stone representation of Myglar. It has tentacles instead of hands, and a monstrous face whose eyesockets burn darkly beneath a stone cowl. It is hard to tell whether this is a work of fancy or what Myglar really looks like
+0x0293  /  0x0eba (0x0010)  : a hideous winged monster with bulbous eyes and lolling tongue
+0x0294  /  0x0ecb (0x0028)  : a tall image of Myglar, with tentacles for arms. A vandal has scrawled "SPY" on its left foot in fluorescent green crayon
+0x0295  /  0x0ef4 (0x007f)  : a huge creature, similar in shape to R*b*rt M*xw*ll, but 15 feet longer and with fewer chins. It spends a lot of its time sulking in corners because nobody loves it, and sucks most of its meals alone in the mortuary. Which isn't to say that it would terribly receptive to just any old body who wandered up and said, "Watford!". It's far too bad-tempered for that
+0x0296  /  0x0f76 (0x0029)  : an unpleasant-looking, stooped old man. He notices your gaze and snarls: "Stop gawping, monkey-features!" In a cracked and raucous voice
+0x0297  /  0x0fa0 (0x0009)  : a perfect replica of a monkey
+0x0298  /  0x0faa (0x0034)  : a hideous monster whose bug-eyes glow with a pale light, wobbling slowly at the ends of their long stalks... (It could make a packet playing bit-parts in horror movies)
+0x0299  /  0x0fdf (0x0035)  : an ancient wizard, who has indeed got tentacles instead of arms. His eyes glow with a terrible light, and his bones creak as he shuffles towards you, muttering in an evil monotone
+0x029a  /  0x1015 (0x0071)  : a mass of hairy legs and with a bloated body. Its pincers clack in anticipation. I should look out if I were you - it's pretty narked because it was almost included in a very successful television documentary, but was rejected at the last minute in favour of something even nastier, less cowardly and with a more interesting sex life. It has been out to get Mankind ever since
+0x029b  /  0x1088 (0x003f)  : slimy and horribly big, its body filling the tunnel and slithering towards you like toothpaste through a tube, a movement it perfected for its role in "The Martian Invaders Return! Again! (Part XII)"
+0x029c  /  0x10c9 (0x0024)  : small, ugly and extremely short-sighted. It works part-time for you-know-who, dubbing all those little squeaks and whistles onto the line
+0x029d  /  0x10ee (0x0049)  : very hairy - even its hairs have hairs - and its red mouth is open in a snarl, exposing an awful lot of teeth: the pose that won it its famous role in "I Was a Teenage Vampire's Werewolf's Mother (Part III)"
+0x029e  /  0x1139 (0x003d)  : there are a lot of them, scuttling over the stone columns and covering the floor in a living, seething, blanket. (Didn't they do a film with J**n C*ll*ns recently?...)
+0x029f  /  0x1177 (0x0054)  : terrible, born of a dark mother in the depths of the Earth, amidst horrors beyond the ken of Man. How can it be described? - for none who have seen it have returned, or, returning, are stark mad, and can do no more than babble about fears unnameable and unnamed
+0x02a0  /  0x11cd (0x00c6)  : licking its lips, its shrivelled skin pulled surgically tight over its bones, its eyes narrowed dangerously. It is wearing an expression intended to initiate a certain train of thought in anybody who sees it, which should run something like this: "That poor ghoul has never quite got over its rejection from that role in "Skeleton! (Part V)". Dear oh dear. I wonder if its deeply-felt sense of ambition thwarted has anything to do with the discovery of the half-eaten body of Richmond Hogsbody, erstwhile director of the said movie in Lower Wallop graveyard? Could that debonair exterior really hide a ravening bloodlust and desire for revenge? Oh my goodness"
+0x02a1  /  0x1297 (0x004c)  : grins cheerfully, revealing a fortune in gold fillings. It has just passed a screen test for the leading role in "The Robots are Coming! (Part IX)", and hasn't killed anyone for at least three days. It looks very uncomfortable in armour
+0x02a2  /  0x12e5 (0x0044)  : wrapped in grimy bandages that bind the ancient cerecloths to its desiccated frame. It has absolutely no ambition, and has spent most of its death right here, enjoying the peace and quiet. It tends to get most dischuffed if it's disturbed
+0x02a3  /  0x132b (0x002e)  : see-through - rather like Louis Hayward in the 1939 version of "The Man in the Iron Mask", which, of course, has absolutely nothing to do with anything
+0x02a4  /  0x135a (0x0029)  : it's very bony, and not quite right about the rib-cage, owing to its having been assembled by a group of first-year necromancy students on an off day
+0x02a6  /  0x1385 (0x001d)  : a see-through spirit, 70% proof. Against weapons, magik, that sort of thing, that is
+0x02a7  /  0x13a3 (0x004b)  : a fearsome graveyard spirit, a living fog that expands to fill the room, its misty body pulsating with loathsome lights. You don't need to know any more, do you - everybody's seen "The Devouring Fog (Part II)" haven't they?
+0x02a8  /  0x13f0 (0x0097)  : an animated corpse who started life in an obscure graveyard in Haiti and went on to star in such gems of the silver screen as "Night of the Living Dead" and "I Walked with a Teenage Zombi Vampire's Mummy". Unfortunately, he lost his credibility when his arm fell off, so now he haunts the nearest thing to a pyramid he could find, in memory of his truly stunning performance in "The Egyptian Zombies are Coming! (Part VII) (Episode 3) (reel 2)"
+0x02ad  /  0x148b (0x0020)  : a vile weed, shaped like a man daubed by a maniacal toddler and used in many nefarious necromantic dabblings
+0x02ae  /  0x14ac (0x0017)  : a magical plant which is rumoured to miraculously improve vision when rubbed into the eyes
+0x02af  /  0x14c4 (0x000d)  : perhaps useful, but there again, perhaps not
+0x02b0  /  0x14d2 (0x0008)  : made of a very hard material
+0x02b1  /  0x14db (0x0035)  : a special tool used for trench-digging by grave diggers (tho' why grave diggers should be digging trenches when they should be digging graves is a mystery to all concerned)
+0x02b2  /  0x1511 (0x000e)  : very lifelike. You can almost hear its fins flapping
+0x02b6  /  0x1521 (0x0004)  : quite deep
+0x02b7  /  0x1526 (0x0010)  : a small lump of rock, dwarfed by a stone moon
+0x02b8  /  0x1537 (0x0023)  : an impressive edifice, but you know how it is: when you've seen one perspex altar, you've seen them all..
+0x02b9  /  0x155b (0x0014)  : a rowing boat, painted bright blue with staring eyes on the prow
+0x02ba  /  0x1570 (0x0010)  : cast from several tonnes of bronze and covered with bat-droppings
+0x02bb  /  0x1581 (0x0017)  : a matched set of nine, made of dense oak and bound with metal ribs
+0x02bc  /  0x1599 (0x0009)  : an antique - and it's ticking
+0x02bd  /  0x15a3 (0x000f)  : of green velvet, and covering the whole west wall
+0x02be  /  0x15b3 (0x0022)  : it is a sturdy oak desk, with a battered leather top stained with black ink and some other, reddish stuff
+0x02c0  /  0x15d7 (0x0019)  : a beautiful expanse of sparkling water that shines a tranquil blue under the watery sky
+0x02c1  /  0x15f1 (0x000b)  : a small rod mounted in the floor
+0x02c4  /  0x15fe (0x0008)  : carved all over with tiny hieroglyphs
+0x02c5  /  0x1607 (0x0015)  : marked with the word "SAN", its letters rippling gently in the current
+0x02c6  /  0x161d (0x0017)  : completely covering the south wall, giving a very clear view of your every move
+0x02c7  /  0x1635 (0x002e)  : somewhat obscure: 
+"My father is dark, 
+My mother's unknown. 
+I dwell in high places, 
+and where the ghosts moan"
+0x02c8  /  0x1664 (0x0017)  : made of strong hessian dampened by the misty air, and slightly slippery to the touch
+0x02c9  /  0x167c (0x002b)  : larger than of yore, it has grown to some 7 feet across, and glows brightly, shedding a red light that streams from the alcove into the chapel beyond
+0x02ca  /  0x16a8 (0x001b)  : shaped like a coffin, its mighty stone sides are carved with ancient scribblings, like those on the pillars
+0x02cb  /  0x16c4 (0x0011)  : it is very sharp and sticks up through a hole in the floor
+0x02cc  /  0x16d6 (0x0042)  : it has been sorely misused over the years, and is covered with gouges hacked in it by the over-enthusiastic wielding of a meat cleaver. There are several sets of initials as well, and the word "MAD" carved in chunky, rough-cut letters
+0x02cd  /  0x171a (0x000f)  : it is made of elegantly carved mahogany, with mother-of-pearl inlays
+0x02ce  /  0x172a (0x0010)  : it's sticky, in much the same way that water isn't
+0x02cf  /  0x173b (0x000f)  : it slimes desperately across the floor, chittering with terror
+0x02d0  /  0x174b (0x000c)  : neatly stacked, all ready for a fire
+0x02d1  /  0x1758 (0x0008)  : stuck firmly in the ceiling
+0x02d2  /  0x1761 (0x001b)  : a strong vine with a good, straight trunk, clinging tenaciously to the side of the house
+0x02d3  /  0x177d (0x001e)  : a model which re-enacts, through endless repetitions, the massacre in the council chamber which brought Myglar to power
+0x02d4  /  0x179c (0x0017)  : a picture of a scrawny female healer, plying her wares in a crowded market-place
+0x02d5  /  0x17b4 (0x0015)  : grey and flaky, and looks as if had been lying here a long time
+0x02d6  /  0x17ca (0x000b)  : about 10 tonnes, I would say
+0x02d9  /  0x17d7 (0x0024)  : of Stonehenge, cut off from the people by blood-stained razor-wire. A column of fake Druids parades solemnly between the massive stones
+0x02da  /  0x17fc (0x0018)  : of a hellish dark spawn, clawing its way through the black places beneath the earth
+0x02db  /  0x1815 (0x0024)  : of foul beasts howling at the moon. They are incredibly ugly and their pallid eyes dangle at the ends of long, wavering stalks
+0x02dc  /  0x183a (0x0012)  : of a ghoul feasting happily on the remains of an earlier adventurer
+0x02dd  /  0x184d (0x000c)  : of a posse of werewolves chasing their victim
+0x02de  /  0x185a (0x0022)  : of an evil-looking man with tentacles in place of arms, gloating over the red moon crystal as he sucks at its power
+0x02e0  /  0x187e (0x0008)  : a fine specimen of humanity
+0x02e1  /  0x1887 (0x0007)  : much like a small trout
+0x02e2  /  0x188f (0x0023)  : a magnificent oak door with embossed knobs on every panel. The word "ESP" is moulded roughly into the brass knocker
+0x02e3  /  0x18b3 (0x0012)  : like a hawk's. Not a single thing escapes your piercing gaze
+0x02e4  /  0x18c6 (0x0008)  : made of beautifully carved wood
+0x02e5  /  0x18cf (0x0007)  : an ordinary wooden door
+0x03e9  /  0x18da (0x0007)  : a dark and winding drive
+0x03ea  /  0x18e2 (0x0005)  : a rickety woodshed
+0x03eb  /  0x18e8 (0x0005)  : a herb garden
+0x03ec  /  0x18ee (0x0005)  : a roof garden
+0x03ed  /  0x18f4 (0x0003)  : a vine
+0x03ee  /  0x18f8 (0x0003)  : a vine
+0x03ef  /  0x18fc (0x0007)  : the top of the vine
+0x03f0  /  0x1904 (0x0005)  : a sloping roof
+0x03f1  /  0x190a (0x0003)  : a roof
+0x03fa  /  0x190f (0x0005)  : a grassy plain
+0x03fb  /  0x1915 (0x0005)  : a grassy plain
+0x03fc  /  0x191b (0x0003)  : some steps
+0x03fd  /  0x191f (0x0003)  : some steps
+0x03fe  /  0x1923 (0x0003)  : some steps
+0x03ff  /  0x1927 (0x0003)  : some steps
+0x0400  /  0x192b (0x0003)  : some steps
+0x0402  /  0x1930 (0x0007)  : a strange rock formation
+0x0403  /  0x1938 (0x0005)  : a grassy plain
+0x0404  /  0x193e (0x0007)  : a volcanic rock outcrop
+0x0405  /  0x1946 (0x000a)  : a grassy plain beside a pillar
+0x0406  /  0x1951 (0x0007)  : a sullen standing stone
+0x0407  /  0x1959 (0x0007)  : a sullen standing stone
+0x0408  /  0x1961 (0x0007)  : a sullen standing stone
+0x0409  /  0x1969 (0x0007)  : a sullen standing stone
+0x040a  /  0x1971 (0x0007)  : a sullen standing stone
+0x040b  /  0x1979 (0x0007)  : a sullen standing stone
+0x040c  /  0x1981 (0x0007)  : a sullen standing stone
+0x040d  /  0x1989 (0x0004)  : a cold pillar
+0x040e  /  0x198e (0x0004)  : a cold pillar
+0x040f  /  0x1993 (0x0004)  : a cold pillar
+0x0410  /  0x1998 (0x0004)  : a cold pillar
+0x0411  /  0x199d (0x0004)  : a cold pillar
+0x0412  /  0x19a2 (0x0004)  : a carved pedestal
+0x0414  /  0x19a8 (0x0005)  : a lake shore
+0x0415  /  0x19ae (0x0005)  : a yellow river
+0x0416  /  0x19b4 (0x0006)  : a slide of slime
+0x0417  /  0x19bb (0x0005)  : a slime room
+0x0418  /  0x19c1 (0x0005)  : a damp cave
+0x0419  /  0x19c7 (0x0005)  : a river bed
+0x041a  /  0x19cd (0x0003)  : the river
+0x041b  /  0x19d1 (0x0005)  : an ancient boardwalk
+0x041c  /  0x19d7 (0x0007)  : the rickety landing stage
+0x041d  /  0x19df (0x0005)  : a watery tunnel
+0x041e  /  0x19e5 (0x0005)  : a watery tunnel
+0x041f  /  0x19eb (0x0003)  : a boardwalk
+0x0420  /  0x19ef (0x0005)  : a rock-walled room
+0x0421  /  0x19f5 (0x0005)  : a dark room
+0x0422  /  0x19fb (0x0005)  : a silvery room
+0x0423  /  0x1a01 (0x0007)  : a dangerous dead end
+0x0424  /  0x1a09 (0x0005)  : a winding corridor
+0x0425  /  0x1a0f (0x0008)  : a hall hung with paintings
+0x0426  /  0x1a18 (0x0005)  : a dry gallery
+0x0429  /  0x1a1f (0x0005)  : a once-good room
+0x042a  /  0x1a25 (0x0005)  : a misty corridor
+0x042b  /  0x1a2b (0x000a)  : the yard below a huge gallows
+0x042c  /  0x1a36 (0x0005)  : a pentagonal room
+0x042d  /  0x1a3c (0x0003)  : a sanctum
+0x042e  /  0x1a40 (0x0005)  : an inner sanctum
+0x042f  /  0x1a46 (0x0005)  : an echoing crypt
+0x0430  /  0x1a4c (0x0005)  : a bone chamber
+0x0431  /  0x1a52 (0x0003)  : an ante-alcove
+0x0432  /  0x1a56 (0x0003)  : an ante-chapel
+0x0433  /  0x1a5a (0x0005)  : a reflecting room
+0x0434  /  0x1a60 (0x000d)  : the shadow of an altar with an unholy font
+0x0435  /  0x1a6e (0x0005)  : an ominous chamber
+0x0436  /  0x1a74 (0x0005)  : a marble vault
+0x0437  /  0x1a7a (0x0003)  : a tomb
+0x0438  /  0x1a7e (0x0003)  : a morgue
+0x0439  /  0x1a82 (0x0005)  : a web cavern
+0x043a  /  0x1a88 (0x0009)  : a temple, beside an altar
+0x043b  /  0x1a92 (0x000c)  : a room just south of a glowing gateway
+0x043c  /  0x1a9f (0x0005)  : an ice room
+0x043d  /  0x1aa5 (0x0005)  : a moon room
+0x043e  /  0x1aab (0x0005)  : a shadowy alcove
+0x043f  /  0x1ab1 (0x0005)  : the north tower
+0x0440  /  0x1ab7 (0x0005)  : a dead end
+0x0442  /  0x1abe (0x0006)  : the mists of time
+0x045c  /  0x1ac6 (0x0003)  : a landing
+0x045d  /  0x1aca (0x0007)  : the doorway to an attic
+0x045e  /  0x1ad2 (0x0007)  : the west of an attic
+0x045f  /  0x1ada (0x0007)  : the east of an attic
+0x0460  /  0x1ae2 (0x0003)  : a recess
+0x0461  /  0x1ae6 (0x0003)  : an office
+0x0462  /  0x1aea (0x0003)  : a belfry
+0x0463  /  0x1aee (0x0005)  : a marble hall
+0x0464  /  0x1af4 (0x0009)  : a room with a large table
+0x0465  /  0x1afe (0x0004)  : a small landing
+0x0466  /  0x1b03 (0x0005)  : a musty hall
+0x0467  /  0x1b09 (0x0005)  : a spiral stair
+0x0468  /  0x1b0f (0x0003)  : a stairway
+0x0469  /  0x1b13 (0x0007)  : an oak panelled corridor
+0x046a  /  0x1b1b (0x0003)  : a cellar
+0x046b  /  0x1b1f (0x0006)  : an old sea-dog's room
+0x046c  /  0x1b26 (0x0005)  : a white-wood corridor
+0x046d  /  0x1b2c (0x0005)  : a store room
+0x046e  /  0x1b32 (0x0007)  : an oak panelled corridor
+0x046f  /  0x1b3a (0x0005)  : a store room
+0x0470  /  0x1b40 (0x0005)  : an arch-roofed corridor
+0x0471  /  0x1b46 (0x0003)  : a laboratory
+0x0472  /  0x1b4a (0x0003)  : a solarium
+0x0473  /  0x1b4e (0x0005)  : a collapsing junction
+0x0474  /  0x1b54 (0x0005)  : a sagging corridor
+0x0475  /  0x1b5a (0x0005)  : a rest room
+0x0476  /  0x1b60 (0x0003)  : a library
+0x0477  /  0x1b64 (0x0003)  : a library
+0x0478  /  0x1b68 (0x0003)  : a study
+0x0479  /  0x1b6c (0x0007)  : a dusty priest hole
+0x047a  /  0x1b74 (0x0005)  : a cold room
+0x047b  /  0x1b7a (0x0005)  : a magnificent treasury
+0x047c  /  0x1b80 (0x0003)  : an alcove
+0x047d  /  0x1b84 (0x0003)  : a hole
+0x047e  /  0x1b88 (0x0005)  : a better hole
+0x047f  /  0x1b8e (0x0005)  : a distorted junction
+0x0480  /  0x1b94 (0x0006)  : among hanging tentacles
+0x0481  /  0x1b9b (0x0005)  : a store room
+0x0482  /  0x1ba1 (0x0005)  : an entrance hall
+0x0483  /  0x1ba7 (0x0003)  : an alcove
+0x0484  /  0x1bab (0x0005)  : an entrance hall
+0x0485  /  0x1bb1 (0x0005)  : a broom cupboard
+0x0486  /  0x1bb7 (0x0007)  : an elm panelled corridor
+0x0487  /  0x1bbf (0x0003)  : a cupboard
+0x0488  /  0x1bc3 (0x0005)  : a panelled corridor
+0x0489  /  0x1bc9 (0x0005)  : a rough-hewn tunnel
+0x048a  /  0x1bcf (0x0005)  : a butler's passage
+0x048b  /  0x1bd5 (0x0005)  : a store room
+0x048c  /  0x1bdb (0x0005)  : a store room
+0x048d  /  0x1be1 (0x0003)  : some steps
+0x048e  /  0x1be5 (0x0005)  : a circular room
+0x048f  /  0x1beb (0x0005)  : a pentagonal room
+0x0490  /  0x1bf1 (0x0005)  : a triangular room
+0x0491  /  0x1bf7 (0x0005)  : a store room
+0x0492  /  0x1bfd (0x0005)  : a store room
+0x0493  /  0x1c03 (0x0004)  : a red room
+0x0494  /  0x1c08 (0x0005)  : a green room
+0x0495  /  0x1c0e (0x0003)  : some steps
+0x0496  /  0x1c12 (0x0005)  : a sloping room
+0x0497  /  0x1c18 (0x0005)  : a low cellar
+0x0498  /  0x1c1e (0x000a)  : a room smelling unpleasantly of incense
+0x0499  /  0x1c29 (0x0005)  : a short corridor
+0x049a  /  0x1c2f (0x0003)  : a cloakroom
+0x049b  /  0x1c33 (0x0005)  : a store room
+0x049c  /  0x1c39 (0x0003)  : a pantry
+0x049d  /  0x1c3d (0x0005)  : a depressing junction
+0x049e  /  0x1c43 (0x0005)  : a cold store
+0x049f  /  0x1c49 (0x0005)  : a scullery kitchen
+0x04a0  /  0x1c4f (0x000c)  : a corridor with shelving from wall-to-wall and floor-to-ceiling
+0x04a1  /  0x1c5c (0x0005)  : a tiled corridor
+0x04a2  /  0x1c62 (0x0005)  : a tight squeeze
+0x04a3  /  0x1c68 (0x0005)  : a stone archway
+0x04a4  /  0x1c6e (0x000c)  : a limestone cave with torches on the wall
+0x04a5  /  0x1c7b (0x0005)  : a stone platform
+0x04a6  /  0x1c81 (0x0007)  : a rotting wood room
+0x04a7  /  0x1c89 (0x0005)  : a stupendous cavern
+0x04a8  /  0x1c8f (0x0003)  : a grotto
+0x04a9  /  0x1c93 (0x0005)  : some rickety steps
+0x04aa  /  0x1c99 (0x0003)  : a laboratory
+0x04ab  /  0x1c9d (0x0007)  : a perfectly spherical junction
+0x04ac  /  0x1ca5 (0x0005)  : a glass cave
+0x04ad  /  0x1cab (0x0007)  : a short stone corridor
+0x04ae  /  0x1cb3 (0x0003)  : a storeroom
+0x04af  /  0x1cb7 (0x0005)  : a misty room
+0x04b0  /  0x1cbd (0x0005)  : a glass room
+0x04b1  /  0x1cc3 (0x0006)  : a hall of statues
+0x04b2  /  0x1cca (0x0003)  : a pillar
+0x04b3  /  0x1cce (0x0003)  : some steps
+0x04b4  /  0x1cd2 (0x0003)  : some steps
+0x04b5  /  0x1cd6 (0x0003)  : some steps
+0x04b6  /  0x1cda (0x0007)  : a spherical rock bubble
+0x04b7  /  0x1ce2 (0x0007)  : a spherical rock bubble
+0x04b8  /  0x1cea (0x0007)  : a spherical rock bubble
+0x04b9  /  0x1cf2 (0x0007)  : an arched stone corridor
+0x04ba  /  0x1cfa (0x0005)  : a jet-black room
+0x04bb  /  0x1d00 (0x0007)  : an arched stone corridor
+0x04bc  /  0x1d08 (0x0007)  : an arched stone corridor
+0x04bd  /  0x1d10 (0x0007)  : an arched stone corridor
+0x04be  /  0x1d18 (0x0005)  : a jade room
+0x04bf  /  0x1d1e (0x0005)  : a statue-lined room
+0x04c0  /  0x1d24 (0x0005)  : an entrance hall
+0x04c1  /  0x1d2a (0x0005)  : a palatial portico
+0x04c2  /  0x1d30 (0x000a)  : a huge hall of swirling mist
+0x04c3  /  0x1d3b (0x0005)  : a cylindrical chamber
+0x04c4  /  0x1d41 (0x0005)  : a stone room
+0x04c5  /  0x1d47 (0x0007)  : a great stone room
+0x04c6  /  0x1d4f (0x0006)  : the tomb of Myglar
+0x0515  /  0x1d57 (0x0070)  :  just to the south of a house, whose venerable magnificence has decayed through years of abandonment and neglect. It stands, desolate and hollow-windowed, a malevolent shadow of its former self. Gnarled creepers cling desperately to the walls, almost completely enveloping the building. A huge carved door with a blackened brass knocker in the shape of a griffin's head is set in the middle of the sprawling facade
+0x0516  /  0x1dc9 (0x0042)  :  which is slowly sinking into the dank marsh that has grown up and engulfed the grounds of the house. Its timbers are rotting - livid patches of mold and rank orange fungus dot its sides - and the air is redolent with decay
+0x0517  /  0x1e0d (0x0046)  :  on an insect-infested mound which rises through the marsh mist. A few stunted plants survive miserably among the stark, skeletal remains of their fellows. Droplets of water gather sadly on their leaves, before dripping quietly onto the cold ground below
+0x0518  /  0x1e55 (0x0044)  : , cold and silent, hemmed in by grey stone and made dark and wet by the dank mist. A few bright herbs cling to life; lonely survivors from the time when the sun still shone and caring hands tended the garden
+0x0519  /  0x1e9b (0x0040)  :  whose strong, gnarled branches have intertwined, clutching at each others' throats and digging their short, dry roots into the stone walls. Their cankered bark is cracked and seamed; covered with slippery grey lichen
+0x051a  /  0x1edd (0x000e)  : , pushing through a tangled mass of decaying tendrils
+0x051b  /  0x1eec (0x0014)  :  which clings precariously to the crumbling wall at the house roof's edge
+0x051c  /  0x1f01 (0x001d)  : , in weak, watery sunlight that filters uneasily through the mist, glinting on the slick grey slates
+0x051d  /  0x1f1f (0x0035)  : , high above the dismal marshes and mist-covered plain. Black skeletons of trees rise up through the grey blanket of mist that obscures the grounds of the house, to gleam in the half-light
+0x0526  /  0x1f56 (0x0009)  : , mist-covered and stretching into obscurity
+0x0527  /  0x1f60 (0x0011)  : , where the dew hangs like jewels and cold mist gathers
+0x0528  /  0x1f72 (0x000c)  :  leading around and up to a Gothic portico
+0x0529  /  0x1f7f (0x000b)  : , in the middle of the great staircase
+0x052a  /  0x1f8b (0x002b)  : , that are part of a single stone staircase, from which two further staircases rise in flights around a central square, to rejoin at a Gothic portico
+0x052b  /  0x1fb7 (0x0012)  : , part of the great staircase that leads to an ancient portico
+0x052c  /  0x1fca (0x000c)  :  leading around and up to a Gothic portico
+0x052e  /  0x1fd8 (0x0047)  :  which juts out from the plain in a tumble of hard, grey stone. Its surface is bare of any weed, and slick with moisture from the damp, misty air which hangs heavily around it, deadening all sound save the sullen drip of falling water
+0x052f  /  0x2021 (0x0017)  :  where the mist curls damply around your feet and face, chilling you to the bone
+0x0530  /  0x2039 (0x000e)  : , sharp beneath your feet and twisted into tortuous shapes
+0x0531  /  0x2048 (0x0017)  : , and the mist closes in around you, muffling sight and sound beneath an icy blanket
+0x0532  /  0x2060 (0x0008)  : . Water runs sadly down its sides
+0x0533  /  0x2069 (0x0008)  : . Water runs sadly down its sides
+0x0534  /  0x2072 (0x0008)  : . Water runs sadly down its sides
+0x0535  /  0x207b (0x0008)  : . Water runs sadly down its sides
+0x0536  /  0x2084 (0x0008)  : . Water runs sadly down its sides
+0x0537  /  0x208d (0x0008)  : . Water runs sadly down its sides
+0x0538  /  0x2096 (0x0008)  : . Water runs sadly down its sides
+0x0539  /  0x209f (0x0009)  : , grey stone looming against the mist
+0x053a  /  0x20a9 (0x0009)  : , grey stone looming against the mist
+0x053b  /  0x20b3 (0x0009)  : , grey stone looming amid the mist
+0x053c  /  0x20bd (0x0009)  : , grey stone looming amid the mist
+0x053d  /  0x20c7 (0x0009)  : , grey stone looming amid the mist
+0x053e  /  0x20d1 (0x000a)  : , hewn from hard, grey granite
+0x0540  /  0x20dd (0x003a)  : , where fog swirls ominously: curling around the black, dead branches of drowned trees which rise like a long-forgotten nightmare from the still waters. A cold, wordless cry echoes lonely from the hidden distance
+0x0541  /  0x2118 (0x0037)  :  which roils between the walls of a deep chasm, its waters swift and turbid. It lashes at the boulders upon its dismal shores with a booming roar, echoing and re-echoing through endless tunnels
+0x0542  /  0x2150 (0x001d)  :  which glistens viscidly against the yellow mud. The air trembles with the far-off boom of rushing waters
+0x0543  /  0x216e (0x001d)  :  where green gunge oozes from the walls and ceiling, glurping onto the floor to collect in thick puddles
+0x0544  /  0x218c (0x0016)  :  where the walls run with water and the muddy floor exudes a noisome odor
+0x0545  /  0x21a3 (0x001d)  : . The water bubbles past, cool against your sides, while strange creaks and groanings sound from the depths
+0x0546  /  0x21c1 (0x0022)  : , flowing from darkness into darkness. It laps against the gloomy shore, sussurating gently like a still sea at midnight
+0x0547  /  0x21e4 (0x0011)  : , which echoes hollow beneath your feet, its timbers creaking slightly
+0x0548  /  0x21f6 (0x0015)  : , which reaches out into the rushing water, quivering to the rhythm of the waves
+0x0549  /  0x220c (0x0005)  : , cold and damp
+0x054a  /  0x2212 (0x000d)  :  whose chilly air carries a hint of rottenness
+0x054b  /  0x2220 (0x0017)  : , listening to the sound of rushing waters flowing in the darkness of the cave beyond
+0x054c  /  0x2238 (0x0031)  : , where the air trembles with the far-off boom of rushing waters. Yet the room itself is dry and warm, and a pleasant smell of old polish and metal-cleaner hangs in the air
+0x054d  /  0x226a (0x0033)  : . The atmosphere is heavy, weighing down upon you, as though the air were charged with mystic power. A low humming begins at the back of your skull, more felt than heard
+0x054e  /  0x229e (0x0021)  : . The walls shimmer with an ethereal light, paler than the gleam of metal, soft as the petals of a china flower
+0x054f  /  0x22c0 (0x0006)  : . Aaaaaagh!!!
+0x0550  /  0x22c7 (0x0038)  :  which twists and turns aimlessly, and seemingly without any pattern. The walls are made from smooth rock, their curves so subtle that they must have been the work of masons of the far distant past
+0x0551  /  0x2300 (0x00a6)  :  which show desolate, red-rocked landscapes, or bowls of fruit and dead fowl, their paint marred by a network of fine cracks where the surface has aged and dried. Some are of people: men, women and children, all of whom have the same aquiline nose and pointed jawline. Many of them have eyes of the same curious shade of green. 
+ 
+One, a woman, is depicted with her yellow hair flying out behind her, her robes whipped around her slender form by the wind. Her green eyes are narrowed and fire flies from her outstretched hands
+0x0552  /  0x23a9 (0x002c)  : , a long, low room, panelled with wood, glowing gold like sleepy afternoon sunlight. The room is completely empty and smells faintly of dust and beeswax
+0x0555  /  0x23d7 (0x0008)  :  now fallen into disrepair
+0x0556  /  0x23e0 (0x001d)  : , where strange lights glint and sparkle, teasing the eye, and phantom voices whisper in your ears
+0x0557  /  0x23fe (0x0057)  :  in a small courtyard paved with stone. Forbidding grey walls tower up on every side, almost obscuring the sky far above, and gargoyles leer down upon you, their stone eyes staring. A few sad weeds grow in the cracks between the stones and the gallows loom, huge and silent, over all
+0x0558  /  0x2457 (0x002d)  : , its walls hung with red velvet, with strange signs painted upon the floor. A low humming fills the air, almost beyond the range of human hearing
+0x0559  /  0x2485 (0x004d)  : ; a peaceful room, sparsely furnished. It has panelled walls of simple dark wood and a colourful rug upon the highly polished floor. A simple table and chair stand in one corner, and in the centre of the room there is a prie-dieu with a blue velvet kneeler
+0x055a  /  0x24d4 (0x0034)  : , wood-panelled, like the sanctum, but unkempt and neglected. Dust lies in the corners, and the small altar is untended. A reddish-brown stain marks the floor in front of the altar
+0x055b  /  0x2509 (0x002f)  : , its cold stone walls and vaulted roof hung with dusty cobwebs. The air smells mouldy, and mushrooms sprout from the packed-earth floor, glowing with a pale light
+0x055c  /  0x2539 (0x0032)  : . The walls are pocked with tiny alcoves, each holding a neat pile of bones with a skull set neatly on top. Other bones lie scattered haphazardly on the floor
+0x055d  /  0x256c (0x001e)  : , its arched entrance engraved with indecipherable runes. From a brass curtain-rod, hang rich, blue-velvet drapes
+0x055e  /  0x258b (0x003b)  :  filled with glowing red light, its walls carved with scenes from the life of Zog. Wooden pews face the alcove to the north, and a bunch of dead flowers lies in a dusty heap in one corner
+0x055f  /  0x25c7 (0x0014)  : , its metal walls, floor and ceiling polished to a mirror finish
+0x0560  /  0x25dc (0x0015)  : , carved into foul and wicked shapes, a grotesque monument to inhuman ingenuity
+0x0561  /  0x25f2 (0x002f)  :  whose atmosphere of brooding gloom oppresses the spirit and dulls the mind. In stark contrast, the word "FLY" is picked out in a bright mural on the floor
+0x0562  /  0x2622 (0x0037)  : , its walls mottled with febrile green-and-black striations. Mighty pillars support the roof, engraved with complicated hieroglyphics and painted in raw, earthen colours. Huge cobwebs hang down in gossamer curtains
+0x0563  /  0x265a (0x0038)  : ; a great mausoleum, buried beneath the earth. Mouldering coffins rest on carved stone benches around the room, their timbers rotting. The lid of one has shattered, leaving its grisly contents exposed
+0x0564  /  0x2693 (0x0014)  : , in pristine condition, its white walls and surfaces gleaming in the cold air
+0x0565  /  0x26a8 (0x002a)  : , justly named, for a single mighty cobweb stretches across it, woven from strands as thick as spun steel and suspended from stalactite to stalagmite
+0x0566  /  0x26d3 (0x0036)  :  made of some transparent substance, warm like perspex but far harder, and filled with colours that no glass could capture. Wind chimes hang from the ceiling, tinkling melodically like children's voices
+0x0567  /  0x270a (0x002b)  :  that looks out onto a grassy plain; mist-covered and mysterious. A strange cone of yellow light surrounds it, through which phantom shapes come and go
+0x0568  /  0x2736 (0x0028)  : , and the air is cold and crisp, freezing your breath as it emerges. Hoar frost crunches beneath your feet, and the walls sparkle as though bejewelled
+0x0569  /  0x275f (0x0022)  : , where crystal light shines from a central unseen source, clear through the eerie darkness which seems to crouch in the corners
+0x056a  /  0x2782 (0x001a)  :  to the north of the attic, where the air is musty, and smells of pigeons and mothballs
+0x056b  /  0x279d (0x0020)  : . Across from you and to one side lies the dismal roof garden, and above you a tower ascends into darkness
+0x056c  /  0x27be (0x0010)  : , cold and dark, and festooned with sticky, clinging cobwebs
+0x0588  /  0x27d0 (0x001b)  :  above a staircase spiralling down into the gloom, its rungs ornamented with lattice-work and bronze foliage
+0x0589  /  0x27ec (0x0008)  : , bare boards beneath your feet
+0x058a  /  0x27f5 (0x0083)  :  filled with the accumulated junk of centuries. Here, old books, broken artefacts and cracked pottery vies with a tumble of moth-eaten clothes and trunks, stuffed to overflowing with the fashions of a bygone age. Mice scuttle among the boxes, their small feet clicking on the floorboards, and somewhere a rat gnaws frantically. Pallid light slinks through a dormer window to the north, lighting the dancing dust motes and laying a sickly patina over all it touches
+0x058b  /  0x287b (0x0021)  :  with a sloping ceiling that droops despondently towards the floor, its rafters humped and shapeless beneath the wreckage of ages
+0x058c  /  0x289d (0x0013)  : , less than a metre deep, which was hidden behind the mirror
+0x058d  /  0x28b1 (0x001d)  : , festooned with grimy cobwebs that cover the few pieces of furniture, giving everything a slumped appearance
+0x058e  /  0x28cf (0x0049)  :  where mist curls sleepily through the slatted shutters, chilling the air, and where rotting floorboards creak and moan beneath your feet. Stray shafts of light quiver through the gloom, crawling down dusty beams and rafters and slithering over the piles of dust that lie everywhere
+0x058f  /  0x291a (0x005f)  : , its vaulted ceiling supported by graceful columns that seem at first glance to be marred by ugly brown stains, but which, on closer inspection, prove to be wooden pillars covered with peeling paper that has been painted to simulate marble. The walls, too, are paper-covered, their crimson and green mottlings hiding rough granite blocks
+0x0590  /  0x297b (0x003d)  : . The walls are hung with faded pictures, some done in oils, some in watercolour, some in gouache, yet all depict war, and the horrors of war. Wherever you look, cannons flare and swords flash
+0x0591  /  0x29b9 (0x0014)  : , sunk in gloom, its faded carpet and hangings dank and fusty
+0x0592  /  0x29ce (0x0019)  : , its high walls cloth-covered, the statuettes and vases on its delicate shelves dusty and forgotten
+0x0593  /  0x29e8 (0x0056)  : , its cold stone steps hollowed by long usage, and with odd symbols and obscure grinning faces carved into the walls. Every now and then a small, slitted window lets light in, but the walls are too thick, and the windows too high for you to see anything but the dismal grey sky through them
+0x0594  /  0x2a40 (0x001a)  : , its cast-iron rungs clattering beneath your feet, the banister smooth and cold under your grasping hand
+0x0596  /  0x2a5c (0x001d)  : , still dry and cool, its contents well-preserved, though all around it has fallen into neglect and ruin
+0x0597  /  0x2a7a (0x007c)  : , an extraordinary place, done up to look like the bridge of a ship. The walls are panelled with varnished teak, and the same wood covers the ceiling and floor. A table juts out from one wall, bearing a huge sheet of glass under which complicated charts are displayed. All the fittings are of brass, and a ship's wheel stands between the table and a small galley, whose stove has been lovingly black-leaded. Leather-covered benches line the walls
+0x0598  /  0x2af8 (0x0022)  : , its walls lighter than pine, yet turning a mellow gold with age. They still smell faintly of scented wood
+0x0599  /  0x2b1b (0x0024)  : , fairly small and piled high with junk. Old tools lie haphazardly on the floor, along with a jumble of dismantled furniture
+0x059a  /  0x2b40 (0x001b)  : , the smell of decaying wood strong in the stagnant air. Its ancient panels sound strangely hollow
+0x059b  /  0x2b5c (0x001e)  :  with one oaken wall and three of sad grey stone. An atmosphere of foreboding hangs over the place
+0x059c  /  0x2b7b (0x0038)  : . Torches line the walls, seemingly burning for ever without consuming any fuel, their light flickering with an eerie green lustre. Fluted pilasters reach up to a row of pointed cupolas above
+0x059d  /  0x2bb4 (0x005b)  : . The heavy wooden counters are strewn with bizarre apparatus: glass bottles and tubes of every shape imaginable, strangely-coloured fluids, and sinister metal instruments litter every available surface. There is a strong chemical smell, and one wall is blackened, as though by an explosion. The word "SEE" has been scratched in the soot
+0x059e  /  0x2c11 (0x0026)  : . The great metal skylight in the ceiling is jammed half-way shut, allowing the dismal light from outside to slink miserably around the room
+0x059f  /  0x2c38 (0x0029)  :  where little trickles of dust and stones continually shower from ceiling, and every slightest sound sets off an ominous rumbling behind the cracked stone walls
+0x05a0  /  0x2c62 (0x0013)  : , its ceiling bulging towards the ground, its walls bowing outwards
+0x05a1  /  0x2c76 (0x006c)  : . Padded leather couches are pushed against the walls, interspersed with saggy chintz-covered armchairs. A small table holds a jigsaw picturing a moonlit graveyard, complete except for one last piece, which, as with all jigsaws, is missing. A painting on the wall shows a family of ghouls feasting in a dungeon crypt, and a small brass plaque beneath reads "His Fifteenth Birthday"
+0x05a2  /  0x2ce4 (0x000f)  : , every wall lined with books, from floor to ceiling
+0x05a3  /  0x2cf4 (0x0010)  :  and the musty smell of old books chokes the air
+0x05a4  /  0x2d05 (0x0008)  : , surrounded by dark shadows
+0x05a5  /  0x2d0e (0x0057)  : . The bare oak walls are warped and split. In one corner, a pile of bones lies huddled amid the tattered remnants of a monk's habit and cowl, and the broken shards of a sword gleam dully. On the wall above, the word "DET" is scrawled in dark, dried fluid
+0x05a6  /  0x2d67 (0x0020)  :  where an icy wind blows from nowhere into nowhere, wailing like a lost soul in the empty midnight hours
+0x05a7  /  0x2d88 (0x0033)  : . The walls are covered with stamped bronze panels, their delicate traceries of spring flowers and newly-opened leaves picked out in gold and silver, with precious gems glinting in their hearts
+0x05a8  /  0x2dbc (0x0033)  :  to the east of the painting gallery. It is a small space, hung with long velvet curtains in a comfortable shade of wine red. A stone staircase rises up through its ceiling
+0x05a9  /  0x2df0 (0x003f)  : , hacked from the damp earth, and shored up with blackened timbers. Roots trail down from the ceiling, their tendrils groping for moisture in the empty air, and wriggling bundles of pale, eyeless worms squirm upon the floor
+0x05aa  /  0x2e31 (0x0041)  : , where the air is dry and the earthen walls are sealed with a rough coating of yellow clay. A cool breeze stirs the air, and from far, far away, a faint rumbling boom echoes with the sound of running water
+0x05ab  /  0x2e74 (0x004a)  :  where every plane runs where it will, with a total disregard for correct interspacial relationships. The angles where they join are insane, eye-wrenching collisions between walls and floors, walls and ceilings, ceilings and floors - that defy comprehension and leave the observer's mind reeling
+0x05ac  /  0x2ec0 (0x0050)  :  that grope blindly from walls, floor and ceiling, wrapping round anything they touch, their suckers reaching out for living flesh. Fortunately, they cannot reach more than half a metre into the room, and those on the floor have been pruned so that they can do little but waggle their stumps
+0x05ad  /  0x2f12 (0x000c)  : . Great jars and bottles line the walls
+0x05ae  /  0x2f1f (0x0057)  :  panelled in mellow golden wood. Elegant wooden chairs stand against the far wall, and an inlaid table in the centre of the room holds a beautiful vase filled with dead flowers. Ornamental candelabra stand on small shelves at regular intervals along the walls. All the windows are firmly closed and shuttered
+0x05af  /  0x2f78 (0x001d)  : , almost completely filled by a huge, leather-and-wood porter's chair, which commands a view of every exit
+0x05b0  /  0x2f96 (0x001c)  :  of the ruined mansion; an imposing vestibule with a front door hewn from mighty oak planks
+0x05b2  /  0x2fb4 (0x002e)  : , its beautiful yellow wood pockmarked with thousands of little holes. Where a small piece of wood has fallen away, you can see a heaving mass of tiny beetles
+0x05b3  /  0x2fe3 (0x001f)  : , very cramped, and with cuphooks sticking into your back. Wooden shelves cover every wall except that which holds the door
+0x05b4  /  0x3003 (0x0056)  :  with walls intricately carved from elm wood. Most depict the pastoral life of some vaguely medieval era, and chubby peasants sport amid the summer hedges, rampant with sukebind. One of them shows an old man driving four cows to the milking, with but ten legs and one-and-a-half horns between them
+0x05b5  /  0x305b (0x001f)  : , carved from the living rock, its edges still jagged and raw. Stones and other debris litter the floor
+0x05b6  /  0x307b (0x002c)  : , though quite how you know this is hard to tell. It looks pretty much like any other wood-panelled passage and smells of stale, over-cooked cabbage
+0x05b7  /  0x30a8 (0x0025)  : , an octagonal room with a low, uneven ceiling. Splintered boxes litter the floor, their lids ripped off and the contents vanished
+0x05b8  /  0x30ce (0x005d)  :  where hundreds upon hundreds of tins of sardines are kept, all unopened. Some litter the floor around an old anvil, their sides dented as though someone had been hitting them repeatedly. Others have evidently been gnawed, and are full of teethmarks. In one corner lies a pile of tin openers, all bent and rusty and all broken
+0x05b9  /  0x312d (0x000c)  : , down which trickles a little stream of mud
+0x05ba  /  0x313a (0x0026)  :  with a large, circular table in its middle. Ancient weapons are hung upon the walls, and a great fireplace stands empty and cold
+0x05bb  /  0x3161 (0x002c)  :  hung with royal blue velvet curtains. A curious globe shines with a milky light, illuminating the silver traceries and arcane figures described upon the floor
+0x05bc  /  0x318e (0x0026)  :  that looks like the inside of a three-sided pyramid. A triangular chandelier made of dull grey metal hangs down from the apex of the roof
+0x05bd  /  0x31b5 (0x0051)  : : a rather pokey room in which are kept all kinds of stationery. Sheets of rich, creamy parchment are piled next to reams of yellowing paper. Quills, ink, chalks, charcoal, painting materials and books of gold and silver leaf are neatly contained in wooden pigeon-holes
+0x05be  /  0x3208 (0x003e)  :  which once housed bales of cloth and sheets of fine leather. Silks, velvets, furs, needles and pins: all have now rotted or rusted away, and their remains are a playground for mice and running spiders
+0x05bf  /  0x3247 (0x002b)  : . Every surface is lacquered a different shade of red, and any patterns are done in black, so that the effect is hot, dry, and thirsty
+0x05c0  /  0x3273 (0x0034)  : . Artificial grass sprouts from every available surface, and silk flowers nod in a fan-assisted breeze. A broken pipe,running through the ceiling, presents a fair approximation of rain
+0x05c1  /  0x32a8 (0x0029)  :  made of rickety wood, that climb through a narrow stone shaft from darkness into darkness. The sound of running water booms faintly in the distance
+0x05c2  /  0x32d2 (0x0035)  :  whose floor and ceiling curve towards each other until they meet in an uneven point at the southern end. Here loose stones have tumbled from the roof, to lie scattered on the floor
+0x05c3  /  0x3308 (0x0020)  : , its floor some inches below the thresholds leading into it, trapping ankle-high, sludgy-black water. It smells of fish
+0x05c4  /  0x3329 (0x0021)  : . Censers hang from the walls, giving forth a thick, cloying smoke whose sweetness cannot hide their underlying fetidity
+0x05c5  /  0x334b (0x0009)  :  with whitewashed walls and polished floor
+0x05c6  /  0x3355 (0x0023)  :  or perverted vestry. Dull purple and black robes hang from hooks along one wall, and diabolical instruments from another
+0x05c7  /  0x3379 (0x000c)  :  filled with bales of straw and reeds
+0x05c8  /  0x3386 (0x002c)  : . Ham bones hang from the ceiling, the flesh long since stripped from them by enterprising mice and ants, and the shelves are bare of all save stains
+0x05c9  /  0x33b3 (0x0019)  : . Water drips monotonously from the ceiling, and meanders down the walls in sad little trickles
+0x05ca  /  0x33cd (0x0015)  : , whose freezing air catches in your throat and numbs your nose and ears
+0x05cb  /  0x33e3 (0x003b)  : , a nasty place that at some time has been used as a stillroom. Several green bottles rest on a low partition, and lie scattered around a complicated distillation apparatus. Shards of glass litter the floor
+0x05cc  /  0x341f (0x0014)  : : scarcely a corridor at all - more a store room with exits
+0x05cd  /  0x3434 (0x0017)  :  with a repeating pattern of dinky milk jugs, apples, and dead peasants
+0x05ce  /  0x344c (0x0005)  : , squeezing tightly
+0x05cf  /  0x3452 (0x0012)  :  that backs onto nothing, and leads out into a mist-shrouded plain
+0x05d0  /  0x3465 (0x0029)  : . Where the light falls, you can see the fossilized remains of giant snails, and other, even less attractive, creatures, embedded in the walls
+0x05d1  /  0x348f (0x0010)  :  whose surroundings are difficult to make out in the flickering light
+0x05d2  /  0x34a0 (0x0027)  : , The floor gives like squelchy elastic beneath your feet, oozing water as it does so, and vivid blotches of fungal growth stain the walls
+0x05d3  /  0x34c8 (0x0045)  : . Quartz crystals sparkle, many-coloured, in the walls, and delicate stone pillars soar into darkness, towards an unseen roof. Water cascades over tumescent stone the colour of candy floss, and babbles melodically across the cavern floor in a little runnel
+0x05d4  /  0x350f (0x0068)  : , a small cave, carved by the passage of water long since gone, into fantastic shapes and hollows. Here is the likeness of a lion's head; there, a whale sports amid the billowing waves. Crystalline angels flit beneath the roof, their wings alive with gemstones, and on the floor below writhe sparkling snakes, each coil the work of a thousand thousand years
+0x05d5  /  0x3579 (0x000c)  :  that creak and quiver ominously beneath your feet
+0x05d6  /  0x3586 (0x005b)  :  that would have done credit to Dr. Frankenstein's madder moments. Huge machines lurk against the walls, their sides studded with dials and levers. A hydraulic lift, now hopelessly corroded, reaches up towards the domed roof, and a maniacal network of wires runs from a complicated junction box, up through the dome
+0x05d7  /  0x35e3 (0x003e)  : , which is confusing at first, until you get the hang of scrabbling around the glassy-smooth floor and clawing your way into the passage of your choice. (It's a bit like those bowls you get at the bottom of helter-skelters)
+0x05d8  /  0x3622 (0x001f)  : , which is a strange place to find yourself at the best of times. Have you checked your sanity lately?
+0x05d9  /  0x3642 (0x0010)  : , which is short, made of stone, and generally stereotypical
+0x05da  /  0x3653 (0x0033)  : . There are a lot of these about. This one is suspiciously empty, but you receive the impression that it has been until recently in use. A strong smell of formalin lingers in the air
+0x05db  /  0x3687 (0x002b)  : . The air sparkles with flecks of multicoloured light, and there is a strange murmuring, as though crowd of people were passing somewhere just out of sight
+0x05dc  /  0x36b3 (0x0029)  : . A notice on the wall reads: "No singing, sudden movements, or children allowed. All breakages must be paid for before execution"
+0x05dd  /  0x36dd (0x001c)  : , a motley collection of monstrosities on the "chubby child" theme so beloved by previous generations
+0x05de  /  0x36fa (0x0025)  : , which has that air of silent awareness that a building acquires after years of abandonment. The curving walls seem to close in around you
+0x05df  /  0x3720 (0x001a)  :  that wind round and round a central pillar, their worn stone treads cold beneath your feet
+0x05e0  /  0x373b (0x001d)  :  that seem to go on forever. The air feels rarified, as though you are at a great height
+0x05e1  /  0x3759 (0x0013)  : , and your head reels from the continual anti-clockwise spiral of your passage
+0x05e2  /  0x376d (0x000c)  : , and a cold chill clamps around your heart
+0x05e3  /  0x377a (0x000c)  : , and a cold chill clamps around your heart
+0x05e4  /  0x3787 (0x000c)  : , and a cold chill clamps around your heart
+0x05e5  /  0x3794 (0x000f)  : , among the dust and cobwebs of the northern end
+0x05e6  /  0x37a4 (0x0019)  : , so dark that it is impossible to make out any details: all the shapes merge together
+0x05e7  /  0x37be (0x0015)  :  like an enclosed cloister, that stretches north and south from where you stand
+0x05e8  /  0x37d4 (0x000f)  :  and your every footstep echoes between its fluted pillars
+0x05e9  /  0x37e4 (0x0017)  : , at its southern end, where shadows lurk in every corner and hollow echoes sound
+0x05ea  /  0x37fc (0x0059)  : , its pale wooden panels inset with flowers of mother-of-pearl and the subtle green stone. Glass display cases stand at intervals around the room, each containing one or two superb examples of carved jade: dragons, laughing Buddhas, horses and warriors; and one sombre-faced likeness of the August Personage of Jade
+0x05eb  /  0x3857 (0x0023)  : , where representations of cruel and ancient gods alternate with the death masks of notables from the "Murderers' Who's Who"
+0x05ec  /  0x387b (0x0036)  : , a magnificent edifice with walls of white marble, and a floor chequered in black and red tiles. Echoes trickle around the walls, eerily mocking your footsteps and amplifying the sound of your breathing
+0x05ed  /  0x38b2 (0x0037)  : , its pointed roof supported on four huge columns of figured marble. Two griffins rampant guard the tops of the two staircases that ascend from the plain below, their mighty wings upraised
+0x05ee  /  0x38ea (0x0032)  : , where phantom voices weep and whisper, calling you from far away. Strange lights flicker behind the trembling veils of cloud, and unseen things caress your hands and face
+0x05ef  /  0x391d (0x0024)  : , its round sides towering up some twenty metres above you. It is completely empty, and strange echoes run along its walls
+0x05f0  /  0x3942 (0x0036)  : , a small chamber, whose walls are carved with the graffiti of a dozen times and tongues. Only one is clear to you. It reads: "Smorzzen hsorke qreirkl vemz? Tnzerwtnz!"
+0x05f1  /  0x3979 (0x000f)  : , devoid of anything except an air of lurking terror
+0x05f2  /  0x3989 (0x001a)  : , a simple, bijou resting place, fashioned from platinum and diamonds, with ruby trim
+0x07d0  /  0x39a8 (0x0004)  : you are on 
+0x07d1  /  0x39ad (0x0004)  : you are in 
+0x07d3  /  0x39b3 (0x0007)  : you can't use the word 
+0x07d4  /  0x39bb (0x0003)  :  like that
+0x07d5  /  0x39bf (0x0007)  : I don't know the word 
+0x07da  /  0x39c8 (0x000a)  : I don't understand what you mean by that
+0x07db  /  0x39d3 (0x0003)  : you can't see
+0x07dc  /  0x39d7 (0x0003)  : you don't have
+0x07dd  /  0x39db (0x0004)  : you already have
+0x07e1  /  0x39e1 (0x0004)  : it's not there. 
+0x07e4  /  0x39e7 (0x0005)  : don't be silly. 
+0x07e5  /  0x39ed (0x0005)  : strange concept. 
+0x07e6  /  0x39f3 (0x0005)  : say what? 
+0x07e7  /  0x39f9 (0x0005)  : nice try. 
+0x07ee  /  0x3a00 (0x0006)  : leave it alone. 
+0x07ef  /  0x3a07 (0x0005)  : forget about it. 
+0x07f0  /  0x3a0d (0x0004)  : ignore it. 
+0x07f1  /  0x3a12 (0x0009)  : you must supply an object. 
+0x07f2  /  0x3a1c (0x0009)  : that verb needs an object. 
+0x07f3  /  0x3a26 (0x0007)  : could you elaborate? 
+0x07f4  /  0x3a2e (0x0006)  : absolutely nothing happens. 
+0x07f7  /  0x3a36 (0x0006)  : what a mouthful! 
+0x07fa  /  0x3a3e (0x0003)  : you can't 
+0x07fc  /  0x3a43 (0x0003)  : you can't 
+0x07fd  /  0x3a47 (0x0002)  : that. 
+0x0802  /  0x3a4b (0x000a)  : the previous command was not repeatable. 
+0x0803  /  0x3a56 (0x0006)  : you can't repeat that. 
+0x0804  /  0x3a5d (0x000c)  : it wouldn't help to try that again. 
+0x0805  /  0x3a6a (0x000c)  : it's not clear to what IT is referring. 
+0x0807  /  0x3a78 (0x0003)  : (removing
+0x0808  /  0x3a7c (0x0002)  : from the
+0x0809  /  0x3a7f (0x0004)  : first). 
+0x080c  /  0x3a85 (0x000b)  : enjoy talking to yourself, do you?
+0x080d  /  0x3a91 (0x000d)  : you can't talk to several people at once. 
+0x080e  /  0x3a9f (0x0008)  : stops, looking confused. 
+0x080f  /  0x3aa8 (0x0004)  : looks puzzled. 
+0x0810  /  0x3aad (0x0005)  : seems annoyed. 
+0x0811  /  0x3ab3 (0x000c)  : looks around, as if searching for something. 
+0x0812  /  0x3ac0 (0x0003)  : drops 
+0x0813  /  0x3ac4 (0x0003)  : takes 
+0x0814  /  0x3ac8 (0x0003)  : gives 
+0x0815  /  0x3acc (0x0003)  : opens 
+0x0816  /  0x3ad0 (0x000c)  : you hear a scream from somewhere in the distance
+0x0817  /  0x3add (0x0007)  :  won't let you. 
+0x0818  /  0x3ae5 (0x000b)  : has too firm a grip on it. 
+0x0819  /  0x3af1 (0x0012)  : the statue gives you a stony look and doesn't accept it. 
+0x0820  /  0x3b05 (0x0017)  : Do you really. From your efforts to date, I would never have guessed. 
+0x0821  /  0x3b1d (0x0005)  : why not? 
+0x0822  /  0x3b23 (0x0008)  : you sound very positive today. 
+0x0823  /  0x3b2c (0x000a)  : isn't that a trifle negative! 
+0x0834  /  0x3b38 (0x009b)  : Welcome to the Price of Magik, the third part of Time and Magik, copyright (c) 1988 from Level 9 and Mandarin. 
+ 
+The Red Moon crystal was recovered and guarded for many years, gaining intensity. But its power proved too tempting for one magician; Myglar by name. Thinking to have eternal life, he stole the moon and locked himself away. One last hero would have to defeat this last threat to history and recover the crystal, even if it meant paying the price of magik...
+0x0835  /  0x3bd6 (0x0003)  : you can't see
+0x0836  /  0x3bda (0x0003)  : you don't have
+0x0837  /  0x3bde (0x0004)  : you already have
+0x0838  /  0x3be3 (0x0006)  : you can't see that here. 
+0x083a  /  0x3beb (0x0008)  : you own nothing at all! 
+0x083c  /  0x3bf5 (0x0006)  : it is pitch dark. 
+0x083d  /  0x3bfc (0x0004)  : nothing happens. 
+0x083e  /  0x3c01 (0x0008)  : doesn't seem to work. 
+0x083f  /  0x3c0a (0x0006)  : there is no effect. 
+0x0840  /  0x3c11 (0x000b)  : it looks exactly as you would expect. 
+0x0841  /  0x3c1d (0x0003)  :  nothing. 
+0x0842  /  0x3c21 (0x0008)  : you can't go that way. 
+0x0843  /  0x3c2a (0x0007)  : you bump into the door. 
+0x0844  /  0x3c32 (0x0007)  : the door closes behind 
+0x0845  /  0x3c3a (0x0006)  : it's already open. 
+0x0847  /  0x3c42 (0x0003)  : you find
+0x0848  /  0x3c46 (0x0006)  : you can't move that. 
+0x0849  /  0x3c4d (0x0006)  : it doesn't budge. 
+0x084a  /  0x3c54 (0x0006)  : it won't move. 
+0x084b  /  0x3c5b (0x0007)  : you can't put it there. 
+0x084d  /  0x3c64 (0x0007)  : you can't go there! 
+0x084e  /  0x3c6c (0x000a)  : you'll have to drop it first. 
+0x084f  /  0x3c77 (0x0006)  : you can't climb that. 
+0x0851  /  0x3c7f (0x0009)  : wheee! That was fun. 
+0x0852  /  0x3c89 (0x0005)  : I can't see it. 
+0x0853  /  0x3c8f (0x0006)  : you're on it! 
+0x0854  /  0x3c96 (0x0003)  : what? 
+0x0855  /  0x3c9a (0x0003)  : where? 
+0x0856  /  0x3c9e (0x0007)  : you're wearing it! 
+0x0857  /  0x3ca6 (0x000d)  : Please try again, saying what with? 
+0x0858  /  0x3cb4 (0x0003)  : which one?
+0x0859  /  0x3cb8 (0x0003)  : at what?
+0x085a  /  0x3cbc (0x0009)  : you can't carry any more. 
+0x085b  /  0x3cc6 (0x0004)  : is full. 
+0x085e  /  0x3ccc (0x0006)  : you can't wear that. 
+0x085f  /  0x3cd3 (0x0008)  : you can't reach it from here. 
+0x0860  /  0x3cdc (0x0004)  : don't bother. 
+0x0861  /  0x3ce1 (0x000b)  : that would be a waste of time. 
+0x0862  /  0x3ced (0x0005)  : that's pointless. 
+0x0863  /  0x3cf3 (0x0008)  : you're already wearing that. 
+0x0864  /  0x3cfc (0x0008)  : you don't need to do that. 
+0x0865  /  0x3d05 (0x0013)  : you slither down a greasy chute, which slams shut behind you. 
+0x0866  /  0x3d19 (0x0003)  : taken. 
+0x0867  /  0x3d1d (0x0003)  : dropped. 
+0x0868  /  0x3d21 (0x0003)  : worn. 
+0x0869  /  0x3d25 (0x0003)  : OK. 
+0x086a  /  0x3d29 (0x0004)  : yeuch! 
+0x086b  /  0x3d2e (0x0005)  : time passes. 
+0x086c  /  0x3d34 (0x0003)  : said. 
+0x086d  /  0x3d38 (0x0005)  : most refreshing. 
+0x0870  /  0x3d3f (0x000a)  : YES or NO please.
+
+0x087c  /  0x3d4b (0x0006)  : nobody wants that. 
+0x087d  /  0x3d52 (0x0006)  : you hear nothing special. 
+0x087e  /  0x3d59 (0x0007)  : you smell nothing special. 
+0x087f  /  0x3d61 (0x0008)  : "Hullo, boss". 
+0x0880  /  0x3d6a (0x000a)  : you polish it till it shines. 
+0x0884  /  0x3d76 (0x002e)  : a bolt of lightning sears out of the blue, sizzling past your ears and only just missing you. A deep voice thunders: "Watch your language!"
+0x088e  /  0x3da6 (0x0001)  : (
+0x088f  /  0x3da8 (0x0002)  : ). 
+0x0898  /  0x3dac (0x0006)  : really restart? 
+0x0899  /  0x3db3 (0x000c)  : 
+press space to play again. 
+0x089a  /  0x3dc0 (0x0006)  : really restore? 
+0x089b  /  0x3dc7 (0x000b)  : 
+please answer YES or NO
+0x089e  /  0x3dd4 (0x000e)  : you seem to be dead. You got to be 
+0x089f  /  0x3de3 (0x0009)  : do you want to continue? 
+0x08a0  /  0x3ded (0x0007)  : your sanity is shaken. 
+0x08a1  /  0x3df5 (0x001f)  : the adventure is over. 
+Which do you want to do, RESTART, RESTORE, UNDO or RAM RESTORE? 
+0x08ca  /  0x3e16 (0x0003)  : an archmage
+0x08cb  /  0x3e1a (0x0003)  : a mage
+0x08cc  /  0x3e1e (0x0003)  : a wizard
+0x08cd  /  0x3e22 (0x0003)  : a magician
+0x08ce  /  0x3e26 (0x0003)  : a sorcerer
+0x08cf  /  0x3e2a (0x0003)  : a spellbinder
+0x08d0  /  0x3e2e (0x0003)  : a shaman
+0x08d1  /  0x3e32 (0x0003)  : a soothsayer
+0x08d2  /  0x3e36 (0x0003)  : a conjuror
+0x08d3  /  0x3e3a (0x0005)  : a sorcerer's apprentice
+0x08d4  /  0x3e40 (0x0003)  : a novice
+0x08de  /  0x3e45 (0x000c)  : sorry: I can't help you with this one. 
+0x08df  /  0x3e52 (0x000d)  : try climbing the vine or opening the door. 
+0x08e0  /  0x3e60 (0x000a)  : perhaps you need magical help. 
+0x08e1  /  0x3e6b (0x000b)  : the eyebright may be of some assistance. 
+0x08e2  /  0x3e77 (0x0016)  : you don't have to SMASH the mirror to get rid of it. Good grief!
+0x08fc  /  0x3e8f (0x0013)  : UNDO and RAM SAVE/RESTORE don't work in this version. 
+0x0904  /  0x3ea4 (0x000e)  : can't use UNDO to go back further than this. 
+0x0905  /  0x3eb3 (0x002a)  : 
+(This version allows you to use RAM SAVE and RAM RESTORE to save a position in memory, and UNDO to retrace your steps). 
+0x0906  /  0x3ede (0x0026)  : can't return to that saved position in memory. Perhaps you've turned off the computer, or reloaded the game, since it was saved. 
+0x090c  /  0x3f06 (0x007f)  : 
+Well done! You have solved the entire trilogy with a display of supreme brilliance, cleverness, ingenuity, intelligence, perspicacity, insight, intuition, sagacity, imagination, wisdom and sheer genius. Not to mention enduring persistence. This proves you to be an intellectual, mastermind and mental giant, all rolled into one. In fact, I'm sure you'd be running the country right now, if you weren't so honest! Congratulations! 
+0x090f  /  0x3f89 (0x0075)  : This game was designed and programmed by Mike, Nick and Pete Austin, with additional text from Ruth Pracey and pictures by Godfrey Dowson. It is copyright (C) 1988 Level 9 Computing, who can be contacted at PO Box 39, Weston-super-Mare, Avon BS24 9UR, England. If you want cluesheets, please enclose a self-addressed envelope and a stamp or four international reply coupons
+0x0910  /  0x4000 (0x000b)  : sorry, you're on your own here. 
+0x0960  /  0x400d (0x0006)  : really restore? 
+0x0961  /  0x4014 (0x001d)  : remove the Time and Magik disc, insert your formatted save position disc and press a key. 
+0x0962  /  0x4032 (0x001e)  : now pull your save position disc out and stuff the Time and Magik disc back in.
+ 
+
+0x0968  /  0x4052 (0x000f)  : I can't use UNDO to go back further than this. 
+0x0969  /  0x4062 (0x0027)  : (this version allows you to use RAM SAVE and RAM RESTORE to save a position in memory, and UNDO to retrace your steps). 
+0x096a  /  0x408a (0x0026)  : I can't find that saved position in memory. Perhaps you've turned off the computer, or reloaded the game, since it was saved. 
+0x096b  /  0x40b1 (0x0024)  : you're about to move to another part of the game. Do you want to save your position first, just in case? 
+0x096c  /  0x40d6 (0x0010)  : that data was probably not saved from Time and Magik. 
+0x096d  /  0x40e7 (0x000a)  : play the program cassette containing "
+0x096e  /  0x40f2 (0x0007)  : Lords of Time". 
+0x096f  /  0x40fa (0x0006)  : Red Moon". 
+0x0970  /  0x4101 (0x0007)  : Price of Magik". 
+0x09c4  /  0x410a (0x001b)  : the mandrake is snoozing peacefully in one corner of the garden, snoring a little, buzzing snore. 
+0x09c5  /  0x4126 (0x001d)  : the mandrake screams in terror as you grab its leaves, flailing ineffectually at your hands with its tendrils. 
+0x09c6  /  0x4144 (0x0017)  : you brutally wrench it from the ground, and some things fall out of its roots. 
+0x09c7  /  0x415c (0x0013)  : you release the leaves and the mandrake heaves a sigh of relief.
+0x09c8  /  0x4170 (0x0007)  : it is burning weakly. 
+0x09c9  /  0x4178 (0x0013)  : the last of the candle burns away: it flickers and goes out. 
+0x09ca  /  0x418c (0x0014)  : the woodpile bursts into flames and within moments is reduced to ashes. 
+0x09cb  /  0x41a1 (0x0005)  : you can't light it. 
+0x09cc  /  0x41a7 (0x000a)  : you rub the eyebright into your eyes. 
+0x09cd  /  0x41b2 (0x0009)  : the mirror is in the way. 
+0x09ce  /  0x41bc (0x0016)  : CRASH. CRUNCH. TINKLE. The mirror breaks into thousands of little pieces. 
+0x09cf  /  0x41d3 (0x0026)  : you score out a neat circle of glass and tap it gently. As it falls away, the rest of the mirror shimmers and disappears. 
+0x09d0  /  0x41fa (0x0009)  : you have no source of fire. 
+0x09d1  /  0x4204 (0x001f)  : the nasty suddenly discovers a little hole in the floorboards, and with a chirruping cry of delight slithers into it. 
+0x09d2  /  0x4224 (0x0007)  : the candle goes out. 
+0x09d3  /  0x422c (0x0004)  : rat-a-tat-tat! 
+0x09d4  /  0x4231 (0x001e)  : You gingerly climb the ancient rope, your hands slipping every now and then on its greasy surface. 
+0x09d5  /  0x4250 (0x000b)  : the door creaks slowly open... 
+0x09d8  /  0x425d (0x000f)  : you can hear vile slithering noises coming towards you. 
+0x09d9  /  0x426d (0x000b)  : the squelching noises are getting closer. 
+0x09da  /  0x4279 (0x0017)  : A nameless horror rears from the gloom. You pass out from sheer terror. 
+0x09db  /  0x4291 (0x0007)  : the noises die away. 
+0x09dc  /  0x4299 (0x0003)  : you are 
+0x09e2  /  0x429e (0x000a)  : it is less than half burnt. 
+0x09e3  /  0x42a9 (0x000a)  : it is more than half burnt. 
+0x09e4  /  0x42b4 (0x000c)  : there is only a tiny stump left. 
+0x09eb  /  0x42c2 (0x007b)  : the bat disappears into the mist, then after a short time, reappears, dragging a wheel that bobs along a few inches off the ground. The bat is straining fit to bust, its little veins bulging and its ears screwed up with concentration, but it obeys your command faithfully, and only drops the wheel when it can see you again - about two inches from the end of your nose. The wheel lands on your foot. 
+0x09ec  /  0x433f (0x002d)  : you almost fall over a wheel that some idiot has left lying about. Fortunately, you regain your balance, but the wheel bowls off out of sight into the mist. 
+0x09ed  /  0x436d (0x0014)  : you can't seem to find it. The mist is really very thick in here. 
+0x09ee  /  0x4382 (0x000c)  : the panels on the east wall sound hollow. 
+0x09ef  /  0x438f (0x0007)  : the panels sound normal. 
+0x09f0  /  0x4397 (0x005a)  : you try all the panels in turn, working from the north end, southwards. About two thirds of the way along, one of them gives slightly under your groping fingers, you hear a quiet "snick", and the whole group of panels around the one you have pushed swing open. You have found a secret door. 
+0x09f1  /  0x43f3 (0x0008)  : ding. Dong etc. 
+0x09f6  /  0x43fd (0x0006)  : the chest is coloured 
+0x09f7  /  0x4404 (0x0007)  : the chests are coloured 
+0x09f8  /  0x440c (0x0046)  : as you start to lift the lid, there is a flash of light and an enormous explosion. You are flung backwards, slam into the wall, and slide gracefully down it to rest in a crumpled heap upon the floor. Shards of pulverised chest rain down upon you. 
+0x09f9  /  0x4454 (0x0005)  : it is closed. 
+0x09fa  /  0x445a (0x0007)  :  (which is open)
+0x09fb  /  0x4462 (0x0005)  : it is empty. 
+0x0a00  /  0x4469 (0x000c)  : it is too far above your head. 
+0x0a01  /  0x4476 (0x0009)  : it reads: "HYP". 
+0x0a02  /  0x4480 (0x000d)  : you'll need to be much higher than this!
+0x0a05  /  0x448f (0x0018)  : the sword abruptly drops from sight, and you hear clattering noises in the room below. 
+0x0a06  /  0x44a8 (0x0010)  : you could cut yourself, playing with swords like that. 
+0x0a07  /  0x44b9 (0x000c)  : the hilt is firmly fixed in the ceiling. 
+0x0a0a  /  0x44c7 (0x0019)  : the curtain is in the way, its velvet folds as immovable as the mountains of Zwang. 
+0x0a0b  /  0x44e1 (0x0015)  : your blow lands on the enchanted curtain, and it shimmers and fades away. 
+0x0a0f  /  0x44f8 (0x0008)  : you dig a little hole. 
+0x0a10  /  0x4501 (0x0008)  : you fill it in again. 
+0x0a11  /  0x450a (0x0004)  : you throw 
+0x0a12  /  0x450f (0x0005)  : into the hole. 
+0x0a13  /  0x4515 (0x0011)  : I think you should fill in your last hole first. 
+0x0a14  /  0x4527 (0x000d)  : the ground is too hard for digging here. 
+0x0a15  /  0x4535 (0x0008)  : you have nothing to dig with. 
+0x0a16  /  0x453e (0x000b)  : you cut a staff from the vine. 
+0x0a32  /  0x454b (0x0113)  : the bat flies out of the cage, obviously furious at its imprisonment. "Do you realize how much money you've cost me, keeping me cooped up in that *!@** thing?" It squeaks venomously. 
+ 
+"And what about my work, eh? What do you think will happen without me to do the voice-overs on the phone lines? I'll tell you what will happen - everybody will think the Company's got it right at last, and all those nasty articles will disappear from the papers, and those competitions that give everyone so much fun, you know the "Find Something Nice to Say about Telecom and Win a Free Telegraph Pole" kind of thing, will stop running, and newspaper sales will plummet and they'll lose all that lovely free publicity, that's what will happen. And it will all be your fault! Moron! Fink!" And it beats you about the head with its leathery wings. 
+0x0a33  /  0x4663 (0x000d)  : the bat seems to be worried about something. 
+0x0a34  /  0x4671 (0x0073)  : the bat sees the bloodworm, (even he can't miss a thing that size) and swoops upon it with a happy cry. The bloodworm howls, turns tail and lollops off into the gloom, hotly pursued by the bat. Unfortunately, the little pest is back within moments, his small shoulders quivering as he tries to get his breath. "Lost the fat ***!" He wheezes bitterly. 
+0x0a35  /  0x46e6 (0x000b)  : the bat deftly avoids your grasp. 
+0x0a36  /  0x46f2 (0x000b)  : the bat can't manage to lift it. 
+0x0a37  /  0x46fe (0x0012)  : the fish tries to grab it with one fin, but fails. 
+0x0a38  /  0x4711 (0x000e)  : you can't get a grip on it with your fin. 
+0x0a3c  /  0x4721 (0x000d)  : somewhere nearby, you hear a clock strike. 
+0x0a3d  /  0x472f (0x0008)  : the clock goes BOM. 
+0x0a3e  /  0x4738 (0x0005)  : the time is 
+0x0a3f  /  0x473e (0x0003)  :  am
+0x0a40  /  0x4742 (0x0003)  :  pm
+0x0a41  /  0x4746 (0x0014)  : the salt hits the slug and it howls and gallops away, fizzling. 
+0x0a42  /  0x475b (0x002b)  : on top of the altar is a small recess in which the red moon used to rest. In this recess is inscribed in golden letters the word "DED". 
+0x0a43  /  0x4787 (0x0023)  : as soon as you touch the moon, a thrill runs through your body, and you feel very youthful. You recoil in surprise. 
+0x0a44  /  0x47ab (0x001f)  : as soon as you touch the moon, a searing pain tears through your body, and you recoil in anguish. 
+0x0a46  /  0x47cc (0x0019)  : as you go through the door, an axe falls from above, dealing you a grievous wound
+0x0a47  /  0x47e6 (0x000d)  : you hear a scream of pain from the south. 
+0x0a4b  /  0x47f5 (0x0006)  : leans across and 
+0x0a4c  /  0x47fc (0x000e)  : it seems to be locked from the other side. 
+0x0a50  /  0x480c (0x001f)  : says, "Before you may enter the tomb of Myglar, you must tell me the answer to the riddle"
+0x0a52  /  0x482d (0x0009)  : says, "Pass, master"
+0x0a5a  /  0x4838 (0x000d)  : the seething ants are between you and the door. 
+0x0a5b  /  0x4846 (0x0008)  : you float over the ants. 
+0x0a5f  /  0x4850 (0x0010)  : as you approach the talisman, the weight wobbles ominously. 
+0x0a60  /  0x4861 (0x000b)  : as it moves, you hear a click. 
+0x0a61  /  0x486d (0x000f)  : the weight comes crashing down, squelching you beneath it. 
+0x0a62  /  0x487d (0x0021)  : a sudden thrill of terror runs down your spine, as though danger is imminent, and you leap backwards in panic. 
+0x0a63  /  0x489f (0x0011)  : the weight stays right where it is, suspended by your spell. 
+0x0a64  /  0x48b1 (0x0012)  : the weight crashes to the ground, crushing the altar beneath it. 
+0x0a65  /  0x48c4 (0x0016)  : the weight is hanging above the altar, with no apparent means of support. 
+0x0a66  /  0x48db (0x0012)  : the weight is squatting on the ground where the altar once was. 
+0x0a69  /  0x48ef (0x0016)  : there is a flash, and you feel yourself being propelled through space... 
+0x0a6a  /  0x4906 (0x0011)  : the black ball absorbs the spell, but crumbles into dust. 
+0x0a6e  /  0x4919 (0x003c)  : 
+ 
+Well done, you have won the right to take Myglar's place as guardian of the Red Moon crystal! There are two alternate views of your future. Do you want the good version? 
+0x0a6f  /  0x4956 (0x0043)  : you live in a luxurious castle as an all-powerful magician, tended hand and foot by loyal servants. Everyone lives in awe of your wise magik and every millennium is more enjoyable than the last. You have beaten the Price of Magik! 
+0x0a70  /  0x499b (0x005b)  : the quest for magik has driven you absolutely stark, staring mad. You spend your time incarcerated in a modern asylum, cared for by efficient nurses. They humour your obsession with chanting arcane gibberish and your screams of "ZAP" and "KIL" when they bring you your cocoa, so it's not a bad life. 
+0x0a78  /  0x49f9 (0x003b)  : "Greetings, human", the golem grunts, "We don't get many of your kind down here. I don't suppose you've got anything that I could wear instead of this scratchy mail suit?" 
+0x0a79  /  0x4a35 (0x001b)  : the golem thanks you curtly and quickly changes into the robes, handing you the silver mail. 
+0x0a7a  /  0x4a51 (0x0011)  : "Huh!, I have my pride you know!" 
+0x0a82  /  0x4a64 (0x0010)  : you can't pluck up the courage to go through the gateway. 
+0x0a83  /  0x4a75 (0x000e)  : head down, you charge right at the gate. 
+0x0a84  /  0x4a84 (0x0025)  : an invisible Something stops you and a phantom voice intones, "Before any enter, a gift must be offered to Myglar". 
+0x0a85  /  0x4aaa (0x0015)  : the voice says impatiently, "That won't do. Absolute rubbish!" 
+0x0a86  /  0x4ac0 (0x0012)  : the voice says, "Hmmm. I suppose that will do". 
+0x0a87  /  0x4ad3 (0x0004)  :  disappears. 
+0x0a88  /  0x4ad8 (0x0015)  : the voice says, "One gift is quite sufficient, thank you". 
+0x0a8c  /  0x4aef (0x0011)  : as you go through it, a monkey drops onto your back. 
+0x0a8d  /  0x4b01 (0x0036)  : there is a loud crack from the monkey, and something falls off with a clatter and rolls along the ground. The monkey leaps from your back and runs away, whimpering, its teeth chattering audibly. 
+0x0a8e  /  0x4b38 (0x0018)  : the monkey is clinging too tightly - it seems to be locked in its position. 
+0x0a8f  /  0x4b51 (0x0007)  : you start to shiver. 
+0x0a90  /  0x4b59 (0x0017)  : it may be your imagination, but the monkey seems to be shivering pretty violently. 
+0x0a91  /  0x4b71 (0x000c)  : your teeth start to clatter like castanets. 
+0x0a92  /  0x4b7e (0x0013)  : now you think you think you can hear the monkey's teeth chattering. 
+0x0a96  /  0x4b93 (0x0018)  : the ferryman rasps, "Hands off my boat, you ill-mannered little pod! "
+0x0a97  /  0x4bac (0x002a)  : the ferryman mutters, "The fee for a crossing is a single item. I don't care what, but I don't want no rubbish. Creep". 
+0x0a98  /  0x4bd7 (0x0017)  : the ferryman says grudgingly, "I suppose that will do. Get in, Creep". 
+0x0a99  /  0x4bef (0x0017)  : the ferryman pulls doughtily on his oars and the boat moves quietly through the water. 
+0x0a9a  /  0x4c07 (0x0021)  : he pulls the boat onto the shore, and waits for you to get out. "So long, Creep", he says. 
+0x0a9c  /  0x4c2a (0x0010)  : you jump out of the boat - into icy cold water. 
+0x0a9d  /  0x4c3b (0x0007)  : you flop into the water. 
+0x0a9e  /  0x4c43 (0x0011)  : you can't hold your breath for long enough to read anything. 
+0x0a9f  /  0x4c55 (0x000c)  : you flap about, desperately gasping for water. 
+0x0aa0  /  0x4c62 (0x0032)  : the ferryman stops you. "Oi, Creep, this river is a closed shop", he growls, champing his toothless jaws. "No crossing except by union labour". 
+0x0aaa  /  0x4c96 (0x0008)  : there is a feeling of magik. 
+0x0aab  /  0x4c9f (0x000e)  : toot, toot, SQUEEEEAL, toot... 
+0x0aac  /  0x4cae (0x0019)  : the web collapses in a sticky heap, and the spider runs away, gibbering with terror. 
+0x0aad  /  0x4cc8 (0x001a)  : the moonbeast sees its reflection, yelps with terror and gallops off into the gloom, gibbering. 
+0x0bb8  /  0x4ce6 (0x0003)  : does nothing
+0x0bb9  /  0x4cea (0x0004)  : is not affected
+0x0bba  /  0x4cef (0x0003)  : is unchanged
+0x0bc2  /  0x4cf4 (0x0002)  : do nothing
+0x0bc3  /  0x4cf7 (0x0004)  : are not affected
+0x0bc4  /  0x4cfc (0x0003)  : are unchanged
+0x0c1c  /  0x4d01 (0x0007)  : feel a bit crazy
+0x0c1d  /  0x4d09 (0x0004)  : growls angrily
+0x0c31  /  0x4d0f (0x0006)  : swings in a circle
+0x0c32  /  0x4d16 (0x0007)  : swings side to side
+0x0c33  /  0x4d1e (0x0004)  : wriggles a little
+0x0c44  /  0x4d24 (0x000a)  : you see a hidden exit leading 
+0x0c58  /  0x4d30 (0x0005)  : become a fish
+0x0c59  /  0x4d36 (0x0005)  : becomes a fish
+0x0c5a  /  0x4d3c (0x0006)  : becomes a stone fish
+0x0c6c  /  0x4d44 (0x0006)  : feel well again
+0x0c6d  /  0x4d4b (0x0006)  : looks very healthy now
+0x0c6e  /  0x4d52 (0x000f)  : shudders violently, as if struck a mortal blow
+0x0c80  /  0x4d63 (0x000b)  : feel a burning rage with the world
+0x0c81  /  0x4d6f (0x0013)  : jumps into the air, and comes charging at you with a terrifying scream
+0x0c94  /  0x4d84 (0x0006)  : are awake, dummy
+0x0c95  /  0x4d8b (0x000a)  : wakening THAT is beyond your power
+0x0c97  /  0x4d97 (0x0007)  : Myglar's already done that
+0x0c98  /  0x4d9f (0x001f)  : wakes with a jump, sees you, and flies off. In its panic, it drops the trumpet it was carrying
+0x0c99  /  0x4dbf (0x0002)  : wakes
+0x0c9a  /  0x4dc2 (0x0002)  : wakes
+0x0c9b  /  0x4dc5 (0x0002)  : wakes
+0x0c9c  /  0x4dc8 (0x0005)  : it's already awake
+0x0c9f  /  0x4dcf (0x006d)  : it comes to life. You see Myglar summoned to the council chamber, right here, in this very building. The assembled elders eye the psychotic wizard with distaste, awaiting his explanations. But, instead of addressing them, he shrieks: "ZAP!" And "KIL!" And hurls jagged lightning across the room. The scene flares, fades, and the wargame is still again
+0x0ca0  /  0x4e3e (0x001f)  : it comes to life. The healer looks into your eyes and mutters "FIX" in a cracked and scratchy voice
+0x0ca1  /  0x4e5e (0x0007)  : you are sucked into the picture
+0x0ca2  /  0x4e66 (0x000a)  : a dark spawn bursts out of the picture
+0x0ca3  /  0x4e71 (0x0018)  : the moonbeasts awaken and whimper miserably, cowering. They seem terrified of each other
+0x0ca4  /  0x4e8a (0x002b)  : the ghoul comes to life, steps down from the picture and eyes your flesh hungrily. "Richmond Hogsbody, I believe?" It says in a hollow voice
+0x0ca5  /  0x4eb6 (0x0013)  : the werewolves howl in chorus, then the picture becomes still again
+0x0ca6  /  0x4eca (0x0021)  : Myglar's image turns, stares from the wakened picture, and taunts you for your lack of success in getting to him. 
+0x0ca7  /  0x4eec (0x0011)  : In its frenzy, it breaks a claw on the frame. 
+0x0ca8  /  0x4efe (0x0005)  : are certainly not magik
+0x0ca9  /  0x4f04 (0x0003)  : it's not magik
+0x0caa  /  0x4f08 (0x0005)  : that's for the 
+0x0cab  /  0x4f0e (0x0003)  :  spell. 
+0x0cac  /  0x4f12 (0x0007)  : it's animated by powerful magik
+0x0cad  /  0x4f1a (0x0004)  : it's been animated
+0x0cae  /  0x4f1f (0x0003)  : it's enchanted
+0x0cbc  /  0x4f24 (0x0005)  : feel very secure
+0x0cd0  /  0x4f2b (0x000d)  : you see a vision of another place... 
+0x0cd1  /  0x4f39 (0x0003)  : nothingness. 
+0x0ce4  /  0x4f3e (0x000c)  : You are transported to another place.. 
+0x0cf8  /  0x4f4c (0x000b)  : you briefly see the inside of a wall. 
+0x0cf9  /  0x4f58 (0x000b)  : your astral self floats into another room
+0x0cfa  /  0x4f64 (0x000b)  : you're only an astral image! 
+0x0cfb  /  0x4f70 (0x0008)  : you return to your body. 
+0x0d0c  /  0x4f7a (0x0005)  : float into the air
+0x0d0d  /  0x4f80 (0x0008)  : sink back down to the ground
+0x0d0e  /  0x4f89 (0x0006)  : are floating in mid-air
+0x0d11  /  0x4f91 (0x0004)  : floats upwards
+0x0d12  /  0x4f96 (0x0004)  : sinks back down
+0x0d13  /  0x4f9b (0x0010)  : on the top of pedestal is the word 'DED'
+0x0d14  /  0x4fac (0x000b)  : shudders, but remains exactly where it is
+0x0d15  /  0x4fb8 (0x0012)  : floats upwards. It doesn't seem too happy about the experience
+0x0d16  /  0x4fcb (0x0004)  : is floating. 
+0x0d17  /  0x4fd0 (0x000a)  : it swings gently in the breeze. 
+0x0d19  /  0x4fdc (0x000b)  : the floor is so cold that you jump back. 
+0x0d20  /  0x4fe9 (0x0008)  : are wreathed in jagged lightning
+0x0d21  /  0x4ff2 (0x0008)  : is wreathed in jagged lightning
+0x0d22  /  0x4ffb (0x000f)  : Myglar cocks one finger and a thunderbolt smashes into you. 
+0x0d34  /  0x500c (0x000d)  : there is a thunderclap and all nearby magik is neutralized
+0x0d35  /  0x501a (0x0039)  : there is a loud thunderclap as Myglar's magik is neutralized. He crumples as Time regains its power, no longer held at bay by his spells. Finally, nothing remains of the proud wizard but ancient dust
+0x0d48  /  0x5055 (0x0008)  : realise that magik is a delusion
+0x0d49  /  0x505e (0x0020)  : stares at you from newly sane eyes, haunted by the final realization of his crimes, and unwillingly draws his sword
+0x0d5c  /  0x5080 (0x0004)  : feel terrified
+0x0d5d  /  0x5085 (0x0006)  : looks at you in terror
+0x0d5e  /  0x508c (0x0009)  : try to hide in a corner
+0x0d70  /  0x5097 (0x000f)  : start to hypnotize yourself, but think better of it
+0x0d71  /  0x50a7 (0x000c)  : doesn't have much of a mind to hypnotize
+0x0d72  /  0x50b4 (0x002d)  : says, "No chance, mate. The Ferryman's training manual, page 374, lines 7-9 gives three separate ways of nullifying that spell"
+0x0d73  /  0x50e2 (0x0007)  : laughs at your puny spell
+0x0d74  /  0x50ea (0x0005)  : looks at you expectantly
+0x0d75  /  0x50f0 (0x0004)  : ignores you. 
+0x0d76  /  0x50f5 (0x0004)  : looks stony. 
+0x0dac  /  0x50fb (0x0003)  : attack 
+0x0dad  /  0x50ff (0x0003)  : attacks 
+0x0dae  /  0x5103 (0x0003)  : with a 
+0x0daf  /  0x5107 (0x0002)  :  spell
+0x0db0  /  0x510a (0x0004)  : , causing 
+0x0db1  /  0x510f (0x0007)  :  points of damage. 
+0x0db2  /  0x5117 (0x000b)  : it is dead, the body vanishes. 
+0x0db3  /  0x5123 (0x0007)  :  point of damage. 
+0x0db6  /  0x512c (0x0008)  : . The blow strikes your 
+0x0db7  /  0x5135 (0x0008)  : . The blow strikes its 
+0x0db8  /  0x513e (0x0007)  : . The spell strikes your 
+0x0db9  /  0x5146 (0x0007)  : . The spell strikes its 
+0x0dba  /  0x514e (0x0005)  : , shattering it. 
+0x0dbb  /  0x5154 (0x0005)  : the spell strikes 
+0x0dbc  /  0x515a (0x0006)  :  spell wears off. 
+0x0dbd  /  0x5161 (0x0006)  :  but you dodge. 
+0x0dbe  /  0x5168 (0x0006)  :  but it dodges. 
+0x0dbf  /  0x516f (0x0012)  : you don't know that spell (if indeed it is a spell). 
+0x0dc0  /  0x5182 (0x0002)  : have 
+0x0dc1  /  0x5185 (0x0002)  : has 
+0x0dc2  /  0x5188 (0x0006)  :  stamina points. 
+0x0dc3  /  0x518f (0x0008)  : kill one whole ant. 
+0x0dc4  /  0x5198 (0x0009)  : kills an ant. Wow. 
+0x0dc5  /  0x51a2 (0x0005)  :  (which has 
+0x0dc6  /  0x51a8 (0x0009)  :  stamina points left). 
+0x0dc7  /  0x51b2 (0x000c)  : you don't know how to do that yet. 
+0x0dc8  /  0x51bf (0x0008)  : you die of old age. 
+0x0dc9  /  0x51c8 (0x0003)  : the existing
+0x0dca  /  0x51cc (0x000d)  : There is a flash, and a ghost of 
+0x0dcb  /  0x51da (0x0003)  : appears. 
+0x0dd4  /  0x51df (0x0005)  : enter from the 
+0x0dd5  /  0x51e5 (0x0005)  : enters from the 
+0x0dd6  /  0x51eb (0x0006)  : leave, going 
+0x0dd7  /  0x51f2 (0x0006)  : leaves, going 
+0x0dde  /  0x51fa (0x0004)  : that spell requires
+0x0ddf  /  0x51ff (0x0005)  :  as focus. 
+0x0de0  /  0x5205 (0x000b)  : that spell requires you to be less than 
+0x0de1  /  0x5211 (0x0005)  :  percent sane
+0x0de2  /  0x5217 (0x000c)  : the spell expends itself harmlessly in mid-air. 
+0x0de3  /  0x5224 (0x0007)  : that's not a spell !
+0x0de4  /  0x522c (0x0005)  :  years old. 
+0x0de5  /  0x5232 (0x0004)  : and feel 
+0x0de6  /  0x5237 (0x0004)  : and felt 
+0x0df2  /  0x523d (0x002c)  : says, "Take pity on me, most merciful adventurer. My bones have been scattered. Please bury them so I may find peace at last"
+0x0df3  /  0x526a (0x0030)  : says, "I thank thee, adventurer, but wouldst thou leave the job undone? I can only find peace when all my remains are thus entombed"
+0x0df4  /  0x529b (0x005c)  : says, "Thank you, most noble adventurer. As a reward, I give you two things. Firstly, you may take my armour which served me well until I met my end. Secondly, some advice. BEWARE OF MYGLAR, for when I met him, all my weapons were of no avail"
+0x0df6  /  0x52fa (0x001a)  : says, "The armour is mine. You may have it if you bury my bones"
+0x0df7  /  0x5315 (0x0006)  : a ghost appears. 
+0x0e10  /  0x531d (0x0005)  : cracks his knuckles
+0x0e11  /  0x5323 (0x003a)  : mutters, "Ohhh, me rheumatism! This job will be the death of me, rowing across this stinking river, day and night, night and day, in the cold, damp air. Arghhh"
+0x0e12  /  0x535e (0x0004)  : yawns broadly
+0x0e13  /  0x5363 (0x0008)  : eyes a vein in your neck
+0x0e14  /  0x536c (0x0008)  : goes "peep peep"
+0x0e15  /  0x5375 (0x0005)  : stretches its wings
+0x0e16  /  0x537b (0x001a)  : moans, "My bones have been scattered. I cannot rest until they are buried"
+0x0e17  /  0x5396 (0x0016)  : gets blown about in the breeze, flapping around like a large, white sheet
+0x0e18  /  0x53ad (0x0009)  : drones on and on about its fate
+0x0e19  /  0x53b7 (0x0006)  : flaps its stone wings
+0x0e1a  /  0x53be (0x0007)  : leaves footprints in the floor
+0x0e1b  /  0x53c6 (0x0006)  : lumbers heavily forwards
+0x0e1c  /  0x53cd (0x0004)  : doesn't move
+0x0e1d  /  0x53d2 (0x0003)  : wriggles about
+0x0e1e  /  0x53d6 (0x0005)  : bares its teeth
+0x0e1f  /  0x53dc (0x0004)  : growls angrily
+0x0e20  /  0x53e1 (0x0006)  : stares angrily at you
+0x0e21  /  0x53e8 (0x0003)  : shuffles about
+0x0e22  /  0x53ec (0x0009)  : focuses all its eyes in your direction
+0x0e23  /  0x53f6 (0x0008)  : sways from side to side
+0x0e24  /  0x53ff (0x0009)  : seems to be trying to talk
+0x0e25  /  0x5409 (0x0008)  : rears up on its back legs
+0x0e26  /  0x5412 (0x0004)  : howls eerily
+0x0e27  /  0x5417 (0x0007)  : flexes its slab-like muscles
+0x0e28  /  0x541f (0x0003)  : shuffles about
+0x0e29  /  0x5423 (0x0004)  : stamps its feet
+0x0e2a  /  0x5428 (0x0008)  : rustles quietly as it moves
+0x0e2b  /  0x5431 (0x0007)  : rattles its bones angrily
+0x0e2c  /  0x5439 (0x0008)  : strikes horror into your heart
+0x0e2d  /  0x5442 (0x0008)  : seems to float in the air
+0x0e2e  /  0x544b (0x0006)  : gropes out towards you
+0x0e2f  /  0x5452 (0x0007)  : utters a low moan
+0x0e30  /  0x545a (0x000b)  : flexes its fingers in a strangling motion
+0x0e74  /  0x5467 (0x0005)  : sleeps on peacefully
+0x0e75  /  0x546d (0x0003)  : looks impassive
+0x0e76  /  0x5471 (0x0002)  : says nothing
+0x0e77  /  0x5474 (0x0003)  : looks stony-faced
+0x0e78  /  0x5478 (0x0007)  : doesn't seem to hear you
+0x0e79  /  0x5480 (0x000a)  : grunts, "Hello, Creep"
+0x0e7a  /  0x548b (0x0008)  : gives you a brassy look
+0x0e7b  /  0x5494 (0x0005)  : growls, menacingly
+0x0e7c  /  0x549a (0x000a)  : hisses, "Die, scum"
+0x0e7d  /  0x54a5 (0x0005)  : clicks its mandibles
+0x0e7e  /  0x54ab (0x0008)  : waves its eyestalks in greeting
+0x0e7f  /  0x54b4 (0x0008)  : cheeps in a friendly manner
+0x0e80  /  0x54bd (0x0004)  : howls piteously
+0x0e81  /  0x54c2 (0x0009)  : take no notice of you at all
+0x0e82  /  0x54cc (0x0008)  : lets out a blood-curdling shriek
+0x0e83  /  0x54d5 (0x0007)  : stalks towards you menacingly
+0x0e84  /  0x54dd (0x000f)  : smiles, exposing a row of beautiful iron teeth
+0x0e85  /  0x54ed (0x0007)  : raises a bandaged arm
+0x0e86  /  0x54f5 (0x0004)  : moans piteously
+0x0e87  /  0x54fa (0x0018)  : tries to speak, but not having any lungs or vocal chords, no sound emerges
+0x0e89  /  0x5514 (0x0002)  : says nothing
+0x0e8a  /  0x5517 (0x0002)  : says nothing
+0x0e8b  /  0x551a (0x0004)  : mumbles something
+0x0ed8  /  0x5520 (0x0005)  : rattles its bones
+0x0ed9  /  0x5526 (0x0009)  : makes a strange clicking noise
+0x0eda  /  0x5530 (0x0007)  : makes a mocking gesture
+0x0f0a  /  0x5539 (0x0007)  : doesn't seem to care
+0x0f0b  /  0x5541 (0x0003)  : ignores you
+0x0f0c  /  0x5545 (0x0006)  : stifles a little yawn
+0x0f0d  /  0x554c (0x0010)  : closes its eyes for a moment, then slowly re-opens them
+0x0f0e  /  0x555d (0x0005)  : looks at you strangely
+0x0f0f  /  0x5563 (0x0007)  : makes a mocking gesture
+0x0f10  /  0x556b (0x000f)  : yawns openly, obviously bored stiff by your chatter
+0x0f11  /  0x557b (0x0002)  : sneezes
+0x0f12  /  0x557e (0x0007)  : seems to fall asleep
+0x0f13  /  0x5586 (0x0009)  : seems to consider what you say
+0x0f14  /  0x5590 (0x0007)  : wave their antennae furiously
+0x0f3c  /  0x5599 (0x0016)  : yes y yay yah affirmative ok agree consent sure certainly okay
+0x0f3d  /  0x55b0 (0x000a)  : no n negative sure certainly
+0x0f3e  /  0x55bb (0x000e)  : greetings welcome hello hi day morning afternoon
+0x0f3f  /  0x55ca (0x0004)  : on light
+0x0f40  /  0x55cf (0x0006)  : off extinguish deactivate
+0x0f41  /  0x55d6 (0x0006)  : fear terror panic
+0x0f96  /  0x55de (0x0054)  :  [aka] bloody hobbit magnetic scrolls scott adams frigging wanker turd shit twat cunt prick bollocks jesus christ god tits asshole arsehole cretin spastic coon wog fucking screw fucker bastard bugger damn fart sex hell devil nerd Smorzzen hsorke qreirkl vemz Tnzerwtnz crap
+0x0fa0  /  0x5635 (0x0028)  : the this these that some a and also before wade jog plod rush dash march amble good of cute there
+0x0fa1  /  0x565e (0x001a)  : go about therefore am to of on my your try carefully slowly wa
+0x1068  /  0x567b (0x0026)  : 
+Something is standing behind you! "Don't look round", it breathes, "Just tell me one word from the book. 
+0x1069  /  0x56a2 (0x0003)  : page 
+0x106a  /  0x56a6 (0x0004)  : , line 
+0x106b  /  0x56ab (0x0003)  : , word 
+0x106c  /  0x56af (0x0004)  : ?"
+
+0x106d  /  0x56b4 (0x0017)  : The presence exhales between clenched teeth, "Ha! Try again. 
+0x106e  /  0x56cc (0x000a)  : The phantom fades away.
+
+0x106f  /  0x56d7 (0x0007)  : What is the word at 
+0x1070  /  0x56df (0x0011)  : "Wrong!" The phantom hurls you from the game. 
+0x10cd  /  0x56f2 (0x0002)  : his
+0x10ce  /  0x56f5 (0x0002)  : but
+0x10d0  /  0x56f9 (0x0002)  : I
+0x10d1  /  0x56fc (0x0002)  : certain
+0x10d2  /  0x56ff (0x0002)  : Baskalos
+0x10d3  /  0x5702 (0x0002)  : can
+0x10d4  /  0x5705 (0x0002)  : course
+0x10d5  /  0x5708 (0x0002)  : wore
+0x10d6  /  0x570b (0x0004)  : quill cut
+0x10d8  /  0x5711 (0x0004)  : a almost
+0x10d9  /  0x5716 (0x0002)  : we
+0x10da  /  0x5719 (0x0002)  : future
+0x10db  /  0x571c (0x0002)  : were
+0x10dc  /  0x571f (0x0002)  : to
+0x10dd  /  0x5722 (0x0002)  : of
+0x10de  /  0x5725 (0x0002)  : a
+0x10df  /  0x5728 (0x0002)  : his
+0x10e0  /  0x572b (0x0002)  : attempts
+0x10e1  /  0x572e (0x0002)  : and
+0x10e2  /  0x5731 (0x0002)  : where
+0x10e3  /  0x5734 (0x0002)  : passing
+0x10e4  /  0x5737 (0x0002)  : the
+0x10e5  /  0x573a (0x0002)  : the
+0x10e6  /  0x573d (0x0004)  : in had
+0x10e7  /  0x5742 (0x0002)  : ten
+0x10e8  /  0x5745 (0x0002)  : it
+0x10e9  /  0x5748 (0x0002)  : to
+0x10ea  /  0x574b (0x0002)  : the
+0x10eb  /  0x574e (0x0002)  : his
+0x10ec  /  0x5751 (0x0002)  : eventide
+0x10ed  /  0x5754 (0x0002)  : that
+0x10ee  /  0x5757 (0x0002)  : long
+0x10ef  /  0x575a (0x0004)  : for at
+0x10f0  /  0x575f (0x0002)  : the
+0x10f1  /  0x5762 (0x0002)  : through
+0x10f2  /  0x5765 (0x0002)  : could
+0x10f3  /  0x5768 (0x0002)  : back
+0x10f4  /  0x576b (0x0002)  : us
+0x10f6  /  0x576f (0x0002)  : a
+0x10f7  /  0x5772 (0x0004)  : for at
+0x10f9  /  0x5778 (0x0002)  : upwards
+0x10fa  /  0x577b (0x0002)  : what
+0x10fb  /  0x577e (0x0002)  : set
+0x10fd  /  0x5782 (0x0002)  : to
+0x10fe  /  0x5785 (0x0004)  : in had
+0x10ff  /  0x578a (0x0002)  : yet
+0x1100  /  0x578d (0x0002)  : met
+0x1101  /  0x5790 (0x0002)  : came
+0x1102  /  0x5793 (0x0002)  : mine
+0x1103  /  0x5796 (0x0004)  : price small
+0x1104  /  0x579b (0x0002)  : shall
+0x1105  /  0x579e (0x0002)  : ought
+0x1106  /  0x57a1 (0x0002)  : trembling
+0x1107  /  0x57a4 (0x0002)  : pyramids
+0x1108  /  0x57a7 (0x0004)  : its there
+0x1109  /  0x57ac (0x0002)  : against
+0x110a  /  0x57af (0x0002)  : and
+0x110b  /  0x57b2 (0x0002)  : the
+0x110c  /  0x57b5 (0x0002)  : the
+0x110e  /  0x57b9 (0x0002)  : the
+0x110f  /  0x57bc (0x0002)  : pyramids
+0x1110  /  0x57bf (0x0002)  : he
+0x1111  /  0x57c2 (0x0004)  : light the
+0x1112  /  0x57c7 (0x0002)  : in
+0x1113  /  0x57ca (0x0002)  : a
+0x1114  /  0x57cd (0x0002)  : for
+0x1115  /  0x57d0 (0x0002)  : focussed
+0x1116  /  0x57d3 (0x0002)  : does
+0x1117  /  0x57d6 (0x0002)  : fellow
+0x1118  /  0x57d9 (0x0002)  : you
+0x1119  /  0x57dc (0x0002)  : and
+0x111a  /  0x57df (0x0002)  : the
+0x111b  /  0x57e2 (0x0002)  : could
+0x111c  /  0x57e5 (0x0002)  : of
+0x111d  /  0x57e8 (0x0002)  : them
+0x111e  /  0x57eb (0x0002)  : while
+0x1120  /  0x57ef (0x0002)  : took
+0x1121  /  0x57f2 (0x0004)  : that to
+0x1122  /  0x57f7 (0x0002)  : second
+0x1123  /  0x57fa (0x0002)  : for
+0x1124  /  0x57fd (0x0004)  : the day
+0x1125  /  0x5802 (0x0002)  : but
+0x1126  /  0x5805 (0x0002)  : afforded
+0x1128  /  0x5809 (0x0002)  : was
+0x1129  /  0x580c (0x0002)  : was
+0x112a  /  0x580f (0x0002)  : but
+0x112b  /  0x5812 (0x0002)  : them
+0x112c  /  0x5815 (0x0002)  : and
+0x112d  /  0x5818 (0x0002)  : darkness
+0x112e  /  0x581b (0x0002)  : him
+<EOM>

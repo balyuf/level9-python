@@ -1,809 +1,809 @@
-0x0  /  0x16e0  : 
-0x1  /  0x16e1  : 
+0x0  /  0x1760  : 
+0x1  /  0x1761  : 
 
 Welcome to Colossal Adventure, the original classic mainframe adventure, from Level 9 Computing
 
 
-0x2  /  0x1724  : Rubbing the electric lamp is unexciting. Anyway, nothing happens except that you polish the lamp to a fine finish
-0x3  /  0x1765  : That was just what you needed!
-0x4  /  0x1779  : You can't move in that direction
-0x5  /  0x178d  : I don't understand
+0x2  /  0x17a4  : Rubbing the electric lamp is unexciting. Anyway, nothing happens except that you polish the lamp to a fine finish
+0x3  /  0x17e5  : That was just what you needed!
+0x4  /  0x17f9  : You can't move in that direction
+0x5  /  0x180d  : I don't understand
 
 
-0x6  /  0x179a  : Please be more specific
-0x7  /  0x17a7  : Eh?
-0x8  /  0x17ab  : You can't see it
-0x9  /  0x17b6  : You don't have it
-0xa  /  0x17c2  : You have:
-0xb  /  0x17c9  : Nothing
-0xc  /  0x17cf  : 
+0x6  /  0x181a  : Please be more specific
+0x7  /  0x1827  : Eh?
+0x8  /  0x182b  : You can't see it
+0x9  /  0x1836  : You don't have it
+0xa  /  0x1842  : You have:
+0xb  /  0x1849  : Nothing
+0xc  /  0x184f  : 
 
 
-0xd  /  0x17d1  : 
+0xd  /  0x1851  : 
 
 What now?
 
 
-0xe  /  0x17db  : The lamp is on
-0xf  /  0x17e2  : The lamp is off
-0x10  /  0x17ea  : The grate is locked
-0x11  /  0x17f4  : The grate is unlocked
-0x12  /  0x17ff  : It clangs shut
-0x13  /  0x1809  : You have no keys, or hairpins
-0x14  /  0x181f  : The bottle is full up
-0x15  /  0x182b  : The water soaks away into the ground
-0x16  /  0x183c  : The oil splashes on the ground
-0x17  /  0x184b  : Nothing happens
-0x18  /  0x1855  : You can almost catch the bird, but it keeps fluttering away just as you are about to close your 
+0xe  /  0x185b  : The lamp is on
+0xf  /  0x1862  : The lamp is off
+0x10  /  0x186a  : The grate is locked
+0x11  /  0x1874  : The grate is unlocked
+0x12  /  0x187f  : It clangs shut
+0x13  /  0x1889  : You have no keys, or hairpins
+0x14  /  0x189f  : The bottle is full up
+0x15  /  0x18ab  : The water soaks away into the ground
+0x16  /  0x18bc  : The oil splashes on the ground
+0x17  /  0x18cb  : Nothing happens
+0x18  /  0x18d5  : You can almost catch the bird, but it keeps fluttering away just as you are about to close your 
 hand on it
-0x19  /  0x1895  : When you entered the bird was singing happily. Now it flies away in total panic and flutters against the ceiling
-0x1a  /  0x18d2  : The bird is dead and its body vanishes
-0x1b  /  0x18e7  : It's not hungry, just pining for the fjords
-0x1c  /  0x1902  : You fall to the rocks below
-0x1d  /  0x190f  : No fear!
-0x1e  /  0x1916  : Zingg! A crystal bridge appears spanning the chasm
-0x1f  /  0x1933  : The bridge vanishes
-0x20  /  0x193d  : The snake rears up above you, blocking the way out. Venom drips from its fangs, burning smoking 
+0x19  /  0x1915  : When you entered the bird was singing happily. Now it flies away in total panic and flutters against the ceiling
+0x1a  /  0x1952  : The bird is dead and its body vanishes
+0x1b  /  0x1967  : It's not hungry, just pining for the fjords
+0x1c  /  0x1982  : You fall to the rocks below
+0x1d  /  0x198f  : No fear!
+0x1e  /  0x1996  : Zingg! A crystal bridge appears spanning the chasm
+0x1f  /  0x19b3  : The bridge vanishes
+0x20  /  0x19bd  : The snake rears up above you, blocking the way out. Venom drips from its fangs, burning smoking 
 holes in the rocky floor
-0x21  /  0x1984  : No way!
-0x22  /  0x198a  : The bird attacks the snake and in a flurry of feathers drives it off!
-0x23  /  0x19b1  : 
+0x21  /  0x1a04  : No way!
+0x22  /  0x1a0a  : The bird attacks the snake and in a flurry of feathers drives it off!
+0x23  /  0x1a31  : 
 
 A hollow voice says 'PLUGH'
 
 
-0x24  /  0x19ca  : The shadowy figure waves back
-0x25  /  0x19dc  : Its a carnivore, so there's nothing here that it wants to eat (except you of course)
-0x26  /  0x1a10  : You attack the dragon with your bare hands and with an incredible display of martial arts prowess you win! Who would have thought it possible?
-0x27  /  0x1a61  : The bird attacks the dragon and in a flurry of feathers is eaten! The dragon licks its lips and 
+0x24  /  0x1a4a  : The shadowy figure waves back
+0x25  /  0x1a5c  : Its a carnivore, so there's nothing here that it wants to eat (except you of course)
+0x26  /  0x1a90  : You attack the dragon with your bare hands and with an incredible display of martial arts prowess you win! Who would have thought it possible?
+0x27  /  0x1ae1  : The bird attacks the dragon and in a flurry of feathers is eaten! The dragon licks its lips and 
 returns to sleep
-0x28  /  0x1a9d  : It bounces off the dragon's scales. The dragon opens an eye and glares at you
-0x29  /  0x1ac5  : The clam won't open
-0x2a  /  0x1ad0  : The clam opens and you realise that it is really an oyster. A gleaming pearl springs out and rolls away downhill out of sight.
-0x2b  /  0x1b15  : You crawl through a network of twisty passages, 
+0x28  /  0x1b1d  : It bounces off the dragon's scales. The dragon opens an eye and glares at you
+0x29  /  0x1b45  : The clam won't open
+0x2a  /  0x1b50  : The clam opens and you realise that it is really an oyster. A gleaming pearl springs out and rolls away downhill out of sight.
+0x2b  /  0x1b95  : You crawl through a network of twisty passages, 
 get totally disorientated and end up back at Witt's End. The Witt Construction company have been practicing for years with one way schemes above ground so you will not get away easily!
-0x2c  /  0x1b9a  : Get it right, dummy
+0x2c  /  0x1c1a  : Get it right, dummy
 
 
-0x2d  /  0x1baa  : The precious vase shatters into a million tiny pieces on the hard ground!
-0x2e  /  0x1bd1  : Your hands are full, you can't carry anything else unless you drop something first
-0x2f  /  0x1c01  : The bear snaps dangerously, forcing you to back 
+0x2d  /  0x1c2a  : The precious vase shatters into a million tiny pieces on the hard ground!
+0x2e  /  0x1c51  : Your hands are full, you can't carry anything else unless you drop something first
+0x2f  /  0x1c81  : The bear snaps dangerously, forcing you to back 
 away to the far side of the room
-0x30  /  0x1c2c  : The chain clicks open and falls to the floor. The bear is free and stretches joyfully
-0x31  /  0x1c55  : The bear dodges, sadly, and you miss
-0x32  /  0x1c6c  : The bear shambles towards the troll and rears up on its hind legs. The troll gives a loud shriek and runs away in panic. The bear follows it for a short distance and then returns
-0x33  /  0x1cc9  : The chain is locked
-0x34  /  0x1cd3  : You fell into a pit in the dark: dangerous places these caves
-0x35  /  0x1cf5  : 
+0x30  /  0x1cac  : The chain clicks open and falls to the floor. The bear is free and stretches joyfully
+0x31  /  0x1cd5  : The bear dodges, sadly, and you miss
+0x32  /  0x1cec  : The bear shambles towards the troll and rears up on its hind legs. The troll gives a loud shriek and runs away in panic. The bear follows it for a short distance and then returns
+0x33  /  0x1d49  : The chain is locked
+0x34  /  0x1d53  : You fell into a pit in the dark: dangerous places these caves
+0x35  /  0x1d75  : 
 
 You seem to have got yourself killed
-0x36  /  0x1d0e  : 
+0x36  /  0x1d8e  : 
 
 Clumsy oaf! You are making quite a habit of this aren't you. Please try to be more careful in future!
-0x37  /  0x1d46  : 
+0x37  /  0x1dc6  : 
 
 Good grief, you've done it again! You are supposed to at least try to stay alive you know!
-0x38  /  0x1d7e  : You can't climb back up to the pit from the Hall of Mists
-0x39  /  0x1d99  : There is nothing here to climb
-0x3a  /  0x1da9  : The gate squeaks but does not budge. It seems to be rusted solid
-0x3b  /  0x1dd1  : It is dark, you cannot see
-0x3c  /  0x1de1  : Please be more specific
-0x3d  /  0x1dee  : You are already carrying it
-0x3e  /  0x1dfc  : A huge troll jumps out and blocks your way, snarling 'Gotcha! Thought you could evade paying the toll did you? Well I was much too quick for you.. you had no chance of outwitting me.. an expert bridge-keeper for a thousand years.. never missed a day..' etc. etc. Eventually the troll shuts up and stands blocking the bridge, one hand outstretched for payment of a treasure
-0x3f  /  0x1ed3  : The troll blocks your way, holding out a fist for payment
-0x40  /  0x1ef4  : The troll catches the axe, snorts 'Not even sharp!', and tosses it back. You just manage to catch it without getting cut
-0x41  /  0x1f38  : Missed! The axe clatters to the ground
-0x42  /  0x1f4c  : A hit! The dwarf vanishes in a puff of foul smelling, greasy smoke
-0x43  /  0x1f75  : One dwarf vanishes in a puff of greasy smoke
-0x44  /  0x1f92  : It's already open
-0x45  /  0x1f9e  : There's no liquid here to fill it with
-0x46  /  0x1fb3  : Your bottle is already empty
-0x47  /  0x1fc7  : You have none
-0x48  /  0x1fd1  : The plant bursts into incredible growth, reaching upwards into the air and throwing out enormous leaves. Eventually it stops, towering over your head and yelling 'WATER! WATER!' in your ear
-0x49  /  0x2035  : The beanstalk grows even larger than before, almost filling the pit and stretching high into the air. The tip reaches into an opening in the wall above!
-0x4a  /  0x207d  : You have OVER-WATERED it! The beanstalk flails about and collapses, falling in a mass to the floor of the pit where it shrivels up. All that remains is a tiny plant whispering 'water, water'
-0x4b  /  0x20e9  : The gate creaks open, dislodging a shower of rusty flakes
-0x4c  /  0x210b  : The plant shakes the oil from its leaves in fury
-0x4d  /  0x2128  : Are you mad? You should only attack enemies
-0x4e  /  0x2145  : Dwarves are too agile for YOU to catch. You only succeed in getting out of breath
-0x4f  /  0x2173  : The main headline is 'Don't go West'. The lead story is about the success of the Dwarven King who has added the heads of another two elves to his collection. The editorial denounces the perverted ways of 'Elvies' and page 3 features a female dwarf whose long grey beard has been positioned ingeniously. The rest is adverts, mainly for Witt Construction Plc (dungeons a speciality) and Acorn Forestry (oaks take a long time to grow - order now for your grandchildren)
-0x50  /  0x2283  : Your score is 
+0x38  /  0x1dfe  : You can't climb back up to the pit from the Hall of Mists
+0x39  /  0x1e19  : There is nothing here to climb
+0x3a  /  0x1e29  : The gate squeaks but does not budge. It seems to be rusted solid
+0x3b  /  0x1e51  : It is dark, you cannot see
+0x3c  /  0x1e61  : Please be more specific
+0x3d  /  0x1e6e  : You are already carrying it
+0x3e  /  0x1e7c  : A huge troll jumps out and blocks your way, snarling 'Gotcha! Thought you could evade paying the toll did you? Well I was much too quick for you.. you had no chance of outwitting me.. an expert bridge-keeper for a thousand years.. never missed a day..' etc. etc. Eventually the troll shuts up and stands blocking the bridge, one hand outstretched for payment of a treasure
+0x3f  /  0x1f53  : The troll blocks your way, holding out a fist for payment
+0x40  /  0x1f74  : The troll catches the axe, snorts 'Not even sharp!', and tosses it back. You just manage to catch it without getting cut
+0x41  /  0x1fb8  : Missed! The axe clatters to the ground
+0x42  /  0x1fcc  : A hit! The dwarf vanishes in a puff of foul smelling, greasy smoke
+0x43  /  0x1ff5  : One dwarf vanishes in a puff of greasy smoke
+0x44  /  0x2012  : It's already open
+0x45  /  0x201e  : There's no liquid here to fill it with
+0x46  /  0x2033  : Your bottle is already empty
+0x47  /  0x2047  : You have none
+0x48  /  0x2051  : The plant bursts into incredible growth, reaching upwards into the air and throwing out enormous leaves. Eventually it stops, towering over your head and yelling 'WATER! WATER!' in your ear
+0x49  /  0x20b5  : The beanstalk grows even larger than before, almost filling the pit and stretching high into the air. The tip reaches into an opening in the wall above!
+0x4a  /  0x20fd  : You have OVER-WATERED it! The beanstalk flails about and collapses, falling in a mass to the floor of the pit where it shrivels up. All that remains is a tiny plant whispering 'water, water'
+0x4b  /  0x2169  : The gate creaks open, dislodging a shower of rusty flakes
+0x4c  /  0x218b  : The plant shakes the oil from its leaves in fury
+0x4d  /  0x21a8  : Are you mad? You should only attack enemies
+0x4e  /  0x21c5  : Dwarves are too agile for YOU to catch. You only succeed in getting out of breath
+0x4f  /  0x21f3  : The main headline is 'Don't go West'. The lead story is about the success of the Dwarven King who has added the heads of another two elves to his collection. The editorial denounces the perverted ways of 'Elvies' and page 3 features a female dwarf whose long grey beard has been positioned ingeniously. The rest is adverts, mainly for Witt Construction Plc (dungeons a speciality) and Acorn Forestry (oaks take a long time to grow - order now for your grandchildren)
+0x50  /  0x2303  : Your score is 
 
-0x51  /  0x228d  :  
+0x51  /  0x230d  :  
 out of 1100
 
 
-0x52  /  0x2297  : 
+0x52  /  0x2317  : 
 
 You scored 
 
-0x53  /  0x22a1  : Do you really want to stop?
+0x53  /  0x2321  : Do you really want to stop?
 
 
-0x54  /  0x22b2  : The bear gobbles the food hungrily, and licks your face in thanks. It seems quite placid
-0x55  /  0x22e4  : You can't reach the mirror
-0x56  /  0x22f3  : Ugh! No thank you!
-0x57  /  0x22ff  : To whom?
-0x58  /  0x2306  : The troll snaps 'Worthless' and tosses it back
-0x59  /  0x2323  : The troll takes the treasure and leaves, chortling
-0x5a  /  0x233d  : When you reach the middle of the bridge it collapses under the bear's weight, throwing you into 
+0x54  /  0x2332  : The bear gobbles the food hungrily, and licks your face in thanks. It seems quite placid
+0x55  /  0x2364  : You can't reach the mirror
+0x56  /  0x2373  : Ugh! No thank you!
+0x57  /  0x237f  : To whom?
+0x58  /  0x2386  : The troll snaps 'Worthless' and tosses it back
+0x59  /  0x23a3  : The troll takes the treasure and leaves, chortling
+0x5a  /  0x23bd  : When you reach the middle of the bridge it collapses under the bear's weight, throwing you into 
 the chasm.
-0x5b  /  0x2373  : 
+0x5b  /  0x23f3  : 
 
 A dwarf appears and throws an axe which misses 
 you. The dwarf curses and runs off round a corner
-0x5c  /  0x23ac  : 
+0x5c  /  0x242c  : 
 
 An evil little dwarf appears!
-0x5d  /  0x23c1  : 
+0x5d  /  0x2441  : 
 
 Out from the shadows behind you pounces a bearded pirate! "HAR, HAR", he chortles, "I'll just take all this booty and hide it with me chest deep in the maze!". He snatches all of your treasure and vanishes into the gloom
 
 
-0x5e  /  0x243d  : 
+0x5e  /  0x24bd  : 
 
 A sharp little knife is thrown at you
 
 
-0x5f  /  0x2454  : It gets you!
-0x60  /  0x245c  : It misses!
-0x61  /  0x2463  : There is one threatening little dwarf here
-0x62  /  0x2478  : There are 
+0x5f  /  0x24d4  : It gets you!
+0x60  /  0x24dc  : It misses!
+0x61  /  0x24e3  : There is one threatening little dwarf here
+0x62  /  0x24f8  : There are 
 
-0x63  /  0x247e  :  
+0x63  /  0x24fe  :  
 threatening little dwarves here
-0x64  /  0x2490  : 
-0x65  /  0x2491  : You are standing beside a small brick building at the end of a road from the north. A river flows south. To the north is open country and all around is dense forest
-0x66  /  0x24dc  : You are in a valley beside a stream which cascades along a rocky bed on its way south. The valley is lined by woodland trees and you can hear birds singing from their branches
-0x67  /  0x2531  : You are in a tree-lined valley beside a stream which seeps away down many small cracks in the ground. Downstream, to the south, the valley narrows and the streambed contains only dry rocks
-0x68  /  0x2586  : You are in a 20-foot depression in a deep, narrow valley sloping down to the south. The steep sides of the valley are overgrown with brambles
-0x69  /  0x25cc  : You are in a steep rocky gulley which slopes down to the south
-0x6a  /  0x25e9  : You are at the top of a dried-up waterfall. A sheer east-west cliff slices through the land, giving you an astonishing view of the southlands spread out like a map below you. A river emerges from the base of the cliff 1000 feet below and meanders away, but there is no way down to it. A steep gulley winds down towards you from the north through the woods on top of the cliff
-0x6b  /  0x26a2  : You are in dense forest, completely surrounded by trees
-0x6c  /  0x26be  : You are in a pleasant wood on the east side of a valley. You can hear the sound of rushing water from a river below
-0x6d  /  0x26f2  : You are lost in the forest
-0x6e  /  0x26fe  : You are lost in the forest
-0x6f  /  0x270a  : You are standing beside a huge oak tree in the depths of the forest. A partly-broken branch hangs down, resting one end on the ground, and you could easily climb the tree if you tried
-0x70  /  0x2765  : You are sitting in the branches of a huge tree and have a splendid view of the forest which stretches in all directions. You can see a huge spire to the south: beyond this the land seems to fall away. In the far north an active volcano belches fumes into the air, and to the west a narrow valley cuts through the trees
-0x71  /  0x27fa  : You are at a picnic spot littered with small tables and benches carved roughly from tree-trunks. In the centre a large stencilled sign saying 'no litter' is attached to one of the tables
-0x72  /  0x285d  : You are in a small building with a well in the middle of the only room. A rusty ladder leads down the well into darkness
-0x73  /  0x2894  : You are on a small hill. To the north, an active volcano throws a plume of ash into the air. A path leads east and you can see a small brick building surrounded by woodland far away to the west. To the south, a spire rises into the clouds
-0x74  /  0x2909  : You are at a cliff edge. A path from the west ends here
-0x75  /  0x2923  : You are in a tiny rocky cave below a grate to the surface. A low crawl leads west into darkness
-0x76  /  0x2950  : You are in the Plover room: a small chamber glowing with an eerie green light. An extremely narrow crack leads west and an ominous dark corridoor exits to the north-east
-0x77  /  0x29a0  : You are in Heaven, sitting on a cloud and strumming a harp. It's not quite what you expected: rather boring in fact
-0x78  /  0x29e0  : You are in Hell. The air is very hot and there is a strong stench of brimstone. It is definitely not boring, but slightly more painful than Heaven was!
-0x79  /  0x2a32  : You are in open countryside. A road leads to a building in the south, surrounded by woods. A spire rises into the clouds beyond
-0x7a  /  0x2a71  : You are on scrubland, in a thicket of dense hawthorn
-0x7b  /  0x2a8f  : You are on a vast expanse of lava south of an active volcano. There is a small hill to the south
-0x7c  /  0x2abd  : You are surrounded by an expanse of jagged rocks,split by former volcanic eruptions
-0x7d  /  0x2aee  : You are at the very rim of a volcano, above a pit of bubbling lava. Far below you is a small opening in the side of the crater but there is no way down to it. A huge plume of ash rises slowlyfrom the fires below and floats sluggishly downto the east
-0x7e  /  0x2b66  : You are in a room with matt black walls. A plaque reads 'Congratulations on bringing light to the dark room!'. The only exit is south
-0x7f  /  0x2ba4  : You are crawling painfully over cobbles in a low passage. A dim light filters from the east
-0x80  /  0x2bd1  : You are in a room filled with debris washed from the surface. The cobbles end here, but an awkward canyon continues west. 'The magic word is XYZZY' is scratched on the wall in crude runes
-0x81  /  0x2c35  : You are in an awkwardly sloping east-west canyon
-0x82  /  0x2c4b  : You are in a splendid chamber in an east-west canyon. The walls are frozen rivers of orange stone and a carved pillar rises to the ceiling 30 feet above. The floor is formed from smooth marble slabs, and is slightly worn in the centre
-0x83  /  0x2cb8  : The passage from the east ends here. At your feet is a pit from which mist coils upwards
-0x84  /  0x2cea  : You are on the north-east side of a deep chasm crossed by a rickety bridge. A draught blows towards an opening where the path enters the cliff to the north-east
-0x85  /  0x2d36  : You are in a low east-west corridor
-0x86  /  0x2d41  : You are at a fork in the path with openings to west, north-east and south-east. A steady draught blows north-east and you can hear a quiet rumbling noise
-0x87  /  0x2d8a  : You are at a junction with warm walls. From a passage to the north comes a continuous roar, so loud that the entire cave trembles. Other entrances lead east and south
-0x88  /  0x2dd8  : You are in a small chamber filled with huge boulders. The walls are very warm and the heated air is stifling. The only exit is a crawl to the west, from which direction comes a low rumbling
-0x89  /  0x2e37  : You are at the edge of a volcano with a fantastic view over the crater. Great gouts of molten lava surge upwards before cascading into the depths and the thunder from the pit is deafening. The cracked and broken rocks of the cavern walls glare blood-red with an eerie light which reflects in macabre shifting shapes. An immense river of fire plummets from a gorge in the far wall, crashing into the pit, and to your left a column of blistering steam screams into the air. A dark forboding passage leaves to the south. The very Devil himself could have created this
-0x8a  /  0x2f5d  : You are in a steeply sloping limestone passage lined with twisted rock formations
-0x8b  /  0x2f84  : You are in a barren room outside a small room used for keeping animals: a sign reads 'WARE BEAR'. A passage slopes upwards
-0x8c  /  0x2fc9  : You are inside the bear room
-0x8d  /  0x2fd5  : You are down a dry well which smells rather disgusting. A ladder leads up to a small circle of light far above
-0x8e  /  0x300d  : 
-0x8f  /  0x300e  : 
-0x90  /  0x300f  : 
-0x91  /  0x3010  : 
-0x92  /  0x3011  : 
-0x93  /  0x3012  : 
-0x94  /  0x3013  : 
-0x95  /  0x3014  : 
-0x96  /  0x3015  : You are at the east end of the Hall of Mists, filled with wisps of cloud which sway to and fro as if alive. There are passages on both sides and a narrow path leading up to a small opening above. A grand stone staircase leads downwards to the north
-0x97  /  0x3082  : You are in a long low room with a crude note pinned to the wall saying 'You won't get it up to the pit'
-0x98  /  0x30b5  : You are in the Hall of the Mountain Kings, a huge room decorated with majestic statues. The east wall is covered by trophies and the mounted heads of elves and monsters with a carved granite throne standing beneath them. The hall is hung about with the tattered remains of rich tapestries and has large doorways on all sides
-0x99  /  0x3153  : You are in the south side chamber of the Hall of the Mountain Kings
-0x9a  /  0x316e  : You are in a low north-south passage at a hole in the floor. This goes down to an east-west passage below
-0x9b  /  0x3194  : You are in a huge room with passages to the south and west and a maze of broken rock to the east. 'Y2' is carved on a rock in the very centre of the room
-0x9c  /  0x31d2  : You are at a window overlooking a huge canyon. The floor is just visible over 50 feet below, covered by drifting white mist. On the opposite side of the canyon is a window into a lighted room 
+0x64  /  0x2510  : 
+0x65  /  0x2511  : You are standing beside a small brick building at the end of a road from the north. A river flows south. To the north is open country and all around is dense forest
+0x66  /  0x255c  : You are in a valley beside a stream which cascades along a rocky bed on its way south. The valley is lined by woodland trees and you can hear birds singing from their branches
+0x67  /  0x25b1  : You are in a tree-lined valley beside a stream which seeps away down many small cracks in the ground. Downstream, to the south, the valley narrows and the streambed contains only dry rocks
+0x68  /  0x2606  : You are in a 20-foot depression in a deep, narrow valley sloping down to the south. The steep sides of the valley are overgrown with brambles
+0x69  /  0x264c  : You are in a steep rocky gulley which slopes down to the south
+0x6a  /  0x2669  : You are at the top of a dried-up waterfall. A sheer east-west cliff slices through the land, giving you an astonishing view of the southlands spread out like a map below you. A river emerges from the base of the cliff 1000 feet below and meanders away, but there is no way down to it. A steep gulley winds down towards you from the north through the woods on top of the cliff
+0x6b  /  0x2722  : You are in dense forest, completely surrounded by trees
+0x6c  /  0x273e  : You are in a pleasant wood on the east side of a valley. You can hear the sound of rushing water from a river below
+0x6d  /  0x2772  : You are lost in the forest
+0x6e  /  0x277e  : You are lost in the forest
+0x6f  /  0x278a  : You are standing beside a huge oak tree in the depths of the forest. A partly-broken branch hangs down, resting one end on the ground, and you could easily climb the tree if you tried
+0x70  /  0x27e5  : You are sitting in the branches of a huge tree and have a splendid view of the forest which stretches in all directions. You can see a huge spire to the south: beyond this the land seems to fall away. In the far north an active volcano belches fumes into the air, and to the west a narrow valley cuts through the trees
+0x71  /  0x287a  : You are at a picnic spot littered with small tables and benches carved roughly from tree-trunks. In the centre a large stencilled sign saying 'no litter' is attached to one of the tables
+0x72  /  0x28dd  : You are in a small building with a well in the middle of the only room. A rusty ladder leads down the well into darkness
+0x73  /  0x2914  : You are on a small hill. To the north, an active volcano throws a plume of ash into the air. A path leads east and you can see a small brick building surrounded by woodland far away to the west. To the south, a spire rises into the clouds
+0x74  /  0x2989  : You are at a cliff edge. A path from the west ends here
+0x75  /  0x29a3  : You are in a tiny rocky cave below a grate to the surface. A low crawl leads west into darkness
+0x76  /  0x29d0  : You are in the Plover room: a small chamber glowing with an eerie green light. An extremely narrow crack leads west and an ominous dark corridoor exits to the north-east
+0x77  /  0x2a20  : You are in Heaven, sitting on a cloud and strumming a harp. It's not quite what you expected: rather boring in fact
+0x78  /  0x2a60  : You are in Hell. The air is very hot and there is a strong stench of brimstone. It is definitely not boring, but slightly more painful than Heaven was!
+0x79  /  0x2ab2  : You are in open countryside. A road leads to a building in the south, surrounded by woods. A spire rises into the clouds beyond
+0x7a  /  0x2af1  : You are on scrubland, in a thicket of dense hawthorn
+0x7b  /  0x2b0f  : You are on a vast expanse of lava south of an active volcano. There is a small hill to the south
+0x7c  /  0x2b3d  : You are surrounded by an expanse of jagged rocks,split by former volcanic eruptions
+0x7d  /  0x2b6e  : You are at the very rim of a volcano, above a pit of bubbling lava. Far below you is a small opening in the side of the crater but there is no way down to it. A huge plume of ash rises slowlyfrom the fires below and floats sluggishly downto the east
+0x7e  /  0x2be6  : You are in a room with matt black walls. A plaque reads 'Congratulations on bringing light to the dark room!'. The only exit is south
+0x7f  /  0x2c24  : You are crawling painfully over cobbles in a low passage. A dim light filters from the east
+0x80  /  0x2c51  : You are in a room filled with debris washed from the surface. The cobbles end here, but an awkward canyon continues west. 'The magic word is XYZZY' is scratched on the wall in crude runes
+0x81  /  0x2cb5  : You are in an awkwardly sloping east-west canyon
+0x82  /  0x2ccb  : You are in a splendid chamber in an east-west canyon. The walls are frozen rivers of orange stone and a carved pillar rises to the ceiling 30 feet above. The floor is formed from smooth marble slabs, and is slightly worn in the centre
+0x83  /  0x2d38  : The passage from the east ends here. At your feet is a pit from which mist coils upwards
+0x84  /  0x2d6a  : You are on the north-east side of a deep chasm crossed by a rickety bridge. A draught blows towards an opening where the path enters the cliff to the north-east
+0x85  /  0x2db6  : You are in a low east-west corridor
+0x86  /  0x2dc1  : You are at a fork in the path with openings to west, north-east and south-east. A steady draught blows north-east and you can hear a quiet rumbling noise
+0x87  /  0x2e0a  : You are at a junction with warm walls. From a passage to the north comes a continuous roar, so loud that the entire cave trembles. Other entrances lead east and south
+0x88  /  0x2e58  : You are in a small chamber filled with huge boulders. The walls are very warm and the heated air is stifling. The only exit is a crawl to the west, from which direction comes a low rumbling
+0x89  /  0x2eb7  : You are at the edge of a volcano with a fantastic view over the crater. Great gouts of molten lava surge upwards before cascading into the depths and the thunder from the pit is deafening. The cracked and broken rocks of the cavern walls glare blood-red with an eerie light which reflects in macabre shifting shapes. An immense river of fire plummets from a gorge in the far wall, crashing into the pit, and to your left a column of blistering steam screams into the air. A dark forboding passage leaves to the south. The very Devil himself could have created this
+0x8a  /  0x2fdd  : You are in a steeply sloping limestone passage lined with twisted rock formations
+0x8b  /  0x3004  : You are in a barren room outside a small room used for keeping animals: a sign reads 'WARE BEAR'. A passage slopes upwards
+0x8c  /  0x3049  : You are inside the bear room
+0x8d  /  0x3055  : You are down a dry well which smells rather disgusting. A ladder leads up to a small circle of light far above
+0x8e  /  0x308d  : 
+0x8f  /  0x308e  : 
+0x90  /  0x308f  : 
+0x91  /  0x3090  : 
+0x92  /  0x3091  : 
+0x93  /  0x3092  : 
+0x94  /  0x3093  : 
+0x95  /  0x3094  : 
+0x96  /  0x3095  : You are at the east end of the Hall of Mists, filled with wisps of cloud which sway to and fro as if alive. There are passages on both sides and a narrow path leading up to a small opening above. A grand stone staircase leads downwards to the north
+0x97  /  0x3102  : You are in a long low room with a crude note pinned to the wall saying 'You won't get it up to the pit'
+0x98  /  0x3135  : You are in the Hall of the Mountain Kings, a huge room decorated with majestic statues. The east wall is covered by trophies and the mounted heads of elves and monsters with a carved granite throne standing beneath them. The hall is hung about with the tattered remains of rich tapestries and has large doorways on all sides
+0x99  /  0x31d3  : You are in the south side chamber of the Hall of the Mountain Kings
+0x9a  /  0x31ee  : You are in a low north-south passage at a hole in the floor. This goes down to an east-west passage below
+0x9b  /  0x3214  : You are in a huge room with passages to the south and west and a maze of broken rock to the east. 'Y2' is carved on a rock in the very centre of the room
+0x9c  /  0x3252  : You are at a window overlooking a huge canyon. The floor is just visible over 50 feet below, covered by drifting white mist. On the opposite side of the canyon is a window into a lighted room 
 and you can just make out a shadowy figure watching your every movement
-0x9d  /  0x3255  : You are in a jumble of rocks with small cracks everywhere
-0x9e  /  0x3271  : You are on the east bank of a wide fissure slicing completely across the Hall of Mists. The white fog is very thick here and the fissure is much too wide to jump
-0x9f  /  0x32bd  : You are on the west bank of a wide fissure slicing completely across the Hall of Mists. Dense fog rises from the fissure and spreads out on either side of it
-0xa0  /  0x3307  : You are at the west end of the Hall of Mists. To the south is a little passage, six feet off the ground. A low wide crawl continues west and another goes north
-0xa1  /  0x334a  : You are at the east end of a very long hall apparently without side chambers. A low crawl continues east, and to the north is a small round hole
-0xa2  /  0x3389  : You are at the west end of a very long featureless hall which joins up with a narrow north-south passage
-0xa3  /  0x33bb  : You are at a cross-over of high north-south passage and a low east-west one
-0xa4  /  0x33dd  : You are at a dead end
-0xa5  /  0x33e6  : You are in the west side chamber of the Hall of 
+0x9d  /  0x32d5  : You are in a jumble of rocks with small cracks everywhere
+0x9e  /  0x32f1  : You are on the east bank of a wide fissure slicing completely across the Hall of Mists. The white fog is very thick here and the fissure is much too wide to jump
+0x9f  /  0x333d  : You are on the west bank of a wide fissure slicing completely across the Hall of Mists. Dense fog rises from the fissure and spreads out on either side of it
+0xa0  /  0x3387  : You are at the west end of the Hall of Mists. To the south is a little passage, six feet off the ground. A low wide crawl continues west and another goes north
+0xa1  /  0x33ca  : You are at the east end of a very long hall apparently without side chambers. A low crawl continues east, and to the north is a small round hole
+0xa2  /  0x3409  : You are at the west end of a very long featureless hall which joins up with a narrow north-south passage
+0xa3  /  0x343b  : You are at a cross-over of high north-south passage and a low east-west one
+0xa4  /  0x345d  : You are at a dead end
+0xa5  /  0x3466  : You are in the west side chamber of the Hall of 
 the Mountain Kings. A passage continues west
-0xa6  /  0x3412  : You are in a secret east-west canyon above a very tight north-canyon 15 feet below. If you climbed down, you might not be able to get back up again
-0xa7  /  0x345c  : You are in a wide north-south canyon partly filled with shifting mist, at a place where a slab of floor has collapsed into the room below to leave a large hole
-0xa8  /  0x34a9  : You are at the junction between the south end of a secret north-south canyon and the west end of a secret east-west canyon
-0xa9  /  0x34d9  : You are in a huge north-south canyon, partly filled by white mist seeping from the north. Far above, an enormous two-sided mirror is suspended between the cavern walls. (The mirror is obviously provided for the use of the dwarves who are extremely vain.) There is a small window in either wall, level with the mirror.
-0xaa  /  0x3578  : You are on the edge of a massive underground reservoir which stretches as far as the eye can see. An opaque cloud of white mist rises from the lake and streams upwards and south through the only exit. You can hear splashing water from within the mist: obviously the lake is filled by a large stream
-0xab  /  0x3611  : You are in a magnificent cavern with a rushing stream which cascades over a sparkling waterfall, flows into a roaring whirlpool and disappears through a hole in the floor. Huge passages exit to south and west
-0xac  /  0x3677  : You are on the brink of a small, clean, climable pit. A crawl leads west
-0xad  /  0x369d  : You are at the bottom of a pit, standing in about 6 inches of icy water
-0xae  /  0x36be  : You are at the top of a steep incline above a large room. You could climb down, but would not be able to climb back up. A passage leads back the way you came, from the north
-0xaf  /  0x3715  : You are following a wide path round the outer edge of a large cavern far below. Through thick white mist, splashing water can be heard in the distance below. The mist rises from the cavern and up through a hole in the roof. The path exits to south and west
-0xb0  /  0x3794  : You are in an anteroom leading to a large passage to the east. Small passages go west and up. The remains of recent digging are evident and a sign floating in mid-air flashes 'CAVE UNDER CONSTRUCTION: PROCEED AT YOUR OWN RISK (Witt Construction Plc)'
-0xb1  /  0x382d  : You are at Witt's End. A maze of tiny passages have been dug in all directions as the first phase in constructing a new cavern
-0xb2  /  0x386f  : You are in an alcove at the end of a winding path from the north-west. An eerie light shines through an extremely tight entrance to the east
-0xb3  /  0x38b1  : You are in an arched hall. The ceiling has collapsed so you will have to return the way you came
-0xb4  /  0x38e3  : You are in a steeply sloping corridor with sharp walls
-0xb5  /  0x38fc  : You are in a cul-de-sac at the lower end of a steeply sloping passage. Pieces of broken shell are strewn all over the floor
-0xb6  /  0x3935  : You are in Bedquilt, a long east-west passage with holes all around. There are so many holes that you can't tell which is which and so exploration can only be at random
-0xb7  /  0x398a  : You are at a dead end crawl
-0xb8  /  0x3997  : You are in the soft room. The walls are hidden behind velvet curtains, a thick pile carpet covers the floor, and dense moss grows on the ceiling
-0xb9  /  0x39dd  : You are in a tall east-west canyon with a narrow chink to the north
-0xba  /  0x39f5  : The north-south canyon ends in a mass of boulders: there is no way to go further north
-0xbb  /  0x3a23  : You are at a wide place in a very tight north-south canyon
-0xbc  /  0x3a3c  : You are at the south end of a very tight north-south canyon. The canyon becomes too narrow for you to go further
-0xbd  /  0x3a6c  : You are in a twisting corridor which leads north in one direction and slopes down in the other.
-0xbe  /  0x3a95  : You are in the east pit beside an oil well
-0xbf  /  0x3aa6  : You are at the west end of the twopit room, above a deep pit. A passage continues west
-0xc0  /  0x3acc  : You are at the bottom of the west pit - 20 feet 
+0xa6  /  0x3492  : You are in a secret east-west canyon above a very tight north-canyon 15 feet below. If you climbed down, you might not be able to get back up again
+0xa7  /  0x34dc  : You are in a wide north-south canyon partly filled with shifting mist, at a place where a slab of floor has collapsed into the room below to leave a large hole
+0xa8  /  0x3529  : You are at the junction between the south end of a secret north-south canyon and the west end of a secret east-west canyon
+0xa9  /  0x3559  : You are in a huge north-south canyon, partly filled by white mist seeping from the north. Far above, an enormous two-sided mirror is suspended between the cavern walls. (The mirror is obviously provided for the use of the dwarves who are extremely vain.) There is a small window in either wall, level with the mirror.
+0xaa  /  0x35f8  : You are on the edge of a massive underground reservoir which stretches as far as the eye can see. An opaque cloud of white mist rises from the lake and streams upwards and south through the only exit. You can hear splashing water from within the mist: obviously the lake is filled by a large stream
+0xab  /  0x3691  : You are in a magnificent cavern with a rushing stream which cascades over a sparkling waterfall, flows into a roaring whirlpool and disappears through a hole in the floor. Huge passages exit to south and west
+0xac  /  0x36f7  : You are on the brink of a small, clean, climable pit. A crawl leads west
+0xad  /  0x371d  : You are at the bottom of a pit, standing in about 6 inches of icy water
+0xae  /  0x373e  : You are at the top of a steep incline above a large room. You could climb down, but would not be able to climb back up. A passage leads back the way you came, from the north
+0xaf  /  0x3795  : You are following a wide path round the outer edge of a large cavern far below. Through thick white mist, splashing water can be heard in the distance below. The mist rises from the cavern and up through a hole in the roof. The path exits to south and west
+0xb0  /  0x3814  : You are in an anteroom leading to a large passage to the east. Small passages go west and up. The remains of recent digging are evident and a sign floating in mid-air flashes 'CAVE UNDER CONSTRUCTION: PROCEED AT YOUR OWN RISK (Witt Construction Plc)'
+0xb1  /  0x38ad  : You are at Witt's End. A maze of tiny passages have been dug in all directions as the first phase in constructing a new cavern
+0xb2  /  0x38ef  : You are in an alcove at the end of a winding path from the north-west. An eerie light shines through an extremely tight entrance to the east
+0xb3  /  0x3931  : You are in an arched hall. The ceiling has collapsed so you will have to return the way you came
+0xb4  /  0x3963  : You are in a steeply sloping corridor with sharp walls
+0xb5  /  0x397c  : You are in a cul-de-sac at the lower end of a steeply sloping passage. Pieces of broken shell are strewn all over the floor
+0xb6  /  0x39b5  : You are in Bedquilt, a long east-west passage with holes all around. There are so many holes that you can't tell which is which and so exploration can only be at random
+0xb7  /  0x3a0a  : You are at a dead end crawl
+0xb8  /  0x3a17  : You are in the soft room. The walls are hidden behind velvet curtains, a thick pile carpet covers the floor, and dense moss grows on the ceiling
+0xb9  /  0x3a5d  : You are in a tall east-west canyon with a narrow chink to the north
+0xba  /  0x3a75  : The north-south canyon ends in a mass of boulders: there is no way to go further north
+0xbb  /  0x3aa3  : You are at a wide place in a very tight north-south canyon
+0xbc  /  0x3abc  : You are at the south end of a very tight north-south canyon. The canyon becomes too narrow for you to go further
+0xbd  /  0x3aec  : You are in a twisting corridor which leads north in one direction and slopes down in the other.
+0xbe  /  0x3b15  : You are in the east pit beside an oil well
+0xbf  /  0x3b26  : You are at the west end of the twopit room, above a deep pit. A passage continues west
+0xc0  /  0x3b4c  : You are at the bottom of the west pit - 20 feet 
 below the floor of two-pit. You can see a large 
 hole in the wall far above
-0xc1  /  0x3b07  : You are on the south west side of a chasm crossed by a rickety bridge. The path crossing the bridge joins a tunnel to the south-west
-0xc2  /  0x3b45  : You are in a long narrow corridor, stretching out of sight to the west. To the east is a hole through which you can see a profusion of leaves.
-0xc3  /  0x3b87  : You are in the Giant Room filled with enormous furniture and with no ceiling (or perhaps it is just too high for your lamp to show it). Cavernous passages lead north, south and east. On the west wall is the inscription 'FEE FIE FOE FOO'
-0xc4  /  0x3c02  : The passage is blocked by a recent cave-in and you cannot go further east. You will have to retrace your steps
-0xc5  /  0x3c42  : You are in a secret north-south canyon above a sizable passage
-0xc6  /  0x3c59  : You are in a dirty broken passage. To the east is a low crawl and to the west is a large passage. There is a hole in the ceiling above
-0xc7  /  0x3c8c  : You are in a large room knee-deep in dust. There are cracks everywhere and a passage leading east. You could wriggle down a hole to a junction below
-0xc8  /  0x3cd6  : You are in a large low room with exits to north, south-east and south-west
-0xc9  /  0x3cf6  : This is the oriental room. Oriental tapestries and drawings cover the walls, and chimes make quiet music high above. Gently sloping passages lead north, west and south-east
-0xca  /  0x3d4c  : You are at a complex junction. A low hands and knees passage from the north joins a higher crawl from the east to make a 5 foot passage going west. You could also climb up through a hole in the ceiling. A salty smell blows from the north and you can hear a quiet murmuring
-0xcb  /  0x3dd9  : You are in a room decorated with millions of shells embedded in the walls. A shallow passage leads down and a steeper one leads up. A low passage leaves to the south. You can hear the sound of the sea far away and seem to feel salt spray on your face
-0xcc  /  0x3e53  : You are in a room whose walls resemble swiss cheese. It smells a bit cheesy too. Obvious passages lead west, east and north-east, but there could well be others
-0xcd  /  0x3ea7  : You are at the eastern end of a long room with two pits in the floor. You are near the east pit, and the many thin stone slabs littering the room would make descending it simple. A path bypasses the pits to connect passages from east and west. There are holes all around, but the only large one is high above the west pit, out of easy reach
-0xce  /  0x3f4a  : You are in a large, low, circular room almost filled by a huge slab of rock fallen from the ceiling. To east and west are large passages, completely filled by boulders. Low, small passages lead north and south: the south one bends east round some boulders
-0xcf  /  0x3fc0  : You are in a gigantic north-south passage
-0xd0  /  0x3fd1  : You are at a window overlooking a huge canyon. On the other side is a lighted window at which you can just make out a shadowy figure peering back
-0xd1  /  0x4019  : You are at a junction between a secret north-south canyon and a passage to the south-east
-0xd2  /  0x403e  : You are at the southern end of a secret north-south canyon. A stalagtite hangs down from the ceiling: you could climb down it to a room below but not get back up
-0xd3  /  0x4089  : 
-0xd4  /  0x408a  : 
-0xd5  /  0x408b  : 
-0xd6  /  0x408c  : 
-0xd7  /  0x408d  : You are at a dead end
-0xd8  /  0x4096  : You are in a maze of twisty little passages, all the same. You could climb down a massive orange column, but might not be able to climb back up. The maze continues on this level
-0xd9  /  0x40e4  : You are in a maze of twisty little passages, all the same
-0xda  /  0x40eb  : You are in a maze of twisty little passages, all the same
-0xdb  /  0x40f2  : You are at a dead end
-0xdc  /  0x40fb  : You are at a dead end
-0xdd  /  0x4104  : You are at a dead end
-0xde  /  0x410d  : You are at a dead end
-0xdf  /  0x4116  : You are in a maze of twisty little passages, all the same
-0xe0  /  0x411d  : You are in a maze of twisty little passages, all the same
-0xe1  /  0x4124  : You are at a dead end
-0xe2  /  0x412d  : You are in a maze of twisty little passages, all the same
-0xe3  /  0x4134  : You are in a maze of twisty little passages, all the same
-0xe4  /  0x413b  : You are in a maze of twisty little passages, all the same
-0xe5  /  0x4142  : You are in a maze of twisty little passages, all the same
-0xe6  /  0x4149  : You are in a maze of twisty little passages, all the same
-0xe7  /  0x4150  : You are at a dead end
-0xe8  /  0x4159  : You are at a dead end
-0xe9  /  0x4162  : You are at a dead end
-0xea  /  0x416b  : You are at a dead end
-0xeb  /  0x4174  : You are in a maze of twisty little passages, all the same
-0xec  /  0x417b  : You are at a dead end
-0xed  /  0x4184  : You are in a maze of twisty little passages, all the same
-0xee  /  0x418b  : You are in a maze of twisty little passages, all the same
-0xef  /  0x4192  : You are in a maze of twisty little passages, all the same
-0xf0  /  0x4199  : You are in a maze of twisty little passages, all the same
-0xf1  /  0x41a0  : 
-0xf2  /  0x41a1  : 
-0xf3  /  0x41a2  : 
-0xf4  /  0x41a3  : 
-0xf5  /  0x41a4  : You are in a maze of twisty little passages, all different. There is a vending machine marked 'batteries for sale' and a notice saying 'the pirate keeps his chest in the other maze'
-0xf6  /  0x41f4  : You are in a maze of twisty little passages, all different
-0xf7  /  0x41ff  : You are in a maze of twisty little passages, all different
-0xf8  /  0x420a  : You are in a maze of twisty little passages, all different
-0xf9  /  0x4215  : You are in a maze of twisty little passages, all different
-0xfa  /  0x4220  : You are in a maze of twisty little passages, all different
-0xfb  /  0x422b  : You are in a maze of twisty little passages, all different
-0xfc  /  0x4236  : You are in a maze of twisty little passages, all different
-0xfd  /  0x4241  : You are in a maze of twisty little passages, all different
-0xfe  /  0x424c  : You are in a maze of twisty little passages, all different
-0xff  /  0x4257  : You are in a maze of twisty little passages, all different
-0x100  /  0x4262  : You are in a maze of twisty little passages, all different
-0x101  /  0x426d  : You are in a maze of twisty little passages, all different
-0x102  /  0x4278  : You are in a maze of twisty little passages, all different
-0x103  /  0x4283  : You are in a maze of twisty little passages, all different
-0x104  /  0x428e  : You are in a maze of twisty little passages, all different
-0x105  /  0x4299  : You are in a maze of twisty little passages, all different
-0x106  /  0x42a4  : You are in a maze of twisty little passages, all different
-0x107  /  0x42af  : You are in a maze of twisty little passages, all different
-0x108  /  0x42ba  : You are in a maze of twisty little passages, all different
-0x109  /  0x42c5  : You are in a maze of twisty little passages, all different
-0x10a  /  0x42d0  : You are on a steep hillside rising up through the wood
-0x10b  /  0x42eb  : You are on a very steep hillside rising high above the surrounding woodland
-0x10c  /  0x4312  : The trees thin out and an unclimable spire of polished rock rises from a clearing in the forest.
-0x10d  /  0x4343  : You are at the north-east end of a vast cave, surrounded by snoring dwarves. A welded grate covers a pit of green snakes and young beanstalks, and bits of broken vending machine litter the floor. Hundreds of small passages, just large enough for the dwarves but not for you, lead in all directions
-0x10e  /  0x43d3  : You are at the south-west end of a vast hall filled with a loud snoring emerging from a large heap at the other side. Bats skim around the ceiling far above and high in one wall is stuck a trident (perhaps it lodged in a crevice when thrown at one of the bats). The cavern walls are honeycombed with tiny passages, just too small for you
-0x10f  /  0x4474  : You are in a narrow east-west corridor, carved crudely out of the rock. The floor is littered with rock fragments left when the secret stone door at the east end of the corridoor was shattered
-0x110  /  0x44cf  : The east-west corridoor continues
-0x111  /  0x44de  : You are in an east-west corridor beside an iron 
+0xc1  /  0x3b87  : You are on the south west side of a chasm crossed by a rickety bridge. The path crossing the bridge joins a tunnel to the south-west
+0xc2  /  0x3bc5  : You are in a long narrow corridor, stretching out of sight to the west. To the east is a hole through which you can see a profusion of leaves.
+0xc3  /  0x3c07  : You are in the Giant Room filled with enormous furniture and with no ceiling (or perhaps it is just too high for your lamp to show it). Cavernous passages lead north, south and east. On the west wall is the inscription 'FEE FIE FOE FOO'
+0xc4  /  0x3c82  : The passage is blocked by a recent cave-in and you cannot go further east. You will have to retrace your steps
+0xc5  /  0x3cc2  : You are in a secret north-south canyon above a sizable passage
+0xc6  /  0x3cd9  : You are in a dirty broken passage. To the east is a low crawl and to the west is a large passage. There is a hole in the ceiling above
+0xc7  /  0x3d0c  : You are in a large room knee-deep in dust. There are cracks everywhere and a passage leading east. You could wriggle down a hole to a junction below
+0xc8  /  0x3d56  : You are in a large low room with exits to north, south-east and south-west
+0xc9  /  0x3d76  : This is the oriental room. Oriental tapestries and drawings cover the walls, and chimes make quiet music high above. Gently sloping passages lead north, west and south-east
+0xca  /  0x3dcc  : You are at a complex junction. A low hands and knees passage from the north joins a higher crawl from the east to make a 5 foot passage going west. You could also climb up through a hole in the ceiling. A salty smell blows from the north and you can hear a quiet murmuring
+0xcb  /  0x3e59  : You are in a room decorated with millions of shells embedded in the walls. A shallow passage leads down and a steeper one leads up. A low passage leaves to the south. You can hear the sound of the sea far away and seem to feel salt spray on your face
+0xcc  /  0x3ed3  : You are in a room whose walls resemble swiss cheese. It smells a bit cheesy too. Obvious passages lead west, east and north-east, but there could well be others
+0xcd  /  0x3f27  : You are at the eastern end of a long room with two pits in the floor. You are near the east pit, and the many thin stone slabs littering the room would make descending it simple. A path bypasses the pits to connect passages from east and west. There are holes all around, but the only large one is high above the west pit, out of easy reach
+0xce  /  0x3fca  : You are in a large, low, circular room almost filled by a huge slab of rock fallen from the ceiling. To east and west are large passages, completely filled by boulders. Low, small passages lead north and south: the south one bends east round some boulders
+0xcf  /  0x4040  : You are in a gigantic north-south passage
+0xd0  /  0x4051  : You are at a window overlooking a huge canyon. On the other side is a lighted window at which you can just make out a shadowy figure peering back
+0xd1  /  0x4099  : You are at a junction between a secret north-south canyon and a passage to the south-east
+0xd2  /  0x40be  : You are at the southern end of a secret north-south canyon. A stalagtite hangs down from the ceiling: you could climb down it to a room below but not get back up
+0xd3  /  0x4109  : 
+0xd4  /  0x410a  : 
+0xd5  /  0x410b  : 
+0xd6  /  0x410c  : 
+0xd7  /  0x410d  : You are at a dead end
+0xd8  /  0x4116  : You are in a maze of twisty little passages, all the same. You could climb down a massive orange column, but might not be able to climb back up. The maze continues on this level
+0xd9  /  0x4164  : You are in a maze of twisty little passages, all the same
+0xda  /  0x416b  : You are in a maze of twisty little passages, all the same
+0xdb  /  0x4172  : You are at a dead end
+0xdc  /  0x417b  : You are at a dead end
+0xdd  /  0x4184  : You are at a dead end
+0xde  /  0x418d  : You are at a dead end
+0xdf  /  0x4196  : You are in a maze of twisty little passages, all the same
+0xe0  /  0x419d  : You are in a maze of twisty little passages, all the same
+0xe1  /  0x41a4  : You are at a dead end
+0xe2  /  0x41ad  : You are in a maze of twisty little passages, all the same
+0xe3  /  0x41b4  : You are in a maze of twisty little passages, all the same
+0xe4  /  0x41bb  : You are in a maze of twisty little passages, all the same
+0xe5  /  0x41c2  : You are in a maze of twisty little passages, all the same
+0xe6  /  0x41c9  : You are in a maze of twisty little passages, all the same
+0xe7  /  0x41d0  : You are at a dead end
+0xe8  /  0x41d9  : You are at a dead end
+0xe9  /  0x41e2  : You are at a dead end
+0xea  /  0x41eb  : You are at a dead end
+0xeb  /  0x41f4  : You are in a maze of twisty little passages, all the same
+0xec  /  0x41fb  : You are at a dead end
+0xed  /  0x4204  : You are in a maze of twisty little passages, all the same
+0xee  /  0x420b  : You are in a maze of twisty little passages, all the same
+0xef  /  0x4212  : You are in a maze of twisty little passages, all the same
+0xf0  /  0x4219  : You are in a maze of twisty little passages, all the same
+0xf1  /  0x4220  : 
+0xf2  /  0x4221  : 
+0xf3  /  0x4222  : 
+0xf4  /  0x4223  : 
+0xf5  /  0x4224  : You are in a maze of twisty little passages, all different. There is a vending machine marked 'batteries for sale' and a notice saying 'the pirate keeps his chest in the other maze'
+0xf6  /  0x4274  : You are in a maze of twisty little passages, all different
+0xf7  /  0x427f  : You are in a maze of twisty little passages, all different
+0xf8  /  0x428a  : You are in a maze of twisty little passages, all different
+0xf9  /  0x4295  : You are in a maze of twisty little passages, all different
+0xfa  /  0x42a0  : You are in a maze of twisty little passages, all different
+0xfb  /  0x42ab  : You are in a maze of twisty little passages, all different
+0xfc  /  0x42b6  : You are in a maze of twisty little passages, all different
+0xfd  /  0x42c1  : You are in a maze of twisty little passages, all different
+0xfe  /  0x42cc  : You are in a maze of twisty little passages, all different
+0xff  /  0x42d7  : You are in a maze of twisty little passages, all different
+0x100  /  0x42e2  : You are in a maze of twisty little passages, all different
+0x101  /  0x42ed  : You are in a maze of twisty little passages, all different
+0x102  /  0x42f8  : You are in a maze of twisty little passages, all different
+0x103  /  0x4303  : You are in a maze of twisty little passages, all different
+0x104  /  0x430e  : You are in a maze of twisty little passages, all different
+0x105  /  0x4319  : You are in a maze of twisty little passages, all different
+0x106  /  0x4324  : You are in a maze of twisty little passages, all different
+0x107  /  0x432f  : You are in a maze of twisty little passages, all different
+0x108  /  0x433a  : You are in a maze of twisty little passages, all different
+0x109  /  0x4345  : You are in a maze of twisty little passages, all different
+0x10a  /  0x4350  : You are on a steep hillside rising up through the wood
+0x10b  /  0x436b  : You are on a very steep hillside rising high above the surrounding woodland
+0x10c  /  0x4392  : The trees thin out and an unclimable spire of polished rock rises from a clearing in the forest.
+0x10d  /  0x43c3  : You are at the north-east end of a vast cave, surrounded by snoring dwarves. A welded grate covers a pit of green snakes and young beanstalks, and bits of broken vending machine litter the floor. Hundreds of small passages, just large enough for the dwarves but not for you, lead in all directions
+0x10e  /  0x4453  : You are at the south-west end of a vast hall filled with a loud snoring emerging from a large heap at the other side. Bats skim around the ceiling far above and high in one wall is stuck a trident (perhaps it lodged in a crevice when thrown at one of the bats). The cavern walls are honeycombed with tiny passages, just too small for you
+0x10f  /  0x44f4  : You are in a narrow east-west corridor, carved crudely out of the rock. The floor is littered with rock fragments left when the secret stone door at the east end of the corridoor was shattered
+0x110  /  0x454f  : The east-west corridoor continues
+0x111  /  0x455e  : You are in an east-west corridor beside an iron 
 ladder which reaches up through a round hole in 
 the ceiling. The corridoor continues
-0x112  /  0x4518  : The east-west coridor continues, but is completely blocked by rubbish. You had better retrace your steps
-0x113  /  0x4554  : You are on a metal ladder rising up a stone shaft
-0x114  /  0x456f  : You are further up the ladder
-0x115  /  0x457e  : You are on a metal ladder, climbing up through a stone shaft
-0x116  /  0x459f  : You are near the top of a metal ladder. There is a circular opening above
-0x117  /  0x45c3  : You are a in network of stone passages beside a 
+0x112  /  0x4598  : The east-west coridor continues, but is completely blocked by rubbish. You had better retrace your steps
+0x113  /  0x45d4  : You are on a metal ladder rising up a stone shaft
+0x114  /  0x45ef  : You are further up the ladder
+0x115  /  0x45fe  : You are on a metal ladder, climbing up through a stone shaft
+0x116  /  0x461f  : You are near the top of a metal ladder. There is a circular opening above
+0x117  /  0x4643  : You are a in network of stone passages beside a 
 pit. The passages lead in all directions
-0x118  /  0x45e8  : You are in a network of stone passages, which lead in all directions
-0x119  /  0x4607  : You are in a network of stone passages, which lead in all directions
-0x11a  /  0x4626  : You are in a network of stone passages, which lead in all directions
-0x11b  /  0x4645  : You are in a network of stone passages, which lead in all directions
-0x11c  /  0x4664  : You are in a network of stone passages, which lead in all directions
-0x11d  /  0x4683  : You are in a network of stone passages, which lead in all directions
-0x11e  /  0x46a2  : You are in a network of stone passages, which lead in all directions
-0x11f  /  0x46c1  : You are in a network of stone passages
-0x120  /  0x46cf  : You are in an east-west passage lined with large square stones, from each of which hangs a set of rusty iron manacles. The ceiling drips water which falls onto heaps of decaying refuse covering the floor. There is an open trap-door in the roof and a small stone staircase leads up into the darkness behind it
-0x121  /  0x4768  : You are in a torture chamber with an exit to the west. The room is cluttered with odd and unusual items which fortunately you do not recognise!
-0x122  /  0x47b5  : You are in long straight passage, lined with slabs of stone from which hang rusted manacles. The passage gets wider to the west. Scratches on the floor lead to a narrow entrance sloping downwards to the north, as if many heavy objects had been dragged in that direction
-0x123  /  0x483d  : You are at a dead end
-0x124  /  0x4846  : You are in a wide east-west dungeon walkway between cells to the north and south. The passage continues to east and west. The cells have no doors: clearly these would not be necessary as there are enough chains suspended from the walls to hold any number of prisoners
-0x125  /  0x48ce  : You are in a dingy dungeon cell with an entrance to the south. Rows of manacles line the east and west walls
-0x126  /  0x4902  : You are in a dingy dungeon cell with an entrance to the north. Rows of manacles line the east and west walls
-0x127  /  0x4936  : You are on the east bank of a wide fissure which cuts completely across the dungeon walkway. A river of lava bubbles far below in the chasm, and foul acrid fumes rise up
-0x128  /  0x4992  : 
-0x129  /  0x4993  : You are on the west bank of a wide fissure which cuts right across the dungeon walkway. Far below in the fissure a river of lava bubbles slowly, sending up clouds of foul acrid fumes
-0x12a  /  0x49f5  : You are in an east-west dungeon walkway near the dungeon entrance
-0x12b  /  0x4a14  : You are on a spiral stone staircase
-0x12c  /  0x4a25  : You are on a spiral stone staircase
-0x12d  /  0x4a36  : You are on a spiral stone staircase
-0x12e  /  0x4a47  : You are at the bottom of the pit, in a large pentagonal room inscribed with weird symbols. The floor is caked with dried blood, scratched with complex markings. A wide stone staircase winds up from the pit towards a dim circle of light at the top of the staircase, far above
-0x12f  /  0x4ad1  : You are on a spiral stone staircase
-0x130  /  0x4ae2  : You are on a spiral stone staircase
-0x131  /  0x4af3  : You are on a spiral stone staircase
-0x132  /  0x4b04  : You are on a spiral stone staircase
-0x133  /  0x4b15  : You are on a spiral stone staircase
-0x134  /  0x4b26  : You are on a spiral stone staircase
-0x135  /  0x4b37  : You are at the top of a high stone pinnacle surrounded by clouds. You look down through gaps between them and see a carpet of trees far below, stretching in all directions. To the north, the forest eventually thins into scrub as it approaches the slopes of a volcano. To the west a stream winds south along a narrow valley, and to the east the woodland continues as far as the eye can see. The staircase is the only way down
-0x136  /  0x4c0a  : You at the edge of a huge cavern which is almost filled by a huge web hanging from the centre of the ceiling. Behind you, to the west, is an exit back to the spiral staircase
-0x137  /  0x4c5e  : You are south-west of a huge web, hanging heavily from the cavern roof
-0x138  /  0x4c7d  : You are south of a huge, dirty web
-0x139  /  0x4c91  : You are south-east of a huge web which hangs heavily from the cavern ceiling
-0x13a  /  0x4cb5  : You are east of a huge web which hangs down from the cavern roof
-0x13b  /  0x4cd3  : You are north-east of a huge web which hangs heavily from the cavern roof
-0x13c  /  0x4cf7  : You are in amongst the strands of a huge web that rises to the roof. You might be able to escape up a strand
-0x13d  /  0x4d2c  : You are north of a huge web which hangs in folds from the cavern ceiling
-0x13e  /  0x4d4d  : You are north-west of a huge web, rising up towards the cavern ceiling
-0x13f  /  0x4d69  : You are clinging to thick strands of sticky grey web in the middle of a huge cavern. You can either go up, further into the web, or back down to the cavern floor far below
-0x140  /  0x4dbd  : You are on a ledge above the cavern. It was once a magnificent place, judging from the fabulous carvings jutting out of the mess. A large round passage, exactly the same size as the spider, leads west
-0x141  /  0x4e27  : You are in the spider's lair, surrounded by thick sticky web. The stench is unbearable but fortunately there is no spider in sight. Round, narrow entrances lead east and west through the web
-0x142  /  0x4e8c  : You are in a slimy east-west passage, almost blocked by strands of thick grey web to the east. A rain of water cascades from the walls and ceiling, forming a small stream which trickles away to the west. The drip of water drowns out all other sounds
-0x143  /  0x4f02  : You are in a low east-west passage beside an underground stream. Water trickles down the sides of the passage leaving brown stains and the stream is really getting quite deep
-0x144  /  0x4f47  : You are beside an underground stream. To the west the stream completely fills the passage but there is a narrow opening to the north
-0x145  /  0x4f7e  : You are at a dead end
-0x146  /  0x4f87  : You are lost in the forest
-0x147  /  0x4f93  : You are swept along by the stream and held below the water. The current is not particularly strong, however, so you feel that you are in no danger. Fortunately your lamp seems to be waterproof
-0x148  /  0x4ff9  : 
-0x149  /  0x4ffa  : 
-0x14a  /  0x4ffb  : 
-0x14b  /  0x4ffc  : 
-0x14c  /  0x4ffd  : 
-0x14d  /  0x4ffe  : 
-0x14e  /  0x4fff  : There is a large padlocked grate set into the ground
-0x14f  /  0x5019  : 
-0x150  /  0x501a  : 
-0x151  /  0x501b  : 
-0x152  /  0x501c  : 
-0x153  /  0x501d  : 
-0x154  /  0x501e  : 
-0x155  /  0x501f  : 
-0x156  /  0x5020  : 
-0x157  /  0x5021  : 
-0x158  /  0x5022  : 
-0x159  /  0x5023  : 
-0x15a  /  0x5024  : 
-0x15b  /  0x5025  : There is a large padlocked iron grate above you
-0x15c  /  0x5040  : 
-0x15d  /  0x5041  : 
-0x15e  /  0x5042  : 
-0x15f  /  0x5043  : 
-0x160  /  0x5044  : 
-0x161  /  0x5045  : 
-0x162  /  0x5046  : 
-0x163  /  0x5047  : 
-0x164  /  0x5048  : 
-0x165  /  0x5049  : 
-0x166  /  0x504a  : 
-0x167  /  0x504b  : 
-0x168  /  0x504c  : 
-0x169  /  0x504d  : 
-0x16a  /  0x504e  : 
-0x16b  /  0x504f  : 
-0x16c  /  0x5050  : 
-0x16d  /  0x5051  : 
-0x16e  /  0x5052  : 
-0x16f  /  0x5053  : 
-0x170  /  0x5054  : 
-0x171  /  0x5055  : 
-0x172  /  0x5056  : 
-0x173  /  0x5057  : 
-0x174  /  0x5058  : 
-0x175  /  0x5059  : 
-0x176  /  0x505a  : 
-0x177  /  0x505b  : 
-0x178  /  0x505c  : 
-0x179  /  0x505d  : 
-0x17a  /  0x505e  : 
-0x17b  /  0x505f  : 
-0x17c  /  0x5060  : 
-0x17d  /  0x5061  : 
-0x17e  /  0x5062  : A huge green snake hisses fiercely at you
-0x17f  /  0x507d  : 
-0x180  /  0x507e  : 
-0x181  /  0x507f  : 
-0x182  /  0x5080  : 
-0x183  /  0x5081  : 
-0x184  /  0x5082  : 
-0x185  /  0x5083  : 
-0x186  /  0x5084  : 
-0x187  /  0x5085  : 
-0x188  /  0x5086  : 
-0x189  /  0x5087  : 
-0x18a  /  0x5088  : 
-0x18b  /  0x5089  : 
-0x18c  /  0x508a  : 
-0x18d  /  0x508b  : 
-0x18e  /  0x508c  : There is a large oriental dragon here, sitting on a large oriental carpet
-0x18f  /  0x50b2  : 
-0x190  /  0x50b3  : 
-0x191  /  0x50b4  : 
-0x192  /  0x50b5  : 
-0x193  /  0x50b6  : 
-0x194  /  0x50b7  : 
-0x195  /  0x50b8  : 
-0x196  /  0x50b9  : 
-0x197  /  0x50ba  : 
-0x198  /  0x50bb  : 
-0x199  /  0x50bc  : 
-0x19a  /  0x50bd  : 
-0x19b  /  0x50be  : 
-0x19c  /  0x50bf  : 
-0x19d  /  0x50c0  : 
-0x19e  /  0x50c1  : 
-0x19f  /  0x50c2  : 
-0x1a0  /  0x50c3  : 
-0x1a1  /  0x50c4  : 
-0x1a2  /  0x50c5  : 
-0x1a3  /  0x50c6  : 
-0x1a4  /  0x50c7  : 
-0x1a5  /  0x50c8  : 
-0x1a6  /  0x50c9  : 
-0x1a7  /  0x50ca  : 
-0x1a8  /  0x50cb  : 
-0x1a9  /  0x50cc  : 
-0x1aa  /  0x50cd  : 
-0x1ab  /  0x50ce  : 
-0x1ac  /  0x50cf  : 
-0x1ad  /  0x50d0  : 
-0x1ae  /  0x50d1  : 
-0x1af  /  0x50d2  : 
-0x1b0  /  0x50d3  : 
-0x1b1  /  0x50d4  : A huge clam is anchored firmly to the floor
-0x1b2  /  0x50ed  : 
-0x1b3  /  0x50ee  : 
-0x1b4  /  0x50ef  : 
-0x1b5  /  0x50f0  : A rusty gate blocks the way north
-0x1b6  /  0x5100  : 
-0x1b7  /  0x5101  : 
-0x1b8  /  0x5102  : 
-0x1b9  /  0x5103  : 
-0x1ba  /  0x5104  : 
-0x1bb  /  0x5105  : 
-0x1bc  /  0x5106  : The grate is open
-0x1bd  /  0x510f  : 
-0x1be  /  0x5110  : 
-0x1bf  /  0x5111  : 
-0x1c0  /  0x5112  : 
-0x1c1  /  0x5113  : 
-0x1c2  /  0x5114  : 
-0x1c3  /  0x5115  : 
-0x1c4  /  0x5116  : 
-0x1c5  /  0x5117  : 
-0x1c6  /  0x5118  : 
-0x1c7  /  0x5119  : 
-0x1c8  /  0x511a  : 
-0x1c9  /  0x511b  : The grate is open and light streams in through it
-0x1ca  /  0x5133  : 
-0x1cb  /  0x5134  : 
-0x1cc  /  0x5135  : 
-0x1cd  /  0x5136  : 
-0x1ce  /  0x5137  : 
-0x1cf  /  0x5138  : 
-0x1d0  /  0x5139  : 
-0x1d1  /  0x513a  : 
-0x1d2  /  0x513b  : 
-0x1d3  /  0x513c  : 
-0x1d4  /  0x513d  : 
-0x1d5  /  0x513e  : 
-0x1d6  /  0x513f  : 
-0x1d7  /  0x5140  : 
-0x1d8  /  0x5141  : A huge ugly troll stands by the bridge, palm outstretched
-0x1d9  /  0x5162  : 
-0x1da  /  0x5163  : 
-0x1db  /  0x5164  : 
-0x1dc  /  0x5165  : 
-0x1dd  /  0x5166  : 
-0x1de  /  0x5167  : 
-0x1df  /  0x5168  : 
-0x1e0  /  0x5169  : 
-0x1e1  /  0x516a  : 
-0x1e2  /  0x516b  : 
-0x1e3  /  0x516c  : 
-0x1e4  /  0x516d  : 
-0x1e5  /  0x516e  : 
-0x1e6  /  0x516f  : 
-0x1e7  /  0x5170  : 
-0x1e8  /  0x5171  : 
-0x1e9  /  0x5172  : 
-0x1ea  /  0x5173  : 
-0x1eb  /  0x5174  : 
-0x1ec  /  0x5175  : 
-0x1ed  /  0x5176  : 
-0x1ee  /  0x5177  : 
-0x1ef  /  0x5178  : 
-0x1f0  /  0x5179  : 
-0x1f1  /  0x517a  : 
-0x1f2  /  0x517b  : A crystal bridge spans the fissure
-0x1f3  /  0x518d  : A crystal bridge spans the fissure
-0x1f4  /  0x519f  : 
-0x1f5  /  0x51a0  : 
-0x1f6  /  0x51a1  : 
-0x1f7  /  0x51a2  : 
-0x1f8  /  0x51a3  : 
-0x1f9  /  0x51a4  : 
-0x1fa  /  0x51a5  : There are some coins here
-0x1fb  /  0x51b1  : 
-0x1fc  /  0x51b2  : 
-0x1fd  /  0x51b3  : 
-0x1fe  /  0x51b4  : 
-0x1ff  /  0x51b5  : 
-0x200  /  0x51b6  : 
-0x201  /  0x51b7  : 
-0x202  /  0x51b8  : 
-0x203  /  0x51b9  : 
-0x204  /  0x51ba  : 
-0x205  /  0x51bb  : 
-0x206  /  0x51bc  : 
-0x207  /  0x51bd  : 
-0x208  /  0x51be  : 
-0x209  /  0x51bf  : 
-0x20a  /  0x51c0  : 
-0x20b  /  0x51c1  : 
-0x20c  /  0x51c2  : 
-0x20d  /  0x51c3  : 
-0x20e  /  0x51c4  : 
-0x20f  /  0x51c5  : 
-0x210  /  0x51c6  : 
-0x211  /  0x51c7  : 
-0x212  /  0x51c8  : 
-0x213  /  0x51c9  : 
-0x214  /  0x51ca  : A huge beanstalk reaches up to an opening above
-0x215  /  0x51e1  : A huge ugly troll stands by the bridge
-0x216  /  0x51f6  : 
-0x217  /  0x51f7  : 
-0x218  /  0x51f8  : 
-0x219  /  0x51f9  : 
-0x21a  /  0x51fa  : 
-0x21b  /  0x51fb  : 
-0x21c  /  0x51fc  : 
-0x21d  /  0x51fd  : 
-0x21e  /  0x51fe  : 
-0x21f  /  0x51ff  : There is a huge oyster here
-0x220  /  0x520a  : 
-0x221  /  0x520b  : 
-0x222  /  0x520c  : 
-0x223  /  0x520d  : The north gate is open
-0x224  /  0x5219  : 
-0x225  /  0x521a  : 
-0x226  /  0x521b  : 
-0x227  /  0x521c  : a bunch of keys
-0x228  /  0x5227  : a small brass lamp
-0x229  /  0x5233  : some sandwiches
-0x22a  /  0x523c  : 
-0x22b  /  0x523d  : a small gilded cage
-0x22c  /  0x5249  : a black rod
-0x22d  /  0x5250  : 
-0x22e  /  0x5251  : a heavy gold nugget
-0x22f  /  0x525f  : silver bars
-0x230  /  0x5267  : some valuable jewelry
-0x231  /  0x5276  : some diamonds
-0x232  /  0x527d  : a bear lumbering along behind you
-0x233  /  0x5292  : a platinum pyramid
-0x234  /  0x529e  : an emerald as big as a plover's egg
-0x235  /  0x52b5  : some gold eggs
-0x236  /  0x52be  : a patchwork pillow
-0x237  /  0x52ca  : a Ming Vase
-0x238  /  0x52d2  : a trident
-0x239  /  0x52d9  : a pearl
-0x23a  /  0x52df  : this week's issue of Spelunker's Gazette
-0x23b  /  0x52f7  : some assorted coins
-0x23c  /  0x5304  : a fine silver chain
-0x23d  /  0x5311  : an oriental rug
-0x23e  /  0x531b  : the pirate's gold-encrusted chest
-0x23f  /  0x532f  : some spices
-0x240  /  0x5335  : a beautifully engraved throwing axe
-0x241  /  0x534b  : a stick of dynamite with 'blast' written on it
-0x242  /  0x5367  : a small jade pentacle
-0x243  /  0x5375  : the Elixir of Life
-0x244  /  0x5381  : an elvish orb
-0x245  /  0x538a  : an elvish sceptre
-0x246  /  0x5395  : an elvish crown
-0x247  /  0x539e  : 
-0x248  /  0x539f  : 
-0x249  /  0x53a0  : 
-0x24a  /  0x53a1  : There is a bunch of keys here
-0x24b  /  0x53b1  : There is a small brass lamp here
-0x24c  /  0x53c1  : There are some sandwiches here
-0x24d  /  0x53d0  : 
-0x24e  /  0x53d1  : There is a gilded cage here
-0x24f  /  0x53de  : There is a black rod here
-0x250  /  0x53ea  : There is a little bird here, singing merrily
-0x251  /  0x5401  : There is a large gold nugget here
-0x252  /  0x5414  : There are silver bars here
-0x253  /  0x5422  : There is some jewelry here
-0x254  /  0x542e  : There are some diamonds here
-0x255  /  0x543a  : There is a bear wandering about
-0x256  /  0x544b  : There is a platinum pyramid here
-0x257  /  0x545d  : There is an emerald here as big as a plovers egg
-0x258  /  0x5479  : There are some golden eggs here
-0x259  /  0x5489  : There is a pillow here
-0x25a  /  0x5494  : There is a Ming Vase here
-0x25b  /  0x54a0  : There is a trident here
-0x25c  /  0x54ab  : There is a glistening pearl here
-0x25d  /  0x54bc  : There is a copy of Spelunker's gazette here
-0x25e  /  0x54d4  : There are some coins here
-0x25f  /  0x54e0  : There is a fine silver chain here
-0x260  /  0x54f2  : There is an oriental rug here
-0x261  /  0x5501  : There is the pirate's chest here
-0x262  /  0x5511  : There are some rare spices here
-0x263  /  0x551f  : There is a small axe here
-0x264  /  0x552b  : There is a stick of dynamite here
-0x265  /  0x553b  : There is a small jade pentacle here
-0x266  /  0x554c  : There is some elixir here
-0x267  /  0x5557  : There is an orb here
-0x268  /  0x5560  : There is a sceptre here
-0x269  /  0x556c  : There is a crown here
-0x26a  /  0x5576  : 
-0x26b  /  0x5577  : 
-0x26c  /  0x5578  : 
-0x26d  /  0x5579  : 
-0x26e  /  0x557a  : 
-0x26f  /  0x557b  : 
-0x270  /  0x557c  : 
-0x271  /  0x557d  : 
-0x272  /  0x557e  : 
-0x273  /  0x557f  : 
-0x274  /  0x5580  : 
-0x275  /  0x5581  : 
-0x276  /  0x5582  : a bird in a gilded cage
-0x277  /  0x5590  : There is a caged bird here
-0x278  /  0x559e  : 
+0x118  /  0x4668  : You are in a network of stone passages, which lead in all directions
+0x119  /  0x4687  : You are in a network of stone passages, which lead in all directions
+0x11a  /  0x46a6  : You are in a network of stone passages, which lead in all directions
+0x11b  /  0x46c5  : You are in a network of stone passages, which lead in all directions
+0x11c  /  0x46e4  : You are in a network of stone passages, which lead in all directions
+0x11d  /  0x4703  : You are in a network of stone passages, which lead in all directions
+0x11e  /  0x4722  : You are in a network of stone passages, which lead in all directions
+0x11f  /  0x4741  : You are in a network of stone passages
+0x120  /  0x474f  : You are in an east-west passage lined with large square stones, from each of which hangs a set of rusty iron manacles. The ceiling drips water which falls onto heaps of decaying refuse covering the floor. There is an open trap-door in the roof and a small stone staircase leads up into the darkness behind it
+0x121  /  0x47e8  : You are in a torture chamber with an exit to the west. The room is cluttered with odd and unusual items which fortunately you do not recognise!
+0x122  /  0x4835  : You are in long straight passage, lined with slabs of stone from which hang rusted manacles. The passage gets wider to the west. Scratches on the floor lead to a narrow entrance sloping downwards to the north, as if many heavy objects had been dragged in that direction
+0x123  /  0x48bd  : You are at a dead end
+0x124  /  0x48c6  : You are in a wide east-west dungeon walkway between cells to the north and south. The passage continues to east and west. The cells have no doors: clearly these would not be necessary as there are enough chains suspended from the walls to hold any number of prisoners
+0x125  /  0x494e  : You are in a dingy dungeon cell with an entrance to the south. Rows of manacles line the east and west walls
+0x126  /  0x4982  : You are in a dingy dungeon cell with an entrance to the north. Rows of manacles line the east and west walls
+0x127  /  0x49b6  : You are on the east bank of a wide fissure which cuts completely across the dungeon walkway. A river of lava bubbles far below in the chasm, and foul acrid fumes rise up
+0x128  /  0x4a12  : 
+0x129  /  0x4a13  : You are on the west bank of a wide fissure which cuts right across the dungeon walkway. Far below in the fissure a river of lava bubbles slowly, sending up clouds of foul acrid fumes
+0x12a  /  0x4a75  : You are in an east-west dungeon walkway near the dungeon entrance
+0x12b  /  0x4a94  : You are on a spiral stone staircase
+0x12c  /  0x4aa5  : You are on a spiral stone staircase
+0x12d  /  0x4ab6  : You are on a spiral stone staircase
+0x12e  /  0x4ac7  : You are at the bottom of the pit, in a large pentagonal room inscribed with weird symbols. The floor is caked with dried blood, scratched with complex markings. A wide stone staircase winds up from the pit towards a dim circle of light at the top of the staircase, far above
+0x12f  /  0x4b51  : You are on a spiral stone staircase
+0x130  /  0x4b62  : You are on a spiral stone staircase
+0x131  /  0x4b73  : You are on a spiral stone staircase
+0x132  /  0x4b84  : You are on a spiral stone staircase
+0x133  /  0x4b95  : You are on a spiral stone staircase
+0x134  /  0x4ba6  : You are on a spiral stone staircase
+0x135  /  0x4bb7  : You are at the top of a high stone pinnacle surrounded by clouds. You look down through gaps between them and see a carpet of trees far below, stretching in all directions. To the north, the forest eventually thins into scrub as it approaches the slopes of a volcano. To the west a stream winds south along a narrow valley, and to the east the woodland continues as far as the eye can see. The staircase is the only way down
+0x136  /  0x4c8a  : You at the edge of a huge cavern which is almost filled by a huge web hanging from the centre of the ceiling. Behind you, to the west, is an exit back to the spiral staircase
+0x137  /  0x4cde  : You are south-west of a huge web, hanging heavily from the cavern roof
+0x138  /  0x4cfd  : You are south of a huge, dirty web
+0x139  /  0x4d11  : You are south-east of a huge web which hangs heavily from the cavern ceiling
+0x13a  /  0x4d35  : You are east of a huge web which hangs down from the cavern roof
+0x13b  /  0x4d53  : You are north-east of a huge web which hangs heavily from the cavern roof
+0x13c  /  0x4d77  : You are in amongst the strands of a huge web that rises to the roof. You might be able to escape up a strand
+0x13d  /  0x4dac  : You are north of a huge web which hangs in folds from the cavern ceiling
+0x13e  /  0x4dcd  : You are north-west of a huge web, rising up towards the cavern ceiling
+0x13f  /  0x4de9  : You are clinging to thick strands of sticky grey web in the middle of a huge cavern. You can either go up, further into the web, or back down to the cavern floor far below
+0x140  /  0x4e3d  : You are on a ledge above the cavern. It was once a magnificent place, judging from the fabulous carvings jutting out of the mess. A large round passage, exactly the same size as the spider, leads west
+0x141  /  0x4ea7  : You are in the spider's lair, surrounded by thick sticky web. The stench is unbearable but fortunately there is no spider in sight. Round, narrow entrances lead east and west through the web
+0x142  /  0x4f0c  : You are in a slimy east-west passage, almost blocked by strands of thick grey web to the east. A rain of water cascades from the walls and ceiling, forming a small stream which trickles away to the west. The drip of water drowns out all other sounds
+0x143  /  0x4f82  : You are in a low east-west passage beside an underground stream. Water trickles down the sides of the passage leaving brown stains and the stream is really getting quite deep
+0x144  /  0x4fc7  : You are beside an underground stream. To the west the stream completely fills the passage but there is a narrow opening to the north
+0x145  /  0x4ffe  : You are at a dead end
+0x146  /  0x5007  : You are lost in the forest
+0x147  /  0x5013  : You are swept along by the stream and held below the water. The current is not particularly strong, however, so you feel that you are in no danger. Fortunately your lamp seems to be waterproof
+0x148  /  0x5079  : 
+0x149  /  0x507a  : 
+0x14a  /  0x507b  : 
+0x14b  /  0x507c  : 
+0x14c  /  0x507d  : 
+0x14d  /  0x507e  : 
+0x14e  /  0x507f  : There is a large padlocked grate set into the ground
+0x14f  /  0x5099  : 
+0x150  /  0x509a  : 
+0x151  /  0x509b  : 
+0x152  /  0x509c  : 
+0x153  /  0x509d  : 
+0x154  /  0x509e  : 
+0x155  /  0x509f  : 
+0x156  /  0x50a0  : 
+0x157  /  0x50a1  : 
+0x158  /  0x50a2  : 
+0x159  /  0x50a3  : 
+0x15a  /  0x50a4  : 
+0x15b  /  0x50a5  : There is a large padlocked iron grate above you
+0x15c  /  0x50c0  : 
+0x15d  /  0x50c1  : 
+0x15e  /  0x50c2  : 
+0x15f  /  0x50c3  : 
+0x160  /  0x50c4  : 
+0x161  /  0x50c5  : 
+0x162  /  0x50c6  : 
+0x163  /  0x50c7  : 
+0x164  /  0x50c8  : 
+0x165  /  0x50c9  : 
+0x166  /  0x50ca  : 
+0x167  /  0x50cb  : 
+0x168  /  0x50cc  : 
+0x169  /  0x50cd  : 
+0x16a  /  0x50ce  : 
+0x16b  /  0x50cf  : 
+0x16c  /  0x50d0  : 
+0x16d  /  0x50d1  : 
+0x16e  /  0x50d2  : 
+0x16f  /  0x50d3  : 
+0x170  /  0x50d4  : 
+0x171  /  0x50d5  : 
+0x172  /  0x50d6  : 
+0x173  /  0x50d7  : 
+0x174  /  0x50d8  : 
+0x175  /  0x50d9  : 
+0x176  /  0x50da  : 
+0x177  /  0x50db  : 
+0x178  /  0x50dc  : 
+0x179  /  0x50dd  : 
+0x17a  /  0x50de  : 
+0x17b  /  0x50df  : 
+0x17c  /  0x50e0  : 
+0x17d  /  0x50e1  : 
+0x17e  /  0x50e2  : A huge green snake hisses fiercely at you
+0x17f  /  0x50fd  : 
+0x180  /  0x50fe  : 
+0x181  /  0x50ff  : 
+0x182  /  0x5100  : 
+0x183  /  0x5101  : 
+0x184  /  0x5102  : 
+0x185  /  0x5103  : 
+0x186  /  0x5104  : 
+0x187  /  0x5105  : 
+0x188  /  0x5106  : 
+0x189  /  0x5107  : 
+0x18a  /  0x5108  : 
+0x18b  /  0x5109  : 
+0x18c  /  0x510a  : 
+0x18d  /  0x510b  : 
+0x18e  /  0x510c  : There is a large oriental dragon here, sitting on a large oriental carpet
+0x18f  /  0x5132  : 
+0x190  /  0x5133  : 
+0x191  /  0x5134  : 
+0x192  /  0x5135  : 
+0x193  /  0x5136  : 
+0x194  /  0x5137  : 
+0x195  /  0x5138  : 
+0x196  /  0x5139  : 
+0x197  /  0x513a  : 
+0x198  /  0x513b  : 
+0x199  /  0x513c  : 
+0x19a  /  0x513d  : 
+0x19b  /  0x513e  : 
+0x19c  /  0x513f  : 
+0x19d  /  0x5140  : 
+0x19e  /  0x5141  : 
+0x19f  /  0x5142  : 
+0x1a0  /  0x5143  : 
+0x1a1  /  0x5144  : 
+0x1a2  /  0x5145  : 
+0x1a3  /  0x5146  : 
+0x1a4  /  0x5147  : 
+0x1a5  /  0x5148  : 
+0x1a6  /  0x5149  : 
+0x1a7  /  0x514a  : 
+0x1a8  /  0x514b  : 
+0x1a9  /  0x514c  : 
+0x1aa  /  0x514d  : 
+0x1ab  /  0x514e  : 
+0x1ac  /  0x514f  : 
+0x1ad  /  0x5150  : 
+0x1ae  /  0x5151  : 
+0x1af  /  0x5152  : 
+0x1b0  /  0x5153  : 
+0x1b1  /  0x5154  : A huge clam is anchored firmly to the floor
+0x1b2  /  0x516d  : 
+0x1b3  /  0x516e  : 
+0x1b4  /  0x516f  : 
+0x1b5  /  0x5170  : A rusty gate blocks the way north
+0x1b6  /  0x5180  : 
+0x1b7  /  0x5181  : 
+0x1b8  /  0x5182  : 
+0x1b9  /  0x5183  : 
+0x1ba  /  0x5184  : 
+0x1bb  /  0x5185  : 
+0x1bc  /  0x5186  : The grate is open
+0x1bd  /  0x518f  : 
+0x1be  /  0x5190  : 
+0x1bf  /  0x5191  : 
+0x1c0  /  0x5192  : 
+0x1c1  /  0x5193  : 
+0x1c2  /  0x5194  : 
+0x1c3  /  0x5195  : 
+0x1c4  /  0x5196  : 
+0x1c5  /  0x5197  : 
+0x1c6  /  0x5198  : 
+0x1c7  /  0x5199  : 
+0x1c8  /  0x519a  : 
+0x1c9  /  0x519b  : The grate is open and light streams in through it
+0x1ca  /  0x51b3  : 
+0x1cb  /  0x51b4  : 
+0x1cc  /  0x51b5  : 
+0x1cd  /  0x51b6  : 
+0x1ce  /  0x51b7  : 
+0x1cf  /  0x51b8  : 
+0x1d0  /  0x51b9  : 
+0x1d1  /  0x51ba  : 
+0x1d2  /  0x51bb  : 
+0x1d3  /  0x51bc  : 
+0x1d4  /  0x51bd  : 
+0x1d5  /  0x51be  : 
+0x1d6  /  0x51bf  : 
+0x1d7  /  0x51c0  : 
+0x1d8  /  0x51c1  : A huge ugly troll stands by the bridge, palm outstretched
+0x1d9  /  0x51e2  : 
+0x1da  /  0x51e3  : 
+0x1db  /  0x51e4  : 
+0x1dc  /  0x51e5  : 
+0x1dd  /  0x51e6  : 
+0x1de  /  0x51e7  : 
+0x1df  /  0x51e8  : 
+0x1e0  /  0x51e9  : 
+0x1e1  /  0x51ea  : 
+0x1e2  /  0x51eb  : 
+0x1e3  /  0x51ec  : 
+0x1e4  /  0x51ed  : 
+0x1e5  /  0x51ee  : 
+0x1e6  /  0x51ef  : 
+0x1e7  /  0x51f0  : 
+0x1e8  /  0x51f1  : 
+0x1e9  /  0x51f2  : 
+0x1ea  /  0x51f3  : 
+0x1eb  /  0x51f4  : 
+0x1ec  /  0x51f5  : 
+0x1ed  /  0x51f6  : 
+0x1ee  /  0x51f7  : 
+0x1ef  /  0x51f8  : 
+0x1f0  /  0x51f9  : 
+0x1f1  /  0x51fa  : 
+0x1f2  /  0x51fb  : A crystal bridge spans the fissure
+0x1f3  /  0x520d  : A crystal bridge spans the fissure
+0x1f4  /  0x521f  : 
+0x1f5  /  0x5220  : 
+0x1f6  /  0x5221  : 
+0x1f7  /  0x5222  : 
+0x1f8  /  0x5223  : 
+0x1f9  /  0x5224  : 
+0x1fa  /  0x5225  : There are some coins here
+0x1fb  /  0x5231  : 
+0x1fc  /  0x5232  : 
+0x1fd  /  0x5233  : 
+0x1fe  /  0x5234  : 
+0x1ff  /  0x5235  : 
+0x200  /  0x5236  : 
+0x201  /  0x5237  : 
+0x202  /  0x5238  : 
+0x203  /  0x5239  : 
+0x204  /  0x523a  : 
+0x205  /  0x523b  : 
+0x206  /  0x523c  : 
+0x207  /  0x523d  : 
+0x208  /  0x523e  : 
+0x209  /  0x523f  : 
+0x20a  /  0x5240  : 
+0x20b  /  0x5241  : 
+0x20c  /  0x5242  : 
+0x20d  /  0x5243  : 
+0x20e  /  0x5244  : 
+0x20f  /  0x5245  : 
+0x210  /  0x5246  : 
+0x211  /  0x5247  : 
+0x212  /  0x5248  : 
+0x213  /  0x5249  : 
+0x214  /  0x524a  : A huge beanstalk reaches up to an opening above
+0x215  /  0x5261  : A huge ugly troll stands by the bridge
+0x216  /  0x5276  : 
+0x217  /  0x5277  : 
+0x218  /  0x5278  : 
+0x219  /  0x5279  : 
+0x21a  /  0x527a  : 
+0x21b  /  0x527b  : 
+0x21c  /  0x527c  : 
+0x21d  /  0x527d  : 
+0x21e  /  0x527e  : 
+0x21f  /  0x527f  : There is a huge oyster here
+0x220  /  0x528a  : 
+0x221  /  0x528b  : 
+0x222  /  0x528c  : 
+0x223  /  0x528d  : The north gate is open
+0x224  /  0x5299  : 
+0x225  /  0x529a  : 
+0x226  /  0x529b  : 
+0x227  /  0x529c  : a bunch of keys
+0x228  /  0x52a7  : a small brass lamp
+0x229  /  0x52b3  : some sandwiches
+0x22a  /  0x52bc  : 
+0x22b  /  0x52bd  : a small gilded cage
+0x22c  /  0x52c9  : a black rod
+0x22d  /  0x52d0  : 
+0x22e  /  0x52d1  : a heavy gold nugget
+0x22f  /  0x52df  : silver bars
+0x230  /  0x52e7  : some valuable jewelry
+0x231  /  0x52f6  : some diamonds
+0x232  /  0x52fd  : a bear lumbering along behind you
+0x233  /  0x5312  : a platinum pyramid
+0x234  /  0x531e  : an emerald as big as a plover's egg
+0x235  /  0x5335  : some gold eggs
+0x236  /  0x533e  : a patchwork pillow
+0x237  /  0x534a  : a Ming Vase
+0x238  /  0x5352  : a trident
+0x239  /  0x5359  : a pearl
+0x23a  /  0x535f  : this week's issue of Spelunker's Gazette
+0x23b  /  0x5377  : some assorted coins
+0x23c  /  0x5384  : a fine silver chain
+0x23d  /  0x5391  : an oriental rug
+0x23e  /  0x539b  : the pirate's gold-encrusted chest
+0x23f  /  0x53af  : some spices
+0x240  /  0x53b5  : a beautifully engraved throwing axe
+0x241  /  0x53cb  : a stick of dynamite with 'blast' written on it
+0x242  /  0x53e7  : a small jade pentacle
+0x243  /  0x53f5  : the Elixir of Life
+0x244  /  0x5401  : an elvish orb
+0x245  /  0x540a  : an elvish sceptre
+0x246  /  0x5415  : an elvish crown
+0x247  /  0x541e  : 
+0x248  /  0x541f  : 
+0x249  /  0x5420  : 
+0x24a  /  0x5421  : There is a bunch of keys here
+0x24b  /  0x5431  : There is a small brass lamp here
+0x24c  /  0x5441  : There are some sandwiches here
+0x24d  /  0x5450  : 
+0x24e  /  0x5451  : There is a gilded cage here
+0x24f  /  0x545e  : There is a black rod here
+0x250  /  0x546a  : There is a little bird here, singing merrily
+0x251  /  0x5481  : There is a large gold nugget here
+0x252  /  0x5494  : There are silver bars here
+0x253  /  0x54a2  : There is some jewelry here
+0x254  /  0x54ae  : There are some diamonds here
+0x255  /  0x54ba  : There is a bear wandering about
+0x256  /  0x54cb  : There is a platinum pyramid here
+0x257  /  0x54dd  : There is an emerald here as big as a plovers egg
+0x258  /  0x54f9  : There are some golden eggs here
+0x259  /  0x5509  : There is a pillow here
+0x25a  /  0x5514  : There is a Ming Vase here
+0x25b  /  0x5520  : There is a trident here
+0x25c  /  0x552b  : There is a glistening pearl here
+0x25d  /  0x553c  : There is a copy of Spelunker's gazette here
+0x25e  /  0x5554  : There are some coins here
+0x25f  /  0x5560  : There is a fine silver chain here
+0x260  /  0x5572  : There is an oriental rug here
+0x261  /  0x5581  : There is the pirate's chest here
+0x262  /  0x5591  : There are some rare spices here
+0x263  /  0x559f  : There is a small axe here
+0x264  /  0x55ab  : There is a stick of dynamite here
+0x265  /  0x55bb  : There is a small jade pentacle here
+0x266  /  0x55cc  : There is some elixir here
+0x267  /  0x55d7  : There is an orb here
+0x268  /  0x55e0  : There is a sceptre here
+0x269  /  0x55ec  : There is a crown here
+0x26a  /  0x55f6  : 
+0x26b  /  0x55f7  : 
+0x26c  /  0x55f8  : 
+0x26d  /  0x55f9  : 
+0x26e  /  0x55fa  : 
+0x26f  /  0x55fb  : 
+0x270  /  0x55fc  : 
+0x271  /  0x55fd  : 
+0x272  /  0x55fe  : 
+0x273  /  0x55ff  : 
+0x274  /  0x5600  : 
+0x275  /  0x5601  : 
+0x276  /  0x5602  : a bird in a gilded cage
+0x277  /  0x5610  : There is a caged bird here
+0x278  /  0x561e  : 
 
 'CLICK. The cave is closing. Please leave by the main door. Thank you. CLICK.'
 
 
-0x279  /  0x55d0  : A chained bear lies peacefully on the ground
-0x27a  /  0x55e8  : A bear strains at its chain, trying to get at you
-0x27b  /  0x5604  : A ming vase rests gently on a patchwork pillow
-0x27c  /  0x561e  : an empty bottle
-0x27d  /  0x562b  : a bottle of water
-0x27e  /  0x5634  : a bottle of oil
-0x27f  /  0x563d  : There is an empty bottle here
-0x280  /  0x564d  : There is a bottle of water here
-0x281  /  0x565b  : There is a bottle of oil here
-0x282  /  0x5669  : A tiny wilting seedling whispers 'water, water'
-0x283  /  0x5683  : A fair-sized beanstalk sways about, waving its leaves and shouting 'WATER! WATER!'
-0x284  /  0x56b5  : The elf waves his cloak over you and your surroundings shimmer and fade. All is dark, but then the darkness grows less and you realise that you 
+0x279  /  0x5650  : A chained bear lies peacefully on the ground
+0x27a  /  0x5668  : A bear strains at its chain, trying to get at you
+0x27b  /  0x5684  : A ming vase rests gently on a patchwork pillow
+0x27c  /  0x569e  : an empty bottle
+0x27d  /  0x56ab  : a bottle of water
+0x27e  /  0x56b4  : a bottle of oil
+0x27f  /  0x56bd  : There is an empty bottle here
+0x280  /  0x56cd  : There is a bottle of water here
+0x281  /  0x56db  : There is a bottle of oil here
+0x282  /  0x56e9  : A tiny wilting seedling whispers 'water, water'
+0x283  /  0x5703  : A fair-sized beanstalk sways about, waving its leaves and shouting 'WATER! WATER!'
+0x284  /  0x5735  : The elf waves his cloak over you and your surroundings shimmer and fade. All is dark, but then the darkness grows less and you realise that you 
 are at one end of a huge room
-0x285  /  0x5710  : 
-0x286  /  0x5711  : The eggs reappear!
-0x287  /  0x571f  : The eggs vanish!
-0x288  /  0x572b  : I have it now
-0x289  /  0x5735  : Something that you're carrying is too big to fit through the gap
+0x285  /  0x5790  : 
+0x286  /  0x5791  : The eggs reappear!
+0x287  /  0x579f  : The eggs vanish!
+0x288  /  0x57ab  : I have it now
+0x289  /  0x57b5  : Something that you're carrying is too big to fit through the gap
 
 
-0x28a  /  0x575a  : The machine grabs the money and replaces your batteries. It then whirs, clicks brokenly and stops. A sign lights up saying 'MACHINE EMPTY'
-0x28b  /  0x57ad  : The dynamite explodes. 
+0x28a  /  0x57da  : The machine grabs the money and replaces your batteries. It then whirs, clicks brokenly and stops. A sign lights up saying 'MACHINE EMPTY'
+0x28b  /  0x582d  : The dynamite explodes. 
 
-0x28c  /  0x57bc  : The dwarves all wake up. They all throw their sharp little knives, every one of which hits you!
+0x28c  /  0x583c  : The dwarves all wake up. They all throw their sharp little knives, every one of which hits you!
 
 
-0x28d  /  0x57f1  :  
+0x28d  /  0x5871  :  
 The roof collapses, killing all of the dwarves. 
 
-0x28e  /  0x580f  : The blast collapses the ceiling at the north-west end of the cavern, killing all of the evil dwarves. The vibration from the collapse causes a huge hole to appear in the western wall through which you can see a corridor
-0x28f  /  0x5877  : 
+0x28e  /  0x588f  : The blast collapses the ceiling at the north-west end of the cavern, killing all of the evil dwarves. The vibration from the collapse causes a huge hole to appear in the western wall through which you can see a corridor
+0x28f  /  0x58f7  : 
 
 Water is trickling in from nearby
-0x290  /  0x588b  : The water is over your head!
-0x291  /  0x5898  : The water is up to your waist
-0x292  /  0x58a5  : 
+0x290  /  0x590b  : The water is over your head!
+0x291  /  0x5918  : The water is up to your waist
+0x292  /  0x5925  : 
 
 Unfortunately, you have failed to escape from the flood. You drown in the water
 
 
-0x293  /  0x58d5  : 
+0x293  /  0x5955  : 
 
 An enormous blast rocks the dungeon as water meets lava
-0x294  /  0x58f6  : You are killed by an enormous explosion as water meets lava
-0x295  /  0x5915  : The rocks on the floor come to life and dance about for a while. Then, seemingly tired, they lie back down for a rest
-0x296  /  0x5953  : The skeletons regenerate back into handsome elves, and you notice a few humans amongst them (possibly former adventurers). All the resurrected folk cluster round you, proclaiming their thanks. Then, as if at some secret signal, they dance off singing joyfully, leaving you alone
-0x297  /  0x59f8  : Lots of skeletons are chained to the walls
-0x298  /  0x5a0d  : 
+0x294  /  0x5976  : You are killed by an enormous explosion as water meets lava
+0x295  /  0x5995  : The rocks on the floor come to life and dance about for a while. Then, seemingly tired, they lie back down for a rest
+0x296  /  0x59d3  : The skeletons regenerate back into handsome elves, and you notice a few humans amongst them (possibly former adventurers). All the resurrected folk cluster round you, proclaiming their thanks. Then, as if at some secret signal, they dance off singing joyfully, leaving you alone
+0x297  /  0x5a78  : Lots of skeletons are chained to the walls
+0x298  /  0x5a8d  : 
 
 I'm not very good at this ... but do you want me to try and resurrect you?
 
 
-0x299  /  0x5a3d  : There is a puff of choking green smoke. It gradually clears and...
+0x299  /  0x5abd  : There is a puff of choking green smoke. It gradually clears and...
 
 
-0x29a  /  0x5a65  : Curses, the green smoke is used up!
-0x29b  /  0x5a7c  : 
+0x29a  /  0x5ae5  : Curses, the green smoke is used up!
+0x29b  /  0x5afc  : 
 
 An elf appears - you recognise him as the warrior who gave you the map to Colossal Cavern. He congratulates you on your success and then says 'Please free my people, for their plight is an abomination. Will you do this?'
 
 
-0x29c  /  0x5b05  : Coward! The elves will long remember your name with hatred
-0x29d  /  0x5b28  : Good luck! Be careful, and make sure to rescue ALL the elves
+0x29c  /  0x5b85  : Coward! The elves will long remember your name with hatred
+0x29d  /  0x5ba8  : Good luck! Be careful, and make sure to rescue ALL the elves
 
 
-0x29e  /  0x5b4e  : 
+0x29e  /  0x5bce  : 
 
 Would you like another game?
 
 
-0x29f  /  0x5b64  : A giant spider lurks on the web
-0x2a0  /  0x5b78  : A heavy dungeon door opens onto the stairway
-0x2a1  /  0x5b90  : The dungeon door is locked
-0x2a2  /  0x5b9e  : The combined weight of you and the spider together is too much for the web. It rips across, hurling you to the floor of the cave far below
-0x2a3  /  0x5be4  : A huge spider is staring at the pentacle
-0x2a4  /  0x5bf7  : A puny effort!
-0x2a5  /  0x5c02  : Not bad.. for a novice and a bumpkin!
-0x2a6  /  0x5c1e  : A reasonable score.
-0x2a7  /  0x5c2b  : A good score indeed!
-0x2a8  /  0x5c3a  : You are now an Adventurer
-0x2a9  /  0x5c46  : You are now a Master Adventurer, an expert amongst the hosts of Adventuredom! Clearly it will be but a short while before you attain the exulted rank of Grandmaster
-0x2aa  /  0x5ca0  : The elves raise you on high and carry you through the forest in triumph, singing 'All hail to the conquering hero, victorious over the perils of the depths!
+0x29f  /  0x5be4  : A giant spider lurks on the web
+0x2a0  /  0x5bf8  : A heavy dungeon door opens onto the stairway
+0x2a1  /  0x5c10  : The dungeon door is locked
+0x2a2  /  0x5c1e  : The combined weight of you and the spider together is too much for the web. It rips across, hurling you to the floor of the cave far below
+0x2a3  /  0x5c64  : A huge spider is staring at the pentacle
+0x2a4  /  0x5c77  : A puny effort!
+0x2a5  /  0x5c82  : Not bad.. for a novice and a bumpkin!
+0x2a6  /  0x5c9e  : A reasonable score.
+0x2a7  /  0x5cab  : A good score indeed!
+0x2a8  /  0x5cba  : You are now an Adventurer
+0x2a9  /  0x5cc6  : You are now a Master Adventurer, an expert amongst the hosts of Adventuredom! Clearly it will be but a short while before you attain the exulted rank of Grandmaster
+0x2aa  /  0x5d20  : The elves raise you on high and carry you through the forest in triumph, singing 'All hail to the conquering hero, victorious over the perils of the depths!
 
 All hail to the saviour of the elvish race!
 
 All hail to thee, GRANDMASTER ADVENTURER!'
 
 
-0x2ab  /  0x5d33  : A lightning bolt smites you, litter bug!
-0x2ac  /  0x5d4b  : The spider blocks your way, glaring at you in an evil manner
-0x2ad  /  0x5d6e  : You hurl the pentacle into space and the spider 
+0x2ab  /  0x5db3  : A lightning bolt smites you, litter bug!
+0x2ac  /  0x5dcb  : The spider blocks your way, glaring at you in an evil manner
+0x2ad  /  0x5dee  : You hurl the pentacle into space and the spider 
 follows
-0x2ae  /  0x5d8c  : The spider grabs the pentacle and eats you
-0x2af  /  0x5da2  : The elves are waiting for you in a golden host surrounding their king. They cheer wildly as you 
+0x2ae  /  0x5e0c  : The spider grabs the pentacle and eats you
+0x2af  /  0x5e22  : The elves are waiting for you in a golden host surrounding their king. They cheer wildly as you 
 emerge into the sunlight.
 
 
-0x2b0  /  0x5de2  : A hundred elves are chained to the wall
-0x2b1  /  0x5df5  : You free a few elves and they unlock the rest. They all dance off, singing your praises
-0x2b2  /  0x5e23  : 
+0x2b0  /  0x5e62  : A hundred elves are chained to the wall
+0x2b1  /  0x5e75  : You free a few elves and they unlock the rest. They all dance off, singing your praises
+0x2b2  /  0x5ea3  : 
 
 Your lamp is flickering and growing dim: its batteries are running out. You would be advised to find the vending machine and buy some new batteries from it
 
 
-0x2b3  /  0x5e78  : 
+0x2b3  /  0x5ef8  : 
 
 Your lamp fades and goes out. It looks like the end of the game for you this time, but continue if you like
 
 
-0x2b4  /  0x5eb5  : The sound reverberates, waking the dwarves which look around angrily and see you. Instantly, every single dwarf hurls a sharp little knife at you and every single one of these hits! Perhaps you made a little mistake there
-0x2b5  /  0x5f33  : <EOM>
+0x2b4  /  0x5f35  : The sound reverberates, waking the dwarves which look around angrily and see you. Instantly, every single dwarf hurls a sharp little knife at you and every single one of these hits! Perhaps you made a little mistake there
+0x2b5  /  0x5fb3  : <EOM>

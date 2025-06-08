@@ -1,8 +1,7 @@
 #title: Scapeghost test script;
-#comment: PC version [v4]. Based on a solution by Jacob Gunness;
+#comment: MSX version [v4]. Based on a solution by Jacob Gunness;
 
 #SEED 42;
-1;
 N [Part 1: You start next to your own grave];
 GET THISTLEDOWN;
 W;
@@ -77,7 +76,7 @@ EXAMINE LOCK;
 JOE, WAIT 3 THEN PUSH LONG LEVER;
 DAVID, WAIT 2 THEN PUSH MEDIUM LEVER;
 EDITH, WAIT THEN PUSH SHORT LEVER;
-TURN BARREL [the door is unlocked];
+PUSH BARREL [the door is unlocked];
 E;
 S;
 PAT DOG;
@@ -136,6 +135,8 @@ VIOLET WAIT 2 THEN PUSH WALL;
 COLONEL, WAIT THEN PUSH WALL;
 PUSH WALL [with each other's help you make the wall tip over covering the drugs];
 
+NO [Don't save...];
+YES [Go ahead...];
 N [Part 2: You begin at your own grave];
 N [Joe Danby tags along];
 E;
@@ -209,6 +210,8 @@ LIGHT PUDDLE;
 PULL CURTAINS;
 WAIT [the fire department arrives and finds the evidence and the corpse];
 
+NO [Don't save...];
+YES [Go ahead...];
 W [Part 3: You begin by your own grave. A priest is trying to exorcise you aided by Big John and Weasel];
 S;
 S;
@@ -309,3 +312,4 @@ GO TO BARN;
 WAIT;
 GET INTO TAXI;
 MANIFEST;
+#quit;

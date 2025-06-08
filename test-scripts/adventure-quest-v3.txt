@@ -1,5 +1,5 @@
 #title: Adventure Quest test script;
-#comment: PC version [v3]. Based on a solution script by Jacob Gunness;
+#comment: MSX version [v3]. Based on a solution script by Jacob Gunness;
 
 #SEED 42;
 IN [you start by a brick building];
@@ -383,7 +383,6 @@ W;
 W;
 W;
 U [Lenslok check!];
-WORD;
 GET SUNSTONE;
 D;
 DROP LAMP;
@@ -501,3 +500,4 @@ N;
 D;
 D;
 N [the Phoenix helps you defeating the Demon Lord. The country is saved!];
+#quit;

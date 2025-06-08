@@ -1,3 +1,4 @@
+#!/bin/env python3
 ###############################################################################
 # Python Level 9 Interpreter for Version 1 Games
 ###############################################################################
@@ -15,7 +16,7 @@
 #
 # Complete support for v2 files - tested with all v2 games
 #
-# Initial extension to v3 and v4 prepared.
+# Complete support for v3 and v4 files - tested with all v3-4 games
 #
 # This is actually the second iteration as the first looked quite similar to the
 # assembly code when I was working out what it all did. 
@@ -41,11 +42,18 @@ import re
 import time
 import logging
 import argparse
+import string
 
 ###############################################################################
 # Load the version1 file configuration information
 ###############################################################################
 from l9config import v1Configuration
+
+###############################################################################
+# Import the picture handling libs
+###############################################################################
+from l9pic import setupPictures, initPictures, clearPictures, showPicture
+from l9bitmap import setupBitmap, initBitmap, clearBitmap, showBitmap
 
 ###############################################################################
 # This table is used by the vm_fn_exit command handler in its second scan
@@ -61,6 +69,9 @@ from l9config import v1Configuration
 inverseDirectionTable = [0x00, 0x04, 0x06, 0x07, 0x01, 0x08, 0x02, 0x03, 
     0x05, 0x0a, 0x09, 0x0c, 0x0b, 0xff, 0xff, 0x0f, 0xff, 0xff, 0xff, 0xff]
 
+ramsave_slots          = 9
+vm_ramsave_variables   = [[0]*256]*ramsave_slots
+vm_ramsave_listarea    = [[0]*2048]*ramsave_slots
 vm_variables_previous  = [0]*256
 vm_variables           = [0]*256
 vm_stack               = []
@@ -81,6 +92,7 @@ debugStepping=False
 # either manually or from a script
 ###############################################################################
 randomseed=int(time.time()) & 0xff
+constseed = 0
 
 ###############################################################################
 # File that contains the automated script to execute (if any).
@@ -121,7 +133,7 @@ opCodes=[
 	"ifnect",
 	"ifltct",
 	"ifgtct",
-	"printinput",
+	"printinput(v3)",
 	"ilins",
 	"ilins",
 	"ilins",
@@ -156,6 +168,8 @@ def isValidHex(string):
 #    n/a
 ###############################################################################
 def signal_handler(signum, frame):
+    clearPictures(0)
+    clearBitmap(0)
     sys.exit(0)
 
 
@@ -191,10 +205,11 @@ def signal_handler(signum, frame):
 #    frame  - the frame object
 #
 # Returns:
-#   n/a
+#    pc (possibly changed by e.g. #next command)
 ###############################################################################
 def _process_hash_commands(data, pc, userInput):
-    global randomseed
+    import sys
+    global randomseed, constseed
     global debugging
     global debugStepping
 
@@ -226,10 +241,11 @@ def _process_hash_commands(data, pc, userInput):
         case ["#seed", seed]:
             if(seed.isdigit()):
                 randomseed = int(seed)
-                print("Seed set to "+seed)
+                if not args.quiet: print("Seed set to "+seed)
             if(isValidHex(seed)):
                 randomseed = int(seed,16)
-                print("Seed set to "+hex(seed))
+                if not args.quiet: print("Seed set to "+hex(seed))
+            constseed = randomseed
 
         # Prints the value of just one variable
         case ['#var', variable]:
@@ -299,25 +315,49 @@ def _process_hash_commands(data, pc, userInput):
                     buffer += f" \033[92m{variable:02x}"
             print("")
 
-        # Print all values in the dynamic list area
+        # Print a message
         case ['#message' | '#msg', number]:
             if(number.isdigit()):
                 address = _getAddrForMessageN(data, int(number))
-                _printMessage(data, address)
+                _printMessage(data, address, False)
                 print("")                
             elif(isValidHex(number)):
-                print("2")
                 address = _getAddrForMessageN(data, int(number, 16))
-                _printMessage(data, address)                
+                _printMessage(data, address, False)
                 print("")
 
+        # Show a picture
+        case ['#picture' | '#pic', number]:
+            if number.isdigit():
+                pic = int(number)
+            elif isValidHex(number):
+                pic = int(number, 16)
+            if graphicsVersion == 4:
+                showBitmap(pic, 0, 0)
+            elif graphicsVersion >= 2:
+                showPicture(pic)
+
         # Print all the exit definitions
-        case ['#exits' , *_]:
+        case ['#exits', *_]:
             _printAllExits(data, exitsAddr)
+
+        # For script purposes
+        case ['#title:' | '#comment:', *_]:
+            pass
+        case ['#quit']:
+            clearPictures(0)
+            clearBitmap(0)
+            sys.exit()
+        case ['#next']:
+            data[pc] = 1
+            vm_listarea[list9Offset] = 11
+            vm_listarea[list9Offset + 1] = 0
+            pc = vm_fn_function(data, None, pc - 1)
 
         case other:
             print('Invalid command')
 
+    return pc
 
 ###############################################################################
 # _process_debug
@@ -325,16 +365,16 @@ def _process_hash_commands(data, pc, userInput):
 def _process_debug(data, pc, opCode, opCodeClean, debugpc):
 
     debugCommand = ""
-    global debugStepping
+    global debugging, debugStepping
     global vm_return_breakpoints
     global vm_breakpoints
 
     if(debugpc in vm_return_breakpoints):
             vm_return_breakpoints.pop()
             debugStepping=True        
-
     
     while(debugCommand ==""):
+        print("\033[0m",end='')
         print("(debug) ",end='')
         debugCommand = input().strip().lower()
         if(debugCommand == ""):
@@ -342,6 +382,7 @@ def _process_debug(data, pc, opCode, opCodeClean, debugpc):
         match debugCommand.split():
             # Continue just breaks and goes back to the vm
             case ["?"]:
+                print("nd, nodebug               : stop debugging")
                 print("b <addr>                  : set a-code breakpoint at <addr> e.g. b 0x4e7b")
                 print("bl                        : list breakpoints")
                 print("db <idx>                  : delete breakpoint <idx>")
@@ -363,6 +404,10 @@ def _process_debug(data, pc, opCode, opCodeClean, debugpc):
                 print("Debug output is: <fileoffset> (<opcode>) <list or command name> <live list or command with values")
                 print("")
                 print("Hash commands do NOT work in (debug) mode - use the equivalent above")
+            case ["nd" | "nodebug"]:
+                debugging = False
+                debugStepping = False
+                return
             case ["b", address]:
                 if(isValidHex(address) and len(address) == 6):
                     vm_breakpoints.append(int(address,16))
@@ -378,11 +423,11 @@ def _process_debug(data, pc, opCode, opCodeClean, debugpc):
                     if(int(breakpointIndex)>-1 and int(breakpointIndex)<len(vm_breakpoints)):
                         del vm_breakpoints[int(breakpointIndex)]
             case ['d' | 'dict' | 'dictionary']:
-                _process_hash_commands(data, pc, f"#dictionary")
+                pc = _process_hash_commands(data, pc, f"#dictionary")
             case ['l' | 'list']:
-                _process_hash_commands(data, pc, f"#list")
+                pc = _process_hash_commands(data, pc, f"#list")
             case ['m' | 'msg' | 'message', index]:
-                _process_hash_commands(data, pc, f"#message {index}")   
+                pc = _process_hash_commands(data, pc, f"#message {index}")
             case ['n']:
                 if(not opCode & 0x80 and opCodeClean == 0x01):
                     vm_return_breakpoints.append(vm_stack[-1]+1)
@@ -392,11 +437,11 @@ def _process_debug(data, pc, opCode, opCodeClean, debugpc):
                 debugStepping=True
                 break
             case [ 'sl' | 'setlist', variable, value ]:
-                _process_hash_commands(data, pc, f"#setlist {variable} {value}")
+                pc = _process_hash_commands(data, pc, f"#setlist {variable} {value}")
             case [ 'sv' | 'setvars', variable, value ]:
-                _process_hash_commands(data, pc, f"#setvar {variable} {value}")
+                pc = _process_hash_commands(data, pc, f"#setvar {variable} {value}")
             case ['v' | 'vars']:
-                _process_hash_commands(data, pc, f"#vars")
+                pc = _process_hash_commands(data, pc, f"#vars")
             case other:
                 print("???")
         debugCommand = ""
@@ -436,8 +481,6 @@ def _getSignedNumber(byte):
 ###############################################################################
 def _getAddrForFragment(data, fragmentNumber):
   
-    #print("-----",hex(fragmentNumber))
-    #print("-----",hex(commonFragmentsAddr))
     address=commonFragmentsAddr
 
     if(messageVersion == 1):
@@ -452,9 +495,7 @@ def _getAddrForFragment(data, fragmentNumber):
         while fragmentNumber:
             messageLength = data[address]
             address= address + messageLength
-            #print(hex(fragmentNumber),hex(data[address]), hex(address))
             fragmentNumber = fragmentNumber - 1
-        #print(hex(fragmentNumber),hex(data[address]), hex(address))
 
     return address
 
@@ -507,9 +548,29 @@ def _getAddrForMessageN(data, messageNumber):
             messagesAddress = messagesAddress + messageLength
 
             messageNumber = messageNumber - 1
-    elif messageVersion == 3:
-        # Placeholder until implemented
-        return messageNumber
+    elif messageVersion >= 3:
+        msgNumber = 0
+        address = messagesAddress
+        messagesAddress = 0
+        byte = data[address]
+        while address < messagesStartAddr + messagesLen:
+            if byte & 0x80:
+                msgNumber += byte - 0x80 + 1
+                address += 1
+            else:
+                if msgNumber == messageNumber:
+                    messagesAddress = address
+                    break
+                length = 0
+                while True:
+                    partLen = (data[address] - 1) & 0x3f
+                    length += partLen
+                    address += 1
+                    if partLen != 0x3f:
+                        break
+                address += length
+                msgNumber += 1
+            byte = data[address]
 
     return messagesAddress 
 
@@ -530,7 +591,7 @@ def _getAddrForMessageN(data, messageNumber):
 # Returns:
 #   Decoded plain text message
 ###############################################################################
-def _getMessage(data, msgAddress):
+def _getMessage(data, msgAddress, multi = False):
 
     message=''
 
@@ -552,7 +613,6 @@ def _getMessage(data, msgAddress):
                 break
             else:
                 message = message + str(chr(byte+0x1D))
-                #_getCharacter(byte)
 
             msgAddress = msgAddress + 1
             byte = data[msgAddress]
@@ -588,8 +648,30 @@ def _getMessage(data, msgAddress):
 
             msgAddress = msgAddress + 1
             msgLength = msgLength - 1
-    elif messageVersion >= 3:
-        message = '<Missing>'+hex(msgAddress)+'%'
+    elif messageVersion >= 3 and msgAddress:
+        address = msgAddress
+        length = 0
+        while True:
+            partLen = (data[address] - 1) & 0x3f
+            length += partLen
+            address += 1
+            if partLen != 0x3f:
+                break
+        count = 0
+        while count < length:
+            code = data[address]
+            if code >= 0x80:
+                code = data[address] * 256 + data[address + 1]
+                address += 2
+                count += 2
+            else:
+                code = data[wordTableAddr + code * 2] * 256 + data[wordTableAddr + code * 2 + 1]
+                address += 1
+                count += 1
+            word = _get_word(data, code)
+            if word == ' [aka] ':
+                break
+            message = _build_message(message, word, multi)
 
     return message
 
@@ -611,24 +693,31 @@ def _getMessage(data, msgAddress):
 # Returns:
 #   n/a
 ###############################################################################
-def _printMessage(data, msgAddress):
+def _printMessage(data, msgAddress, multi = True):
+    if args.quiet: return
 
     global charsWrittenToLine
 
-    message=_getMessage(data,msgAddress)
+    message = _getMessage(data, msgAddress, multi)
 
     # Reset the colour to white
-    print("\033[0m",end='')
+    if debugging and not args.quiet:
+        print("\033[0m",end='')
+
+    if messageVersion >= 3:
+        nl = '\n'
+    else:
+        nl = '%'
 
     for character in message:
-        if(character == '%' and charsWrittenToLine>2):
-            print('\n',end='')
+        if(character == nl and charsWrittenToLine>0):
+            print()
             charsWrittenToLine = 0
         elif(character == '_'):
-            print(' ',end='')
+            print(' ', end='')
             charsWrittenToLine += 1
-        elif(character != '%'):
-            print(character,end='')
+        elif(character != nl):
+            print(character, end='')
             charsWrittenToLine += 1
 
 ###############################################################################
@@ -758,6 +847,39 @@ def _printAllMessages(data,messagesStartAddr):
             print(message)
             counter=counter+1
             print(hex(counter)," / ",hex(address)," : ",end='')
+    elif messageVersion >=3:
+        messageNumber = 0
+        while address < messagesStartAddr + messagesLen:
+            if byte & 0x80:
+                messageNumber += byte - 0x80 + 1
+                address += 1
+            else:
+                startAddress = address
+                length = 0
+                while True:
+                    partLen = (data[address] - 1) & 0x3f
+                    length += partLen
+                    address += 1
+                    if partLen != 0x3f:
+                        break
+                print(f'0x{messageNumber:04x}  /  0x{startAddress:04x} (0x{length:04x})  : ', end='')
+                count = 0
+                message = ''
+                while count < length:
+                    code = data[address]
+                    if code >= 0x80:
+                        code = data[address] * 256 + data[address + 1]
+                        address += 2
+                        count += 2
+                    else:
+                        code = data[wordTableAddr + code * 2] * 256 + data[wordTableAddr + code * 2 + 1]
+                        address += 1
+                        count += 1
+                    word = _get_word(data, code)
+                    message = _build_message(message, word)
+                print(message)
+                messageNumber += 1
+            byte = data[address]
 
     print("<EOM>")
 
@@ -776,47 +898,108 @@ def _printAllMessages(data,messagesStartAddr):
 def _printAllExits(data,exitsAddr):
 
     match game:
-        case "redmoon":
-            print("Red Moon - Location Exit Definition")
-            print("---------------------------------------------\n")
+        case ("secret" | "secretp2" | "secretp3" | "secretp4" |
+             "growing" | "growingp2" | "growingp3" | "growingp4" |
+             "archers" | "archersp2" | "archersp3" | "archersp4"):
+            print("Location Exit Definitions are not used in these games.")
+            return
+        case "scapeghost" | "scapeghostp2" | "scapeghostp3":
+            print("Scapeghost - Location Exit Definitions")
+            print("--------------------------------------\n")
+            print("Bit configuration:\n")
+            print("Bit 0 - where the direction can be used inversely")
+            print("Bit 1 - whether this direction should be hidden")
+            print("Bit 2 - if there is a door in this direction")
+            print("\n")
+        case "lancelot" | "lancelotp2" | "lancelotp3":
+            print("Lancelot - Location Exit Definitions")
+            print("------------------------------------\n")
+            print("Bit configuration:\n")
+            print("Bit 0 - where the direction can be used inversely")
+            print("Bit 1 - whether this direction should be hidden")
+            print("Bit 2 - if there is a door in this direction")
+            print("\n")
+        case "orc" | "orcp2" | "orcp3":
+            print("Knight Orc - Location Exit Definitions")
+            print("--------------------------------------\n")
+            print("Bit configuration:\n")
+            print("Bit 0 - where the direction can be used inversely")
+            print("Bit 1 - whether this direction should be hidden")
+            print("Bit 2 - if there is a door in this direction")
+            print("\n")
+        case "ingrid" | "ingridp2" | "ingridp3":
+            print("Ingrid's Back - Location Exit Definitions")
+            print("-----------------------------------------\n")
+            print("Bit configuration:\n")
+            print("Bit 0 - where the direction can be used inversely")
+            print("Bit 1 - whether this direction should be hidden")
+            print("Bit 2 - if there is a door in this direction")
+            print("\n")
+        case "gnome" | "gnomep2" | "gnomep3":
+            print("Gnome Ranger - Location Exit Definitions")
+            print("----------------------------------------\n")
+            print("Bit configuration:\n")
+            print("Bit 0 - where the direction can be used inversely")
+            print("Bit 1 - whether this direction should be hidden")
+            print("Bit 2 - if there is a door in this direction")
+            print("\n")
+        case "worm" | "wormv3" | "siliconp3":
+            print("Worm in Paradise - Location Exit Definitions")
+            print("--------------------------------------------\n")
+            print("Bit configuration:\n")
+            print("Bit 0 - where the direction can be used inversely")
+            print("Bit 1 - whether this direction should be hidden")
+            print("Bit 2 - if there is a door in this direction")
+            print("\n")
+        case "magik" | "magikv4" | "timemagikp3":
+            print("Price of Magik - Location Exit Definitions")
+            print("------------------------------------------\n")
+            print("Bit configuration:\n")
+            print("Bit 0 - where the direction can be used inversely")
+            print("Bit 1 - whether this direction should be hidden")
+            print("Bit 2 - if there is a door in this direction")
+            print("\n")
+        case "redmoon" | "redmoonv4" | "timemagikp2":
+            print("Red Moon - Location Exit Definitions")
+            print("------------------------------------\n")
             print("Bit configuration:\n")
             print("Bit 0 - where the direction can be used inversely")
             print("Bit 1 - whether this direction should be hidden")
             print("Bit 2 - if there is a door in this direction")
             print("\n")
         case "isle":
-            print("Emerald Isle - Location Exit Definition")
-            print("---------------------------------------------\n")
+            print("Emerald Isle - Location Exit Definitions")
+            print("----------------------------------------\n")
             print("Bit configuration:\n")
             print("Bit 0 - where the direction can be used inversely")
             print("Bit 1 - whether this direction should be hidden")
             print("Bit 2 - if there is a door in this direction")
             print("\n")
         case "erik":
-            print("Erik the Viking - Location Exit Definition")
-            print("---------------------------------------------\n")
+            print("Erik the Viking - Location Exit Definitions")
+            print("-------------------------------------------\n")
             print("Bit configuration:\n")
             print("Bit 0 - where the direction can be used inversely")
             print("Bit 1 - whether this direction should be hidden")
             print("Bit 2 - if there is a door in this direction")
             print("\n")
-        case "eden":
-            print("Return to Eden - Location Exit Definition")
-            print("---------------------------------------------\n")
+        case "eden" | "edenv3" | "siliconp2":
+            print("Return to Eden - Location Exit Definitions")
+            print("------------------------------------------\n")
             print("Bit configuration:\n")
             print("Bit 0 - where the direction can be used inversely")
             print("Bit 1 - whether this direction should be hidden")
             print("Bit 2 - if there is a door in this direction")
             print("\n")
-        case "snowball" | "snowballv2":
-            print("Snowball Adventure - Location Exit Definition")
-            print("---------------------------------------------\n")
+        case "snowball" | "snowballv2" | "snowballv3" | "silicon":
+            print("Snowball Adventure - Location Exit Definitions")
+            print("----------------------------------------------\n")
             print("Bit configuration:\n")
             print("Bit 0 - where the direction can be used inversely")
             print("Bit 1 - whether this direction should be hidden")
             print("Bit 2 - if there is a door in this direction")
             print("\n")
-        case "lords" | "lordsv2":
+        case "lords" | "lordsv2" | "lordsv4" | "timemagik":
             print("Lords of Time - Location Exit Definitions")
             print("-----------------------------------------\n")
             print("Bit configuration:\n")
@@ -824,15 +1007,15 @@ def _printAllExits(data,exitsAddr):
             print("Bit 1 - whether this direction should be hidden")
             print("Bit 2 - if there is a door in this direction")
             print("\n")
-        case "adventure" | "adventurev2":
-            print("Adventure Quest- Location Exit Definitions")
-            print("---------------------------------------------\n")
+        case "adventure" | "adventurev2" | "adventurev3" | "jewelsp2":
+            print("Adventure Quest - Location Exit Definitions")
+            print("-------------------------------------------\n")
             print("Bit configuration:\n")
             print("Bit 0 - where the direction can be used inversely")
             print("Bit 1 - if player cannot move in that direction but print the location's description as a message")
             print("Bit 2 - not used, always set to 0x00 but printed here as 'No'")
             print("\n")
-        case "dungeon" | "dungeonv2":
+        case "dungeon" | "dungeonv2" | "dungeonv3" | "jewelsp3":
             print("Dungeon Adventure - Location Exit Definitions")
             print("---------------------------------------------\n")
             print("Bit configuration:\n")
@@ -840,7 +1023,7 @@ def _printAllExits(data,exitsAddr):
             print("Bit 1 - If set this a teleporation between a black and white dot and prints 'There is a sensation of rapid movement..'")
             print("Bit 2 - not used, always set to 0x00 but printed here as 'No'")
             print("\n")
-        case "colossal" | "colossalv2":
+        case "colossal" | "colossalv2" | "colossalv3" | "jewels":
             print("Colossal Adventure - Location Exit Definitions")
             print("----------------------------------------------\n")
             print("Bit configuration:\n")
@@ -883,11 +1066,21 @@ def _printAllExits(data,exitsAddr):
             address = _getAddrForMessageN(data, messageId)
             message = _getMessage(data, address)
             if(not (hideNulls and exitDirection == 0)):
-                textDirection = "<Missing>"
-                for term, id in vm_dictionary.items():
-                    if id == exitDirection:
-                        textDirection = term
-                        break
+                textDirection = '  -' if exitDirection == 0 else f'0x{exitDirection:02x}'
+                if messageVersion >= 3:
+                    dirAddr = _getAddrForMessageN(data, exitsStartMsgId + exitDirection)
+                    desc = _getMessage(data, dirAddr).upper()
+                    if desc:
+                        if desc[0] == 'G': # handle gnome and ingrid directions
+                            desc = desc[1:]
+                        if ' ' in desc:
+                            desc = desc.split(' ')[-1] # handle e.g. "with the climb"
+                        textDirection = desc
+                else:
+                    for term, id in vm_dictionary.items():
+                        if id == exitDirection:
+                            textDirection = term
+                            break
                 print(f'0x{exitPointer:04x}  0x{fromLocation:02x} 0x{targetLocation:02x} {textDirection:<9} {reverseValid:<5} {bit1:<5} {bit2:<5} 0x{messageId:03x} {message}')
 
             # Check the 8th bit - if it's set it's the last exit
@@ -898,6 +1091,156 @@ def _printAllExits(data,exitsAddr):
             exitPointer += 2
      
 
+###############################################################################
+# _build_message
+#
+# For v3-4 games, build the message word by word, taking into account:
+#    - separating spaces
+#    - capitalization
+#
+# Parameters:
+#    message        - the message as it has been built sofar
+#    word           - the next word to be added to the message
+#    multi          - to indicate whether we operating in a
+#                     multi message environment, i.e. during actual game
+#                     or just building a message for meta purposes e.g.
+#                     printing all messages
+#
+# Returns:
+#    the newly added to message
+###############################################################################
+lastMessage = ''
+def _build_message(message, word, multi = False):
+    global lastMessage
+    prevMessage = message
+    if multi:
+        if not message:
+            if word and word[0] == '~':
+                lastMessage += word[0]
+                word = word[1:]
+            prevMessage = lastMessage
+        elif re.search("^[ (>'\"\n]+$", message):
+            prevMessage = lastMessage + message
+
+    if prevMessage and word:
+        alphanum = string.ascii_lowercase + string.ascii_uppercase + string.digits
+        if word[0] in alphanum and prevMessage[-1] in alphanum:
+            word = ' ' + word
+        if re.search("[.?!][ (>'\"\n]*$", prevMessage):
+            word = word[0].upper() + word[1:]
+
+    # handle first line
+    if multi and word and re.search("^[ (>'\"\n]*$", prevMessage):
+        word = word[0].upper() + word[1:]
+
+    message += word
+    if multi and message:
+        if re.search("^[ (>'\"\n]+$", message):
+            lastMessage += message
+        else:
+            lastMessage = message
+
+    return message
+
+###############################################################################
+# _get_word
+#
+# For v3-4 games, get a word by code for building messages
+#
+# Parameters:
+#    data           - the game file byte array
+#    code           - the next code from the message coding
+#
+# Returns:
+#    the retrieved word
+###############################################################################
+def _get_word(data, code):
+    word = ''
+    flags = code >> 12
+    code &= 0xfff
+    if code < 0x0f80:
+        for word, id in vm_dictionary.items():
+            if id == code:
+                if chr(0) in word:
+                    word = word[0:-1]
+                break
+    elif code > 0x0f80:
+        code &= 0x7f
+        if flags & 0x2:
+            word += ' '
+        if code == 0x0d:
+            word += '\n'
+        else:
+            word += chr(code)
+        if flags & 0x1:
+            word += ' '
+    else:
+        word = ' [aka] '
+
+    return word
+
+###############################################################################
+# _load_dict_bank
+#
+# For v3-4 games, load a dictionary bank (and print it out is asked for)
+#
+# Parameters:
+#    data           - the game file byte array
+#    offset         - the start offset of the bank
+#    startWord      - the start word id of the bank
+#    printDict      - to indicated if the bank should be printed out
+#
+# Returns:
+#    the startWord to be compared with the actual start of the next bank
+###############################################################################
+def _load_dict_bank(data, offset, startWord, printDict):
+    codes = iter(int(dict_bits[b : b + 5], 2) for b in range((offset - dictionaryAddr) * 8, dictionaryLen * 8, 5))
+    pattern = [0]*3
+    letter = 0
+    word = ''
+    wordcase = False
+    while True:
+        code = next(codes)
+        if code >= 0x1b:
+            if word:
+                if printDict:
+                    print(word)
+                if word in vm_dictionary.keys():
+                    dupCode = vm_dictionary[word]
+                    vm_dictionary[word + chr(0)] = dupCode
+                    if printDict:
+                        print("duplicate entry in dictionary:", word, hex(dupCode))
+                vm_dictionary[word] = startWord - 1
+                word = ''
+                wordcase = False
+            if code == 0x1b:
+                break
+            if printDict:
+                print(f'0x{startWord:03x} ', end='')
+            startWord += 1
+            letter = code - 0x1c
+            letters = pattern[0 : letter]
+            if wordcase:
+                letters = letters.upper()
+            word += ''.join(letters)
+        elif code <= 0x1a:
+            if code == 0x1a:
+                code = next(codes)
+                if code == 0x10:
+                   wordcase = True
+                   continue
+                else:
+                   c = chr(code * 0x20 + next(codes))
+            else:
+                c = chr(code + 0x61)
+            if letter < 3:
+                pattern[letter] = c
+            letter += 1
+            if wordcase:
+                c = c.upper()
+            word += c
+
+    return startWord
 
 ###############################################################################
 # vm_fn_load_dictionary
@@ -916,12 +1259,54 @@ def _printAllExits(data,exitsAddr):
 #   n/a
 ###############################################################################
 def vm_fn_load_dictionary(data,printDict):
+    if engineVersion >= 3:
+        oldBankPtr = 0
+        bankPtr = dictionaryAddr
+        highBankLen = 0
+        oldBankLen = 0
+        bankLen = 0
+        if printDict:
+            print(f'Banks:\n')
+        for bank in range(dictionaryDataLen + 1):
+            if printDict:
+                print(f'Bank 0x{bank:03x} / 0x{bankPtr:03x}', end='')
+            if bankPtr == oldBankPtr and bankLen == oldBankLen:
+                if printDict:
+                    print(f'  [repeat]')
+            else:
+                if highBankLen > bankLen:
+                    if printDict:
+                        print(f'  *** DICT OVERLAP (0x{highBankLen-bankLen:02x}) ***')
+                elif highBankLen < bankLen:
+                    if printDict:
+                        print(f'  *** DICT GAP (0x{bankLen-highBankLen:02x}) ***')
+                else:
+                    if printDict:
+                        print()
+                if printDict:
+                    print()
+                highBankLen = _load_dict_bank(data, bankPtr, bankLen, printDict)
+            if printDict:
+                print()
+            oldBankPtr = bankPtr
+            bankPtr = data[dictionaryDataAddr + bank*4] + data[dictionaryDataAddr + bank*4 + 1] *256
+            oldBankLen = bankLen
+            bankLen = data[dictionaryDataAddr + bank*4 + 2] + data[dictionaryDataAddr + bank*4 + 3] *256
+        if printDict:
+            print(f'Word table:')
+            for offset in range(0, 256, 2):
+                address = wordTableAddr + offset
+                code = data[address] * 256 + data[address + 1]
+                print(f'0x{offset//2:02x}  /  0x{address:04x} ', end='')
+                print(_get_word(data, code))
+            print(f'\nCommands:')
+            _find_dict_msg(data, None)
+
+        return
+
     codeNext = False
 
     word=""
-
-    if engineVersion >= 3:
-        return
 
     address=dictionaryAddr
 
@@ -1022,14 +1407,16 @@ def vm_fn_listhandler(data,opCode,pc,engineVersion):
                 sys.exit()
 
             offset = listOffset + vm_variables[variable1]
-            vm_listarea[offset] = vm_variables[variable2]
+            vm_listarea[offset] = (vm_variables[variable2] & 0xff)
         elif(engineVersion >= 2):
             if(listOffset < 0x7E00):
                 print('Error: Update to reference list attempted ', hex(opCode), hex(pc))
                 sys.exit()
 
             offset = listOffset - 0x8000 + vm_variables[variable1]
-            vm_listarea[offset] = vm_variables[variable2]
+            if offset >= len(vm_listarea):
+                offset &= 0xff
+            vm_listarea[offset] = (vm_variables[variable2] & 0xff)
 
         if(debugging):  
             print(f"Set list#{listNumber}[var[0x{variable1:02x}]] = var[0x{variable2:02x}] (0x{vm_variables[variable2]:02x})")           
@@ -1084,7 +1471,10 @@ def vm_fn_listhandler(data,opCode,pc,engineVersion):
                 vm_variables[variable2] = data[listItemAddress]
         elif(engineVersion >= 2):
             if(listOffset >= 0x7E00):
-                vm_variables[variable2] = vm_listarea[listOffset-0x8000+vm_variables[variable1]]
+                offset = listOffset - 0x8000 + vm_variables[variable1]
+                if offset >= len(vm_listarea):
+                    offset &= 0xff
+                vm_variables[variable2] = vm_listarea[offset]
             else:
                 listItemAddress=listOffset+vm_variables[variable1]
                 vm_variables[variable2] = data[listItemAddress]
@@ -1111,7 +1501,7 @@ def vm_fn_listhandler(data,opCode,pc,engineVersion):
                 sys.exit()
 
             offset = listOffset + constant
-            vm_listarea[offset] = vm_variables[variable]
+            vm_listarea[offset] = (vm_variables[variable] & 0xff)
 
         elif(engineVersion >= 2):
             if(listOffset < 0x7E00):
@@ -1119,7 +1509,7 @@ def vm_fn_listhandler(data,opCode,pc,engineVersion):
                 sys.exit()                        
 
             offset = listOffset - 0x8000 + constant
-            vm_listarea[offset] = vm_variables[variable]
+            vm_listarea[offset] = (vm_variables[variable] & 0xff)
 
         if(debugging):
             print(f"Set list#{listNumber}[0x{constant:02x}] = var[0x{variable:02x}] (0x{vm_variables[variable]:02x})")
@@ -1162,9 +1552,9 @@ def vm_fn_goto(data, opCode, pc):
 
     if(debugging):
         if(opCode & 0x1f == 0x01):
-            print(f"Gosub 0x{pc+1:04x}")
+            print(f"Gosub 0x{pc-aCodeStartAddr+1:04x}")
         else:
-            print(f"Goto 0x{pc+1:04x}")
+            print(f"Goto 0x{pc-aCodeStartAddr+1:04x}")
 
     if pc >= len(data) or pc < aCodeStartAddr:
         print('Error: jump out of range')
@@ -1243,8 +1633,10 @@ def vm_fn_printnumber(data, opCode, pc):
 
     if(debugging):
         print(f"Print number var[0x{variable1:02x})]({vm_variables[variable1]:04x}")
-    
-    print(f"\033[0m{vm_variables[variable1]}",end='')
+        if not args.quiet: print(f"\033[0m", end = '')
+
+    if not args.quiet:
+        print(f"{vm_variables[variable1]}",end='')
 
     return pc    
 
@@ -1297,7 +1689,7 @@ def vm_fn_messagec(data, opCode, pc):
     pc=pc+1
     operand1 = data[pc]
     operand2 = None
-    nthMessage = 0;
+    nthMessage = 0
 
     # If the 7th bit is set in the opCode
     # then there is only one operand, otherwise
@@ -1339,8 +1731,14 @@ def vm_fn_messagec(data, opCode, pc):
 # Returns:
 #   Updated program counter
 ###############################################################################
+lenslok = ''
+lens = 0
+inputCycles = 0
 def vm_fn_function(data,opCode,pc):
-    global randomseed
+    import sys, os
+    global randomseed, lenslok, lens, lastMessage, filename, scriptFile
+    global vm_ramsave_variables, vm_ramsave_listarea, vm_variables, vm_listarea
+    global list2Offset, list3Offset, list9Offset, charsWrittenToLine, graphicsVersion
     pc=pc+1
     requiredFunction = data[pc]
     match requiredFunction:
@@ -1348,19 +1746,248 @@ def vm_fn_function(data,opCode,pc):
             if engineVersion < 3:
                 if(debugging):
                     print(f"Function - Quit ({requiredFunction:#0{4}x})")
+                clearPictures(0)
+                clearBitmap(0)
                 sys.exit(0)
             else:
                 if(debugging):
                     print(f"Function - Driver Call ({requiredFunction:#0{4}x})")
+                match vm_listarea[list9Offset]:
+                    case 0: #init
+                        pass
+                    case 1: #checksum
+                        pass
+                    case 2: #print_char
+                        c = vm_listarea[list9Offset + 1]
+                        if c > 0x20:
+                            print(chr(c), end = '')
+                    case 3: #input_char
+                        global inputCycles
+                        if scriptFile:
+                            if 'code' in lastMessage:
+                                vm_listarea[list9Offset + 1] = ord(lenslok[lens])
+                                lens = (lens + 1) % 2
+                                vm_variables_previous = vm_variables.copy()
+                                vm_listarea_previous  = vm_listarea.copy()
+                            elif 'ress SPACE' in lastMessage or 'ress space' in lastMessage:
+                                vm_listarea[list9Offset + 1] = 0x20
+                                vm_variables_previous = vm_variables.copy()
+                                vm_listarea_previous  = vm_listarea.copy()
+                            else:
+                                if inputCycles < 1024:
+                                    inputCycles += 1
+                                    vm_listarea[list9Offset + 1] = 0
+                                else:
+                                    inputCycles = 0
+                                    print(flush = True, end = '')
+                                    c = _scriptInput()
+                                    while len(c) > 1 and c[0] == '#':
+                                        pc = _process_hash_commands(data, pc, c)
+                                        c = _scriptInput()
+                                    if not c:
+                                        c = 0
+                                    else:
+                                        c = ord(c[0])
+                                    vm_listarea[list9Offset + 1] = c
+                                    if c:
+                                        vm_variables_previous = vm_variables.copy()
+                                        vm_listarea_previous  = vm_listarea.copy()
+                        else:
+                            if not 'code' in lastMessage and inputCycles < 1024:
+                                inputCycles += 1
+                                vm_listarea[list9Offset + 1] = 0
+                            else:
+                                inputCycles = 0
+                                print(flush = True, end = '')
+                                vm_listarea[list9Offset + 1] = ord(sys.stdin.read(1))
+                                vm_variables_previous = vm_variables.copy()
+                                vm_listarea_previous  = vm_listarea.copy()
+                    case 4: #input_line
+                        pass
+                    case 5: #save
+                        pass
+                    case 6: #load
+                        pass
+                    case 7: #set_text
+                        pass
+                    case 8: #set_pictures
+                        pass
+                    case 9: #return_to_gem
+                        clearPictures(0)
+                        clearBitmap(0)
+                        sys.exit(0)
+                    case 10: #init_screen
+                        pass
+                    case 11: #load_next_part
+                        global aCodeStartAddr, messagesStartAddr, messagesLen, dictionaryAddr
+                        global dictionaryLen, dictionaryDataAddr, dictionaryDataLen
+                        global wordTableAddr, unknownAddr, exitsAddr, dict_bits, game
+                        global vm_dictionary, vm_breakpoints, vm_return_breakpoints
+                        part = vm_listarea[list9Offset + 1]
+                        oldGame = game
+                        game = None
+                        for gameKey in v1Configuration:
+                            if v1Configuration[gameKey]['version'] == engineVersion:
+                                if 'parts' in v1Configuration[gameKey] and v1Configuration[gameKey]["filename"] == filename:
+                                    oldGame = gameKey
+                        if (oldGame in v1Configuration and 'parts' in v1Configuration[oldGame] and
+                           v1Configuration[oldGame]["filename"] == filename):
+                            if not part:
+                                part = v1Configuration[oldGame]['parts'].index(oldGame) + 2
+                            if part > len(v1Configuration[oldGame]['parts']):
+                                clearPictures(0)
+                                clearBitmap(0)
+                                sys.exit(0)
+                            newGame     = v1Configuration[oldGame]['parts'][part - 1]
+                            filename = v1Configuration[newGame]['filename']
+                            part += ord('0')
+                            if args.game:
+                                game = newGame
+                        else:
+                            if not part:
+                                part = ord(filename[-5]) + 1
+                            else:
+                                part += ord('0')
+                            filename = filename[:-5] + chr(part) + filename[-4:]
+                        with open(filename, 'rb') as dataFile:
+                            data = bytearray(dataFile.read())
+                            globals()["data"] = data
+                            dataFile.close()
+                        aCodeStartAddr, foundGame, _ = _autodetect_game(data, engineVersion)
+                        if not game:
+                            game = foundGame
+                        messagesStartAddr    = data[0x02] + data [0x03] *256
+                        messagesLen          = data[0x04] + data [0x05] *256
+                        dictionaryAddr       = data[0x06] + data [0x07] *256
+                        dictionaryLen        = data[0x08] + data [0x09] *256
+                        dictionaryDataAddr   = data[0x0a] + data [0x0b] *256
+                        dictionaryDataLen    = data[0x0c] + data [0x0d] *256
+                        wordTableAddr        = data[0x0e] + data [0x0f] *256
+                        unknownAddr          = data[0x10] + data [0x11] *256
+                        exitsAddr            = data[0x12] + data [0x13] *256
+                        list2Offset = data[0x14 + 2 * 2] + data[0x15 + 2 * 2] * 256 - 0x8000
+                        list3Offset = data[0x14 + 3 * 2] + data[0x15 + 3 * 2] * 256 - 0x8000
+                        list9Offset = data[0x14 + 9 * 2] + data[0x15 + 9 * 2] * 256 - 0x8000
+                        dict_bits = ''.join(format(byte, '08b') for byte in data[dictionaryAddr : dictionaryAddr + dictionaryLen])
+                        vm_dictionary          = {}
+                        vm_breakpoints         = []
+                        vm_return_breakpoints  = []
+                        vm_fn_load_dictionary(data, False)
+                        if game == 'unknown':
+                            game = _identify_game(data, engineVersion, True)
+                        if args.game:
+                            args.game = game
+                        if game in v1Configuration and 'locationsStartMsgId' in v1Configuration[game]:
+                            locationsStartMsgId = v1Configuration[game]['locationsStartMsgId']
+                        else:
+                            locationsStartMsgId = 0x64
+                        if game in v1Configuration and 'exitsStartMsgId' in v1Configuration[game]:
+                            exitsStartMsgId = v1Configuration[game]['exitsStartMsgId']
+                        else:
+                            exitsStartMsgId = 0x3e8
+                        if args.script:
+                            script = args.script
+                            if (oldGame in v1Configuration and 'parts' in v1Configuration[oldGame] and
+                               'script' in v1Configuration[oldGame] and v1Configuration[oldGame]["script"] == script and
+                               'script' in v1Configuration[game]):
+                                script = v1Configuration[game]['script']
+                            else:
+                                script = script[:-5] + chr(part) + script[-4:]
+                            if script != args.script and os.path.isfile(script):
+                                args.script = script
+                                scriptFile.close()
+                                scriptFile = open(script, 'r')
+                            if engineVersion == 4:
+                                pass
+                            elif engineVersion >= 2:
+                                for ext in [ 'pic', 'cga', 'hrc', 'dat' ]:
+                                    if ext == 'dat':
+                                        picDir = re.sub('[^/]*$', '', filename)
+                                        picFilename = picDir + 'picture.dat'
+                                    else:
+                                        picFilename = filename.replace('.dat', f'.{ext}')
+                                    if os.path.isfile(picFilename):
+                                        setupPictures(picFilename, graphicsVersion)
+                                        break
+                                else:
+                                    graphicsVersion = 0
+                        if debugging and not args.quiet:
+                            vm_breakpoints.append(aCodeStartAddr)
+                        if constseed:
+                            randomseed = constseed
+                        else:
+                            randomseed = int(time.time()) & 0xff
+                            if args.script:
+                                randomseed = 42
+                        pc = aCodeStartAddr - 1 # the next opCode cycle adds 1
+                    case 12: #random_number
+                        randomseed = (((((randomseed << 8) + 0x0a - randomseed) <<2) + randomseed) + 1) & 0xffff
+                        vm_listarea[list9Offset + 1] = randomseed & 0xff
+                    case 13: #get_width_minus_1
+                        pass
+                    case 14: #driver14
+                        vm_listarea[list9Offset + 1] = 0
+                    case 15: #init_driver
+                        pass
+                    case 16: #show_picture
+                        pass
+                    case 17: #draw_line
+                        pass
+                    case 18: #fill_region
+                        pass
+                    case 19: #change_color
+                        pass
+                    case 20: #driver20
+                        pass
+                    case 22 | 23: #ram_save and ram_load
+                        slot = vm_listarea[list9Offset + 1]
+                        if slot > 0xfa:
+                            vm_listarea[list9Offset + 1] = 1
+                        elif slot >= ramsave_slots:
+                            vm_listarea[list9Offset + 1] = 0xff
+                        else:
+                            vm_listarea[list9Offset + 1] = 0
+                            if vm_listarea[list9Offset] == 22:
+                                vm_ramsave_variables[slot] = vm_variables[:]
+                                vm_ramsave_listarea[slot] = vm_listarea[:]
+                            else:
+                                vm_variables = vm_ramsave_variables[slot][:]
+                                vm_listarea = vm_ramsave_listarea[slot][:]
+                        vm_listarea[list9Offset] = vm_listarea[list9Offset + 1]
+                    case 24: #calibrate_lenslok
+                        pass
+                    case 25: #display_lenslok
+                        c1 = chr(vm_listarea[list9Offset + 1])
+                        c2 = chr(vm_listarea[list9Offset + 2])
+                        lenslok = c1 + c2
+                        print(f'\n[Lenslok code is {lenslok}]')
+                        charsWrittenToLine = 0
+                    case 26: #switch_lenslok
+                        pass
+                    case 30: #alloc_space
+                        pass
+                    case 32: #show_bitmap
+                        pic = vm_listarea[list9Offset + 2]
+                        x = vm_listarea[list9Offset + 4]
+                        y = vm_listarea[list9Offset + 6]
+                        if graphicsVersion == 4 and not scriptFile:
+                            showBitmap(pic, x, y)
+                    case 34: #check_for_disc
+                        vm_listarea[list9Offset + 1] = 0
+                        vm_listarea[list9Offset + 2] = 0
+                    case other:
+                        print(f'Error: Unknown driver call 0x{vm_listarea[list9Offset]:02x}')
         case 2:
             pc=pc+1
             variableToSet=data[pc]
 
             if(debugging):
-                print(f"Function - Random - Set var[{variableToSet:#0{4}x}]=<random number>")
+                print(f"Function - Random - Set var[{variableToSet:#0{4}x}]={randomseed} -> ", end='')
 
             randomseed=(((((randomseed<<8) + 0x0a - randomseed) <<2) + randomseed) + 1) & 0xffff
             vm_variables[variableToSet]=randomseed & 0xff            
+            if(debugging):
+                print(f"{randomseed}")
         case 3:
             if(debugging):
                 print(f"Function - Save ({requiredFunction:#0{4}x})")
@@ -1375,7 +2002,6 @@ def vm_fn_function(data,opCode,pc):
             with open(game+".sav", "rb") as load_file:
                 for i in range(0, len(vm_variables)):
                     bytes=load_file.read(2)
-                    print(i)
                     vm_variables[i] = int.from_bytes(bytes, 'big')
                 for i in range(0, len(vm_listarea)-1):
                     bytes=load_file.read(1)
@@ -1410,6 +2036,91 @@ def vm_fn_function(data,opCode,pc):
     return pc
 
 ###############################################################################
+# _find_dict_msg()
+#
+# Find the message(s) in which this dictionary code is used as a keyword
+#
+# Parameters:
+#   data        - the game file byte array
+#   dictCode    - the dictionary code to be found in the message database
+#
+# Returns:
+#   A list with tuples of found message numbers and flags of the used code
+###############################################################################
+def _find_dict_msg(data, dictCode):
+    address = messagesStartAddr
+    byte = data[address]
+    messageNumber = 0
+    codes = []
+    while address < messagesStartAddr + messagesLen:
+        if byte & 0x80:
+            messageNumber += byte - 0x80 + 1
+            address += 1
+        else:
+            if byte >= 0x40:
+                keyword = True
+            else:
+                keyword = False
+            length = 0
+            while True:
+                partLen = (data[address] - 1) & 0x3f
+                length += partLen
+                address += 1
+                if partLen != 0x3f:
+                    break
+            count = 0
+            while count < length:
+                code = data[address]
+                if code >= 0x80:
+                    code = data[address] * 256 + data[address + 1]
+                    flags = code >> 12
+                    code &= 0xfff
+                    if keyword and code < 0xf80 and flags >= 0x9:
+                        if dictCode is None:
+                            if flags == 0x9:
+                                word = _get_word(data, code).upper()
+                                print(f'0x{messageNumber:04x}  /  0x{address:04x} {word}')
+                        elif code == dictCode and len(codes) < 32:
+                            codes += [(messageNumber, flags)]
+                    address += 2
+                    count += 2
+                else:
+                    address += 1
+                    count += 1
+            messageNumber += 1
+        byte = data[address]
+
+    return codes
+
+###############################################################################
+# _scriptInput()
+#
+# Abstract away script input for multiple use in input routine
+#
+# Parameters:
+#   n/a
+#
+# Returns:
+#   cleaned-up script line
+###############################################################################
+def _scriptInput():
+    while(True):
+        userInput = scriptFile.readline()
+        if userInput == '':
+            userInput = input().upper()
+            break
+        userInput = userInput.replace('*','')
+        userInput = userInput.split('[')[0]
+        userInput = userInput.split(';')[0]
+        userInput = userInput.rstrip()
+        if userInput != '':
+            break
+    if not args.quiet:
+        print(userInput)
+    return userInput.upper()
+
+
+###############################################################################
 # vm_fn_input()
 #
 # Wait for player input and parse the result by looking up each word in the
@@ -1430,9 +2141,12 @@ def vm_fn_function(data,opCode,pc):
 # Returns:
 #   Updated program counter
 ###############################################################################
+inputLine = ''
+inputString = ''
 def vm_fn_input(data,opCode,pc):
     global vm_variables_previous
     global vm_listarea_previous
+    global charsWrittenToLine
 
     # <command> <byte1> <byte2> <byte3> <byte4>
     # <byte1> where to store the first cmd/obj
@@ -1453,72 +2167,142 @@ def vm_fn_input(data,opCode,pc):
 
     if(debugging):
         print(f"Input - results in word1 var[0x{firstWordVar:02x}], word2 var[0x{secondWordVar:02x}], word3 var[0x{thirdWordVar:02x}], count var[0x{wordCountVar:02x}]")
-        print(f"\033[0m", end='')
+        if not args.quiet: print(f"\033[0m", end='')
 
-    while(True):
-        userInput = ''
-        hashCommand = False	    
-          
-        if(scriptFile):
-            while(True):
-                userInput = scriptFile.readline()
-                if(userInput == ""):
-                    userInput = input().upper()
-                    break
-                userInput = userInput.replace("*","")                
-                userInput = userInput.split('[')[0]
-                userInput = userInput.split(';')[0]
-                userInput = userInput.rstrip()
-                if(userInput != ''):
-                    break
-            print(userInput)
-            userInput=userInput.upper()
-        else:
-            # Get user input
-            userInput = input().upper()
+    if engineVersion <= 2:
+        while True:
+            userInput = ''
+            hashCommand = False
 
-        if(len(userInput) > 0 and userInput[0] =="#"):
-            _process_hash_commands(data, pc, userInput)
-            hashCommand = True
-        else:
-            vm_variables_previous = vm_variables.copy()
+            if scriptFile:
+                userInput = _scriptInput()
+            else:
+                # Get user input
+                userInput = input().upper()
+            charsWrittenToLine = 0
 
-	# Restrict to the first 39 characters only
-        if(len(userInput) > 39):
-            userInput=userInput[0:39]
+            if len(userInput) > 0 and userInput[0] == '#':
+                pc = _process_hash_commands(data, pc, userInput)
+                hashCommand = True
+            else:
+                vm_variables_previous = vm_variables.copy()
 
-        words=list(filter(None,userInput.split(' ')))
+            # Restrict to the first 39 characters only
+            if len(userInput) > 39:
+                userInput = userInput[0:39]
 
-        vm_variables[firstWordVar]  = 0x00
-        vm_variables[secondWordVar] = 0x00
-        vm_variables[thirdWordVar]  = 0x00
-        vm_variables[wordCountVar]  = len(words)
+            words = list(filter(None, userInput.split(' ')))
 
-        wordVarPointer = 0x00
-	    
-        for word in words:
-            code = None
-            for dictWord in vm_dictionary.keys():
-                if(dictWord.startswith(word)):
-                    code = vm_dictionary[dictWord]
-                    break
-            
-            if(code is not None):
-                match wordVarPointer:
-                    case 0:
-                        vm_variables[firstWordVar]=code
-                    case 1:
-                        vm_variables[secondWordVar]=code
-                    case 2:
-                        vm_variables[thirdWordVar]=code
-                    case other:
+            vm_variables[firstWordVar]  = 0x00
+            vm_variables[secondWordVar] = 0x00
+            vm_variables[thirdWordVar]  = 0x00
+            vm_variables[wordCountVar]  = len(words)
+
+            wordVarPointer = 0x00
+
+            for word in words:
+                code = None
+                for dictWord in vm_dictionary.keys():
+                    if dictWord.startswith(word):
+                        code = vm_dictionary[dictWord]
                         break
 
-                wordVarPointer=wordVarPointer+1
+                if code is not None:
+                    match wordVarPointer:
+                        case 0:
+                            vm_variables[firstWordVar] = code
+                        case 1:
+                            vm_variables[secondWordVar] = code
+                        case 2:
+                            vm_variables[thirdWordVar] = code
+                        case other:
+                            break
 
-        if(vm_variables[wordCountVar]>0 and not hashCommand):
-            vm_listarea_previous  = vm_listarea.copy()
-            break
+                    wordVarPointer += 1
+
+            if vm_variables[wordCountVar] > 0 and not hashCommand:
+                vm_listarea_previous = vm_listarea.copy()
+                break
+    elif engineVersion >= 3:
+        global inputLine, inputString
+
+        if not inputLine and not inputString:
+            if scriptFile:
+                inputLine = _scriptInput().lower()
+            else:
+                inputLine = input().lower()
+            charsWrittenToLine = 0
+            if len(inputLine) > 0 and inputLine[0] == '#':
+                pc = _process_hash_commands(data, pc, inputLine)
+                inputLine = ''
+
+        offset = 0
+        found = False
+        msgCodes = []
+        words = re.findall(r'[a-z0-9-]+|,|;|"|\'|\(|\)|\.|\?|!', inputLine)
+        abrevDict = True
+        abrevMsg = False
+        if words:
+            inputString = words[0]
+            inputLine = ' '.join(words[1:])
+            for term, dictCode in vm_dictionary.items():
+                if term.lower().startswith(inputString):
+                    if term.lower() == inputString:
+                        abrevDict = False
+                    msgCodes = _find_dict_msg(data, dictCode)
+                    if msgCodes:
+                        if not abrevDict:
+                            abrevMsg = False
+                            found = True
+                            break
+                        elif abrevMsg:
+                            # Do not allow ambiguity in abreviations
+                            msgCodes = []
+                            found = False
+                        else:
+                            abrevCodes = msgCodes
+                            abrevMsg = True
+                            found = True
+            if found and abrevMsg:
+                msgCodes = abrevCodes
+        else:
+            inputLine = ''
+            inputString = ''
+
+        if inputString and not found:
+            if inputString.isnumeric():
+                code = int(inputString)
+                if engineVersion == 4:
+                    vm_listarea[list9Offset + offset + 0] = 1
+                    vm_listarea[list9Offset + offset + 1] = code & 0xff
+                    vm_listarea[list9Offset + offset + 2] = (code >> 8) & 0xff
+                    offset += 3
+                else:
+                    vm_listarea[list9Offset + offset + 0] = code & 0xff
+                    vm_listarea[list9Offset + offset + 1] = (code >> 8) & 0xff
+                    vm_listarea[list9Offset + offset + 2] = (code >> 16) & 0xff
+                    vm_listarea[list9Offset + offset + 3] = (code >> 24) & 0xff
+                    offset += 4
+            elif inputString in [',', ';', '"', '\'', '(', ')', '.', '?', '!']:
+                vm_listarea[list9Offset + offset + 0] = 0
+                vm_listarea[list9Offset + offset + 1] = ord(inputString)
+                offset += 2
+            else:
+                vm_listarea[list9Offset + offset + 0] = 0
+                vm_listarea[list9Offset + offset + 1] = 0x80
+                offset += 2
+
+        for msgCode, flags in msgCodes:
+            code = ((flags << 13) & 0xe000) | msgCode
+            vm_listarea[list9Offset + offset + 0] = code >> 8
+            vm_listarea[list9Offset + offset + 1] = code & 0xff
+            offset += 2
+
+        vm_listarea[list9Offset + offset + 0] = 0
+        vm_listarea[list9Offset + offset + 1] = 0
+
+        vm_variables_previous = vm_variables.copy()
+        vm_listarea_previous  = vm_listarea.copy()
 
     return pc
 
@@ -1597,7 +2381,7 @@ def vm_fn_varvar(data,opCode,pc):
     vm_variables[targetVar] = vm_variables[sourceVar]
 
     if(debugging):
-        print(f"Set var[0x{targetVar:02x}] = var[0x{sourceVar:02x})] (0x{vm_variables[sourceVar]:04x})")
+        print(f"Set var[0x{targetVar:02x}] = var[0x{sourceVar:02x}] (0x{vm_variables[sourceVar]:04x})")
 
     return pc
 
@@ -1627,7 +2411,7 @@ def vm_fn_add(data, opCode, pc):
     if(debugging):
         print(f"Set var[0x{secondVar:02x}] = var[0x{firstVar:02x}] (0x{vm_variables[firstVar]:04x}) + var[0x{secondVar:02x}] (0x{vm_variables[secondVar]:04x})")
 
-    vm_variables[secondVar] = vm_variables[firstVar] + vm_variables[secondVar]
+    vm_variables[secondVar] = (vm_variables[firstVar] + vm_variables[secondVar]) & 0xffff
 
     return pc   
 
@@ -1656,7 +2440,7 @@ def vm_fn_sub(data, opCode, pc):
     if(debugging):
         print(f"Set var[0x{secondVar:02x}] = var[0x{secondVar:02x}] (0x{vm_variables[secondVar]:04x}) - var[0x{firstVar:02x}] (0x{vm_variables[firstVar]:04x})")
 
-    vm_variables[secondVar] = vm_variables[secondVar] - vm_variables[firstVar]
+    vm_variables[secondVar] = (vm_variables[secondVar] - vm_variables[firstVar]) & 0xffff
 
     return pc
 
@@ -1687,6 +2471,7 @@ def _find_next_location(exitPointer, data, location):
         # (it will have bit 8 set)
         while(not byte & 0b10000000):
             byte = data[exitPointer]
+            if not byte: return 0
             exitPointer += 2
 
         # Found the last exit for the location so about to start
@@ -1729,7 +2514,7 @@ def vm_fn_jump(data, opCode, pc):
     jumpTableAddress = aCodeStartAddr + aCodeOffset + tableOffset
 
     if(debugging):
-        print(f"Jump to address in 0x{jumpTableAddress:04x}(0x{pc+1:04x})")    
+        print(f"Jump to address in 0x{jumpTableAddress:04x}(0x{pc-aCodeStartAddr+1:04x})")
 
     if jumpTableAddress >= len(data):
         print("Error: Jump Table at invalid address")
@@ -1742,8 +2527,7 @@ def vm_fn_jump(data, opCode, pc):
 ###############################################################################
 # vm_fn_screen()
 #
-# Switch between text and graphics mode. Ignored for now until I release 
-# the graphics version (need to get floodfill working correctly).
+# Switch between text and graphics mode.
 #
 # <operand1> - id of mode:
 # $00 - Switch back to the text
@@ -1763,8 +2547,9 @@ def vm_fn_jump(data, opCode, pc):
 # Returns:
 #   Updated program counter
 ###############################################################################
+_titleShown = False
 def vm_fn_screen(data, opCode, pc):
-
+    global _titleShown
     # Get the indicator for text (0x00) or graphics (0x01)
     # to show
     pc=pc+1
@@ -1777,18 +2562,28 @@ def vm_fn_screen(data, opCode, pc):
         pc=pc+1
         constant2 = data[pc]
 
+    if graphicsVersion == 4 and not scriptFile:
+        initBitmap(constant1)
+        if not _titleShown:
+            _titleShown = True
+            if showBitmap(0, 0, 0):
+                print('[Showing title picture; press return to continue ...]')
+                sys.stdin.read(1)
+    elif graphicsVersion >= 2 and not scriptFile:
+        initPictures(constant1, graphicsVersion)
+
     if(debugging):
         if(constant1 == 0x00):
-            print("Screen "+hex(constant1))
+            print("Screen Textmode")
         else:
-            print("Screen " + hex(constant1) +" " + hex(constant2))
+            print("Screen Graphmode " + hex(constant2))
 
     return pc
 
 ###############################################################################
 # vm_fn_picture()
 #
-# Show the picture in the first operand. Ignored for now...
+# Show the picture in the first operand.
 #
 # Parameters: 
 #    data           - the game file byte array
@@ -1802,17 +2597,22 @@ def vm_fn_screen(data, opCode, pc):
 def vm_fn_picture(data, opCode, pc):
 
     pc=pc+1
-    constant1 = data[pc]
+    variable1 = data[pc]
+
+    if graphicsVersion == 4:
+        pass
+    elif graphicsVersion >= 2 and not scriptFile:
+        showPicture(vm_variables[variable1])
 
     if(debugging):
-        print(hex(constant1))    
+        print("Picture " + hex(vm_variables[variable1]))
 
     return pc
 
 ###############################################################################
 # vm_fn_cleartg()
 #
-# Clear text or graphics from the screen. Ignored for now...
+# Clear text or graphics from the screen.
 #
 # Parameters: 
 #    data           - the game file byte array
@@ -1828,47 +2628,178 @@ def vm_fn_cleartg(data, opCode, pc):
     pc=pc+1
     constant1 = data[pc]
 
+    if graphicsVersion == 4 and not scriptFile:
+        clearBitmap(constant1)
+    elif graphicsVersion >= 2 and not scriptFile:
+        clearPictures(constant1)
+
     if(debugging):
-        print(hex(constant1))        
+        print("Cleartg Graphmode " + hex(constant1))
 
     return pc
 
+###############################################################################
+# vm_fn_get_next_object()
+#
+# Get the next object present here
+#
+# It is not entirely clear what "here" actually means, as on the surface
+# it is obviously a location in the game where objects can be present or not,
+# but there is also this concept of search depth which can use an object id
+# as a location to search for other objects, which could simply mean recursively
+# searching for objects attached to other objects, but what is the use of the
+# high search position, using list 3 iso of list 2?
+#
+# This code is trying to be faithful (with slight Pythonesque modifications) to
+# the GL/DK C-based Level 9 interpreter, exactly because its purpose is not
+# entirely clear
+#
+# Parameters:
+#    data           - the game file byte array
+#    opCode         - list handler code
+#    pc             - the program counter
+#
+# Returns:
+#   Updated program counter
+#
+###############################################################################
+_gnoStack = [0]*128
+_gnoScratch = [0]*32
+_gnoObject = 0x00
+_gnoSP = 0x00
+_gnoNumObject = 0x00
+_gnoSearchDepth = 0x00
+_gnoIniHighSearchPos = 0x00
 def vm_fn_get_next_object(data, opCode, pc):
-
-    # <cmd> <variable1> <variable2> <variable3> <variable4> <variable5> <variable6>
+    global _gnoStack, _gnoScratch, _gnoObject, _gnoSP, _gnoNumObject, _gnoSearchDepth, _gnoIniHighSearchPos
+    # <cmd> <maxObjectVar> <highSearchPosVar> <searchPosVar> <objectVar> <numObjectVar> <searchDepthVar>
     pc=pc+1
-    # max object?
-    variable1 = data[pc]
-
-    pc=pc+1
-    # high search pos
-    variable2 = data[pc]
+    maxObjectVar = data[pc]
 
     pc=pc+1
-    # search pos
-    variable3 = data[pc]
+    highSearchPosVar = data[pc]
 
     pc=pc+1
-    # object
-    variable4 = data[pc]
+    searchPosVar = data[pc]
 
     pc=pc+1
-    # num objects
-    variable5 = data[pc]
+    objectVar = data[pc]
 
     pc=pc+1
-    # search depth
-    variable6 = data[pc]
+    numObjectVar = data[pc]
+
+    pc=pc+1
+    searchDepthVar = data[pc]
+
+    maxObject = vm_variables[maxObjectVar]
+    highSearchPos = vm_variables[highSearchPosVar]
+    searchPos = vm_variables[searchPosVar]
+
+    while True:
+        if not highSearchPos and not searchPos:
+            _gnoSP = 0x80
+            _gnoSearchDepth = 0x00
+            _gnoNumObject = 0
+            _gnoObject = 0
+            _gnoScratch = [0]*32
+            break
+
+        if not _gnoNumObject:
+            _gnoIniHighSearchPos = highSearchPos
+
+        while True:
+            _gnoObject += 1
+            pos1 = vm_listarea[list2Offset + _gnoObject]
+            if pos1 == searchPos:
+                pos2 = vm_listarea[list3Offset + _gnoObject] & 0x1f
+                if pos2 != highSearchPos:
+                    if not pos2 or not highSearchPos:
+                        if _gnoObject > maxObject: break
+                        else: continue
+                    if highSearchPos != 0x1f:
+                        _gnoScratch[pos2] = pos2
+                        if _gnoObject > maxObject: break
+                        else: continue
+                    highSearchPos = pos2
+                _gnoNumObject += 1
+                _gnoSP -= 1
+                _gnoStack[_gnoSP] = _gnoObject
+                _gnoSP -= 1
+                _gnoStack[_gnoSP] = 0x1f
+
+                vm_variables[highSearchPosVar] = highSearchPos
+                vm_variables[searchPosVar] = searchPos
+                vm_variables[objectVar] = _gnoObject
+                vm_variables[numObjectVar] = _gnoNumObject
+                vm_variables[searchDepthVar] = _gnoSearchDepth
+                if(debugging):
+                    print(f"Get Next Object - maxObject: 0x{vm_variables[maxObjectVar]:02x}, highSearchPos: 0x{vm_variables[highSearchPosVar]:02x}, searchPos: 0x{vm_variables[searchPosVar]:02x}, object: 0x{vm_variables[objectVar]:02x}, numObject: 0x{vm_variables[numObjectVar]:02x}, searchDepth: 0x{vm_variables[searchDepthVar]:02x}")
+                return pc
+            if _gnoObject > maxObject: break
+
+        if _gnoIniHighSearchPos == 0x1f:
+            _gnoScratch[highSearchPos] = 0x00
+            highSearchPos = 0x00
+            while True:
+                if _gnoScratch[highSearchPos]:
+                    _gnoSP -= 1
+                    _gnoStack[_gnoSP] = searchPos
+                    _gnoSP -= 1
+                    _gnoStack[_gnoSP] = highSearchPos
+                highSearchPos += 1
+                if highSearchPos >= 0x1f: break
+
+        if _gnoSP != 0x80:
+            highSearchPos = _gnoStack[_gnoSP]
+            _gnoSP += 1
+            searchPos = _gnoStack[_gnoSP]
+            _gnoSP += 1
+        else:
+            highSearchPos = 0x00
+            searchPos = 0x00
+
+        if highSearchPos == 0x1f:
+            _gnoSearchDepth += 1
+
+        _gnoNumObject = 0
+        _gnoObject = 0
+        _gnoScratch = [0]*32
+        if not searchPos: break
+
+    vm_variables[maxObjectVar] = 0x00
+    vm_variables[highSearchPosVar] = 0x00
+    vm_variables[searchPosVar] = 0x00
+    _gnoObject = 0x00
+    vm_variables[objectVar] = _gnoObject
+    vm_variables[numObjectVar] = _gnoNumObject
+    vm_variables[searchDepthVar] = _gnoSearchDepth
 
     if(debugging):
-       print(f"Get Next Object var[{variable1:#0{4}x}] var[{variable2:#0{4}x}] var[{variable3:#0{4}x}] var[{variable4:#0{4}x}] var[{variable5:#0{4}x}] var[{variable6:#0{4}x}]")
+        print(f"Get Next Object - maxObject: 0x{vm_variables[maxObjectVar]:02x}, highSearchPos: 0x{vm_variables[highSearchPosVar]:02x}, searchPos: 0x{vm_variables[searchPosVar]:02x}, object: 0x{vm_variables[objectVar]:02x}, numObject: 0x{vm_variables[numObjectVar]:02x}, searchDepth: 0x{vm_variables[searchDepthVar]:02x}")
 
     return pc
 
+###############################################################################
+# vm_fn_print_input()
+#
+# Reflect an input word back to the user for error reporting purposes
+#
+# Parameters:
+#    data           - the game file byte array
+#    opCode         - list handler code
+#    pc             - the program counter
+#
+# Returns:
+#   Updated program counter
+###############################################################################
 def vm_fn_print_input(data, opCode, pc):
 
     if(debugging):
         print(f"Print Input")
+        # Reset the colour to white
+        if not args.quiet: print("\033[0m",end='')
+
+    print(inputString, end='')
 
     return pc
 
@@ -1920,19 +2851,23 @@ def vm_fn_exit(data, opCode, pc):
     if(fromLocation - 1 > 0):
         exitPointer=_find_next_location(exitPointer, data, fromLocation)
 
-    # Loop through the nth location's exits to see if it's possible
-    # to move in the player's chosen movement direction - if it is set the
-    # 
-    while(data[exitPointer]):
-        if(moveDirection == data[exitPointer] & 0b00001111):
-            vm_variables[exitFlagsVar]      = (data[exitPointer] & 0b01110000) >> 4 
-            vm_variables[targetLocationVar] = data[exitPointer+1]
-            break
+    if(not fromLocation or not exitPointer):
+        vm_variables[exitFlagsVar]      = 0x00
+        vm_variables[targetLocationVar] = 0x00
+    else:
+        # Loop through the nth location's exits to see if it's possible
+        # to move in the player's chosen movement direction - if it is set the
+        #
+        while(data[exitPointer]):
+            if(moveDirection == data[exitPointer] & 0b00001111):
+                vm_variables[exitFlagsVar]      = (data[exitPointer] & 0b01110000) >> 4
+                vm_variables[targetLocationVar] = data[exitPointer+1]
+                break
 
-        if(data[exitPointer] & 0b10000000):
-            break
+            if(data[exitPointer] & 0b10000000):
+                break
 
-        exitPointer += 2
+            exitPointer += 2
 
     # If an exit hasn't been found and say the player was trying to
     # go East from location 12, check to see if it's possible 
@@ -1942,7 +2877,10 @@ def vm_fn_exit(data, opCode, pc):
         locationNumber = 1
         
         # Get the inverse direction e.g. for N it's S, for E it's W
-        inverseMoveDirection = inverseDirectionTable[moveDirection]
+        if moveDirection < 16:
+            inverseMoveDirection = inverseDirectionTable[moveDirection]
+        else:
+            inverseMoveDirection = 0xff
 
         # Loop through ALL the exits to see if it's possible to go
         # the inverse direction to the player's current location
@@ -1972,12 +2910,18 @@ def vm_fn_exit(data, opCode, pc):
             exitPointer += 2
 
     if(debugging):
-        textDirection = "<Missing>"
-        for term, id in vm_dictionary.items():
-            if id == vm_variables[moveDirectionVar]:
-                textDirection = term
-                break
-        print(f"Exits - check location var[0x{currentLocationVar:02x}] ({vm_variables[currentLocationVar]:04x}) can move var[0x{moveDirectionVar:02x}] ({textDirection}) exit flags: var[0x{exitFlagsVar:02x}] (0x{vm_variables[exitFlagsVar]:02x}) target location: var[0x{targetLocationVar:02x})] (0x{vm_variables[targetLocationVar]:02x})")
+        textDirection = '  -'
+        if messageVersion >= 3:
+            dirAddr = _getAddrForMessageN(data, exitsStartMsgId + vm_variables[moveDirectionVar])
+            desc = _getMessage(data, dirAddr).upper()
+            if desc:
+                textDirection = desc
+        else:
+            for term, id in vm_dictionary.items():
+                if id == vm_variables[moveDirectionVar]:
+                    textDirection = term
+                    break
+        print(f"Exits - check location var[0x{currentLocationVar:02x}] (0x{vm_variables[currentLocationVar]:02x}) can move var[0x{moveDirectionVar:02x}] (0x{vm_variables[moveDirectionVar]:02x}: {textDirection}) exit flags: var[0x{exitFlagsVar:02x}] (0x{vm_variables[exitFlagsVar]:02x}) target location: var[0x{targetLocationVar:02x}] (0x{vm_variables[targetLocationVar]:02x})")
 
     return pc
 
@@ -2029,7 +2973,7 @@ def vm_fn_ifxxvt(data,opCode,pc,operation):
         targetAddress=aCodeStartAddr+offset-1
 
     if(debugging):
-        print(f"If var[0x{variable1:2x}] (0x{vm_variables[variable1]:04x}) {operation:2s} var[0x{variable2:02x})] (0x{vm_variables[variable2]:04x}) goto 0x{targetAddress+1:04x}")  
+        print(f"If var[0x{variable1:2x}] (0x{vm_variables[variable1]:04x}) {operation:2s} var[0x{variable2:02x}] (0x{vm_variables[variable2]:04x}) goto 0x{targetAddress-aCodeStartAddr+1:04x}")
 
     if(eval("vm_variables[variable1] "+operation+" vm_variables[variable2]")):
         pc = targetAddress
@@ -2093,7 +3037,7 @@ def vm_fn_ifxxct(data,opCode,pc,operation):
         targetAddress = (256 * offsetHigher + offsetLower) + aCodeStartAddr - 1
 
     if(debugging):
-        print(f"If var[0x{variable:02x}] (0x{vm_variables[variable]:04x}) {operation:2s} (constant) 0x{constant:04x} goto 0x{targetAddress+1:04x}")  
+        print(f"If var[0x{variable:02x}] (0x{vm_variables[variable]:04x}) {operation:2s} (constant) 0x{constant:04x} goto 0x{targetAddress-aCodeStartAddr+1:04x}")
 
 
     if(eval("vm_variables[variable] "+operation+" constant")):
@@ -2269,7 +3213,7 @@ def _autodetect_game(data, engineVersion):
         if length > 0 and length + 1 <= len(data):
             checksum = 0
             for j in range(0x20, length + 1):
-                checksum = checksum + data[j];
+                checksum = checksum + data[j]
             if checksum & 0xff == data[0x1e]:
                 engineVersion = 2
 
@@ -2278,7 +3222,7 @@ def _autodetect_game(data, engineVersion):
         if length > 0 and length + 1 <= len(data):
             checksum = 0
             for j in range(length + 1):
-                checksum = checksum + data[j];
+                checksum = checksum + data[j]
             if checksum & 0xff == 0:
                 if length >= 0x8500:
                     engineVersion = 4
@@ -2317,31 +3261,43 @@ def _autodetect_game(data, engineVersion):
 #
 #
 # Parameters:
-# none
+# data and version
 #
 # Returns:
 #   game indicator
 ###############################################################################
-def _identify_game(engineVersion):
-    for msg in [0x01, 0xa0, 0xe6, 0xff]:
+def _identify_game(data, engineVersion, parts = False):
+    game = "unknown"
+    msgs = [0x01, 0xa0, 0xe6, 0xff]
+    if engineVersion >= 3:
+        msgs += [0x3c, 0x424, 0x44c, 0x4f6, 0x80c, 0x834, 0x908]
+
+    if args.script and args.script[-6] == '-':
+        parts = True
+
+    for msg in msgs:
         address = _getAddrForMessageN(data, msg)
-        desc=_getMessage(data, address)
-        if "Welcome to" in desc:
+        desc = _getMessage(data, address)
+        if "elcome to" in desc or "saved from" in desc:
             for gameKey in v1Configuration:
-                if v1Configuration[gameKey]['version'] == engineVersion:
+                if v1Configuration[gameKey]['version'] == engineVersion and (not parts or "parts" in v1Configuration[gameKey]):
                     name = v1Configuration[gameKey]['name']
                     if name in desc:
+                        name = name.replace('"', '')
+                        name = re.sub('^to ', '', name)
+                        name = re.sub('^from ', '', name)
+                        name = name.replace(', copyright', '')
+                        name = name.replace('and it is still running', 'Secret Diary')
                         game = gameKey
-                        print('[Identified v'+str(engineVersion)+' game: "'+name+'" --game '+game+']')
                         break
-
-    # Remove this placeholder when v3-4 messages are implemented
-    if engineVersion >= 3:
-        game = 'unknownv3-4'
-        print('[Could not identify v'+str(engineVersion)+' game: n/i!]')
+            else:
+                continue
+            break
 
     if game == 'unknown':
         print("[Could not identify v"+str(engineVersion)+" game!]")
+    else:
+        print('[Identified v'+str(engineVersion)+' game: "'+name+'" --game '+game+']')
 
     return game
 
@@ -2375,9 +3331,15 @@ parserGroup3 = parser.add_mutually_exclusive_group(required=False)
 parserGroup3.add_argument('-s', '--script', type=str, required=False)
 parserGroup3.add_argument('-a', '--autoGame', required=False, action='store_true')
 
+# Set up the third parser group - either a pictures file/dir or textmode
+parserGroup4 = parser.add_mutually_exclusive_group(required=False)
+parserGroup4.add_argument('-p', '--pictures', type=str, required=False)
+parserGroup4.add_argument('-t', '--textmode', required=False, action='store_true')
+
 # Not used so much any more but was during development of this
 parser.add_argument('--logging', type=str, choices=['info','debug'],required=False)
 parser.add_argument('--debug', required=False, action='store_true')
+parser.add_argument('--quiet', required=False, action='store_true')
 
 # Parse the arguments
 args = parser.parse_args()  
@@ -2397,11 +3359,11 @@ logging.basicConfig(filename='parser.log', encoding='utf-8', level=debugLevel)
 if(args.game):
     game     = args.game
     filename = v1Configuration[game]['filename']
-    engineVersion = v1Configuration[game]['version']
+    engineVersion  = v1Configuration[game]['version']
 else:
     game     = None
     filename = args.file
-    engineVersion = -1
+    engineVersion  = -1
 
 # Load the game file
 with open(filename,'rb') as dataFile:
@@ -2418,6 +3380,7 @@ if(not game):
 # The message database of some v2 games is still on v1
 # Initialize it first to be the same as the game version
 messageVersion = engineVersion
+graphicsVersion = engineVersion
 if(engineVersion == 1):
     # Derive the location of the major game partsffunction based on offsets in the v1 configuration
     dictionaryAddr       = aCodeStartAddr + v1Configuration[game]['offsets']['dictionaryOffset']
@@ -2442,37 +3405,33 @@ elif(engineVersion >= 3):
     wordTableAddr        = data[0x0e] + data [0x0f] *256
     unknownAddr          = data[0x10] + data [0x11] *256
     exitsAddr            = data[0x12] + data [0x13] *256
+    list2Offset = data[0x14 + 2 * 2] + data[0x15 + 2 * 2] * 256 - 0x8000
+    list3Offset = data[0x14 + 3 * 2] + data[0x15 + 3 * 2] * 256 - 0x8000
+    list9Offset = data[0x14 + 9 * 2] + data[0x15 + 9 * 2] * 256 - 0x8000
+    dict_bits = ''.join(format(byte, '08b') for byte in data[dictionaryAddr : dictionaryAddr + dictionaryLen])
+
+# Load and decode the dictionary
+# Must be done first for v3-4 message db functionality to work
+vm_fn_load_dictionary(data, args.dictionary)
 
 # Identify autodetected v2-3-4 game
 if game == 'unknown':
-    game = _identify_game(engineVersion)
-
-# If it couldn't be identified then quit
-if(aCodeStartAddr < 0 or game == 'unknown'):
-    print('Unable to detect a Level 9 game in ' + filename)
-    sys.exit()
+    game = _identify_game(data, engineVersion)
 
 # Retrieve locationsStartMsgId
 if game in v1Configuration and 'locationsStartMsgId' in v1Configuration[game]:
     locationsStartMsgId = v1Configuration[game]['locationsStartMsgId']
 else:
-    # Set a reasonable default for locationsStartMsgId
+    # Set a reasonable default
     locationsStartMsgId = 0x190
 
-# If a script file was specified, open it
-if(args.script):
-    scriptFile = open(args.script,'r')
+# Retrieve exitsStartMsgId
+if game in v1Configuration and 'exitsStartMsgId' in v1Configuration[game]:
+    exitsStartMsgId = v1Configuration[game]['exitsStartMsgId']
+else:
+    # Set a reasonable default
+    exitsStartMsgId = 0x64
 
-# If autoGame was specified, use the default script file
-if(args.autoGame):
-    scriptFile = open(v1Configuration[game]['script'],'r')
-
-# Set the program counter to the start of the A-Code
-pc = aCodeStartAddr
-maxpc = pc
-
-# Load and decode the dictionary 
-vm_fn_load_dictionary(data, args.dictionary)
 if(args.dictionary):
     sys.exit()
 
@@ -2484,8 +3443,60 @@ if(args.exits):
     _printAllExits(data,exitsAddr)
     sys.exit()
 
+# If it couldn't be identified then quit
+if(aCodeStartAddr < 0 or game == 'unknown'):
+    print('Unable to detect a Level 9 game in ' + filename)
+    sys.exit()
+
+# If autoGame was specified, use the default script file
+if(args.autoGame) and game in v1Configuration and 'script' in v1Configuration[game]:
+    args.script = v1Configuration[game]['script']
+
+# If a script file was specified, open it
+if(args.script):
+    scriptFile = open(args.script,'r')
+    randomseed = 42
+
+# Setup picture subsystem
+if engineVersion == 4:
+    if args.pictures:
+        graphicsDir = args.pictures
+        if graphicsDir[-1] != '/':
+            graphicsDir += '/'
+    if args.textmode:
+        graphicsVersion = 0
+    elif not (args.pictures and setupBitmap(graphicsDir)):
+        graphicsDir = re.sub('[^/]*$', '', filename)
+        if not setupBitmap(graphicsDir):
+            graphicsVersion = 0
+elif engineVersion >= 2:
+    if 'graphics' in v1Configuration[game]:
+        graphicsVersion = v1Configuration[game]['graphics']
+    elif engineVersion == 3:
+        graphicsVersion = 3.1
+    import os
+    if args.textmode:
+        graphicsVersion = 0
+    elif args.pictures and os.path.isfile(args.pictures):
+        setupPictures(args.pictures)
+    else:
+        for ext in [ 'pic', 'cga', 'hrc', 'dat' ]:
+            if ext == 'dat':
+                picDir = re.sub('[^/]*$', '', filename)
+                picFilename = picDir + 'picture.dat'
+            else:
+                picFilename = filename.replace('.dat', f'.{ext}')
+            if os.path.isfile(picFilename):
+                setupPictures(picFilename, graphicsVersion)
+                break
+        else:
+            graphicsVersion = 0
+
+# Set the program counter to the start of the A-Code
+pc = aCodeStartAddr
+
 # If in debug mode, stop the a-code vm on the first instruction
-if(debugging):
+if(debugging and not args.quiet):
     vm_breakpoints.append(aCodeStartAddr)
 
 # Main virtual machine loop - find the next operator in the A-Code and
@@ -2501,11 +3512,13 @@ while(True):
     if(opCode & 0x80):
         cmds.add(opCode)
         if(debugging):
-            print(f"\033[93m0x{pc:04x} (0x{opCode:02x}) listhandler ", end='')
+            if not args.quiet: print(f"\033[93m", end='')
+            print(f"0x{pc-aCodeStartAddr:04x} (0x{opCode:02x}) listhandler ", end='')
         pc = vm_fn_listhandler(data,opCode,pc,engineVersion)
     else:
         if(debugging):
-            print(f"\033[93m0x{pc:04x} (0x{opCodeClean:02x}) {opCodes[opCodeClean]:11s} ",end='')
+            if not args.quiet: print(f"\033[93m", end='')
+            print(f"0x{pc-aCodeStartAddr:04x} (0x{opCodeClean:02x}) {opCodes[opCodeClean]:11s} ",end='')
         cmds.add(opCodeClean)
         match opCodeClean:
             case 0x00:
@@ -2563,7 +3576,7 @@ while(True):
             case 0x1c:
                 pc = vm_fn_print_input(data, opCode, pc)
             case other:
-                print(f'Illegal opCode {opCodeClean:02x} at {pc:04x}')
+                print(f'Illegal opCode {opCodeClean:02x} at {pc-aCodeStartAddr:04x}')
                 break
 
     # Check to see if debugging is switched on (don't do anything if not)
