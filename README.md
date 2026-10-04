@@ -384,3 +384,7 @@ Enjoy!
 
 Andy
 
+## PS: Licensing
+
+As some of the added code comes from the GS/DK Level 9 Interpreter which is GPLv2 licensed, this whole repo has likewise been licensed under the GPLv2.  However, for convenience many subfolders contain game material (in original packing, unpacked, analyzed or decoded), which is Apache v2.0 licensed.
+

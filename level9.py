@@ -2651,8 +2651,7 @@ def vm_fn_cleartg(data, opCode, pc):
 # high search position, using list 3 iso of list 2?
 #
 # This code is trying to be faithful (with slight Pythonesque modifications) to
-# the GL/DK C-based Level 9 interpreter, exactly because its purpose is not
-# entirely clear
+# the GS/DK Level 9 Interpreter, right because its purpose is not entirely clear
 #
 # Parameters:
 #    data           - the game file byte array

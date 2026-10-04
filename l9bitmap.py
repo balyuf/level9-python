@@ -2,6 +2,30 @@
 # Decode Level 9 bitmaps
 # Most of the code is adapted from the GS/DK Level 9 Interpreter
 
+#/***********************************************************************\
+#*
+#* Level 9 interpreter
+#* Version 5.2
+#* Copyright (c) 1996-2025 Glen Summers and contributors.
+#* Contributions from David Kinder, Alan Staniforth, Simon Baldwin,
+#* Dieter Baron and Andreas Scherrer.
+#*
+#* This program is free software; you can redistribute it and/or modify
+#* it under the terms of the GNU General Public License as published by
+#* the Free Software Foundation; either version 2 of the License, or
+#* (at your option) any later version.
+#*
+#* This program is distributed in the hope that it will be useful,
+#* but WITHOUT ANY WARRANTY; without even the implied warranty of
+#* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#* GNU General Public License for more details.
+#*
+#* You should have received a copy of the GNU General Public License
+#* along with this program; if not, write to the Free Software
+#* Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111, USA.
+#*
+#\***********************************************************************/
+
 import os, sys
 from PIL import Image
 from l9graphics import initGraphics, clearGraphics, showImage
@@ -130,7 +154,7 @@ def _bitmap_pcst_colour(big, small):
     Extracts the number of pixels requested from an eight-byte data block (4 bit-
     planes) passed to it.
 
-    Note:   On entry each one of four pointers is set to poto the start of each
+    Note:   On entry each one of four pointers is set to point to the start of each
             bit-plane in the block. The function then indexes through each byte in
             each bit plane. and uses shift and mask operations to extract each four
             bit pixel into an L9PIXEL.
@@ -253,7 +277,7 @@ def _bitmap_st1_decode_pixels(bitmap, data, count, pixels):
     and each pixel can be any one of sixteen colours - needs 4 bits to store. 
 
     In the ST video memory (in lo-res mode which we are dealing with here)
-    is organised as follows. The lowest poin memory in the frame buffer 
+    is organised as follows. The lowest point in memory in the frame buffer
     represents the top-left of the screen, the highest the bottom-right. 
     Each row of pixels is stored in sequence. 
 
@@ -505,7 +529,7 @@ def _bitmap_pc1_decode(filename, x, y):
     Set a variable (theNewPixel) to byte 40 (seedByte) of the header.
     We need to do this because as part of identifying the pixel being
     extracted we need to know the value of the previous pixel extracted. Since
-    none exists at this powe must prime this variable with the correct
+    none exists at this point we must prime this variable with the correct
     value.
 
     Extraction:
@@ -750,9 +774,11 @@ def _bitmap_amiga_decode(filename, x, y):
     data = _bitmap_load(filename)
     if not data:
         return False
+    datalen = len(data)
 
     max_x = (((((data[64]<<8)|data[65])<<8)|data[66])<<8)|data[67]
     max_y = (((((data[68]<<8)|data[69])<<8)|data[70])<<8)|data[71]
+    max_x = (max_x >> 3) << 3 # floor
     if max_x > MAX_BITMAP_WIDTH or max_y > MAX_BITMAP_HEIGHT:
         return False
 
@@ -768,7 +794,9 @@ def _bitmap_amiga_decode(filename, x, y):
         for xi in range(max_x):
             p = 0
             for b in range(5):
-                p |= ((data[72+(max_x//8)*(max_y*b+yi)+xi//8]>>(7-(xi%8)))&1)<<b
+                index = 72+(max_x//8)*(max_y*b+yi)+xi//8
+                if index < datalen: # picture 2 of Scapeghost is just one byte too short
+                    p |= ((data[72+(max_x//8)*(max_y*b+yi)+xi//8]>>(7-(xi%8)))&1)<<b
             _bitmap.bitmap[x + xi][y + yi] = p
 
     _bitmap.npalette = 32
@@ -808,6 +836,8 @@ def _bitmap_noext_type(filename):
         if x == 0x0200 and y == 0x00DA:
             return B.MAC_BITMAPS
         if x == 0x0168 and y == 0x00DA:
+            return B.MAC_BITMAPS
+        if x == 0x0167 and y == 0x00B8:
             return B.MAC_BITMAPS
 
         x = data[35] + data[34] * 256
@@ -849,6 +879,7 @@ def _bitmap_mac_decode(filename, x, y):
 
     max_x = data[3]+data[2]*256
     max_y = data[7]+data[6]*256
+    max_x = ((max_x+7) >> 3) << 3 # ceiling
     if max_x > MAX_BITMAP_WIDTH or max_y > MAX_BITMAP_HEIGHT:
         return False
 
@@ -865,7 +896,7 @@ def _bitmap_mac_decode(filename, x, y):
 
     for yi in range(max_y):
         for xi in range(max_x):
-            _bitmap.bitmap[x + xi][y + yi] = (data[10 + (max_x // 8) * yi + xi //8] >> (7 - (xi % 8))) & 1
+            _bitmap.bitmap[x + xi][y + yi] = (data[10 + (max_x // 8) * yi + xi // 8] >> (7 - (xi % 8))) & 1
 
     _bitmap.npalette = 2
     _bitmap.palette[0] = (0, 0, 0)
@@ -1198,12 +1229,12 @@ def _bitmap_bbc_decode(file, type, num):
         for j in range(16):
             # Extract the even col pixel for this pattern row 
             patArray[j][k][0] = (
-                ((patRowData[i] >> 4) & 0x8) + ((patRowData[i] >> 3) & 0x4) +
-                ((patRowData[i] >> 2) & 0x2) + ((patRowData[i] >> 1) & 0x1) )
+                ((patRowDat[i] >> 4) & 0x8) + ((patRowDat[i] >> 3) & 0x4) +
+                ((patRowDat[i] >> 2) & 0x2) + ((patRowDat[i] >> 1) & 0x1) )
             # Extract the odd col pixel for this pattern row 
             patArray[j][k][1] = (
-                ((patRowData[i] >> 3) & 0x8) + ((patRowData[i] >> 2) & 0x4) +
-                ((patRowData[i] >> 1) & 0x2) + ( patRowData[i]       & 0x1) )
+                ((patRowDat[i] >> 3) & 0x8) + ((patRowDat[i] >> 2) & 0x4) +
+                ((patRowDat[i] >> 1) & 0x2) + ( patRowDat[i]       & 0x1) )
             i += 1
 
     # Convert the image. Each BBC pixel is represented by two pixels here 

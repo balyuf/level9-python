@@ -1,4 +1,4 @@
-All game material found here (see also https://github.com/MikeTheTechie/Level9-Public ...) is:
+All game material found in this folder hierarchy (see also https://github.com/MikeTheTechie/Level9-Public ...) is:
 
 Copyright 2025 Level 9 Computing
 Level 9 Computing is a partnership of Michael Austin and Peter Austin. 
@@ -20,3 +20,4 @@ limitations under the License.
 
 This license does not apply to the game designs and any future
 implementations of any of those designs, including but not limited to implementations for other media,
+web, mobile app, TV, Film or Book. All rights in the game designs and such future implementations of those designs are reserved by Level 9 Computing.
