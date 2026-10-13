@@ -125,7 +125,7 @@ def _bitmap_alloc(x, y):
 
 '''
     A PC or ST palette colour is a sixteen bit value in which the low three nybbles
-    hold the rgb colour values. The lowest nybble holds the blue value, the 
+    hold the rgb colour values. The lowest nybble holds the blue value, the
     second nybble the blue value and the third nybble the red value. (The high
     nybble is ignored). Within each nybble, only the low three bits are used
     IE the value can only be 0-7 not the full possible 0-15 and so the MSbit in
@@ -164,19 +164,19 @@ def _bitmap_pcst_colour(big, small):
             masked by a value to select only that bit and added to the final pixel
             value.
 '''
-def _bitmap_st1_decode_pixels(bitmap, data, count, pixels):
-    bitplane_length = count // 4 # length of each bitplane 
-    bitplane0 = data # address of bit0 bitplane 
-    bitplane1 = data + (bitplane_length) # address of bit1 bitplane 
-    bitplane2 = data + (bitplane_length * 2) # address of bit2 bitplane 
-    bitplane3 = data + (bitplane_length * 3) # address of bit3 bitplane 
-    pixel_index = 0 # index variables 
+def _bitmap_st1_decode_pixels(bitmap, x, y, data, count, pixels):
+    bitplane_length = count // 4 # length of each bitplane
+    bitplane0 = data[bitplane_length * 0 : bitplane_length * 1] # slice of bit0 bitplane
+    bitplane1 = data[bitplane_length * 1 : bitplane_length * 2] # slice of bit1 bitplane
+    bitplane2 = data[bitplane_length * 2 : bitplane_length * 3] # slice of bit2 bitplane
+    bitplane3 = data[bitplane_length * 3 : bitplane_length * 4] # slice of bit3 bitplane
+    pixel_index = 0 # index variable
 
     for bitplane_index in range(bitplane_length):
-        # build the eight pixels from the current bitplane bytes, high bit to low 
+        # build the eight pixels from the current bitplane bytes, high bit to low
 
-        # bit7 byte 
-        bitmap[pixel_index] = (((bitplane3[bitplane_index] >> 4) & 0x08)
+        # bit7 byte
+        bitmap[x + pixel_index][y] = (((bitplane3[bitplane_index] >> 4) & 0x08)
             + ((bitplane2[bitplane_index] >> 5) & 0x04)
             + ((bitplane1[bitplane_index] >> 6) & 0x02)
             + ((bitplane0[bitplane_index] >> 7) & 0x01))
@@ -184,8 +184,8 @@ def _bitmap_st1_decode_pixels(bitmap, data, count, pixels):
         if pixels == pixel_index:
             break
 
-        # bit6 byte 
-        bitmap[pixel_index] = (((bitplane3[bitplane_index] >> 3) & 0x08) 
+        # bit6 byte
+        bitmap[x + pixel_index][y] = (((bitplane3[bitplane_index] >> 3) & 0x08)
             + ((bitplane2[bitplane_index] >> 4) & 0x04)
             + ((bitplane1[bitplane_index] >> 5) & 0x02)
             + ((bitplane0[bitplane_index] >> 6) & 0x01))
@@ -193,8 +193,8 @@ def _bitmap_st1_decode_pixels(bitmap, data, count, pixels):
         if pixels == pixel_index:
             break
 
-        # bit5 byte 
-        bitmap[pixel_index] = (((bitplane3[bitplane_index] >> 2) & 0x08) 
+        # bit5 byte
+        bitmap[x + pixel_index][y] = (((bitplane3[bitplane_index] >> 2) & 0x08)
             + ((bitplane2[bitplane_index] >> 3) & 0x04)
             + ((bitplane1[bitplane_index] >> 4) & 0x02)
             + ((bitplane0[bitplane_index] >> 5) & 0x01))
@@ -202,8 +202,8 @@ def _bitmap_st1_decode_pixels(bitmap, data, count, pixels):
         if pixels == pixel_index:
             break
 
-        # bit4 byte 
-        bitmap[pixel_index] = (((bitplane3[bitplane_index] >> 1) & 0x08) 
+        # bit4 byte
+        bitmap[x + pixel_index][y] = (((bitplane3[bitplane_index] >> 1) & 0x08)
             + ((bitplane2[bitplane_index] >> 2) & 0x04)
             + ((bitplane1[bitplane_index] >> 3) & 0x02)
             + ((bitplane0[bitplane_index] >> 4) & 0x01))
@@ -211,8 +211,8 @@ def _bitmap_st1_decode_pixels(bitmap, data, count, pixels):
         if pixels == pixel_index:
             break
 
-        # bit3 byte 
-        bitmap[pixel_index] = (((bitplane3[bitplane_index]) & 0x08) 
+        # bit3 byte
+        bitmap[x + pixel_index][y] = (((bitplane3[bitplane_index]) & 0x08)
             + ((bitplane2[bitplane_index] >> 1) & 0x04)
             + ((bitplane1[bitplane_index] >> 2) & 0x02)
             + ((bitplane0[bitplane_index] >> 3) & 0x01))
@@ -220,8 +220,8 @@ def _bitmap_st1_decode_pixels(bitmap, data, count, pixels):
         if pixels == pixel_index:
             break
 
-        # bit2 byte 
-        bitmap[pixel_index] = (((bitplane3[bitplane_index] << 1) & 0x08) 
+        # bit2 byte
+        bitmap[x + pixel_index][y] = (((bitplane3[bitplane_index] << 1) & 0x08)
             + ((bitplane2[bitplane_index])      & 0x04)
             + ((bitplane1[bitplane_index] >> 1) & 0x02)
             + ((bitplane0[bitplane_index] >> 2) & 0x01))
@@ -229,8 +229,8 @@ def _bitmap_st1_decode_pixels(bitmap, data, count, pixels):
         if pixels == pixel_index:
             break
 
-        # bit1 byte 
-        bitmap[pixel_index] = (((bitplane3[bitplane_index] << 2) & 0x08) 
+        # bit1 byte
+        bitmap[x + pixel_index][y] = (((bitplane3[bitplane_index] << 2) & 0x08)
             + ((bitplane2[bitplane_index] << 1) & 0x04)
             + ((bitplane1[bitplane_index])      & 0x02)
             + ((bitplane0[bitplane_index] >> 1) & 0x01))
@@ -238,8 +238,8 @@ def _bitmap_st1_decode_pixels(bitmap, data, count, pixels):
         if pixels == pixel_index:
             break
 
-        # bit0 byte 
-        bitmap[pixel_index] = (((bitplane3[bitplane_index] << 3) & 0x08) 
+        # bit0 byte
+        bitmap[x + pixel_index][y] = (((bitplane3[bitplane_index] << 3) & 0x08)
             + ((bitplane2[bitplane_index] << 2) & 0x04)
             + ((bitplane1[bitplane_index] << 1) & 0x02)
             + ((bitplane0[bitplane_index]) & 0x01))
@@ -251,7 +251,7 @@ def _bitmap_st1_decode_pixels(bitmap, data, count, pixels):
 
 '''
     The ST image file has the following format. It consists of a 44 byte header
-    followed by the image data. 
+    followed by the image data.
 
     The header has the following format:
     Bytes 0-31:        sixteen entry ST palette
@@ -261,7 +261,7 @@ def _bitmap_st1_decode_pixels(bitmap, data, count, pixels):
     Bytes 36-37:    padding
     Bytes 38-39:    big-endian word holding number of rows in the image*
     Bytes 40-41:    padding**
-    Bytes 42-43:    mask for pixels to show in last 16 pixel block. Again, this 
+    Bytes 42-43:    mask for pixels to show in last 16 pixel block. Again, this
                 is big endian
 
     [*]        these are probably big-endian unsigned longs but I have designated
@@ -269,42 +269,42 @@ def _bitmap_st1_decode_pixels(bitmap, data, count, pixels):
             them as longs and (b) using unsigned shorts reduces byte sex induced
             byte order juggling.
     [**]    not certain what this is for but I suspect that, like bytes 42-43
-            it is a mask to indicate which pixels to show, in this case in the 
-            first 16 pixel block 
+            it is a mask to indicate which pixels to show, in this case in the
+            first 16 pixel block
 
     The image data is essentially a memory dump of the video RAM representing
     the image in lo-res mode. In lo-res mode each row is 320 pixels wide
-    and each pixel can be any one of sixteen colours - needs 4 bits to store. 
+    and each pixel can be any one of sixteen colours - needs 4 bits to store.
 
     In the ST video memory (in lo-res mode which we are dealing with here)
     is organised as follows. The lowest point in memory in the frame buffer
-    represents the top-left of the screen, the highest the bottom-right. 
-    Each row of pixels is stored in sequence. 
+    represents the top-left of the screen, the highest the bottom-right.
+    Each row of pixels is stored in sequence.
 
     Within each pixel row the pixels are stored as follows. Each row is
     divided into groups of 16 pixels. Each sixteen pixel group is stored
-    in 8 bytes, logically four groups of two. Each two byte pair 
+    in 8 bytes, logically four groups of two. Each two byte pair
     is a bit-plane for that sixteen pixel group - that is it stores the
-    same bit of each pixel in that group. The first two bytes store the 
-    lowest bit, the second pair the second bit &c. 
+    same bit of each pixel in that group. The first two bytes store the
+    lowest bit, the second pair the second bit &c.
 
     The word at bytes 34-35 of the header stores the number of bitplanes
     that make up each pixel row in the image. Multplying this number by
-    four gives the number of pixels in the row***. For title and frame 
-    images that will be 320, for sub-images it will be less. 
+    four gives the number of pixels in the row***. For title and frame
+    images that will be 320, for sub-images it will be less.
 
-    [***]    Not always exactly. For GnomeRanger sub-images this value is 60 
-            - implying there are 240 pixels per row. In fact there are only 
-            225 pixels in each row. To identify this situation look at the 
-            big-endian word in bytes 42-43 of the header. This is a mask 
-            telling you the pixels to use. Each bit represents one pixel in 
-            the block, with the MSBit representing the first pixel and the 
+    [***]    Not always exactly. For GnomeRanger sub-images this value is 60
+            - implying there are 240 pixels per row. In fact there are only
+            225 pixels in each row. To identify this situation look at the
+            big-endian word in bytes 42-43 of the header. This is a mask
+            telling you the pixels to use. Each bit represents one pixel in
+            the block, with the MSBit representing the first pixel and the
             LSbit the last.
 
             In this situation, the file does contain the entire sixteen
             pixel block (it has to with the bitplane arrangement) but
             the pixels which are not part of the image are just noise. When
-            decoding the image, the produced has the actual pixel 
+            decoding the image, the produced has the actual pixel
             dimensions - the surplus pixels are discarded.
 
             I suspect, though I have not found an instance, that in theory
@@ -329,12 +329,12 @@ def _bitmap_st1_decode(filename, x, y):
     max_y = data[39]+data[38]*256
     last_block = data[43]+data[42]*256
 
-    # Check if sub-image with rows shorter than max_x 
+    # Check if sub-image with rows shorter than max_x
     if last_block != 0xFFFF:
-        # use last_block to adjust max_x 
+        # use last_block to adjust max_x
         i = 0
-        while (0x0001 & last_block) == 0: # test for ls bit set 
-            last_block >>= 1 # if not, shift right one bit 
+        while (0x0001 & last_block) == 0: # test for ls bit set
+            last_block >>= 1 # if not, shift right one bit
             i += 1
         max_x = max_x - i
 
@@ -358,8 +358,8 @@ def _bitmap_st1_decode(filename, x, y):
                 get_pixels = 16
 
             pixel_count += _bitmap_st1_decode_pixels(
-                _bitmap.bitmap[x + xi * 16][y + yi],
-                data + 44 + yi * bitplanes_row * 2 + xi * 8, 8, get_pixels)
+                _bitmap.bitmap, x + xi * 16, y + yi,
+                memoryview(data)[44 + yi * bitplanes_row * 2 + xi * 8:], 8, get_pixels)
 
     _bitmap.npalette = 16
     for i in range(16):
@@ -368,7 +368,7 @@ def _bitmap_st1_decode(filename, x, y):
     return True
 
 def _bitmap_st2_name(num, dir):
-    # title picture is #30 
+    # title picture is #30
     if num == 0:
         num = 30
     return f'{dir}{num}.squ'
@@ -380,12 +380,12 @@ def _bitmap_st2_name(num, dir):
     games (Knight Orc, Gnome Ranger) and the later V4 games (Lancelot,
     Ingrid's Back, Time & Magik and Scapeghost).
 
-    The ST and the PC both use the same image file format for the later 
+    The ST and the PC both use the same image file format for the later
     V4 games (Lancelot, Ingrid's Back, Time & Magik and Scapeghost.)
 '''
 
 def _bitmap_pc_name(num, dir):
-    # title picture is #30 
+    # title picture is #30
     if num == 0:
         num = 30
     return f'{dir}{num}.pic'
@@ -412,7 +412,7 @@ def _bitmap_pc1_colour(i):
 
 '''
     The PC (v1) image file has the following format. It consists of a 22
-    byte header organised like this: 
+    byte header organised like this:
 
     Byte 0:     probably a file type flag
     Byte 1:     the MSB of the file's length as a word
@@ -422,8 +422,8 @@ def _bitmap_pc1_colour(i):
 
     The image data is extremely simple. The entire block is packed array
     of 4-bit pixels - IE each byte holds two pixels - the first in the high
-    nybble, the second in the low. The pixel value is an index into the 
-    image colour table. The pixels are organised with the top left first and 
+    nybble, the second in the low. The pixel value is an index into the
+    image colour table. The pixels are organised with the top left first and
     bottom left last, each row in turn.
 '''
 def _bitmap_pc1_decode(filename, x, y):
@@ -457,14 +457,14 @@ def _bitmap_pc1_decode(filename, x, y):
 
 '''
     The PC (v2) image file has the following format. It consists of a 44
-    byte header followed by the image data. 
+    byte header followed by the image data.
 
     The header has the following format:
     Bytes 0-1: "datalen":     length of file -1 as a big-endian word*
-    Bytes 2-3: "flagbyte1 & flagbyte2": unknown, possibly type identifiers. 
+    Bytes 2-3: "flagbyte1 & flagbyte2": unknown, possibly type identifiers.
         Usually 0xFF or 0xFE followed by 0x84, 0x72, 0xFF, 0xFE or
         some other (of a fairly small range of possibles) byte.
-    Bytes 4-35: "colour_index[]": sixteen entry palette. Basically an ST 
+    Bytes 4-35: "colour_index[]": sixteen entry palette. Basically an ST
         palette (even if in a PC image file. Each entry is a sixteen
         bit value in which the low three nybbles hold the rgb colour
         values. The lowest nybble holds the blue value, the second
@@ -475,30 +475,30 @@ def _bitmap_pc1_decode(filename, x, y):
     Bytes 36-37: "width": image width in pixels as a big-endian word
     Bytes 38-39: "numrows": image height in pixel rows as a big-endian word
     Byte 40: "seedByte": seed byte to start picture decoding.
-    Byte 41: "padByte": unknown. Possibly padding to word align the next 
+    Byte 41: "padByte": unknown. Possibly padding to word align the next
         element?
-    Bytes 42-297: "pixelTable": an array of 0x100 bytes used as a lookup table 
+    Bytes 42-297: "pixelTable": an array of 0x100 bytes used as a lookup table
         for pixel values
-    Bytes 298-313: "bitStripTable": an array of 0x10 bytes used as a lookup table 
+    Bytes 298-313: "bitStripTable": an array of 0x10 bytes used as a lookup table
         for the number of bytes to strip from the bit stream for the pixel being
         decoded
-    Bytes 314-569:    "indexByteTable": an array of 0x100 bytes used as a lookup 
+    Bytes 314-569:    "indexByteTable": an array of 0x100 bytes used as a lookup
         table to index into bitStripTable and pixelTable****
 
     The encoded image data then follows ending in a 0x00 at the file length stored
-    in the first two bytes of the file. there is then one extra byte holding a 
-    checksum produced by the addition of all the bytes in the file (except the first 
+    in the first two bytes of the file. there is then one extra byte holding a
+    checksum produced by the addition of all the bytes in the file (except the first
     two and itself)*
 
     [*] in some PC games the file is padded out beyond this length to the
-    nearest 0x80/0x00 boundary with the byte 0x1A. The valid data in the 
+    nearest 0x80/0x00 boundary with the byte 0x1A. The valid data in the
     file still finishes where this word says with the checkbyte following it.
     [**] I imagine when a game was running on a PC this standard palette
     was algorithimcally changed to suit the graphics mode being used
-    (Hercules, MDA, CGA, EGA, MCGA, VGA &c.) 
+    (Hercules, MDA, CGA, EGA, MCGA, VGA &c.)
     [***]    Note also, in image 1 of PC Time & Magik I think one palette entry
     is bad as what should be white in the image is actually set to
-    a very pale yellow. This is corrected with the display of the next 
+    a very pale yellow. This is corrected with the display of the next
     sub-picture and I am pretty sure it is note a decoding problem
     here as when run on the PC the same image has the same pale yellow
     cast.
@@ -622,73 +622,73 @@ def _bitmap_pc2_decode(filename, x, y):
     if y+max_y > _bitmap.height:
         max_y = _bitmap.height-y
 
-    # prime the new pixel variable with the seed byte 
+    # prime the new pixel variable with the seed byte
     theNewPixel = data[40]
-    # initialise the index to the image data 
+    # initialise the index to the image data
     theImageDataIndex = 570
-    # prime the bit stream buffer 
+    # prime the bit stream buffer
     theImageFileData = data
     theBitStreamBuffer = theImageFileData[theImageDataIndex]
     theImageDataIndex += 1
     theBitStreamBuffer = theBitStreamBuffer + 0x100 * theImageFileData[theImageDataIndex]
     theImageDataIndex += 1
-    # initialise the bit stream buffer bit counter 
+    # initialise the bit stream buffer bit counter
     theBufferBitCounter = 8
 
     for yi in range(max_y):
         for xi in range(max_x):
             theNewPixelIndexSelector = (theBitStreamBuffer & 0x00FF)
             if theNewPixelIndexSelector != 0xFF:
-                # get index for new pixel and bit strip count 
+                # get index for new pixel and bit strip count
                 theNewPixelIndex = data[314 + theNewPixelIndexSelector]
-                # get the bit strip count 
+                # get the bit strip count
                 theBufferBitStripCount = data[298 + theNewPixelIndex]
-                # strip theBufferBitStripCount bits from theBitStreamBuffer 
+                # strip theBufferBitStripCount bits from theBitStreamBuffer
                 while theBufferBitStripCount > 0:
                     theBitStreamBuffer = theBitStreamBuffer >> 1
                     theBufferBitStripCount -= 1
                     theBufferBitCounter -= 1
                     if theBufferBitCounter == 0:
-                        # need to refill the theBitStreamBuffer high byte 
+                        # need to refill the theBitStreamBuffer high byte
                         theBitStreamBuffer = theBitStreamBuffer + 0x100 * theImageFileData[theImageDataIndex]
                         theImageDataIndex += 1
-                        # re-initialise the bit stream buffer bit counter 
+                        # re-initialise the bit stream buffer bit counter
                         theBufferBitCounter = 8
             else:
-                # strip the 8 bits holding 0xFF from theBitStreamBuffer 
+                # strip the 8 bits holding 0xFF from theBitStreamBuffer
                 theBufferBitStripCount = 8
                 while theBufferBitStripCount > 0:
                     theBitStreamBuffer = theBitStreamBuffer >> 1
                     theBufferBitStripCount -= 1
                     theBufferBitCounter -= 1
                     if theBufferBitCounter == 0:
-                        # need to refill the theBitStreamBuffer high byte 
+                        # need to refill the theBitStreamBuffer high byte
                         theBitStreamBuffer = theBitStreamBuffer + 0x100 * theImageFileData[theImageDataIndex]
                         theImageDataIndex += 1
-                        # re-initialise the bit stream buffer bit counter 
+                        # re-initialise the bit stream buffer bit counter
                         theBufferBitCounter = 8
-                # get the literal pixel index value from the bit stream 
+                # get the literal pixel index value from the bit stream
                 theNewPixelIndex = (0x000F & theBitStreamBuffer)
                 theBufferBitStripCount = 4
-                # strip 4 bits from theBitStreamBuffer 
+                # strip 4 bits from theBitStreamBuffer
                 while theBufferBitStripCount > 0:
                     theBitStreamBuffer = theBitStreamBuffer >> 1
                     theBufferBitStripCount -= 1
                     theBufferBitCounter -= 1
                     if theBufferBitCounter == 0:
-                        # need to refill the theBitStreamBuffer high byte 
+                        # need to refill the theBitStreamBuffer high byte
                         theBitStreamBuffer = theBitStreamBuffer + 0x100 * theImageFileData[theImageDataIndex]
                         theImageDataIndex += 1
-                        # re-initialise the bit stream buffer bit counter 
+                        # re-initialise the bit stream buffer bit counter
                         theBufferBitCounter = 8
 
-            # shift the previous pixel into the high four bits of theNewPixel 
+            # shift the previous pixel into the high four bits of theNewPixel
             theNewPixel = (0xF0 & (theNewPixel << 4))
-            # add the index to the new pixel to theNewPixel 
+            # add the index to the new pixel to theNewPixel
             theNewPixel = theNewPixel + theNewPixelIndex
-            # extract the nex pixel from the table 
+            # extract the nex pixel from the table
             theNewPixel = data[42 + theNewPixel]
-            # store new pixel in the bitmap 
+            # store new pixel in the bitmap
             _bitmap.bitmap[x + xi][y + yi] = theNewPixel
 
     _bitmap.npalette = 16
@@ -746,7 +746,7 @@ def _bitmap_amiga_colour(i1, i2):
 
 '''
     The Amiga image file has the following format. It consists of a 44 byte
-    header followed by the image data. 
+    header followed by the image data.
 
     The header has the following format:
     Bytes 0-63:  thirty-two entry Amiga palette
@@ -760,14 +760,14 @@ def _bitmap_amiga_colour(i1, i2):
     them as longs and (b) using unsigned shorts reduces byte sex induced
     byte order juggling.
 
-    The images are designed for an Amiga low-res mode screen - that is they 
-    assume a 320*256 (or 320 * 200 if NSTC display) screen with a palette of 
+    The images are designed for an Amiga low-res mode screen - that is they
+    assume a 320*256 (or 320 * 200 if NSTC display) screen with a palette of
     32 colours from the possible 4096.
 
-    The image data is organised the same way that Amiga video memory is. The 
-    entire data block is divided into five equal length bit planes with the 
+    The image data is organised the same way that Amiga video memory is. The
+    entire data block is divided into five equal length bit planes with the
     first bit plane holding the low bit of each 5-bit pixel, the second bitplane
-    the second bit of the pixel and so on up to the fifth bit plane holding the 
+    the second bit of the pixel and so on up to the fifth bit plane holding the
     high bit of the f5-bit pixel.
 '''
 def _bitmap_amiga_decode(filename, x, y):
@@ -847,6 +847,10 @@ def _bitmap_noext_type(filename):
             return B.ST1_BITMAPS
         if x == 0x0038 and y == 0x0074:
             return B.ST1_BITMAPS
+        if x == 0x0050 and y == 0x00C8:
+            return B.ST1_BITMAPS
+        if x == 0x003C and y == 0x0076:
+            return B.ST1_BITMAPS
 
     return B.NO_BITMAPS
 
@@ -856,11 +860,11 @@ def _bitmap_noext_type(filename):
 
 '''
     The Mac image file format is very simple. The header is ten bytes
-    with the width of the image in pixels in the first long and the 
-    height (in pixel rows) in the second long - both are big-endian. 
-    (In both cases I treat these as unsigned shorts to minimise byte 
+    with the width of the image in pixels in the first long and the
+    height (in pixel rows) in the second long - both are big-endian.
+    (In both cases I treat these as unsigned shorts to minimise byte
     twiddling when working around byte sex issues). There follow two
-    unidentified bytes - possibly image type identifiers or maybe 
+    unidentified bytes - possibly image type identifiers or maybe
     valid pixel masks for the beginning and end of pixel rows in
     sub-images.
 
@@ -883,7 +887,7 @@ def _bitmap_mac_decode(filename, x, y):
     if max_x > MAX_BITMAP_WIDTH or max_y > MAX_BITMAP_HEIGHT:
         return False
 
-    if x > 0: # Mac bug, apparently 
+    if x > 0: # Mac bug, apparently
         x = 78
 
     if x == 0 and y == 0:
@@ -1004,8 +1008,8 @@ def _bitmap_c64_type(filename):
     with sixteen colours on screen) they got a compressed file format
     allowing more pictures on each disk.
 
-    The file organisation is rather different though. Only picture 
-    one and the title picture are separate files. All the other 
+    The file organisation is rather different though. Only picture
+    one and the title picture are separate files. All the other
     pictures (2-29) are stored in one large file "allpics.pic".
 
     On these platforms the picture 1 file and title picture file have
@@ -1024,7 +1028,7 @@ def _bitmap_c64_decode(filename, type, num):
         return False
 
     if type == B.C64_BITMAPS:
-        if len(data) == 10018: # C64 title picture 
+        if len(data) == 10018: # C64 title picture
             max_x = 320
             max_y = 200
             off = 2
@@ -1032,7 +1036,7 @@ def _bitmap_c64_decode(filename, type, num):
             off_bg = 9003
             off_col = 9018
             col_comp = 0
-        elif len(data) == 6464: # C64 picture 
+        elif len(data) == 6464: # C64 picture
             max_x = 320
             max_y = 136
             off = 2
@@ -1043,7 +1047,7 @@ def _bitmap_c64_decode(filename, type, num):
         else:
             return False
     elif type == B.BBC_BITMAPS:
-        if len(data) == 10058: # BBC title picture 
+        if len(data) == 10058: # BBC title picture
             max_x = 320
             max_y = 200
             off = 10
@@ -1051,7 +1055,7 @@ def _bitmap_c64_decode(filename, type, num):
             off_bg = 9011
             off_col = 9026
             col_comp = 0
-        elif len(data) == 10048: # BBC title picture 
+        elif len(data) == 10048: # BBC title picture
             max_x = 320
             max_y = 200
             off = 0
@@ -1059,7 +1063,7 @@ def _bitmap_c64_decode(filename, type, num):
             off_bg = 9001
             off_col = 9016
             col_comp = 0
-        elif len(data) == 6504: # BBC picture 
+        elif len(data) == 6504: # BBC picture
             max_x = 320
             max_y = 136
             off = 10
@@ -1067,7 +1071,7 @@ def _bitmap_c64_decode(filename, type, num):
             off_col = 6130
             off_bg = 6471
             col_comp = 1
-        elif len(data) == 6494: # BBC picture 
+        elif len(data) == 6494: # BBC picture
             max_x = 320
             max_y = 136
             off = 0
@@ -1078,7 +1082,7 @@ def _bitmap_c64_decode(filename, type, num):
         else:
             return False
     elif type == B.CPC_BITMAPS:
-        if num == 0: # CPC/+3 title picture 
+        if num == 0: # CPC/+3 title picture
             max_x = 320
             max_y = 200
             off = 128
@@ -1086,7 +1090,7 @@ def _bitmap_c64_decode(filename, type, num):
             off_bg = 9128
             off_col = 9144
             col_comp = 0
-        elif num == 1: # First CPC/+3 picture 
+        elif num == 1: # First CPC/+3 picture
             max_x = 320
             max_y = 136
             off = 128
@@ -1094,7 +1098,7 @@ def _bitmap_c64_decode(filename, type, num):
             off_col = 6248
             off_bg = 6588
             col_comp = 1
-        elif num >= 2 and num <= 29: # Subsequent CPC/+3 pictures 
+        elif num >= 2 and num <= 29: # Subsequent CPC/+3 pictures
             max_x = 320
             max_y = 136
             off = ((num-2)*6462)
@@ -1181,22 +1185,22 @@ def _bitmap_c64_decode(filename, type, num):
 
     Each of the four pixel *can* be any of the eight BBC Mode 2
     steady colours. In practice they seem either to be all the
-    same or a simple check of two colours - the pixels in the 
+    same or a simple check of two colours - the pixels in the
     odd row being in the reverse order to those in the even row.
 
     When converting a C64 pixel to a BBC pixel the game uses the
     value of the C64 pixel as an index into the array of sixteen
     BBC pix-patterns. The game looks at the selected pattern and
     chooses the BBC pixel colour thus: if the pixel is in an even
-    numbered row and an even numbered column, it uses Pixel 1 from 
+    numbered row and an even numbered column, it uses Pixel 1 from
     the pattern, if in an even row but an odd column, it uses Pixel 3
     and so on.
 
-    The pix-pattern data is encoded thus: the first sixteen bytes 
+    The pix-pattern data is encoded thus: the first sixteen bytes
     encode the even row pixels for the patterns, one byte per
     pattern, and in the same way the second sixteen bytes encode
-    the odd row pixels for each pattern. For example for the 
-    pattern representing C64 colour 0 the even row pixels are encoded 
+    the odd row pixels for each pattern. For example for the
+    pattern representing C64 colour 0 the even row pixels are encoded
     in the first byte and the odd row pixels in the sixteenth byte.
 
     Within each byte the pixels are encoded in this way:
@@ -1222,22 +1226,22 @@ def _bitmap_bbc_decode(file, type, num):
     if patRowDat == None:
         return False
 
-    # Extract the patterns 
+    # Extract the patterns
     i = 0
     patArray = [[[0, 0] for _ in range(2)] for _ in range(16)]
     for k in range(2):
         for j in range(16):
-            # Extract the even col pixel for this pattern row 
+            # Extract the even col pixel for this pattern row
             patArray[j][k][0] = (
                 ((patRowDat[i] >> 4) & 0x8) + ((patRowDat[i] >> 3) & 0x4) +
                 ((patRowDat[i] >> 2) & 0x2) + ((patRowDat[i] >> 1) & 0x1) )
-            # Extract the odd col pixel for this pattern row 
+            # Extract the odd col pixel for this pattern row
             patArray[j][k][1] = (
                 ((patRowDat[i] >> 3) & 0x8) + ((patRowDat[i] >> 2) & 0x4) +
                 ((patRowDat[i] >> 1) & 0x2) + ( patRowDat[i]       & 0x1) )
             i += 1
 
-    # Convert the image. Each BBC pixel is represented by two pixels here 
+    # Convert the image. Each BBC pixel is represented by two pixels here
     isOddRow = 0
     for j in range(_bitmap.height):
         isOddColumn = 0
@@ -1316,7 +1320,7 @@ def _bitmap_decode(dir, type, num, x, y):
         case B.CPC_BITMAPS:
             filename = _bitmap_cpc_name(num, dir)
             if os.path.isfile(filename):
-                if _bitmap_c64_decode(filename, type, num): # Nearly identical to C64 
+                if _bitmap_c64_decode(filename, type, num): # Nearly identical to C64
                     return True
 
         case B.MAC_BITMAPS:
@@ -1353,7 +1357,7 @@ def _decodeBitmaps(dirs):
     for dir in dirs:
         setupBitmap(dir)
         initBitmap()
-        for pic in range(1, 31):
+        for pic in range(1, 50):
             showBitmap(pic, 0, 0)
         clearBitmap()
 
