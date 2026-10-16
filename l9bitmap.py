@@ -444,10 +444,15 @@ def _bitmap_pc1_decode(filename, x, y):
     if y+max_y > _bitmap.height:
         max_y = _bitmap.height-y
 
+    p = 0
+    index = 0
     for yi in range(max_y):
         for xi in range(max_x):
-            _bitmap.bitmap[x + xi][y + yi] = (data[23 +((yi * max_x) // 2)
-                + (xi // 2)] >> ((1 - (xi & 1)) * 4)) & 0x0f
+            _bitmap.bitmap[x + xi][y + yi] = (data[23 + index]
+                >> ((1 - p) * 4)) & 0x0f
+            p = p ^ 1
+            if (p == 0):
+                index = index + 1
 
     _bitmap.npalette = 16
     for i in range(16):
